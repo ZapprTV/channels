@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Livello_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1423.437 1078"
+	 enable-background="new 0 0 1423.437 1078" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="1078" width="1423.437" x="0" y="-1078"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<g>
+		<rect fill="#4144C5" width="1078" height="1078"/>
+		<path fill="#FFFFFF" d="M320.277,464.5c0,45.756-40.176,52.5-75.888,52.5H234V412h10.389
+			C280.101,412,320.277,418.744,320.277,464.5z M474.285,749L342.039,576.551c59.706-10.602,92.07-60.847,92.07-118.879
+			c0-89.838-63.054-129.671-146.196-129.671H124v421h110V587h0.903l103.229,162H474.285z"/>
+		<path fill="#FFFFFF" d="M692.1,607.817c0,36.626-24.23,64.801-65.928,64.801c-41.698,0-65.927-28.175-65.927-64.801
+			c0-35.5,24.229-65.363,65.927-65.363C667.87,542.454,692.1,572.317,692.1,607.817z M791,463H689v28.177
+			c-22-25.357-56.489-37.747-89.734-37.747c-85.65,0-144.956,71.004-144.956,153.838c0,82.832,60.293,154.405,145.942,154.405
+			c33.809,0,69.309-12.673,87.34-41.673H689v32h102V463z"/>
+		<path fill="#FFFFFF" d="M952,751H850V465h102V751z M900.936,411.899c-31.248,0-56.916-25.668-56.916-56.916
+			c0-31.248,25.668-56.915,56.916-56.915c31.248,0,56.916,25.668,56.916,56.915C957.852,386.231,932.185,411.899,900.936,411.899z"
+			/>
+	</g>
+	<path fill="#4144C5" d="M1381.123,670.651h42.313v87.29h-190.854v-87.29h47.936V407.006h-75.75v-79.893h176.355V670.651z"/>
+</g>
+</svg>

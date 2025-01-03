@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 293.65 120" style="enable-background:new 0 0 293.65 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#045020;}
+	.st1{fill:#081441;}
+	.st2{fill:#FFFFFF;}
+	.st3{clip-path:url(#SVGID_00000017502833421717857480000014190378135528560268_);}
+	.st4{clip-path:url(#SVGID_00000083792367955030945960000018007227067782323884_);}
+</style>
+<g id="logo-2" transform="translate(0)">
+	<rect id="Rettangolo_21" class="st0" width="156.82" height="120"/>
+	<rect id="Rettangolo_22" x="156.82" class="st1" width="136.82" height="120"/>
+	<g id="Raggruppa_19" transform="translate(18.676 27.423)">
+		<path id="Tracciato_1" class="st2" d="M69.03,3.75c-1.23,0.75-2.41,1.59-3.53,2.51V0H0v18.99h22.49v46.22h20.46V18.99l13.64,0.01
+			l-0.46,1.04c-1.57,4.04-2.34,8.35-2.25,12.68c0,6.85,1.5,13.25,4.21,18.03c2.5,4.62,6.28,8.41,10.9,10.91
+			c4.51,2.37,10.86,3.57,18.88,3.57h31.18V31.35H99.56v14.26H88.49c-3.83,0-5.46-0.32-7.13-0.92c-2.43-0.82-4.51-2.44-5.9-4.59
+			c-1.44-2.3-2.18-4.98-2.11-7.7c-0.05-2.37,0.53-4.72,1.68-6.8c0.99-1.94,2.52-3.55,4.4-4.64c2.27-1.26,4.82-1.94,7.41-1.98
+			c0.15,0,31.24,0.02,32.21,0.01v-19H87.9C78.74,0,73.16,1.47,69.03,3.75z"/>
+		<path id="Tracciato_2" class="st2" d="M118.96,19.73L118.96,19.73z"/>
+	</g>
+	<g id="Raggruppa_22" transform="translate(173.105 26.69)">
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="0.85" y="0" width="98.08" height="66.56"/>
+			</defs>
+			<clipPath id="SVGID_00000088122454665642286080000011489171581140082584_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="Raggruppa_20" style="clip-path:url(#SVGID_00000088122454665642286080000011489171581140082584_);">
+				<path id="Tracciato_3" class="st2" d="M22.53,41.58c1.86-3.29,3.82-6.76,4.09-7.21c0.22-0.31,0.35-0.67,0.36-1.05h0.08
+					c0.01,0.38,0.14,0.74,0.36,1.05c0.27,0.46,2.23,3.92,4.09,7.21H22.53z M35.01,47.8h2.89l-9.58-16.48h-2.54L16.37,47.5v-2.31
+					H3.78V31.32H0.85V47.8h18.17c0,0,0.88-1.55,2.04-3.6h11.92C34.13,46.25,35.01,47.8,35.01,47.8"/>
+			</g>
+		</g>
+		<g>
+			<defs>
+				<rect id="SVGID_00000114786928668948868430000005124536793458206625_" x="0.85" y="0" width="98.08" height="66.56"/>
+			</defs>
+			<clipPath id="SVGID_00000013192479111426961440000008857250572666089654_">
+				<use xlink:href="#SVGID_00000114786928668948868430000005124536793458206625_"  style="overflow:visible;"/>
+			</clipPath>
+			<g id="Raggruppa_21" style="clip-path:url(#SVGID_00000013192479111426961440000008857250572666089654_);">
+				<path id="Tracciato_4" class="st2" d="M42.78,56.33l20.73-35.89H22.07V0c0,0,76.85,0.03,76.85,0L60.49,66.56L42.78,56.33z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
