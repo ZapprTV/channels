@@ -1,0 +1,416 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Schema canali Zappr",
+    "type": "object",
+    "properties": {
+        "channels": {
+            "type": "array",
+            "title": "Array dei canali",
+            "description": "L'array contenente tutti i canali.",
+            "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "lcn": {
+                        "type": "number",
+                        "title": "LCN canale",
+                        "description": "La LCN del canale sul digitale terrestre."
+                    },
+                    "logo": {
+                        "type": "string",
+                        "title": "Logo canale",
+                        "description": "Il nome del file del logo del canale. Se è in formato SVG, serve aggiungere '.svg' alla fine; altrimenti, se è in formato PNG/WEBP è necessario non specificare alcuna estensione.",
+                        "pattern": "^(?!.*\\.(png|webp)$).*"
+                    },
+                    "name": {
+                        "type": "string",
+                        "title": "Nome canale",
+                        "description": "Il nome del canale."
+                    },
+                    "subtitle": {
+                        "type": "string",
+                        "title": "Sottotitolo canale",
+                        "description": "Il sottotitolo del canale, che verrà mostrato sotto il canale in grigio e con un font più piccolo."
+                    },
+                    "hd": {
+                        "type": "boolean",
+                        "title": "Contrassegna come canale HD",
+                        "description": "Se è il canale è in alta definizione (e qualità)."
+                    },
+                    "uhd": {
+                        "type": "boolean",
+                        "title": "Contrassegna come canale 4K",
+                        "description": "Se è il canale è in 4K."
+                    },
+                    "radio": {
+                        "type": "boolean",
+                        "title": "Contrassegna come canale radio",
+                        "description": "Se è il canale è una radio (cioè se ha una stream senza video o con un'immagine fissa)."
+                    },
+                    "ondemand": {
+                        "type": "boolean",
+                        "title": "Contrassegna come contenuto on-demand",
+                        "description": "Se è il canale è un video on-demand (e non una diretta)."
+                    },
+                    "type": {
+                        "type": "string",
+                        "title": "Tipo stream",
+                        "description": "Il tipo della stream.",
+                        "anyOf": [{
+                            "const": "hls",
+                            "title": "HLS (.m3u / .m3u8)"
+                        },
+                        {
+                            "const": "dash",
+                            "title": "DASH (.mpd)"
+                        },
+                        {
+                            "const": "flv",
+                            "title": "Flash Video (.flv)"
+                        },
+                        {
+                            "const": "twitch",
+                            "title": "Twitch (username)"
+                        },
+                        {
+                            "const": "youtube",
+                            "title": "YouTube (ID video)"
+                        },
+                        {
+                            "const": "iframe",
+                            "title": "IFrame (URL)"  
+                        },
+                        {
+                            "const": "direct",
+                            "title": "'Diretto' (non HLS, DASH, ecc.)",
+                            "description": "Una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast."
+                        }]
+                    },
+                    "url": {
+                        "type": "string",
+                        "title": "URL stream",
+                        "description": "L'URL della stream."
+                    },
+                    "seek": {
+                        "type": "boolean",
+                        "title": "Mostra/nascondi barra seek del player",
+                        "description": "Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Principalmente per i canali DASH che non permettono il seeking."
+                    },
+                    "hbbtvapp": {
+                        "type": "boolean",
+                        "title": "Contrassegna come app HbbTV",
+                        "description": "Se contrassegnare il canale come app HbbTV."
+                    },
+                    "hbbtvmosaic": {
+                        "type": "boolean",
+                        "title": "Contrassegna come mosaico interattivo HbbTV",
+                        "description": "Se contrassegnare il canale come mosaico interattivo di canali HbbTV."
+                    },
+                    "adult": {
+                        "type": ["string", "boolean"],
+                        "title": "Contrassegna come canale 18+",
+                        "description": "Se è il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.",
+                        "anyOf": [{
+                            "const": true,
+                            "description": "Il canale trasmette solo contenuti vietati ai minori di 18 anni."
+                        },
+                        {
+                            "const": "night",
+                            "description": "Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore)"
+                        }]
+                    },
+                    "disabled": {
+                        "type": "string",
+                        "title": "Disattiva canale",
+                        "description": "Se disattivare o no il canale, e perché.",
+                        "anyOf": [{
+                            "const": "not-working",
+                            "description": "Lo streaming del canale non funziona al momento."
+                        }]
+                    },
+                    "api": {
+                        "type": ["boolean", "string"],
+                        "title": "Usa l'API per il canale",
+                        "description": "Se usare l'API di Zappr (https://github.com/ZapprTV/backend) per il canale.",
+                        "anyOf": [{
+                            "const": true,
+                            "description": "Zappr fetcherà l'API per poi caricare l'URL a cui reindirizza come URL della stream, e mostrerà un modal di errore se qualcosa va storto."
+                        },
+                        {
+                            "const": "direct",
+                            "description": "Zappr imposterà direttamente l'URL dell'API come URL della stream. Quest'opzione è particolarmente utile per le richieste all'API che generano una risposta senza reindirizzamento, per evitare che l'API venga chiamata inutilmente 2 volte."
+                        }]
+                    },
+                    "stretch": {
+                        "type": "boolean",
+                        "title": "Allunga il video del canale a 16:9",
+                        "description": "Allunga il video di un canale per farlo diventare in 16:9. Usato principalmente per i canali prodotti in 16:9 ma trasmessi in streaming in 4:3."
+                    },
+                    "cssfix": {
+                        "type": "string",
+                        "title": "Fix CSS da applicare",
+                        "description": "Alcuni canali IFrame hanno bisogno di un po' di CSS per essere più belli.",
+                        "anyOf": [{
+                            "const": "streamshow-embed",
+                            "title": "Embed StreamShow (embed.streamshow.net)"
+                        },
+                        {
+                            "const": "raiplay-sound",
+                            "title": "RaiPlay Sound"
+                        },
+                        {
+                            "const": "stretch",
+                            "title": "Stretcha canale a 16:9",
+                            "description": "Stretcha il video di un canale all'aspect ratio 16:9."
+                        }]
+                    },
+                    "hbbtv": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "categorySeparator": {
+                                    "type": "string",
+                                    "title": "Separatore di categoria",
+                                    "description": "Questa key crea un separatore di categoria nella lista di canali HbbTV."
+                                },
+                                "sublcn": {
+                                    "type": "number",
+                                    "title": "'SubLCN' canale",
+                                    "description": "La 'subLCN' del canale, cioè la 'numerazione' basata sull'ordine dei canali nell'applicazione HbbTV del canale 'parente'."
+                                },
+                                "logo": {
+                                    "type": "string",
+                                    "title": "Logo canale",
+                                    "description": "Il nome del file del logo del canale. Se è in formato SVG, serve aggiungere '.svg' alla fine; altrimenti, se è in formato PNG/WEBP è necessario non specificare alcuna estensione.",
+                                    "pattern": "^(?!.*\\.(png|webp)$).*"
+                                },
+                                "name": {
+                                    "type": "string",
+                                    "title": "Nome canale",
+                                    "description": "Il nome del canale."
+                                },
+                                "subtitle": {
+                                    "type": "string",
+                                    "title": "Sottotitolo canale",
+                                    "description": "Il sottotitolo del canale, che verrà mostrato sotto il canale in grigio e con un font più piccolo."
+                                },
+                                "hd": {
+                                    "type": "boolean",
+                                    "title": "Contrassegna come canale HD",
+                                    "description": "Se è il canale è in alta definizione (e qualità)."
+                                },
+                                "uhd": {
+                                    "type": "boolean",
+                                    "title": "Contrassegna come canale 4K",
+                                    "description": "Se è il canale è in 4K."
+                                },
+                                "radio": {
+                                    "type": "boolean",
+                                    "title": "Contrassegna come canale radio",
+                                    "description": "Se è il canale è una radio (cioè se ha una stream senza video o con un'immagine fissa)."
+                                },
+                                "ondemand": {
+                                    "type": "boolean",
+                                    "title": "Contrassegna come contenuto on-demand",
+                                    "description": "Se è il canale è un video on-demand (e non una diretta)."
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "title": "Tipo stream",
+                                    "description": "Il tipo della stream.",
+                                    "anyOf": [{
+                                        "const": "hls",
+                                        "title": "HLS (.m3u / .m3u8)"
+                                    },
+                                    {
+                                        "const": "dash",
+                                        "title": "DASH (.mpd)"
+                                    },
+                                    {
+                                        "const": "flv",
+                                        "title": "Flash Video (.flv)"
+                                    },
+                                    {
+                                        "const": "twitch",
+                                        "title": "Twitch (username)"
+                                    },
+                                    {
+                                        "const": "youtube",
+                                        "title": "YouTube (ID video)"
+                                    },
+                                    {
+                                        "const": "iframe",
+                                        "title": "IFrame (URL)"  
+                                    },
+                                    {
+                                        "const": "direct",
+                                        "title": "'Diretto' (non HLS, DASH, ecc.)",
+                                        "description": "Una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast."
+                                    }]
+                                },
+                                "url": {
+                                    "type": "string",
+                                    "title": "URL stream",
+                                    "description": "L'URL della stream."
+                                },
+                                "seek": {
+                                    "type": "boolean",
+                                    "title": "Mostra/nascondi barra seek del player",
+                                    "description": "Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Principalmente per i canali DASH che non permettono il seeking."
+                                },
+                                "hbbtvapp": {
+                                    "type": "boolean",
+                                    "title": "Contrassegna come app HbbTV",
+                                    "description": "Se contrassegnare il canale come app HbbTV."
+                                },
+                                "hbbtvmosaic": {
+                                    "type": "boolean",
+                                    "title": "Contrassegna come mosaico interattivo HbbTV",
+                                    "description": "Se contrassegnare il canale come mosaico interattivo di canali HbbTV."
+                                },
+                               "adult": {
+                                    "type": ["string", "boolean"],
+                                    "title": "Contrassegna come canale 18+",
+                                    "description": "Se è il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.",
+                                    "anyOf": [{
+                                        "const": true,
+                                        "description": "Il canale trasmette solo contenuti vietati ai minori di 18 anni."
+                                    },
+                                    {
+                                        "const": "night",
+                                        "description": "Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore)"
+                                    }]
+                                },
+                                "disabled": {
+                                    "type": "string",
+                                    "title": "Disattiva canale",
+                                    "description": "Se disattivare o no il canale, e perché.",
+                                    "anyOf": [{
+                                        "const": "not-working",
+                                        "title": "Lo streaming del canale non funziona al momento."
+                                    }]
+                                },
+                                "api": {
+                                    "type": ["boolean", "string"],
+                                    "title": "Usa l'API per il canale",
+                                    "description": "Se usare l'API di Zappr (https://github.com/ZapprTV/backend) per il canale.",
+                                    "anyOf": [{
+                                        "const": true,
+                                        "description": "Zappr fetcherà l'API per poi caricare l'URL a cui reindirizza come URL della stream, e mostrerà un modal di errore se qualcosa va storto."
+                                    },
+                                    {
+                                        "const": "direct",
+                                        "description": "Zappr imposterà direttamente l'URL dell'API come URL della stream. Quest'opzione è particolarmente utile per le richieste all'API che generano una risposta senza reindirizzamento, per evitare che l'API venga chiamata inutilmente 2 volte."
+                                    }]
+                                },
+                                "stretch": {
+                                    "type": "boolean",
+                                    "title": "Allunga il video del canale a 16:9",
+                                    "description": "Allunga il video di un canale per farlo diventare in 16:9. Usato principalmente per i canali prodotti in 16:9 ma trasmessi in streaming in 4:3."
+                                },
+                                "cssfix": {
+                                    "type": "string",
+                                    "title": "Fix CSS da applicare",
+                                    "description": "Alcuni canali IFrame hanno bisogno di un po' di CSS per essere più belli.",
+                                    "anyOf": [{
+                                        "const": "streamshow-embed",
+                                        "title": "Embed StreamShow (embed.streamshow.net)"
+                                    },
+                                    {
+                                        "const": "raiplay-sound",
+                                        "title": "RaiPlay Sound"
+                                    },
+                                    {
+                                        "const": "stretch",
+                                        "title": "Stretcha canale a 16:9",
+                                        "description": "Stretcha il video di un canale all'aspect ratio 16:9."
+                                    }]
+                                }
+                            },
+                            "allOf": [
+                                {
+                                    "if": {
+                                        "properties": {
+                                            "hbbtvapp": { "const": true }
+                                        },
+                                        "required": ["hbbtvapp"]
+                                    },
+                                    "then": {
+                                        "properties": {
+                                            "type": { "const": "iframe" }
+                                        },
+                                        "required": ["type"]
+                                    }
+                                },
+                                {
+                                    "if": {
+                                        "required": ["categorySeparator"]
+                                    },
+                                    "then": {},
+                                    "else": {
+                                        "if": {
+                                            "required": ["disabled"]
+                                        },
+                                        "then": {
+                                            "required": ["sublcn", "logo", "name"]
+                                        },
+                                        "else": {
+                                            "required": ["sublcn", "logo", "name", "type", "url"]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "lcn",
+                    "logo",
+                    "name"
+                ],
+                "allOf": [
+                    {
+                        "if": {
+                            "properties": {
+                                "hbbtvapp": { "const": true }
+                            },
+                            "required": ["hbbtvapp"]
+                        },
+                        "then": {
+                            "properties": {
+                                "type": { "const": "iframe" }
+                            },
+                            "required": ["type"]
+                        }
+                    },
+                    {
+                        "if": {
+                            "anyOf": [
+                                {
+                                    "properties": {
+                                        "hbbtvmosaic": { "const": true }
+                                    },
+                                    "required": ["hbbtvmosaic"]
+                                },
+                                {
+                                    "required": ["disabled"]
+                                }
+                            ]
+                        },
+                        "then": {
+                            "required": ["lcn", "logo", "name"]
+                        },
+                        "else": {
+                            "required": ["lcn", "logo", "name", "type", "url"]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "required": [
+        "channels"
+    ]
+}
