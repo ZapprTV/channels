@@ -228,154 +228,13 @@
       <th>Description</th>
       <td colspan="2">Il tipo della stream.</td>
     </tr>
-    <tr><tr><td rowspan="7">Type</td><td rowspan="7">Any of:</td><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr></tr>
-    
-  </tbody>
-</table>
-
-
-
-### channels.type.0
-
-
-<table class="jssd-property-table">
-  <tbody>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
-      <th>Title</th>
-      <td colspan="2">HLS (.m3u / .m3u8)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">hls</td>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>flv</dt><dd>Flash Video (.flv)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; o &lt;audio&gt; senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.</dd></dl></td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-### channels.type.1
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">DASH (.mpd)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">dash</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.type.2
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">Flash Video (.flv)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">flv</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.type.3
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">Twitch (username)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">twitch</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.type.4
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">YouTube (ID video)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">youtube</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.type.5
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">IFrame (URL)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">iframe</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.type.6
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">&#x27;Diretto&#x27; (non HLS, DASH, ecc.)</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; o &lt;audio&gt; senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">direct</td>
-    </tr>
-  </tbody>
-</table>
-
 
 
 
@@ -477,50 +336,13 @@
       <th>Description</th>
       <td colspan="2">Se è il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.</td>
     </tr>
-    <tr><tr><td rowspan="2">Type</td><td rowspan="2">Any of:</td><td>[string, boolean]</td></tr><tr><td>[string, boolean]</td></tr></tr>
-    
-  </tbody>
-</table>
-
-
-
-### channels.adult.0
-
-
-<table class="jssd-property-table">
-  <tbody>
+    <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
     <tr>
-      <th>Description</th>
-      <td colspan="2">Il canale trasmette solo contenuti vietati ai minori di 18 anni.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">true</td>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>true</dt><dd>Il canale trasmette solo contenuti vietati ai minori di 18 anni.</dd><dt>night</dt><dd>Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore).</dd></dl></td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-### channels.adult.1
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">night</td>
-    </tr>
-  </tbody>
-</table>
-
 
 
 
@@ -538,30 +360,13 @@
       <th>Description</th>
       <td colspan="2">Se disattivare o no il canale, e perché.</td>
     </tr>
-    <tr><tr><td rowspan="1">Type</td><td rowspan="1">Any of:</td><td>String</td></tr></tr>
-    
-  </tbody>
-</table>
-
-
-
-### channels.disabled.0
-
-
-<table class="jssd-property-table">
-  <tbody>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
-      <th>Description</th>
-      <td colspan="2">Lo streaming del canale non funziona al momento.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">not-working</td>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>not-working</dt><dd>Lo streaming del canale non funziona al momento.</dd></dl></td>
     </tr>
   </tbody>
 </table>
-
 
 
 
@@ -579,50 +384,13 @@
       <th>Description</th>
       <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
     </tr>
-    <tr><tr><td rowspan="2">Type</td><td rowspan="2">Any of:</td><td>String</td></tr><tr><td>String</td></tr></tr>
-    
-  </tbody>
-</table>
-
-
-
-### channels.api.0
-
-
-<table class="jssd-property-table">
-  <tbody>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
-      <th>Description</th>
-      <td colspan="2">Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">vercel</td>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e canali YouTube.</dd></dl></td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-### channels.api.1
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e YouTube.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">cloudflare</td>
-    </tr>
-  </tbody>
-</table>
-
 
 
 
@@ -661,98 +429,13 @@
       <th>Description</th>
       <td colspan="2">Alcuni canali IFrame hanno bisogno di un po&#x27; di CSS per essere più belli.</td>
     </tr>
-    <tr><tr><td rowspan="4">Type</td><td rowspan="4">Any of:</td><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr></tr>
-    
-  </tbody>
-</table>
-
-
-
-### channels.cssfix.0
-
-
-<table class="jssd-property-table">
-  <tbody>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
-      <th>Title</th>
-      <td colspan="2">Embed StreamShow (embed.streamshow.net)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">streamshow-embed</td>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video con una height schiacciata di un canale all&#x27;aspect ratio 16:9.</dd></dl></td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-### channels.cssfix.1
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">RaiPlay Sound</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">raiplay-sound</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.cssfix.2
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">Stretcha canale a 16:9</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Stretcha il video di un canale all&#x27;aspect ratio 16:9.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">stretch</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.cssfix.3
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">Stretcha altezza video</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Stretcha il video con una height schiacciata di un canale all&#x27;aspect ratio 16:9.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">squashed-height</td>
-    </tr>
-  </tbody>
-</table>
-
 
 
 
@@ -974,154 +657,13 @@
       <th>Description</th>
       <td colspan="2">Il tipo della stream.</td>
     </tr>
-    <tr><tr><td rowspan="7">Type</td><td rowspan="7">Any of:</td><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr></tr>
-    
-  </tbody>
-</table>
-
-
-
-### channels.hbbtv.type.0
-
-
-<table class="jssd-property-table">
-  <tbody>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
-      <th>Title</th>
-      <td colspan="2">HLS (.m3u / .m3u8)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">hls</td>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>flv</dt><dd>Flash Video (.flv)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; o &lt;audio&gt; senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.</dd></dl></td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-### channels.hbbtv.type.1
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">DASH (.mpd)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">dash</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.hbbtv.type.2
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">Flash Video (.flv)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">flv</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.hbbtv.type.3
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">Twitch (username)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">twitch</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.hbbtv.type.4
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">YouTube (ID video)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">youtube</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.hbbtv.type.5
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">IFrame (URL)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">iframe</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.hbbtv.type.6
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">&#x27;Diretto&#x27; (non HLS, DASH, ecc.)</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; o &lt;audio&gt; senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">direct</td>
-    </tr>
-  </tbody>
-</table>
-
 
 
 
@@ -1223,50 +765,13 @@
       <th>Description</th>
       <td colspan="2">Se è il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.</td>
     </tr>
-    <tr><tr><td rowspan="2">Type</td><td rowspan="2">Any of:</td><td>[string, boolean]</td></tr><tr><td>[string, boolean]</td></tr></tr>
-    
-  </tbody>
-</table>
-
-
-
-### channels.hbbtv.adult.0
-
-
-<table class="jssd-property-table">
-  <tbody>
+    <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
     <tr>
-      <th>Description</th>
-      <td colspan="2">Il canale trasmette solo contenuti vietati ai minori di 18 anni.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">true</td>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>true</dt><dd>Il canale trasmette solo contenuti vietati ai minori di 18 anni.</dd><dt>night</dt><dd>Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore).</dd></dl></td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-### channels.hbbtv.adult.1
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">night</td>
-    </tr>
-  </tbody>
-</table>
-
 
 
 
@@ -1284,30 +789,13 @@
       <th>Description</th>
       <td colspan="2">Se disattivare o no il canale, e perché.</td>
     </tr>
-    <tr><tr><td rowspan="1">Type</td><td rowspan="1">Any of:</td><td>String</td></tr></tr>
-    
-  </tbody>
-</table>
-
-
-
-### channels.hbbtv.disabled.0
-
-
-<table class="jssd-property-table">
-  <tbody>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
-      <th>Title</th>
-      <td colspan="2">Lo streaming del canale non funziona al momento.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">not-working</td>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>not-working</dt><dd>Lo streaming del canale non funziona al momento.</dd></dl></td>
     </tr>
   </tbody>
 </table>
-
 
 
 
@@ -1325,50 +813,13 @@
       <th>Description</th>
       <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
     </tr>
-    <tr><tr><td rowspan="2">Type</td><td rowspan="2">Any of:</td><td>String</td></tr><tr><td>String</td></tr></tr>
-    
-  </tbody>
-</table>
-
-
-
-### channels.hbbtv.api.0
-
-
-<table class="jssd-property-table">
-  <tbody>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
-      <th>Description</th>
-      <td colspan="2">Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">vercel</td>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e canali YouTube.</dd></dl></td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-### channels.hbbtv.api.1
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e YouTube.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">cloudflare</td>
-    </tr>
-  </tbody>
-</table>
-
 
 
 
@@ -1407,98 +858,13 @@
       <th>Description</th>
       <td colspan="2">Alcuni canali IFrame hanno bisogno di un po&#x27; di CSS per essere più belli.</td>
     </tr>
-    <tr><tr><td rowspan="4">Type</td><td rowspan="4">Any of:</td><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr><tr><td>String</td></tr></tr>
-    
-  </tbody>
-</table>
-
-
-
-### channels.hbbtv.cssfix.0
-
-
-<table class="jssd-property-table">
-  <tbody>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
-      <th>Title</th>
-      <td colspan="2">Embed StreamShow (embed.streamshow.net)</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">streamshow-embed</td>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video con una height schiacciata di un canale all&#x27;aspect ratio 16:9.</dd></dl></td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-### channels.hbbtv.cssfix.1
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">RaiPlay Sound</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">raiplay-sound</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.hbbtv.cssfix.2
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">Stretcha canale a 16:9</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Stretcha il video di un canale all&#x27;aspect ratio 16:9.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">stretch</td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.hbbtv.cssfix.3
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">Stretcha altezza video</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Stretcha il video con una height schiacciata di un canale all&#x27;aspect ratio 16:9.</td>
-    </tr>
-    
-    <tr>
-      <th>Const</th>
-      <td colspan="2">squashed-height</td>
-    </tr>
-  </tbody>
-</table>
-
 
 
 
@@ -1572,37 +938,24 @@
                         "type": "string",
                         "title": "Tipo stream",
                         "description": "Il tipo della stream.",
-                        "anyOf": [
-                            {
-                                "const": "hls",
-                                "title": "HLS (.m3u / .m3u8)"
-                            },
-                            {
-                                "const": "dash",
-                                "title": "DASH (.mpd)"
-                            },
-                            {
-                                "const": "flv",
-                                "title": "Flash Video (.flv)"
-                            },
-                            {
-                                "const": "twitch",
-                                "title": "Twitch (username)"
-                            },
-                            {
-                                "const": "youtube",
-                                "title": "YouTube (ID video)"
-                            },
-                            {
-                                "const": "iframe",
-                                "title": "IFrame (URL)"
-                            },
-                            {
-                                "const": "direct",
-                                "title": "'Diretto' (non HLS, DASH, ecc.)",
-                                "description": "Una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast."
-                            }
-                        ]
+                        "enum": [
+                            "hls",
+                            "dash",
+                            "flv",
+                            "twitch",
+                            "youtube",
+                            "iframe",
+                            "direct"
+                        ],
+                        "meta:enum": {
+                            "hls": "HLS (.m3u / .m3u8)",
+                            "dash": "DASH (.mpd)",
+                            "flv": "Flash Video (.flv)",
+                            "twitch": "Twitch (username)",
+                            "youtube": "YouTube (ID video)",
+                            "iframe": "IFrame (URL)",
+                            "direct": "'Diretto' (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast."
+                        }
                     },
                     "url": {
                         "type": "string",
@@ -1631,42 +984,39 @@
                         ],
                         "title": "Contrassegna come canale 18+",
                         "description": "Se è il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.",
-                        "anyOf": [
-                            {
-                                "const": true,
-                                "description": "Il canale trasmette solo contenuti vietati ai minori di 18 anni."
-                            },
-                            {
-                                "const": "night",
-                                "description": "Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore)"
-                            }
-                        ]
+                        "enum": [
+                            true,
+                            "night",
+                            false
+                        ],
+                        "meta:enum": {
+                            "true": "Il canale trasmette solo contenuti vietati ai minori di 18 anni.",
+                            "night": "Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore)."
+                        }
                     },
                     "disabled": {
                         "type": "string",
                         "title": "Disattiva canale",
                         "description": "Se disattivare o no il canale, e perché.",
-                        "anyOf": [
-                            {
-                                "const": "not-working",
-                                "description": "Lo streaming del canale non funziona al momento."
-                            }
-                        ]
+                        "enum": [
+                            "not-working"
+                        ],
+                        "meta:enum": {
+                            "not-working": "Lo streaming del canale non funziona al momento."
+                        }
                     },
                     "api": {
                         "type": "string",
                         "title": "Usa l'API per il canale",
                         "description": "Se usare una delle API di Zappr per il canale.",
-                        "anyOf": [
-                            {
-                                "const": "vercel",
-                                "description": "Usa l'API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud."
-                            },
-                            {
-                                "const": "cloudflare",
-                                "description": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e YouTube."
-                            }
-                        ]
+                        "enum": [
+                            "vercel",
+                            "cloudflare"
+                        ],
+                        "meta:enum": {
+                            "vercel": "Usa l'API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.",
+                            "cloudflare": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e canali YouTube."
+                        }
                     },
                     "stretch": {
                         "type": "boolean",
@@ -1677,26 +1027,18 @@
                         "type": "string",
                         "title": "Fix CSS da applicare",
                         "description": "Alcuni canali IFrame hanno bisogno di un po' di CSS per essere più belli.",
-                        "anyOf": [
-                            {
-                                "const": "streamshow-embed",
-                                "title": "Embed StreamShow (embed.streamshow.net)"
-                            },
-                            {
-                                "const": "raiplay-sound",
-                                "title": "RaiPlay Sound"
-                            },
-                            {
-                                "const": "stretch",
-                                "title": "Stretcha canale a 16:9",
-                                "description": "Stretcha il video di un canale all'aspect ratio 16:9."
-                            },
-                            {
-                                "const": "squashed-height",
-                                "title": "Stretcha altezza video",
-                                "description": "Stretcha il video con una height schiacciata di un canale all'aspect ratio 16:9."
-                            }
-                        ]
+                        "enum": [
+                            "streamshow-embed",
+                            "raiplay-sound",
+                            "stretch",
+                            "squashed-height"
+                        ],
+                        "meta:enum": {
+                            "streamshow-embed": "Embed StreamShow (embed.streamshow.net)",
+                            "raiplay-sound": "RaiPlay Sound",
+                            "stretch": "Stretcha il video di un canale all'aspect ratio 16:9.",
+                            "squashed-height": "Stretcha il video con una height schiacciata di un canale all'aspect ratio 16:9."
+                        }
                     },
                     "hbbtv": {
                         "type": "array",
@@ -1754,37 +1096,24 @@
                                     "type": "string",
                                     "title": "Tipo stream",
                                     "description": "Il tipo della stream.",
-                                    "anyOf": [
-                                        {
-                                            "const": "hls",
-                                            "title": "HLS (.m3u / .m3u8)"
-                                        },
-                                        {
-                                            "const": "dash",
-                                            "title": "DASH (.mpd)"
-                                        },
-                                        {
-                                            "const": "flv",
-                                            "title": "Flash Video (.flv)"
-                                        },
-                                        {
-                                            "const": "twitch",
-                                            "title": "Twitch (username)"
-                                        },
-                                        {
-                                            "const": "youtube",
-                                            "title": "YouTube (ID video)"
-                                        },
-                                        {
-                                            "const": "iframe",
-                                            "title": "IFrame (URL)"
-                                        },
-                                        {
-                                            "const": "direct",
-                                            "title": "'Diretto' (non HLS, DASH, ecc.)",
-                                            "description": "Una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast."
-                                        }
-                                    ]
+                                    "enum": [
+                                        "hls",
+                                        "dash",
+                                        "flv",
+                                        "twitch",
+                                        "youtube",
+                                        "iframe",
+                                        "direct"
+                                    ],
+                                    "meta:enum": {
+                                        "hls": "HLS (.m3u / .m3u8)",
+                                        "dash": "DASH (.mpd)",
+                                        "flv": "Flash Video (.flv)",
+                                        "twitch": "Twitch (username)",
+                                        "youtube": "YouTube (ID video)",
+                                        "iframe": "IFrame (URL)",
+                                        "direct": "'Diretto' (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast."
+                                    }
                                 },
                                 "url": {
                                     "type": "string",
@@ -1813,42 +1142,39 @@
                                     ],
                                     "title": "Contrassegna come canale 18+",
                                     "description": "Se è il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.",
-                                    "anyOf": [
-                                        {
-                                            "const": true,
-                                            "description": "Il canale trasmette solo contenuti vietati ai minori di 18 anni."
-                                        },
-                                        {
-                                            "const": "night",
-                                            "description": "Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore)"
-                                        }
-                                    ]
+                                    "enum": [
+                                        true,
+                                        "night",
+                                        false
+                                    ],
+                                    "meta:enum": {
+                                        "true": "Il canale trasmette solo contenuti vietati ai minori di 18 anni.",
+                                        "night": "Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore)."
+                                    }
                                 },
                                 "disabled": {
                                     "type": "string",
                                     "title": "Disattiva canale",
                                     "description": "Se disattivare o no il canale, e perché.",
-                                    "anyOf": [
-                                        {
-                                            "const": "not-working",
-                                            "title": "Lo streaming del canale non funziona al momento."
-                                        }
-                                    ]
+                                    "enum": [
+                                        "not-working"
+                                    ],
+                                    "meta:enum": {
+                                        "not-working": "Lo streaming del canale non funziona al momento."
+                                    }
                                 },
                                 "api": {
                                     "type": "string",
                                     "title": "Usa l'API per il canale",
                                     "description": "Se usare una delle API di Zappr per il canale.",
-                                    "anyOf": [
-                                        {
-                                            "const": "vercel",
-                                            "description": "Usa l'API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud."
-                                        },
-                                        {
-                                            "const": "cloudflare",
-                                            "description": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e YouTube."
-                                        }
-                                    ]
+                                    "enum": [
+                                        "vercel",
+                                        "cloudflare"
+                                    ],
+                                    "meta:enum": {
+                                        "vercel": "Usa l'API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.",
+                                        "cloudflare": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e canali YouTube."
+                                    }
                                 },
                                 "stretch": {
                                     "type": "boolean",
@@ -1859,26 +1185,18 @@
                                     "type": "string",
                                     "title": "Fix CSS da applicare",
                                     "description": "Alcuni canali IFrame hanno bisogno di un po' di CSS per essere più belli.",
-                                    "anyOf": [
-                                        {
-                                            "const": "streamshow-embed",
-                                            "title": "Embed StreamShow (embed.streamshow.net)"
-                                        },
-                                        {
-                                            "const": "raiplay-sound",
-                                            "title": "RaiPlay Sound"
-                                        },
-                                        {
-                                            "const": "stretch",
-                                            "title": "Stretcha canale a 16:9",
-                                            "description": "Stretcha il video di un canale all'aspect ratio 16:9."
-                                        },
-                                        {
-                                            "const": "squashed-height",
-                                            "title": "Stretcha altezza video",
-                                            "description": "Stretcha il video con una height schiacciata di un canale all'aspect ratio 16:9."
-                                        }
-                                    ]
+                                    "enum": [
+                                        "streamshow-embed",
+                                        "raiplay-sound",
+                                        "stretch",
+                                        "squashed-height"
+                                    ],
+                                    "meta:enum": {
+                                        "streamshow-embed": "Embed StreamShow (embed.streamshow.net)",
+                                        "raiplay-sound": "RaiPlay Sound",
+                                        "stretch": "Stretcha il video di un canale all'aspect ratio 16:9.",
+                                        "squashed-height": "Stretcha il video con una height schiacciata di un canale all'aspect ratio 16:9."
+                                    }
                                 }
                             },
                             "allOf": [
