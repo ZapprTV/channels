@@ -33,7 +33,7 @@ jobs:
           mkdir schema
           mkdir docs
           mv schema.json ./schema
-          node generate-schema.js
+          node generate-schema-docs.js
           mv docs/schema.md .
 
       - name: Commit
