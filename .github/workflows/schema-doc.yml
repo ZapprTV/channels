@@ -29,8 +29,12 @@ jobs:
         shell: bash
         working-directory: ./
         run: |
+          mkdir schema
+          mkdir docs
+          mv schema.json ./schema
           npm i json-schema-static-docs
-          npx json-schema-static-docs -i . -o .
+          npx json-schema-static-docs -i schema -o docs
+          mv docs/schema.md .
 
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v5
