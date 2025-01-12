@@ -15,8 +15,9 @@
             "name": "Top Calcio 24",
             "subtitle": "In alcuni orari Telelombardia",
             "hd": true,
-            "type": "youtube",
-            "url": "khJAWSXOJ9c"
+            "type": "hls",
+            "url": "https://telelombardia.video/video/viewlivestreaming?rel=3&cntr=0",
+            "api": "vercel"
         },
         {
             "lcn": 13,
@@ -257,8 +258,9 @@
             "lcn": 191,
             "logo": "milanow",
             "name": "Milanow",
-            "type": "youtube",
-            "url": "9CE1Gb-TMR0"
+            "type": "iframe",
+            "url": "https://www.youtube.com/channel/UC3yM6JHZSBlU8crXIDHK-kQ?Milanow",
+            "api": "cloudflare"
         },
         {
             "lcn": 277,

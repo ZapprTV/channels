@@ -129,16 +129,16 @@
                         }]
                     },
                     "api": {
-                        "type": ["boolean", "string"],
+                        "type": "string",
                         "title": "Usa l'API per il canale",
-                        "description": "Se usare l'API di Zappr (https://github.com/ZapprTV/backend) per il canale.",
+                        "description": "Se usare una delle API di Zappr per il canale.",
                         "anyOf": [{
-                            "const": true,
-                            "description": "Zappr fetcherà l'API per poi caricare l'URL a cui reindirizza come URL della stream, e mostrerà un modal di errore se qualcosa va storto."
+                            "const": "vercel",
+                            "description": "Usa l'API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud."
                         },
                         {
-                            "const": "direct",
-                            "description": "Zappr imposterà direttamente l'URL dell'API come URL della stream. Quest'opzione è particolarmente utile per le richieste all'API che generano una risposta senza reindirizzamento, per evitare che l'API venga chiamata inutilmente 2 volte."
+                            "const": "cloudflare",
+                            "description": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e YouTube."
                         }]
                     },
                     "stretch": {
@@ -293,16 +293,16 @@
                                     }]
                                 },
                                 "api": {
-                                    "type": ["boolean", "string"],
+                                    "type": "string",
                                     "title": "Usa l'API per il canale",
-                                    "description": "Se usare l'API di Zappr (https://github.com/ZapprTV/backend) per il canale.",
+                                    "description": "Se usare una delle API di Zappr per il canale.",
                                     "anyOf": [{
-                                        "const": true,
-                                        "description": "Zappr fetcherà l'API per poi caricare l'URL a cui reindirizza come URL della stream, e mostrerà un modal di errore se qualcosa va storto."
+                                        "const": "vercel",
+                                        "description": "Usa l'API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud."
                                     },
                                     {
-                                        "const": "direct",
-                                        "description": "Zappr imposterà direttamente l'URL dell'API come URL della stream. Quest'opzione è particolarmente utile per le richieste all'API che generano una risposta senza reindirizzamento, per evitare che l'API venga chiamata inutilmente 2 volte."
+                                        "const": "cloudflare",
+                                        "description": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e YouTube."
                                     }]
                                 },
                                 "stretch": {

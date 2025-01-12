@@ -300,7 +300,7 @@
             "name": "Rai News 24",
             "hd": true,
             "type": "hls",
-            "api": true,
+            "api": "vercel",
             "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1"
         },
         {
@@ -405,7 +405,7 @@
             "name": "Rai Sport",
             "hd": true,
             "type": "hls",
-            "api": true,
+            "api": "vercel",
             "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025"
         },
         {
@@ -1064,8 +1064,8 @@
             },
             {
                 "sublcn": 4,
-                "logo": "zortea",
-                "name": "Zortea",
+                "logo": "momentotv",
+                "name": "Momento TV",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video0s977812-2246/stream/playlist.m3u8"
             },
@@ -1176,7 +1176,7 @@
                 "name": "Radio Roma News",
                 "type": "hls",
                 "url": "https://www.dailymotion.com/video/x96kf9k",
-                "api": "direct"
+                "api": "cloudflare"
             },
             {
                 "sublcn": 2,
@@ -1267,11 +1267,19 @@
             "name": "Babel",
             "hbbtvmosaic": true,
             "hbbtv": [{
+                "sublcn": 1,
+                "logo": "digi24.svg",
+                "name": "Digi24",
+                "subtitle": "(Zapping SAT)",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video15s975955-2171/stream/playlist.m3u8"
+            },
+            {
                 "sublcn": 2,
-                "logo": "topnewsalbania",
-                "name": "Top News Albania",
-                "type": "twitch",
-                "url": "TopMedia_TopNews"
+                "logo": "romittv",
+                "name": "Romit TV",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video21s975955-2185/stream/playlist.m3u8"
             },
             {
                 "sublcn": 3,
@@ -1283,25 +1291,17 @@
             },
             {
                 "sublcn": 4,
-                "logo": "cgtn.svg",
-                "name": "CGTN",
-                "hd": true,
-                "type": "hls",
-                "url": "https://english-livebkali.cgtn.com/live/encgtn.m3u8"
+                "logo": "topnewsalbania",
+                "name": "Top News Albania",
+                "type": "twitch",
+                "url": "TopMedia_TopNews"
             },
             {
                 "sublcn": 5,
-                "logo": "mediasertv",
-                "name": "Mediaser TV",
+                "logo": "fighterslife244",
+                "name": "Fighters Life TV",
                 "type": "hls",
-                "url": "https://stream10.xdevel.com/video20s975955-2184/stream/playlist.m3u8"
-            },
-            {
-                "sublcn": 6,
-                "logo": "romittv",
-                "name": "Romit TV",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video21s975955-2185/stream/playlist.m3u8"
+                "url": "https://stream4.xdevel.com/video6s975955-1777/stream/playlist.m3u8"
             },
             {
                 "sublcn": 7,
@@ -1327,10 +1327,10 @@
             },
             {
                 "sublcn": 10,
-                "logo": "fighterslife244",
-                "name": "Fighters Life TV",
+                "logo": "mediasertv",
+                "name": "Mediaser TV",
                 "type": "hls",
-                "url": "https://stream4.xdevel.com/video6s975955-1777/stream/playlist.m3u8"
+                "url": "https://stream10.xdevel.com/video20s975955-2184/stream/playlist.m3u8"
             },
             {
                 "sublcn": 11,
@@ -1372,7 +1372,7 @@
         },
         {
             "lcn": 251,
-            "logo": "hbbtv.svg",
+            "logo": "momentotv",
             "name": "Momento TV",
             "hbbtvmosaic": true,
             "hbbtv": [{
@@ -1384,8 +1384,8 @@
             },
             {
                 "sublcn": 2,
-                "logo": "zortea",
-                "name": "Zortea",
+                "logo": "momentotv",
+                "name": "Momento TV",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video0s977812-2246/stream/playlist.m3u8"
             },
@@ -1545,8 +1545,8 @@
             },
             {
                 "sublcn": 4,
-                "logo": "zortea",
-                "name": "Zortea",
+                "logo": "momentotv",
+                "name": "Momento TV",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video0s977812-2246/stream/playlist.m3u8"
             },

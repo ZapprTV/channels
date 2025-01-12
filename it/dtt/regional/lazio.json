@@ -238,7 +238,7 @@
             "name": "Radio Roma News",
             "type": "hls",
             "url": "https://www.dailymotion.com/video/x96kf9k",
-            "api": "direct",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "canale19frosinone",
@@ -462,7 +462,7 @@
             "name": "Cittàceleste TV",
             "type": "hls",
             "url": "https://www.dailymotion.com/video/k1msgU3jMLrc0SBrmZ4",
-            "api": "direct"
+            "api": "cloudflare"
         },
         {
             "lcn": 87,
