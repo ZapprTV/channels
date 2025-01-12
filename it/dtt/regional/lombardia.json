@@ -120,7 +120,7 @@
         {
             "lcn": 81,
             "logo": "teleboario",
-            "name": "Teleboario",
+            "name": "TeleBoario",
             "type": "hls",
             "url": "https://router.xdevel.com/video0s976425-1205/stream/playlist_dvr.m3u8"
         },
@@ -186,7 +186,22 @@
             "logo": "supertv",
             "name": "SuperTV",
             "type": "hls",
-            "url": "https://59d7d6f47d7fc.streamlock.net/supertv/supertv/playlist.m3u8" 
+            "url": "https://59d7d6f47d7fc.streamlock.net/supertv/supertv/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "teleleonessa",
+                "name": "Teleleonessa",
+                "type": "hls",
+                "url": "https://59d7d6f47d7fc.streamlock.net/teleleonessa/teleleonessa/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiosuper",
+                "name": "Radio Super",
+                "radio": true,
+                "type": "direct",
+                "url": "https://audio.streamshow.it/proxy/supertv?mp=/stream;"
+            }]
         },
         {
             "lcn": 98,
