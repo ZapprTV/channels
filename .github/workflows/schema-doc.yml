@@ -29,11 +29,11 @@ jobs:
         shell: bash
         working-directory: ./
         run: |
+          npm i json-schema-static-docs
           mkdir schema
           mkdir docs
           mv schema.json ./schema
-          npm i json-schema-static-docs
-          npx json-schema-static-docs -i schema -o docs
+          node generate-schema.js
           mv docs/schema.md .
 
       - name: Commit
