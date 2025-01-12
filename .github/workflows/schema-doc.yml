@@ -1,0 +1,37 @@
+name: Genera documentazione schema
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "schema.json"
+  pull_request:
+    paths:
+      - "schema.json"
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Installa pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Genera documentazione
+        shell: bash
+        run: |
+          pnpm exec json-schema-static-docs -i . -o .
+
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Genera documentazione schema"
+          file_pattern: "schema.md"
