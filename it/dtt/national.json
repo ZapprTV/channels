@@ -1183,7 +1183,8 @@
                 "logo": "radioroma",
                 "name": "Radio Roma",
                 "type": "hls",
-                "url": "https://585b674743bbb.streamlock.net/9044/9044/playlist.m3u8"
+                "url": "https://www.dailymotion.com/video/x96kfby",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 3,
@@ -1197,7 +1198,8 @@
                 "logo": "canale81lazio",
                 "name": "Canale 81 Lazio",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/canale81lazio/canale81lazio/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/canale81lazio/canale81lazio/playlist.m3u8",
+                "cssfix": "squashed-height"
             }
         ]
         },
@@ -1372,7 +1374,7 @@
         },
         {
             "lcn": 251,
-            "logo": "momentotv",
+            "logo": "hbbtv.svg",
             "name": "Momento TV",
             "hbbtvmosaic": true,
             "hbbtv": [{
@@ -1534,7 +1536,8 @@
                 "logo": "italiafelixtv",
                 "name": "Italia Felix TV",
                 "type": "hls",
-                "url": "https://stream10.xdevel.com/video1s977812-2247/stream/playlist.m3u8"
+                "url": "https://stream10.xdevel.com/video1s977812-2247/stream/playlist.m3u8",
+                "disabled": "not-working"
             },
             {
                 "sublcn": 3,

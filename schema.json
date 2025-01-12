@@ -162,6 +162,11 @@
                             "const": "stretch",
                             "title": "Stretcha canale a 16:9",
                             "description": "Stretcha il video di un canale all'aspect ratio 16:9."
+                        },
+                        {
+                            "const": "squashed-height",
+                            "title": "Stretcha altezza video",
+                            "description": "Stretcha il video con una height schiacciata di un canale all'aspect ratio 16:9."
                         }]
                     },
                     "hbbtv": {
@@ -326,6 +331,11 @@
                                         "const": "stretch",
                                         "title": "Stretcha canale a 16:9",
                                         "description": "Stretcha il video di un canale all'aspect ratio 16:9."
+                                    },
+                                    {
+                                        "const": "squashed-height",
+                                        "title": "Stretcha altezza video",
+                                        "description": "Stretcha il video con una height schiacciata di un canale all'aspect ratio 16:9."
                                     }]
                                 }
                             },

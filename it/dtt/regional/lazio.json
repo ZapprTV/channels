@@ -135,6 +135,13 @@
                 "ondemand": true,
                 "type": "direct",
                 "url": "https://www.teleuniverso.tv/VIDEO/TG/TGTU.mp4"
+            },
+            {
+                "sublcn": 3,
+                "logo": "tuday",
+                "name": "TU Day",
+                "type": "hls",
+                "url": "https://stream.cp.ets-sistemi.it:1936/tuday/tuday/playlist.m3u8"
             }]
         },
         {
@@ -265,7 +272,8 @@
                 "logo": "canale81lazio",
                 "name": "Canale 81 Lazio",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/canale81lazio/canale81lazio/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/canale81lazio/canale81lazio/playlist.m3u8",
+                "cssfix": "squashed-height"
             },
             {
                 "sublcn": 5,
@@ -287,7 +295,8 @@
             "logo": "radioroma",
             "name": "Radio Roma",
             "type": "hls",
-            "url": "https://585b674743bbb.streamlock.net/9044/9044/playlist.m3u8",
+            "url": "https://www.dailymotion.com/video/x96kfby",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "canale19frosinone",
@@ -314,7 +323,8 @@
                 "logo": "canale81lazio",
                 "name": "Canale 81 Lazio",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/canale81lazio/canale81lazio/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/canale81lazio/canale81lazio/playlist.m3u8",
+                "cssfix": "squashed-height"
             },
             {
                 "sublcn": 5,
@@ -410,7 +420,8 @@
             "logo": "hitfm",
             "name": "Hit TV",
             "type": "hls",
-            "url": "https://5db313b643fd8.streamlock.net/HITTV/HITTV/playlist.m3u8"
+            "url": "https://5db313b643fd8.streamlock.net/HITTV/HITTV/playlist.m3u8",
+            "disabled": "not-working"
         },
         {
             "lcn": 80,
@@ -425,7 +436,8 @@
                 "logo": "hitfm",
                 "name": "Hit TV",
                 "type": "hls",
-                "url": "https://5db313b643fd8.streamlock.net/HITTV/HITTV/playlist.m3u8"
+                "url": "https://5db313b643fd8.streamlock.net/HITTV/HITTV/playlist.m3u8",
+                "disabled": "not-working"
             }]
         },
         {
@@ -433,7 +445,8 @@
             "logo": "canale81lazio",
             "name": "Canale 81 Lazio",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/canale81lazio/canale81lazio/playlist.m3u8"
+            "url": "https://5f22d76e220e1.streamlock.net/canale81lazio/canale81lazio/playlist.m3u8",
+            "cssfix": "squashed-height"
         },
         {
             "lcn": 82,
