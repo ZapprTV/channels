@@ -28,6 +28,7 @@ jobs:
       - name: Genera documentazione
         shell: bash
         run: |
+          pnpm i json-schema-static-docs
           pnpm exec json-schema-static-docs -i . -o .
 
       - name: Commit
