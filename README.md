@@ -1,41 +1,7 @@
-Le liste di canali, in formato JSON, usate da Zappr.
+I loghi dei canali, nei formati PNG, WEBP e SVG, e le liste dei canali, in formato JSON, usati da Zappr.
 
-Questa repo contiene le liste di canali, nazionali e locali, usate da Zappr. Sono in formato JSON e seguono il seguente "schema":
-```json
-[
-  {
-    "lcn": 3,  <- numero, LCN del canale sul digitale terrestre
+Le liste dei canali seguono il JSON Schema presente nel file [schema.json](schema.json), disponibile anche in versione Markdown in [schema.md](schema.md).
 
-    "logo": "rai3.svg",  <- stringa, nome del file del logo del canale
-                            IMPORTANTE: specificare l'estensione del file solo se in formato SVG.
-                            non specificare nessuna estensione se è in formato PNG/WEBP.
-
-    "name": "Rai 3",  <- stringa, nome del canale
-
-    "subtitle": "(nazionale)",  <- stringa, sottotitolo che verrà mostrato sotto il nome del canale in
-                                   testo grigio più piccolo
-
-    "hd": true,  <- boolean, indica se il canale è in alta definizione (e qualità)
-
-    "type": "hls",  <- stringa, tipo di stream del canale [hls, dash, flv, twitch, iframe]
-
-    "api": true,  <- boolean, indica se usare l'API di Zappr per riprodurre il canale
-                     (vedere https://github.com/ZapprTV/backend)
-
-    "url": "...",  <- stringa, URL della stream del canale
-                      se il tipo di stream è "twitch" l'URL è lo username di Twitch, mentre se è "iframe"
-                      è l'URL del sito che si vuole embeddare tramite iframe
-
-    "seek": false  <- boolean, indica se disattivare o no la seek bar di Plyr (utile
-                      soprattutto per la maggior parte dei canali con stream di tipo DASH,
-                      che non permettono di andare avanti e indietro nel player)
-  },
-  {
-    "lcn": 4,
-    "logo": "rete4.svg",
-    "name": ...
-  }
-]
-```
+I loghi dei canali sono presenti nella cartella `logos/`. Nella root della cartella si trovano i loghi in alta qualità, nella risoluzione più alta disponibile, e nei formati PNG e SVG. Dentro la cartella `optimized/`, invece, sono presenti i loghi trasformati e ottimizzati nei formati WEBP e SVG, grazie alla GitHub Action [optimize-images](https://github.com/ZapprTV/optimize-images). Per quanto riguarda i loghi in formato PNG, l'action li trasforma in formato WEBP e poi li ridimensiona a una width di 300px, mentre quelli in formato SVG vengono solamente compressi.
 
 Questa repo è distribuita con "licenza" [Unlicense](https://en.wikipedia.org/wiki/Unlicense), quindi è nel pubblico dominio e può essere usata liberamente. ("Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.")
