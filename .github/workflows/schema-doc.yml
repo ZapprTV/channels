@@ -27,6 +27,7 @@ jobs:
 
       - name: Genera documentazione
         shell: bash
+        working-directory: ./
         run: |
           npm i json-schema-static-docs
           npx json-schema-static-docs -i . -o .
