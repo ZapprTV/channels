@@ -1,0 +1,33 @@
+name: ❓ Richiesta canale
+description: Richiedi un canale.
+title: "[RICHIESTA] "
+labels:
+  - Richiesta
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per esserti preso del tempo per migliorare Zappr inviandoci questa segnalazione. Ti preghiamo di inserire il nome del canale che vuoi richiedere qui sopra, mantenendo **[RICHIESTA]** all'inizio del titolo. Inoltre, ti ricordiamo che puoi richiedere anche canali HbbTV e regionali *(se già esiste una lista per la tua regione: controlla nelle impostazioni di Zappr)*.
+
+        **Prima di inviare questa richiesta, però,** controlla che nessun altro abbia già richiesto questo canale. [Vai sulla scheda Issues](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3ARichiesta) e cerca il nome del canale che vuoi segnalare: se non trovi una issue che richiede lo stesso canale che vuoi richiedere tu, continua a compilare questo modulo.
+  - type: input
+    id: name
+    attributes:
+      label: Nome canale
+      placeholder: LA7
+    validations:
+      required: true
+  - type: input
+    id: lcn
+    attributes:
+      label: Numerazione canale
+      description: |
+        Se è un canale visibile menu HbbTV, inserisci la numerazione del canale sulla quale è presente il menu.
+      placeholder: "7"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link allo streaming del canale
+      description: Se lo trovi.
