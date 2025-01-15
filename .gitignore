@@ -1,1 +1,3 @@
-logos/optimized/
+logos/optimized/*
+!logos/optimized
+!logos/optimized/.gitkeep
