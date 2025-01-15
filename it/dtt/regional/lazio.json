@@ -571,6 +571,15 @@
             "url": "https://rst2.saiuzwebnetwork.it:8081/extratvlive/index.m3u8"
         },
         {
+            "lcn": 210,
+            "logo": "rietilifetv",
+            "name": "Rieti Life TV",
+            "hd": true,
+            "type": "iframe",
+            "url": "https://www.youtube.com/channel/UCifbxYbkxKk1B0tjeo30iIg",
+            "api": "cloudflare"
+        },
+        {
             "lcn": 212,
             "logo": "radioimmaginetv",
             "name": "Radio Immagine TV",
