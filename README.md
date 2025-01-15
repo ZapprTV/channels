@@ -6,6 +6,6 @@ I loghi dei canali sono presenti nella cartella `logos/`. Nella root della carte
 
 Dentro la cartella `optimized/`, invece, sono presenti i loghi trasformati e ottimizzati nei formati WEBP e SVG, grazie alla GitHub Action [optimize-images](https://github.com/ZapprTV/optimize-images). Per quanto riguarda i loghi in formato PNG, l'action li trasforma in formato WEBP e poi li ridimensiona a una width di 300px, mentre quelli in formato SVG vengono solamente compressi.
 
-**Visto che fa tutto l'Action, quando apri una pull request per richiedere l'aggiunta di un logo, non ti preoccupare di ottimizzarlo o di comprimerlo. Carica la versione di più alta qualità che hai a disposizione nel root della cartella `logos/`.**
+**Visto che fa tutto l'Action, quando apri una pull request e aggiungi un logo, non ti preoccupare di ottimizzarlo o di comprimerlo. Carica la versione di più alta qualità che hai a disposizione nel root della cartella `logos/`.**
 
 Questa repo è distribuita con "licenza" [Unlicense](https://en.wikipedia.org/wiki/Unlicense), quindi è nel pubblico dominio e può essere usata liberamente. ("Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.")

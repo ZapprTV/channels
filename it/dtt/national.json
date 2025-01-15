@@ -1253,7 +1253,8 @@
             "logo": "genius240",
             "name": "Genius 240",
             "type": "flv",
-            "url": "https://stream-cdn-iad.vaughnsoft.net/play/live_geniussrl.flv"
+            "url": "https://stream-cdn-iad.vaughnsoft.net/play/live_geniussrl.flv",
+            "seek": false
         },
         {
             "lcn": 242,
