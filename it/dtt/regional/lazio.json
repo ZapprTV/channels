@@ -469,14 +469,6 @@
         },
         {
             "lcn": 88,
-            "logo": "anita.svg",
-            "name": "Anita",
-            "hd": true,
-            "type": "hls",
-            "url": "https://srvx1.selftv.video/anitatv/live/playlist.m3u8"
-        },
-        {
-            "lcn": 88,
             "logo": "rc88",
             "name": "RC88",
             "type": "hls",

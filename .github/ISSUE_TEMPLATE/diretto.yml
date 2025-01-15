@@ -40,12 +40,12 @@ body:
   - type: dropdown
     id: zappr
     attributes:
-      label: Il contenuto è visibile correttamente da altre parti?
+      label: Il contenuto dà errore solo su Zappr?
       description: |
         Cerca altri modi di guardare il contenuto in streaming e dicci se dà errore solo su Zappr o no. Se è visible tramite HbbTV e hai una TV/decoder abilitato all'HbbTV, ti consigliamo di provare con quello.
       options:
-        - No, succede anche da altre parti
-        - Sì, succede solo su Zappr
+        - No, dà errore anche da altre parti
+        - Sì, dà errore solo su Zappr
         - Il contenuto è solo su Zappr / Non l'ho trovato da altre parti
     validations:
       required: true
