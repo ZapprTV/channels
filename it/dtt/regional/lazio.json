@@ -416,29 +416,12 @@
             }]
         },
         {
-            "lcn": 79,
-            "logo": "hitfm",
-            "name": "Hit TV",
-            "type": "hls",
-            "url": "https://5db313b643fd8.streamlock.net/HITTV/HITTV/playlist.m3u8",
-            "disabled": "not-working"
-        },
-        {
             "lcn": 80,
             "logo": "trl",
             "name": "TRL",
             "hd": true,
             "type": "hls",
-            "url": "https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8",
-            "disabled": "not-working",
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "hitfm",
-                "name": "Hit TV",
-                "type": "hls",
-                "url": "https://5db313b643fd8.streamlock.net/HITTV/HITTV/playlist.m3u8",
-                "disabled": "not-working"
-            }]
+            "url": "https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8"
         },
         {
             "lcn": 81,

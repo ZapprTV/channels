@@ -1536,8 +1536,7 @@
                 "logo": "italiafelixtv",
                 "name": "Italia Felix TV",
                 "type": "hls",
-                "url": "https://stream10.xdevel.com/video1s977812-2247/stream/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://stream10.xdevel.com/video1s977812-2247/stream/playlist.m3u8"
             },
             {
                 "sublcn": 3,
