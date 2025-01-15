@@ -49,7 +49,21 @@
             "name": "Teletutto",
             "type": "hls",
             "url": "https://3177cee185284d2990021eccc8b06ae6.msvdn.net/live/S55287570/tq6PELOcQoAf/playlist.m3u8",
-            "hd": true
+            "hd": true,
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "teletutto2",
+                "name": "Teletutto 2",
+                "type": "hls",
+                "url": "https://3177cee185284d2990021eccc8b06ae6.msvdn.net/live/S75141837/T3wd5WoxAo4B/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "teletutto24",
+                "name": "Teletutto 24",
+                "type": "hls",
+                "url": "https://3177cee185284d2990021eccc8b06ae6.msvdn.net/live/S64637685/c2e0XXmwILE9/playlist.m3u8"
+            }]
         },
         {
             "lcn": 17,
