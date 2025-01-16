@@ -22,7 +22,7 @@ body:
     attributes:
       label: Numerazione canale
       description: |
-        Se è un canale visibile menu HbbTV, inserisci la numerazione del canale sulla quale è presente il menu.
+        Se è un canale visibile tramite menu HbbTV, inserisci la numerazione del canale sulla quale è presente il menu.
       placeholder: "7"
     validations:
       required: true
