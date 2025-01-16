@@ -1253,6 +1253,13 @@
             "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8"
         },
         {
+            "lcn": 234,
+            "logo": "cusanonews7",
+            "name": "Cusano News 7",
+            "type": "hls",
+            "url": "https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8"
+        },
+        {
             "lcn": 240,
             "logo": "genius240",
             "name": "Genius 240",
