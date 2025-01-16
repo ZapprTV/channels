@@ -424,6 +424,14 @@
 
 <table class="jssd-property-table">
   <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Canali HbbTV</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">I canali visibili tramite l&#x27;app HbbTV del canale.</td>
+    </tr>
     <tr><th>Type</th><td colspan="2">Array</td></tr>
     
   </tbody>
