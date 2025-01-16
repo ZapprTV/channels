@@ -1,4 +1,4 @@
-const JsonSchemaStaticDocs = await import("json-schema-static-docs");
+import JsonSchemaStaticDocs from "json-schema-static-docs";
 import { promises as fs } from 'fs';
 import { join } from 'path';
 
@@ -19,4 +19,5 @@ let jsonSchemaStaticDocs = new JsonSchemaStaticDocs({
   enableMetaEnum: true,
   displaySchema: false
 });
+
 await jsonSchemaStaticDocs.generate();
