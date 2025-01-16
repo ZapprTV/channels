@@ -197,6 +197,8 @@
                     },
                     "hbbtv": {
                         "type": "array",
+                        "title": "Canali HbbTV",
+                        "description": "I canali visibili tramite l'app HbbTV del canale.",
                         "items": {
                             "type": "object",
                             "additionalProperties": false,
