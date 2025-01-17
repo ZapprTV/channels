@@ -230,7 +230,8 @@
             "logo": "mylivignotv",
             "name": "My Livigno TV",
             "type": "youtube",
-            "url": "1S8ZAZew0JM"
+            "url": "1S8ZAZew0JM",
+            "disabled": "not-working"
         },
         {
             "lcn": 112,
@@ -274,7 +275,8 @@
             "logo": "mylivignotvnews",
             "name": "My Livigno TV News",
             "type": "youtube",
-            "url": "dOU_2dLE4DY"
+            "url": "dOU_2dLE4DY",
+            "disabled": "not-working"
         },
         {
             "lcn": 181,
