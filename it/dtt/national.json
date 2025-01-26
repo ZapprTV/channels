@@ -1277,6 +1277,36 @@
             "url": "https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8"
         },
         {
+            "lcn": 235,
+            "logo": "heddymedia",
+            "name": "Heddy Media",
+            "hbbtvmosaic": true,
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radioveneziadab",
+                "name": "Radio Venezia",
+                "radio": true,
+                "type": "direct",
+                "url": "https://nr12.newradio.it:8836/stream"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiosanremo",
+                "name": "Radio Sanremo",
+                "radio": true,
+                "type": "direct",
+                "url": "https://nr12.newradio.it:8838/stream"
+            },
+            {
+                "sublcn": 3,
+                "logo": "virgoradio.svg",
+                "name": "Virgo Radio",
+                "radio": true,
+                "type": "hls",
+                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"        
+            }]
+        },
+        {
             "lcn": 240,
             "logo": "genius240",
             "name": "Genius 240",

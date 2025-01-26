@@ -17,6 +17,21 @@
             "url": "https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8"
         },
         {
+            "lcn": 11,
+            "logo": "telenuovo.svg",
+            "name": "Telenuovo",
+            "subtitle": "Attivo solo durante alcuni programmi",
+            "type": "iframe",
+            "url": "https://ac106mp-cdn.streamcloud.it/embed/live/a408fac6-e5d3-4e70-844d-0410d03264cf",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "telenuovoplay",
+                "name": "Telenuovo Play",
+                "type": "hls",
+                "url": "https://liveac901.b-cdn.net/channel01.smil/playlist.m3u8"
+            }]
+        },
+        {
             "lcn": 13,
             "logo": "tvavicenza.svg",
             "name": "TVA Vicenza",
