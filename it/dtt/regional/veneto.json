@@ -1,0 +1,291 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Veneto",
+            "type": "dash",
+            "url": "https://tgrveneto-dash-live.akamaized.net/dash/live/2025616/tgrveneto/manifest.mpd",
+            "seek": false
+        },
+        {
+            "lcn": 10,
+            "logo": "antennatrenordest",
+            "name": "Antenna Tre",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8"
+        },
+        {
+            "lcn": 13,
+            "logo": "tvavicenza.svg",
+            "name": "TVA Vicenza",
+            "hd": true,
+            "type": "hls",
+            "url": "https://fms.telemar.it:1936/live/diretta_1/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "telechiara",
+                "name": "Telechiara",
+                "type": "hls",
+                "url": "https://fms.telemar.it:1936/telechiara/diretta/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 14,
+            "logo": "reteveneta",
+            "name": "Rete Veneta",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/reteveneta/reteveneta/playlist.m3u8"
+        },
+        {
+            "lcn": 16,
+            "logo": "telearena.svg",
+            "name": "Telearena",
+            "hd": true,
+            "type": "hls",
+            "url": "https://5f204aff97bee.streamlock.net/TeleArena/livestream/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "telemantova.svg",
+                "name": "Telemantova",
+                "type": "hls",
+                "url": "https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radioverona.svg",
+                "name": "Radio Verona",
+                "radio": true,
+                "type": "direct",
+                "url": "https://ice04.fluidstream.net/fluid0405.mp3"
+            }]
+        },
+        {
+            "lcn": 17,
+            "logo": "telechiara",
+            "name": "Telechiara",
+            "type": "hls",
+            "url": "https://fms.telemar.it:1936/telechiara/diretta/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "tvavicenza.svg",
+                "name": "TVA Vicenza",
+                "hd": true,
+                "type": "hls",
+                "url": "https://fms.telemar.it:1936/live/diretta_1/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 75,
+            "logo": "telebelluno",
+            "name": "Telebelluno",
+            "type": "hls",
+            "url": "https://g2qd3exzy7an-hls-live.mariatvcdn.it/livetelebelluno/be0e3154b820953ce1a94a937bb2bb5d.sdp/playlist.m3u8"
+        },
+        {
+            "lcn": 76,
+            "logo": "telepace.svg",
+            "name": "Telepace",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+        },
+        {
+            "lcn": 77,
+            "logo": "telemantova.svg",
+            "name": "Telemantova",
+            "type": "hls",
+            "url": "https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "telearena.svg",
+                "name": "Telearena",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5f204aff97bee.streamlock.net/TeleArena/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radioverona.svg",
+                "name": "Radio Verona",
+                "radio": true,
+                "type": "direct",
+                "url": "https://ice04.fluidstream.net/fluid0405.mp3"
+            }]
+        },
+        {
+            "lcn": 78,
+            "logo": "radiobirikinatv",
+            "name": "Radio Birikina TV",
+            "type": "hls",
+            "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 79,
+            "logo": "radiobelllaemonellatv",
+            "name": "Radio Bellla e Monella TV",
+            "type": "hls",
+            "url": "https://58d921499d3d3.streamlock.net/RadioBelllaemonellaTV/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 80,
+            "logo": "televenezia",
+            "name": "Televenezia",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/televenezia/televenezia/playlist.m3u8"
+        },
+        {
+            "lcn": 81,
+            "logo": "dolomitilifetv",
+            "name": "Dolomiti Life TV",
+            "type": "hls",
+            "url": "https://stream.mariatvcdn.com/teledolomiti/a66b8b8ac2baee06f136e87b9805774d.sdp/playlist.m3u8"
+        },
+        {
+            "lcn": 82,
+            "logo": "radiosorrrisotv",
+            "name": "Radio SorRriso TV",
+            "type": "hls",
+            "url": "https://56b50ada2d659.streamlock.net/RadioSorrrisoTV/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 83,
+            "logo": "telecittà",
+            "name": "Telecittà",
+            "type": "hls",
+            "url": "https://soobeat.fluid.stream/Telecitta/livestream/playlist.m3u8?FLID=2&type=.m3u8"
+        },
+        {
+            "lcn": 84,
+            "logo": "teleromagna.svg",
+            "name": "Teleromagna",
+            "type": "hls",
+            "url": "https://livetr.teleromagna.it/teleromagna/live/playlist.m3u8"
+        },
+        {
+            "lcn": 85,
+            "logo": "cafè24",
+            "name": "Cafè24",
+            "hd": true,
+            "type": "hls",
+            "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "stereocittà",
+                "name": "Stereocittà",
+                "radio": true,
+                "type": "direct",
+                "url": "https://geminione.it/proxy/stereocitta/stream"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiogemini",
+                "name": "Radio Gemini",
+                "radio": true,
+                "type": "direct",
+                "url": "https://geminione.it/proxy/gemini/stream"
+            },
+            {
+                "sublcn": 3,
+                "logo": "radiocafè",
+                "name": "Radio Cafè",
+                "radio": true,
+                "type": "direct",
+                "url": "https://geminione.it/proxy/test/stream"  
+            }]
+        },
+        {
+            "lcn": 86,
+            "logo": "radioadigetv",
+            "name": "Radio Adige TV",
+            "type": "hls",
+            "url": "https://stream9.xdevel.com/video0s976463-1250/stream/playlist.m3u8" 
+        },
+        {
+            "lcn": 88,
+            "logo": "il13.svg",
+            "name": "il13",
+            "disabled": "not-working",
+            "hbbtv": [{
+                "sublcn": 7,
+                "logo": "telecolor",
+                "name": "Telecolor",
+                "hd": true,
+                "type": "hls",
+                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8"
+            },
+            {
+                "sublcn": 8,
+                "logo": "radiopiterpantv",
+                "name": "Radio Piterpan TV",
+                "type": "hls",
+                "url": "https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 9,
+                "logo": "radiobelllaemonellatv",
+                "name": "Radio Bellla e Monella TV",
+                "type": "hls",
+                "url": "https://58d921499d3d3.streamlock.net/RadioBelllaemonellaTV/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 10,
+                "logo": "radiobirikinatv",
+                "name": "Radio Birikina TV",
+                "type": "hls",
+                "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 11,
+                "logo": "radiosorrrisotv",
+                "name": "Radio SorRriso TV",
+                "type": "hls",
+                "url": "https://56b50ada2d659.streamlock.net/RadioSorrrisoTV/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 12,
+                "logo": "laziotv",
+                "name": "Lazio TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8"
+            },
+            {
+                "sublcn": 13,
+                "logo": "goldtv",
+                "name": "Gold TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://goldtv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+            }]
+        },
+        {
+            "lcn": 93,
+            "logo": "ranfriul",
+            "name": "RAN Friul",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/RanFriul/RanFriul/playlist.m3u8" 
+        },
+        {
+            "lcn": 94,
+            "logo": "rangerm",
+            "name": "RAN Germ",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/RanGem/RanGem/playlist.m3u8" 
+        },
+        {
+            "lcn": 95,
+            "logo": "ranslo",
+            "name": "RAN Slo",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/RanSlo/RanSlo/playlist.m3u8" 
+        },
+        {
+            "lcn": 351,
+            "logo": "70-80",
+            "name": "70-80.it",
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+        }
+    ]
+}

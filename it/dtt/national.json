@@ -218,9 +218,8 @@
             "logo": "rtl.svg",
             "name": "RTL 102.5",
             "hd": true,
-            "type": "dash",
-            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/manifest.mpd",
-            "seek": false
+            "type": "hls",
+            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist.m3u8"
         },
         {
             "lcn": 37,
@@ -694,6 +693,14 @@
             "url": "https://stream1.aswifi.it/italiachannel/stream/index.m3u8"
         },
         {
+            "lcn": 132,
+            "logo": "lineagem",
+            "name": "Lineagem",
+            "type": "iframe",
+            "url": "https://www.youtube.com/channel/UC-dZ1irw0kSGVg0VoeKLddw",
+            "api": "cloudflare"
+        },
+        {
             "lcn": 133,
             "logo": "arteinvestimenti",
             "name": "Arte Investimenti",
@@ -1091,6 +1098,7 @@
                 "sublcn": 7,
                 "logo": "tuttotv",
                 "name": "Tutto TV",
+                "ondemand": true,
                 "type": "hls",
                 "url": "https://host2.hbbtv.me:28443/cmaf/tuttotv/playlist.m3u8"
             },
@@ -1166,6 +1174,14 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/itchannel/itchannel/playlist.m3u8"  
+            },
+            {
+                "sublcn": 4,
+                "logo": "teleambiente",
+                "name": "TeleAmbiente",
+                "type": "hls",
+                "url": "http://fms.premio.link/mosaic-221-teleambiente/index.m3u8",
+                "http": true
             }]
         },
         {
@@ -1173,7 +1189,8 @@
             "logo": "radioromanetwork",
             "name": "Radio Roma Network",
             "type": "hls",
-            "url": "https://5926fc9c7c5b2.streamlock.net/rtfeunawfu/rtfeunawfu/playlist.m3u8",
+            "url": "https://www.dailymotion.com/video/x98v4v8",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "radioromanews",
@@ -1301,7 +1318,8 @@
                 "name": "Hai Romania!!",
                 "radio": true,
                 "type": "hls",
-                "url": "https://stream10.xdevel.com/video17s975955-2173/stream/playlist.m3u8"
+                "url": "https://stream10.xdevel.com/video17s975955-2173/stream/playlist.m3u8",
+                "disabled": "not-working"
             },
             {
                 "sublcn": 4,
@@ -1423,6 +1441,7 @@
                 "sublcn": 5,
                 "logo": "tuttotv",
                 "name": "Tutto TV",
+                "ondemand": true,
                 "type": "hls",
                 "url": "https://host2.hbbtv.me:28443/cmaf/tuttotv/playlist.m3u8"
             },
@@ -1485,9 +1504,8 @@
             "logo": "radiofreccia.svg",
             "name": "Radiofreccia",
             "hd": true,
-            "type": "dash",
-            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/manifest.mpd",
-            "seek": false
+            "type": "hls",
+            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist.m3u8"
         },
         {
             "lcn": 259,
@@ -1526,9 +1544,8 @@
             "logo": "radiozeta.svg",
             "name": "Radio Zeta",
             "hd": true,
-            "type": "dash",
-            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/manifest.mpd",
-            "seek": false
+            "type": "hls",
+            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist.m3u8"
         },
         {
             "lcn": 268,

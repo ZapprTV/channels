@@ -1,0 +1,72 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Trento",
+            "type": "dash",
+            "url": "https://tgrtrento-dash-live.akamaized.net/dash/live/2025613/tgrtrento/manifest.mpd",
+            "seek": false
+        },
+        {
+            "lcn": 10,
+            "logo": "trentinotv",
+            "name": "Trentino TV",
+            "type": "hls",
+            "url": "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 11,
+            "logo": "rttr",
+            "name": "RTTR",
+            "hd": true,
+            "type": "hls",
+            "url": "https://rttr.fluid.stream/RTTRlive/livestream/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "rttlaradio",
+                "name": "RTT La Radio",
+                "radio": true,
+                "type": "direct",
+                "url": "https://str01.fluidstream.net/rtt.mp3"
+            }]
+        },
+        {
+            "lcn": 12,
+            "logo": "telepacetrento.svg",
+            "name": "Telepace Trento",
+            "type": "hls",
+            "url": "https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8"
+        },
+        {
+            "lcn": 15,
+            "logo": "antennatrenordest",
+            "name": "Antenna Tre",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8"
+        },
+        {
+            "lcn": 18,
+            "logo": "telechiara",
+            "name": "Telechiara",
+            "type": "hls",
+            "url": "https://fms.telemar.it:1936/telechiara/diretta/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "tvavicenza.svg",
+                "name": "TVA Vicenza",
+                "hd": true,
+                "type": "hls",
+                "url": "https://fms.telemar.it:1936/live/diretta_1/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 19,
+            "logo": "tv33",
+            "name": "TV33 Trento",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/tv33tn/tv33tn/playlist.m3u8"
+        }
+    ]
+}

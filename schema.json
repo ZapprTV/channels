@@ -101,6 +101,11 @@
                         "title": "URL stream",
                         "description": "L'URL della stream."
                     },
+                    "http": {
+                        "type": "boolean",
+                        "title": "Contrassegna stream come non visibile tramite HTTPS",
+                        "description": "Se l'URL della stream non usa il protocollo HTTPS e va per forza visto tramite HTTP, l'URL viene riprodotto in una nuova finestra che usa il protocollo HTTP."
+                    },
                     "seek": {
                         "type": "boolean",
                         "title": "Mostra/nascondi barra seek del player",
@@ -239,6 +244,9 @@
                                 },
                                 "url": {
                                     "$ref": "#/properties/channels/items/properties/url"
+                                },
+                                "http": {
+                                    "$ref": "#/properties/channels/items/properties/http"
                                 },
                                 "seek": {
                                     "$ref": "#/properties/channels/items/properties/seek"

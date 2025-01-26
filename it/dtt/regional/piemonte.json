@@ -1,0 +1,256 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Piemonte",
+            "type": "dash",
+            "url": "https://tgrpiemonte-dash-live.akamaized.net/dash/live/2025608/tgrpiemonte/manifest.mpd",
+            "seek": false
+        },
+        {
+            "lcn": 10,
+            "logo": "telecity",
+            "name": "Telecity Piemonte",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/telecitypiemonte/telecitypiemonte/playlist.m3u8"
+        },
+        {
+            "lcn": 11,
+            "logo": "telecupole.svg",
+            "name": "Telecupole Piemonte",
+            "type": "twitch",
+            "url": "telecupolepiemontetlt",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "lovemusic",
+                "name": "Love Music",
+                "type": "hls",
+                "url": "https://cdn98-ita.azotosolutions.com:8443/cdnedge12/live12/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Altre Radio"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiogoldcanale1",
+                "name": "Radio Gold Canale 1",
+                "type": "hls",
+                "url": "https://cdn117-it.azotosolutions.com:8443/cdnedge5/live5/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Altre TV"  
+            },
+            {
+                "sublcn": 3,
+                "logo": "telecupole.svg",
+                "name": "Telecupole Liguria",
+                "type": "twitch",
+                "url": "telecupoleliguria"
+            },
+            {
+                "sublcn": 4,
+                "logo": "telenuovo.svg",
+                "name": "Telenuovo",
+                "subtitle": "Attivo solo durante alcuni programmi",
+                "type": "iframe",
+                "url": "https://ac106mp-cdn.streamcloud.it/embed/live/a408fac6-e5d3-4e70-844d-0410d03264cf"
+            },
+            {
+                "sublcn": 5,
+                "logo": "lactv.svg",
+                "name": "LaC",
+                "type": "hls",
+                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8"            
+            },
+            {
+                "sublcn": 6,
+                "logo": "rttr",
+                "name": "RTTR",
+                "hd": true,
+                "type": "hls",
+                "url": "https://rttr.fluid.stream/RTTRlive/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 7,
+                "logo": "telemolise",
+                "name": "Telemolise",
+                "type": "hls",
+                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise4K/Telemolise4K/playlist.m3u8",
+                "http": true
+            },
+            {
+                "sublcn": 8,
+                "logo": "teleuniverso",
+                "name": "Teleuniverso",
+                "hd": true,
+                "type": "hls",
+                "url": "https://stream.cp.ets-sistemi.it:1936/teleuniverso/teleuniverso/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 12,
+            "logo": "videogruppo",
+            "name": "VideoGruppo",
+            "subtitle": "In alcuni orari Top Planet",
+            "type": "iframe",
+            "url": "https://www.youtube.com/channel/UC3yM6JHZSBlU8crXIDHK-kQ?VideoGruppo",
+            "api": "cloudflare"
+        },
+        {
+            "lcn": 14,
+            "logo": "primantenna",
+            "name": "Primantenna",
+            "hd": true,
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8"
+        },
+        {
+            "lcn": 15,
+            "logo": "grpveratv.svg",
+            "name": "GRP Vera TV",
+            "type": "hls",
+            "url": "https://webstream.multistream.it/memfs/a3195c96-f884-4c74-924f-2648814fc0b5.m3u8"
+        },
+        {
+            "lcn": 16,
+            "logo": "sestaretepiemonte",
+            "name": "Sesta Rete",
+            "hd": true,
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video0s977089-1792/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 17,
+            "logo": "vcoazzurratv",
+            "name": "VCO Azzurra TV",
+            "type": "hls",
+            "url": "https://wb.top-ix.org/redirect/avtvlive/azzurra/streaming?type=cdn_m3u8"
+        },
+        {
+            "lcn": 19,
+            "logo": "videonovara",
+            "name": "Videonovara",
+            "hd": true,
+            "type": "hls",
+            "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "teleritmo",
+                "name": "Teleritmo",
+                "type": "hls",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/teleritmo/streaming?type=cdn_m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "telebiella",
+                "name": "Telebiella",
+                "type": "hls",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/telebiella/streaming?type=cdn_m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "teletutto",
+                "name": "Teletutto",
+                "type": "hls",
+                "url": "https://3177cee185284d2990021eccc8b06ae6.msvdn.net/live/S55287570/tq6PELOcQoAf/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 73,
+            "logo": "radiobruno",
+            "name": "Radio Bruno",
+            "type": "hls",
+            "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 75,
+            "logo": "topcalcio24",
+            "name": "Top Calcio 24",
+            "subtitle": "In alcuni orari Telelombardia",
+            "hd": true,
+            "type": "hls",
+            "url": "https://telelombardia.video/video/viewlivestreaming?rel=3&cntr=0",
+            "api": "vercel"
+        },
+        {
+            "lcn": 78,
+            "logo": "motoritv",
+            "name": "Motori TV",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8"
+        },
+        {
+            "lcn": 80,
+            "logo": "ondanovaratv",
+            "name": "Onda Novara TV",
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9006/9006/playlist.m3u8"
+        },
+        {
+            "lcn": 82,
+            "logo": "giocabet",
+            "name": "Giocabet TV",
+            "type": "hls",
+            "url": "https://live1.giocabet.tv/stream/1/index.m3u8"
+        },
+        {
+            "lcn": 84,
+            "logo": "telereporter",
+            "name": "Telereporter",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
+        },
+        {
+            "lcn": 85,
+            "logo": "lombardiatv",
+            "name": "Lombardia TV",
+            "type": "hls",
+            "url": "https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8"
+        },
+        {
+            "lcn": 87,
+            "logo": "rbetv",
+            "name": "RBE TV",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/rbetv/rbetv/playlist.m3u8"
+        },
+        {
+            "lcn": 95,
+            "logo": "tvyesitalia",
+            "name": "TV Yes",
+            "type": "hls",
+            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8"
+        },
+        {
+            "lcn": 96,
+            "logo": "radiobirikinatv",
+            "name": "Radio Birikina TV",
+            "type": "hls",
+            "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 98,
+            "logo": "radio4youtv",
+            "name": "Radio 4 You TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8"
+        },
+        {
+            "lcn": 114,
+            "logo": "teleradiopace4",
+            "name": "TeleRadioPace 4",
+            "type": "hls",
+            "url": "https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8"
+        },
+        {
+            "lcn": 351,
+            "logo": "70-80",
+            "name": "70-80.it",
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+        }
+    ]
+}

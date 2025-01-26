@@ -122,7 +122,24 @@
             "name": "Canale1 Lombardia",
             "subtitle": "/ One TV 79",
             "type": "twitch",
-            "url": "onetvnbc"
+            "url": "onetvnbc",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radio45giri",
+                "name": "Radio 45 Giri",
+                "radio": true,
+                "type": "direct",
+                "url": "https://nr12.newradio.it:8758/Live"
+            },
+            {
+                "sublcn": 1,
+                "logo": "miamigoradio.svg",
+                "name": "Mi Amigo Radio",
+                "radio": true,
+                "type": "direct",
+                "url": "https://nr12.newradio.it:8662/Live"
+            }
+        ]
         },
         {
             "lcn": 80,
@@ -223,15 +240,22 @@
             "name": "Orobik Channel",
             "subtitle": "(TeleClusone)",
             "type": "twitch",
-            "url": "tvorobik98" 
+            "url": "orobiktv2025",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radioloco",
+                "name": "Radio Loco",
+                "radio": true,
+                "type": "direct",
+                "url": "https://s32.myradiostream.com/:17878/listen.mp3"
+            }]
         },
         {
             "lcn": 111,
             "logo": "mylivignotv",
             "name": "My Livigno TV",
             "type": "youtube",
-            "url": "1S8ZAZew0JM",
-            "disabled": "not-working"
+            "url": "XdtGIZmrxpE"
         },
         {
             "lcn": 112,
@@ -239,7 +263,31 @@
             "name": "Cafè24",
             "hd": true,
             "type": "hls",
-            "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8" 
+            "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "stereocittà",
+                "name": "Stereocittà",
+                "radio": true,
+                "type": "direct",
+                "url": "https://geminione.it/proxy/stereocitta/stream"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiogemini",
+                "name": "Radio Gemini",
+                "radio": true,
+                "type": "direct",
+                "url": "https://geminione.it/proxy/gemini/stream"
+            },
+            {
+                "sublcn": 3,
+                "logo": "radiocafè",
+                "name": "Radio Cafè",
+                "radio": true,
+                "type": "direct",
+                "url": "https://geminione.it/proxy/test/stream"  
+            }]
         },
         {
             "lcn": 113,
@@ -275,8 +323,7 @@
             "logo": "mylivignotvnews",
             "name": "My Livigno TV News",
             "type": "youtube",
-            "url": "dOU_2dLE4DY",
-            "disabled": "not-working"
+            "url": "nkmmWaAy27E"
         },
         {
             "lcn": 181,
@@ -298,7 +345,23 @@
             "logo": "telemantova.svg",
             "name": "Telemantova",
             "type": "hls",
-            "url": "https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8"
+            "url": "https://5ce9406b73c33.streamlock.net/TeleMantova/livestream/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "telearena.svg",
+                "name": "Telearena",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5f204aff97bee.streamlock.net/TeleArena/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radioverona.svg",
+                "name": "Radio Verona",
+                "radio": true,
+                "type": "direct",
+                "url": "https://ice04.fluidstream.net/fluid0405.mp3"
+            }]
         },
         {
             "lcn": 352,
