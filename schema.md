@@ -260,6 +260,27 @@
 
 
 
+### channels.http
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Contrassegna stream come non visibile tramite HTTPS</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Se l&#x27;URL della stream non usa il protocollo HTTPS e va per forza visto tramite HTTP, l&#x27;URL viene riprodotto in una nuova finestra che usa il protocollo HTTP.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
 ### channels.seek
 
 
@@ -669,6 +690,27 @@
       <td colspan="2">L&#x27;URL della stream.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.http
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Contrassegna stream come non visibile tramite HTTPS</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Se l&#x27;URL della stream non usa il protocollo HTTPS e va per forza visto tramite HTTP, l&#x27;URL viene riprodotto in una nuova finestra che usa il protocollo HTTP.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
   </tbody>
 </table>
