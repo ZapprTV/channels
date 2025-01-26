@@ -552,39 +552,30 @@
             "url": "https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
-                "logo": "gotvchannel",
-                "name": "GO-TV Channel",
-                "hd": true,
+                "logo": "lagrandeitalia",
+                "name": "La Grande Italia",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/gooooooooooo/gooooooooooo/playlist.m3u8"
-            },
-            {
-                "sublcn": 2,
-                "logo": "lecronache",
-                "name": "Le Cronache TV",
-                "hd": true,
-                "type": "hls",
-                "url": "https://stream7.livinlive.it/lecronache/live/playlist.m3u8"
+                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
             },
             {
                 "categorySeparator": "News"
             },
             {
-                "sublcn": 3,
+                "sublcn": 4,
                 "logo": "eurotv",
                 "name": "Euro TV",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8"
             },
             {
-                "sublcn": 4,
+                "sublcn": 5,
                 "logo": "zerounotvnews",
                 "name": "Zerouno TV News",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/01news/01news/playlist.m3u8"
             },
             {
-                "sublcn": 5,
+                "sublcn": 6,
                 "logo": "napoletaninelmondo",
                 "name": "Napoletani nel Mondo",
                 "type": "hls",
@@ -594,14 +585,14 @@
                 "categorySeparator": "Family"
             },
             {
-                "sublcn": 6,
+                "sublcn": 7,
                 "logo": "supersix",
                 "name": "SuperSix",
                 "type": "hls",
                 "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8"
             },
             {
-                "sublcn": 7,
+                "sublcn": 8,
                 "logo": "iuniortv",
                 "name": "Iunior TV",
                 "type": "hls",
@@ -611,14 +602,14 @@
                 "categorySeparator": "Radiovisione"  
             },
             {
-                "sublcn": 8,
+                "sublcn": 9,
                 "logo": "zerounotvmusic",
                 "name": "Zerouno TV Music",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/playlist.m3u8"
             },
             {
-                "sublcn": 9,
+                "sublcn": 10,
                 "logo": "radiocalima",
                 "name": "Radio Calima",
                 "type": "hls",
