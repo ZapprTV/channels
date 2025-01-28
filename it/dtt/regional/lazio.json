@@ -574,8 +574,7 @@
             "hd": true,
             "type": "iframe",
             "url": "https://www.youtube.com/channel/UCifbxYbkxKk1B0tjeo30iIg",
-            "api": "cloudflare",
-            "disabled": "not-working"
+            "api": "cloudflare"
         },
         {
             "lcn": 212,
@@ -589,8 +588,7 @@
                 "name": "Radio Latina TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://media.velcom.it:8081/radiolatinatv/index.m3u8",
-                "disabled": "not-working"
+                "url": "https://media.velcom.it:8081/radiolatinatv/index.m3u8"
             },
             {
                 "sublcn": 2,
