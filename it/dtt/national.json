@@ -951,12 +951,21 @@
             {
                 "sublcn": 4,
                 "logo": "radiojukeboxtvcalabria",
-                "name": "Radio JukeBox TV (Calabria)",
+                "name": "Radio JukeBox TV",
+                "subtitle": "(Calabria)",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
             },
             {
                 "sublcn": 5,
+                "logo": "lifegate.svg",
+                "name": "LifeGate",
+                "radio": true,
+                "type": "direct",
+                "url": "https://router.xdevel.com/audio0s975809-345/stream/icecast.audio"
+            },
+            {
+                "sublcn": 6,
                 "logo": "zerounotvmusic",
                 "name": "Zerouno TV Music",
                 "type": "hls",
@@ -966,7 +975,7 @@
                 "categorySeparator": "Sport"
             },
             {
-                "sublcn": 7,
+                "sublcn": 8,
                 "logo": "fclameziaterme",
                 "name": "FC Lamezia Terme",
                 "type": "hls",
@@ -977,14 +986,14 @@
                 "categorySeparator": "Canali TV"
             },
             {
-                "sublcn": 8,
+                "sublcn": 9,
                 "logo": "donnashopping",
                 "name": "Donna Shopping",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/donnashoppingtv/donnashoppingtv/playlist.m3u8"
             },
             {
-                "sublcn": 9,
+                "sublcn": 10,
                 "logo": "teleleonessa",
                 "name": "Teleleonessa",
                 "type": "hls",
@@ -994,7 +1003,7 @@
                 "categorySeparator": "News"  
             },
             {
-                "sublcn": 11,
+                "sublcn": 12,
                 "logo": "zerounotvnews",
                 "name": "Zerouno TV News",
                 "type": "hls",
@@ -1004,7 +1013,7 @@
                 "categorySeparator": "Family"  
             },
             {
-                "sublcn": 12,
+                "sublcn": 13,
                 "logo": "primatv",
                 "name": "Prima TV",
                 "type": "hls",
@@ -2077,9 +2086,6 @@
             "type": "hls",
             "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8",
             "hbbtv": [{
-                "categorySeparator": "Canali TV"
-            },
-            {
                 "sublcn": 1,
                 "logo": "iuniortv",
                 "name": "Iunior TV",
@@ -2092,6 +2098,17 @@
                 "name": "Euro TV",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/eurotv/eurotv/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Altre TV"
+            },
+            {
+                "sublcn": 3,
+                "logo": "supersixradio",
+                "name": "SuperSix Radio",
+                "radio": true,
+                "type": "direct",
+                "url": "https://onair22.xdevel.com/proxy/xautocloud_nek2_339?mp=/;stream/;"
             },
             {
                 "sublcn": 4,
@@ -2122,10 +2139,20 @@
                 "url": "https://5f22d76e220e1.streamlock.net/lagodigarda/lagodigarda/playlist.m3u8"
             },
             {
-                "categorySeparator": "Canali Radio"
+                "categorySeparator": "Canali TV"
             },
             {
                 "sublcn": 8,
+                "logo": "111tv",
+                "name": "111 TV",
+                "type": "hls",
+                "url": "https://5db313b643fd8.streamlock.net/111/111/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Canali Radio"
+            },
+            {
+                "sublcn": 9,
                 "logo": "supersixradio",
                 "name": "SuperSix Radio",
                 "radio": true,
@@ -2133,7 +2160,7 @@
                 "url": "https://onair22.xdevel.com/proxy/xautocloud_nek2_339?mp=/;stream/;"
             },
             {
-                "sublcn": 9,
+                "sublcn": 10,
                 "logo": "lombardiatvvintage",
                 "name": "Lombardia TV Vintage",
                 "radio": true,
@@ -2141,7 +2168,7 @@
                 "url": "https://onair22.xdevel.com/proxy/xautocloud_vwdr_335?mp=/;stream/;"
             },
             {
-                "sublcn": 10,
+                "sublcn": 11,
                 "logo": "radiomadeo",
                 "name": "Radio Madeo",
                 "radio": true,
