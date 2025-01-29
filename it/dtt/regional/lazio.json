@@ -125,14 +125,15 @@
             "name": "Teleuniverso",
             "hd": true,
             "type": "hls",
-            "url": "https://stream.cp.ets-sistemi.it:1936/teleuniverso/teleuniverso/playlist.m3u8",
+            "url": "https://stream.ets-sistemi.it:19360/teleuniverso/teleuniverso.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "teleuniverso+1",
                 "name": "Teleuniverso +1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://stream.cp.ets-sistemi.it:1936/teleuniverso1/teleuniverso1/playlist.m3u8"
+                "url": "https://stream.ets-sistemi.it:19360/teleuniverso1/teleuniverso1.m3u8",
+                "disabled": "not-working"
             },
             {
                 "sublcn": 2,
@@ -148,7 +149,7 @@
                 "logo": "tuday",
                 "name": "TU Day",
                 "type": "hls",
-                "url": "https://stream.cp.ets-sistemi.it:1936/tuday/tuday/playlist.m3u8"
+                "url": "https://stream.ets-sistemi.it:19360/tuday/tuday.m3u8"
             }]
         },
         {
@@ -530,7 +531,7 @@
             "logo": "tuday",
             "name": "TU Day",
             "type": "hls",
-            "url": "https://stream.cp.ets-sistemi.it:1936/tuday/tuday/playlist.m3u8"
+            "url": "https://stream.ets-sistemi.it:19360/tuday/tuday.m3u8"
         },
         {
             "lcn": 119,

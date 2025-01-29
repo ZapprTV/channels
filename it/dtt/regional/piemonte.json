@@ -86,7 +86,7 @@
                 "name": "Teleuniverso",
                 "hd": true,
                 "type": "hls",
-                "url": "https://stream.cp.ets-sistemi.it:1936/teleuniverso/teleuniverso/playlist.m3u8"
+                "url": "https://stream.ets-sistemi.it:19360/teleuniverso/teleuniverso.m3u8"
             }]
         },
         {
