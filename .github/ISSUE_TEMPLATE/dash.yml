@@ -43,7 +43,7 @@ body:
   - type: dropdown
     id: zappr
     attributes:
-      label: Il canale funziona da altre parti?
+      label: Il canale dà errore solo su Zappr?
       description: |
         Cerca altri modi di guardare il canale in streaming e dicci se il canale dà errore solo su Zappr o no. Se è un canale HbbTV e hai una TV/decoder abilitato all'HbbTV, ti consigliamo di provare con quello.
       options:

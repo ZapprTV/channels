@@ -6,8 +6,7 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Veneto",
             "type": "dash",
-            "url": "https://tgrveneto-dash-live.akamaized.net/dash/live/2025616/tgrveneto/manifest.mpd",
-            "seek": false
+            "url": "https://tgrveneto-dash-live.akamaized.net/dash/live/2025616/tgrveneto/manifest.mpd"
         },
         {
             "lcn": 10,

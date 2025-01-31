@@ -1,0 +1,405 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Campania",
+            "type": "dash",
+            "url": "https://tgrcampania-dash-live.akamaized.net/dash/live/2025585/tgrcampania/manifest.mpd"
+        },
+        {
+            "lcn": 10,
+            "logo": "canale21",
+            "name": "Canale 21",
+            "type": "hls",
+            "url": "https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S38994111/B7j0ql4XaZtE/playlist.m3u8"
+        },
+        {
+            "lcn": 11,
+            "logo": "televomero",
+            "name": "Televomero",
+            "type": "hls",
+            "url": "https://stream2.xdevel.com/video0s100-23/stream/playlist.m3u8",
+            "license": "xdevel-wms"
+        },
+        {
+            "lcn": 12,
+            "logo": "telea",
+            "name": "Tele A",
+            "type": "hls",
+            "url": "https://lostream.it/hls/telea/video.m3u8"
+        },
+        {
+            "lcn": 14,
+            "logo": "canale8",
+            "name": "Canale 8",
+            "subtitle": "Attivo solo durante alcuni eventi in diretta",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/canale8/canale8/playlist.m3u8"
+        },
+        {
+            "lcn": 16,
+            "logo": "ottochannel",
+            "name": "Otto Channel",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge/smil:live.smil/playlist.m3u8"
+        },
+        {
+            "lcn": 18,
+            "logo": "liratv",
+            "name": "LiraTV",
+            "type": "hls",
+            "url": "https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8?DVR"
+        },
+        {
+            "lcn": 75,
+            "logo": "fltelevision",
+            "name": "FL Television",
+            "type": "hls",
+            "url": "https://tv.radiosaiuz.com:3596/stream/play.m3u8"
+        },
+        {
+            "lcn": 75,
+            "logo": "easytv",
+            "name": "Easy TV",
+            "type": "hls",
+            "url": "https://diretta.arcapuglia.it:8080/live/easytv/index.m3u8"
+        },
+        {
+            "lcn": 75,
+            "logo": "telecolore",
+            "name": "Telecolore",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video14s975955-1911/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 76,
+            "logo": "kisskissnapoli",
+            "name": "Kiss Kiss Napoli TV",
+            "type": "hls",
+            "url": "https://kkcdn02.fluid.stream/KKTVNapoli/smil:KKTVNapoli.smil/playlist.m3u8"
+        },
+        {
+            "lcn": 77,
+            "logo": "teleclubitalia",
+            "name": "TeleClubItalia",
+            "hd": true,
+            "type": "hls",
+            "url": "https://teleclubitalia.iostream.it/teleclubitalia.m3u8"
+        },
+        {
+            "lcn": 78,
+            "logo": "stiletv.svg",
+            "name": "StileTV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://proxy.media.convergenze.it/stiletv/streams/oQOFd7JglHjO1631525551097.m3u8"
+        },
+        {
+            "lcn": 79,
+            "logo": "noratv",
+            "name": "Nora TV",
+            "type": "hls",
+            "url": "https://57068da1deb21.streamlock.net/noratv/noratv/playlist.m3u8"
+        },
+        {
+            "lcn": 79,
+            "logo": "infocilento",
+            "name": "InfoCilento",
+            "type": "hls",
+            "url": "https://proxy.media.convergenze.it/InfoCilento/streams/EToxBtWHNs1xJzsx1719408453352.m3u8"
+        },
+        {
+            "lcn": 80,
+            "logo": "nuvolatv",
+            "name": "Nuvola TV",
+            "type": "hls",
+            "url": "https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8"
+        },
+        {
+            "lcn": 81,
+            "logo": "teleischia",
+            "name": "TeleIschia",
+            "type": "hls",
+            "url": "https://rst.saiuzwebnetwork.it:8081/teleischia/index.m3u8"
+        },
+        {
+            "lcn": 81,
+            "logo": "italia2news",
+            "name": "Italia 2 News",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8"
+        },
+        {
+            "lcn": 82,
+            "logo": "mediatv",
+            "name": "Media TV",
+            "type": "hls",
+            "url": "https://stream3.aswifi.it/mediatv/stream/index.m3u8"
+        },
+        {
+            "lcn": 83,
+            "logo": "tvluna",
+            "name": "TV Luna",
+            "type": "hls",
+            "url": "https://diretta.arcapuglia.it:8080/live/teleluna/index.m3u8"
+        },
+        {
+            "lcn": 84,
+            "logo": "radiocrc",
+            "name": "Radio CRC TV",
+            "type": "hls",
+            "url": "https://rst2.saiuzwebnetwork.it:8081/crc/index.m3u8"
+        },
+        {
+            "lcn": 84,
+            "logo": "labtv",
+            "name": "LabTV",
+            "type": "hls",
+            "url": "https://customer-yzibk50951uq418a.cloudflarestream.com/a58893dee4b9922a75e41b4ec4243f84/manifest/video.m3u8"
+        },
+        {
+            "lcn": 85,
+            "logo": "canale58",
+            "name": "Canale 58",
+            "type": "hls",
+            "url": "zappr://wim/5cb5e611-9473-4b0c-98c9-f23b4a1d6ebf"
+        },
+        {
+            "lcn": 88,
+            "logo": "tvoggi",
+            "name": "TV Oggi",
+            "type": "hls",
+            "url": "zappr://wim/cfb54b0e-b5fb-4ed5-9ae0-bec1dc02e596"
+        },
+        {
+            "lcn": 89,
+            "logo": "telestabia",
+            "name": "TeleStabia",
+            "type": "hls",
+            "url": "https://stream3.aswifi.it/giglitv/live/index.m3u8"
+        },
+        {
+            "lcn": 91,
+            "logo": "telelaser",
+            "name": "Telelaser",
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9022/9022/playlist.m3u8"
+        },
+        {
+            "lcn": 92,
+            "logo": "telenuova",
+            "name": "Telenuova",
+            "type": "hls",
+            "url": "zappr://wim/a634d9b6-9e30-4cd9-a21d-307a2fb3b75e"
+        },
+        {
+            "lcn": 93,
+            "logo": "radiocapri",
+            "name": "Radio Capri",
+            "type": "hls",
+            "url": "https://live.radiocapri.it/memfs/8ea0b12f-3624-4a80-8079-3d26747ae55b.m3u8"
+        },
+        {
+            "lcn": 94,
+            "logo": "videonola",
+            "name": "Videonola",
+            "type": "hls",
+            "url": "https://videonola.aswifi.it/videonolaabr/live.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "telestabia",
+                "name": "TeleStabia",
+                "type": "hls",
+                "url": "https://stream3.aswifi.it/giglitv/live/index.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiostereo5tv",
+                "name": "Radio Stereo 5 TV",
+                "type": "hls",
+                "url": "https://stream1.aswifi.it/stereo5/live/index.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "settv",
+                "name": "SET TV",
+                "type": "hls",
+                "url": "https://stream1.aswifi.it/settv/live/index.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "mividatv",
+                "name": "Mi Vida TV",
+                "type": "hls",
+                "url": "https://webtv.topwebhost.gr:3205/stream/play.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "telecolore",
+                "name": "Telecolore",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video14s975955-1911/stream/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 95,
+            "logo": "canale95",
+            "name": "Canale 95",
+            "type": "hls",
+            "url": "zappr://wim/93bfc6f4-558c-44af-8415-81bbec6284ca"
+        },
+        {
+            "lcn": 96,
+            "logo": "tv7benevento",
+            "name": "TV7",
+            "type": "hls",
+            "url": "https://msh0320.stream.seeweb.it/live/flv:tv7.sdp/playlist.m3u8",
+            "cssfix": "stretch"
+        },
+        {
+            "lcn": 96,
+            "logo": "campaniatv",
+            "name": "Campania TV",
+            "subtitle": "Non sempre attivo",
+            "type": "twitch",
+            "url": "telemiracolistory"
+        },
+        {
+            "lcn": 97,
+            "logo": "settv",
+            "name": "SET TV",
+            "type": "hls",
+            "url": "https://stream1.aswifi.it/settv/live/index.m3u8"
+        },
+        {
+            "lcn": 98,
+            "logo": "rete+italia",
+            "name": "Rete+Italia",
+            "subtitle": "Non sempre attivo",
+            "type": "twitch",
+            "url": "tvnapoli1"
+        },
+        {
+            "lcn": 99,
+            "logo": "campiflegrei",
+            "name": "Campi Flegrei",
+            "type": "hls",
+            "url": "https://rst2.saiuzwebnetwork.it:8081/campiflegreitv/index.m3u8"
+        },
+        {
+            "lcn": 110,
+            "logo": "teledehon",
+            "name": "Tele Dehon",
+            "hd": true,
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8"
+        },
+        {
+            "lcn": 114,
+            "logo": "sudtv",
+            "name": "Sud TV",
+            "type": "twitch",
+            "url": "sudtv114"
+        },
+        {
+            "lcn": 117,
+            "logo": "gtchannel",
+            "name": "GT Channel",
+            "subtitle": "Attivo solo durante GT Preziosi (dal lunedì al sabato e dalle 13:30 alle 17:00)",
+            "type": "twitch",
+            "url": "gtchanneltwitch"
+        },
+        {
+            "lcn": 176,
+            "logo": "unotv",
+            "name": "Uno TV",
+            "type": "hls",
+            "url": "https://stream1.aswifi.it/unotv/live/index.m3u8"
+        },
+        {
+            "lcn": 181,
+            "logo": "rtcquartarete",
+            "name": "RTC Quarta Rete",
+            "type": "hls",
+            "url": "https://msh0232.stream.seeweb.it/live/stream00.sdp/playlist.m3u8"
+        },
+        {
+            "lcn": 183,
+            "logo": "radiomarte",
+            "name": "Radio Marte TV",
+            "type": "hls",
+            "url": "https://router.xdevel.com/video0s975753-750/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 189,
+            "logo": "partenopetv",
+            "name": "Partenope TV",
+            "type": "hls",
+            "url": "https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8"
+        },
+        {
+            "lcn": 214,
+            "logo": "sportchannel214",
+            "name": "Sport Channel 214",
+            "subtitle": "Non sempre attivo",
+            "type": "twitch",
+            "url": "sportchannelnews"
+        },
+        {
+            "lcn": 351,
+            "logo": "70-80",
+            "name": "70-80.it",
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+        },
+        {
+            "lcn": 716,
+            "logo": "radioclub91",
+            "name": "Radio Club 91",
+            "radio": true,
+            "type": "direct",
+            "url": "https://stream5.xdevel.com/audio0s976546-1307/stream/icecast.audio",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radioclub91",
+                "name": "Radio Club 91 TV",
+                "radio": true,
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video0s976546-2079/stream/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 777,
+            "logo": "radiocastelluccio",
+            "name": "Radio Castelluccio",
+            "radio": true,
+            "type": "direct",
+            "url": "https://stream3.xdevel.com/audio0s975429-130/stream/icecast.audio",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radiocastelluccio",
+                "name": "Radio Castelluccio TV",
+                "type": "hls",
+                "url": "https://stream9.xdevel.com/video0s975429-131/stream/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 788,
+            "logo": "romanticaradio.svg",
+            "name": "Romantica Radio",
+            "radio": true,
+            "type": "direct",
+            "url": "https://onair18.xdevel.com/proxy/romantica_ice?mp=/romantica",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "romanticaradio.svg",
+                "name": "Romantica TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8"
+            }]
+        }
+    ]
+}

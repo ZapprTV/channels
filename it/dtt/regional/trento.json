@@ -6,8 +6,7 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Trento",
             "type": "dash",
-            "url": "https://tgrtrento-dash-live.akamaized.net/dash/live/2025613/tgrtrento/manifest.mpd",
-            "seek": false
+            "url": "https://tgrtrento-dash-live.akamaized.net/dash/live/2025613/tgrtrento/manifest.mpd"
         },
         {
             "lcn": 10,

@@ -1,0 +1,164 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Molise",
+            "type": "dash",
+            "url": "https://tgrmolise-dash-live.akamaized.net/dash/live/2025607/tgrmolise/manifest.mpd"
+        },
+        {
+            "lcn": 10,
+            "logo": "rete8",
+            "name": "Rete 8",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8"
+        },
+        {
+            "lcn": 11,
+            "logo": "telemolise",
+            "name": "Telemolise",
+            "type": "hls",
+            "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise4K/Telemolise4K/playlist.m3u8",
+            "http": true,
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "diciotto",
+                "name": "Diciotto",
+                "type": "hls",
+                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise2-FB/Telemolise2/playlist.m3u8",
+                "http": true
+            }]
+        },
+        {
+            "lcn": 12,
+            "logo": "laqtv",
+            "name": "LaQtv",
+            "type": "iframe",
+            "url": "https://vimeo.com/event/4648215/embed"
+        },
+        {
+            "lcn": 13,
+            "logo": "tvsei",
+            "name": "TVSEI",
+            "type": "hls",
+            "url": "http://64111bb42baf8.streamlock.net:1935/TvSeiHBBTV/tvseiWebPresenter/playlist.m3u8",
+            "http": true,
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "telemolise",
+                "name": "Telemolise",
+                "type": "hls",
+                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise4K/Telemolise4K/playlist.m3u8",
+                "http": true
+            },
+            {
+                "sublcn": 2,
+                "logo": "diciotto",
+                "name": "Diciotto",
+                "type": "hls",
+                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise2-FB/Telemolise2/playlist.m3u8",
+                "http": true
+            }]
+        },
+        {
+            "lcn": 14,
+            "logo": "telemax",
+            "name": "Telemax",
+            "type": "hls",
+            "url": "https://livetv.telemaxtv.it/hls/mystream.m3u8"
+        },
+        {
+            "lcn": 15,
+            "logo": "superj",
+            "name": "Super J",
+            "type": "hls",
+            "url": "https://59d39900ebfb8.streamlock.net/SuperJtv/SuperJtv/playlist.m3u8"
+        },
+        {
+            "lcn": 17,
+            "logo": "teleregioneabruzzo.svg",
+            "name": "TeleRegione",
+            "type": "iframe",
+            "url": "https://www.youtube.com/channel/UCfcTpIJg9uVwfHxvq5090ow",
+            "api": "cloudflare"
+        },
+        {
+            "lcn": 18,
+            "logo": "diciotto",
+            "name": "Diciotto",
+            "type": "hls",
+            "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise2-FB/Telemolise2/playlist.m3u8",
+            "http": true
+        },
+        {
+            "lcn": 75,
+            "logo": "rete8sport",
+            "name": "Rete 8 Sport",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8"
+        },
+        {
+            "lcn": 76,
+            "logo": "telesirio",
+            "name": "TeleSirio",
+            "type": "hls",
+            "url": "https://www.telesirio.it/live/stream.m3u8"
+        },
+        {
+            "lcn": 77,
+            "logo": "tlt77",
+            "name": "TLT Molise",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/tltmolise/tltmolise/playlist.m3u8"
+        },
+        {
+            "lcn": 89,
+            "logo": "teleuniverso",
+            "name": "Teleuniverso",
+            "hd": true,
+            "type": "hls",
+            "url": "https://stream.ets-sistemi.it:19360/teleuniverso/teleuniverso.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "teleuniverso+1",
+                "name": "Teleuniverso +1",
+                "hd": true,
+                "type": "hls",
+                "url": "https://stream.ets-sistemi.it:19360/teleuniverso1/teleuniverso1.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "tguniverso",
+                "name": "Ultimo TG Universo",
+                "hd": true,
+                "ondemand": true,
+                "type": "direct",
+                "url": "https://www.teleuniverso.tv/VIDEO/TG/TGTU.mp4"
+            },
+            {
+                "sublcn": 3,
+                "logo": "tuday",
+                "name": "TU Day",
+                "type": "hls",
+                "url": "https://stream.ets-sistemi.it:19360/tuday/tuday.m3u8"
+            }]
+        },
+        {
+            "lcn": 98,
+            "logo": "radioparsifaltv",
+            "name": "Radio Parsifal TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://stream9.xdevel.com/video0s976542-1303/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 99,
+            "logo": "trsp",
+            "name": "TRSP",
+            "type": "hls",
+            "url": "https://5a1178b42cc03.streamlock.net/trsptv/trsptv/playlist.m3u8"
+        }
+    ]
+}

@@ -106,10 +106,23 @@
                         "title": "Contrassegna stream come non visibile tramite HTTPS",
                         "description": "Se l'URL della stream non usa il protocollo HTTPS e va per forza visto tramite HTTP, l'URL viene riprodotto in una nuova finestra che usa il protocollo HTTP."
                     },
+                    "license": {
+                        "type": "string",
+                        "title": "Tipo di licenza/DRM",
+                        "description": "Quale sistema di licenza/DRM usare per riprodurre il canale.",
+                        "enum": ["xdevel-wms"],
+                        "meta:enum": {
+                            "xdevel-wms": "Xdevel WMS Auth Sign (play.xdevel.com/was)"
+                        },
+                        "anyOf": [{
+                            "const": "xdevel-wms",
+                            "title": "Xdevel WMS Auth Sign (play.xdevel.com/was)"
+                        }]
+                    },
                     "seek": {
                         "type": "boolean",
                         "title": "Mostra/nascondi barra seek del player",
-                        "description": "Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Principalmente per i canali DASH che non permettono il seeking."
+                        "description": "Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Abilitato di default per stream di tipo DASH, Flash Video e diretto."
                     },
                     "hbbtvapp": {
                         "type": "boolean",
@@ -159,7 +172,7 @@
                         "enum": ["vercel", "cloudflare"],
                         "meta:enum": {
                             "vercel": "Usa l'API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.",
-                            "cloudflare": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e canali YouTube."
+                            "cloudflare": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion, Vimeo Livestream e YouTube (in base all'ID di un canale)."
                         },
                         "anyOf": [{
                             "const": "vercel",
@@ -167,7 +180,7 @@
                         },
                         {
                             "const": "cloudflare",
-                            "description": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e canali YouTube."  
+                            "description": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion, Vimeo Livestream e YouTube (in base all'ID di un canale)."  
                         }]
                     },
                     "cssfix": {
@@ -247,6 +260,9 @@
                                 },
                                 "http": {
                                     "$ref": "#/properties/channels/items/properties/http"
+                                },
+                                "license": {
+                                    "$ref": "#/properties/channels/items/properties/license"
                                 },
                                 "seek": {
                                     "$ref": "#/properties/channels/items/properties/seek"

@@ -7,8 +7,7 @@
             "name": "Rai 1",
             "hd": true,
             "type": "dash",
-            "url": "https://raiuno2-dash-live.akamaized.net/dash/live/652298/raiuno2/manifest.mpd",
-            "seek": false
+            "url": "https://raiuno2-dash-live.akamaized.net/dash/live/652298/raiuno2/manifest.mpd"
         },
         {
             "lcn": 2,
@@ -16,8 +15,7 @@
             "name": "Rai 2",
             "hd": true,
             "type": "dash",
-            "url": "https://raidue2-dash-live.akamaized.net/dash/live/662736/raidue2/manifest.mpd",
-            "seek": false
+            "url": "https://raidue2-dash-live.akamaized.net/dash/live/662736/raidue2/manifest.mpd"
         },
         {
             "lcn": 103,
@@ -26,8 +24,7 @@
             "subtitle": "(nazionale)",
             "hd": true,
             "type": "dash",
-            "url": "https://raitre1-dash-live.akamaized.net/dash/live/663957/raitre1/manifest.mpd",
-            "seek": false
+            "url": "https://raitre1-dash-live.akamaized.net/dash/live/663957/raitre1/manifest.mpd"
         },
         {
             "lcn": 4,
@@ -97,8 +94,7 @@
             "name": "Rai 4",
             "hd": true,
             "type": "dash",
-            "url": "https://raiquattro1-dash-live.akamaized.net/dash/live/663977/raiquattro1/manifest.mpd",
-            "seek": false
+            "url": "https://raiquattro1-dash-live.akamaized.net/dash/live/663977/raiquattro1/manifest.mpd"
         },
         {
             "lcn": 22,
@@ -114,8 +110,7 @@
             "name": "Rai 5",
             "hd": true,
             "type": "dash",
-            "url": "https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.mpd",
-            "seek": false
+            "url": "https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.mpd"
         },
         {
             "lcn": 24,
@@ -123,8 +118,7 @@
             "name": "Rai Movie",
             "hd": true,
             "type": "dash",
-            "url": "https://raimovie1-dash-live.akamaized.net/dash/live/663983/raimovie1/manifest.mpd",
-            "seek": false
+            "url": "https://raimovie1-dash-live.akamaized.net/dash/live/663983/raimovie1/manifest.mpd"
         },
         {
             "lcn": 25,
@@ -132,8 +126,7 @@
             "name": "Rai Premium",
             "hd": true,
             "type": "dash",
-            "url": "https://raipremium1-dash-live.akamaized.net/dash/live/663979/raipremium1/manifest.mpd",
-            "seek": false
+            "url": "https://raipremium1-dash-live.akamaized.net/dash/live/663979/raipremium1/manifest.mpd"
         },
         {
             "lcn": 26,
@@ -399,8 +392,7 @@
             "name": "Rai Scuola",
             "hd": true,
             "type": "dash",
-            "url": "https://raiscuola1-dash-live.akamaized.net/dash/live/663975/raiscuola1/manifest.mpd",
-            "seek": false
+            "url": "https://raiscuola1-dash-live.akamaized.net/dash/live/663975/raiscuola1/manifest.mpd"
         },
         {
             "lcn": 58,
@@ -1301,8 +1293,7 @@
             "logo": "genius240",
             "name": "Genius 240",
             "type": "flv",
-            "url": "https://stream-cdn-iad.vaughnsoft.net/play/live_geniussrl.flv",
-            "seek": false
+            "url": "https://stream-cdn-iad.vaughnsoft.net/play/live_geniussrl.flv"
         },
         {
             "lcn": 242,
@@ -2069,7 +2060,31 @@
             "logo": "radiomargheritapiù",
             "name": "Radio Margherita Più",
             "type": "hls",
-            "url": "https://648026e87a75e.streamlock.net/radiomargherita/radiomargherita/playlist.m3u8"
+            "url": "https://648026e87a75e.streamlock.net/radiomargherita/radiomargherita/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radiomargherita",
+                "name": "Radio Margherita",
+                "radio": true,
+                "type": "direct",
+                "url": "https://streaming.radiomargherita.com/stream/radiomargherita"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radioarcobaleno",
+                "name": "Radio Arcobaleno",
+                "radio": true,
+                "type": "direct",
+                "url": "https://streaming.radiomargherita.com/stream/radioarcobaleno"
+            },
+            {
+                "sublcn": 3,
+                "logo": "canzoninapoletane",
+                "name": "Canzoni Napoletane",
+                "radio": true,
+                "type": "direct",
+                "url": "https://streaming.radiomargherita.com:8006/stream"
+            }]
         },
         {
             "lcn": 831,

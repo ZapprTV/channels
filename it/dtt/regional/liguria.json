@@ -6,8 +6,7 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Liguria",
             "type": "dash",
-            "url": "https://tgrliguria-dash-live.akamaized.net/dash/live/2025588/tgrliguria/manifest.mpd",
-            "seek": false
+            "url": "https://tgrliguria-dash-live.akamaized.net/dash/live/2025588/tgrliguria/manifest.mpd"
         },
         {
             "lcn": 10,
@@ -228,7 +227,8 @@
             "logo": "tvyesitalia",
             "name": "TV Yes",
             "type": "hls",
-            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8"
+            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8",
+            "disabled": "not-working"
         },
         {
             "lcn": 85,
