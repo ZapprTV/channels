@@ -281,6 +281,30 @@
 
 
 
+### channels.license
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Tipo di licenza/DRM</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Quale sistema di licenza/DRM usare per riprodurre il canale.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 ### channels.seek
 
 
@@ -292,7 +316,7 @@
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Principalmente per i canali DASH che non permettono il seeking.</td>
+      <td colspan="2">Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Abilitato di default per stream di tipo DASH, Flash Video e diretto.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -408,7 +432,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e canali YouTube.</dd></dl></td>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion, Vimeo Livestream e YouTube (in base all&#x27;ID di un canale).</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -718,6 +742,30 @@
 
 
 
+### channels.hbbtv.license
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Tipo di licenza/DRM</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Quale sistema di licenza/DRM usare per riprodurre il canale.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 ### channels.hbbtv.seek
 
 
@@ -729,7 +777,7 @@
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Principalmente per i canali DASH che non permettono il seeking.</td>
+      <td colspan="2">Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Abilitato di default per stream di tipo DASH, Flash Video e diretto.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -845,7 +893,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e canali YouTube.</dd></dl></td>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion, Vimeo Livestream e YouTube (in base all&#x27;ID di un canale).</dd></dl></td>
     </tr>
   </tbody>
 </table>
