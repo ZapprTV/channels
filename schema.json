@@ -62,7 +62,7 @@
                             "dash": "DASH (.mpd)",
                             "flv": "Flash Video (.flv)",
                             "twitch": "Twitch (username)",
-                            "youtube": "YouTube (ID video)",
+                            "youtube": "YouTube (ID video o canale)",
                             "iframe": "IFrame (URL)",
                             "direct": "'Diretto' (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast."
                         },
@@ -84,7 +84,7 @@
                         },
                         {
                             "const": "youtube",
-                            "title": "YouTube (ID video)"
+                            "title": "YouTube (ID video o canale)"
                         },
                         {
                             "const": "iframe",
@@ -172,7 +172,7 @@
                         "enum": ["vercel", "cloudflare"],
                         "meta:enum": {
                             "vercel": "Usa l'API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.",
-                            "cloudflare": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion, Vimeo Livestream e YouTube (in base all'ID di un canale)."
+                            "cloudflare": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream."
                         },
                         "anyOf": [{
                             "const": "vercel",
@@ -180,7 +180,7 @@
                         },
                         {
                             "const": "cloudflare",
-                            "description": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion, Vimeo Livestream e YouTube (in base all'ID di un canale)."  
+                            "description": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream."  
                         }]
                     },
                     "cssfix": {
