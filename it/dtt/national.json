@@ -1129,7 +1129,7 @@
             "logo": "apchannel",
             "name": "AP Channel",
             "type": "hls",
-            "url": "https://stream.cast.ets-sistemi.it:3741/hybrid/play.m3u8"
+            "url": "https://stream.cast.ets-sistemi.it:3741/live/life120itlive.m3u8"
         },
         {
             "lcn": 221,
