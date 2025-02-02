@@ -59,7 +59,21 @@
             "name": "VideoTolentino",
             "subtitle": "(Canale 16 Marche)",
             "type": "hls",
-            "url": "https://5c389faa13be3.streamlock.net:9553/8006/8006/playlist.m3u8"
+            "url": "https://5c389faa13be3.streamlock.net:9553/8006/8006/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radiolinean1",
+                "name": "Radio Linea n°1 TV",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/radiolineatv/radiolineatv/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "studio7tv",
+                "name": "Studio 7 TV",
+                "type": "hls",
+                "url": "https://stream9.xdevel.com/video0s976596-1371/stream/playlist.m3u8"
+            }]
         },
         {
             "lcn": 17,
@@ -94,14 +108,107 @@
             "logo": "radiolinean1",
             "name": "Radio Linea n°1 TV",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/radiolineatv/radiolineatv/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/radiolineatv/radiolineatv/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radioskyline",
+                "name": "Radio Skyline TV",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/skylinetv/skylinetv/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Webradio"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiolinealove",
+                "name": "Radio Linea Love",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8120/radio.mp3"  
+            },
+            {
+                "sublcn": 3,
+                "logo": "radiolineaitalia",
+                "name": "Radio Linea Italia",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8110/radio.mp3"  
+            },
+            {
+                "sublcn": 4,
+                "logo": "radiolineadrive",
+                "name": "Radio Linea Drive",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8100/radio.mp3"  
+            },
+            {
+                "sublcn": 5,
+                "logo": "radiolineasportenergy",
+                "name": "Radio Linea Sport Energy",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8130/radio.mp3"  
+            },
+            {
+                "sublcn": 6,
+                "logo": "radiolinearock",
+                "name": "Radio Linea Rock",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8140/radio.mp3"  
+            },
+            {
+                "categorySeparator": "70 80 90"
+            },
+            {
+                "sublcn": 7,
+                "logo": "radio708090",
+                "name": "Radio 70 80 90",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8170/radio.mp3"
+            },
+            {
+                "sublcn": 8,
+                "logo": "radio708090italia",
+                "name": "Radio 70 80 90 Italia",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8070/radio.mp3"
+            },
+            {
+                "sublcn": 9,
+                "logo": "radio708090dance",
+                "name": "Radio 70 80 90 Dance",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8060/radio.mp3"
+            },
+            {
+                "sublcn": 10,
+                "logo": "radio708090rock",
+                "name": "Radio 70 80 90 Rock",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8090/radio.mp3"
+            }]
         },
         {
             "lcn": 78,
             "logo": "studio7tv",
             "name": "Studio 7 TV",
             "type": "hls",
-            "url": "https://stream9.xdevel.com/video0s976596-1371/stream/playlist.m3u8"
+            "url": "https://stream9.xdevel.com/video0s976596-1371/stream/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radiostudio7",
+                "name": "Radio Studio 7",
+                "radio": true,
+                "type": "direct",
+                "url": "https://stream5.xdevel.com/audio0s976596-1365/stream/icecast.audio"
+            }]
         },
         {
             "lcn": 79,
@@ -143,14 +250,90 @@
             "logo": "emmetv",
             "name": "EmmeTV",
             "type": "hls",
-            "url": "https://ssh101stream.ssh101.com/akamaissh101/ssh101/emmetv89/playlist.m3u8"
+            "url": "https://ssh101stream.ssh101.com/akamaissh101/ssh101/emmetv89/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "emmeigsport",
+                "name": "Emme IG Sport",
+                "type": "hls",
+                "url": "https://ssh101stream.ssh101.com/akamaissh101/ssh101/emmeigsport47/playlist.m3u8"
+            }]
         },
         {
             "lcn": 96,
             "logo": "radioskyline",
-            "name": "Radio Skyline",
+            "name": "Radio Skyline TV",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/skylinetv/skylinetv/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/skylinetv/skylinetv/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radiolinean1",
+                "name": "Radio Linea n°1 TV",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/radiolineatv/radiolineatv/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Webradio"  
+            },
+            {
+                "sublcn": 2,
+                "logo": "radioskylinesoul",
+                "name": "Radio Skyline Soul",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8040/radio.mp3"
+            },
+            {
+                "sublcn": 3,
+                "logo": "radioskylinejazz",
+                "name": "Radio Skyline Jazz",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8030/radio.mp3"
+            },
+            {
+                "sublcn": 4,
+                "logo": "radioskylinegroove",
+                "name": "Radio Skyline Groove",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8050/radio.mp3"
+            },
+            {
+                "categorySeparator": "70 80 90"
+            },
+            {
+                "sublcn": 5,
+                "logo": "radio708090",
+                "name": "Radio 70 80 90",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8170/radio.mp3"
+            },
+            {
+                "sublcn": 6,
+                "logo": "radio708090italia",
+                "name": "Radio 70 80 90 Italia",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8070/radio.mp3"
+            },
+            {
+                "sublcn": 7,
+                "logo": "radio708090dance",
+                "name": "Radio 70 80 90 Dance",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8060/radio.mp3"
+            },
+            {
+                "sublcn": 8,
+                "logo": "radio708090rock",
+                "name": "Radio 70 80 90 Rock",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rblive.it:8090/radio.mp3"
+            }]
         },
         {
             "lcn": 99,
