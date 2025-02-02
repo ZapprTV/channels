@@ -182,7 +182,7 @@
             "lcn": 77,
             "logo": "radio104",
             "name": "Radio 104 TV",
-            "subtitle": "Attivo solo durante alcuni programmi",
+            "subtitle": "Non sempre attivo",
             "type": "hls",
             "url": "https://57068da1deb21.streamlock.net/radio104/radio104/playlist.m3u8"
         },
@@ -227,8 +227,7 @@
             "logo": "tvyesitalia",
             "name": "TV Yes",
             "type": "hls",
-            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8",
-            "disabled": "not-working"
+            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8"
         },
         {
             "lcn": 85,

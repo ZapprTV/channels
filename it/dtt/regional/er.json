@@ -202,6 +202,14 @@
             }]
         },
         {
+            "lcn": 81,
+            "logo": "radioitaliaanni60tv",
+            "name": "Radio Italia Anni 60 TV",
+            "subtitle": "(Rete 8 QSVS)",
+            "type": "hls",
+            "url": "https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8"
+        },
+        {
             "lcn": 82,
             "logo": "telecolor",
             "name": "Telecolor",

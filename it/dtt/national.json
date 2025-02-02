@@ -466,13 +466,6 @@
             "url": "https://donnatv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
         },
         {
-            "lcn": 63,
-            "logo": "cs24",
-            "name": "CS24.LIVE",
-            "type": "hls",
-            "url": "https://streaming.softwarecreation.it/CS24/CS24/playlist.m3u8"
-        },
-        {
             "lcn": 64,
             "logo": "supertennis.svg",
             "name": "SuperTennis",
@@ -1170,8 +1163,7 @@
                 "logo": "teleambiente",
                 "name": "TeleAmbiente",
                 "type": "hls",
-                "url": "http://fms.premio.link/mosaic-221-teleambiente/index.m3u8",
-                "http": true
+                "url": "https://5f22d76e220e1.streamlock.net/teleambiente3/teleambiente3/playlist.m3u8"
             }]
         },
         {

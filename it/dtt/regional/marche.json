@@ -1,0 +1,171 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Marche",
+            "type": "dash",
+            "url": "https://tgrmarche-dash-live.akamaized.net/dash/live/2025590/tgrmarche/manifest.mpd"
+        },
+        {
+            "lcn": 10,
+            "logo": "tvcentromarche",
+            "name": "TV Centro Marche",
+            "subtitle": "Attivo solo durante il News TG",
+            "type": "hls",
+            "url": "https://ssh101stream.ssh101.com/akamaissh101/ssh101/tvcm1/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "tvcentromarchenewstg",
+                "name": "Ultima edizione TG",
+                "hd": true,
+                "ondemand": true,
+                "type": "direct",
+                "url": "https://www.tvcentromarche.it/wp-content/uploads/HBBTV/ULTIMAEDIZIONE/ULTIMAEDIZIONE.mp4"
+            },
+            {
+                "sublcn": 2,
+                "logo": "tvcentromarche",
+                "name": "TV Centro Marche +1",
+                "type": "hls",
+                "url": "https://str48.fluid.stream/TV_Centro_Marche/livestream/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 11,
+            "logo": "veratv.svg",
+            "name": "Vera TV",
+            "type": "hls",
+            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/playlist.m3u8"
+        },
+        {
+            "lcn": 12,
+            "logo": "ètvmarche",
+            "name": "èTV Marche",
+            "type": "hls",
+            "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8"
+        },
+        {
+            "lcn": 13,
+            "logo": "tvrs.svg",
+            "name": "TVRS",
+            "type": "hls",
+            "url": "https://cdn8.streamshow.it/cloud-tvrs/tvrs/playlist.m3u8"
+        },
+        {
+            "lcn": 16,
+            "logo": "canale16marche",
+            "name": "VideoTolentino",
+            "subtitle": "(Canale 16 Marche)",
+            "type": "hls",
+            "url": "https://5c389faa13be3.streamlock.net:9553/8006/8006/playlist.m3u8"
+        },
+        {
+            "lcn": 17,
+            "logo": "ètv+",
+            "name": "èTV+",
+            "type": "hls",
+            "url": "https://live.ipstream.it/etvmarche2/etvmarche2.stream/playlist.m3u8"
+        },
+        {
+            "lcn": 18,
+            "logo": "tele2000",
+            "name": "Tele2000",
+            "type": "twitch",
+            "url": "tele2000live"
+        },
+        {
+            "lcn": 19,
+            "logo": "fanotv",
+            "name": "Fano TV",
+            "type": "hls",
+            "url": "https://diretta.arcapuglia.it:8080/live/fanotv/index.m3u8"
+        },
+        {
+            "lcn": 75,
+            "logo": "fmtv75",
+            "name": "FMTV",
+            "type": "hls",
+            "url": "https://bbtv.intvstream.net:3988/hybrid/play.m3u8"
+        },
+        {
+            "lcn": 76,
+            "logo": "radiolinean1",
+            "name": "Radio Linea n°1 TV",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/radiolineatv/radiolineatv/playlist.m3u8"
+        },
+        {
+            "lcn": 78,
+            "logo": "studio7tv",
+            "name": "Studio 7 TV",
+            "type": "hls",
+            "url": "https://stream9.xdevel.com/video0s976596-1371/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 79,
+            "logo": "studiopiù",
+            "name": "StudioPiù TV",
+            "type": "hls",
+            "url": "https://5a1178b42cc03.streamlock.net/studiopiujump/studiopiujump/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "607080radio",
+                "name": "60 70 80 TV",
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/607080stream/607080stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "studiopiùibiza",
+                "name": "StudioPiù Ibiza",
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/studiopiuibiza/studiopiuibiza/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 80,
+            "logo": "rossinitv",
+            "name": "Rossini TV",
+            "type": "hls",
+            "url": "https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8"  
+        },
+        {
+            "lcn": 82,
+            "logo": "607080radio",
+            "name": "60 70 80 TV",
+            "type": "hls",
+            "url": "https://5a1178b42cc03.streamlock.net/607080stream/607080stream/playlist.m3u8"
+        },
+        {
+            "lcn": 89,
+            "logo": "emmetv",
+            "name": "EmmeTV",
+            "type": "hls",
+            "url": "https://ssh101stream.ssh101.com/akamaissh101/ssh101/emmetv89/playlist.m3u8"
+        },
+        {
+            "lcn": 96,
+            "logo": "radioskyline",
+            "name": "Radio Skyline",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/skylinetv/skylinetv/playlist.m3u8"
+        },
+        {
+            "lcn": 99,
+            "logo": "rtm",
+            "name": "RTM",
+            "type": "hls",
+            "url": "https://livestream.com/accounts/10831729/events/3759913",
+            "api": "cloudflare"
+        },
+        {
+            "lcn": 351,
+            "logo": "70-80",
+            "name": "70-80.it",
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+        }
+    ]
+}

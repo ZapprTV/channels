@@ -220,8 +220,7 @@
             "logo": "tvyesitalia",
             "name": "TV Yes",
             "type": "hls",
-            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8",
-            "disabled": "not-working"
+            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8"
         },
         {
             "lcn": 96,

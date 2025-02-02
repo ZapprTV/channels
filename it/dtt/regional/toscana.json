@@ -1,0 +1,199 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Toscana",
+            "type": "dash",
+            "url": "https://tgrtoscana-dash-live.akamaized.net/dash/live/2025612/tgrtoscana/manifest.mpd"
+        },
+        {
+            "lcn": 10,
+            "logo": "rtv38",
+            "name": "RTV38",
+            "type": "hls",
+            "url": "https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/playlist_dvr.m3u8"
+        },
+        {
+            "lcn": 12,
+            "logo": "noitv",
+            "name": "NoiTV",
+            "type": "iframe",
+            "url": "https://player.restream.io/?token=2f048c14b27d49d291bdd84c991ad032"
+        },
+        {
+            "lcn": 13,
+            "logo": "tv9telemaremma",
+            "name": "TV9 Telemaremma",
+            "type": "hls",
+            "url": "https://view.dacast.com/76305317bd6d5f2af13478c9b0ef4aef-live-6339ee65498e3ca8e75590daa7e447f5/adaptive.m3u8"
+        },
+        {
+            "lcn": 14,
+            "logo": "tvl",
+            "name": "TVL",
+            "type": "hls",
+            "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
+        },
+        {
+            "lcn": 15,
+            "logo": "granducatotv",
+            "name": "Granducato TV",
+            "type": "iframe",
+            "url": "https://www.telegranducato.com/VOD/tv/"
+        },
+        {
+            "lcn": 16,
+            "logo": "teletruria",
+            "name": "Teletruria",
+            "type": "hls",
+            "url": "https://cb01a76aa80f4069b2bf82c90466134a.msvdn.net/live/7iyY76l3IDBd/playlist.m3u8"
+        },
+        {
+            "lcn": 18,
+            "logo": "50canale",
+            "name": "50 Canale",
+            "type": "iframe",
+            "url": "https://player.restream.io/?token=f9d7d8512f7547279acd18a4481171af"
+        },
+        {
+            "lcn": 19,
+            "logo": "italia7",
+            "name": "Italia 7",
+            "type": "hls",
+            "url": "https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8",
+            "cssfix": "stretch"
+        },
+        {
+            "lcn": 73,
+            "logo": "radiobruno",
+            "name": "Radio Bruno",
+            "type": "hls",
+            "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 75,
+            "logo": "tvprato",
+            "name": "TVP",
+            "type": "hls",
+            "url": "https://live.mariatvcdn.com/tvprato/2db0dd5674586686a867ec52c3aa8e06.sdp/mono.m3u8"
+        },
+        {
+            "lcn": 76,
+            "logo": "tvyesitalia",
+            "name": "TV Yes",
+            "type": "hls",
+            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8"
+        },
+        {
+            "lcn": 77,
+            "logo": "tv1",
+            "name": "TV1",
+            "type": "hls",
+            "url": "https://stream.mariatvcdn.com/tv1/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8"
+        },
+        {
+            "lcn": 78,
+            "logo": "radio104",
+            "name": "Radio 104 TV",
+            "subtitle": "Non sempre attivo",
+            "type": "hls",
+            "url": "https://57068da1deb21.streamlock.net/radio104/radio104/playlist.m3u8"
+        },
+        {
+            "lcn": 81,
+            "logo": "arezzotv.svg",
+            "name": "Arezzo TV",
+            "type": "iframe",
+            "url": "https://www.youtube.com/channel/UCAakJCVVkr83a144CbGvRgw",
+            "api": "cloudflare"
+        },
+        {
+            "lcn": 83,
+            "logo": "telecentro2",
+            "name": "TeleCentro 2",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/telecentro2/telecentro2/playlist.m3u8"
+        },
+        {
+            "lcn": 84,
+            "logo": "canale3toscana",
+            "name": "Canale 3 Toscana",
+            "type": "hls",
+            "url": "https://router.xdevel.com/video0s976737-1453/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 85,
+            "logo": "telesandomenico",
+            "name": "TSD",
+            "type": "hls",
+            "url": "https://stream.mariatvcdn.com/tsd/7c59373bfdb38201b9215ff86f0ce6af.sdp/mono.m3u8"
+        },
+        {
+            "lcn": 87,
+            "logo": "umbriatv",
+            "name": "Umbria TV",
+            "type": "hls",
+            "url": "https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8"
+        },
+        {
+            "lcn": 89,
+            "logo": "telecamaiorenuoviorizzonti",
+            "name": "Telecamaiore Nuovi Orizzonti",
+            "type": "youtube",
+            "url": "M8BwA5kS3Vo"
+        },
+        {
+            "lcn": 91,
+            "logo": "sienatv",
+            "name": "Siena TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://router.xdevel.com/video0s976727-1441/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 92,
+            "logo": "radiofirenzeviola",
+            "name": "Radio Firenze Viola",
+            "type": "hls",
+            "url": "https://tmw.fluid.stream/rfviola_tv/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 93,
+            "logo": "ntitoscana",
+            "name": "NTI",
+            "type": "hls",
+            "url": "https://www.ntimedia.it/video/S0B/S0B_master.m3u8"
+        },
+        {
+            "lcn": 112,
+            "logo": "ideaplus",
+            "name": "Idea Plus",
+            "type": "hls",
+            "url": "https://rst.saiuzwebnetwork.it:19360/teleidea/teleidea.m3u8"
+        },
+        {
+            "lcn": 180,
+            "logo": "radioitaliacina",
+            "name": "Radio Italia Cina",
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9054/9054/playlist.m3u8"
+        },
+        {
+            "lcn": 351,
+            "logo": "70-80",
+            "name": "70-80.it",
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+        },
+        {
+            "lcn": 720,
+            "logo": "retetoscanaclassica",
+            "name": "Rete Toscana Classica",
+            "radio": true,
+            "type": "direct",
+            "url": "https://nr12.newradio.it:8744/stream"
+        }
+    ]
+}

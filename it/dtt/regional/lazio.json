@@ -353,8 +353,7 @@
             "logo": "teleambiente",
             "name": "TeleAmbiente",
             "type": "hls",
-            "url": "http://fms.premio.link/mosaic-221-teleambiente/index.m3u8",
-            "http": true
+            "url": "https://5f22d76e220e1.streamlock.net/teleambiente3/teleambiente3/playlist.m3u8"
         },
         {
             "lcn": 19,
@@ -397,8 +396,7 @@
             "logo": "tvyesitalia",
             "name": "TV Yes",
             "type": "hls",
-            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8",
-            "disabled": "not-working"
+            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8"
         },
         {
             "lcn": 79,
@@ -503,6 +501,13 @@
             "name": "Romit TV",
             "type": "hls",
             "url": "https://stream10.xdevel.com/video21s975955-2185/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 110,
+            "logo": "retesole",
+            "name": "Retesole",
+            "type": "hls",
+            "url": "https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8"
         },
         {
             "lcn": 112,
