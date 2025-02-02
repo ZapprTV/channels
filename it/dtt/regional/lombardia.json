@@ -335,9 +335,8 @@
             "lcn": 191,
             "logo": "milanow",
             "name": "Milanow",
-            "type": "iframe",
-            "url": "https://www.youtube.com/channel/UC3yM6JHZSBlU8crXIDHK-kQ?Milanow",
-            "api": "cloudflare"
+            "type": "youtube",
+            "url": "9CE1Gb-TMR0"
         },
         {
             "lcn": 277,

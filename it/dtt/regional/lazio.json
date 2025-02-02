@@ -556,9 +556,9 @@
             "logo": "rietilifetv",
             "name": "Rieti Life TV",
             "hd": true,
-            "type": "iframe",
-            "url": "https://www.youtube.com/channel/UCifbxYbkxKk1B0tjeo30iIg",
-            "api": "cloudflare"
+            "type": "youtube",
+            "url": "UCifbxYbkxKk1B0tjeo30iIg",
+            "disabled": "not-working"
         },
         {
             "lcn": 212,

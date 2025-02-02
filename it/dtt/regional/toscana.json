@@ -63,7 +63,44 @@
             "name": "Italia 7",
             "type": "hls",
             "url": "https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8",
-            "cssfix": "stretch"
+            "cssfix": "stretch",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "laziotv",
+                "name": "Lazio TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "goldtv",
+                "name": "Gold TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://goldtv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "teleregione74",
+                "name": "Teleregione",
+                "type": "hls",
+                "url": "https://streaming.softwarecreation.it/TR118/TR118/playlist.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "goldtvsat",
+                "name": "Gold TV Sat",
+                "type": "hls",
+                "url": "https://goldsattv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+            },
+            {
+                "sublcn": 8,
+                "logo": "telegenova.svg",
+                "name": "Telegenova",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/telegenova/telegenova/playlist.m3u8"
+            }]
         },
         {
             "lcn": 73,
@@ -105,9 +142,8 @@
             "lcn": 81,
             "logo": "arezzotv.svg",
             "name": "Arezzo TV",
-            "type": "iframe",
-            "url": "https://www.youtube.com/channel/UCAakJCVVkr83a144CbGvRgw",
-            "api": "cloudflare"
+            "type": "youtube",
+            "url": "UCAakJCVVkr83a144CbGvRgw"
         },
         {
             "lcn": 83,

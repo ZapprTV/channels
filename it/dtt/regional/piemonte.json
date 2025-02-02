@@ -93,9 +93,8 @@
             "logo": "videogruppo",
             "name": "VideoGruppo",
             "subtitle": "In alcuni orari Top Planet",
-            "type": "iframe",
-            "url": "https://www.youtube.com/channel/UC3yM6JHZSBlU8crXIDHK-kQ?VideoGruppo",
-            "api": "cloudflare"
+            "type": "youtube",
+            "url": "Q22k1YCP8Co"
         },
         {
             "lcn": 14,

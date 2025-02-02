@@ -671,9 +671,8 @@
             "lcn": 132,
             "logo": "lineagem",
             "name": "Lineagem",
-            "type": "iframe",
-            "url": "https://www.youtube.com/channel/UC-dZ1irw0kSGVg0VoeKLddw",
-            "api": "cloudflare"
+            "type": "youtube",
+            "url": "UC-dZ1irw0kSGVg0VoeKLddw"
         },
         {
             "lcn": 133,

@@ -80,9 +80,8 @@
             "lcn": 17,
             "logo": "teleregioneabruzzo.svg",
             "name": "TeleRegione",
-            "type": "iframe",
-            "url": "https://www.youtube.com/channel/UCfcTpIJg9uVwfHxvq5090ow",
-            "api": "cloudflare"
+            "type": "youtube",
+            "url": "I8sJDmM9L9s"
         },
         {
             "lcn": 18,
