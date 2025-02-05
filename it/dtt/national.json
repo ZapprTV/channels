@@ -1277,6 +1277,27 @@
                 "radio": true,
                 "type": "direct",
                 "url": "https://nr12.newradio.it:8838/stream"
+            },
+            {
+                "sublcn": 3,
+                "logo": "radiocasasanremo",
+                "name": "Radio CasaSanremo",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video3s975911-1255/stream/playlist.m3u8"  
+            },
+            {
+                "sublcn": 4,
+                "logo": "casasanremobazr.svg",
+                "name": "CasaSanremo TV",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video0s975911-633/stream/playlist.m3u8"  
+            },
+            {
+                "sublcn": 5,
+                "logo": "heddymedia",
+                "name": "Heddy Live",
+                "type": "hls",
+                "url": "https://customer-ih5s7ura71gdwrsb.cloudflarestream.com/a3806458ab46e3f7db9ffbb4dcb756a7/manifest/video.m3u8"  
             }]
         },
         {
