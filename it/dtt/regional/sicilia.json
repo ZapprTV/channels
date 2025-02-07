@@ -1,0 +1,638 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Sicilia",
+            "type": "dash",
+            "url": "https://tgrsicilia-dash-live.akamaized.net/dash/live/2025611/tgrsicilia/manifest.mpd"
+        },
+        {
+            "lcn": 10,
+            "logo": "antennasicilia",
+            "name": "Antenna Sicilia",
+            "hd": true,
+            "type": "twitch",
+            "url": "antennasicilia"
+        },
+        {
+            "lcn": 11,
+            "logo": "telecolorsicilia",
+            "name": "Telecolor",
+            "hd": true,
+            "type": "twitch",
+            "url": "telecolorlive"
+        },
+        {
+            "lcn": 14,
+            "logo": "videoregionesicilia.svg",
+            "name": "Video Regione",
+            "hd": true,
+            "type": "dash",
+            "url": "https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/manifest.mpd"
+        },
+        {
+            "lcn": 15,
+            "logo": "telerent7gold",
+            "name": "Telerent 7 Gold",
+            "disabled": "not-working",
+            "hbbtv": [{
+                "categorySeparator": "Televisioni"
+            },
+            {
+                "sublcn": 4,
+                "logo": "tvm",
+                "name": "TVM",
+                "type": "hls",
+                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "primatv",
+                "name": "Prima TV",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/primatv/primatv/playlist.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "telemessina",
+                "name": "TeleMessina",
+                "type": "hls",
+                "url": "https://5db313b643fd8.streamlock.net/telemessina/telemessina/playlist.m3u8"
+            },
+            {
+                "sublcn": 7,
+                "logo": "videostarsicilia",
+                "name": "Video Star",
+                "type": "hls",
+                "url": "https://stream9.xdevel.com/video0s976556-1321/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 9,
+                "logo": "latr3",
+                "name": "La Tr3",
+                "type": "hls",
+                "url": "http://tsw.streamingwebtv24.it:1935/eslife1/eslife1/playlist.m3u8"  
+            },
+            {
+                "sublcn": 10,
+                "logo": "globustelevision",
+                "name": "Globus Television",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/globustelevision/globustelevision/playlist.m3u8"
+            },
+            {
+                "sublcn": 11,
+                "logo": "steuropechannel",
+                "name": "STEurope Channel",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8"
+            },
+            {
+                "sublcn": 12,
+                "logo": "gschannel",
+                "name": "GS Channel",
+                "hd": true,
+                "type": "hls",
+                "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8" 
+            },
+            {
+                "sublcn": 13,
+                "logo": "televallo",
+                "name": "Televallo",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8"
+            },
+            {
+                "sublcn": 14,
+                "logo": "antennaunolentini",
+                "name": "Antenna Uno Lentini",
+                "ondemand": true,
+                "subtitle": "(Napoli Ieri e Oggi episodio 1)",
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Napolierioggi/Napoli%20ieri%20e%20oggi%201.mp4",
+                "http": true            
+            },
+            {
+                "sublcn": 15,
+                "logo": "radiotivùazzurra",
+                "name": "Radio Tivù Azzurra",
+                "type": "hls",
+                "url": "https://video.azotosolutions.com:9553/radiotivuazzurralive/radiotivuazzurralive/playlist.m3u8"
+            },
+            {
+                "sublcn": 16,
+                "logo": "globusradiostation",
+                "name": "Globus Radio Station",
+                "radio": true,
+                "type": "direct",
+                "url": "https://ns3156088.ip-51-89-96.eu:8160/stream"            
+            },
+            {
+                "sublcn": 18,
+                "logo": "radioitaliaanni60.svg",
+                "name": "Radio Italia Anni 60 Sicilia",
+                "radio": true,
+                "type": "direct",
+                "url": "https://stream3.xdevel.com/audio1s975388-101/stream/icecast.audio"
+            },
+            {
+                "sublcn": 19,
+                "logo": "radioitaliaanni60tv",
+                "name": "Radio Italia Anni 60 TV",
+                "type": "hls",
+                "url": "https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8"
+            },
+            {
+                "sublcn": 21,
+                "logo": "goldsport",
+                "name": "Ultimo Gold Sport",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Ultimo%20Gold%20Sport/GoldSport.mp4",
+                "http": true
+            },
+            {
+                "sublcn": 22,
+                "logo": "goldsport",
+                "name": "Ultimo Speciale Gold Sport",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Ultimo%20Speciale%20Gold%20Sport/SpecialeGoldSport.mp4",
+                "http": true
+            },
+            {
+                "sublcn": 23,
+                "logo": "penalty.svg",
+                "name": "Ultimo Penalty",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Ultimo%20Penalty/penalty.mp4",
+                "http": true
+            },
+            {
+                "categorySeparator": "TG Locali"        
+            },
+            {
+                "sublcn": 25,
+                "logo": "telerent",
+                "name": "Telerent Attualità",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/TelerentTG/telerenttg.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 27,
+                "logo": "reitv",
+                "name": "Ora TG",
+                "ondemand": true,
+                "type": "direct",
+                "url": "https://www.reitv.it/ultimotg.mp4"
+            },
+            {
+                "sublcn": 28,
+                "logo": "sicilia242",
+                "name": "Spazio Notizia",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Guest/sicilia24/tg.mp4",
+                "http": true
+            },
+            {
+                "sublcn": 29,
+                "logo": "videosicilia",
+                "name": "Video Sicilia News",
+                "ondemand": true,
+                "type": "direct",
+                "url": "https://www.videosicilia.com/videosicilianews/VIDEOSICILIANEWS.mp4"
+            },
+            {
+                "sublcn": 30,
+                "logo": "televallo",
+                "name": "TG Vallo",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Guest/tgvallo/tgvallo.mp4",
+                "http": true
+            },
+            {
+                "sublcn": 31,
+                "logo": "latr3",
+                "name": "TR3 News 24",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Guest/tr3/ultimotg.mp4",
+                "http": true
+            },
+            {
+                "sublcn": 33,
+                "logo": "tele8",
+                "name": "TG8 News",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Guest/tele8/ultimotg.mp4",
+                "http": true
+            },
+            {
+                "sublcn": 35,
+                "logo": "gschannel",
+                "name": "GS News",
+                "hd": true,
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Guest/gschannel/TG.mp4",
+                "http": true
+            },
+            {
+                "categorySeparator": "E-Commerce"  
+            },
+            {
+                "sublcn": 36,
+                "logo": "shopvintagetelerent",
+                "name": "Shop Vintage Telerent",
+                "hd": true,
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/E-Commerce/Shop%20vintage%20telerent.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 37,
+                "logo": "orvedo",
+                "name": "Orvedo",
+                "hd": true,
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/E-Commerce/Orvedo.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 38,
+                "logo": "reladol",
+                "name": "Reladol",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/E-Commerce/reladol.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 39,
+                "logo": "svuotamagazzino.svg",
+                "name": "Svuotamagazzino",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/E-Commerce/svuotamagazzino.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 40,
+                "logo": "mondorelax",
+                "name": "MondoRelax",
+                "hd": true,
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/E-Commerce/Mondo%20Relax.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 41,
+                "logo": "batteriabavaria.svg",
+                "name": "Batteria Bavaria",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/E-Commerce/batteriabavaria.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 42,
+                "logo": "dippiùabbigliamento",
+                "name": "Dippiù",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/E-Commerce/dippiu.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 43,
+                "logo": "propostadoppia.svg",
+                "name": "Proposta Doppia",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/E-Commerce/proposta%20doppia.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 44,
+                "logo": "marion",
+                "name": "Marion",
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/E-Commerce/Marion.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 45,
+                "logo": "portaporteseshopping",
+                "name": "Porta Portese",
+                "hd": true,
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/E-Commerce/PortaPortese.mp4",
+                "http": true  
+            },
+            {
+                "sublcn": 46,
+                "logo": "coccomobili",
+                "name": "Cocco Mobili",
+                "hd": true,
+                "ondemand": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Publi-L/Cocco%20Mobili/COCCO%20MOBILI%20RED.mp4",
+                "http": true  
+            }]
+        },
+        {
+            "lcn": 16,
+            "logo": "teleone",
+            "name": "Tele One",
+            "type": "hls",
+            "url": "https://648026e87a75e.streamlock.net/teleone/teleone/playlist.m3u8"
+        },
+        {
+            "lcn": 17,
+            "logo": "videomediterraneo",
+            "name": "Video Mediterraneo",
+            "hd": true,
+            "type": "hls",
+            "url": "https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/playlist.m3u8"
+        },
+        {
+            "lcn": 18,
+            "logo": "reitv",
+            "name": "Rei TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/reitv/reitv/playlist.m3u8"
+        },
+        {
+            "lcn": 19,
+            "logo": "tvm",
+            "name": "TVM",
+            "type": "hls",
+            "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8"
+        },
+        {
+            "lcn": 19,
+            "logo": "rtp.svg",
+            "name": "RTP",
+            "type": "hls",
+            "url": "https://router.xdevel.com/video0s975966-797/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 75,
+            "logo": "canale8sicilia",
+            "name": "Canale 8",
+            "type": "twitch",
+            "url": "canale8"
+        },
+        {
+            "lcn": 75,
+            "logo": "ondatvgiovani",
+            "name": "Onda TV Giovani",
+            "type": "hls",
+            "url": "https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8"
+        },
+        {
+            "lcn": 76,
+            "logo": "vintageradiotv",
+            "name": "Vintage Radio TV",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/vintageradiotv/vintageradiotv/playlist.m3u8"
+        },
+        {
+            "lcn": 80,
+            "logo": "rmktv",
+            "name": "RMK TV",
+            "type": "hls",
+            "url": "https://648026e87a75e.streamlock.net/rmktv/rmktv/playlist.m3u8"
+        },
+        {
+            "lcn": 80,
+            "logo": "turismotv",
+            "name": "Turismo TV",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8",
+            "disabled": "not-working"
+        },
+        {
+            "lcn": 83,
+            "logo": "latr3",
+            "name": "La Tr3",
+            "type": "hls",
+            "url": "http://tsw.streamingwebtv24.it:1935/eslife1/eslife1/playlist.m3u8"  
+        },
+        {
+            "lcn": 83,
+            "logo": "gschannel",
+            "name": "GS Channel",
+            "hd": true,
+            "type": "hls",
+            "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radiogschannel",
+                "name": "Radio GS Channel",
+                "type": "hls",
+                "url": "https://rst.saiuzwebnetwork.it:8081/retereggioradio/index.m3u8"
+            }]
+        },
+        {
+            "lcn": 84,
+            "logo": "tfn",
+            "name": "TFN",
+            "type": "twitch",
+            "url": "live_tfn"
+        },
+        {
+            "lcn": 84,
+            "logo": "sicilia242",
+            "name": "Sicilia 242",
+            "type": "hls",
+            "hd": true,
+            "url": "https://5f22d76e220e1.streamlock.net/sicilia24/sicilia24/playlist.m3u8"
+        },
+        {
+            "lcn": 85,
+            "logo": "tris",
+            "name": "TRIS",
+            "type": "twitch",
+            "url": "tsctris85"
+        },
+        {
+            "lcn": 86,
+            "logo": "alpauno.svg",
+            "name": "Alpauno",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/alpaunotv/alpaunotv/playlist.m3u8"
+        },
+        {
+            "lcn": 86,
+            "logo": "adn24",
+            "name": "ADN24",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
+        },
+        {
+            "lcn": 87,
+            "logo": "telesud",
+            "name": "Telesud",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/asdfgh/asdfgh/playlist.m3u8"
+        },
+        {
+            "lcn": 88,
+            "logo": "primatv",
+            "name": "Prima TV",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/primatv/primatv/playlist.m3u8"
+        },
+        {
+            "lcn": 89,
+            "logo": "teleiblea",
+            "name": "Teleiblea",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/teleiblea/teleiblea/playlist.m3u8"
+        },
+        {
+            "lcn": 89,
+            "logo": "telespaziomessina",
+            "name": "Telespazio Messina",
+            "type": "hls",
+            "url": "https://rtm.cyberspazio.cloud:5443/LiveApp/streams/049229794390395765037801.m3u8"
+        },
+        {
+            "lcn": 90,
+            "logo": "telemistretta.svg",
+            "name": "TeleMistretta",
+            "type": "hls",
+            "url": "https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8"
+        },
+        {
+            "lcn": 91,
+            "logo": "tele8",
+            "name": "Tele8",
+            "type": "hls",
+            "url": "https://57068da1deb21.streamlock.net/teletv8/teletv8/playlist.m3u8"
+        },
+        {
+            "lcn": 96,
+            "logo": "bellaradiotv",
+            "name": "Bella Radio TV",
+            "type": "hls",
+            "url": "https://server.bellaradio.it:1443/live/bellaradiotv/playlist.m3u8"
+        },
+        {
+            "lcn": 97,
+            "logo": "canale97",
+            "name": "Canale 97",
+            "type": "hls",
+            "url": "https://5db313b643fd8.streamlock.net/canale97/canale97/playlist.m3u8"
+        },
+        {
+            "lcn": 98,
+            "logo": "telegela",
+            "name": "Telegela",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/telegela/telegela/playlist.m3u8"
+        },
+        {
+            "lcn": 99,
+            "logo": "businesschannel",
+            "name": "Business Channel",
+            "hd": true,
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/businesschannel/businesschannel/playlist.m3u8"
+        },
+        {
+            "lcn": 110,
+            "logo": "videocalabria.svg",
+            "name": "Video Calabria",
+            "type": "hls",
+            "url": "https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/playlist.m3u8"
+        },
+        {
+            "lcn": 113,
+            "logo": "tcf",
+            "name": "TCF",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video1s977294-1864/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 117,
+            "logo": "lagrandeitalia",
+            "name": "La Grande Italia",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
+        },
+        {
+            "lcn": 176,
+            "logo": "radioricordi",
+            "name": "Radio Ricordi TV",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/radioricorditv/radioricorditv/playlist.m3u8"
+        },
+        {
+            "lcn": 180,
+            "logo": "radiotaormina",
+            "name": "Radio Taormina TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://router.xdevel.com/video1s3-7/stream/playlist_dvr.m3u8"
+        },
+        {
+            "lcn": 184,
+            "logo": "doctv",
+            "name": "Doc TV",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/radiodoctv/radiodoctv/playlist.m3u8"
+        },
+        {
+            "lcn": 195,
+            "logo": "telejato",
+            "name": "Telejato",
+            "type": "hls",
+            "url": "https://648026e87a75e.streamlock.net/telejato/telejato/playlist.m3u8"
+        },
+        {
+            "lcn": 199,
+            "logo": "etnachannel",
+            "name": "Etna Channel",
+            "type": "hls",
+            "url": "https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8"
+        },
+        {
+            "lcn": 211,
+            "logo": "mediasud",
+            "name": "Mediasud",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"        
+        },
+        {
+            "lcn": 213,
+            "logo": "telepegaso",
+            "name": "TelePegaso",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video0s977504-2067/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 877,
+            "logo": "radiojukeboxcalabria",
+            "name": "Radio JukeBox TV",
+            "subtitle": "(Calabria)",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
+        }
+    ]
+}

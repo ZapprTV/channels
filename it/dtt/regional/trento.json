@@ -46,6 +46,123 @@
             "url": "https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8"
         },
         {
+            "lcn": 16,
+            "logo": "tv7triveneta",
+            "name": "TV7 Triveneta",
+            "disabled": "not-working",
+            "hbbtv": [{
+                "sublcn": 2,
+                "logo": "tv7triveneta",
+                "name": "TV7 Meteo",
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/meteo.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "tv7triveneta",
+                "name": "TV7 Sport",
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/sport.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "netweekcalcioshow",
+                "name": "Netweek Calcio Show",
+                "hd": true,
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/direttastudio.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "ariapulitaore12",
+                "name": "Aria Pulita",
+                "hd": true,
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/ariapulita.m3u8"  
+            },
+            {
+                "sublcn": 7,
+                "logo": "telecittà",
+                "name": "Telecittà",
+                "type": "hls",
+                "url": "https://soobeat.fluid.stream/Telecitta/livestream/playlist.m3u8?FLID=2&type=.m3u8"
+            },
+            {
+                "sublcn": 8,
+                "logo": "cafè24",
+                "name": "Cafè24",
+                "hd": true,
+                "type": "hls",
+                "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8" 
+            },
+            {
+                "sublcn": 9,
+                "logo": "radioadigetv",
+                "name": "Radio Adige TV",
+                "type": "hls",
+                "url": "https://stream9.xdevel.com/video0s976463-1250/stream/playlist.m3u8" 
+            },
+            {
+                "sublcn": 10,
+                "logo": "telecolor",
+                "name": "Telecolor",
+                "hd": true,
+                "type": "hls",
+                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8"
+            },
+            {
+                "sublcn": 11,
+                "logo": "latendatv",
+                "name": "La Tenda TV",
+                "type": "hls",
+                "url": "https://2-fss-1.streamhoster.com/pl_148/206202-2980948-1/playlist.m3u8"
+            },
+            {
+                "sublcn": 12,
+                "logo": "radiopiterpantv",
+                "name": "Radio Piterpan TV",
+                "type": "hls",
+                "url": "https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 13,
+                "logo": "radiobelllaemonellatv",
+                "name": "Radio Bellla e Monella TV",
+                "type": "hls",
+                "url": "https://58d921499d3d3.streamlock.net/RadioBelllaemonellaTV/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 14,
+                "logo": "radiobirikinatv",
+                "name": "Radio Birikina TV",
+                "type": "hls",
+                "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 15,
+                "logo": "radiosorrrisotv",
+                "name": "Radio SorRriso TV",
+                "type": "hls",
+                "url": "https://56b50ada2d659.streamlock.net/RadioSorrrisoTV/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 16,
+                "logo": "laziotv",
+                "name": "Lazio TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8"
+            },
+            {
+                "sublcn": 17,
+                "logo": "goldtv",
+                "name": "Gold TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://goldtv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+            }]
+        },
+        {
             "lcn": 18,
             "logo": "telechiara",
             "name": "Telechiara",

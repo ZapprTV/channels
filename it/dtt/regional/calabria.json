@@ -1,0 +1,245 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Calabria",
+            "type": "dash",
+            "url": "https://tgrcalabria-dash-live.akamaized.net/dash/live/2025584/tgrcalabria/manifest.mpd"
+        },
+        {
+            "lcn": 10,
+            "logo": "videocalabria.svg",
+            "name": "Video Calabria",
+            "type": "hls",
+            "url": "https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/playlist.m3u8"
+        },
+        {
+            "lcn": 11,
+            "logo": "lactv.svg",
+            "name": "LaC",
+            "type": "hls",
+            "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8"            
+        },
+        {
+            "lcn": 12,
+            "logo": "teleuropanetwork",
+            "name": "TEN",
+            "type": "hls",
+            "url": "https://7640f9b3494e4d1fb307f886e3b60402.msvdn.net/live/S41081260/ohLhSxDNpDNC/playlist.m3u8"
+        },
+        {
+            "lcn": 13,
+            "logo": "calabriatv",
+            "name": "Calabria TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/calabriatv/calabriatv/playlist.m3u8"
+        },
+        {
+            "lcn": 14,
+            "logo": "rticalabria",
+            "name": "RTI",
+            "type": "hls",
+            "url": "https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8"
+        },
+        {
+            "lcn": 15,
+            "logo": "esperiatv",
+            "name": "Esperia TV",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/esperiatv/esperiatv/playlist.m3u8"
+        },
+        {
+            "lcn": 16,
+            "logo": "telespaziotv",
+            "name": "Telespazio TV",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/playlist.m3u8"
+        },
+        {
+            "lcn": 17,
+            "logo": "laconair.svg",
+            "name": "LaC On Air",
+            "type": "hls",
+            "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/100197/SOrBDPy/playlist.m3u8"
+        },
+        {
+            "lcn": 18,
+            "logo": "telea1",
+            "name": "Tele A1",
+            "type": "hls",
+            "url": "https://stream.ets-sistemi.it:8081/telea1-live/index.m3u8"
+        },
+        {
+            "lcn": 75,
+            "logo": "laltrocorriere.svg",
+            "name": "L'Altro Corriere",
+            "type": "hls",
+            "url": "https://52ee6512fee4427889eba89957975fa0.msvdn.net/live/S24350460/BEj8ZmQiQ9UG/playlist.m3u8"
+        },
+        {
+            "lcn": 76,
+            "logo": "telemia",
+            "name": "Telemia",
+            "type": "hls",
+            "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8"
+        },
+        {
+            "lcn": 77,
+            "logo": "reggiotv.svg",
+            "name": "Reggio TV",
+            "type": "hls",
+            "url": "https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/playlist.m3u8"
+        },
+        {
+            "lcn": 78,
+            "logo": "rtctelecalabria",
+            "name": "RTC Telecalabria",
+            "type": "hls",
+            "url": "https://w1.mediastreaming.it/calabriachannel/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 82,
+            "logo": "jonicaradiotv",
+            "name": "Jonica Radio TV",
+            "type": "hls",
+            "url": "https://5a1178b42cc03.streamlock.net/jonica/jonica/playlist.m3u8"
+        },
+        {
+            "lcn": 85,
+            "logo": "weddingtv.svg",
+            "name": "Wedding TV",
+            "type": "hls",
+            "url": "https://604e46ac2bdee.streamlock.net:1936/marcorenzi/marcorenzi/playlist.m3u8"
+        },
+        {
+            "lcn": 86,
+            "logo": "teledehon",
+            "name": "Tele Dehon",
+            "hd": true,
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8"
+        },
+        {
+            "lcn": 87,
+            "logo": "videotouring",
+            "name": "VideoTouring",
+            "type": "iframe",
+            "url": "https://streamingvideo.auranex.cloud/70baacad-47c6-41a6-aee0-86530c31e080.html",
+            "cssfix": "center-iframe"
+        },
+        {
+            "lcn": 90,
+            "logo": "turismotv",
+            "name": "Turismo TV",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8",
+            "disabled": "not-working"
+        },
+        {
+            "lcn": 91,
+            "logo": "radioricordi",
+            "name": "Radio Ricordi TV",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/radioricorditv/radioricorditv/playlist.m3u8"
+        },
+        {
+            "lcn": 96,
+            "logo": "soveratounotv",
+            "name": "Soverato Uno TV",
+            "type": "twitch",
+            "url": "SoveratoUnoTV"
+        },
+        {
+            "lcn": 97,
+            "logo": "telemagnagraecia",
+            "name": "Tele Magna Graecia",
+            "type": "twitch",
+            "url": "tmg_calabria"
+        },
+        {
+            "lcn": 99,
+            "logo": "tv99",
+            "name": "TV99",
+            "subtitle": "/ Telemia Extra",
+            "type": "hls",
+            "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8"
+        },
+        {
+            "lcn": 110,
+            "logo": "gschannel",
+            "name": "GS Channel",
+            "hd": true,
+            "type": "hls",
+            "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radiogschannel",
+                "name": "Radio GS Channel",
+                "type": "hls",
+                "url": "https://rst.saiuzwebnetwork.it:8081/retereggioradio/index.m3u8"
+            }]
+        },
+        {
+            "lcn": 111,
+            "logo": "lacnetwork.svg",
+            "name": "LaC Network",
+            "type": "hls",
+            "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8"
+        },
+        {
+            "lcn": 113,
+            "logo": "adn24",
+            "name": "ADN24",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
+        },
+        {
+            "lcn": 116,
+            "logo": "mediasud",
+            "name": "Mediasud",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"        
+        },
+        {
+            "lcn": 185,
+            "logo": "pianatv",
+            "name": "Piana TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://playerssl.telemia.tv/fileadmin/hls/PianaTV/pianatv_mediachunks.m3u8"
+        },
+        {
+            "lcn": 186,
+            "logo": "lagrandeitalia",
+            "name": "La Grande Italia",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
+        },
+        {
+            "lcn": 187,
+            "logo": "businesschannel",
+            "name": "Business Channel",
+            "hd": true,
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/businesschannel/businesschannel/playlist.m3u8"
+        },
+        {
+            "lcn": 351,
+            "logo": "70-80",
+            "name": "70-80.it",
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+        },
+        {
+            "lcn": 877,
+            "logo": "radiojukeboxcalabria",
+            "name": "Radio JukeBox TV",
+            "subtitle": "(Calabria)",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
+        }
+    ]
+}

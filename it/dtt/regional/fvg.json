@@ -36,6 +36,36 @@
             "name": "il13",
             "disabled": "not-working",
             "hbbtv": [{
+                "sublcn": 3,
+                "logo": "tv7triveneta",
+                "name": "TV7 Meteo",
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/meteo.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "tv7triveneta",
+                "name": "TV7 Sport",
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/sport.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "netweekcalcioshow",
+                "name": "Netweek Calcio Show",
+                "hd": true,
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/direttastudio.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "ariapulitaore12",
+                "name": "Aria Pulita",
+                "hd": true,
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/ariapulita.m3u8"  
+            },
+            {
                 "sublcn": 7,
                 "logo": "telecolor",
                 "name": "Telecolor",
