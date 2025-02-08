@@ -22,13 +22,13 @@
             "name": "Gold TV",
             "hd": true,
             "type": "hls",
-            "url": "https://goldtv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8",
+            "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "goldtvsat",
                 "name": "Gold TV Sat",
                 "type": "hls",
-                "url": "https://goldsattv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+                "url": "https://5a1178b42cc03.streamlock.net/goldsat/goldsat/playlist.m3u8"
             },
             {
                 "sublcn": 2,
@@ -36,6 +36,13 @@
                 "name": "Canale 21",
                 "type": "hls",
                 "url": "https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S38994111/B7j0ql4XaZtE/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "canale21extra",
+                "name": "Canale 21 Extra",
+                "type": "hls",
+                "url": "https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S42170132/sT6C3LFaD1iA/playlist.m3u8"
             },
             {
                 "sublcn": 4,
@@ -71,11 +78,11 @@
                 "logo": "odeon24",
                 "name": "Odeon 24",
                 "type": "hls",
-                "url": "https://odeon.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+                "url": "https://5a1178b42cc03.streamlock.net/odeon163/odeon163/playlist.m3u8"
             },
             {
                 "sublcn": 9,
-                "logo": "italia7",
+                "logo": "italia7.svg",
                 "name": "Italia 7",
                 "type": "hls",
                 "url": "https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8",
@@ -145,7 +152,7 @@
         },
         {
             "lcn": 13,
-            "logo": "laziotv",
+            "logo": "laziotv.svg",
             "name": "Lazio TV",
             "hd": true,
             "type": "hls",
@@ -155,7 +162,7 @@
                 "logo": "goldtvsat",
                 "name": "Gold TV Sat",
                 "type": "hls",
-                "url": "https://goldsattv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+                "url": "https://5a1178b42cc03.streamlock.net/goldsat/goldsat/playlist.m3u8"
             },
             {
                 "sublcn": 2,
@@ -165,8 +172,15 @@
                 "url": "https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S38994111/B7j0ql4XaZtE/playlist.m3u8"
             },
             {
+                "sublcn": 3,
+                "logo": "canale21extra",
+                "name": "Canale 21 Extra",
+                "type": "hls",
+                "url": "https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S42170132/sT6C3LFaD1iA/playlist.m3u8"
+            },
+            {
                 "sublcn": 4,
-                "logo": "italia7",
+                "logo": "italia7.svg",
                 "name": "Italia 7",
                 "type": "hls",
                 "url": "https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8",
@@ -346,7 +360,7 @@
             "logo": "t9",
             "name": "T9",
             "type": "hls",
-            "url": "https://t9tv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+            "url": "https://5a1178b42cc03.streamlock.net/t9/t9/playlist.m3u8"
         },
         {
             "lcn": 18,
@@ -354,6 +368,13 @@
             "name": "TeleAmbiente",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/teleambiente3/teleambiente3/playlist.m3u8"
+        },
+        {
+            "lcn": 19,
+            "logo": "canale21extra",
+            "name": "Canale 21 Extra",
+            "type": "hls",
+            "url": "https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S42170132/sT6C3LFaD1iA/playlist.m3u8"
         },
         {
             "lcn": 19,

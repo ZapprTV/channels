@@ -455,7 +455,7 @@
             "logo": "traveltv",
             "name": "Travel TV",
             "type": "hls",
-            "url": "https://traveltv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+            "url": "https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8"
         },
         {
             "lcn": 62,
@@ -463,7 +463,8 @@
             "name": "Donna TV",
             "hd": true,
             "type": "hls",
-            "url": "https://donnatv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+            "url": "https://5a1178b42cc03.streamlock.net/donnatv/donnatv/playlist.m3u8",
+            "disabled": "not-working"
         },
         {
             "lcn": 64,
@@ -510,7 +511,7 @@
             "logo": "almatv",
             "name": "Alma TV",
             "type": "hls",
-            "url": "https://almatv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+            "url": "https://5a1178b42cc03.streamlock.net/alma/alma/playlist.m3u8"
         },
         {
             "lcn": 66,
@@ -686,7 +687,7 @@
                 "categorySeparator": "Sud Italia"
             },
             {
-                "sublcn": 1,
+                "sublcn": 2,
                 "logo": "telebari.svg",
                 "name": "Telebari",
                 "hd": true,
@@ -694,35 +695,35 @@
                 "url": "https://w1.mediastreaming.it/telebari/livestream/playlist.m3u8"
             },
             {
-                "sublcn": 2,
+                "sublcn": 3,
                 "logo": "italia2news",
                 "name": "Italia 2 News",
                 "type": "hls",
                 "url": "https://59d7d6f47d7fc.streamlock.net/italia2/italia2/playlist.m3u8"
             },
             {
-                "sublcn": 3,
+                "sublcn": 4,
                 "logo": "promovideotv",
                 "name": "PromovideoTV",
                 "type": "hls",
                 "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"        
             },
             {
-                "sublcn": 4,
+                "sublcn": 5,
                 "logo": "promoradio",
                 "name": "Promoradio Network",
                 "type": "hls",
                 "url": "https://media2021.rtvweb.com/promovideo_web/promoradiotv/playlist.m3u8"
             },
             {
-                "sublcn": 5,
+                "sublcn": 6,
                 "logo": "mediasud",
                 "name": "Mediasud",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"        
             },
             {
-                "sublcn": 6,
+                "sublcn": 7,
                 "logo": "reggiotv.svg",
                 "name": "Reggio TV",
                 "type": "hls",
@@ -732,14 +733,22 @@
                 "categorySeparator": "Lombardia"  
             },
             {
-                "sublcn": 7,
+                "sublcn": 8,
+                "logo": "welltv",
+                "name": "Well TV",
+                "type": "hls",
+                "url": "http://146.59.236.183:9509/hls/stream.m3u8",
+                "http": true
+            },
+            {
+                "sublcn": 9,
                 "logo": "supertv",
                 "name": "SuperTV",
                 "type": "hls",
                 "url": "https://59d7d6f47d7fc.streamlock.net/supertv/supertv/playlist.m3u8" 
             },
             {
-                "sublcn": 8,
+                "sublcn": 10,
                 "logo": "lombardiatv",
                 "name": "Lombardia TV",
                 "type": "hls",
@@ -749,7 +758,7 @@
                 "categorySeparator": "Lazio"  
             },
             {
-                "sublcn": 9,
+                "sublcn": 11,
                 "logo": "reteoro",
                 "name": "Rete Oro",
                 "type": "hls",
@@ -759,7 +768,7 @@
                 "categorySeparator": "Veneto"  
             },
             {
-                "sublcn": 10,
+                "sublcn": 12,
                 "logo": "cafè24",
                 "name": "Cafè24",
                 "hd": true,
@@ -867,7 +876,7 @@
             "logo": "odeon24",
             "name": "Odeon 24",
             "type": "hls",
-            "url": "https://odeon.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+            "url": "https://5a1178b42cc03.streamlock.net/odeon163/odeon163/playlist.m3u8"
         },
         {
             "lcn": 165,
@@ -1154,7 +1163,8 @@
                 "name": "Tango TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/itchannel/itchannel/playlist.m3u8"  
+                "url": "https://64b16f23efbee.streamlock.net/itchannel/itchannel/playlist.m3u8",
+                "disabled": "not-working"
             },
             {
                 "sublcn": 4,

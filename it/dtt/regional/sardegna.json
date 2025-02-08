@@ -69,7 +69,119 @@
             "logo": "teleregionelive",
             "name": "Teleregione Live",
             "type": "twitch",
-            "url": "teleregione_sardegna"
+            "url": "teleregione_sardegna",
+            "hbbtv": [{
+                "categorySeparator": "TV Corallo"
+            },
+            {
+                "sublcn": 1,
+                "logo": "bonaria",
+                "name": "Bonaria TV",
+                "type": "hls",
+                "url": "https://cloudtv.azotosolutions.com:9553/livertg2/livertg2/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiobonaria",
+                "name": "Radio Bonaria",
+                "radio": true,
+                "type": "direct",
+                "url": "https://stream3.xdevel.com/audio1s975443-153/stream/icecast.audio"  
+            },
+            {
+                "sublcn": 3,
+                "logo": "teleradiomaristella",
+                "name": "Tele Radio Maristella",
+                "type": "hls",
+                "url": "https://origin1.live-dvbt2.it/cdnedge10/live10/playlist.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "telepace.svg",
+                "name": "Telepace",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "teledehon",
+                "name": "Tele Dehon",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "icarotv.svg",
+                "name": "Icaro TV",
+                "type": "hls",
+                "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8"
+            },
+            {
+                "sublcn": 7,
+                "logo": "videonovara",
+                "name": "Videonovara",
+                "hd": true,
+                "type": "hls",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
+            },
+            {
+                "sublcn": 8,
+                "logo": "tvl",
+                "name": "TVL",
+                "type": "hls",
+                "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Altre TV e Radio"            
+            },
+            {
+                "sublcn": 9,
+                "logo": "supersix",
+                "name": "SuperSix",
+                "type": "hls",
+                "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8"
+            },
+            {
+                "sublcn": 10,
+                "logo": "radiokalaritana",
+                "name": "Radio Kalaritana",
+                "radio": true,
+                "type": "direct",
+                "url": "https://www.shoutcastitalia.com/proxy/kalaritana?mp=%2Fstream%2F%3Bstream.mp3"  
+            },
+            {
+                "sublcn": 11,
+                "logo": "radionuorocentrale",
+                "name": "Radio Nuoro Centrale",
+                "radio": true,
+                "type": "direct",
+                "url": "https://stream6.xdevel.com/audio1s976970-1733/stream/icecast.audio"  
+            },
+            {
+                "sublcn": 12,
+                "logo": "sportoutdoortv",
+                "name": "SportOutdoor.tv",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/sportoutdoorstream/sportoutdoorstream/playlist.m3u8"
+            },
+            {
+                "sublcn": 13,
+                "logo": "sardegnalive.svg",
+                "name": "Sardegna Live",
+                "hd": true,
+                "type": "iframe",
+                "url": "https://livepush.io/embed/em3J2nBNarDKZhU"  
+            }]
+        },
+        {
+            "lcn": 716,
+            "logo": "radiosintony",
+            "name": "Radio Sintony",
+            "radio": true,
+            "type": "direct",
+            "url": "https://stream5.xdevel.com/audio0s976204-1069/stream/icecast.audio"
         }
     ]
 }

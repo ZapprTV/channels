@@ -46,7 +46,7 @@
             "url": "https://64b16f23efbee.streamlock.net/telegenova/telegenova/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
-                "logo": "laziotv",
+                "logo": "laziotv.svg",
                 "name": "Lazio TV",
                 "hd": true,
                 "type": "hls",
@@ -58,7 +58,7 @@
                 "name": "Gold TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://goldtv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
             },
             {
                 "sublcn": 4,
@@ -72,11 +72,11 @@
                 "logo": "goldtvsat",
                 "name": "Gold TV Sat",
                 "type": "hls",
-                "url": "https://goldsattv.grupposciscione.knoxstreaming.com/live/masterpl.m3u8"
+                "url": "https://5a1178b42cc03.streamlock.net/goldsat/goldsat/playlist.m3u8"
             },
             {
                 "sublcn": 8,
-                "logo": "italia7",
+                "logo": "italia7.svg",
                 "name": "Italia 7",
                 "type": "hls",
                 "url": "https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8",
