@@ -7,7 +7,31 @@
             "name": "Rai 1",
             "hd": true,
             "type": "dash",
-            "url": "https://raiuno2-dash-live.akamaized.net/dash/live/652298/raiuno2/manifest.mpd"
+            "url": "https://raiuno2-dash-live.akamaized.net/dash/live/652298/raiuno2/manifest.mpd",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "raiplaylive.svg",
+                "name": "RaiPlay 1",
+                "subtitle": "Non sempre attivo",
+                "type": "hls",
+                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay/hls/playlist_mo.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "raiplaylive.svg",
+                "name": "RaiPlay 2",
+                "subtitle": "Non sempre attivo",
+                "type": "hls",
+                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay2/hls/playlist_mo.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "raiplaylive.svg",
+                "name": "RaiPlay 3",
+                "subtitle": "Non sempre attivo",
+                "type": "hls",
+                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay3/hls/playlist_mo.m3u8"
+            }]
         },
         {
             "lcn": 2,
@@ -56,7 +80,7 @@
             "name": "LA7",
             "hd": true,
             "type": "hls",
-            "url": "https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8",
+            "url": "https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "la7it.svg",
