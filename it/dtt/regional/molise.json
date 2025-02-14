@@ -70,7 +70,7 @@
             "url": "https://livetv.telemaxtv.it/hls/mystream.m3u8"
         },
         {
-            "lcn": 15,
+            "lcn": 16,
             "logo": "superj",
             "name": "Super J",
             "type": "hls",
@@ -111,6 +111,13 @@
             "name": "TLT Molise",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/tltmolise/tltmolise/playlist.m3u8"
+        },
+        {
+            "lcn": 82,
+            "logo": "italiacable",
+            "name": "ItaliaCable",
+            "type": "hls",
+            "url": "https://rst.saiuzwebnetwork.it:8081/italiacable/index.m3u8"
         },
         {
             "lcn": 89,

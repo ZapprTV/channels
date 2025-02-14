@@ -566,6 +566,88 @@
             "url": "https://stream9.xdevel.com/video0s977001-1746/stream/playlist.m3u8"
         },
         {
+            "lcn": 191,
+            "logo": "teleantennanetwork",
+            "name": "Teleantenna Network",
+            "hbbtvmosaic": true,
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radio4youtv",
+                "name": "Radio 4 You TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8"
+            },
+            {
+                "categorySeparator": "TV"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radio7note",
+                "name": "7 Storia",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video2s976543-2104/stream/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Radio"  
+            },
+            {
+                "sublcn": 3,
+                "logo": "radio904you",
+                "name": "Radio 90-4 You",
+                "radio": true,
+                "type": "hls",
+                "url": "https://streamsrv2.nets-sr.com:19370/90-4you-hbbtv/90-4you-hbbtv.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "radiocity4you",
+                "name": "Radio Dance City4You",
+                "radio": true,
+                "type": "hls",
+                "url": "https://streamsrv2.nets-sr.com:19370/city4you/city4you.m3u8"
+            },
+            {
+                "categorySeparator": "Radiovisione"
+            },
+            {
+                "sublcn": 5,
+                "logo": "radiosa.svg",
+                "name": "Radio Radiosa TV",
+                "type": "hls",
+                "url": "https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "simplyradiovisione",
+                "name": "Simply RadioVisione",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video0s976543-1809/stream/playlist.m3u8",
+                "disabled": "not-working"
+            },
+            {
+                "sublcn": 7,
+                "logo": "radioyouandme",
+                "name": "Radio You and Me Television",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video0s977798-2239/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 8,
+                "logo": "radio7note",
+                "name": "7 RadioVisione",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 9,
+                "logo": "70-80",
+                "name": "70-80.it",
+                "type": "hls",
+                "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+            }]
+        },
+        {
             "lcn": 194,
             "logo": "extratvlive",
             "name": "Extra TV Live",

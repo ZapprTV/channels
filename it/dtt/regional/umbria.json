@@ -13,7 +13,14 @@
             "logo": "umbriatv",
             "name": "Umbria TV",
             "type": "hls",
-            "url": "https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8"
+            "url": "https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "trg",
+                "name": "TRG",
+                "type": "hls",
+                "url": "https://www.trgmedia.it/hls/livestreamHD.m3u8"
+            }]
         },
         {
             "lcn": 11,

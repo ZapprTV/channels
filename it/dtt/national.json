@@ -359,8 +359,9 @@
             "lcn": 53,
             "logo": "casaitalia53",
             "name": "Casa Italia 53",
-            "type": "iframe",
-            "url": "https://canaleitalia.streamcloud.it/embed/live/e701400d-2c46-4cec-8deb-bb6f7b8a7401"
+            "hd": true,
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel09.smil/playlist.m3u8"
         },
         {
             "lcn": 54,
@@ -487,8 +488,7 @@
             "name": "Donna TV",
             "hd": true,
             "type": "hls",
-            "url": "https://5a1178b42cc03.streamlock.net/donnatv/donnatv/playlist.m3u8",
-            "disabled": "not-working"
+            "url": "https://5a1178b42cc03.streamlock.net/donnatv/donnatv/playlist.m3u8"
         },
         {
             "lcn": 64,
@@ -584,24 +584,17 @@
                 "url": "https://5f22d76e220e1.streamlock.net/01news/01news/playlist.m3u8"
             },
             {
-                "sublcn": 6,
-                "logo": "napoletaninelmondo",
-                "name": "Napoletani nel Mondo",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video2s977812-2248/stream/playlist.m3u8"
-            },
-            {
                 "categorySeparator": "Family"
             },
             {
-                "sublcn": 7,
+                "sublcn": 6,
                 "logo": "supersix",
                 "name": "SuperSix",
                 "type": "hls",
                 "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8"
             },
             {
-                "sublcn": 8,
+                "sublcn": 7,
                 "logo": "iuniortv",
                 "name": "Iunior TV",
                 "type": "hls",
@@ -611,14 +604,14 @@
                 "categorySeparator": "Radiovisione"  
             },
             {
-                "sublcn": 9,
+                "sublcn": 8,
                 "logo": "zerounotvmusic",
                 "name": "Zerouno TV Music",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/playlist.m3u8"
             },
             {
-                "sublcn": 10,
+                "sublcn": 9,
                 "logo": "radiocalima",
                 "name": "Radio Calima",
                 "type": "hls",
@@ -644,8 +637,9 @@
             "lcn": 71,
             "logo": "canaleitalia",
             "name": "Canale Italia",
-            "type": "iframe",
-            "url": "https://canaleitalia.streamcloud.it/embed/live/28591152-e3c0-49b0-94a8-0d3e18125ca8"
+            "hd": true,
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel10.smil/playlist.m3u8"
         },
         {
             "lcn": 101,
@@ -656,6 +650,13 @@
             "url": "https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8"
         },
         {
+            "lcn": 121,
+            "logo": "italia121",
+            "name": "Italia 121",
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel01.smil/playlist.m3u8"
+        },
+        {
             "lcn": 122,
             "logo": "cusanoitaliatv",
             "name": "Cusano Italia TV",
@@ -663,6 +664,13 @@
             "url": "https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
+                "logo": "cusanonews7",
+                "name": "Cusano News 7",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
                 "logo": "radiocusanocampus",
                 "name": "Radio Cusano Campus",
                 "hd": true,
@@ -670,20 +678,19 @@
                 "url": "https://router.xdevel.com/video3s975363-2380/stream/playlist.m3u8"
             },
             {
-                "sublcn": 2,
+                "sublcn": 3,
                 "logo": "manàmanàsport",
                 "name": "Manà Manà Sport",
                 "type": "hls",
                 "url": "https://router.xdevel.com/video2s975363-2370/stream/playlist.m3u8"
             },
             {
-                "sublcn": 3,
+                "sublcn": 4,
                 "logo": "radiolaziale.svg",
                 "name": "Radio Laziale",
                 "type": "hls",
                 "url": "https://router.xdevel.com/video5s975363-2398/stream/playlist.m3u8"
-            }
-        ]
+            }]
         },
         {
             "lcn": 123,
@@ -691,6 +698,34 @@
             "name": "Italia Channel",
             "type": "hls",
             "url": "https://stream1.aswifi.it/italiachannel/stream/index.m3u8"
+        },
+        {
+            "lcn": 124,
+            "logo": "arteitalia124",
+            "name": "Arte Italia 124",
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel02.smil/playlist.m3u8"
+        },
+        {
+            "lcn": 125,
+            "logo": "arteitalia125",
+            "name": "Arte Italia 125",
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel03.smil/playlist.m3u8"
+        },
+        {
+            "lcn": 126,
+            "logo": "italia126",
+            "name": "Italia 126",
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel04.smil/playlist.m3u8"
+        },
+        {
+            "lcn": 127,
+            "logo": "italia127",
+            "name": "Italia 127",
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel05.smil/playlist.m3u8"
         },
         {
             "lcn": 132,
@@ -799,6 +834,27 @@
                 "type": "hls",
                 "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8" 
             }]
+        },
+        {
+            "lcn": 134,
+            "logo": "italia134",
+            "name": "Italia 134",
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel06.smil/playlist.m3u8"
+        },
+        {
+            "lcn": 135,
+            "logo": "italia135",
+            "name": "Italia 135",
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel07.smil/playlist.m3u8"
+        },
+        {
+            "lcn": 136,
+            "logo": "italia136",
+            "name": "Italia 136",
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel08.smil/playlist.m3u8"
         },
         {
             "lcn": 138,
@@ -1187,8 +1243,7 @@
                 "name": "Tango TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/itchannel/itchannel/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://64b16f23efbee.streamlock.net/itchannel/itchannel/playlist.m3u8"
             },
             {
                 "sublcn": 4,
@@ -1288,7 +1343,36 @@
             "logo": "cusanonews7",
             "name": "Cusano News 7",
             "type": "hls",
-            "url": "https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8"
+            "url": "https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "cusanoitaliatv",
+                "name": "Cusano Italia TV",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiocusanocampus",
+                "name": "Radio Cusano Campus",
+                "hd": true,
+                "type": "hls",
+                "url": "https://router.xdevel.com/video3s975363-2380/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "manàmanàsport",
+                "name": "Manà Manà Sport",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video2s975363-2370/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "radiolaziale.svg",
+                "name": "Radio Laziale",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video5s975363-2398/stream/playlist.m3u8"
+            }]
         },
         {
             "lcn": 235,

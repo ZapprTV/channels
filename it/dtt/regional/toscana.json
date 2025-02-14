@@ -34,7 +34,60 @@
             "logo": "tvl",
             "name": "TVL",
             "type": "hls",
-            "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
+            "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "teledehon",
+                "name": "Tele Dehon",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "icarotv.svg",
+                "name": "Icaro TV",
+                "type": "hls",
+                "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "telepace.svg",
+                "name": "Telepace",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "teleradiopace1",
+                "name": "TeleRadioPace 1",
+                "type": "hls",
+                "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8"  
+            },
+            {
+                "sublcn": 5,
+                "logo": "videonovara",
+                "name": "Videonovara",
+                "hd": true,
+                "type": "hls",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "radiofratesole",
+                "name": "Radio Frate Sole",
+                "radio": true,
+                "type": "hls",
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
+            },
+            {
+                "sublcn": 7,
+                "logo": "radiopace",
+                "name": "Radio Pace",
+                "radio": true,
+                "type": "hls",
+                "url": "https://stream.mariatvcdn.com/trpradio/c92dd777d146ffcd75d0b6cfb13a9153.sdp/playlist.m3u8"
+            }]
         },
         {
             "lcn": 15,
@@ -48,7 +101,56 @@
             "logo": "teletruria",
             "name": "Teletruria",
             "type": "hls",
-            "url": "https://cb01a76aa80f4069b2bf82c90466134a.msvdn.net/live/7iyY76l3IDBd/playlist.m3u8"
+            "url": "https://cb01a76aa80f4069b2bf82c90466134a.msvdn.net/live/7iyY76l3IDBd/playlist.m3u8",
+            "hbbtv": [{
+                "categorySeparator": "Radio MediaDAB"
+            },
+            {
+                "sublcn": 1,
+                "logo": "radiosystem",
+                "name": "Radio System",
+                "type": "hls",
+                "url": "https://srvx1.selftv.video/systemtv/smil:live/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "anni80",
+                "name": "Anni 80",
+                "type": "hls",
+                "url": "https://585b674743bbb.streamlock.net/9076/9076/playlist.m3u8",
+                "disabled": "not-working"
+            },
+            {
+                "sublcn": 3,
+                "logo": "radiobruno",
+                "name": "Radio Bruno",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8"  
+            },
+            {
+                "sublcn": 4,
+                "logo": "virgoradio.svg",
+                "name": "Virgo Radio",
+                "radio": true,
+                "type": "hls",
+                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"        
+            },
+            {
+                "sublcn": 5,
+                "logo": "funkyradio",
+                "name": "FUNKY.radio",
+                "radio": true,
+                "type": "hls",
+                "url": "https://my.streamingmedia.it/hls/funkyradio_hls/live.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "radiofiemme",
+                "name": "Radio Fiemme",
+                "radio": true,
+                "type": "hls",
+                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"  
+            }]
         },
         {
             "lcn": 18,
@@ -139,6 +241,13 @@
             "url": "https://57068da1deb21.streamlock.net/radio104/radio104/playlist.m3u8"
         },
         {
+            "lcn": 80,
+            "logo": "firenzetv",
+            "name": "Firenze TV",
+            "type": "hls",
+            "url": "https://39f0a786c3fb4d3fab9ec6870cc428f9.msvdn.net/live/S10341261/Wl6aWcmb8xsQ/playlist.m3u8"
+        },
+        {
             "lcn": 81,
             "logo": "arezzotv.svg",
             "name": "Arezzo TV",
@@ -171,7 +280,14 @@
             "logo": "umbriatv",
             "name": "Umbria TV",
             "type": "hls",
-            "url": "https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8"
+            "url": "https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "trg",
+                "name": "TRG",
+                "type": "hls",
+                "url": "https://www.trgmedia.it/hls/livestreamHD.m3u8"
+            }]
         },
         {
             "lcn": 89,
