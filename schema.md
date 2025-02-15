@@ -231,7 +231,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>flv</dt><dd>Flash Video (.flv)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; o &lt;audio&gt; senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.</dd></dl></td>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>flv</dt><dd>Flash Video (.flv)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; o &lt;audio&gt; senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -692,7 +692,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>flv</dt><dd>Flash Video (.flv)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; o &lt;audio&gt; senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.</dd></dl></td>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>flv</dt><dd>Flash Video (.flv)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; o &lt;audio&gt; senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
     </tr>
   </tbody>
 </table>
