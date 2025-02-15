@@ -29,8 +29,24 @@
             "logo": "videoregionesicilia.svg",
             "name": "Video Regione",
             "hd": true,
-            "type": "dash",
-            "url": "https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/manifest.mpd"
+            "type": "hls",
+            "url": "https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/original_9900000_999000/chunklist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "goldtv",
+                "name": "Gold TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "laziotv.svg",
+                "name": "Lazio TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8"
+            }]
         },
         {
             "lcn": 15,

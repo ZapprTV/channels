@@ -56,7 +56,7 @@
                         "type": "string",
                         "title": "Tipo stream",
                         "description": "Il tipo della stream.",
-                        "enum": ["hls", "dash", "flv", "twitch", "youtube", "iframe", "direct"],
+                        "enum": ["hls", "dash", "flv", "twitch", "youtube", "iframe", "direct", "popup"],
                         "meta:enum": {
                             "hls": "HLS (.m3u / .m3u8)",
                             "dash": "DASH (.mpd)",
@@ -64,7 +64,8 @@
                             "twitch": "Twitch (username)",
                             "youtube": "YouTube (ID video o canale)",
                             "iframe": "IFrame (URL)",
-                            "direct": "'Diretto' (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast."
+                            "direct": "'Diretto' (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.",
+                            "popup": "Finestra popup (URL)"
                         },
                         "anyOf": [{
                             "const": "hls",
@@ -94,6 +95,10 @@
                             "const": "direct",
                             "title": "'Diretto' (non HLS, DASH, ecc.)",
                             "description": "Una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast."
+                        },
+                        {
+                            "const": "popup",
+                            "title": "Finestra popup (URL)"
                         }]
                     },
                     "url": {

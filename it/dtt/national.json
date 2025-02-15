@@ -654,7 +654,8 @@
             "logo": "italia121",
             "name": "Italia 121",
             "type": "hls",
-            "url": "https://liveac915.b-cdn.net/channel01.smil/playlist.m3u8"
+            "url": "https://liveac915.b-cdn.net/channel01.smil/playlist.m3u8",
+            "adult": "night"
         },
         {
             "lcn": 122,
@@ -704,28 +705,32 @@
             "logo": "arteitalia124",
             "name": "Arte Italia 124",
             "type": "hls",
-            "url": "https://liveac915.b-cdn.net/channel02.smil/playlist.m3u8"
+            "url": "https://liveac915.b-cdn.net/channel02.smil/playlist.m3u8",
+            "adult": "night"
         },
         {
             "lcn": 125,
             "logo": "arteitalia125",
             "name": "Arte Italia 125",
             "type": "hls",
-            "url": "https://liveac915.b-cdn.net/channel03.smil/playlist.m3u8"
+            "url": "https://liveac915.b-cdn.net/channel03.smil/playlist.m3u8",
+            "adult": "night"
         },
         {
             "lcn": 126,
             "logo": "italia126",
             "name": "Italia 126",
             "type": "hls",
-            "url": "https://liveac915.b-cdn.net/channel04.smil/playlist.m3u8"
+            "url": "https://liveac915.b-cdn.net/channel04.smil/playlist.m3u8",
+            "adult": "night"
         },
         {
             "lcn": 127,
             "logo": "italia127",
             "name": "Italia 127",
             "type": "hls",
-            "url": "https://liveac915.b-cdn.net/channel05.smil/playlist.m3u8"
+            "url": "https://liveac915.b-cdn.net/channel05.smil/playlist.m3u8",
+            "adult": "night"
         },
         {
             "lcn": 132,
@@ -840,7 +845,8 @@
             "logo": "italia134",
             "name": "Italia 134",
             "type": "hls",
-            "url": "https://liveac915.b-cdn.net/channel06.smil/playlist.m3u8"
+            "url": "https://liveac915.b-cdn.net/channel06.smil/playlist.m3u8",
+            "adult": "night"
         },
         {
             "lcn": 135,
@@ -854,7 +860,8 @@
             "logo": "italia136",
             "name": "Italia 136",
             "type": "hls",
-            "url": "https://liveac915.b-cdn.net/channel08.smil/playlist.m3u8"
+            "url": "https://liveac915.b-cdn.net/channel08.smil/playlist.m3u8",
+            "adult": "night"
         },
         {
             "lcn": 138,
