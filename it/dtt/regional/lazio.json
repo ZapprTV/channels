@@ -18,14 +18,14 @@
         },
         {
             "lcn": 11,
-            "logo": "goldtv",
+            "logo": "goldtv.svg",
             "name": "Gold TV",
             "hd": true,
             "type": "hls",
             "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
-                "logo": "goldtvsat",
+                "logo": "goldtv.svg",
                 "name": "Gold TV Sat",
                 "type": "hls",
                 "url": "https://5a1178b42cc03.streamlock.net/goldsat/goldsat/playlist.m3u8"
@@ -159,7 +159,7 @@
             "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
-                "logo": "goldtvsat",
+                "logo": "goldtv.svg",
                 "name": "Gold TV Sat",
                 "type": "hls",
                 "url": "https://5a1178b42cc03.streamlock.net/goldsat/goldsat/playlist.m3u8"

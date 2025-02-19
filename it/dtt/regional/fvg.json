@@ -111,7 +111,7 @@
             },
             {
                 "sublcn": 13,
-                "logo": "goldtv",
+                "logo": "goldtv.svg",
                 "name": "Gold TV",
                 "hd": true,
                 "type": "hls",

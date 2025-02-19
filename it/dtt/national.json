@@ -567,6 +567,13 @@
                 "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
             },
             {
+                "sublcn": 2,
+                "logo": "rtr99tv",
+                "name": "RTR 99 TV",
+                "type": "hls",
+                "url": "https://5e73cf528f404.streamlock.net/RTR99TV/livestream/playlist.m3u8"
+            },
+            {
                 "categorySeparator": "News"
             },
             {
@@ -730,6 +737,14 @@
             "name": "Italia 127",
             "type": "hls",
             "url": "https://liveac915.b-cdn.net/channel05.smil/playlist.m3u8",
+            "adult": "night"
+        },
+        {
+            "lcn": 128,
+            "logo": "goldtvitalia",
+            "name": "Gold TV Italia",
+            "type": "hls",
+            "url": "https://5a1178b42cc03.streamlock.net/golditalia/golditalia/playlist.m3u8",
             "adult": "night"
         },
         {
@@ -1202,14 +1217,6 @@
                 "url": "https://stream10.xdevel.com/video2s977812-2248/stream/playlist.m3u8"
             },
             {
-                "sublcn": 12,
-                "logo": "poohchannel",
-                "name": "Pooh Channel",
-                "radio": true,
-                "type": "direct",
-                "url": "https://stream10.xdevel.com/audio0s978088-2455/stream/icecast.audio"
-            },
-            {
                 "sublcn": 13,
                 "logo": "liveevents",
                 "name": "Live Events",
@@ -1555,28 +1562,57 @@
             "hbbtvmosaic": true,
             "hbbtv": [{
                 "sublcn": 1,
+                "logo": "rtr99tv",
+                "name": "RTR 99 TV",
+                "type": "hls",
+                "url": "https://5e73cf528f404.streamlock.net/RTR99TV/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiopooh",
+                "name": "Radio Pooh",
+                "radio": true,
+                "type": "direct",
+                "url": "https://rtr99.fluidstream.eu/rtr99_pooh.aac"
+            },
+            {
+                "sublcn": 3,
                 "logo": "ffmotorsport",
                 "name": "FF Motorsport",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video7s977812-2253/stream/playlist.m3u8"
             },
             {
-                "sublcn": 2,
+                "sublcn": 4,
+                "logo": "tikitaka",
+                "name": "Tikitaka",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video6s977812-2252/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 5,
                 "logo": "momentotv",
                 "name": "Momento TV",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video0s977812-2246/stream/playlist.m3u8"
             },
             {
-                "sublcn": 3,
-                "logo": "supermodels",
-                "name": "Super Models",
+                "sublcn": 6,
+                "logo": "liveevents",
+                "name": "Live Events",
                 "type": "hls",
-                "url": "https://otter.ns0.it:9543/supmodels/Stream1/playlist.m3u8",
+                "url": "https://otter.ns0.it:9543/canale268/canale268/playlist.m3u8"
+            },
+            {
+                "sublcn": 7,
+                "logo": "divafutura",
+                "name": "Divafutura",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video10s977812-2369/stream/playlist.m3u8",
                 "adult": true
             },
             {
-                "sublcn": 4,
+                "sublcn": 8,
                 "logo": "sexfactortv",
                 "name": "Sex Factor TV",
                 "type": "hls",
@@ -1584,34 +1620,12 @@
                 "adult": true
             },
             {
-                "sublcn": 5,
-                "logo": "tuttotv",
-                "name": "Tutto TV",
-                "ondemand": true,
+                "sublcn": 9,
+                "logo": "supermodels",
+                "name": "Super Models",
                 "type": "hls",
-                "url": "https://host2.hbbtv.me:28443/cmaf/tuttotv/playlist.m3u8"
-            },
-            {
-                "sublcn": 6,
-                "logo": "tikitaka",
-                "name": "Tikitaka",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video6s977812-2252/stream/playlist.m3u8"
-            },
-            {
-                "sublcn": 7,
-                "logo": "liveevents",
-                "name": "Live Events",
-                "type": "hls",
-                "url": "https://otter.ns0.it:9543/canale268/canale268/playlist.m3u8"
-            },
-            {
-                "sublcn": 8,
-                "logo": "poohchannel",
-                "name": "Pooh Channel",
-                "radio": true,
-                "type": "direct",
-                "url": "https://stream10.xdevel.com/audio0s978088-2455/stream/icecast.audio"
+                "url": "https://otter.ns0.it:9543/supmodels/Stream1/playlist.m3u8",
+                "adult": true
             }]
         },
         {
@@ -2081,7 +2095,7 @@
                 "logo": "pianetaimprese",
                 "name": "Pianeta Imprese TV",
                 "type": "hls",
-                "url": "https://otter.ns0.it:9543/pimprese/pimprese/playlist.m3u8"
+                "url": "https://host2.hbbtv.me:28443/cmaf/pimprese/index.m3u8"
             },
             {
                 "sublcn": 21,
@@ -2089,6 +2103,51 @@
                 "name": "RadioStudioTV Potenza",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video0s978116-2477/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 22,
+                "logo": "360mixtv",
+                "name": "360 Mix TV",
+                "type": "hls",
+                "url": "https://cdn.mycloudstream.io/hls/live/broadcast/n3unphvi/index.m3u8"
+            },
+            {
+                "categorySeparator": "Web TV Locali"
+            },
+            {
+                "sublcn": 23,
+                "logo": "rtmmanduria",
+                "name": "RTM",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8"
+            },
+            {
+                "sublcn": 24,
+                "logo": "televideoagrigento",
+                "name": "TeleVideo Agrigento",
+                "type": "hls",
+                "url": "https://media2021.rtvweb.com/tva/live/playlist.m3u8"
+            },
+            {
+                "sublcn": 25,
+                "logo": "villagetv",
+                "name": "Village TV",
+                "type": "hls",
+                "url": "https://stream3.ondaweb.tv/hls/villagetv/index.m3u8"
+            },
+            {
+                "sublcn": 26,
+                "logo": "ilcorrieredipianura",
+                "name": "Il Corriere di Pianura",
+                "type": "hls",
+                "url": "https://stream3.ondaweb.tv/hls/corrieredipianura/index.m3u8"
+            },
+            {
+                "sublcn": 27,
+                "logo": "antenna3",
+                "name": "Antenna 3",
+                "type": "hls",
+                "url": "https://media2021.rtvweb.com/antenna3massa/a3/playlist.m3u8"
             }]
         },
         {
