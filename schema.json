@@ -306,7 +306,7 @@
                                     },
                                     "then": {
                                         "properties": {
-                                            "type": { "const": "iframe" }
+                                            "type": { "oneOf": [{ "const": "iframe" }, { "const": "popup" }] }
                                         },
                                         "required": ["type"]
                                     }
@@ -347,7 +347,7 @@
                         },
                         "then": {
                             "properties": {
-                                "type": { "const": "iframe" }
+                                "type": { "oneOf": [{ "const": "iframe" }, { "const": "popup" }] }
                             },
                             "required": ["type"]
                         }
