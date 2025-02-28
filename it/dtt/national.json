@@ -2151,6 +2151,28 @@
             }]
         },
         {
+            "lcn": 402,
+            "logo": "myplustv",
+            "name": "My Plus TV",
+            "hbbtvmosaic": true,
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "plustvmotori",
+                "name": "Plus TV Motori",
+                "hd": true,
+                "type": "hls",
+                "url": "https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "plustvsport",
+                "name": "Plus TV Sport",
+                "hd": true,
+                "type": "hls",
+                "url": "https://jr7yvkmwda4v-hls-live.mariatvcdn.it/liveu/9aa7fdc4068e56587206b298b423cb82.sdp/playlist.m3u8"
+            }]
+        },
+        {
             "lcn": 410,
             "logo": "business24",
             "name": "Business24",
