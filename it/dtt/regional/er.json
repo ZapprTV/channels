@@ -20,17 +20,15 @@
             "logo": "trcmodena",
             "name": "TRC Modena",
             "hd": true,
-            "type": "hls",
-            "url": "https://livestream.com/accounts/31041674/events/10235982",
-            "api": "cloudflare"
+            "type": "iframe",
+            "url": "https://vimeo.com/event/4861826/embed"
         },
         {
             "lcn": 13,
             "logo": "telereggio",
             "name": "TeleReggio",
-            "type": "hls",
-            "url": "https://livestream.com/accounts/31041674/events/10233280",
-            "api": "cloudflare"
+            "type": "iframe",
+            "url": "https://vimeo.com/event/4893321/embed"
         },
         {
             "lcn": 14,
@@ -44,9 +42,8 @@
             "logo": "trcbologna",
             "name": "TRC Bologna",
             "hd": true,
-            "type": "hls",
-            "url": "https://livestream.com/accounts/31041674/events/10235994",
-            "api": "cloudflare"
+            "type": "iframe",
+            "url": "https://vimeo.com/event/4893199/embed"
         },
         {
             "lcn": 16,

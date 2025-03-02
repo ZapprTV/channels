@@ -20,15 +20,13 @@
             "logo": "telemolise",
             "name": "Telemolise",
             "type": "hls",
-            "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise4K/Telemolise4K/playlist.m3u8",
-            "http": true,
+            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "diciotto",
                 "name": "Diciotto",
                 "type": "hls",
-                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise2-FB/Telemolise2/playlist.m3u8",
-                "http": true
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
             }]
         },
         {
@@ -43,23 +41,20 @@
             "logo": "tvsei",
             "name": "TVSEI",
             "type": "hls",
-            "url": "http://64111bb42baf8.streamlock.net:1935/TvSeiHBBTV/tvseiWebPresenter/playlist.m3u8",
-            "http": true,
+            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "telemolise",
                 "name": "Telemolise",
                 "type": "hls",
-                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise4K/Telemolise4K/playlist.m3u8",
-                "http": true
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8"
             },
             {
                 "sublcn": 2,
                 "logo": "diciotto",
                 "name": "Diciotto",
                 "type": "hls",
-                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise2-FB/Telemolise2/playlist.m3u8",
-                "http": true
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
             }]
         },
         {
@@ -88,8 +83,7 @@
             "logo": "diciotto",
             "name": "Diciotto",
             "type": "hls",
-            "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise2-FB/Telemolise2/playlist.m3u8",
-            "http": true
+            "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
         },
         {
             "lcn": 75,

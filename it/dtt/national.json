@@ -646,7 +646,7 @@
             "name": "Canale Italia",
             "hd": true,
             "type": "hls",
-            "url": "https://liveac915.b-cdn.net/channel10.smil/playlist.m3u8"
+            "url": "https://liveac915.b-cdn.net/channel11.smil/playlist.m3u8"
         },
         {
             "lcn": 101,
@@ -817,7 +817,8 @@
                 "name": "Well TV",
                 "type": "hls",
                 "url": "http://146.59.236.183:9509/hls/stream.m3u8",
-                "http": true
+                "http": true,
+                "disabled": "not-working"
             },
             {
                 "sublcn": 9,
@@ -906,6 +907,14 @@
             "hd": true,
             "type": "hls",
             "url": "https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 149,
+            "logo": "primaset",
+            "name": "Primaset",
+            "type": "iframe",
+            "url": "https://primaset.servizistreaming.it/canale1/index.html",
+            "cssfix": "servizistreaming-embed"
         },
         {
             "lcn": 151,
@@ -1934,6 +1943,14 @@
             "hd": true,
             "type": "hls",
             "url": "https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/playlist.m3u8"
+        },
+        {
+            "lcn": 264,
+            "logo": "ntr264",
+            "name": "Radio NTR 264",
+            "type": "iframe",
+            "url": "https://primaset.servizistreaming.it/canale2/index.html",
+            "cssfix": "servizistreaming-embed"
         },
         {
             "lcn": 265,

@@ -20,7 +20,8 @@
             "logo": "radionorba",
             "name": "Radio Norba Television",
             "type": "hls",
-            "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8"
+            "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8",
+            "hd": true
         },
         {
             "lcn": 13,
@@ -160,23 +161,20 @@
             "logo": "tvsei",
             "name": "TVSEI",
             "type": "hls",
-            "url": "http://64111bb42baf8.streamlock.net:1935/TvSeiHBBTV/tvseiWebPresenter/playlist.m3u8",
-            "http": true,
+            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "telemolise",
                 "name": "Telemolise",
                 "type": "hls",
-                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise4K/Telemolise4K/playlist.m3u8",
-                "http": true
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8"
             },
             {
                 "sublcn": 2,
                 "logo": "diciotto",
                 "name": "Diciotto",
                 "type": "hls",
-                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise2-FB/Telemolise2/playlist.m3u8",
-                "http": true
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
             }]
         },
         {
@@ -184,15 +182,13 @@
             "logo": "telemolise",
             "name": "Telemolise",
             "type": "hls",
-            "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise4K/Telemolise4K/playlist.m3u8",
-            "http": true,
+            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "diciotto",
                 "name": "Diciotto",
                 "type": "hls",
-                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise2-FB/Telemolise2/playlist.m3u8",
-                "http": true
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
             }]
         },
         {

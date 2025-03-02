@@ -192,13 +192,14 @@
                         "type": "string",
                         "title": "Fix CSS da applicare",
                         "description": "Alcuni canali IFrame hanno bisogno di un po' di CSS per essere più belli.",
-                        "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "center-iframe"],
+                        "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "center-iframe", "servizistreaming-embed"],
                         "meta:enum": {
                             "streamshow-embed": "Embed StreamShow (embed.streamshow.net)",
                             "raiplay-sound": "RaiPlay Sound",
                             "stretch": "Stretcha il video di un canale con una width schiacciata all'aspect ratio 16:9.",
                             "squashed-height": "Stretcha il video di un canale con una height schiacciata all'aspect ratio 16:9.",
-                            "center-iframe": "Centra IFrame"
+                            "center-iframe": "Centra IFrame",
+                            "servizistreaming-embed": "Embed ServiziStreaming.it"
                         },
                         "anyOf": [{
                             "const": "streamshow-embed",
@@ -221,6 +222,10 @@
                         {
                             "const": "center-iframe",
                             "title": "Centra IFrame"        
+                        },
+                        {
+                            "const": "servizistreaming-embed",
+                            "title": "Embed ServiziStreaming.it"
                         }]
                     },
                     "hbbtv": {

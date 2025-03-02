@@ -31,6 +31,14 @@
             }]
         },
         {
+            "lcn": 12,
+            "logo": "canaleitalia",
+            "name": "Canale Italia",
+            "subtitle": "(emissione veneta)",
+            "type": "hls",
+            "url": "https://liveac915.b-cdn.net/channel10.smil/playlist.m3u8"
+        },
+        {
             "lcn": 13,
             "logo": "tvavicenza.svg",
             "name": "TVA Vicenza",

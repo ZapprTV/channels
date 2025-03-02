@@ -20,7 +20,8 @@
             "logo": "radionorba",
             "name": "Radio Norba Television",
             "type": "hls",
-            "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8"
+            "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8",
+            "hd": true
         },
         {
             "lcn": 13,

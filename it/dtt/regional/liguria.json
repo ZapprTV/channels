@@ -236,8 +236,7 @@
                 "logo": "telemolise",
                 "name": "Telemolise",
                 "type": "hls",
-                "url": "http://64111bb42baf8.streamlock.net:1935/Telemolise4K/Telemolise4K/playlist.m3u8",
-                "http": true
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8"
             },
             {
                 "sublcn": 8,
