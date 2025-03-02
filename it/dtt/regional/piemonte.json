@@ -101,7 +101,15 @@
             "name": "Primantenna",
             "hd": true,
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8"
+            "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "motoritv",
+                "name": "Motori TV",
+                "subtitle": "(24h Market)",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8"
+            }]
         },
         {
             "lcn": 15,
@@ -175,6 +183,7 @@
             "lcn": 78,
             "logo": "motoritv",
             "name": "Motori TV",
+            "subtitle": "(24h Market)",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/servizio01/servizio01/playlist.m3u8"
         },

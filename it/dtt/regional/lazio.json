@@ -53,14 +53,14 @@
             },
             {
                 "sublcn": 5,
-                "logo": "ètvmarche",
+                "logo": "ètvmarche.svg",
                 "name": "èTV Marche",
                 "type": "hls",
                 "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8"
             },
             {
                 "sublcn": 6,
-                "logo": "ètvrete7",
+                "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
                 "type": "hls",
                 "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8"
@@ -97,7 +97,7 @@
             },
             {
                 "sublcn": 13,
-                "logo": "telecolor",
+                "logo": "telecolor.svg",
                 "name": "Telecolor",
                 "hd": true,
                 "type": "hls",
@@ -105,7 +105,7 @@
             },
             {
                 "sublcn": 14,
-                "logo": "tv33",
+                "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
@@ -156,7 +156,7 @@
             "name": "Lazio TV",
             "hd": true,
             "type": "hls",
-            "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8",
+            "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "goldtv.svg",
@@ -188,7 +188,7 @@
             },
             {
                 "sublcn": 6,
-                "logo": "telecolor",
+                "logo": "telecolor.svg",
                 "name": "Telecolor",
                 "hd": true,
                 "type": "hls",
@@ -196,7 +196,7 @@
             },
             {
                 "sublcn": 7,
-                "logo": "tv33",
+                "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
@@ -210,14 +210,14 @@
             },
             {
                 "sublcn": 10,
-                "logo": "ètvrete7",
+                "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
                 "type": "hls",
                 "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8"
             },
             {
                 "sublcn": 11,
-                "logo": "ètvmarche",
+                "logo": "ètvmarche.svg",
                 "name": "èTV Marche",
                 "type": "hls",
                 "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8"

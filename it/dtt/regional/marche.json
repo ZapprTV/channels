@@ -41,10 +41,48 @@
         },
         {
             "lcn": 12,
-            "logo": "ètvmarche",
+            "logo": "ètvmarche.svg",
             "name": "èTV Marche",
             "type": "hls",
-            "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8"
+            "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "ètvrete7.svg",
+                "name": "èTV Rete 7",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "telecolor.svg",
+                "name": "Telecolor",
+                "hd": true,
+                "type": "hls",
+                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "tv33.svg",
+                "name": "TV33 Bolzano",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "laziotv.svg",
+                "name": "Lazio TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/playlist.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "goldtv.svg",
+                "name": "Gold TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
+            }]
         },
         {
             "lcn": 13,

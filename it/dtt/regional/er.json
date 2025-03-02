@@ -10,10 +10,48 @@
         },
         {
             "lcn": 10,
-            "logo": "ètvrete7",
+            "logo": "ètvrete7.svg",
             "name": "èTV Rete 7",
             "type": "hls",
-            "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8"
+            "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "ètvmarche.svg",
+                "name": "èTV Marche",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "telecolor.svg",
+                "name": "Telecolor",
+                "hd": true,
+                "type": "hls",
+                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "tv33.svg",
+                "name": "TV33 Bolzano",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "laziotv.svg",
+                "name": "Lazio TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/playlist.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "goldtv.svg",
+                "name": "Gold TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
+            }]
         },
         {
             "lcn": 11,
@@ -67,6 +105,17 @@
             "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
+                "logo": "radioicaro.svg",
+                "name": "Radio Icaro",
+                "radio": true,
+                "type": "direct",
+                "url": "https://audio.streamshow.it/proxy/radioicaro?mp=/stream"
+            },
+            {
+                "categorySeparator": "Canali Corallo"
+            },
+            {
+                "sublcn": 2,
                 "logo": "teledehon",
                 "name": "Tele Dehon",
                 "hd": true,
@@ -74,28 +123,28 @@
                 "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8"
             },
             {
-                "sublcn": 2,
+                "sublcn": 3,
                 "logo": "tvl",
                 "name": "TVL",
                 "type": "hls",
                 "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
             },
             {
-                "sublcn": 3,
+                "sublcn": 4,
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
             },
             {
-                "sublcn": 4,
+                "sublcn": 5,
                 "logo": "teleradiopace1",
                 "name": "TeleRadioPace 1",
                 "type": "hls",
                 "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8"  
             },
             {
-                "sublcn": 5,
+                "sublcn": 6,
                 "logo": "videonovara",
                 "name": "Videonovara",
                 "hd": true,
@@ -103,7 +152,7 @@
                 "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
             },
             {
-                "sublcn": 6,
+                "sublcn": 7,
                 "logo": "radiofratesole",
                 "name": "Radio Frate Sole",
                 "radio": true,
@@ -111,7 +160,7 @@
                 "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
             },
             {
-                "sublcn": 7,
+                "sublcn": 8,
                 "logo": "radiopace",
                 "name": "Radio Pace",
                 "radio": true,
@@ -261,11 +310,62 @@
         },
         {
             "lcn": 82,
-            "logo": "telecolor",
+            "logo": "telecolor.svg",
             "name": "Telecolor",
             "hd": true,
             "type": "hls",
-            "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8"
+            "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "tv33.svg",
+                "name": "TV33 Bolzano",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "ètvrete7.svg",
+                "name": "èTV Rete 7",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "ètvmarche.svg",
+                "name": "èTV Marche",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "telereporter",
+                "name": "Telereporter",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "telecampione.svg",
+                "name": "Telecampione",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/playlist.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "laziotv.svg",
+                "name": "Lazio TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/playlist.m3u8"
+            },
+            {
+                "sublcn": 7,
+                "logo": "goldtv.svg",
+                "name": "Gold TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
+            }]
         },
         {
             "lcn": 87,

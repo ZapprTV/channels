@@ -100,19 +100,19 @@
         },
         {
             "lcn": 19,
-            "logo": "tv7triveneta",
+            "logo": "tv7triveneta.svg",
             "name": "TV7 Triveneta",
             "disabled": "not-working",
             "hbbtv": [{
                 "sublcn": 2,
-                "logo": "tv7triveneta",
+                "logo": "tv7triveneta.svg",
                 "name": "TV7 Meteo",
                 "type": "hls",
                 "url": "https://www.gruppotv7.com:8090/hls/meteo.m3u8"
             },
             {
                 "sublcn": 3,
-                "logo": "tv7triveneta",
+                "logo": "tv7triveneta.svg",
                 "name": "TV7 Sport",
                 "type": "hls",
                 "url": "https://www.gruppotv7.com:8090/hls/sport.m3u8"
@@ -157,7 +157,7 @@
             },
             {
                 "sublcn": 10,
-                "logo": "telecolor",
+                "logo": "telecolor.svg",
                 "name": "Telecolor",
                 "hd": true,
                 "type": "hls",
@@ -204,7 +204,7 @@
                 "name": "Lazio TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8"
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/playlist.m3u8"
             },
             {
                 "sublcn": 17,
@@ -326,6 +326,13 @@
             },
             {
                 "sublcn": 3,
+                "logo": "friulitv24",
+                "name": "FriuliTV24",
+                "type": "hls",
+                "url": "https://585b674743bbb.streamlock.net/9080/9080/playlist.m3u8"
+            },
+            {
+                "sublcn": 4,
                 "logo": "radiocafè",
                 "name": "Radio Cafè",
                 "radio": true,
@@ -347,14 +354,14 @@
             "disabled": "not-working",
             "hbbtv": [{
                 "sublcn": 3,
-                "logo": "tv7triveneta",
+                "logo": "tv7triveneta.svg",
                 "name": "TV7 Meteo",
                 "type": "hls",
                 "url": "https://www.gruppotv7.com:8090/hls/meteo.m3u8"
             },
             {
                 "sublcn": 4,
-                "logo": "tv7triveneta",
+                "logo": "tv7triveneta.svg",
                 "name": "TV7 Sport",
                 "type": "hls",
                 "url": "https://www.gruppotv7.com:8090/hls/sport.m3u8"
@@ -377,7 +384,7 @@
             },
             {
                 "sublcn": 7,
-                "logo": "telecolor",
+                "logo": "telecolor.svg",
                 "name": "Telecolor",
                 "hd": true,
                 "type": "hls",
@@ -417,7 +424,7 @@
                 "name": "Lazio TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8"
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/playlist.m3u8"
             },
             {
                 "sublcn": 13,

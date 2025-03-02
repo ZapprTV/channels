@@ -37,14 +37,14 @@
             "disabled": "not-working",
             "hbbtv": [{
                 "sublcn": 3,
-                "logo": "tv7triveneta",
+                "logo": "tv7triveneta.svg",
                 "name": "TV7 Meteo",
                 "type": "hls",
                 "url": "https://www.gruppotv7.com:8090/hls/meteo.m3u8"
             },
             {
                 "sublcn": 4,
-                "logo": "tv7triveneta",
+                "logo": "tv7triveneta.svg",
                 "name": "TV7 Sport",
                 "type": "hls",
                 "url": "https://www.gruppotv7.com:8090/hls/sport.m3u8"
@@ -67,7 +67,7 @@
             },
             {
                 "sublcn": 7,
-                "logo": "telecolor",
+                "logo": "telecolor.svg",
                 "name": "Telecolor",
                 "hd": true,
                 "type": "hls",
@@ -107,7 +107,7 @@
                 "name": "Lazio TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8"
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/playlist.m3u8"
             },
             {
                 "sublcn": 13,
@@ -177,35 +177,10 @@
         },
         {
             "lcn": 88,
-            "logo": "cafè24",
-            "name": "Cafè24",
-            "hd": true,
+            "logo": "friulitv24",
+            "name": "FriuliTV24",
             "type": "hls",
-            "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8",
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "stereocittà",
-                "name": "Stereocittà",
-                "radio": true,
-                "type": "direct",
-                "url": "https://geminione.it/proxy/stereocitta/stream"
-            },
-            {
-                "sublcn": 2,
-                "logo": "radiogemini",
-                "name": "Radio Gemini",
-                "radio": true,
-                "type": "direct",
-                "url": "https://geminione.it/proxy/gemini/stream"
-            },
-            {
-                "sublcn": 3,
-                "logo": "radiocafè",
-                "name": "Radio Cafè",
-                "radio": true,
-                "type": "direct",
-                "url": "https://geminione.it/proxy/test/stream"  
-            }]
+            "url": "https://585b674743bbb.streamlock.net/9080/9080/playlist.m3u8"
         },
         {
             "lcn": 93,

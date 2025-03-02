@@ -881,7 +881,7 @@
         },
         {
             "lcn": 138,
-            "logo": "telecampione",
+            "logo": "telecampione.svg",
             "name": "Telecampione",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/playlist.m3u8"
