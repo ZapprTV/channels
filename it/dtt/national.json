@@ -1580,9 +1580,8 @@
                 "sublcn": 2,
                 "logo": "radiopooh",
                 "name": "Radio Pooh",
-                "radio": true,
-                "type": "direct",
-                "url": "https://rtr99.fluidstream.eu/rtr99_pooh.aac"
+                "type": "hls",
+                "url": "https://pooh.fluid.stream/RadioPoohTV/livestream/playlist.m3u8"
             },
             {
                 "sublcn": 3,
@@ -2640,10 +2639,25 @@
                 "url": "https://5db313b643fd8.streamlock.net/111/111/playlist.m3u8"
             },
             {
+                "sublcn": 9,
+                "logo": "teleeubea",
+                "name": "Tele Eubea",
+                "type": "hls",
+                "url": "https://load-balancer.azotosolutions.com/cdnedge20/smil:live20.smil/playlist.m3u8"
+            },
+            {
+                "sublcn": 10,
+                "logo": "retetvitalia",
+                "name": "Rete TV Italia",
+                "hd": true,
+                "type": "hls",
+                "url": "https://stream.mariatvcdn.com/localtv/localtv.stream/playlist.m3u8"
+            },
+            {
                 "categorySeparator": "Canali Radio"
             },
             {
-                "sublcn": 9,
+                "sublcn": 11,
                 "logo": "supersixradio",
                 "name": "SuperSix Radio",
                 "radio": true,
@@ -2651,7 +2665,7 @@
                 "url": "https://onair22.xdevel.com/proxy/xautocloud_nek2_339?mp=/;stream/;"
             },
             {
-                "sublcn": 10,
+                "sublcn": 12,
                 "logo": "lombardiatvvintage",
                 "name": "Lombardia TV Vintage",
                 "radio": true,
@@ -2659,7 +2673,7 @@
                 "url": "https://onair22.xdevel.com/proxy/xautocloud_vwdr_335?mp=/;stream/;"
             },
             {
-                "sublcn": 11,
+                "sublcn": 13,
                 "logo": "radiomadeo",
                 "name": "Radio Madeo",
                 "radio": true,
