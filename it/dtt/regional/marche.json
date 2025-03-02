@@ -378,8 +378,7 @@
             "logo": "rtm",
             "name": "RTM",
             "type": "hls",
-            "url": "https://livestream.com/accounts/10831729/events/3759913",
-            "api": "cloudflare"
+            "url": "https://cdn17.streamshow.it/cloud-rtmtv/rtmtv.stream/playlist.m3u8"
         },
         {
             "lcn": 351,
