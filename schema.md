@@ -456,7 +456,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd></dl></td>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd><dt>servizistreaming-embed</dt><dd>Embed ServiziStreaming.it</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -917,7 +917,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd></dl></td>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd><dt>servizistreaming-embed</dt><dd>Embed ServiziStreaming.it</dd></dl></td>
     </tr>
   </tbody>
 </table>
