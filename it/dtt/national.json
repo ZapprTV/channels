@@ -2193,6 +2193,13 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://jr7yvkmwda4v-hls-live.mariatvcdn.it/liveu/9aa7fdc4068e56587206b298b423cb82.sdp/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "fighterslife244",
+                "name": "Fighters Life TV",
+                "type": "hls",
+                "url": "https://stream4.xdevel.com/video6s975955-1777/stream/playlist.m3u8"
             }]
         },
         {
