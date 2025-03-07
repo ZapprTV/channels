@@ -214,6 +214,14 @@
             "url": "https://59d7d6f47d7fc.streamlock.net/telefoggia/telefoggia/playlist.m3u8"
         },
         {
+            "lcn": 89,
+            "logo": "mediterraneatv",
+            "name": "Mediterranea TV",
+            "subtitle": "/ Video M Italia",
+            "type": "hls",
+            "url": "https://stream1.aswifi.it/mediterraneatv/live/index.m3u8"
+        },
+        {
             "lcn": 90,
             "logo": "canale2",
             "name": "Canale 2",
@@ -221,11 +229,27 @@
             "url": "https://59d7d6f47d7fc.streamlock.net/canale2/canale2/playlist.m3u8"
         },
         {
+            "lcn": 91,
+            "logo": "amica9",
+            "name": "Amica 9",
+            "subtitle": "Attivo solo durante alcuni programmi in diretta",
+            "type": "youtube",
+            "url": "UClNHmlTW9rZHdU5kLrcEg2A"
+        },
+        {
             "lcn": 92,
             "logo": "antennasud",
             "name": "Antenna Sud Extra",
             "type": "hls",
             "url": "https://live.antennasudwebtv.it:9443/hls/vod92.m3u8"
+        },
+        {
+            "lcn": 93,
+            "logo": "reginadellapace",
+            "name": "Regina della Pace TV",
+            "subtitle": "Attivo solo durante alcuni programmi in diretta",
+            "type": "youtube",
+            "url": "UCmVp1ZRry5E5Oh3obKi1ECg"
         },
         {
             "lcn": 95,
@@ -240,6 +264,13 @@
             "name": "Studio 100",
             "type": "hls",
             "url": "https://cdn16.streamshow.it/cloud-studio100/studio100/playlist.m3u8"
+        },
+        {
+            "lcn": 111,
+            "logo": "barinews",
+            "name": "BariNews",
+            "type": "hls",
+            "url": "https://stream.ets-sistemi.it:19360/barinews111/barinews111.m3u8"
         }
     ]
 }

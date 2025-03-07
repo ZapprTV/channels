@@ -24,7 +24,7 @@
             "license": "xdevel-wms"
         },
         {
-            "lcn": 12,
+            "lcn": 13,
             "logo": "telea",
             "name": "Tele A",
             "type": "hls",
@@ -39,6 +39,14 @@
             "url": "https://59d7d6f47d7fc.streamlock.net/canale8/canale8/playlist.m3u8"
         },
         {
+            "lcn": 15,
+            "logo": "telecapri",
+            "name": "Telecapri",
+            "subtitle": "Attivo solo durante alcuni programmi in diretta",
+            "type": "youtube",
+            "url": "UCye6SHysnzA8G8uZgqEuj_Q"
+        },
+        {
             "lcn": 16,
             "logo": "ottochannel",
             "name": "Otto Channel",
@@ -46,11 +54,27 @@
             "url": "https://load-balancer.azotosolutions.com/cdnedge/smil:live.smil/playlist.m3u8"
         },
         {
+            "lcn": 17,
+            "logo": "primativvù",
+            "name": "Primativvù",
+            "subtitle": "Attivo solo durante alcuni programmi in diretta",
+            "type": "youtube",
+            "url": "UC8wvte8OOeNsfVJOeIDR8_A"
+        },
+        {
             "lcn": 18,
             "logo": "liratv",
             "name": "LiraTV",
             "type": "hls",
             "url": "https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8?DVR"
+        },
+        {
+            "lcn": 19,
+            "logo": "irpiniatv",
+            "name": "Irpinia TV",
+            "subtitle": "Attivo solo durante alcuni programmi in diretta",
+            "type": "youtube",
+            "url": "UCvEuxIJ_yKBo5c_EPQyYrhw"
         },
         {
             "lcn": 75,

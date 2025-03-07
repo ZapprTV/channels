@@ -1027,6 +1027,13 @@
             "disabled": "not-working"
         },
         {
+            "lcn": 81,
+            "logo": "sestarete",
+            "name": "Sestarete",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/sestarete/sestarete/playlist.m3u8"
+        },
+        {
             "lcn": 83,
             "logo": "latr3",
             "name": "La Tr3",
@@ -1442,6 +1449,14 @@
             "url": "https://57068da1deb21.streamlock.net/teletv8/teletv8/playlist.m3u8"
         },
         {
+            "lcn": 94,
+            "logo": "radiojukeboxcalabria",
+            "name": "Radio JukeBox TV",
+            "subtitle": "(Calabria)",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
+        },
+        {
             "lcn": 96,
             "logo": "bellaradiotv",
             "name": "Bella Radio TV",
@@ -1540,14 +1555,6 @@
             "name": "TelePegaso",
             "type": "hls",
             "url": "https://stream10.xdevel.com/video0s977504-2067/stream/playlist.m3u8"
-        },
-        {
-            "lcn": 877,
-            "logo": "radiojukeboxcalabria",
-            "name": "Radio JukeBox TV",
-            "subtitle": "(Calabria)",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
         }
     ]
 }

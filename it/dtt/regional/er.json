@@ -176,8 +176,8 @@
             "url": "https://64b16f23efbee.streamlock.net/teleestense/teleestense/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
-                "logo": "telesanterno2",
-                "name": "Telesanterno2",
+                "logo": "telesanterno",
+                "name": "Telesanterno",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/telesanterno/telesanterno/playlist.m3u8"
             }]
@@ -194,7 +194,7 @@
             "logo": "telesanterno2",
             "name": "Telesanterno2",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/telesanterno/telesanterno/playlist.m3u8"
+            "url": "https://media2021.rtvweb.com/pallonebo/live/playlist.m3u8"
         },
         {
             "lcn": 78,

@@ -234,6 +234,13 @@
             "url": "https://189790-castr.akamaized.net/633d685a281cd401ae82c2f7/live_bc04bf70449f11ed80952100db9e5fd9/rewind-3600.m3u8"
         },
         {
+            "lcn": 87,
+            "logo": "videostar",
+            "name": "Videostar",
+            "type": "hls",
+            "url": "https://604e46ac2bdee.streamlock.net:1936/vds/vds/playlist.m3u8"
+        },
+        {
             "lcn": 88,
             "logo": "rete55",
             "name": "Rete 55",
@@ -305,7 +312,7 @@
             "logo": "mylivignotv",
             "name": "My Livigno TV",
             "type": "youtube",
-            "url": "XdtGIZmrxpE"
+            "url": "NolLONAyD44"
         },
         {
             "lcn": 112,
@@ -380,7 +387,7 @@
             "logo": "mylivignotvnews",
             "name": "My Livigno TV News",
             "type": "youtube",
-            "url": "nkmmWaAy27E"
+            "url": "Lx-PcWt5Ba0"
         },
         {
             "lcn": 181,

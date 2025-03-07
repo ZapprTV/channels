@@ -219,6 +219,13 @@
             "url": "https://5f22d76e220e1.streamlock.net/radioricorditv/radioricorditv/playlist.m3u8"
         },
         {
+            "lcn": 93,
+            "logo": "adn24",
+            "name": "ADN24",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
+        },
+        {
             "lcn": 96,
             "logo": "soveratounotv",
             "name": "Soverato Uno TV",
@@ -263,18 +270,26 @@
             "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8"
         },
         {
-            "lcn": 113,
-            "logo": "adn24",
-            "name": "ADN24",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
-        },
-        {
             "lcn": 116,
             "logo": "mediasud",
             "name": "Mediasud",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"        
+        },
+        {
+            "lcn": 175,
+            "logo": "motoritvadn",
+            "name": "Motori TV",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8"
+        },
+        {
+            "lcn": 177,
+            "logo": "radiojukeboxcalabria",
+            "name": "Radio JukeBox TV",
+            "subtitle": "(Calabria)",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
         },
         {
             "lcn": 185,
@@ -305,14 +320,6 @@
             "name": "70-80.it",
             "type": "hls",
             "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
-        },
-        {
-            "lcn": 877,
-            "logo": "radiojukeboxcalabria",
-            "name": "Radio JukeBox TV",
-            "subtitle": "(Calabria)",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
         }
     ]
 }

@@ -126,6 +126,13 @@
             "url": "https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8"
         },
         {
+            "lcn": 16,
+            "logo": "radiobirikinatv",
+            "name": "Radio Birikina TV",
+            "type": "hls",
+            "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8"
+        },
+        {
             "lcn": 18,
             "logo": "telechiara",
             "name": "Telechiara",
@@ -162,18 +169,18 @@
             "url": "https://cdn.mycloudstream.io/hls/live/broadcast/b081xhsz/index.m3u8"
         },
         {
-            "lcn": 78,
-            "logo": "radiobirikinatv",
-            "name": "Radio Birikina TV",
-            "type": "hls",
-            "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV/livestream/playlist.m3u8"
-        },
-        {
             "lcn": 79,
             "logo": "radiobelllaemonellatv",
             "name": "Radio Bellla e Monella TV",
             "type": "hls",
             "url": "https://58d921499d3d3.streamlock.net/RadioBelllaemonellaTV/livestream/playlist.m3u8"
+        },
+        {
+            "lcn": 83,
+            "logo": "promovideotv",
+            "name": "PromovideoTV",
+            "type": "hls",
+            "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"        
         },
         {
             "lcn": 88,

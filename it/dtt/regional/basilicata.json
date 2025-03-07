@@ -206,11 +206,25 @@
             "url": "https://samson.streamerr.co:8081/carinatv/index.m3u8"
         },
         {
+            "lcn": 87,
+            "logo": "trc",
+            "name": "TRC",
+            "type": "hls",
+            "url": "https://stream7.livinlive.it/trc/trc/playlist.m3u8"
+        },
+        {
             "lcn": 88,
             "logo": "telefoggia",
             "name": "TeleFoggia",
             "type": "hls",
             "url": "https://59d7d6f47d7fc.streamlock.net/telefoggia/telefoggia/playlist.m3u8"
+        },
+        {
+            "lcn": 89,
+            "logo": "radiocittàtv",
+            "name": "Radio Città TV",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video0s977971-2391/stream/playlist.m3u8"
         },
         {
             "lcn": 95,
