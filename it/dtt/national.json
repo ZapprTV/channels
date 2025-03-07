@@ -666,7 +666,7 @@
         },
         {
             "lcn": 122,
-            "logo": "cusanoitaliatv",
+            "logo": "canale122",
             "name": "Cusano Italia TV",
             "type": "hls",
             "url": "https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8",
@@ -1369,7 +1369,7 @@
             "url": "https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
-                "logo": "cusanoitaliatv",
+                "logo": "canale122",
                 "name": "Cusano Italia TV",
                 "type": "hls",
                 "url": "https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8"
