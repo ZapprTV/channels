@@ -29,7 +29,8 @@
                 "logo": "tvcentromarche",
                 "name": "TV Centro Marche +1",
                 "type": "hls",
-                "url": "https://str48.fluid.stream/TV_Centro_Marche/livestream/playlist.m3u8"
+                "url": "https://str48.fluid.stream/TV_Centro_Marche/livestream/playlist.m3u8",
+                "disabled": "not-working"
             }]
         },
         {

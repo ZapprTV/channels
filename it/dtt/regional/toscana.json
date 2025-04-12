@@ -51,7 +51,7 @@
                 "name": "Tele Dehon",
                 "hd": true,
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8"
             },
             {
                 "sublcn": 3,
@@ -239,15 +239,14 @@
             "logo": "tv1",
             "name": "TV1",
             "type": "hls",
-            "url": "https://stream.mariatvcdn.com/tv1/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8"
+            "url": "https://stream10.xdevel.com/video0s978282-2579/stream/playlist.m3u8"
         },
         {
             "lcn": 78,
-            "logo": "radio104",
-            "name": "Radio 104 TV",
-            "subtitle": "Non sempre attivo",
+            "logo": "teleregionetoscana",
+            "name": "Teleregione Toscana",
             "type": "hls",
-            "url": "https://57068da1deb21.streamlock.net/radio104/radio104/playlist.m3u8"
+            "url": "https://srvx1.selftv.video/teleregionetoscana/live/playlist.m3u8"  
         },
         {
             "lcn": 80,
@@ -261,7 +260,7 @@
             "logo": "arezzotv.svg",
             "name": "Arezzo TV",
             "type": "youtube",
-            "url": "UCAakJCVVkr83a144CbGvRgw"
+            "url": "tlYRjx0i-8o"
         },
         {
             "lcn": 83,
@@ -332,7 +331,8 @@
             "logo": "ideaplus",
             "name": "Idea Plus",
             "type": "hls",
-            "url": "https://rst.saiuzwebnetwork.it:19360/teleidea/teleidea.m3u8"
+            "url": "https://rst.saiuzwebnetwork.it:19360/teleidea/teleidea.m3u8",
+            "disabled": "not-working"
         },
         {
             "lcn": 180,

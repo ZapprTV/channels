@@ -97,7 +97,8 @@
             "lcn": 16,
             "logo": "tv7triveneta.svg",
             "name": "TV7 Triveneta",
-            "disabled": "not-working",
+            "type": "hls",
+            "url": "https://www.gruppotv7.com:8090/hls/triveneta.m3u8",
             "hbbtv": [{
                 "sublcn": 2,
                 "logo": "tv7triveneta.svg",
@@ -111,6 +112,13 @@
                 "name": "TV7 Sport",
                 "type": "hls",
                 "url": "https://www.gruppotv7.com:8090/hls/sport.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "il13.svg",
+                "name": "il13",
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/il13.m3u8"
             },
             {
                 "sublcn": 5,

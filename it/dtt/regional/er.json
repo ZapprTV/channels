@@ -120,7 +120,7 @@
                 "name": "Tele Dehon",
                 "hd": true,
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8"
             },
             {
                 "sublcn": 3,
@@ -238,7 +238,7 @@
                 "logo": "telesanterno2",
                 "name": "Telesanterno2",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/telesanterno/telesanterno/playlist.m3u8"
+                "url": "https://media2021.rtvweb.com/pallonebo/live/playlist.m3u8"
             },
             {
                 "categorySeparator": "Altre TV"
@@ -365,6 +365,13 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
+            },
+            {
+                "sublcn": 8,
+                "logo": "tv7triveneta.svg",
+                "name": "TV7 Triveneta",
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/triveneta.m3u8"
             }]
         },
         {
@@ -410,68 +417,44 @@
             "type": "hls",
             "url": "https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8",
             "hbbtv": [{
-                "categorySeparator": "TV"
-            },
-            {
-                "sublcn": 1,
-                "logo": "radio7note",
-                "name": "7 Storia",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video2s976543-2104/stream/playlist.m3u8"
-            },
-            {
                 "categorySeparator": "Radio"  
             },
             {
-                "sublcn": 2,
+                "sublcn": 1,
                 "logo": "radio904you",
                 "name": "Radio 90-4 You",
                 "radio": true,
-                "type": "hls",
-                "url": "https://streamsrv2.nets-sr.com:19370/90-4you-hbbtv/90-4you-hbbtv.m3u8"
+                "type": "direct",
+                "url": "https://streamsrv2.nets-sr.com:8004/stream"
             },
             {
-                "sublcn": 3,
+                "sublcn": 2,
                 "logo": "radiocity4you",
                 "name": "Radio Dance City4You",
                 "radio": true,
                 "type": "hls",
-                "url": "https://streamsrv2.nets-sr.com:19370/city4you/city4you.m3u8"
+                "url": "https://streamsrv2.nets-sr.com:19370/city4you/city4you.m3u8",
+                "disabled": "not-working"
             },
             {
                 "categorySeparator": "Radiovisione"
             },
             {
-                "sublcn": 4,
+                "sublcn": 3,
                 "logo": "radiosa.svg",
                 "name": "Radio Radiosa TV",
                 "type": "hls",
                 "url": "https://stream7.zivoli.it/radiosatv/radiosatv/playlist.m3u8"
             },
             {
-                "sublcn": 5,
-                "logo": "simplyradiovisione",
-                "name": "Simply RadioVisione",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video0s976543-1809/stream/playlist.m3u8",
-                "disabled": "not-working"
-            },
-            {
-                "sublcn": 6,
-                "logo": "radioyouandme",
-                "name": "Radio You and Me Television",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video0s977798-2239/stream/playlist.m3u8"
-            },
-            {
-                "sublcn": 7,
+                "sublcn": 4,
                 "logo": "radio7note",
                 "name": "7 RadioVisione",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8"
             },
             {
-                "sublcn": 8,
+                "sublcn": 5,
                 "logo": "70-80",
                 "name": "70-80.it",
                 "type": "hls",
@@ -484,6 +467,13 @@
             "name": "San Marino RTV Sport",
             "type": "hls",
             "url": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/master.m3u8"
+        },
+        {
+            "lcn": 93,
+            "logo": "nettunobolognauno",
+            "name": "Nettuno Bologna Uno",
+            "type": "twitch",
+            "url": "nettunobolognauno"
         },
         {
             "lcn": 94,
@@ -584,6 +574,7 @@
             "lcn": 175,
             "logo": "motoritvadn",
             "name": "Motori TV",
+            "hd": true,
             "type": "hls",
             "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8"
         },

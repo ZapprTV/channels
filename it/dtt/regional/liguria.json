@@ -74,7 +74,7 @@
                 "name": "Tele Dehon",
                 "hd": true,
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8"
             },
             {
                 "sublcn": 8,
@@ -224,6 +224,13 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
+            },
+            {
+                "sublcn": 8,
+                "logo": "tv7triveneta.svg",
+                "name": "TV7 Triveneta",
+                "type": "hls",
+                "url": "https://www.gruppotv7.com:8090/hls/triveneta.m3u8"
             }]
         },
         {
@@ -237,7 +244,7 @@
                 "logo": "lovemusic",
                 "name": "Love Music",
                 "type": "hls",
-                "url": "https://cdn98-ita.azotosolutions.com:8443/cdnedge12/live12/playlist.m3u8"
+                "url": "https://d4k.it/hls/master.m3u8"
             },
             {
                 "categorySeparator": "Altre Radio"
@@ -304,14 +311,6 @@
             "name": "Entella TV",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/EntellaTV/EntellaTV/playlist.m3u8"
-        },
-        {
-            "lcn": 77,
-            "logo": "radio104",
-            "name": "Radio 104 TV",
-            "subtitle": "Non sempre attivo",
-            "type": "hls",
-            "url": "https://57068da1deb21.streamlock.net/radio104/radio104/playlist.m3u8"
         },
         {
             "lcn": 78,

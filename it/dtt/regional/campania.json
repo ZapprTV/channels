@@ -66,7 +66,7 @@
             "logo": "liratv",
             "name": "LiraTV",
             "type": "hls",
-            "url": "https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8?DVR"
+            "url": "https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8"
         },
         {
             "lcn": 19,
@@ -286,9 +286,8 @@
             "lcn": 96,
             "logo": "campaniatv",
             "name": "Campania TV",
-            "subtitle": "Non sempre attivo",
-            "type": "twitch",
-            "url": "telemiracolistory"
+            "type": "hls",
+            "url": "https://rst2.saiuzwebnetwork.it:8081/telemiracoli/index.m3u8"
         },
         {
             "lcn": 97,
@@ -318,7 +317,7 @@
             "name": "Tele Dehon",
             "hd": true,
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8",
+            "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "icarotv.svg",
@@ -377,7 +376,7 @@
             "logo": "sudtv",
             "name": "Sud TV",
             "type": "twitch",
-            "url": "sudtv114"
+            "url": "sudtv_114"
         },
         {
             "lcn": 117,
@@ -392,7 +391,8 @@
             "logo": "unotv",
             "name": "Uno TV",
             "type": "hls",
-            "url": "https://stream1.aswifi.it/unotv/live/index.m3u8"
+            "url": "https://stream1.aswifi.it/unotv/live/index.m3u8",
+            "disabled": "not-working"
         },
         {
             "lcn": 181,
@@ -413,7 +413,8 @@
             "logo": "partenopetv",
             "name": "Partenope TV",
             "type": "hls",
-            "url": "https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8"
+            "url": "https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8",
+            "disabled": "not-working"
         },
         {
             "lcn": 214,
@@ -436,15 +437,7 @@
             "name": "Radio Club 91",
             "radio": true,
             "type": "direct",
-            "url": "https://stream5.xdevel.com/audio0s976546-1307/stream/icecast.audio",
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "radioclub91",
-                "name": "Radio Club 91 TV",
-                "radio": true,
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video0s976546-2079/stream/playlist.m3u8"
-            }]
+            "url": "https://stream5.xdevel.com/audio0s976546-1307/stream/icecast.audio"
         },
         {
             "lcn": 777,

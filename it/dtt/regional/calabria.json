@@ -122,6 +122,21 @@
             "url": "https://5a1178b42cc03.streamlock.net/jonica/jonica/playlist.m3u8"
         },
         {
+            "lcn": 83,
+            "logo": "gschannel",
+            "name": "GS Channel",
+            "hd": true,
+            "type": "hls",
+            "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radiogschannel",
+                "name": "Radio GS Channel",
+                "type": "hls",
+                "url": "https://rst.saiuzwebnetwork.it:8081/retereggioradio/index.m3u8"
+            }]
+        },
+        {
             "lcn": 85,
             "logo": "weddingtv.svg",
             "name": "Wedding TV",
@@ -141,7 +156,7 @@
             "name": "Tele Dehon",
             "hd": true,
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8",
+            "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "icarotv.svg",
@@ -248,21 +263,6 @@
             "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8"
         },
         {
-            "lcn": 110,
-            "logo": "gschannel",
-            "name": "GS Channel",
-            "hd": true,
-            "type": "hls",
-            "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8",
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "radiogschannel",
-                "name": "Radio GS Channel",
-                "type": "hls",
-                "url": "https://rst.saiuzwebnetwork.it:8081/retereggioradio/index.m3u8"
-            }]
-        },
-        {
             "lcn": 111,
             "logo": "lacnetwork.svg",
             "name": "LaC Network",
@@ -280,6 +280,7 @@
             "lcn": 175,
             "logo": "motoritvadn",
             "name": "Motori TV",
+            "hd": true,
             "type": "hls",
             "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8"
         },

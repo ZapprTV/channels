@@ -78,7 +78,8 @@
                 "logo": "bonaria",
                 "name": "Bonaria TV",
                 "type": "hls",
-                "url": "https://cloudtv.azotosolutions.com:9553/livertg2/livertg2/playlist.m3u8"
+                "url": "https://cloudtv.azotosolutions.com:9553/livertg2/livertg2/playlist.m3u8",
+                "disabled": "not-working"
             },
             {
                 "sublcn": 2,
@@ -108,7 +109,7 @@
                 "name": "Tele Dehon",
                 "hd": true,
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8"
             },
             {
                 "sublcn": 6,
@@ -148,7 +149,7 @@
                 "name": "Radio Kalaritana",
                 "radio": true,
                 "type": "direct",
-                "url": "https://www.shoutcastitalia.com/proxy/kalaritana?mp=%2Fstream%2F%3Bstream.mp3"  
+                "url": "https://radio.kalaritanamedia.it/;stream.mp3"  
             },
             {
                 "sublcn": 11,

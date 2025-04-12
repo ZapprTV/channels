@@ -63,7 +63,7 @@
                 "logo": "radiobari",
                 "name": "Radiobari",
                 "radio": true,
-                "type": "hls",
+                "type": "direct",
                 "url": "https://ssl1.mediastreaming.it:9062/;"
             }]
         },
@@ -81,7 +81,7 @@
             "name": "Tele Dehon",
             "hd": true,
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/Teledehon/smil:Teledehon.smil/playlist.m3u8",
+            "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "icarotv.svg",
@@ -209,6 +209,7 @@
             "lcn": 87,
             "logo": "trc",
             "name": "TRC",
+            "subtitle": "Molto lento",
             "type": "hls",
             "url": "https://stream7.livinlive.it/trc/trc/playlist.m3u8"
         },
