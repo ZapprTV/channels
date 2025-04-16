@@ -1504,8 +1504,7 @@
                 "name": "Hai Romania!!",
                 "radio": true,
                 "type": "hls",
-                "url": "https://stream10.xdevel.com/video17s975955-2173/stream/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://stream10.xdevel.com/video17s975955-2173/stream/playlist.m3u8"
             },
             {
                 "sublcn": 4,
@@ -1772,8 +1771,7 @@
                 "logo": "turismotv",
                 "name": "Turismo TV",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8"
             },
             {
                 "sublcn": 12,

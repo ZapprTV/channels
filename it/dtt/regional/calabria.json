@@ -223,8 +223,7 @@
             "logo": "turismotv",
             "name": "Turismo TV",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8",
-            "disabled": "not-working"
+            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8"
         },
         {
             "lcn": 91,

@@ -14,8 +14,7 @@
             "name": "Canale 10",
             "hd": true,
             "type": "hls",
-            "url": "https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8",
-            "disabled": "not-working"
+            "url": "https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8"
         },
         {
             "lcn": 11,
@@ -658,8 +657,7 @@
             "logo": "turismotv",
             "name": "Turismo TV",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8",
-            "disabled": "not-working"
+            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8"
         },
         {
             "lcn": 119,
@@ -726,9 +724,8 @@
                 "logo": "radiocity4you",
                 "name": "Radio Dance City4You",
                 "radio": true,
-                "type": "hls",
-                "url": "https://streamsrv2.nets-sr.com:19370/city4you/city4you.m3u8",
-                "disabled": "not-working"
+                "type": "direct",
+                "url": "https://sr9.inmystream.it/proxy/radio4you1?mp=/stream"
             },
             {
                 "categorySeparator": "Radiovisione"

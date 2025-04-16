@@ -359,7 +359,8 @@
             "lcn": 88,
             "logo": "il13.svg",
             "name": "il13",
-            "disabled": "not-working",
+            "type": "hls",
+            "url": "https://www.gruppotv7.com:8090/hls/il13.m3u8",
             "hbbtv": [{
                 "sublcn": 3,
                 "logo": "tv7triveneta.svg",

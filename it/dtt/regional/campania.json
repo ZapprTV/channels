@@ -413,8 +413,7 @@
             "logo": "partenopetv",
             "name": "Partenope TV",
             "type": "hls",
-            "url": "https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8",
-            "disabled": "not-working"
+            "url": "https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8"
         },
         {
             "lcn": 214,

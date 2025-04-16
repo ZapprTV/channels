@@ -331,8 +331,7 @@
             "logo": "ideaplus",
             "name": "Idea Plus",
             "type": "hls",
-            "url": "https://rst.saiuzwebnetwork.it:19360/teleidea/teleidea.m3u8",
-            "disabled": "not-working"
+            "url": "https://rst.saiuzwebnetwork.it:19360/teleidea/teleidea.m3u8"
         },
         {
             "lcn": 180,

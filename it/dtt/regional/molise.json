@@ -62,8 +62,7 @@
             "logo": "superj",
             "name": "Super J",
             "type": "hls",
-            "url": "https://59d39900ebfb8.streamlock.net/SuperJtv/SuperJtv/playlist.m3u8",
-            "disabled": "not-working"
+            "url": "https://59d39900ebfb8.streamlock.net/SuperJtv/SuperJtv/playlist.m3u8"
         },
         {
             "lcn": 17,

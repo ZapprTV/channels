@@ -180,7 +180,6 @@
             "subtitle": "/ One TV 79",
             "type": "hls",
             "url": "https://media2.streambrothers.com:19360/8092/8092.m3u8",
-            "disabled": "not-working",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "radio45giri",
@@ -458,9 +457,8 @@
                 "logo": "radiocity4you",
                 "name": "Radio Dance City4You",
                 "radio": true,
-                "type": "hls",
-                "url": "https://streamsrv2.nets-sr.com:19370/city4you/city4you.m3u8",
-                "disabled": "not-working"
+                "type": "direct",
+                "url": "https://sr9.inmystream.it/proxy/radio4you1?mp=/stream"
             },
             {
                 "categorySeparator": "Radiovisione"
