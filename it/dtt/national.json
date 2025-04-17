@@ -2441,11 +2441,11 @@
         },
         {
             "lcn": 412,
-            "logo": "premio",
-            "name": "Showreel Premio",
+            "logo": "imprese",
+            "name": "Imprese",
             "hd": true,
             "type": "hls",
-            "url": "https://fms.premio.link/automoto/playlist.m3u8"
+            "url": "https://streamer2.premio.link/imprese/playlist.m3u8"
         },
         {
             "lcn": 441,
