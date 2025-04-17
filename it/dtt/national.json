@@ -1172,7 +1172,7 @@
         },
         {
             "lcn": 209,
-            "logo": "hbbtv.svg",
+            "logo": "promoshopping",
             "name": "Promo Shopping",
             "hbbtvmosaic": true,
             "hbbtv": [{
@@ -1246,6 +1246,20 @@
                 "name": "Napoletani nel Mondo",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video2s977812-2248/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 13,
+                "logo": "liveevents",
+                "name": "Live Events",
+                "type": "hls",
+                "url": "https://api.momentotv.live:28443/cmaf/livevent/manifest.m3u8"
+            },
+            {
+                "sublcn": 14,
+                "logo": "promoshoppingtv",
+                "name": "Promo Shopping",
+                "type": "hls",
+                "url": "https://api.momentotv.live:28443/cmaf/televendita1/manifest.m3u8"
             }]
         },
         {
@@ -1665,8 +1679,7 @@
                 "name": "Ottcast 4K Ultra HD",
                 "uhd": true,
                 "type": "hls",
-                "url": "http://hbbtv.momentotv.live:28080/cmaf/demo4k/index.m3u8",
-                "http": true            
+                "url": "https://api.momentotv.live:28443/cmaf/demo4k/manifest.m3u8"
             }]
         },
         {
@@ -1694,6 +1707,13 @@
             },
             {
                 "sublcn": 1,
+                "logo": "telespaziotv",
+                "name": "Telespazio TV",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
                 "logo": "radiojukeboxcalabria",
                 "name": "Radio JukeBox TV",
                 "subtitle": "(Calabria)",
@@ -1701,25 +1721,18 @@
                 "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
             },
             {
-                "sublcn": 2,
+                "sublcn": 3,
                 "logo": "adn24",
                 "name": "ADN24",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
             },
             {
-                "sublcn": 3,
+                "sublcn": 4,
                 "logo": "teleregionetoscana",
                 "name": "Teleregione Toscana",
                 "type": "hls",
                 "url": "https://srvx1.selftv.video/teleregionetoscana/live/playlist.m3u8"  
-            },
-            {
-                "sublcn": 4,
-                "logo": "telespaziotv",
-                "name": "Telespazio TV",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/playlist.m3u8"
             },
             {
                 "sublcn": 5,
@@ -2186,8 +2199,7 @@
                 "name": "Ottcast 4K Ultra HD",
                 "uhd": true,
                 "type": "hls",
-                "url": "http://hbbtv.momentotv.live:28080/cmaf/demo4k/index.m3u8",
-                "http": true            
+                "url": "https://api.momentotv.live:28443/cmaf/demo4k/manifest.m3u8"
             }]
         },
         {
