@@ -368,6 +368,27 @@
 
 
 
+### channels.feed
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Contrassegna come feed</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Se considerare il canale un &#x27;feed&#x27;, cioè se non è attivo 24/7.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
 ### channels.adult
 
 
@@ -379,7 +400,7 @@
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se è il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.</td>
+      <td colspan="2">Se il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
     <tr>
@@ -829,6 +850,27 @@
 
 
 
+### channels.hbbtv.feed
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Contrassegna come feed</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Se considerare il canale un &#x27;feed&#x27;, cioè se non è attivo 24/7.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
 ### channels.hbbtv.adult
 
 
@@ -840,7 +882,7 @@
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se è il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.</td>
+      <td colspan="2">Se il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
     <tr>
