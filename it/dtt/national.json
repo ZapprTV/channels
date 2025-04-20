@@ -12,25 +12,25 @@
                 "sublcn": 1,
                 "logo": "raiplaylive.svg",
                 "name": "RaiPlay 1",
-                "subtitle": "Non sempre attivo",
                 "type": "hls",
-                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay/hls/playlist_mo.m3u8"
+                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay/hls/playlist_mo.m3u8",
+                "feed": true
             },
             {
                 "sublcn": 2,
                 "logo": "raiplaylive.svg",
                 "name": "RaiPlay 2",
-                "subtitle": "Non sempre attivo",
                 "type": "hls",
-                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay2/hls/playlist_mo.m3u8"
+                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay2/hls/playlist_mo.m3u8",
+                "feed": true
             },
             {
                 "sublcn": 3,
                 "logo": "raiplaylive.svg",
                 "name": "RaiPlay 3",
-                "subtitle": "Non sempre attivo",
                 "type": "hls",
-                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay3/hls/playlist_mo.m3u8"
+                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay3/hls/playlist_mo.m3u8",
+                "feed": true
             }]
         },
         {
@@ -502,7 +502,8 @@
                 "name": "SuperTennis Plus - Feed 1",
                 "hd": true,
                 "type": "dash",
-                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd"
+                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd",
+                "feed": true
             },
             {
                 "sublcn": 2,
@@ -510,7 +511,8 @@
                 "name": "SuperTennis Plus - Feed 2",
                 "hd": true,
                 "type": "dash",
-                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel2/manifest.mpd"
+                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel2/manifest.mpd",
+                "feed": true
             },
             {
                 "sublcn": 3,
@@ -518,7 +520,8 @@
                 "name": "SuperTennis Plus - Feed 3",
                 "hd": true,
                 "type": "dash",
-                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel3/manifest.mpd"
+                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel3/manifest.mpd",
+                "feed": true
             },
             {
                 "sublcn": 4,
@@ -526,7 +529,8 @@
                 "name": "SuperTennis Plus - Feed 4",
                 "hd": true,
                 "type": "dash",
-                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel4/manifest.mpd"
+                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel4/manifest.mpd",
+                "feed": true
             }]
         },
         {
@@ -721,6 +725,41 @@
                 "name": "Radio Laziale",
                 "type": "hls",
                 "url": "https://router.xdevel.com/video5s975363-2398/stream/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Feed"
+            },
+            {
+                "sublcn": 5,
+                "logo": "fattiieri",
+                "name": "Fatti Ieri",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video8s975363-2572/stream/playlist.m3u8",
+                "feed": true
+            },
+            {
+                "sublcn": 6,
+                "logo": "psichecriminale",
+                "name": "Psiche Criminale",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video7s975363-2571/stream/playlist.m3u8",
+                "feed": true
+            },
+            {
+                "sublcn": 7,
+                "logo": "incidenteprobatorio",
+                "name": "Incidente Probatorio",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video6s975363-2570/stream/playlist.m3u8",
+                "feed": true
+            },
+            {
+                "sublcn": 8,
+                "logo": "trovatimorti",
+                "name": "Trovati Morti",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video4s975363-2381/stream/playlist.m3u8",
+                "feed": true
             }]
         },
         {
@@ -1423,6 +1462,41 @@
                 "name": "Radio Laziale",
                 "type": "hls",
                 "url": "https://router.xdevel.com/video5s975363-2398/stream/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Feed"
+            },
+            {
+                "sublcn": 5,
+                "logo": "fattiieri",
+                "name": "Fatti Ieri",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video8s975363-2572/stream/playlist.m3u8",
+                "feed": true
+            },
+            {
+                "sublcn": 6,
+                "logo": "psichecriminale",
+                "name": "Psiche Criminale",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video7s975363-2571/stream/playlist.m3u8",
+                "feed": true
+            },
+            {
+                "sublcn": 7,
+                "logo": "incidenteprobatorio",
+                "name": "Incidente Probatorio",
+                "type": "hls",
+                "url": "https://router.xdevel.com/video6s975363-2570/stream/playlist.m3u8",
+                "feed": true
+            },
+            {
+                "sublcn": 8,
+                "logo": "trovatimorti",
+                "name": "Trovati Morti",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video4s975363-2381/stream/playlist.m3u8",
+                "feed": true
             }]
         },
         {

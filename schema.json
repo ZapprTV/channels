@@ -139,10 +139,15 @@
                         "title": "Contrassegna come mosaico interattivo HbbTV",
                         "description": "Se contrassegnare il canale come mosaico interattivo di canali HbbTV."
                     },
+                    "feed": {
+                        "type": "boolean",
+                        "title": "Contrassegna come feed",
+                        "description": "Se considerare il canale un 'feed', cioè se non è attivo 24/7."
+                    },
                     "adult": {
                         "type": ["string", "boolean"],
                         "title": "Contrassegna come canale 18+",
-                        "description": "Se è il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.",
+                        "description": "Se il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.",
                         "enum": [true, "night", false],
                         "meta:enum": {
                             "true": "Il canale trasmette solo contenuti vietati ai minori di 18 anni.",
@@ -288,7 +293,10 @@
                                 "hbbtvmosaic": {
                                     "$ref": "#/properties/channels/items/properties/hbbtvmosaic"
                                 },
-                               "adult": {
+                                "feed": {
+                                    "$ref": "#/properties/channels/items/properties/feed"
+                                },
+                                "adult": {
                                     "$ref": "#/properties/channels/items/properties/adult"
                                 },
                                 "disabled": {
