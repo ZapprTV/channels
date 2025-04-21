@@ -807,6 +807,14 @@
             "url": "https://5926fc9c7c5b2.streamlock.net/standbytv/standbytv/playlist.m3u8"
         },
         {
+            "lcn": 555,
+            "logo": "vaticanmedia.svg",
+            "name": "Vatican Media",
+            "hd": true,
+            "type": "youtube",
+            "url": "UCkwbN2a1L1H6P9rcA7FhAqg"
+        },
+        {
             "lcn": 777,
             "logo": "radioquattro",
             "name": "Radio Quattro",
