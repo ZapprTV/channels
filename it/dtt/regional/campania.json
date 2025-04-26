@@ -216,7 +216,8 @@
             "logo": "telenuova",
             "name": "Telenuova",
             "type": "hls",
-            "url": "zappr://wim/a634d9b6-9e30-4cd9-a21d-307a2fb3b75e"
+            "url": "zappr://wim/a634d9b6-9e30-4cd9-a21d-307a2fb3b75e",
+            "disabled": "not-working"
         },
         {
             "lcn": 93,

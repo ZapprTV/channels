@@ -675,6 +675,13 @@
             "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8"
         },
         {
+            "lcn": 180,
+            "logo": "radiorocktv",
+            "name": "Radio Rock TV",
+            "type": "hls",
+            "url": "https://rr.fluid.stream/RadioRockTV/livestream/playlist.m3u8"
+        },
+        {
             "lcn": 183,
             "logo": "rtgtelegolfo",
             "name": "RTG Telegolfo",
