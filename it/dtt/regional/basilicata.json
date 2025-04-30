@@ -196,7 +196,8 @@
             "logo": "lanuovatv",
             "name": "La Nuova TV",
             "type": "hls",
-            "url": "https://5dcabf026b188.streamlock.net/lanuovatvbas/livestream/playlist.m3u8"
+            "url": "https://5dcabf026b188.streamlock.net/lanuovatvbas/livestream/playlist.m3u8",
+            "disabled": "not-working"
         },
         {
             "lcn": 85,
@@ -218,7 +219,8 @@
             "logo": "telefoggia",
             "name": "TeleFoggia",
             "type": "hls",
-            "url": "https://59d7d6f47d7fc.streamlock.net/telefoggia/telefoggia/playlist.m3u8"
+            "url": "https://59d7d6f47d7fc.streamlock.net/telefoggia/telefoggia/playlist.m3u8",
+            "disabled": "not-working"
         },
         {
             "lcn": 89,

@@ -318,9 +318,8 @@
             "lcn": 111,
             "logo": "mylivignotv",
             "name": "My Livigno TV",
-            "type": "youtube",
-            "url": "zappr://wp-yt-iframe/www.mylivigno.tv/420",
-            "disabled": "not-working"
+            "type": "popup",
+            "url": "zappr://wp-yt-iframe/www.mylivigno.tv/420"
         },
         {
             "lcn": 112,

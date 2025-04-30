@@ -274,7 +274,8 @@
                 "logo": "emmeigsport",
                 "name": "Emme IG Sport",
                 "type": "hls",
-                "url": "https://ssh101stream.ssh101.com/akamaissh101/ssh101/emmeigsport47/playlist.m3u8"
+                "url": "https://ssh101stream.ssh101.com/akamaissh101/ssh101/emmeigsport47/playlist.m3u8",
+                "disabled": "not-working"
             }]
         },
         {

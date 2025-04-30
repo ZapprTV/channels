@@ -567,7 +567,8 @@
                 "logo": "lagrandeitalia",
                 "name": "La Grande Italia",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
+                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8",
+                "disabled": "not-working"
             },
             {
                 "sublcn": 2,
@@ -1400,6 +1401,13 @@
             "url": "https://155905.global.ssl.fastly.net/60c888bf1dbff32e46b3304d/live_f64a08e02a9a11ec81174bd4ce952c0e/index.fmp4.m3u8"
         },
         {
+            "lcn": 231,
+            "logo": "terreeuganeechannel",
+            "name": "Terre Euganee Channel",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/canale3/canale3/playlist.m3u8"
+        },
+        {
             "lcn": 232,
             "logo": "studiopiù",
             "name": "StudioPiù TV",
@@ -1822,7 +1830,8 @@
                 "name": "Motori TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8"
+                "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8",
+                "disabled": "not-working"
             },
             {
                 "sublcn": 7,
@@ -1865,7 +1874,8 @@
                 "logo": "lagrandeitalia",
                 "name": "La Grande Italia",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
+                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8",
+                "disabled": "not-working"
             },
             {
                 "sublcn": 13,
@@ -2108,8 +2118,7 @@
                 "logo": "arteoratv",
                 "name": "ArteOraTV",
                 "type": "hls",
-                "url": "https://stream10.xdevel.com/video0s978273-2568/stream/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://stream10.xdevel.com/video0s978273-2568/stream/playlist.m3u8"
             },
             {
                 "sublcn": 3,
@@ -2504,6 +2513,13 @@
                 "type": "hls",
                 "url": "https://live.fighterslife.tv/hls/test.m3u8"
             }]
+        },
+        {
+            "lcn": 403,
+            "logo": "nexumchannel",
+            "name": "Nexum Channel",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/canale4/canale4/playlist.m3u8"
         },
         {
             "lcn": 410,

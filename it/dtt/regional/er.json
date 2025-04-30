@@ -575,7 +575,8 @@
             "name": "Motori TV",
             "hd": true,
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8",
+            "disabled": "not-working"
         },
         {
             "lcn": 179,

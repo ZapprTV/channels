@@ -132,7 +132,8 @@
             "logo": "infocilento",
             "name": "InfoCilento",
             "type": "hls",
-            "url": "https://proxy.media.convergenze.it/InfoCilento/streams/EToxBtWHNs1xJzsx1719408453352.m3u8"
+            "url": "https://proxy.media.convergenze.it/InfoCilento/streams/EToxBtWHNs1xJzsx1719408453352.m3u8",
+            "disabled": "not-working"
         },
         {
             "lcn": 80,
@@ -215,9 +216,8 @@
             "lcn": 92,
             "logo": "telenuova",
             "name": "Telenuova",
-            "type": "hls",
-            "url": "zappr://wim/a634d9b6-9e30-4cd9-a21d-307a2fb3b75e",
-            "disabled": "not-working"
+            "type": "twitch",
+            "url": "telenuovatv"
         },
         {
             "lcn": 93,
@@ -281,7 +281,8 @@
             "name": "TV7",
             "type": "hls",
             "url": "https://msh0320.stream.seeweb.it/live/flv:tv7.sdp/playlist.m3u8",
-            "cssfix": "stretch"
+            "cssfix": "stretch",
+            "disabled": "not-working"
         },
         {
             "lcn": 96,
