@@ -132,8 +132,7 @@
             "logo": "infocilento",
             "name": "InfoCilento",
             "type": "hls",
-            "url": "https://proxy.media.convergenze.it/InfoCilento/streams/EToxBtWHNs1xJzsx1719408453352.m3u8",
-            "disabled": "not-working"
+            "url": "https://proxy.media.convergenze.it/InfoCilento/streams/EToxBtWHNs1xJzsx1719408453352.m3u8"
         },
         {
             "lcn": 80,
@@ -281,8 +280,7 @@
             "name": "TV7",
             "type": "hls",
             "url": "https://msh0320.stream.seeweb.it/live/flv:tv7.sdp/playlist.m3u8",
-            "cssfix": "stretch",
-            "disabled": "not-working"
+            "cssfix": "stretch"
         },
         {
             "lcn": 96,

@@ -1640,8 +1640,8 @@
             },
             {
                 "sublcn": 9,
-                "logo": "kinzicatv.svg",
-                "name": "Kinzica TV",
+                "logo": "garageschooltv",
+                "name": "Garage School TV",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video9s975955-1780/stream/playlist.m3u8"
             },
@@ -1789,13 +1789,6 @@
             },
             {
                 "sublcn": 1,
-                "logo": "telespaziotv",
-                "name": "Telespazio TV",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/playlist.m3u8"
-            },
-            {
-                "sublcn": 2,
                 "logo": "radiojukeboxcalabria",
                 "name": "Radio JukeBox TV",
                 "subtitle": "(Calabria)",
@@ -1803,21 +1796,21 @@
                 "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
             },
             {
-                "sublcn": 3,
+                "sublcn": 2,
                 "logo": "adn24",
                 "name": "ADN24",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
             },
             {
-                "sublcn": 4,
-                "logo": "teleregionetoscana",
-                "name": "Teleregione Toscana",
+                "sublcn": 3,
+                "logo": "telespaziotv",
+                "name": "Telespazio TV",
                 "type": "hls",
-                "url": "https://srvx1.selftv.video/teleregionetoscana/live/playlist.m3u8"  
+                "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/playlist.m3u8"
             },
             {
-                "sublcn": 5,
+                "sublcn": 4,
                 "logo": "calabriatv",
                 "name": "Calabria TV",
                 "hd": true,
@@ -1825,20 +1818,27 @@
                 "url": "https://64b16f23efbee.streamlock.net/calabriatv/calabriatv/playlist.m3u8"
             },
             {
+                "sublcn": 5,
+                "logo": "teleregionetoscana",
+                "name": "Teleregione Toscana",
+                "type": "hls",
+                "url": "https://srvx1.selftv.video/teleregionetoscana/live/playlist.m3u8"  
+            },
+            {
                 "sublcn": 6,
+                "logo": "memorialgallotv",
+                "name": "Memorial Gallo TV",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/radionewstv/radionewstv/playlist.m3u8"
+            },
+            {
+                "sublcn": 7,
                 "logo": "motoritvadn",
                 "name": "Motori TV",
                 "hd": true,
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8",
                 "disabled": "not-working"
-            },
-            {
-                "sublcn": 7,
-                "logo": "giornaleradio",
-                "name": "Giornale Radio",
-                "type": "hls",
-                "url": "https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8"
             },
             {
                 "sublcn": 8,
@@ -1849,13 +1849,20 @@
             },
             {
                 "sublcn": 9,
+                "logo": "giornaleradio",
+                "name": "Giornale Radio",
+                "type": "hls",
+                "url": "https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 10,
                 "logo": "gamingchannel",
                 "name": "Gaming Channel",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/hit24tv/hit24tv/playlist.m3u8"
             },
             {
-                "sublcn": 10,
+                "sublcn": 11,
                 "logo": "businesschannel",
                 "name": "Business Channel",
                 "hd": true,
@@ -1863,26 +1870,19 @@
                 "url": "https://64b16f23efbee.streamlock.net/businesschannel/businesschannel/playlist.m3u8"
             },
             {
-                "sublcn": 11,
+                "sublcn": 12,
                 "logo": "turismotv",
                 "name": "Turismo TV",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8"
             },
             {
-                "sublcn": 12,
+                "sublcn": 13,
                 "logo": "lagrandeitalia",
                 "name": "La Grande Italia",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8",
                 "disabled": "not-working"
-            },
-            {
-                "sublcn": 13,
-                "logo": "memorialgallotv",
-                "name": "Memorial Gallo TV",
-                "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/radionewstv/radionewstv/playlist.m3u8"
             },
             {
                 "sublcn": 14,
@@ -2505,13 +2505,6 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://jr7yvkmwda4v-hls-live.mariatvcdn.it/liveu/9aa7fdc4068e56587206b298b423cb82.sdp/playlist.m3u8"
-            },
-            {
-                "sublcn": 3,
-                "logo": "fighterslife",
-                "name": "Fighters Life TV",
-                "type": "hls",
-                "url": "https://live.fighterslife.tv/hls/test.m3u8"
             }]
         },
         {
@@ -2977,24 +2970,32 @@
                 "url": "https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8"
             },
             {
+                "sublcn": 9,
+                "logo": "telemessina",
+                "name": "Tele Messina",
+                "type": "hls",
+                "url": "https://5db313b643fd8.streamlock.net/telemessina/telemessina/playlist.m3u8"
+            },
+            {
                 "categorySeparator": "Canali TV"
             },
             {
-                "sublcn": 9,
+                "sublcn": 10,
                 "logo": "111tv",
                 "name": "111 TV",
                 "type": "hls",
                 "url": "https://5db313b643fd8.streamlock.net/111/111/playlist.m3u8"
             },
             {
-                "sublcn": 10,
+                "sublcn": 11,
                 "logo": "teleeubea",
                 "name": "Tele Eubea",
                 "type": "hls",
-                "url": "https://load-balancer.azotosolutions.com/cdnedge20/smil:live20.smil/playlist.m3u8"
+                "url": "https://load-balancer.azotosolutions.com/cdnedge20/smil:live20.smil/playlist.m3u8",
+                "disabled": "not-working"
             },
             {
-                "sublcn": 11,
+                "sublcn": 12,
                 "logo": "retetvitalia",
                 "name": "Rete TV Italia",
                 "hd": true,
@@ -3002,14 +3003,14 @@
                 "url": "https://stream.mariatvcdn.com/localtv/localtv.stream/playlist.m3u8"
             },
             {
-                "sublcn": 12,
+                "sublcn": 13,
                 "logo": "hashtagtv",
                 "name": "Hashtag TV",
                 "type": "hls",
                 "url": "https://rst.saiuzwebnetwork.it:8081/fiestaloca/index.m3u8"
             },
             {
-                "sublcn": 13,
+                "sublcn": 14,
                 "logo": "campaniatv",
                 "name": "Campania TV",
                 "type": "hls",
@@ -3019,7 +3020,7 @@
                 "categorySeparator": "Canali Radio"
             },
             {
-                "sublcn": 14,
+                "sublcn": 15,
                 "logo": "supersixradio",
                 "name": "SuperSix Radio",
                 "radio": true,
@@ -3027,7 +3028,7 @@
                 "url": "https://onair22.xdevel.com/proxy/xautocloud_nek2_339?mp=/;stream/;"
             },
             {
-                "sublcn": 15,
+                "sublcn": 16,
                 "logo": "lombardiatvvintage",
                 "name": "Lombardia TV Vintage",
                 "radio": true,
@@ -3035,7 +3036,7 @@
                 "url": "https://onair22.xdevel.com/proxy/xautocloud_vwdr_335?mp=/;stream/;"
             },
             {
-                "sublcn": 16,
+                "sublcn": 17,
                 "logo": "radiomadeo",
                 "name": "Radio Madeo",
                 "radio": true,
@@ -3043,7 +3044,7 @@
                 "url": "https://sr14.inmystream.it/stream/radiomadeo"
             },
             {
-                "sublcn": 17,
+                "sublcn": 18,
                 "logo": "radiomundialpachino",
                 "name": "Radio Mundial Pachino",
                 "radio": true,
@@ -3051,7 +3052,7 @@
                 "url": "https://s2.free-shoutcast.com/stream/18020"
             },
             {
-                "sublcn": 18,
+                "sublcn": 19,
                 "logo": "radiodiscoclub",
                 "name": "Radio Disco Club",
                 "radio": true,
@@ -3059,7 +3060,7 @@
                 "url": "https://s3.free-shoutcast.com/stream/18264"
             },
             {
-                "sublcn": 19,
+                "sublcn": 20,
                 "logo": "radiomontestella",
                 "name": "Radio Montestella",
                 "radio": true,
