@@ -978,6 +978,13 @@
             "url": "https://64b16f23efbee.streamlock.net/sestarete/sestarete/playlist.m3u8"
         },
         {
+            "lcn": 82,
+            "logo": "antennadelmediterraneo",
+            "name": "Antenna del Mediterraneo",
+            "type": "hls",
+            "url": "zappr://streamingvideoprovider/ajraqwugiagc"
+        },
+        {
             "lcn": 83,
             "logo": "latr3",
             "name": "La Tr3",
