@@ -543,8 +543,7 @@
                 "logo": "lagrandeitalia",
                 "name": "La Grande Italia",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
             },
             {
                 "sublcn": 2,
@@ -1931,8 +1930,7 @@
                 "name": "Motori TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8"
             },
             {
                 "sublcn": 8,
@@ -1975,8 +1973,7 @@
                 "logo": "lagrandeitalia",
                 "name": "La Grande Italia",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
             },
             {
                 "sublcn": 14,
@@ -3107,8 +3104,7 @@
                 "logo": "teleeubea",
                 "name": "Tele Eubea",
                 "type": "hls",
-                "url": "https://load-balancer.azotosolutions.com/cdnedge20/smil:live20.smil/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://load-balancer.azotosolutions.com/cdnedge20/smil:live20.smil/playlist.m3u8"
             },
             {
                 "sublcn": 12,
