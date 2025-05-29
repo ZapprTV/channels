@@ -2606,7 +2606,15 @@
             "logo": "nexumchannel",
             "name": "Nexum Channel",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/canale4/canale4/playlist.m3u8"
+            "url": "https://5f22d76e220e1.streamlock.net/canale4/canale4/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "nexumtv",
+                "name": "Cartello lineare",
+                "type": "hls",
+                "url": "http://185.132.71.134:1935/live/cdn4/playlist.m3u8",
+                "http": true
+            }]
         },
         {
             "lcn": 410,
@@ -2990,6 +2998,20 @@
             }]
         },
         {
+            "lcn": 828,
+            "logo": "classtvmoda",
+            "name": "Class TV Moda",
+            "type": "hls",
+            "url": "zappr://persidera/828"
+        },
+        {
+            "lcn": 830,
+            "logo": "classcnbc.svg",
+            "name": "Class CNBC",
+            "type": "hls",
+            "url": "zappr://persidera/830"
+        },
+        {
             "lcn": 831,
             "logo": "sanmarinortv.svg",
             "name": "San Marino RTV",
@@ -3177,6 +3199,14 @@
             "hd": true,
             "type": "hls",
             "url": "https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8"
+        },
+        {
+            "lcn": 990,
+            "logo": "9novanta",
+            "name": "9Novanta",
+            "type": "hls",
+            "url": "http://185.132.71.134:1935/live/cdn5/playlist.m3u8",
+            "http": true
         }
     ]
 }
