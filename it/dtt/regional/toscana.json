@@ -111,7 +111,7 @@
             "logo": "teletruria",
             "name": "Teletruria",
             "type": "hls",
-            "url": "https://cb01a76aa80f4069b2bf82c90466134a.msvdn.net/live/7iyY76l3IDBd/playlist.m3u8",
+            "url": "https://cb01a76aa80f4069b2bf82c90466134a.msvdn.net/live/S79636643/7iyY76l3IDBd/playlist.m3u8?DVR",
             "hbbtv": [{
                 "categorySeparator": "Radio MediaDAB"
             },

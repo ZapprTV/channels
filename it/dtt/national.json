@@ -56,7 +56,7 @@
             "name": "Rete 4",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8"
         },
         {
             "lcn": 5,
@@ -64,7 +64,7 @@
             "name": "Canale 5",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8"
         },
         {
             "lcn": 6,
@@ -72,7 +72,7 @@
             "name": "Italia 1",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8"
         },
         {
             "lcn": 7,
@@ -110,7 +110,7 @@
             "name": "20 Mediaset",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8"
         },
         {
             "lcn": 21,
@@ -126,7 +126,7 @@
             "name": "Iris",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8"
         },
         {
             "lcn": 23,
@@ -165,7 +165,7 @@
             "name": "TwentySeven",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8"
         },
         {
             "lcn": 28,
@@ -189,7 +189,7 @@
             "name": "La5",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8"
         },
         {
             "lcn": 31,
@@ -220,7 +220,7 @@
             "name": "Cine34",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8"
         },
         {
             "lcn": 35,
@@ -228,7 +228,7 @@
             "name": "Focus",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8"
         },
         {
             "lcn": 36,
@@ -260,7 +260,7 @@
             "name": "Top Crime",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8"
         },
         {
             "lcn": 40,
@@ -268,7 +268,7 @@
             "name": "Boing",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8"
         },
         {
             "lcn": 41,
@@ -306,7 +306,7 @@
             "name": "Cartoonito",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8"
         },
         {
             "lcn": 47,
@@ -330,7 +330,7 @@
             "name": "Italia 2",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8"
         },
         {
             "lcn": 50,
@@ -345,7 +345,7 @@
             "name": "TGcom24",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8"
         },
         {
             "lcn": 52,
@@ -377,7 +377,7 @@
             "name": "Mediaset Extra",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8"
         },
         {
             "lcn": 56,
@@ -522,7 +522,7 @@
             "name": "Radio 105 TV",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8"
+            "url": "https://live02-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8"
         },
         {
             "lcn": 67,
@@ -530,7 +530,7 @@
             "name": "R101 TV",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/index.m3u8"
+            "url": "https://live02-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/index.m3u8"
         },
         {
             "lcn": 68,
@@ -2931,7 +2931,7 @@
                 "name": "Radio Monte Carlo TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8"
+                "url": "https://live02-col.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8"
             }]
         },
         {
@@ -2955,7 +2955,7 @@
                 "name": "Virgin Radio TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8"
+                "url": "https://live02-col.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8"
             }]
         },
         {
