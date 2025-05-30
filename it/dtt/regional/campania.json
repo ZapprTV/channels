@@ -24,6 +24,15 @@
             "license": "xdevel-wms"
         },
         {
+            "lcn": 12,
+            "logo": "canale9",
+            "name": "Canale 9",
+            "subtitle": "Attivo solo durante Studio Mattina",
+            "type": "hls",
+            "url": "https://comvideo.it/hls/canale9/video.m3u8",
+            "feed": true
+        },
+        {
             "lcn": 13,
             "logo": "telea",
             "name": "Tele A",
@@ -119,6 +128,15 @@
             "hd": true,
             "type": "hls",
             "url": "https://proxy.media.convergenze.it/stiletv/streams/oQOFd7JglHjO1631525551097.m3u8"
+        },
+        {
+            "lcn": 79,
+            "logo": "calcionapoli24",
+            "name": "CalcioNapoli24",
+            "hd": true,
+            "subtitle": "Attivo solo durante alcuni programmi in diretta",
+            "type": "youtube",
+            "url": "UCFZaLPCquo5ROTGiayRS8LQ"
         },
         {
             "lcn": 79,
@@ -297,14 +315,6 @@
             "url": "https://stream1.aswifi.it/settv/live/index.m3u8"
         },
         {
-            "lcn": 98,
-            "logo": "rete+italia",
-            "name": "Rete+Italia",
-            "subtitle": "Non sempre attivo",
-            "type": "twitch",
-            "url": "tvnapoli1"
-        },
-        {
             "lcn": 99,
             "logo": "campiflegrei",
             "name": "Campi Flegrei",
@@ -391,8 +401,7 @@
             "logo": "unotv",
             "name": "Uno TV",
             "type": "hls",
-            "url": "https://stream1.aswifi.it/unotv/live/index.m3u8",
-            "disabled": "not-working"
+            "url": "https://stream1.aswifi.it/unotv/live/index.m3u8"
         },
         {
             "lcn": 181,

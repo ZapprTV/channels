@@ -58,6 +58,21 @@
             }]
         },
         {
+            "lcn": 14,
+            "logo": "telemax",
+            "name": "Telemax",
+            "type": "hls",
+            "url": "https://livetv.telemaxtv.it/hls/mystream.m3u8"
+        },
+        {
+            "lcn": 15,
+            "logo": "infomedianews",
+            "name": "Info Media News",
+            "hd": true,
+            "type": "hls",
+            "url": "https://64ede947d2367.streamlock.net/IMN/_definst_/IMN_source/playlist.m3u8"
+        },
+        {
             "lcn": 16,
             "logo": "superj",
             "name": "Super J",
@@ -159,6 +174,13 @@
             "subtitle": "(Onda TV)",
             "type": "popup",
             "url": "https://dlive.tv/Onda_Tv"
+        },
+        {
+            "lcn": 94,
+            "logo": "turismotv",
+            "name": "Turismo TV",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8"
         },
         {
             "lcn": 96,

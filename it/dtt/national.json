@@ -471,7 +471,7 @@
             "name": "SuperTennis",
             "hd": true,
             "type": "hls",
-            "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/h24_supertennix/manifest.m3u8",
+            "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "supertennisplus.svg",
@@ -907,15 +907,15 @@
             "logo": "italia135",
             "name": "Italia 135",
             "type": "hls",
-            "url": "https://liveac915.b-cdn.net/channel07.smil/playlist.m3u8"
+            "url": "https://liveac915.b-cdn.net/channel07.smil/playlist.m3u8",
+            "adult": "night"
         },
         {
             "lcn": 136,
             "logo": "italia136",
             "name": "Italia 136",
             "type": "hls",
-            "url": "https://liveac915.b-cdn.net/channel08.smil/playlist.m3u8",
-            "adult": "night"
+            "url": "https://liveac915.b-cdn.net/channel08.smil/playlist.m3u8"
         },
         {
             "lcn": 138,
@@ -1819,10 +1819,17 @@
             },
             {
                 "sublcn": 5,
-                "logo": "momentotv",
-                "name": "Momento TV",
+                "logo": "darte",
+                "name": "d'arte",
                 "type": "hls",
-                "url": "https://stream10.xdevel.com/video0s977812-2246/stream/playlist.m3u8"
+                "url": "https://api.momentotv.live:28443/cmaf/darte/manifest.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "paradisotv",
+                "name": "Paradiso TV",
+                "type": "hls",
+                "url": "https://api.momentotv.live:28443/cmaf/paradisotv/manifest.m3u8"
             },
             {
                 "sublcn": 7,
@@ -1842,11 +1849,10 @@
             },
             {
                 "sublcn": 9,
-                "logo": "supermodels",
-                "name": "Super Models",
+                "logo": "momentotv",
+                "name": "Momento TV",
                 "type": "hls",
-                "url": "https://otter.ns0.it:9543/supmodels/Stream1/playlist.m3u8",
-                "adult": true
+                "url": "https://stream10.xdevel.com/video0s977812-2246/stream/playlist.m3u8"
             },
             {
                 "sublcn": 10,
@@ -2531,45 +2537,38 @@
                 "url": "https://stream10.xdevel.com/video0s978116-2477/stream/playlist.m3u8"
             },
             {
-                "sublcn": 22,
-                "logo": "360mixtv",
-                "name": "360 Mix TV",
-                "type": "hls",
-                "url": "https://cdn.mycloudstream.io/hls/live/broadcast/n3unphvi/index.m3u8"
-            },
-            {
                 "categorySeparator": "Web TV Locali"
             },
             {
-                "sublcn": 23,
+                "sublcn": 22,
                 "logo": "rtmmanduria",
                 "name": "RTM",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8"
             },
             {
-                "sublcn": 24,
+                "sublcn": 23,
                 "logo": "televideoagrigento",
                 "name": "TeleVideo Agrigento",
                 "type": "hls",
                 "url": "https://media2021.rtvweb.com/tva/live/playlist.m3u8"
             },
             {
-                "sublcn": 25,
+                "sublcn": 24,
                 "logo": "villagetv",
                 "name": "Village TV",
                 "type": "hls",
                 "url": "https://stream3.ondaweb.tv/hls/villagetv/index.m3u8"
             },
             {
-                "sublcn": 26,
+                "sublcn": 25,
                 "logo": "ilcorrieredipianura",
                 "name": "Il Corriere di Pianura",
                 "type": "hls",
                 "url": "https://stream3.ondaweb.tv/hls/corrieredipianura/index.m3u8"
             },
             {
-                "sublcn": 27,
+                "sublcn": 26,
                 "logo": "antenna3",
                 "name": "Antenna 3",
                 "type": "hls",

@@ -164,7 +164,7 @@
             "logo": "telelibertà",
             "name": "Telelibertà",
             "type": "hls",
-            "url": "https://streaming.liberta.it/hls/liberta.m3u8"
+            "url": "https://di-f1hy8rov.vo.lswcdn.net/origin/smil:teleliberta.smil/playlist.m3u8"
         },
         {
             "lcn": 78,
@@ -483,6 +483,14 @@
                 "type": "hls",
                 "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
             }]
+        },
+        {
+            "lcn": 776,
+            "logo": "radiomater",
+            "name": "Radio Mater",
+            "radio": true,
+            "type": "direct",
+            "url": "https://s2.shoutitaly.com/listen/radiomater/radio.mp3"
         },
         {
             "lcn": 789,

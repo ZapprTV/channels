@@ -199,7 +199,7 @@
             "name": "Radio Hit FM",
             "radio": true,
             "type": "direct",
-            "url": "https://stream1.xdevel.com/audio0s975632-244/stream/icecast.audio"
+            "url": "https://ns3159873.ip-51-91-131.eu:8026/stream"
         },
         {
             "lcn": 778,

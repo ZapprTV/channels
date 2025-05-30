@@ -173,7 +173,7 @@
             "logo": "media24",
             "name": "Media24",
             "type": "hls",
-            "url": "https://cdn.mycloudstream.io/hls/live/broadcast/b081xhsz/index.m3u8"
+            "url": "https://load-balancer.azotosolutions.com/cdnedge16/smil:live16.smil/playlist.m3u8"
         },
         {
             "lcn": 79,

@@ -1,0 +1,119 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "rai3.svg",
+            "name": "Rai 3 TGR Valle d'Aosta",
+            "type": "dash",
+            "url": "https://tgrvaldaosta-dash-live.akamaized.net/dash/live/2025615/tgrvaldaosta/manifest.mpd"
+        },
+        {
+            "lcn": 10,
+            "logo": "telecity",
+            "name": "Telecity Valle d'Aosta",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/telecityvda/telecityvda/playlist.m3u8"
+        },
+        {
+            "lcn": 75,
+            "logo": "tv5mondeeurope.svg",
+            "name": "TV5Monde Europe",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "tv5mondeinfo.svg",
+                "name": "TV5Monde Info",
+                "hd": true,
+                "type": "hls",
+                "url": "https://ott.tv5monde.com/Content/HLS/Live/channel(info)/variant.m3u8"
+            }]
+        },
+        {
+            "lcn": 76,
+            "logo": "france24.svg",
+            "name": "France 24",
+            "subtitle": "(in francese)",
+            "hd": true,
+            "type": "hls",
+            "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "france24.svg",
+                "name": "France 24",
+                "subtitle": "(in inglese)",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "france24.svg",
+                "name": "France 24",
+                "subtitle": "(in spagnolo)",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "france24.svg",
+                "name": "France 24",
+                "subtitle": "(in arabo)",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8"
+            }]
+        },
+        {
+            "lcn": 77,
+            "logo": "rts1.svg",
+            "name": "RTS 1",
+            "hd": true,
+            "type": "hls",
+            "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "rts2.svg",
+                "name": "RTS 2",
+                "hd": true,
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "srf1.svg",
+                "name": "SRF 1",
+                "hd": true,
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "srfzwei.svg",
+                "name": "SRF Zwei",
+                "hd": true,
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "rsila1.svg",
+                "name": "RSI LA1",
+                "hd": true,
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "rsila2.svg",
+                "name": "RSI LA2",
+                "hd": true,
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8"
+            }]
+        }
+    ]
+}

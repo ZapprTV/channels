@@ -269,6 +269,13 @@
             "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8"
         },
         {
+            "lcn": 114,
+            "logo": "gustotv",
+            "name": "Gusto TV",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/gustotv/gustotv/playlist.m3u8"
+        },
+        {
             "lcn": 116,
             "logo": "mediasud",
             "name": "Mediasud",

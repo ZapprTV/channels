@@ -301,8 +301,8 @@
             "lcn": 89,
             "logo": "telecamaiorenuoviorizzonti",
             "name": "Telecamaiore Nuovi Orizzonti",
-            "type": "youtube",
-            "url": "ygT8es85SVU"
+            "type": "hls",
+            "url": "https://tv.ccn.it/hls/0/stream.m3u8"
         },
         {
             "lcn": 91,
@@ -325,6 +325,13 @@
             "name": "NTI",
             "type": "hls",
             "url": "https://www.ntimedia.it/video/S0B/S0B_master.m3u8"
+        },
+        {
+            "lcn": 97,
+            "logo": "ssarezzo.svg",
+            "name": "Amaranto Channel",
+            "type": "hls",
+            "url": "https://10529e63b0a84fb6bdf487096cc5eaab.msvdn.net/live/qMq5TNxA3ouH/playlist.m3u8"
         },
         {
             "lcn": 112,

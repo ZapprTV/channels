@@ -771,8 +771,7 @@
                 "logo": "teleacras",
                 "name": "Teleacras",
                 "type": "hls",
-                "url": "https://5db313b643fd8.streamlock.net/teleacras/teleacras/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://5db313b643fd8.streamlock.net/teleacras/teleacras/playlist.m3u8"
             },
             {
                 "categorySeparator": "TG Locali"        

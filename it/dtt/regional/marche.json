@@ -14,7 +14,7 @@
             "name": "TV Centro Marche",
             "subtitle": "Attivo solo durante il News TG",
             "type": "hls",
-            "url": "https://ssh101stream.ssh101.com/akamaissh101/ssh101/tvcm1/playlist.m3u8",
+            "url": "https://live20.bozztv.com/akamaissh101/ssh101/tvcm1/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "tvcentromarchenewstg",
@@ -23,14 +23,6 @@
                 "ondemand": true,
                 "type": "direct",
                 "url": "https://www.tvcentromarche.it/wp-content/uploads/HBBTV/ULTIMAEDIZIONE/ULTIMAEDIZIONE.mp4"
-            },
-            {
-                "sublcn": 2,
-                "logo": "tvcentromarche",
-                "name": "TV Centro Marche +1",
-                "type": "hls",
-                "url": "https://str48.fluid.stream/TV_Centro_Marche/livestream/playlist.m3u8",
-                "disabled": "not-working"
             }]
         },
         {
@@ -274,8 +266,7 @@
                 "logo": "emmeigsport",
                 "name": "Emme IG Sport",
                 "type": "hls",
-                "url": "https://ssh101stream.ssh101.com/akamaissh101/ssh101/emmeigsport47/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://live20.bozztv.com/akamaissh101/ssh101/emmeigsport47/playlist.m3u8"
             }]
         },
         {

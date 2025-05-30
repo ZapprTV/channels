@@ -590,6 +590,14 @@
         },
         {
             "lcn": 88,
+            "logo": "anita.svg",
+            "name": "Anita",
+            "hd": true,
+            "type": "hls",
+            "url": "https://srvx1.selftv.video/anitatv/live/playlist.m3u8"
+        },
+        {
+            "lcn": 88,
             "logo": "rc88",
             "name": "RC88",
             "type": "hls",
@@ -623,6 +631,14 @@
             "name": "Romit TV",
             "type": "hls",
             "url": "https://stream10.xdevel.com/video21s975955-2185/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 98,
+            "logo": "businesschannel",
+            "name": "Business Channel",
+            "hd": true,
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/businesschannel/businesschannel/playlist.m3u8"
         },
         {
             "lcn": 110,
@@ -765,7 +781,7 @@
             "name": "Rieti Life TV",
             "hd": true,
             "type": "youtube",
-            "url": "UCIauTGOKEUjQ6y01Svf2BFQ"
+            "url": "UCDkZimxGVZ5wvoqzpOrvNnQ"
         },
         {
             "lcn": 212,

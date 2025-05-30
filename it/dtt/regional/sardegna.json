@@ -78,8 +78,7 @@
                 "logo": "bonaria",
                 "name": "Bonaria TV",
                 "type": "hls",
-                "url": "https://cloudtv.azotosolutions.com:9553/livertg2/livertg2/playlist.m3u8",
-                "disabled": "not-working"
+                "url": "https://cloudtv.azotosolutions.com:9553/livertg2/livertg2/playlist.m3u8"
             },
             {
                 "sublcn": 2,
