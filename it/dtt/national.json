@@ -2576,6 +2576,14 @@
             }]
         },
         {
+            "lcn": 401,
+            "logo": "sct",
+            "name": "Satisfaction TV",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video22s975955-2186/stream/playlist.m3u8",
+            "adult": true
+        },
+        {
             "lcn": 402,
             "logo": "myplustv",
             "name": "My Plus TV",
