@@ -20,7 +20,21 @@
             "logo": "lactv.svg",
             "name": "LaC",
             "type": "hls",
-            "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8"            
+            "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "laconair.svg",
+                "name": "LaC On Air",
+                "type": "hls",
+                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/100197/SOrBDPy/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "lacnetwork.svg",
+                "name": "LaC Network",
+                "type": "hls",
+                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8"
+            }]
         },
         {
             "lcn": 12,
@@ -56,7 +70,52 @@
             "logo": "telespaziotv",
             "name": "Telespazio TV",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/playlist.m3u8"
+            "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "businesschannel",
+                "name": "Business Channel",
+                "hd": true,
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/businesschannel/businesschannel/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "calabriauno",
+                "name": "CalabriaUno",
+                "hd": true,
+                "type": "hls",
+                "url": "https://635320cd397eb.streamlock.net/stream/golive/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "radiojukeboxcalabria",
+                "name": "Radio JukeBox TV",
+                "subtitle": "(Calabria)",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "radioricordi",
+                "name": "Radio Ricordi TV",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/radioricorditv/radioricorditv/playlist.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "lagrandeitalia",
+                "name": "La Grande Italia",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "taurianovatv",
+                "name": "Taurianova TV",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/taurianovatv/taurianovatv/playlist.m3u8"                
+            }]
         },
         {
             "lcn": 17,
@@ -208,6 +267,13 @@
                 "radio": true,
                 "type": "hls",
                 "url": "https://stream.mariatvcdn.com/trpradio/c92dd777d146ffcd75d0b6cfb13a9153.sdp/playlist.m3u8"
+            },
+            {
+                "sublcn": 8,
+                "logo": "emiliaromagnaindiretta.svg",
+                "name": "L'Emilia-Romagna in Diretta",
+                "type": "hls",
+                "url": "https://cdn-base321.ciclano.io:1443/base321/base321/playlist.m3u8"
             }]
         },
         {

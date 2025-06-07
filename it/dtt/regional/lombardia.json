@@ -170,8 +170,9 @@
             "lcn": 78,
             "logo": "milanopaviatv",
             "name": "Milano Pavia TV",
+            "hd": true,
             "type": "hls",
-            "url": "https://59d7d6f47d7fc.streamlock.net/telepavia/telepavia/playlist.m3u8"
+            "url": "https://cdn7.streamshow.it/hbbtv-milanopaviatv/milanopaviatv/playlist.m3u8"
         },
         {
             "lcn": 79,

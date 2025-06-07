@@ -62,6 +62,13 @@
             "url": "https://vimeo.com/event/4861826/embed"
         },
         {
+            "lcn": 12,
+            "logo": "7gold",
+            "name": "7 Gold Sestarete",
+            "type": "hls",
+            "url": "https://dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S58803518/OOZape6Nxp4H/playlist.m3u8"
+        },
+        {
             "lcn": 13,
             "logo": "telereggio",
             "name": "TeleReggio",
@@ -105,6 +112,13 @@
             "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
+                "logo": "icarotv.svg",
+                "name": "Icaro TV con sottotitoli",
+                "type": "hls",
+                "url": "https://59d7d6f47d7fc.streamlock.net/icarotv2/icarotv2.stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
                 "logo": "radioicaro.svg",
                 "name": "Radio Icaro",
                 "radio": true,
@@ -112,10 +126,17 @@
                 "url": "https://audio.streamshow.it/proxy/radioicaro?mp=/stream"
             },
             {
+                "sublcn": 3,
+                "logo": "emiliaromagnaindiretta.svg",
+                "name": "L'Emilia-Romagna in Diretta",
+                "type": "hls",
+                "url": "https://cdn-base321.ciclano.io:1443/base321/base321/playlist.m3u8"
+            },
+            {
                 "categorySeparator": "Canali Corallo"
             },
             {
-                "sublcn": 2,
+                "sublcn": 4,
                 "logo": "teledehon",
                 "name": "Tele Dehon",
                 "hd": true,
@@ -123,28 +144,28 @@
                 "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8"
             },
             {
-                "sublcn": 3,
+                "sublcn": 5,
                 "logo": "tvl",
                 "name": "TVL",
                 "type": "hls",
                 "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
             },
             {
-                "sublcn": 4,
+                "sublcn": 6,
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
             },
             {
-                "sublcn": 5,
+                "sublcn": 7,
                 "logo": "teleradiopace1",
                 "name": "TeleRadioPace 1",
                 "type": "hls",
                 "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8"  
             },
             {
-                "sublcn": 6,
+                "sublcn": 8,
                 "logo": "videonovara",
                 "name": "Videonovara",
                 "hd": true,
@@ -152,7 +173,14 @@
                 "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
             },
             {
-                "sublcn": 7,
+                "sublcn": 9,
+                "logo": "teleliguriasud",
+                "name": "Tele Liguria Sud",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
+            },
+            {
+                "sublcn": 10,
                 "logo": "radiofratesole",
                 "name": "Radio Frate Sole",
                 "radio": true,
@@ -160,7 +188,7 @@
                 "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
             },
             {
-                "sublcn": 8,
+                "sublcn": 11,
                 "logo": "radiopace",
                 "name": "Radio Pace",
                 "radio": true,

@@ -133,6 +133,13 @@
                 "radio": true,
                 "type": "hls",
                 "url": "https://stream.mariatvcdn.com/trpradio/c92dd777d146ffcd75d0b6cfb13a9153.sdp/playlist.m3u8"
+            },
+            {
+                "sublcn": 8,
+                "logo": "emiliaromagnaindiretta.svg",
+                "name": "L'Emilia-Romagna in Diretta",
+                "type": "hls",
+                "url": "https://cdn-base321.ciclano.io:1443/base321/base321/playlist.m3u8"
             }]
         },
         {

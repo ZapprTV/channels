@@ -1130,8 +1130,8 @@
                 "logo": "lifegate.svg",
                 "name": "LifeGate",
                 "radio": true,
-                "type": "direct",
-                "url": "https://router.xdevel.com/audio0s975809-345/stream/icecast.audio"
+                "type": "hls",
+                "url": "https://stream6.xdevel.com/audio0s975809-425/stream/playlist.m3u8"
             },
             {
                 "sublcn": 6,
@@ -1714,7 +1714,8 @@
                 "logo": "sharingeuropa",
                 "name": "Sharing TV",
                 "type": "hls",
-                "url": "https://stream9.xdevel.com/video7s975955-1778/stream/playlist.m3u8"
+                "url": "https://stream9.xdevel.com/video7s975955-1778/stream/playlist.m3u8",
+                "cssfix": "squashed-height"
             },
             {
                 "sublcn": 7,
@@ -2581,7 +2582,15 @@
             "name": "Satisfaction TV",
             "type": "hls",
             "url": "https://stream10.xdevel.com/video22s975955-2186/stream/playlist.m3u8",
-            "adult": true
+            "adult": true,
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "sct",
+                "name": "Promo SCT",
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/ondemand/mp4:spot1.mp4/manifest.mpd",
+                "adult": true
+            }]
         },
         {
             "lcn": 402,
@@ -2613,11 +2622,46 @@
             "url": "https://5f22d76e220e1.streamlock.net/canale4/canale4/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
-                "logo": "nexumtv",
+                "logo": "nexumchannel",
                 "name": "Cartello lineare",
                 "type": "hls",
                 "url": "http://185.132.71.134:1935/live/cdn4/playlist.m3u8",
                 "http": true
+            },
+            {
+                "sublcn": 2,
+                "logo": "eventprimetelevision",
+                "name": "EventPrime Television",
+                "type": "hls",
+                "url": "https://gossvip.aswifi.it/gossvip/live_hd/index.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "xcapital",
+                "name": "XCapital",
+                "type": "hls",
+                "url": "https://xcapital.aswifi.it/xcapital/live/index.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "italianhorsetelevision",
+                "name": "Italian Horse TV",
+                "type": "hls",
+                "url": "https://horsetv.aswifi.it/horsetv/live/index.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "salute24",
+                "name": "Salute 24",
+                "type": "hls",
+                "url": "https://salute24.aswifi.it/salute24/live/index.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "controradio",
+                "name": "Controradio",
+                "type": "hls",
+                "url": "https://lifezone.aswifi.it/lifezone/live/index.m3u8"
             }]
         },
         {
@@ -3136,10 +3180,17 @@
                 "url": "https://rst2.saiuzwebnetwork.it:8081/telemiracoli/index.m3u8"
             },
             {
+                "sublcn": 15,
+                "logo": "radionpompei",
+                "name": "Radio Nuova Pompei",
+                "type": "hls",
+                "url": "https://rst2.saiuzwebnetwork.it:8081/radionpompei/index.m3u8"
+            },
+            {
                 "categorySeparator": "Canali Radio"
             },
             {
-                "sublcn": 15,
+                "sublcn": 16,
                 "logo": "supersixradio",
                 "name": "SuperSix Radio",
                 "radio": true,
@@ -3147,7 +3198,7 @@
                 "url": "https://onair22.xdevel.com/proxy/xautocloud_nek2_339?mp=/;stream/;"
             },
             {
-                "sublcn": 16,
+                "sublcn": 17,
                 "logo": "lombardiatvvintage",
                 "name": "Lombardia TV Vintage",
                 "radio": true,
@@ -3155,7 +3206,7 @@
                 "url": "https://onair22.xdevel.com/proxy/xautocloud_vwdr_335?mp=/;stream/;"
             },
             {
-                "sublcn": 17,
+                "sublcn": 18,
                 "logo": "radiomadeo",
                 "name": "Radio Madeo",
                 "radio": true,
@@ -3163,7 +3214,7 @@
                 "url": "https://sr14.inmystream.it/stream/radiomadeo"
             },
             {
-                "sublcn": 18,
+                "sublcn": 19,
                 "logo": "radiomundialpachino",
                 "name": "Radio Mundial Pachino",
                 "radio": true,
@@ -3171,7 +3222,7 @@
                 "url": "https://s2.free-shoutcast.com/stream/18020"
             },
             {
-                "sublcn": 19,
+                "sublcn": 20,
                 "logo": "radiodiscoclub",
                 "name": "Radio Disco Club",
                 "radio": true,
@@ -3179,12 +3230,20 @@
                 "url": "https://s3.free-shoutcast.com/stream/18264"
             },
             {
-                "sublcn": 20,
+                "sublcn": 21,
                 "logo": "radiomontestella",
                 "name": "Radio Montestella",
                 "radio": true,
                 "type": "direct",
                 "url": "https://sr10.inmystream.it/proxy/montestella?mp=/stream"
+            },
+            {
+                "sublcn": 22,
+                "logo": "radiohashtag",
+                "name": "Radio Hashtag",
+                "radio": true,
+                "type": "direct",
+                "url": "https://radio.latuatv.eu:1065/stream"
             }]
         },
         {

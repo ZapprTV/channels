@@ -15,31 +15,60 @@
             "type": "hls",
             "url": "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8",
             "hbbtv": [{
+                "sublcn": 1,
+                "logo": "altoadigetv",
+                "name": "Alto Adige TV",
+                "type": "hls",
+                "url": "https://5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "meteotrentino",
+                "name": "Meteotrentino",
+                "type": "hls",
+                "url": "zappr://rubidia/trentinotv/selector/37/67"
+            },
+            {
+                "sublcn": 3,
+                "logo": "viaggiareintrentino",
+                "name": "Viaggiare in Trentino",
+                "type": "hls",
+                "url": "zappr://rubidia/trentinotv/selector/37/68"
+            },
+            {
                 "categorySeparator": "Radio MediaDAB"
             },
             {
-                "sublcn": 1,
+                "sublcn": 4,
                 "logo": "radiosystem",
                 "name": "Radio System",
                 "type": "hls",
                 "url": "https://srvx1.selftv.video/systemtv/smil:live/playlist.m3u8"
             },
             {
-                "sublcn": 2,
-                "logo": "anni80",
-                "name": "Anni 80",
+                "sublcn": 5,
+                "logo": "anni90",
+                "name": "Anni 90",
                 "type": "hls",
                 "url": "https://585b674743bbb.streamlock.net/9076/9076/playlist.m3u8"
             },
             {
-                "sublcn": 3,
+                "sublcn": 6,
+                "logo": "radiosportiva.svg",
+                "name": "Radio Sportiva",
+                "radio": true,
+                "type": "direct",
+                "url": "https://sportiva.inmystream.it/stream/sportiva"
+            },
+            {
+                "sublcn": 7,
                 "logo": "radiobruno",
                 "name": "Radio Bruno",
                 "type": "hls",
                 "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8"  
             },
             {
-                "sublcn": 4,
+                "sublcn": 8,
                 "logo": "virgoradio.svg",
                 "name": "Virgo Radio",
                 "radio": true,
@@ -47,7 +76,7 @@
                 "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"        
             },
             {
-                "sublcn": 5,
+                "sublcn": 9,
                 "logo": "funkyradio",
                 "name": "FUNKY.radio",
                 "radio": true,
@@ -55,12 +84,52 @@
                 "url": "https://my.streamingmedia.it/hls/funkyradio_hls/live.m3u8"
             },
             {
-                "sublcn": 6,
+                "sublcn": 10,
+                "logo": "sunbeat",
+                "name": "Radio Sunbeat",
+                "radio": true,
+                "type": "direct",
+                "url": "https://stream.rcs.revma.com/2vke97f39yuvv?type=.aac"
+            },
+            {
+                "sublcn": 11,
+                "logo": "radio906",
+                "name": "Radio 906",
+                "radio": true,
+                "type": "direct",
+                "url": "https://stream.rcs.revma.com/w231bbg39yuvv?type=.aac"
+            },
+            {
+                "sublcn": 12,
                 "logo": "radiofiemme",
                 "name": "Radio Fiemme",
                 "radio": true,
                 "type": "hls",
                 "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"  
+            },
+            {
+                "sublcn": 13,
+                "logo": "rvs",
+                "name": "RVS",
+                "radio": true,
+                "type": "hls",
+                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"                
+            },
+            {
+                "sublcn": 14,
+                "logo": "radiogemini",
+                "name": "Radio Gemini",
+                "radio": true,
+                "type": "direct",
+                "url": "https://geminione.it/proxy/gemini/stream"
+            },
+            {
+                "sublcn": 15,
+                "logo": "radiocafè",
+                "name": "Radio Cafè",
+                "radio": true,
+                "type": "direct",
+                "url": "https://geminione.it/proxy/test/stream"  
             }]
         },
         {

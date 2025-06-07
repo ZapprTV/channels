@@ -84,6 +84,13 @@
             },
             {
                 "sublcn": 7,
+                "logo": "teleliguriasud",
+                "name": "Tele Liguria Sud",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
+            },
+            {
+                "sublcn": 8,
                 "logo": "radiofratesole",
                 "name": "Radio Frate Sole",
                 "radio": true,
@@ -91,7 +98,7 @@
                 "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
             },
             {
-                "sublcn": 8,
+                "sublcn": 9,
                 "logo": "radiopace",
                 "name": "Radio Pace",
                 "radio": true,
