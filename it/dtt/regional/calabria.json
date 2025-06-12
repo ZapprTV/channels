@@ -143,7 +143,83 @@
             "logo": "telemia",
             "name": "Telemia",
             "type": "hls",
-            "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8"
+            "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8",
+            "hbbtv": [{
+                "categorySeparator": "TV"
+            },
+            {
+                "sublcn": 1,
+                "logo": "tv99",
+                "name": "TV99",
+                "subtitle": "/ Telemia Extra",
+                "type": "hls",
+                "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "calabrianews24",
+                "name": "Calabria News 24",
+                "type": "hls",
+                "url": "https://playerssl.telemia.tv/fileadmin/hls/CalabriaNews24/calabrianews24_mediachunks.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "telebruzzano",
+                "name": "Telebruzzano",
+                "type": "hls",
+                "url": "https://playerssl.telemia.tv/fileadmin/hls/Telebruzzano/telebruzzano_mediachunks.m3u8"
+            },
+            {
+                "sublcn": 4,
+                "logo": "pianatv",
+                "name": "Piana TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://playerssl.telemia.tv/fileadmin/hls/PianaTV/pianatv_mediachunks.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "lamiaradio",
+                "name": "La Mia Radio",
+                "subtitle": "(radiovisione)",
+                "type": "hls",
+                "url": "https://playerssl.telemia.tv/fileadmin/hls/LaMiaRadio/lamiaradio_mediachunks.m3u8"
+            },
+            {
+                "categorySeparator": "Radio"
+            },
+            {
+                "sublcn": 6,
+                "logo": "lamiaradio",
+                "name": "La Mia Radio",
+                "radio": true,
+                "type": "direct",
+                "url": "https://nrf1.newradio.it/stream/9786"
+            },
+            {
+                "sublcn": 7,
+                "logo": "rcradio",
+                "name": "RC Radio",
+                "radio": true,
+                "type": "direct",
+                "url": "https://stream10.xdevel.com/audio0s977154-1826/stream/icecast.audio"
+            },
+            {
+                "sublcn": 8,
+                "logo": "studio54network.svg",
+                "name": "Studio 54 Network",
+                "radio": true,
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/audio0s977557-2095/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 9,
+                "logo": "radioquartiere1",
+                "name": "Radio Quartiere 1",
+                "radio": true,
+                "type": "direct",
+                "url": "https://stream-174.zeno.fm/urz5widop6ztv"
+            }]
         },
         {
             "lcn": 77,
