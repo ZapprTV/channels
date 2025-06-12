@@ -310,10 +310,10 @@
         },
         {
             "lcn": 47,
-            "logo": "super",
+            "logo": "super.svg",
             "name": "Super!",
             "type": "hls",
-            "url": "https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8"
+            "url": "https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist_dvr.m3u8"
         },
         {
             "lcn": 48,
@@ -2180,7 +2180,7 @@
             "name": "Byoblu",
             "hd": true,
             "type": "hls",
-            "url": "https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/playlist.m3u8"
+            "url": "https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/original_9900000_999000/playlist.m3u8"
         },
         {
             "lcn": 264,
