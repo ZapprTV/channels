@@ -1737,11 +1737,11 @@
         },
         {
             "lcn": 246,
-            "logo": "radio24.svg",
-            "name": "Radio 24",
+            "logo": "radio24tv",
+            "name": "Radio 24 - Il Sole 24 Ore TV",
             "hd": true,
-            "type": "hls",
-            "url": "https://ilsole24ore-radiovisual.akamaized.net/hls/live/2035302/stream/stream.m3u8"
+            "type": "dash",
+            "url": "https://760869f771b04ca8a1e4daa89dd6da3e.msvdn.net/live/S88650405/33lZG4owunfW/manifest.mpd"
         },
         {
             "lcn": 248,
