@@ -231,7 +231,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>flv</dt><dd>Flash Video (.flv)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; o &lt;audio&gt; senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -299,27 +299,6 @@
       <th>Enum</th>
       <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd></dl></td>
     </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.seek
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">Mostra/nascondi barra seek del player</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Abilitato di default per stream di tipo DASH, Flash Video e diretto.</td>
-    </tr>
-    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
-    
   </tbody>
 </table>
 
@@ -477,7 +456,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd><dt>servizistreaming-embed</dt><dd>Embed ServiziStreaming.it</dd></dl></td>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>very-squashed-height</dt><dd>Stretcha il video di un canale con una height MOLTO schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd><dt>servizistreaming-embed</dt><dd>Embed ServiziStreaming.it</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -713,7 +692,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>flv</dt><dd>Flash Video (.flv)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; o &lt;audio&gt; senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -781,27 +760,6 @@
       <th>Enum</th>
       <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd></dl></td>
     </tr>
-  </tbody>
-</table>
-
-
-
-
-### channels.hbbtv.seek
-
-
-<table class="jssd-property-table">
-  <tbody>
-    <tr>
-      <th>Title</th>
-      <td colspan="2">Mostra/nascondi barra seek del player</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Abilitato di default per stream di tipo DASH, Flash Video e diretto.</td>
-    </tr>
-    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
-    
   </tbody>
 </table>
 
@@ -959,7 +917,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd><dt>servizistreaming-embed</dt><dd>Embed ServiziStreaming.it</dd></dl></td>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>very-squashed-height</dt><dd>Stretcha il video di un canale con una height MOLTO schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd><dt>servizistreaming-embed</dt><dd>Embed ServiziStreaming.it</dd></dl></td>
     </tr>
   </tbody>
 </table>
