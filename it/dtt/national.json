@@ -2687,6 +2687,14 @@
             }]
         },
         {
+            "lcn": 724,
+            "logo": "rds.svg",
+            "name": "RDS",
+            "radio": true,
+            "type": "hls",
+            "url": "https://stream.rds.radio/audio/rds.stream_aac/playlist.m3u8"
+        },
+        {
             "lcn": 728,
             "logo": "inblu2000.svg",
             "name": "InBlu2000",
