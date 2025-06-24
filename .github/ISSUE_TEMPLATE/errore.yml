@@ -1,9 +1,7 @@
-name: 🚫 Errore canale (HLS)
-description: Per i canali che mostrano l'errore "Errore canale (HLS)".
-title: "[ERRORE HLS] "
+name: 🚫 Errore canale
+description: Per i canali che mostrano l'errore "Errore canale".
 labels:
   - Errore
-  - HLS
 body:
   - type: markdown
     attributes:
@@ -12,7 +10,7 @@ body:
 
         **Ti consigliamo di non compilare tutto questo modulo manualmente.** Se sei su questa pagina dopo aver cliccato "New issue", ti consigliamo invece di cliccare il pulsante "Segnala tramite GitHub" nella finestra. Così facendo, la maggior parte del modulo verrà compilata automaticamente.
 
-        **Prima di inviare questa issue, però,** controlla che nessun altro abbia già segnalato lo stesso problema. [Vai sulla scheda Issues](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3AErrore+label%3AHLS) e cerca il nome del canale che vuoi segnalare: se non trovi una issue con il tuo stesso problema, continua a compilare questo modulo.
+        **Prima di inviare questa issue, però,** controlla che nessun altro abbia già segnalato lo stesso problema. [Vai sulla scheda Issues](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3AErrore) e cerca il nome del canale che vuoi segnalare: se non trovi una issue con il tuo stesso problema, continua a compilare questo modulo.
 
         **Inoltre, ti ricordiamo che questo form è solo per i canali che mostrano una finestra d'errore ("Errore canale"). Se il canale che vuoi segnalare dà problemi ma non dà errore ed è visibile, questo è il form sbagliato.**
   - type: input

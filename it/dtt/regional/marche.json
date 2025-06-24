@@ -29,60 +29,60 @@
             "lcn": 11,
             "logo": "veratv.svg",
             "name": "Vera TV",
-            "type": "hls",
-            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/manifest.mpd"
         },
         {
             "lcn": 12,
             "logo": "ètvmarche.svg",
             "name": "èTV Marche",
-            "type": "hls",
-            "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8",
+            "type": "dash",
+            "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
-                "type": "hls",
-                "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd"
             },
             {
                 "sublcn": 2,
                 "logo": "telecolor.svg",
                 "name": "Telecolor",
                 "hd": true,
-                "type": "hls",
-                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8"
+                "type": "dash",
+                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd"
             },
             {
                 "sublcn": 3,
                 "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
-                "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/manifest.mpd"
             },
             {
                 "sublcn": 4,
                 "logo": "laziotv.svg",
                 "name": "Lazio TV",
                 "hd": true,
-                "type": "hls",
-                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd"
             },
             {
                 "sublcn": 5,
                 "logo": "goldtv.svg",
                 "name": "Gold TV",
                 "hd": true,
-                "type": "hls",
-                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd"
             }]
         },
         {
             "lcn": 13,
             "logo": "tvrs.svg",
             "name": "TVRS",
-            "type": "hls",
-            "url": "https://cdn8.streamshow.it/cloud-tvrs/tvrs/playlist.m3u8"
+            "type": "dash",
+            "url": "https://cdn8.streamshow.it/cloud-tvrs/tvrs/manifest.mpd"
         },
         {
             "lcn": 16,
@@ -110,8 +110,8 @@
             "lcn": 17,
             "logo": "ètv+",
             "name": "èTV+",
-            "type": "hls",
-            "url": "https://live.ipstream.it/etvmarche2/etvmarche2.stream/playlist.m3u8"
+            "type": "dash",
+            "url": "https://live.ipstream.it/etvmarche2/etvmarche2.stream/manifest.mpd"
         },
         {
             "lcn": 18,
@@ -154,40 +154,35 @@
                 "sublcn": 2,
                 "logo": "radiolinealove",
                 "name": "Radio Linea Love",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8120/radio.mp3"  
             },
             {
                 "sublcn": 3,
                 "logo": "radiolineaitalia",
                 "name": "Radio Linea Italia",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8110/radio.mp3"  
             },
             {
                 "sublcn": 4,
                 "logo": "radiolineadrive",
                 "name": "Radio Linea Drive",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8100/radio.mp3"  
             },
             {
                 "sublcn": 5,
                 "logo": "radiolineasportenergy",
                 "name": "Radio Linea Sport Energy",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8130/radio.mp3"  
             },
             {
                 "sublcn": 6,
                 "logo": "radiolinearock",
                 "name": "Radio Linea Rock",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8140/radio.mp3"  
             },
             {
@@ -197,32 +192,28 @@
                 "sublcn": 7,
                 "logo": "radio708090",
                 "name": "Radio 70 80 90",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8170/radio.mp3"
             },
             {
                 "sublcn": 8,
                 "logo": "radio708090italia",
                 "name": "Radio 70 80 90 Italia",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8070/radio.mp3"
             },
             {
                 "sublcn": 9,
                 "logo": "radio708090dance",
                 "name": "Radio 70 80 90 Dance",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8060/radio.mp3"
             },
             {
                 "sublcn": 10,
                 "logo": "radio708090rock",
                 "name": "Radio 70 80 90 Rock",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8090/radio.mp3"
             }]
         },
@@ -236,8 +227,7 @@
                 "sublcn": 1,
                 "logo": "radiostudio7",
                 "name": "Radio Studio 7",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://stream5.xdevel.com/audio0s976596-1365/stream/icecast.audio"
             }]
         },
@@ -252,8 +242,8 @@
             "lcn": 82,
             "logo": "607080radio",
             "name": "60 70 80 TV",
-            "type": "hls",
-            "url": "https://5a1178b42cc03.streamlock.net/607080stream/607080stream/playlist.m3u8"
+            "type": "dash",
+            "url": "https://5a1178b42cc03.streamlock.net/607080stream/607080stream/manifest.mpd"
         },
         {
             "lcn": 89,
@@ -262,11 +252,11 @@
             "type": "hls",
             "url": "https://live20.bozztv.com/akamaissh101/ssh101/emmetv89/playlist.m3u8",
             "hbbtv": [{
-                "sublcn": 1,
-                "logo": "emmeigsport",
-                "name": "Emme IG Sport",
-                "type": "hls",
-                "url": "https://live20.bozztv.com/akamaissh101/ssh101/emmeigsport47/playlist.m3u8"
+                "sublcn": 2,
+                "logo": "radionuova",
+                "name": "Radio Nuova",
+                "type": "audio",
+                "url": "https://ice09.fluidstream.net/fluid0903.mp3"
             }]
         },
         {
@@ -289,24 +279,21 @@
                 "sublcn": 2,
                 "logo": "radioskylinesoul",
                 "name": "Radio Skyline Soul",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8040/radio.mp3"
             },
             {
                 "sublcn": 3,
                 "logo": "radioskylinejazz",
                 "name": "Radio Skyline Jazz",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8030/radio.mp3"
             },
             {
                 "sublcn": 4,
                 "logo": "radioskylinegroove",
                 "name": "Radio Skyline Groove",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8050/radio.mp3"
             },
             {
@@ -316,32 +303,28 @@
                 "sublcn": 5,
                 "logo": "radio708090",
                 "name": "Radio 70 80 90",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8170/radio.mp3"
             },
             {
                 "sublcn": 6,
                 "logo": "radio708090italia",
                 "name": "Radio 70 80 90 Italia",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8070/radio.mp3"
             },
             {
                 "sublcn": 7,
                 "logo": "radio708090dance",
                 "name": "Radio 70 80 90 Dance",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8060/radio.mp3"
             },
             {
                 "sublcn": 8,
                 "logo": "radio708090rock",
                 "name": "Radio 70 80 90 Rock",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://rblive.it:8090/radio.mp3"
             }]
         },
@@ -349,15 +332,15 @@
             "lcn": 99,
             "logo": "rtm",
             "name": "RTM",
-            "type": "hls",
-            "url": "https://cdn17.streamshow.it/cloud-rtmtv/rtmtv.stream/playlist.m3u8"
+            "type": "dash",
+            "url": "https://cdn17.streamshow.it/cloud-rtmtv/rtmtv.stream/manifest.mpd"
         },
         {
             "lcn": 351,
             "logo": "70-80",
             "name": "70-80.it",
-            "type": "hls",
-            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+            "type": "dash",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/manifest.mpd"
         }
     ]
 }

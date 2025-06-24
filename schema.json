@@ -56,15 +56,15 @@
                         "type": "string",
                         "title": "Tipo stream",
                         "description": "Il tipo della stream.",
-                        "enum": ["hls", "dash", "flv", "twitch", "youtube", "iframe", "direct", "popup"],
+                        "enum": ["hls", "dash", "twitch", "youtube", "iframe", "audio", "direct", "popup"],
                         "meta:enum": {
                             "hls": "HLS (.m3u / .m3u8)",
                             "dash": "DASH (.mpd)",
-                            "flv": "Flash Video (.flv)",
                             "twitch": "Twitch (username)",
                             "youtube": "YouTube (ID video o canale)",
                             "iframe": "IFrame (URL)",
-                            "direct": "'Diretto' (non HLS, DASH, ecc.), cioè una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast.",
+                            "audio": "Audio (es. Icecast)",
+                            "direct": "'Diretto' (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente <video> (non audio!) senza bisogno di librerie JavaScript aggiuntive",
                             "popup": "Finestra popup (URL)"
                         },
                         "anyOf": [{
@@ -74,10 +74,6 @@
                         {
                             "const": "dash",
                             "title": "DASH (.mpd)"
-                        },
-                        {
-                            "const": "flv",
-                            "title": "Flash Video (.flv)"  
                         },
                         {
                             "const": "twitch",
@@ -92,9 +88,13 @@
                             "title": "IFrame (URL)"   
                         },
                         {
+                            "const": "audio",
+                            "title": "Audio (es. Icecast)"
+                        },
+                        {
                             "const": "direct",
                             "title": "'Diretto' (non HLS, DASH, ecc.)",
-                            "description": "Una diretta/contenuto on-demand riproducibile da una sorgente <video> o <audio> senza bisogno di librerie JavaScript aggiuntive. Usato di solito per le dirette audio Icecast."
+                            "description": "Una diretta/contenuto on-demand riproducibile da una sorgente <video> (non audio!) senza bisogno di librerie JavaScript aggiuntive"
                         },
                         {
                             "const": "popup",
@@ -123,11 +123,6 @@
                             "const": "xdevel-wms",
                             "title": "Xdevel WMS Auth Sign (play.xdevel.com/was)"
                         }]
-                    },
-                    "seek": {
-                        "type": "boolean",
-                        "title": "Mostra/nascondi barra seek del player",
-                        "description": "Se attivare o no la barra seek del player per mandare avanti e indietro la stream. Abilitato di default per stream di tipo DASH, Flash Video e diretto."
                     },
                     "hbbtvapp": {
                         "type": "boolean",
@@ -197,12 +192,13 @@
                         "type": "string",
                         "title": "Fix CSS da applicare",
                         "description": "Alcuni canali IFrame hanno bisogno di un po' di CSS per essere più belli.",
-                        "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "center-iframe", "servizistreaming-embed"],
+                        "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "very-squashed-height", "center-iframe", "servizistreaming-embed"],
                         "meta:enum": {
                             "streamshow-embed": "Embed StreamShow (embed.streamshow.net)",
                             "raiplay-sound": "RaiPlay Sound",
                             "stretch": "Stretcha il video di un canale con una width schiacciata all'aspect ratio 16:9.",
                             "squashed-height": "Stretcha il video di un canale con una height schiacciata all'aspect ratio 16:9.",
+                            "very-squashed-height": "Stretcha il video di un canale con una height MOLTO schiacciata all'aspect ratio 16:9.",
                             "center-iframe": "Centra IFrame",
                             "servizistreaming-embed": "Embed ServiziStreaming.it"
                         },
@@ -223,6 +219,11 @@
                             "const": "squashed-height",
                             "title": "Stretcha a 16:9 (con height schiacciata)",
                             "description": "Stretcha il video di un canale con una height schiacciata all'aspect ratio 16:9."  
+                        },
+                        {
+                            "const": "very-squashed-height",
+                            "title": "Stretcha a 16:9 (con height MOLTO schiacciata)",
+                            "description": "Stretcha il video di un canale con una height MOLTO schiacciata all'aspect ratio 16:9."  
                         },
                         {
                             "const": "center-iframe",
@@ -283,9 +284,6 @@
                                 },
                                 "license": {
                                     "$ref": "#/properties/channels/items/properties/license"
-                                },
-                                "seek": {
-                                    "$ref": "#/properties/channels/items/properties/seek"
                                 },
                                 "hbbtvapp": {
                                     "$ref": "#/properties/channels/items/properties/hbbtvapp"

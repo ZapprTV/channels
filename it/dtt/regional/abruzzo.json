@@ -19,14 +19,14 @@
             "lcn": 11,
             "logo": "telemolise",
             "name": "Telemolise",
-            "type": "hls",
-            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
+            "type": "dash",
+            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "diciotto",
                 "name": "Diciotto",
-                "type": "hls",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
+                "type": "dash",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/manifest.mpd"
             }]
         },
         {
@@ -40,21 +40,21 @@
             "lcn": 13,
             "logo": "tvsei",
             "name": "TVSEI",
-            "type": "hls",
-            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/playlist.m3u8",
+            "type": "dash",
+            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "telemolise",
                 "name": "Telemolise",
-                "type": "hls",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8"
+                "type": "dash",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd"
             },
             {
                 "sublcn": 2,
                 "logo": "diciotto",
                 "name": "Diciotto",
-                "type": "hls",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
+                "type": "dash",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/manifest.mpd"
             },
             {
                 "sublcn": 3,
@@ -77,8 +77,8 @@
             "logo": "infomedianews",
             "name": "Info Media News",
             "hd": true,
-            "type": "hls",
-            "url": "https://64ede947d2367.streamlock.net/IMN/_definst_/IMN_source/playlist.m3u8"
+            "type": "dash",
+            "url": "https://64ede947d2367.streamlock.net/IMN/_definst_/IMN_source/manifest.mpd"
         },
         {
             "lcn": 16,
@@ -98,8 +98,8 @@
             "lcn": 18,
             "logo": "diciotto",
             "name": "Diciotto",
-            "type": "hls",
-            "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
+            "type": "dash",
+            "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/manifest.mpd"
         },
         {
             "lcn": 75,
@@ -140,8 +140,8 @@
             "lcn": 87,
             "logo": "veratv.svg",
             "name": "Vera TV",
-            "type": "hls",
-            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/manifest.mpd"
         },
         {
             "lcn": 89,
@@ -184,11 +184,18 @@
             "url": "https://dlive.tv/Onda_Tv"
         },
         {
+            "lcn": 90,
+            "logo": "tvyesitalia",
+            "name": "TV Yes",
+            "type": "dash",
+            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/manifest.mpd"
+        },
+        {
             "lcn": 94,
             "logo": "turismotv",
             "name": "Turismo TV",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/manifest.mpd"
         },
         {
             "lcn": 96,
@@ -223,8 +230,8 @@
             "lcn": 111,
             "logo": "adn24",
             "name": "ADN24",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/manifest.mpd"
         }
     ]
 }

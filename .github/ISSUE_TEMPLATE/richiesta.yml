@@ -1,6 +1,5 @@
 name: ❓ Richiesta canale
 description: Richiedi un canale.
-title: "[RICHIESTA] "
 labels:
   - Richiesta
 body:

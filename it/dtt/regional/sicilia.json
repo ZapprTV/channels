@@ -36,31 +36,31 @@
             "logo": "videoregionesicilia.svg",
             "name": "Video Regione",
             "hd": true,
-            "type": "hls",
-            "url": "https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/playlist.m3u8",
+            "type": "dash",
+            "url": "https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "goldtv.svg",
                 "name": "Gold TV",
                 "hd": true,
-                "type": "hls",
-                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd"
             },
             {
                 "sublcn": 2,
                 "logo": "laziotv.svg",
                 "name": "Lazio TV",
                 "hd": true,
-                "type": "hls",
-                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd"
             }]
         },
         {
             "lcn": 15,
             "logo": "telerent7gold",
             "name": "Telerent 7 Gold",
-            "type": "hls",
-            "url": "https://5db313b643fd8.streamlock.net/telerent/telerent/playlist.m3u8",
+            "type": "dash",
+            "url": "https://5db313b643fd8.streamlock.net/telerent/telerent/manifest.mpd",
             "hbbtv": [{
                 "categorySeparator": "Televisioni"
             },
@@ -68,15 +68,15 @@
                 "sublcn": 3,
                 "logo": "tvm",
                 "name": "TVM",
-                "type": "hls",
-                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/manifest.mpd"
             },
             {
                 "sublcn": 4,
                 "logo": "promovideotv",
                 "name": "PromovideoTV",
-                "type": "hls",
-                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"        
+                "type": "dash",
+                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/manifest.mpd"        
             },
             {
                 "sublcn": 5,
@@ -84,6 +84,16 @@
                 "name": "Prima TV",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/primatv/primatv/playlist.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "agrisicilia",
+                "name": "Agrisicilia TV",
+                "ondemand": true,
+                "hd": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Ultimo%20Agrisicilia/agrisiciliatv_ultima.mp4",
+                "http": true
             },
             {
                 "sublcn": 7,
@@ -103,15 +113,15 @@
                 "sublcn": 10,
                 "logo": "globustelevision",
                 "name": "Globus Television",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/globustelevision/globustelevision/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/globustelevision/globustelevision/manifest.mpd"
             },
             {
                 "sublcn": 11,
                 "logo": "steuropechannel",
                 "name": "STEurope Channel",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/manifest.mpd"
             },
             {
                 "sublcn": 12,
@@ -125,38 +135,36 @@
                 "sublcn": 13,
                 "logo": "televallo",
                 "name": "Televallo",
-                "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/manifest.mpd"
             },
             {
                 "sublcn": 14,
                 "logo": "radiotivùazzurra",
                 "name": "Radio Tivù Azzurra",
-                "type": "hls",
-                "url": "https://video.azotosolutions.com:9553/radiotivuazzurralive/radiotivuazzurralive/playlist.m3u8"
+                "type": "dash",
+                "url": "https://video.azotosolutions.com:9553/radiotivuazzurralive/radiotivuazzurralive/manifest.mpd"
             },
             {
                 "sublcn": 15,
                 "logo": "globusradiostation",
                 "name": "Globus Radio Station",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://ns3156088.ip-51-89-96.eu:8160/stream"            
             },
             {
                 "sublcn": 16,
                 "logo": "radioitaliaanni60.svg",
                 "name": "Radio Italia Anni 60 Sicilia",
-                "radio": true,
-                "type": "hls",
-                "url": "https://stream3.xdevel.com/audio1s975388-101/stream/playlist.m3u8"
+                "type": "audio",
+                "url": "https://stream3.xdevel.com/audio1s975388-101/stream/icecast.audio"
             },
             {
                 "sublcn": 17,
                 "logo": "radioitaliaanni60tv",
                 "name": "Radio Italia Anni 60 TV",
-                "type": "hls",
-                "url": "https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8"
+                "type": "dash",
+                "url": "https://dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S29887338/irn4sIk4aeF2/manifest.mpd"
             },
             {
                 "sublcn": 18,
@@ -164,7 +172,7 @@
                 "name": "Ultimo Gold Sport",
                 "ondemand": true,
                 "type": "direct",
-                "url": "http://95.255.213.243/vod/Ultimo%20Gold%20Sport/GoldSport.mp4",
+                "url": "http://95.255.213.243/vod/Ultimo%20Gold%20Sport/UltimoGoldSport.mp4",
                 "http": true
             },
             {
@@ -191,7 +199,7 @@
                 "name": "Scuola di Danza La Coreutica",
                 "ondemand": true,
                 "type": "direct",
-                "url": "http://95.255.213.243/vod/Publi-L/La%20Coreutica/Lago%20dei%20cigni.mp4",
+                "url": "http://95.255.213.243/vod/Publi-L/La%20Coreutica/coreutica.mp4",
                 "http": true
             },
             {
@@ -216,7 +224,7 @@
             },
             {
                 "sublcn": 25,
-                "logo": "videosicilia",
+                "logo": "videosicilia.svg",
                 "name": "Video Sicilia News",
                 "ondemand": true,
                 "type": "direct",
@@ -362,16 +370,16 @@
             "lcn": 16,
             "logo": "teleone",
             "name": "Tele One",
-            "type": "hls",
-            "url": "https://648026e87a75e.streamlock.net/teleone/teleone/playlist.m3u8"
+            "type": "dash",
+            "url": "https://648026e87a75e.streamlock.net/teleone/teleone/manifest.mpd"
         },
         {
             "lcn": 17,
             "logo": "videomediterraneo",
             "name": "Video Mediterraneo",
             "hd": true,
-            "type": "hls",
-            "url": "https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/playlist.m3u8"
+            "type": "dash",
+            "url": "https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/manifest.mpd"
         },
         {
             "lcn": 18,
@@ -387,15 +395,15 @@
                 "sublcn": 3,
                 "logo": "tvm",
                 "name": "TVM",
-                "type": "hls",
-                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/manifest.mpd"
             },
             {
                 "sublcn": 4,
                 "logo": "promovideotv",
                 "name": "PromovideoTV",
-                "type": "hls",
-                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"        
+                "type": "dash",
+                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/manifest.mpd"        
             },
             {
                 "sublcn": 5,
@@ -403,6 +411,16 @@
                 "name": "Prima TV",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/primatv/primatv/playlist.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "agrisicilia",
+                "name": "Agrisicilia TV",
+                "ondemand": true,
+                "hd": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Ultimo%20Agrisicilia/agrisiciliatv_ultima.mp4",
+                "http": true
             },
             {
                 "sublcn": 7,
@@ -422,15 +440,15 @@
                 "sublcn": 10,
                 "logo": "globustelevision",
                 "name": "Globus Television",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/globustelevision/globustelevision/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/globustelevision/globustelevision/manifest.mpd"
             },
             {
                 "sublcn": 11,
                 "logo": "steuropechannel",
                 "name": "STEurope Channel",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/manifest.mpd"
             },
             {
                 "sublcn": 12,
@@ -444,38 +462,36 @@
                 "sublcn": 13,
                 "logo": "televallo",
                 "name": "Televallo",
-                "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/manifest.mpd"
             },
             {
                 "sublcn": 14,
                 "logo": "radiotivùazzurra",
                 "name": "Radio Tivù Azzurra",
-                "type": "hls",
-                "url": "https://video.azotosolutions.com:9553/radiotivuazzurralive/radiotivuazzurralive/playlist.m3u8"
+                "type": "dash",
+                "url": "https://video.azotosolutions.com:9553/radiotivuazzurralive/radiotivuazzurralive/manifest.mpd"
             },
             {
                 "sublcn": 15,
                 "logo": "globusradiostation",
                 "name": "Globus Radio Station",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://ns3156088.ip-51-89-96.eu:8160/stream"            
             },
             {
                 "sublcn": 16,
                 "logo": "radioitaliaanni60.svg",
                 "name": "Radio Italia Anni 60 Sicilia",
-                "radio": true,
-                "type": "hls",
-                "url": "https://stream3.xdevel.com/audio1s975388-101/stream/playlist.m3u8"
+                "type": "audio",
+                "url": "https://stream3.xdevel.com/audio1s975388-101/stream/icecast.audio"
             },
             {
                 "sublcn": 17,
                 "logo": "radioitaliaanni60tv",
                 "name": "Radio Italia Anni 60 TV",
-                "type": "hls",
-                "url": "https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8"
+                "type": "dash",
+                "url": "https://dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S29887338/irn4sIk4aeF2/manifest.mpd"
             },
             {
                 "sublcn": 18,
@@ -483,7 +499,7 @@
                 "name": "Ultimo Gold Sport",
                 "ondemand": true,
                 "type": "direct",
-                "url": "http://95.255.213.243/vod/Ultimo%20Gold%20Sport/GoldSport.mp4",
+                "url": "http://95.255.213.243/vod/Ultimo%20Gold%20Sport/UltimoGoldSport.mp4",
                 "http": true
             },
             {
@@ -510,7 +526,7 @@
                 "name": "Scuola di Danza La Coreutica",
                 "ondemand": true,
                 "type": "direct",
-                "url": "http://95.255.213.243/vod/Publi-L/La%20Coreutica/Lago%20dei%20cigni.mp4",
+                "url": "http://95.255.213.243/vod/Publi-L/La%20Coreutica/coreutica.mp4",
                 "http": true
             },
             {
@@ -535,7 +551,7 @@
             },
             {
                 "sublcn": 25,
-                "logo": "videosicilia",
+                "logo": "videosicilia.svg",
                 "name": "Video Sicilia News",
                 "ondemand": true,
                 "type": "direct",
@@ -681,8 +697,8 @@
             "lcn": 19,
             "logo": "tvm",
             "name": "TVM",
-            "type": "hls",
-            "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8",
+            "type": "dash",
+            "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/manifest.mpd",
             "hbbtv": [{
                 "categorySeparator": "Televisioni"
             },
@@ -711,22 +727,22 @@
                 "sublcn": 8,
                 "logo": "globustelevision",
                 "name": "Globus Television",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/globustelevision/globustelevision/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/globustelevision/globustelevision/manifest.mpd"
             },
             {
                 "sublcn": 9,
                 "logo": "steuropechannel",
                 "name": "STEurope Channel",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/manifest.mpd"
             },
             {
                 "sublcn": 10,
                 "logo": "televallo",
                 "name": "Televallo",
-                "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/manifest.mpd"
             },
             {
                 "sublcn": 11,
@@ -740,38 +756,29 @@
                 "sublcn": 12,
                 "logo": "globusradiostation",
                 "name": "Globus Radio Station",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://ns3156088.ip-51-89-96.eu:8160/stream"            
             },
             {
                 "sublcn": 13,
                 "logo": "radiotivùazzurra",
                 "name": "Radio Tivù Azzurra",
-                "type": "hls",
-                "url": "https://video.azotosolutions.com:9553/radiotivuazzurralive/radiotivuazzurralive/playlist.m3u8"
+                "type": "dash",
+                "url": "https://video.azotosolutions.com:9553/radiotivuazzurralive/radiotivuazzurralive/manifest.mpd"
             },
             {
                 "sublcn": 14,
                 "logo": "radioitaliaanni60.svg",
                 "name": "Radio Italia Anni 60 Sicilia",
-                "radio": true,
-                "type": "hls",
-                "url": "https://stream3.xdevel.com/audio1s975388-101/stream/playlist.m3u8"
+                "type": "audio",
+                "url": "https://stream3.xdevel.com/audio1s975388-101/stream/icecast.audio"
             },
             {
                 "sublcn": 15,
                 "logo": "radioitaliaanni60tv",
                 "name": "Radio Italia Anni 60 TV",
-                "type": "hls",
-                "url": "https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8"
-            },
-            {
-                "sublcn": 16,
-                "logo": "teleacras",
-                "name": "Teleacras",
-                "type": "hls",
-                "url": "https://5db313b643fd8.streamlock.net/teleacras/teleacras/playlist.m3u8"
+                "type": "dash",
+                "url": "https://dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S29887338/irn4sIk4aeF2/manifest.mpd"
             },
             {
                 "categorySeparator": "TG Locali"        
@@ -795,7 +802,7 @@
             },
             {
                 "sublcn": 20,
-                "logo": "videosicilia",
+                "logo": "videosicilia.svg",
                 "name": "Video Sicilia News",
                 "ondemand": true,
                 "type": "direct",
@@ -945,29 +952,29 @@
             "lcn": 75,
             "logo": "ondatvgiovani",
             "name": "Onda TV Giovani",
-            "type": "hls",
-            "url": "https://5926fc9c7c5b2.streamlock.net/9040/9040/playlist.m3u8"
+            "type": "dash",
+            "url": "https://5926fc9c7c5b2.streamlock.net/9040/9040/manifest.mpd"
         },
         {
             "lcn": 76,
             "logo": "vintageradiotv",
             "name": "Vintage Radio TV",
-            "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/vintageradiotv/vintageradiotv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://5f22d76e220e1.streamlock.net/vintageradiotv/vintageradiotv/manifest.mpd"
         },
         {
             "lcn": 80,
             "logo": "rmktv",
             "name": "RMK TV",
-            "type": "hls",
-            "url": "https://648026e87a75e.streamlock.net/rmktv/rmktv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://648026e87a75e.streamlock.net/rmktv/rmktv/manifest.mpd"
         },
         {
             "lcn": 80,
             "logo": "turismotv",
             "name": "Turismo TV",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/manifest.mpd"
         },
         {
             "lcn": 81,
@@ -1016,9 +1023,9 @@
             "lcn": 84,
             "logo": "sicilia242",
             "name": "Sicilia 242",
-            "type": "hls",
+            "type": "dash",
             "hd": true,
-            "url": "https://5f22d76e220e1.streamlock.net/sicilia24/sicilia24/playlist.m3u8"
+            "url": "https://5f22d76e220e1.streamlock.net/sicilia24/sicilia24/manifest.mpd"
         },
         {
             "lcn": 85,
@@ -1031,19 +1038,19 @@
             "lcn": 86,
             "logo": "alpauno.svg",
             "name": "Alpauno",
-            "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/alpaunotv/alpaunotv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://5f22d76e220e1.streamlock.net/alpaunotv/alpaunotv/manifest.mpd"
         },
         {
             "lcn": 86,
             "logo": "adn24",
             "name": "ADN24",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/manifest.mpd"
         },
         {
             "lcn": 87,
-            "logo": "telesud",
+            "logo": "telesud.svg",
             "name": "Telesud",
             "type": "hls",
             "url": "https://64b16f23efbee.streamlock.net/asdfgh/asdfgh/playlist.m3u8"
@@ -1061,15 +1068,15 @@
                 "sublcn": 3,
                 "logo": "tvm",
                 "name": "TVM",
-                "type": "hls",
-                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/manifest.mpd"
             },
             {
                 "sublcn": 4,
                 "logo": "promovideotv",
                 "name": "PromovideoTV",
-                "type": "hls",
-                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"        
+                "type": "dash",
+                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/manifest.mpd"        
             },
             {
                 "sublcn": 5,
@@ -1077,6 +1084,16 @@
                 "name": "Prima TV",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/primatv/primatv/playlist.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "agrisicilia",
+                "name": "Agrisicilia TV",
+                "ondemand": true,
+                "hd": true,
+                "type": "direct",
+                "url": "http://95.255.213.243/vod/Ultimo%20Agrisicilia/agrisiciliatv_ultima.mp4",
+                "http": true
             },
             {
                 "sublcn": 7,
@@ -1096,15 +1113,15 @@
                 "sublcn": 10,
                 "logo": "globustelevision",
                 "name": "Globus Television",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/globustelevision/globustelevision/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/globustelevision/globustelevision/manifest.mpd"
             },
             {
                 "sublcn": 11,
                 "logo": "steuropechannel",
                 "name": "STEurope Channel",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/manifest.mpd"
             },
             {
                 "sublcn": 12,
@@ -1118,38 +1135,36 @@
                 "sublcn": 13,
                 "logo": "televallo",
                 "name": "Televallo",
-                "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/manifest.mpd"
             },
             {
                 "sublcn": 14,
                 "logo": "radiotivùazzurra",
                 "name": "Radio Tivù Azzurra",
-                "type": "hls",
-                "url": "https://video.azotosolutions.com:9553/radiotivuazzurralive/radiotivuazzurralive/playlist.m3u8"
+                "type": "dash",
+                "url": "https://video.azotosolutions.com:9553/radiotivuazzurralive/radiotivuazzurralive/manifest.mpd"
             },
             {
                 "sublcn": 15,
                 "logo": "globusradiostation",
                 "name": "Globus Radio Station",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://ns3156088.ip-51-89-96.eu:8160/stream"            
             },
             {
                 "sublcn": 16,
                 "logo": "radioitaliaanni60.svg",
                 "name": "Radio Italia Anni 60 Sicilia",
-                "radio": true,
-                "type": "hls",
-                "url": "https://stream3.xdevel.com/audio1s975388-101/stream/playlist.m3u8"
+                "type": "audio",
+                "url": "https://stream3.xdevel.com/audio1s975388-101/stream/icecast.audio"
             },
             {
                 "sublcn": 17,
                 "logo": "radioitaliaanni60tv",
                 "name": "Radio Italia Anni 60 TV",
-                "type": "hls",
-                "url": "https://604e46ac2bdee.streamlock.net:1936/rete8_1/rete8_1/playlist.m3u8"
+                "type": "dash",
+                "url": "https://dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S29887338/irn4sIk4aeF2/manifest.mpd"
             },
             {
                 "sublcn": 18,
@@ -1157,7 +1172,7 @@
                 "name": "Ultimo Gold Sport",
                 "ondemand": true,
                 "type": "direct",
-                "url": "http://95.255.213.243/vod/Ultimo%20Gold%20Sport/GoldSport.mp4",
+                "url": "http://95.255.213.243/vod/Ultimo%20Gold%20Sport/UltimoGoldSport.mp4",
                 "http": true
             },
             {
@@ -1184,7 +1199,7 @@
                 "name": "Scuola di Danza La Coreutica",
                 "ondemand": true,
                 "type": "direct",
-                "url": "http://95.255.213.243/vod/Publi-L/La%20Coreutica/Lago%20dei%20cigni.mp4",
+                "url": "http://95.255.213.243/vod/Publi-L/La%20Coreutica/coreutica.mp4",
                 "http": true
             },
             {
@@ -1209,7 +1224,7 @@
             },
             {
                 "sublcn": 25,
-                "logo": "videosicilia",
+                "logo": "videosicilia.svg",
                 "name": "Video Sicilia News",
                 "ondemand": true,
                 "type": "direct",
@@ -1353,14 +1368,14 @@
         },
         {
             "lcn": 89,
-            "logo": "teleiblea",
+            "logo": "teleiblea.svg",
             "name": "Teleiblea",
-            "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/teleiblea/teleiblea/playlist.m3u8"
+            "type": "dash",
+            "url": "https://5f22d76e220e1.streamlock.net/teleiblea/teleiblea/manifest.mpd"
         },
         {
             "lcn": 89,
-            "logo": "telespaziomessina",
+            "logo": "telespaziomessina.svg",
             "name": "Telespazio Messina",
             "type": "hls",
             "url": "https://rtm.cyberspazio.cloud:5443/LiveApp/streams/049229794390395765037801.m3u8"
@@ -1376,52 +1391,51 @@
             "lcn": 91,
             "logo": "tele8",
             "name": "Tele8",
-            "type": "hls",
-            "url": "https://57068da1deb21.streamlock.net/teletv8/teletv8/playlist.m3u8"
+            "type": "dash",
+            "url": "https://57068da1deb21.streamlock.net/teletv8/teletv8/manifest.mpd"
         },
         {
             "lcn": 94,
             "logo": "radiojukeboxcalabria",
             "name": "Radio JukeBox TV",
-            "subtitle": "(Calabria)",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/manifest.mpd"
         },
         {
             "lcn": 96,
             "logo": "bellaradiotv",
             "name": "Bella Radio TV",
-            "type": "hls",
-            "url": "https://server.bellaradio.it:1443/live/bellaradiotv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://server.bellaradio.it:1443/live/bellaradiotv/manifest.mpd"
         },
         {
             "lcn": 97,
             "logo": "canale97",
             "name": "Canale 97",
-            "type": "hls",
-            "url": "https://5db313b643fd8.streamlock.net/canale97/canale97/playlist.m3u8"
+            "type": "dash",
+            "url": "https://5db313b643fd8.streamlock.net/canale97/canale97/manifest.mpd"
         },
         {
             "lcn": 98,
             "logo": "telegela",
             "name": "Telegela",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/telegela/telegela/playlist.m3u8"
+            "type": "dash",
+            "url": "https://64b16f23efbee.streamlock.net/telegela/telegela/manifest.mpd"
         },
         {
             "lcn": 99,
             "logo": "businesschannel",
             "name": "Business Channel",
             "hd": true,
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/businesschannel/businesschannel/playlist.m3u8"
+            "type": "dash",
+            "url": "https://64b16f23efbee.streamlock.net/businesschannel/businesschannel/manifest.mpd"
         },
         {
             "lcn": 110,
             "logo": "videocalabria.svg",
             "name": "Video Calabria",
-            "type": "hls",
-            "url": "https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/playlist.m3u8"
+            "type": "dash",
+            "url": "https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/manifest.mpd"
         },
         {
             "lcn": 113,
@@ -1441,16 +1455,16 @@
             "lcn": 117,
             "logo": "lagrandeitalia",
             "name": "La Grande Italia",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/manifest.mpd"
         },
         {
             "lcn": 175,
             "logo": "motoritvadn",
             "name": "Motori TV",
             "hd": true,
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/manifest.mpd"
         },
         {
             "lcn": 180,
@@ -1471,8 +1485,8 @@
             "lcn": 195,
             "logo": "telejato",
             "name": "Telejato",
-            "type": "hls",
-            "url": "https://648026e87a75e.streamlock.net/telejato/telejato/playlist.m3u8"
+            "type": "dash",
+            "url": "https://648026e87a75e.streamlock.net/telejato/telejato/manifest.mpd"
         },
         {
             "lcn": 199,
@@ -1485,8 +1499,8 @@
             "lcn": 211,
             "logo": "mediasud",
             "name": "Mediasud",
-            "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"        
+            "type": "dash",
+            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/manifest.mpd"        
         },
         {
             "lcn": 213,

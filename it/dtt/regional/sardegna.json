@@ -20,21 +20,21 @@
             "logo": "telecostasmeralda",
             "name": "Tele Costa Smeralda",
             "type": "hls",
-            "url": "https://streamcdnr11-7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8"
+            "url": "https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8"
         },
         {
             "lcn": 12,
             "logo": "sardegna1",
             "name": "Sardegna 1",
-            "type": "hls",
-            "url": "https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8"
+            "type": "dash",
+            "url": "https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/manifest.mpd"
         },
         {
             "lcn": 13,
             "logo": "telesardegna",
             "name": "TeleSardegna",
-            "type": "hls",
-            "url": "https://f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/playlist.m3u8"
+            "type": "dash",
+            "url": "https://f54364fcc4f84d9d9a72c8915e72704b.msvdn.net/live/S95445963/z3dZO4LpABmG/manifest.mpd"
         },
         {
             "lcn": 14,
@@ -47,8 +47,8 @@
             "lcn": 18,
             "logo": "odeon24sardegna",
             "name": "Odeon 24 Sardegna",
-            "type": "hls",
-            "url": "https://streaming.softwarecreation.it/Odeon24SA/Odeon24SA/playlist.m3u8"
+            "type": "dash",
+            "url": "https://streaming.softwarecreation.it/Odeon24SA/Odeon24SA/manifest.mpd"
         },
         {
             "lcn": 77,
@@ -77,23 +77,22 @@
                 "sublcn": 1,
                 "logo": "bonaria",
                 "name": "Bonaria TV",
-                "type": "hls",
-                "url": "https://cloudtv.azotosolutions.com:9553/livertg2/livertg2/playlist.m3u8"
+                "type": "youtube",
+                "url": "Xofb6rsCnto"
             },
             {
                 "sublcn": 2,
                 "logo": "radiobonaria",
                 "name": "Radio Bonaria",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://stream3.xdevel.com/audio1s975443-153/stream/icecast.audio"  
             },
             {
                 "sublcn": 3,
                 "logo": "teleradiomaristella",
                 "name": "Tele Radio Maristella",
-                "type": "hls",
-                "url": "https://origin1.live-dvbt2.it/cdnedge10/live10/playlist.m3u8"
+                "type": "dash",
+                "url": "https://origin1.live-dvbt2.it/cdnedge10/live10/manifest.mpd"
             },
             {
                 "sublcn": 4,
@@ -122,8 +121,8 @@
                 "logo": "videonovara",
                 "name": "Videonovara",
                 "hd": true,
-                "type": "hls",
-                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
+                "type": "dash",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=dash"
             },
             {
                 "sublcn": 8,
@@ -139,23 +138,21 @@
                 "sublcn": 9,
                 "logo": "supersix",
                 "name": "SuperSix",
-                "type": "hls",
-                "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/manifest.mpd"
             },
             {
                 "sublcn": 10,
                 "logo": "radiokalaritana",
                 "name": "Radio Kalaritana",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://radio.kalaritanamedia.it/;stream.mp3"  
             },
             {
                 "sublcn": 11,
                 "logo": "radionuorocentrale",
                 "name": "Radio Nuoro Centrale",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://stream6.xdevel.com/audio1s976970-1733/stream/icecast.audio"  
             },
             {
@@ -163,8 +160,8 @@
                 "logo": "sportoutdoortv",
                 "name": "SportOutdoor.tv",
                 "hd": true,
-                "type": "hls",
-                "url": "https://5a1178b42cc03.streamlock.net/sportoutdoorstream/sportoutdoorstream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5a1178b42cc03.streamlock.net/sportoutdoorstream/sportoutdoorstream/manifest.mpd"
             },
             {
                 "sublcn": 13,
@@ -179,8 +176,7 @@
             "lcn": 716,
             "logo": "radiosintony",
             "name": "Radio Sintony",
-            "radio": true,
-            "type": "direct",
+            "type": "audio",
             "url": "https://stream5.xdevel.com/audio0s976204-1069/stream/icecast.audio"
         }
     ]

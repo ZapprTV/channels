@@ -1,6 +1,5 @@
 name: ⚠️ Problemi canale
 description: Per canali visibili ma problematici. Non per i canali che danno errore.
-title: "[PROBLEMA] "
 labels: 
   - Problema
 body:

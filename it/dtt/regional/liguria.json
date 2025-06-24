@@ -13,8 +13,8 @@
             "logo": "primocanale.svg",
             "name": "Primocanale",
             "hd": true,
-            "type": "hls",
-            "url": "https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8"
+            "type": "dash",
+            "url": "https://msh0203.stream.seeweb.it/live/stream2.sdp/manifest.mpd"
         },
         {
             "lcn": 11,
@@ -95,8 +95,8 @@
                 "logo": "videonovara",
                 "name": "Videonovara",
                 "hd": true,
-                "type": "hls",
-                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
+                "type": "dash",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=dash"
             },
             {
                 "sublcn": 11,
@@ -110,8 +110,8 @@
                 "logo": "radiofratesole",
                 "name": "Radio Frate Sole",
                 "radio": true,
-                "type": "hls",
-                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
+                "type": "dash",
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/manifest.mpd"        
             }]
         },
         {
@@ -127,45 +127,7 @@
             "logo": "telegenova.svg",
             "name": "Telegenova",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/telegenova/telegenova/playlist.m3u8",
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "laziotv.svg",
-                "name": "Lazio TV",
-                "hd": true,
-                "type": "hls",
-                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8"
-            },
-            {
-                "sublcn": 2,
-                "logo": "goldtv.svg",
-                "name": "Gold TV",
-                "hd": true,
-                "type": "hls",
-                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
-            },
-            {
-                "sublcn": 4,
-                "logo": "teleregione74",
-                "name": "Teleregione",
-                "type": "hls",
-                "url": "https://streaming.softwarecreation.it/TR118/TR118/playlist.m3u8"
-            },
-            {
-                "sublcn": 5,
-                "logo": "goldtv.svg",
-                "name": "Gold TV Sat",
-                "type": "hls",
-                "url": "https://5a1178b42cc03.streamlock.net/goldsat/goldsat/playlist.m3u8"
-            },
-            {
-                "sublcn": 8,
-                "logo": "italia7.svg",
-                "name": "Italia 7",
-                "type": "hls",
-                "url": "https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8",
-                "cssfix": "stretch"
-            }]
+            "url": "https://64b16f23efbee.streamlock.net/telegenova/telegenova/playlist.m3u8"
         },
         {
             "lcn": 15,
@@ -179,65 +141,58 @@
             "logo": "telecolor.svg",
             "name": "Telecolor",
             "hd": true,
-            "type": "hls",
-            "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8",
+            "type": "dash",
+            "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
-                "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/manifest.mpd"
             },
             {
                 "sublcn": 2,
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
-                "type": "hls",
-                "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd"
             },
             {
                 "sublcn": 3,
                 "logo": "ètvmarche.svg",
                 "name": "èTV Marche",
-                "type": "hls",
-                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/manifest.mpd"
             },
             {
                 "sublcn": 4,
                 "logo": "telereporter",
                 "name": "Telereporter",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/manifest.mpd"
             },
             {
                 "sublcn": 5,
                 "logo": "telecampione.svg",
                 "name": "Telecampione",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/manifest.mpd"
             },
             {
                 "sublcn": 6,
                 "logo": "laziotv.svg",
                 "name": "Lazio TV",
                 "hd": true,
-                "type": "hls",
-                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8"
+                "type": "dash",
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd"
             },
             {
                 "sublcn": 7,
                 "logo": "goldtv.svg",
                 "name": "Gold TV",
                 "hd": true,
-                "type": "hls",
-                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/playlist.m3u8"
-            },
-            {
-                "sublcn": 8,
-                "logo": "tv7triveneta.svg",
-                "name": "TV7 Triveneta",
-                "type": "hls",
-                "url": "https://www.gruppotv7.com:8090/hls/triveneta.m3u8"
+                "type": "dash",
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd"
             }]
         },
         {
@@ -270,8 +225,8 @@
                 "sublcn": 3,
                 "logo": "telecupole.svg",
                 "name": "Telecupole Piemonte",
-                "type": "hls",
-                "url": "https://nrvideo1.newradio.it:1936/euhsbdamnx/euhsbdamnx/playlist.m3u8"
+                "type": "dash",
+                "url": "https://nrvideo1.newradio.it:1936/euhsbdamnx/euhsbdamnx/manifest.mpd"
             },
             {
                 "sublcn": 4,
@@ -285,8 +240,8 @@
                 "sublcn": 5,
                 "logo": "lactv.svg",
                 "name": "LaC",
-                "type": "hls",
-                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8"            
+                "type": "dash",
+                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/manifest.mpd"            
             },
             {
                 "sublcn": 6,
@@ -300,8 +255,8 @@
                 "sublcn": 7,
                 "logo": "telemolise",
                 "name": "Telemolise",
-                "type": "hls",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8"
+                "type": "dash",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd"
             },
             {
                 "sublcn": 8,
@@ -331,8 +286,8 @@
             "logo": "primantenna",
             "name": "Primantenna",
             "hd": true,
-            "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8",
+            "type": "dash",
+            "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "motoritv",
@@ -346,29 +301,29 @@
             "lcn": 80,
             "logo": "italia8prestige",
             "name": "Italia 8 Prestige",
-            "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/playlist.m3u8"
+            "type": "dash",
+            "url": "https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/manifest.mpd"
         },
         {
             "lcn": 81,
             "logo": "lunatv",
             "name": "Luna TV",
-            "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/lunatv/lunatv/playlist.m3u8"
+            "type": "dash",
+            "url": "https://5f22d76e220e1.streamlock.net/lunatv/lunatv/manifest.mpd"
         },
         {
             "lcn": 82,
             "logo": "telereporter",
             "name": "Telereporter",
-            "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
+            "type": "dash",
+            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/manifest.mpd"
         },
         {
             "lcn": 84,
             "logo": "tvyesitalia",
             "name": "TV Yes",
-            "type": "hls",
-            "url": "https://stream1.aswifi.it/radioyes/live/index.m3u8"
+            "type": "dash",
+            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/manifest.mpd"
         },
         {
             "lcn": 85,
@@ -381,8 +336,8 @@
             "lcn": 351,
             "logo": "70-80",
             "name": "70-80.it",
-            "type": "hls",
-            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+            "type": "dash",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/manifest.mpd"
         }
     ]
 }

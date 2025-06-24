@@ -17,7 +17,7 @@
         },
         {
             "lcn": 11,
-            "logo": "radionorba",
+            "logo": "radionorba.svg",
             "name": "Radio Norba Television",
             "type": "hls",
             "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8",
@@ -35,7 +35,7 @@
             "logo": "antennasud",
             "name": "Antenna Sud",
             "type": "hls",
-            "url": "https://live.antennasudwebtv.it:9443/hls/vod720.m3u8"
+            "url": "https://live.antennasudwebtv.it:9443/hls/vod.m3u8"
         },
         {
             "lcn": 15,
@@ -56,14 +56,13 @@
             "logo": "telebari.svg",
             "name": "Telebari",
             "hd": true,
-            "type": "hls",
-            "url": "https://w1.mediastreaming.it/telebari/livestream/playlist.m3u8",
+            "type": "dash",
+            "url": "https://w1.mediastreaming.it/telebari/livestream/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "radiobari",
                 "name": "Radiobari",
-                "radio": true,
-                "type": "direct",
+                "type": "audio",
                 "url": "https://ssl1.mediastreaming.it:9062/;"
             }]
         },
@@ -115,16 +114,16 @@
                 "logo": "videonovara",
                 "name": "Videonovara",
                 "hd": true,
-                "type": "hls",
-                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
+                "type": "dash",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=dash"
             },
             {
                 "sublcn": 6,
                 "logo": "radiofratesole",
                 "name": "Radio Frate Sole",
                 "radio": true,
-                "type": "hls",
-                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
+                "type": "dash",
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/manifest.mpd"        
             },
             {
                 "sublcn": 7,
@@ -138,8 +137,8 @@
                 "sublcn": 8,
                 "logo": "emiliaromagnaindiretta.svg",
                 "name": "L'Emilia-Romagna in Diretta",
-                "type": "hls",
-                "url": "https://cdn-base321.ciclano.io:1443/base321/base321/playlist.m3u8"
+                "type": "dash",
+                "url": "https://cdn-base321.ciclano.io:1443/base321/base321/manifest.mpd"
             }]
         },
         {
@@ -167,21 +166,21 @@
             "lcn": 80,
             "logo": "tvsei",
             "name": "TVSEI",
-            "type": "hls",
-            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/playlist.m3u8",
+            "type": "dash",
+            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "telemolise",
                 "name": "Telemolise",
-                "type": "hls",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8"
+                "type": "dash",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd"
             },
             {
                 "sublcn": 2,
                 "logo": "diciotto",
                 "name": "Diciotto",
-                "type": "hls",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
+                "type": "dash",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/manifest.mpd"
             },
             {
                 "sublcn": 3,
@@ -196,14 +195,14 @@
             "lcn": 81,
             "logo": "telemolise",
             "name": "Telemolise",
-            "type": "hls",
-            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
+            "type": "dash",
+            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "diciotto",
                 "name": "Diciotto",
-                "type": "hls",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
+                "type": "dash",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/manifest.mpd"
             }]
         },
         {
@@ -224,9 +223,8 @@
             "lcn": 87,
             "logo": "trc",
             "name": "TRC",
-            "subtitle": "Molto lento",
-            "type": "hls",
-            "url": "https://stream7.livinlive.it/trc/trc/playlist.m3u8"
+            "type": "dash",
+            "url": "https://stream7.livinlive.it/trc/trc/manifest.mpd"
         },
         {
             "lcn": 88,
@@ -246,8 +244,8 @@
             "lcn": 95,
             "logo": "mediasud",
             "name": "Mediasud",
-            "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"        
+            "type": "dash",
+            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/manifest.mpd"        
         }
     ]
 }
