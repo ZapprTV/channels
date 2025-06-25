@@ -234,6 +234,11 @@
                             "title": "Embed ServiziStreaming.it"
                         }]
                     },
+                    "geoblock": {
+                        "type": "boolean",
+                        "title": "Contrassegna come geobloccato fuori dall'Italia",
+                        "description": "Se contrassegnare il canale come geobloccato fuori dall'Italia e di conseguenza disattivare i pulsanti per segnalare eventuali problemi di riproduzione."
+                    },
                     "hbbtv": {
                         "type": "array",
                         "title": "Canali HbbTV",
@@ -305,6 +310,9 @@
                                 },
                                 "cssfix": {
                                     "$ref": "#/properties/channels/items/properties/cssfix"
+                                },
+                                "geoblock": {
+                                    "$ref": "#/properties/channels/items/properties/geoblock"
                                 }
                             },
                             "allOf": [

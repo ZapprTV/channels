@@ -8,13 +8,15 @@
             "hd": true,
             "type": "dash",
             "url": "https://raiuno2-dash-live.akamaized.net/dash/live/652298/raiuno2/manifest.mpd",
+            "geoblock": true,
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "raiplaylive.svg",
                 "name": "RaiPlay 1",
                 "type": "hls",
                 "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay/hls/playlist_mo.m3u8",
-                "feed": true
+                "feed": true,
+                "geoblock": true
             },
             {
                 "sublcn": 2,
@@ -22,7 +24,8 @@
                 "name": "RaiPlay 2",
                 "type": "hls",
                 "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay2/hls/playlist_mo.m3u8",
-                "feed": true
+                "feed": true,
+                "geoblock": true
             },
             {
                 "sublcn": 3,
@@ -30,7 +33,8 @@
                 "name": "RaiPlay 3",
                 "type": "hls",
                 "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay3/hls/playlist_mo.m3u8",
-                "feed": true
+                "feed": true,
+                "geoblock": true
             }]
         },
         {
@@ -39,7 +43,8 @@
             "name": "Rai 2",
             "hd": true,
             "type": "dash",
-            "url": "https://raidue2-dash-live.akamaized.net/dash/live/662736/raidue2/manifest.mpd"
+            "url": "https://raidue2-dash-live.akamaized.net/dash/live/662736/raidue2/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 103,
@@ -48,7 +53,8 @@
             "subtitle": "(nazionale)",
             "hd": true,
             "type": "dash",
-            "url": "https://raitre1-dash-live.akamaized.net/dash/live/663957/raitre1/manifest.mpd"
+            "url": "https://raitre1-dash-live.akamaized.net/dash/live/663957/raitre1/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 4,
@@ -56,7 +62,8 @@
             "name": "Rete 4",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 5,
@@ -64,7 +71,8 @@
             "name": "Canale 5",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 6,
@@ -72,7 +80,8 @@
             "name": "Italia 1",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 7,
@@ -94,7 +103,8 @@
             "logo": "tv8.svg",
             "name": "TV8",
             "type": "hls",
-            "url": "zappr://sky/7"
+            "url": "zappr://sky/7",
+            "geoblock": true
         },
         {
             "lcn": 9,
@@ -102,7 +112,8 @@
             "name": "NOVE",
             "hd": true,
             "type": "hls",
-            "url": "https://d28crvwvd3upvk.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8"
+            "url": "https://d28crvwvd3upvk.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 20,
@@ -110,7 +121,8 @@
             "name": "20 Mediaset",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 21,
@@ -118,7 +130,8 @@
             "name": "Rai 4",
             "hd": true,
             "type": "dash",
-            "url": "https://raiquattro1-dash-live.akamaized.net/dash/live/663977/raiquattro1/manifest.mpd"
+            "url": "https://raiquattro1-dash-live.akamaized.net/dash/live/663977/raiquattro1/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 22,
@@ -126,7 +139,8 @@
             "name": "Iris",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 23,
@@ -134,7 +148,8 @@
             "name": "Rai 5",
             "hd": true,
             "type": "dash",
-            "url": "https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.mpd"
+            "url": "https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 24,
@@ -142,7 +157,8 @@
             "name": "Rai Movie",
             "hd": true,
             "type": "dash",
-            "url": "https://raimovie1-dash-live.akamaized.net/dash/live/663983/raimovie1/manifest.mpd"
+            "url": "https://raimovie1-dash-live.akamaized.net/dash/live/663983/raimovie1/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 25,
@@ -150,14 +166,16 @@
             "name": "Rai Premium",
             "hd": true,
             "type": "dash",
-            "url": "https://raipremium1-dash-live.akamaized.net/dash/live/663979/raipremium1/manifest.mpd"
+            "url": "https://raipremium1-dash-live.akamaized.net/dash/live/663979/raipremium1/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 26,
             "logo": "cielo.svg",
             "name": "Cielo",
             "type": "hls",
-            "url": "zappr://sky/2"
+            "url": "zappr://sky/2",
+            "geoblock": true
         },
         {
             "lcn": 27,
@@ -165,7 +183,8 @@
             "name": "TwentySeven",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 28,
@@ -189,7 +208,8 @@
             "name": "La5",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 31,
@@ -197,7 +217,8 @@
             "name": "Real Time",
             "hd": true,
             "type": "hls",
-            "url": "https://dpe9o84j8ho51.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8"
+            "url": "https://dpe9o84j8ho51.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 32,
@@ -212,7 +233,8 @@
             "name": "Food Network",
             "hd": true,
             "type": "hls",
-            "url": "https://dlv0tnsho08fc.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8"
+            "url": "https://dlv0tnsho08fc.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 34,
@@ -220,7 +242,8 @@
             "name": "Cine34",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 35,
@@ -228,7 +251,8 @@
             "name": "Focus",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 36,
@@ -244,7 +268,8 @@
             "name": "Warner TV",
             "hd": true,
             "type": "hls",
-            "url": "https://amg16146-wbdi-amg16146c4-samsung-it-1837.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-warnertv-samsungit/playlist.m3u8"
+            "url": "https://amg16146-wbdi-amg16146c4-samsung-it-1837.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-warnertv-samsungit/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 38,
@@ -252,7 +277,8 @@
             "name": "Giallo",
             "hd": true,
             "type": "hls",
-            "url": "https://d2pxu244r32qi9.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-giallo-samsungit/playlist.m3u8"
+            "url": "https://d2pxu244r32qi9.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-giallo-samsungit/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 39,
@@ -260,7 +286,8 @@
             "name": "Top Crime",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 40,
@@ -268,14 +295,16 @@
             "name": "Boing",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 41,
             "logo": "k2.svg",
             "name": "K2",
             "type": "hls",
-            "url": "https://dh816p8puicq.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8"
+            "url": "https://dh816p8puicq.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 42,
@@ -283,7 +312,8 @@
             "name": "Rai Gulp",
             "hd": true,
             "type": "dash",
-            "url": "https://raigulp1-dash-live.akamaized.net/dash/live/663985/raigulp1/manifest.mpd"
+            "url": "https://raigulp1-dash-live.akamaized.net/dash/live/663985/raigulp1/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 43,
@@ -291,14 +321,16 @@
             "name": "Rai Yoyo",
             "hd": true,
             "type": "dash",
-            "url": "https://raiyoyo1-dash-live.akamaized.net/dash/live/663949/raiyoyo1/manifest.mpd"
+            "url": "https://raiyoyo1-dash-live.akamaized.net/dash/live/663949/raiyoyo1/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 44,
             "logo": "frisbee",
             "name": "Frisbee",
             "type": "hls",
-            "url": "https://ddqvq37ms0b77.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-frisbee-samsungit/playlist.m3u8"
+            "url": "https://ddqvq37ms0b77.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-frisbee-samsungit/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 46,
@@ -306,7 +338,8 @@
             "name": "Cartoonito",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 47,
@@ -330,14 +363,16 @@
             "name": "Italia 2",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 50,
             "logo": "skytg24.svg",
             "name": "Sky TG24",
             "type": "hls",
-            "url": "zappr://sky/1"
+            "url": "zappr://sky/1",
+            "geoblock": true
         },
         {
             "lcn": 51,
@@ -345,7 +380,8 @@
             "name": "TGcom24",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 52,
@@ -353,7 +389,8 @@
             "name": "DMAX",
             "hd": true,
             "type": "hls",
-            "url": "https://d1kirxefyktddx.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8"
+            "url": "https://d1kirxefyktddx.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 53,
@@ -361,7 +398,8 @@
             "name": "Casa Italia 53",
             "hd": true,
             "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel09.smil/manifest.mpd"
+            "url": "https://liveac915.b-cdn.net/channel09.smil/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 54,
@@ -369,7 +407,8 @@
             "name": "Rai Storia",
             "hd": true,
             "type": "dash",
-            "url": "https://raistoria1-dash-live.akamaized.net/dash/live/663959/raistoria1/manifest.mpd"
+            "url": "https://raistoria1-dash-live.akamaized.net/dash/live/663959/raistoria1/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 55,
@@ -377,7 +416,8 @@
             "name": "Mediaset Extra",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 56,
@@ -385,7 +425,8 @@
             "name": "HGTV - Home & Garden",
             "hd": true,
             "type": "hls",
-            "url": "https://dncwa2a3o9ock.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-hgtv-samsungit/playlist.m3u8"
+            "url": "https://dncwa2a3o9ock.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-hgtv-samsungit/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 57,
@@ -393,7 +434,8 @@
             "name": "Rai Scuola",
             "hd": true,
             "type": "dash",
-            "url": "https://raiscuola1-dash-live.akamaized.net/dash/live/663975/raiscuola1/manifest.mpd"
+            "url": "https://raiscuola1-dash-live.akamaized.net/dash/live/663975/raiscuola1/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 58,
@@ -409,7 +451,8 @@
             "name": "Motor Trend",
             "hd": true,
             "type": "hls",
-            "url": "https://d3k8z7jdiq6btv.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8"
+            "url": "https://d3k8z7jdiq6btv.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 60,
@@ -642,7 +685,8 @@
             "name": "Canale Italia",
             "hd": true,
             "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel11.smil/manifest.mpd"
+            "url": "https://liveac915.b-cdn.net/channel11.smil/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 101,
@@ -650,7 +694,8 @@
             "name": "Rai 4K",
             "uhd": true,
             "type": "dash",
-            "url": "https://raievent10-dash-live.akamaized.net/dash/live/664000/raievent10/manifest.mpd"
+            "url": "https://raievent10-dash-live.akamaized.net/dash/live/664000/raievent10/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 121,
@@ -658,7 +703,8 @@
             "name": "Italia 121",
             "type": "dash",
             "url": "https://liveac915.b-cdn.net/channel01.smil/manifest.mpd",
-            "adult": "night"
+            "adult": "night",
+            "geoblock": true
         },
         {
             "lcn": 122,
@@ -744,7 +790,8 @@
             "name": "Arte Italia 124",
             "type": "dash",
             "url": "https://liveac915.b-cdn.net/channel02.smil/manifest.mpd",
-            "adult": "night"
+            "adult": "night",
+            "geoblock": true
         },
         {
             "lcn": 125,
@@ -752,7 +799,8 @@
             "name": "Arte Italia 125",
             "type": "dash",
             "url": "https://liveac915.b-cdn.net/channel03.smil/manifest.mpd",
-            "adult": "night"
+            "adult": "night",
+            "geoblock": true
         },
         {
             "lcn": 126,
@@ -760,7 +808,8 @@
             "name": "Italia 126",
             "type": "dash",
             "url": "https://liveac915.b-cdn.net/channel04.smil/manifest.mpd",
-            "adult": "night"
+            "adult": "night",
+            "geoblock": true
         },
         {
             "lcn": 127,
@@ -768,7 +817,8 @@
             "name": "Italia 127",
             "type": "dash",
             "url": "https://liveac915.b-cdn.net/channel05.smil/manifest.mpd",
-            "adult": "night"
+            "adult": "night",
+            "geoblock": true
         },
         {
             "lcn": 128,
@@ -886,7 +936,8 @@
             "name": "Italia 134",
             "type": "dash",
             "url": "https://liveac915.b-cdn.net/channel06.smil/manifest.mpd",
-            "adult": "night"
+            "adult": "night",
+            "geoblock": true
         },
         {
             "lcn": 135,
@@ -894,21 +945,24 @@
             "name": "Italia 135",
             "type": "dash",
             "url": "https://liveac915.b-cdn.net/channel07.smil/manifest.mpd",
-            "adult": "night"
+            "adult": "night",
+            "geoblock": true
         },
         {
             "lcn": 136,
             "logo": "italia136",
             "name": "Italia 136",
             "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel08.smil/manifest.mpd"
+            "url": "https://liveac915.b-cdn.net/channel08.smil/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 138,
             "logo": "telecampione.svg",
             "name": "Telecampione",
             "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/manifest.mpd"
+            "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 139,
@@ -946,7 +1000,8 @@
             "logo": "equtv",
             "name": "EQUtv",
             "type": "hls",
-            "url": "https://livestream-epiqa.akamaized.net/hls/live/2039453/EQUTV/master.m3u8"
+            "url": "https://livestream-epiqa.akamaized.net/hls/live/2039453/EQUTV/master.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 157,
@@ -1199,7 +1254,8 @@
             "name": "Rai Radio 2 Visual",
             "hd": true,
             "type": "hls",
-            "url": "https://visualradiodue3-live.akamaized.net/hls/live/2034078/visualradiodue3/visualradiodue3/playlist.m3u8"
+            "url": "https://visualradiodue3-live.akamaized.net/hls/live/2034078/visualradiodue3/visualradiodue3/playlist.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 203,
