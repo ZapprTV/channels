@@ -464,6 +464,27 @@
 
 
 
+### channels.geoblock
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Contrassegna come geobloccato fuori dall&#x27;Italia</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Se contrassegnare il canale come geobloccato fuori dall&#x27;Italia e di conseguenza disattivare i pulsanti per segnalare eventuali problemi di riproduzione.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
 ### channels.hbbtv
 
 
@@ -919,6 +940,27 @@
       <th>Enum</th>
       <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>very-squashed-height</dt><dd>Stretcha il video di un canale con una height MOLTO schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd><dt>servizistreaming-embed</dt><dd>Embed ServiziStreaming.it</dd></dl></td>
     </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.geoblock
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Contrassegna come geobloccato fuori dall&#x27;Italia</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Se contrassegnare il canale come geobloccato fuori dall&#x27;Italia e di conseguenza disattivare i pulsanti per segnalare eventuali problemi di riproduzione.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
+    
   </tbody>
 </table>
 
