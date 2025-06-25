@@ -8,7 +8,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://raiuno2-dash-live.akamaized.net/dash/live/652298/raiuno2/manifest.mpd",
-            "geoblock": true,
+            "geoblock": {
+                "type": "hls",
+                "url": "https://ilglobotv-live.akamaized.net/channels/RAI1/Live.m3u8"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "raiplaylive.svg",
@@ -44,7 +47,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://raidue2-dash-live.akamaized.net/dash/live/662736/raidue2/manifest.mpd",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8"
+            }
         },
         {
             "lcn": 103,
@@ -54,7 +60,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://raitre1-dash-live.akamaized.net/dash/live/663957/raitre1/manifest.mpd",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://ilglobotv-live.akamaized.net/channels/RAI3/Live.m3u8"
+            }
         },
         {
             "lcn": 4,
@@ -63,7 +72,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rete4/browser-HLS8/rete4.m3u8"
+            }
         },
         {
             "lcn": 5,
@@ -72,7 +84,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8"
+            }
         },
         {
             "lcn": 6,
@@ -81,7 +96,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8"
+            }
         },
         {
             "lcn": 7,
@@ -113,7 +131,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://d28crvwvd3upvk.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/nove/browser-HLS8/nove.m3u8"
+            }
         },
         {
             "lcn": 20,
@@ -296,7 +317,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://liveturner.akamaized.net/75a4d1a90e744fa5b9901a1853d2c47f/eu-central-1/6284318116001/playlist.m3u8"
+            }
         },
         {
             "lcn": 41,
@@ -313,7 +337,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://raigulp1-dash-live.akamaized.net/dash/live/663985/raigulp1/manifest.mpd",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8"
+            }
         },
         {
             "lcn": 43,
@@ -339,7 +366,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://liveturner.akamaized.net/95b0be1a00834dd2b81c021bc5a35b9c/eu-central-1/6284318116001/playlist.m3u8"
+            }
         },
         {
             "lcn": 47,
@@ -381,7 +411,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://ilglobotv-live.akamaized.net/channels/TGCOM24/Live.m3u8"
+            }
         },
         {
             "lcn": 52,
@@ -390,7 +423,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://d1kirxefyktddx.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://viamotionhsi.netplus.ch/live/eds/dmaxitalia/browser-HLS8/dmaxitalia.m3u8"
+            }
         },
         {
             "lcn": 53,
@@ -399,7 +435,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://liveac915.b-cdn.net/channel09.smil/manifest.mpd",
-            "geoblock": true
+            "geoblock": {
+                "type": "iframe",
+                "url": "https://canaleitalia.streamcloud.it/embed/live/e701400d-2c46-4cec-8deb-bb6f7b8a7401"
+            }
         },
         {
             "lcn": 54,
@@ -408,7 +447,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://raistoria1-dash-live.akamaized.net/dash/live/663959/raistoria1/manifest.mpd",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://ilglobotv-live.akamaized.net/channels/RAIStoria/Live.m3u8"
+            }
         },
         {
             "lcn": 55,
@@ -435,7 +477,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://raiscuola1-dash-live.akamaized.net/dash/live/663975/raiscuola1/manifest.mpd",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://ilglobotv-live.akamaized.net/channels/RAIScuola/Live.m3u8"
+            }
         },
         {
             "lcn": 58,
@@ -686,7 +731,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://liveac915.b-cdn.net/channel11.smil/manifest.mpd",
-            "geoblock": true
+            "geoblock": {
+                "type": "iframe",
+                "url": "https://canaleitalia.streamcloud.it/embed/live/28591152-e3c0-49b0-94a8-0d3e18125ca8"
+            }
         },
         {
             "lcn": 101,

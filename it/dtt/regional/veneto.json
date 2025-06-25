@@ -37,7 +37,8 @@
             "name": "Canale Italia",
             "subtitle": "(emissione veneta)",
             "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel10.smil/manifest.mpd"
+            "url": "https://liveac915.b-cdn.net/channel10.smil/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 13,

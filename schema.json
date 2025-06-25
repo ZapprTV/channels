@@ -235,9 +235,19 @@
                         }]
                     },
                     "geoblock": {
-                        "type": "boolean",
-                        "title": "Contrassegna come geobloccato fuori dall'Italia",
-                        "description": "Se contrassegnare il canale come geobloccato fuori dall'Italia e di conseguenza disattivare i pulsanti per segnalare eventuali problemi di riproduzione."
+                        "type": ["boolean", "object"],
+                        "title": "Impostazioni geoblocking",
+                        "description": "Se contrassegnare il canale come geobloccato fuori dall'Italia, disattivandolo completamente o fornendo un link alternativo visibile all'estero.",
+                        "additionalProperties": false,
+                        "properties": {
+                            "type": {
+                                "$ref": "#/properties/channels/items/properties/type"
+                            },
+                            "url": {
+                                "$ref": "#/properties/channels/items/properties/url"
+                            }
+                        },
+                        "required": ["type", "url"]
                     },
                     "hbbtv": {
                         "type": "array",
