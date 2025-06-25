@@ -6,7 +6,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Abruzzo",
             "type": "dash",
-            "url": "https://tgrabruzzo-dash-live.akamaized.net/dash/live/2025581/tgrabruzzo/manifest.mpd"
+            "url": "https://tgrabruzzo-dash-live.akamaized.net/dash/live/2025581/tgrabruzzo/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 10,

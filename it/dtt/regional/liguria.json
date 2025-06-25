@@ -6,7 +6,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Liguria",
             "type": "dash",
-            "url": "https://tgrliguria-dash-live.akamaized.net/dash/live/2025588/tgrliguria/manifest.mpd"
+            "url": "https://tgrliguria-dash-live.akamaized.net/dash/live/2025588/tgrliguria/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 10,

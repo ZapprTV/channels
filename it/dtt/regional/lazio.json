@@ -6,7 +6,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Lazio",
             "type": "dash",
-            "url": "https://tgrlazio-dash-live.akamaized.net/dash/live/2025148/tgrlazio/manifest.mpd"
+            "url": "https://tgrlazio-dash-live.akamaized.net/dash/live/2025148/tgrlazio/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 10,

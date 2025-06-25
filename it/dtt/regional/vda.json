@@ -6,7 +6,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Valle d'Aosta",
             "type": "dash",
-            "url": "https://tgrvaldaosta-dash-live.akamaized.net/dash/live/2025615/tgrvaldaosta/manifest.mpd"
+            "url": "https://tgrvaldaosta-dash-live.akamaized.net/dash/live/2025615/tgrvaldaosta/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 10,

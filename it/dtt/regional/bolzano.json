@@ -6,7 +6,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Bolzano",
             "type": "dash",
-            "url": "https://tgrbolzano-dash-live.akamaized.net/dash/live/2025583/tgrbolzano/manifest.mpd"
+            "url": "https://tgrbolzano-dash-live.akamaized.net/dash/live/2025583/tgrbolzano/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 10,

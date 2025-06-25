@@ -6,7 +6,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Sardegna",
             "type": "dash",
-            "url": "https://tgrsardegna-dash-live.akamaized.net/dash/live/2025610/tgrsardegna/manifest.mpd"
+            "url": "https://tgrsardegna-dash-live.akamaized.net/dash/live/2025610/tgrsardegna/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 10,

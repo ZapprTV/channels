@@ -6,7 +6,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Basilicata",
             "type": "dash",
-            "url": "https://tgrbasilicata-dash-live.akamaized.net/dash/live/2025582/tgrbasilicata/manifest.mpd"
+            "url": "https://tgrbasilicata-dash-live.akamaized.net/dash/live/2025582/tgrbasilicata/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 10,

@@ -6,7 +6,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Marche",
             "type": "dash",
-            "url": "https://tgrmarche-dash-live.akamaized.net/dash/live/2025590/tgrmarche/manifest.mpd"
+            "url": "https://tgrmarche-dash-live.akamaized.net/dash/live/2025590/tgrmarche/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 10,

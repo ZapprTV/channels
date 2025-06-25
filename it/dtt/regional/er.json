@@ -6,7 +6,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Emilia-Romagna",
             "type": "dash",
-            "url": "https://tgremiliaromagna-dash-live.akamaized.net/dash/live/2025586/tgremiliaromagna/manifest.mpd"
+            "url": "https://tgremiliaromagna-dash-live.akamaized.net/dash/live/2025586/tgremiliaromagna/manifest.mpd",
+            "geoblock": true
         },
         {
             "lcn": 10,
