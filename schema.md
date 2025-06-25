@@ -471,16 +471,61 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come geobloccato fuori dall&#x27;Italia</td>
+      <td colspan="2">Impostazioni geoblocking</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se contrassegnare il canale come geobloccato fuori dall&#x27;Italia e di conseguenza disattivare i pulsanti per segnalare eventuali problemi di riproduzione.</td>
+      <td colspan="2">Se contrassegnare il canale come geobloccato fuori dall&#x27;Italia, disattivandolo completamente o fornendo un link alternativo visibile all&#x27;estero.</td>
     </tr>
-    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
+    <tr><th>Type</th><td colspan="2">[boolean, object]</td></tr>
     
   </tbody>
 </table>
+
+
+
+### channels.geoblock.type
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Tipo stream</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Il tipo della stream.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.geoblock.url
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">URL stream</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">L&#x27;URL della stream.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
+  </tbody>
+</table>
+
 
 
 
@@ -953,16 +998,61 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come geobloccato fuori dall&#x27;Italia</td>
+      <td colspan="2">Impostazioni geoblocking</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se contrassegnare il canale come geobloccato fuori dall&#x27;Italia e di conseguenza disattivare i pulsanti per segnalare eventuali problemi di riproduzione.</td>
+      <td colspan="2">Se contrassegnare il canale come geobloccato fuori dall&#x27;Italia, disattivandolo completamente o fornendo un link alternativo visibile all&#x27;estero.</td>
     </tr>
-    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
+    <tr><th>Type</th><td colspan="2">[boolean, object]</td></tr>
     
   </tbody>
 </table>
+
+
+
+### channels.hbbtv.geoblock.type
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Tipo stream</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Il tipo della stream.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.geoblock.url
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">URL stream</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">L&#x27;URL della stream.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
+  </tbody>
+</table>
+
 
 
 
