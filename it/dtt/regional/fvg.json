@@ -217,6 +217,13 @@
             "name": "RAN Slo",
             "type": "dash",
             "url": "https://5f22d76e220e1.streamlock.net/RanSlo/RanSlo/manifest.mpd" 
+        },
+        {
+            "lcn": 97,
+            "logo": "radiodiffusioneeuropea",
+            "name": "Radio Diffusione Europea",
+            "type": "hls",
+            "url": "https://tv2.radiosaiuz.com:3496/live/rdelive.m3u8"
         }
     ]
 }
