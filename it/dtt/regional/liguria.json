@@ -148,8 +148,8 @@
                 "sublcn": 1,
                 "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
-                "type": "dash",
-                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/manifest.mpd"
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
             },
             {
                 "sublcn": 2,
@@ -169,8 +169,8 @@
                 "sublcn": 4,
                 "logo": "telereporter",
                 "name": "Telereporter",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/manifest.mpd"
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
             },
             {
                 "sublcn": 5,
@@ -287,8 +287,8 @@
             "logo": "primantenna",
             "name": "Primantenna",
             "hd": true,
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/manifest.mpd",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "motoritv",
@@ -302,22 +302,22 @@
             "lcn": 80,
             "logo": "italia8prestige",
             "name": "Italia 8 Prestige",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/manifest.mpd"
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/playlist.m3u8"
         },
         {
             "lcn": 81,
             "logo": "lunatv",
             "name": "Luna TV",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/lunatv/lunatv/manifest.mpd"
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/lunatv/lunatv/playlist.m3u8"
         },
         {
             "lcn": 82,
             "logo": "telereporter",
             "name": "Telereporter",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/manifest.mpd"
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
         },
         {
             "lcn": 84,

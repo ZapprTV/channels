@@ -318,14 +318,14 @@
             "lcn": 19,
             "logo": "tv33.svg",
             "name": "TV33 Trento",
-            "type": "dash",
-            "url": "https://64b16f23efbee.streamlock.net/tv33tn/tv33tn/manifest.mpd",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/tv33tn/tv33tn/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
-                "type": "dash",
-                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/manifest.mpd"
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
             },
             {
                 "sublcn": 2,

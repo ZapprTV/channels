@@ -34,8 +34,8 @@
                 "sublcn": 3,
                 "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
-                "type": "dash",
-                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/manifest.mpd"
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
             },
             {
                 "sublcn": 4,
@@ -219,10 +219,10 @@
         },
         {
             "lcn": 76,
-            "logo": "telesanterno2",
-            "name": "Telesanterno2",
-            "type": "dash",
-            "url": "https://media2021.rtvweb.com/pallonebo/live/manifest.mpd"
+            "logo": "telesanterno",
+            "name": "Telesanterno",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/telesanterno/telesanterno/playlist.m3u8"
         },
         {
             "lcn": 78,
@@ -343,8 +343,8 @@
                 "sublcn": 1,
                 "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
-                "type": "dash",
-                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/manifest.mpd"
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
             },
             {
                 "sublcn": 2,
@@ -364,8 +364,8 @@
                 "sublcn": 4,
                 "logo": "telereporter",
                 "name": "Telereporter",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/manifest.mpd"
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
             },
             {
                 "sublcn": 5,
@@ -458,8 +458,8 @@
             "lcn": 94,
             "logo": "italia8prestige",
             "name": "Italia 8 Prestige",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/manifest.mpd"
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/playlist.m3u8"
         },
         {
             "lcn": 97,

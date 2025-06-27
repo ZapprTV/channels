@@ -193,7 +193,7 @@
         },
         {
             "lcn": 83,
-            "logo": "deltatv.svg",
+            "logo": "deltatv",
             "name": "Delta TV",
             "type": "hls",
             "url": "http://hbbtv-server.zivoli.it:8080/hls/deltatv/deltatv/index.m3u8",

@@ -245,8 +245,8 @@
             "lcn": 95,
             "logo": "mediasud",
             "name": "Mediasud",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/manifest.mpd"        
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"        
         }
     ]
 }

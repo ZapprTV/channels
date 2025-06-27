@@ -101,8 +101,8 @@
             "logo": "primantenna",
             "name": "Primantenna",
             "hd": true,
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/manifest.mpd",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "motoritv",
@@ -206,22 +206,22 @@
             "lcn": 84,
             "logo": "telereporter",
             "name": "Telereporter",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/manifest.mpd"
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
         },
         {
             "lcn": 85,
             "logo": "lombardiatv",
             "name": "Lombardia TV",
-            "type": "dash",
-            "url": "https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/manifest.mpd"
+            "type": "hls",
+            "url": "https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8"
         },
         {
             "lcn": 87,
             "logo": "rbetv",
             "name": "RBE TV",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/rbetv/rbetv/manifest.mpd"
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/rbetv/rbetv/playlist.m3u8"
         },
         {
             "lcn": 95,

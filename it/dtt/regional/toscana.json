@@ -347,8 +347,8 @@
             "lcn": 83,
             "logo": "telecentro2",
             "name": "TeleCentro 2",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/telecentro2/telecentro2/manifest.mpd"
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/telecentro2/telecentro2/playlist.m3u8"
         },
         {
             "lcn": 84,
