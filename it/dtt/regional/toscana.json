@@ -280,13 +280,6 @@
                 "url": "https://streaming.softwarecreation.it/TR118/TR118/manifest.mpd"
             },
             {
-                "sublcn": 5,
-                "logo": "goldtv.svg",
-                "name": "Gold TV Sat",
-                "type": "dash",
-                "url": "https://5a1178b42cc03.streamlock.net/goldsat/goldsat/manifest.mpd"
-            },
-            {
                 "sublcn": 8,
                 "logo": "telegenova.svg",
                 "name": "Telegenova",

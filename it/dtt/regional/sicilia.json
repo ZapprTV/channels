@@ -136,8 +136,8 @@
                 "sublcn": 13,
                 "logo": "televallo",
                 "name": "Televallo",
-                "type": "dash",
-                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/manifest.mpd"
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8"
             },
             {
                 "sublcn": 14,
@@ -463,8 +463,8 @@
                 "sublcn": 13,
                 "logo": "televallo",
                 "name": "Televallo",
-                "type": "dash",
-                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/manifest.mpd"
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8"
             },
             {
                 "sublcn": 14,
@@ -742,8 +742,8 @@
                 "sublcn": 10,
                 "logo": "televallo",
                 "name": "Televallo",
-                "type": "dash",
-                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/manifest.mpd"
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8"
             },
             {
                 "sublcn": 11,
@@ -1136,8 +1136,8 @@
                 "sublcn": 13,
                 "logo": "televallo",
                 "name": "Televallo",
-                "type": "dash",
-                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/manifest.mpd"
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/televallo/televallo/playlist.m3u8"
             },
             {
                 "sublcn": 14,

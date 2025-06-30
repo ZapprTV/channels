@@ -184,6 +184,13 @@
             "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/manifest.mpd"        
         },
         {
+            "lcn": 83,
+            "logo": "promovideotv",
+            "name": "PromovideoTV",
+            "type": "dash",
+            "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/manifest.mpd"        
+        },
+        {
             "lcn": 88,
             "logo": "friulitv24",
             "name": "FriuliTV24",
@@ -194,29 +201,22 @@
             "lcn": 93,
             "logo": "ranfriul",
             "name": "RAN Friul",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/RanFriul/RanFriul/manifest.mpd" 
-        },
-        {
-            "lcn": 93,
-            "logo": "promovideotv",
-            "name": "PromovideoTV",
-            "type": "dash",
-            "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/manifest.mpd"        
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/RanFriul/RanFriul/playlist.m3u8" 
         },
         {
             "lcn": 94,
             "logo": "rangerm",
             "name": "RAN Germ",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/RanGem/RanGem/manifest.mpd" 
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/RanGem/RanGem/playlist.m3u8" 
         },
         {
             "lcn": 95,
             "logo": "ranslo",
             "name": "RAN Slo",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/RanSlo/RanSlo/manifest.mpd" 
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/ranslo/ranslo/playlist.m3u8" 
         },
         {
             "lcn": 97,

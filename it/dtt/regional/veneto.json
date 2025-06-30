@@ -445,22 +445,22 @@
             "lcn": 93,
             "logo": "ranfriul",
             "name": "RAN Friul",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/RanFriul/RanFriul/manifest.mpd" 
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/RanFriul/RanFriul/playlist.m3u8" 
         },
         {
             "lcn": 94,
             "logo": "rangerm",
             "name": "RAN Germ",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/RanGem/RanGem/manifest.mpd" 
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/RanGem/RanGem/playlist.m3u8" 
         },
         {
             "lcn": 95,
             "logo": "ranslo",
             "name": "RAN Slo",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/RanSlo/RanSlo/manifest.mpd" 
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/ranslo/ranslo/playlist.m3u8" 
         },
         {
             "lcn": 351,

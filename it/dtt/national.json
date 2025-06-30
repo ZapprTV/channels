@@ -682,7 +682,7 @@
                 "logo": "supersix",
                 "name": "SuperSix",
                 "type": "dash",
-                "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/manifest.mpd"
+                "url": "https://5f22d76e220e1.streamlock.net/supersixnew/supersixnew/manifest.mpd"
             },
             {
                 "sublcn": 10,
@@ -2204,14 +2204,6 @@
             "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/manifest.mpd"
         },
         {
-            "lcn": 259,
-            "logo": "bike",
-            "name": "BIKE",
-            "hd": true,
-            "type": "dash",
-            "url": "https://di-4anhezkv.vo.lswcdn.net/test/biketv_720p/manifest.mpd"
-        },
-        {
             "lcn": 260,
             "logo": "urania.svg",
             "name": "Urania",
@@ -2984,7 +2976,7 @@
             "logo": "supersix",
             "name": "SuperSix",
             "type": "dash",
-            "url": "https://5db313b643fd8.streamlock.net/SUPERSIXLombardia/SUPERSIXLombardia/manifest.mpd",
+            "url": "https://5f22d76e220e1.streamlock.net/supersixnew/supersixnew/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "iuniortv",
@@ -3032,10 +3024,10 @@
             },
             {
                 "sublcn": 7,
-                "logo": "lagodigardadigitale",
-                "name": "Lago di Garda Digitale",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/lagodigarda/lagodigarda/manifest.mpd"
+                "logo": "radiomedjugorjeitalia",
+                "name": "Radio Medjugorje Italia",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/lagodigarda/lagodigarda/playlist.m3u8"
             },
             {
                 "sublcn": 8,
