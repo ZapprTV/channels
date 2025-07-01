@@ -27,8 +27,8 @@
             "lcn": 11,
             "logo": "retesole",
             "name": "Retesole",
-            "type": "dash",
-            "url": "https://5926fc9c7c5b2.streamlock.net/9332/9332/manifest.mpd"
+            "type": "hls",
+            "url": "https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8"
         },
         {
             "lcn": 13,

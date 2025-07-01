@@ -1070,8 +1070,8 @@
                 "sublcn": 2,
                 "logo": "isgoodforyou",
                 "name": "Is Good For You",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/isgoodforyou/isgoodforyou/manifest.mpd"
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/isgoodforyou/isgoodforyou/playlist.m3u8"
             },
             {
                 "sublcn": 3,
@@ -1084,22 +1084,22 @@
                 "sublcn": 4,
                 "logo": "radiovacri",
                 "name": "Radio Vacri",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video4s977812-2250/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/index.mpd"
             },
             {
                 "sublcn": 5,
                 "logo": "ffmotorsport",
                 "name": "FF Motorsport",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video7s977812-2253/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/index.mpd"
             },
             {
                 "sublcn": 6,
                 "logo": "telecomunicare",
                 "name": "Telecomunicare",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video5s977812-2251/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/telecomunicare/index.mpd"
             },
             {
                 "sublcn": 7,
@@ -1187,15 +1187,15 @@
                 "sublcn": 1,
                 "logo": "amatv",
                 "name": "Ama TV",
-                "type": "dash",
-                "url": "https://5db313b643fd8.streamlock.net/amatv/amatv/manifest.mpd"
+                "type": "hls",
+                "url": "https://5db313b643fd8.streamlock.net/amatv/amatv/playlist.m3u8"
             },
             {
                 "sublcn": 2,
                 "logo": "quants",
                 "name": "Quants",
-                "type": "dash",
-                "url": "https://5db313b643fd8.streamlock.net/quants/quants/manifest.mpd"
+                "type": "hls",
+                "url": "https://5db313b643fd8.streamlock.net/quants/quants/playlist.m3u8"
             },
             {
                 "categorySeparator": "Radiovisione"
@@ -1420,8 +1420,8 @@
                 "sublcn": 1,
                 "logo": "telecomunicare",
                 "name": "Telecomunicare",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video5s977812-2251/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/telecomunicare/index.mpd"
             },
             {
                 "sublcn": 2,
@@ -1435,22 +1435,22 @@
                 "sublcn": 3,
                 "logo": "ffmotorsport",
                 "name": "FF Motorsport",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video7s977812-2253/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/index.mpd"
             },
             {
                 "sublcn": 4,
                 "logo": "momentotv",
                 "name": "Momento TV",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video0s977812-2246/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/momentotv/index.mpd"
             },
             {
                 "sublcn": 5,
                 "logo": "radiovacri",
                 "name": "Radio Vacri",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video4s977812-2250/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/index.mpd"
             },
             {
                 "sublcn": 6,
@@ -1792,8 +1792,7 @@
                 "logo": "sharingeuropa",
                 "name": "Sharing TV",
                 "type": "hls",
-                "url": "https://stream9.xdevel.com/video7s975955-1778/stream/playlist.m3u8",
-                "cssfix": "squashed-height"
+                "url": "https://stream9.xdevel.com/video7s975955-1778/stream/playlist.m3u8"
             },
             {
                 "sublcn": 7,
@@ -1885,29 +1884,29 @@
                 "sublcn": 4,
                 "logo": "ffmotorsport",
                 "name": "FF Motorsport",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video7s977812-2253/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/index.mpd"
             },
             {
                 "sublcn": 5,
                 "logo": "momentotv",
                 "name": "Momento TV",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video0s977812-2246/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/momentotv/index.mpd"
             },
             {
                 "sublcn": 6,
                 "logo": "telecomunicare",
                 "name": "Telecomunicare",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video5s977812-2251/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/telecomunicare/index.mpd"
             },
             {
                 "sublcn": 7,
                 "logo": "radiovacri",
                 "name": "Radio Vacri",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video4s977812-2250/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/index.mpd"
             },
             {
                 "sublcn": 8,
@@ -1944,13 +1943,6 @@
                 "type": "dash",
                 "url": "https://host1.momentotv.live:28443/cmaf/tuttotv/manifest.mpd"
             }]
-        },
-        {
-            "lcn": 252,
-            "logo": "radioliberta",
-            "name": "Radio Libertà",
-            "type": "hls",
-            "url": "https://router.xdevel.com/video0s975360-67/stream/playlist_dvr.m3u8"
         },
         {
             "lcn": 253,
@@ -2224,8 +2216,8 @@
             "logo": "byoblu.svg",
             "name": "Byoblu",
             "hd": true,
-            "type": "hls",
-            "url": "https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/playlist_dvr.m3u8"
+            "type": "dash",
+            "url": "https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/manifest.mpd"
         },
         {
             "lcn": 264,
@@ -2267,15 +2259,15 @@
                 "sublcn": 2,
                 "logo": "ffmotorsport",
                 "name": "FF Motorsport",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video7s977812-2253/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/index.mpd"
             },
             {
                 "sublcn": 3,
                 "logo": "telecomunicare",
                 "name": "Telecomunicare",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video5s977812-2251/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/telecomunicare/index.mpd"
             },
             {
                 "sublcn": 4,
@@ -2288,8 +2280,8 @@
                 "sublcn": 5,
                 "logo": "momentotv",
                 "name": "Momento TV",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video0s977812-2246/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/momentotv/index.mpd"
             },
             {
                 "sublcn": 6,
@@ -2309,8 +2301,8 @@
                 "sublcn": 8,
                 "logo": "radiovacri",
                 "name": "Radio Vacri",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video4s977812-2250/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/index.mpd"
             },
             {
                 "sublcn": 9,
@@ -2344,22 +2336,22 @@
                 "sublcn": 3,
                 "logo": "ffmotorsport",
                 "name": "FF Motorsport",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video7s977812-2253/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/index.mpd"
             },
             {
                 "sublcn": 4,
                 "logo": "momentotv",
                 "name": "Momento TV",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video0s977812-2246/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/momentotv/index.mpd"
             },
             {
                 "sublcn": 5,
                 "logo": "telecomunicare",
                 "name": "Telecomunicare",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video5s977812-2251/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/telecomunicare/index.mpd"
             },
             {
                 "sublcn": 6,
@@ -2477,8 +2469,8 @@
                 "sublcn": 22,
                 "logo": "radiovacri",
                 "name": "Radio Vacri",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video4s977812-2250/stream/playlist.m3u8"
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/index.mpd"
             },
             {
                 "sublcn": 23,
@@ -3033,8 +3025,8 @@
                 "sublcn": 8,
                 "logo": "rtmmanduria",
                 "name": "RTM",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/rtm/rtm/manifest.mpd"
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8"
             },
             {
                 "sublcn": 9,
