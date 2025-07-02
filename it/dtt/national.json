@@ -540,6 +540,13 @@
             }]
         },
         {
+            "lcn": 61,
+            "logo": "il61",
+            "name": "il61",
+            "type": "dash",
+            "url": "https://5a1178b42cc03.streamlock.net/travel/travel/manifest.mpd"
+        },
+        {
             "lcn": 62,
             "logo": "donnatv",
             "name": "Donna TV",
