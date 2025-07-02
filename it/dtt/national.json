@@ -3164,14 +3164,6 @@
             "url": "https://app.cacciaepesca.tv/hbbtv-cp/"
         },
         {
-            "lcn": 899,
-            "logo": "radiotvseriea",
-            "name": "Radio TV Serie A con RDS",
-            "hd": true,
-            "type": "hls",
-            "url": "https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8"
-        },
-        {
             "lcn": 990,
             "logo": "9novanta",
             "name": "9Novanta",
