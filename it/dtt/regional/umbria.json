@@ -59,6 +59,13 @@
             "url": "https://live.ipstream.it/etvumbria/etvumbria.stream/manifest.mpd"
         },
         {
+            "lcn": 75,
+            "logo": "super24",
+            "name": "Super24",
+            "type": "hls",
+            "url": "https://5db313b643fd8.streamlock.net/leotv/leotv/playlist.m3u8"
+        },
+        {
             "lcn": 77,
             "logo": "teleradioorte",
             "name": "Tele Radio Orte",

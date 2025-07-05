@@ -245,6 +245,9 @@
                             },
                             "url": {
                                 "$ref": "#/properties/channels/items/properties/url"
+                            },
+                            "api": {
+                                "$ref": "#/properties/channels/items/properties/api"
                             }
                         },
                         "required": ["type", "url"]

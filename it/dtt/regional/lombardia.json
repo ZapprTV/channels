@@ -402,8 +402,9 @@
             "lcn": 191,
             "logo": "milanow",
             "name": "Milanow",
-            "type": "youtube",
-            "url": "zappr://wp-yt-iframe/www.mediapason.it/57"
+            "type": "hls",
+            "url": "https://telelombardia.video/video/viewlivestreaming?rel=140&cntr=0",
+            "api": "vercel"
         },
         {
             "lcn": 277,

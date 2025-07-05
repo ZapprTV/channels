@@ -363,7 +363,8 @@
             "name": "ServusTV",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8"
+            "url": "https://viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8",
+            "api": "cloudflare"
         },
         {
             "lcn": 86,
@@ -372,13 +373,15 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/daserstehd/browser-HLS8/daserstehd.m3u8",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "br.svg",
                 "name": "BR Süd",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/brhdsud/browser-HLS8/brhdsud.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/brhdsud/browser-HLS8/brhdsud.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 2,
@@ -386,7 +389,8 @@
                 "name": "HR",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/hr/browser-HLS8/hr.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/hr/browser-HLS8/hr.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 3,
@@ -394,7 +398,8 @@
                 "name": "MDR",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/mdr/browser-HLS8/mdr.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/mdr/browser-HLS8/mdr.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 4,
@@ -402,7 +407,8 @@
                 "name": "NDR",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 6,
@@ -410,7 +416,8 @@
                 "name": "rbb",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rbb/browser-HLS8/rbb.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rbb/browser-HLS8/rbb.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 7,
@@ -419,7 +426,8 @@
                 "subtitle": "Visibili solo i programmi senza geoblocking",
                 "hd": true,
                 "type": "hls",
-                "url": "https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8"
+                "url": "https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 8,
@@ -427,7 +435,8 @@
                 "name": "SWR Baden-Württemberg",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/swrbw/browser-HLS8/swrbw.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/swrbw/browser-HLS8/swrbw.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 9,
@@ -435,7 +444,8 @@
                 "name": "WDR",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/wdrhd/browser-HLS8/wdrhd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/wdrhd/browser-HLS8/wdrhd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 10,
@@ -443,7 +453,8 @@
                 "name": "ONE",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/onehd/browser-HLS8/onehd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/onehd/browser-HLS8/onehd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 11,
@@ -451,7 +462,8 @@
                 "name": "ARTE",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 12,
@@ -459,7 +471,8 @@
                 "name": "KiKA",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 13,
@@ -467,7 +480,8 @@
                 "name": "3sat",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 14,
@@ -475,7 +489,8 @@
                 "name": "BR Alpha",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/bralpha/browser-HLS8/bralpha.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/bralpha/browser-HLS8/bralpha.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 15,
@@ -491,7 +506,8 @@
                 "name": "Phoenix",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/phoenixhd/browser-HLS8/phoenixhd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/phoenixhd/browser-HLS8/phoenixhd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 17,
@@ -509,13 +525,15 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-HLS8/zdfhd.m3u8",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "zdfneo.svg",
                 "name": "ZDFneo",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/zdfneohd/browser-HLS8/zdfneohd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/zdfneohd/browser-HLS8/zdfneohd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 2,
@@ -523,7 +541,8 @@
                 "name": "ZDFinfo",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/zdfinfohd/browser-HLS8/zdfinfohd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/zdfinfohd/browser-HLS8/zdfinfohd.m3u8",
+                "api": "cloudflare"
             }]
         },
         {
@@ -532,7 +551,8 @@
             "name": "ORF 1",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8"
+            "url": "https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8",
+            "api": "cloudflare"
         },
         {
             "lcn": 89,
@@ -540,7 +560,8 @@
             "name": "ORF 2",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8"
+            "url": "https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8",
+            "api": "cloudflare"
         },
         {
             "lcn": 90,
@@ -558,13 +579,15 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "srfzwei.svg",
                 "name": "SRF Zwei",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 2,
@@ -572,7 +595,8 @@
                 "name": "RTS 1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 3,
@@ -580,7 +604,8 @@
                 "name": "RTS 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 4,
@@ -588,7 +613,8 @@
                 "name": "RSI LA1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 5,
@@ -596,7 +622,8 @@
                 "name": "RSI LA2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
+                "api": "cloudflare"
             }]
         },
         {
@@ -606,13 +633,15 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "srf1.svg",
                 "name": "SRF 1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 2,
@@ -620,7 +649,8 @@
                 "name": "RTS 1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 3,
@@ -628,7 +658,8 @@
                 "name": "RTS 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 4,
@@ -636,7 +667,8 @@
                 "name": "RSI LA1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 5,
@@ -644,7 +676,8 @@
                 "name": "RSI LA2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
+                "api": "cloudflare"
             }]
         },
         {
@@ -654,13 +687,15 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/zdfneohd/browser-HLS8/zdfneohd.m3u8",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "zdf.svg",
                 "name": "ZDF",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-HLS8/zdfhd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-HLS8/zdfhd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 2,
@@ -668,7 +703,8 @@
                 "name": "ZDFinfo",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/zdfinfohd/browser-HLS8/zdfinfohd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/zdfinfohd/browser-HLS8/zdfinfohd.m3u8",
+                "api": "cloudflare"
             }]
         },
         {
@@ -677,7 +713,8 @@
             "name": "3sat",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8"
+            "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8",
+            "api": "cloudflare"
         },
         {
             "lcn": 96,
@@ -686,13 +723,15 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/brhdsud/browser-HLS8/brhdsud.m3u8",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "daserste.svg",
                 "name": "Das Erste",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/daserstehd/browser-HLS8/daserstehd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/daserstehd/browser-HLS8/daserstehd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 2,
@@ -700,7 +739,8 @@
                 "name": "HR",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/hr/browser-HLS8/hr.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/hr/browser-HLS8/hr.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 3,
@@ -708,7 +748,8 @@
                 "name": "MDR",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/mdr/browser-HLS8/mdr.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/mdr/browser-HLS8/mdr.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 4,
@@ -716,7 +757,8 @@
                 "name": "NDR",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 6,
@@ -724,7 +766,8 @@
                 "name": "rbb",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rbb/browser-HLS8/rbb.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rbb/browser-HLS8/rbb.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 7,
@@ -741,7 +784,8 @@
                 "name": "SWR Baden-Württemberg",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/swrbw/browser-HLS8/swrbw.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/swrbw/browser-HLS8/swrbw.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 9,
@@ -749,7 +793,8 @@
                 "name": "WDR",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/wdrhd/browser-HLS8/wdrhd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/wdrhd/browser-HLS8/wdrhd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 10,
@@ -757,7 +802,8 @@
                 "name": "ONE",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/onehd/browser-HLS8/onehd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/onehd/browser-HLS8/onehd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 11,
@@ -765,7 +811,8 @@
                 "name": "ARTE",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 12,
@@ -773,7 +820,8 @@
                 "name": "KiKA",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 13,
@@ -781,7 +829,8 @@
                 "name": "3sat",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 14,
@@ -789,7 +838,8 @@
                 "name": "BR Alpha",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/bralpha/browser-HLS8/bralpha.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/bralpha/browser-HLS8/bralpha.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 15,
@@ -797,7 +847,8 @@
                 "name": "tagesschau24",
                 "hd": true,
                 "type": "hls",
-                "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8"
+                "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 16,
@@ -805,7 +856,8 @@
                 "name": "Phoenix",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/phoenixhd/browser-HLS8/phoenixhd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/phoenixhd/browser-HLS8/phoenixhd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 17,
@@ -813,7 +865,8 @@
                 "name": "Deutsche Welle",
                 "hd": true,
                 "type": "hls",
-                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"
+                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+                "api": "cloudflare"
             }]
         },
         {
@@ -822,7 +875,8 @@
             "name": "KiKA",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8"
+            "url": "https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8",
+            "api": "cloudflare"
         },
         {
             "lcn": 98,
@@ -830,7 +884,8 @@
             "name": "ARTE",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8"
+            "url": "https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8",
+            "api": "cloudflare"
         },
         {
             "lcn": 99,
@@ -839,13 +894,15 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "rsila2.svg",
                 "name": "RSI LA2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 2,
@@ -853,7 +910,8 @@
                 "name": "RTS 1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 3,
@@ -861,7 +919,8 @@
                 "name": "RTS 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 4,
@@ -869,7 +928,8 @@
                 "name": "SRF 1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 5,
@@ -877,7 +937,8 @@
                 "name": "SRF Zwei",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
+                "api": "cloudflare"
             }]
         }
     ]

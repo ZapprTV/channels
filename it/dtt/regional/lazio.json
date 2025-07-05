@@ -392,6 +392,7 @@
             "name": "Manà Manà Sport",
             "type": "hls",
             "url": "https://router.xdevel.com/video2s975363-2370/stream/playlist.m3u8",
+            "feed": true,
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "canale122",

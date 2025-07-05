@@ -77,13 +77,15 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "rts2.svg",
                 "name": "RTS 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 2,
@@ -91,7 +93,8 @@
                 "name": "SRF 1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 3,
@@ -99,7 +102,8 @@
                 "name": "SRF Zwei",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 4,
@@ -107,7 +111,8 @@
                 "name": "RSI LA1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 5,
@@ -115,7 +120,8 @@
                 "name": "RSI LA2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
+                "api": "cloudflare"
             }]
         }
     ]

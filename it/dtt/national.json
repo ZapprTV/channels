@@ -74,7 +74,8 @@
             "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8",
             "geoblock": {
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rete4/browser-HLS8/rete4.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rete4/browser-HLS8/rete4.m3u8",
+                "api": "cloudflare"
             }
         },
         {
@@ -86,7 +87,8 @@
             "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
             "geoblock": {
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/canale5/browser-HLS8/canale5.m3u8",
+                "api": "cloudflare"
             }
         },
         {
@@ -98,7 +100,8 @@
             "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
             "geoblock": {
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8",
+                "api": "cloudflare"
             }
         },
         {
@@ -133,7 +136,8 @@
             "url": "https://d28crvwvd3upvk.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8",
             "geoblock": {
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/nove/browser-HLS8/nove.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/nove/browser-HLS8/nove.m3u8",
+                "api": "cloudflare"
             }
         },
         {
@@ -220,8 +224,8 @@
             "logo": "la7d.svg",
             "name": "LA7d",
             "hd": true,
-            "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8"
+            "type": "dash",
+            "url": "zappr://la7-hbbtv/la7d_live"
         },
         {
             "lcn": 30,
@@ -339,7 +343,8 @@
             "url": "https://raigulp1-dash-live.akamaized.net/dash/live/663985/raigulp1/manifest.mpd",
             "geoblock": {
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8",
+                "api": "cloudflare"
             }
         },
         {
@@ -425,7 +430,8 @@
             "url": "https://d1kirxefyktddx.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8",
             "geoblock": {
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/dmaxitalia/browser-HLS8/dmaxitalia.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/dmaxitalia/browser-HLS8/dmaxitalia.m3u8",
+                "api": "cloudflare"
             }
         },
         {
@@ -488,7 +494,8 @@
             "name": "Rai Sport",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8"
+            "url": "https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8",
+            "api": "cloudflare"
         },
         {
             "lcn": 59,
@@ -787,7 +794,8 @@
                 "logo": "manàmanàsport",
                 "name": "Manà Manà Sport",
                 "type": "dash",
-                "url": "https://router.xdevel.com/video2s975363-2370/stream/manifest.mpd"
+                "url": "https://router.xdevel.com/video2s975363-2370/stream/manifest.mpd",
+                "feed": true
             },
             {
                 "sublcn": 4,
@@ -1352,8 +1360,8 @@
                 "logo": "tangotv",
                 "name": "Tango TV",
                 "hd": true,
-                "type": "dash",
-                "url": "https://64b16f23efbee.streamlock.net/itchannel/itchannel/manifest.mpd"
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/itchannel/itchannel/playlist.m3u8"
             },
             {
                 "sublcn": 4,
@@ -1573,7 +1581,8 @@
                 "logo": "manàmanàsport",
                 "name": "Manà Manà Sport",
                 "type": "dash",
-                "url": "https://router.xdevel.com/video2s975363-2370/stream/manifest.mpd"
+                "url": "https://router.xdevel.com/video2s975363-2370/stream/manifest.mpd",
+                "feed": true
             },
             {
                 "sublcn": 4,
@@ -2212,11 +2221,11 @@
         },
         {
             "lcn": 261,
-            "logo": "premio",
-            "name": "Showreel Premio",
+            "logo": "drpalmastv.svg",
+            "name": "Dr. Palmas TV",
             "hd": true,
             "type": "hls",
-            "url": "https://streamer2.premio.link/nexocrime/index.m3u8"
+            "url": "https://streamer2.premio.link/dr_palmastv/index.m3u8"
         },
         {
             "lcn": 262,

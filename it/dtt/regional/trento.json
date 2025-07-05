@@ -373,13 +373,15 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8",
+            "api": "cloudflare",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "orf2.svg",
                 "name": "ORF 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8",
+                "api": "cloudflare"
             },
             {
                 "sublcn": 2,
