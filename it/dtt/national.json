@@ -1290,17 +1290,6 @@
                 "name": "Prima TV",
                 "type": "hls",
                 "url": "https://64b16f23efbee.streamlock.net/primatv/primatv/playlist.m3u8"
-            },
-            {
-                "categorySeparator": "SCT"
-            },
-            {
-                "sublcn": 14,
-                "logo": "sct",
-                "name": "Promo SCT",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/ondemand/mp4:spot1.mp4/manifest.mpd",
-                "adult": true
             }]
         },
         {
@@ -2494,6 +2483,14 @@
                 "name": "Mito Italia TV",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video3s977812-2249/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 24,
+                "logo": "petmaniatv",
+                "name": "Pet Mania TV",
+                "type": "dash",
+                "url": "http://hbbtv.momentotv.live:29935/petmania/petmania/manifest.mpd",
+                "http": true
             }]
         },
         {
@@ -2970,6 +2967,13 @@
                 "name": "Canzoni Napoletane",
                 "type": "audio",
                 "url": "https://streaming.radiomargherita.com:8006/stream"
+            },
+            {
+                "sublcn": 4,
+                "logo": "radiomargheritagiovane",
+                "name": "Radio Margherita Giovane",
+                "type": "audio",
+                "url": "https://streaming.radiomargherita.com:8028/stream"
             }]
         },
         {
@@ -3085,10 +3089,10 @@
             },
             {
                 "sublcn": 14,
-                "logo": "hashtagtv",
-                "name": "Hashtag TV",
+                "logo": "radionpompei",
+                "name": "Radio Nuova Pompei",
                 "type": "hls",
-                "url": "https://rst.saiuzwebnetwork.it:8081/fiestaloca/index.m3u8"
+                "url": "https://rst2.saiuzwebnetwork.it:8081/radionpompei/index.m3u8"
             },
             {
                 "sublcn": 15,
@@ -3098,28 +3102,28 @@
                 "url": "https://rst2.saiuzwebnetwork.it:8081/telemiracoli/index.m3u8"
             },
             {
-                "sublcn": 16,
-                "logo": "radionpompei",
-                "name": "Radio Nuova Pompei",
-                "type": "hls",
-                "url": "https://rst2.saiuzwebnetwork.it:8081/radionpompei/index.m3u8"
-            },
-            {
                 "categorySeparator": "Canali Radio"
             },
             {
-                "sublcn": 17,
+                "sublcn": 16,
                 "logo": "supersixradio",
                 "name": "SuperSix Radio",
                 "type": "audio",
                 "url": "https://onair22.xdevel.com/proxy/xautocloud_nek2_339?mp=/;stream/;"
             },
             {
-                "sublcn": 18,
+                "sublcn": 17,
                 "logo": "lombardiatvvintage",
                 "name": "Lombardia TV Vintage",
                 "type": "audio",
                 "url": "https://onair22.xdevel.com/proxy/xautocloud_vwdr_335?mp=/;stream/;"
+            },
+            {
+                "sublcn": 18,
+                "logo": "radiomontestella",
+                "name": "Radio Montestella",
+                "type": "audio",
+                "url": "https://sr10.inmystream.it/proxy/montestella?mp=/stream"
             },
             {
                 "sublcn": 19,
@@ -3130,27 +3134,6 @@
             },
             {
                 "sublcn": 20,
-                "logo": "radiomundialpachino",
-                "name": "Radio Mundial Pachino",
-                "type": "audio",
-                "url": "https://s2.free-shoutcast.com/stream/18020"
-            },
-            {
-                "sublcn": 21,
-                "logo": "radiodiscoclub",
-                "name": "Radio Disco Club",
-                "type": "audio",
-                "url": "https://s3.free-shoutcast.com/stream/18264"
-            },
-            {
-                "sublcn": 22,
-                "logo": "radiomontestella",
-                "name": "Radio Montestella",
-                "type": "audio",
-                "url": "https://sr10.inmystream.it/proxy/montestella?mp=/stream"
-            },
-            {
-                "sublcn": 23,
                 "logo": "radiohashtag",
                 "name": "Radio Hashtag",
                 "type": "audio",
