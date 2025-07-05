@@ -529,6 +529,30 @@
 
 
 
+### channels.geoblock.api
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Usa l&#x27;API per il canale</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 
 ### channels.hbbtv
 
@@ -1050,6 +1074,30 @@
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.geoblock.api
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Usa l&#x27;API per il canale</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
+    </tr>
   </tbody>
 </table>
 
