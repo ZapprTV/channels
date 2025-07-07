@@ -608,8 +608,9 @@
             "lcn": 65,
             "logo": "almatv.svg",
             "name": "Alma TV",
-            "type": "dash",
-            "url": "https://5a1178b42cc03.streamlock.net/alma/alma/manifest.mpd"
+            "type": "hls",
+            "url": "https://almatv.tv/video/viewlivestreaming?rel=29&cntr=0",
+            "api": "vercel"
         },
         {
             "lcn": 66,
