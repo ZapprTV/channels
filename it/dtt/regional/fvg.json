@@ -5,8 +5,8 @@
             "lcn": 3,
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Friuli-Venezia Giulia",
-            "type": "dash",
-            "url": "https://tgrfriuli-dash-live.akamaized.net/dash/live/2025587/tgrfriuli/manifest.mpd",
+            "type": "hls",
+            "url": "https://tgrfriuli-live.akamaized.net/hls/live/2025564/tgrfriuli/tgrfriuli/playlist.m3u8",
             "geoblock": true
         },
         {

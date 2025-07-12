@@ -5,8 +5,8 @@
             "lcn": 3,
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Piemonte",
-            "type": "dash",
-            "url": "https://tgrpiemonte-dash-live.akamaized.net/dash/live/2025608/tgrpiemonte/manifest.mpd",
+            "type": "hls",
+            "url": "https://tgrpiemonte-live.akamaized.net/hls/live/2025569/tgrpiemonte/tgrpiemonte/playlist.m3u8",
             "geoblock": true
         },
         {

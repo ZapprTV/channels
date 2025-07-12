@@ -5,8 +5,8 @@
             "lcn": 3,
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Toscana",
-            "type": "dash",
-            "url": "https://tgrtoscana-dash-live.akamaized.net/dash/live/2025612/tgrtoscana/manifest.mpd",
+            "type": "hls",
+            "url": "https://tgrtoscana-live.akamaized.net/hls/live/2025574/tgrtoscana/tgrtoscana/playlist.m3u8",
             "geoblock": true
         },
         {

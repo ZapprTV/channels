@@ -115,13 +115,18 @@
                         "type": "string",
                         "title": "Tipo di licenza/DRM",
                         "description": "Quale sistema di licenza/DRM usare per riprodurre il canale.",
-                        "enum": ["xdevel-wms"],
+                        "enum": ["xdevel-wms", "rai-akamai"],
                         "meta:enum": {
-                            "xdevel-wms": "Xdevel WMS Auth Sign (play.xdevel.com/was)"
+                            "xdevel-wms": "Xdevel WMS Auth Sign (play.xdevel.com/was)",
+                            "rai-akamai": "Canali Rai su server Akamai (Rai 1 e Rai Gulp)"
                         },
                         "anyOf": [{
                             "const": "xdevel-wms",
                             "title": "Xdevel WMS Auth Sign (play.xdevel.com/was)"
+                        },
+                        {
+                            "const": "rai-akamai",
+                            "title": "Canali Rai su server Akamai (Rai 1 e Rai Gulp)"
                         }]
                     },
                     "hbbtvapp": {
@@ -234,6 +239,24 @@
                             "title": "Embed ServiziStreaming.it"
                         }]
                     },
+                    "fallback": {
+                        "type": "object",
+                        "title": "Stream alternativa di riserva",
+                        "description": "Le informazioni sulla stream di riserva che verrà usata nel caso in cui quella principale non funzioni.",
+                        "additionalProperties": false,
+                        "properties": {
+                            "type": {
+                                "$ref": "#/properties/channels/items/properties/type"
+                            },
+                            "url": {
+                                "$ref": "#/properties/channels/items/properties/url"
+                            },
+                            "api": {
+                                "$ref": "#/properties/channels/items/properties/api"
+                            }
+                        },
+                        "required": ["type", "url"]
+                    },
                     "geoblock": {
                         "type": ["boolean", "object"],
                         "title": "Impostazioni geoblocking",
@@ -323,6 +346,9 @@
                                 },
                                 "cssfix": {
                                     "$ref": "#/properties/channels/items/properties/cssfix"
+                                },
+                                "fallback": {
+                                    "$ref": "#/properties/channels/items/properties/fallback"
                                 },
                                 "geoblock": {
                                     "$ref": "#/properties/channels/items/properties/geoblock"

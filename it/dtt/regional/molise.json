@@ -5,8 +5,8 @@
             "lcn": 3,
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Molise",
-            "type": "dash",
-            "url": "https://tgrmolise-dash-live.akamaized.net/dash/live/2025607/tgrmolise/manifest.mpd",
+            "type": "hls",
+            "url": "https://tgrmolise-live.akamaized.net/hls/live/2025568/tgrmolise/tgrmolise/playlist.m3u8",
             "geoblock": true
         },
         {

@@ -5,8 +5,8 @@
             "lcn": 3,
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Umbria",
-            "type": "dash",
-            "url": "https://tgrumbria-dash-live.akamaized.net/dash/live/2025614/tgrumbria/manifest.mpd",
+            "type": "hls",
+            "url": "https://tgrumbria-live.akamaized.net/hls/live/2025576/tgrumbria/tgrumbria/playlist.m3u8",
             "geoblock": true
         },
         {
