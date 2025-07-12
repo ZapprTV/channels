@@ -297,7 +297,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd></dl></td>
+      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd><dt>rai-akamai</dt><dd>Canali Rai su server Akamai (Rai 1 e Rai Gulp)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -460,6 +460,96 @@
     </tr>
   </tbody>
 </table>
+
+
+
+
+### channels.fallback
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Stream alternativa di riserva</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Le informazioni sulla stream di riserva che verrà usata nel caso in cui quella principale non funzioni.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Object</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+### channels.fallback.type
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Tipo stream</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Il tipo della stream.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.fallback.url
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">URL stream</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">L&#x27;URL della stream.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
+### channels.fallback.api
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Usa l&#x27;API per il canale</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
@@ -848,7 +938,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd></dl></td>
+      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd><dt>rai-akamai</dt><dd>Canali Rai su server Akamai (Rai 1 e Rai Gulp)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1011,6 +1101,96 @@
     </tr>
   </tbody>
 </table>
+
+
+
+
+### channels.hbbtv.fallback
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Stream alternativa di riserva</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Le informazioni sulla stream di riserva che verrà usata nel caso in cui quella principale non funzioni.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Object</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+### channels.hbbtv.fallback.type
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Tipo stream</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Il tipo della stream.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.fallback.url
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">URL stream</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">L&#x27;URL della stream.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.fallback.api
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Usa l&#x27;API per il canale</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
