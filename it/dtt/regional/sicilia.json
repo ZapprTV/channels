@@ -1032,8 +1032,9 @@
             "lcn": 85,
             "logo": "tris",
             "name": "TRIS",
-            "type": "twitch",
-            "url": "tsc_tris85"
+            "hd": true,
+            "type": "hls",
+            "url": "https://streaming.teletris.it/tmp_hls/live/index.m3u8"
         },
         {
             "lcn": 86,

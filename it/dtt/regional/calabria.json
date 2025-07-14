@@ -466,6 +466,13 @@
             "url": "https://64b16f23efbee.streamlock.net/businesschannel/businesschannel/manifest.mpd"
         },
         {
+            "lcn": 198,
+            "logo": "ondatv",
+            "name": "Onda TV",
+            "type": "twitch",
+            "url": "OndaTVCalabria"
+        },
+        {
             "lcn": 351,
             "logo": "70-80",
             "name": "70-80.it",

@@ -1481,6 +1481,13 @@
             },
             {
                 "sublcn": 2,
+                "logo": "ffmotorsport",
+                "name": "FF Motorsport",
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/index.mpd"
+            },
+            {
+                "sublcn": 3,
                 "logo": "sexfactortv",
                 "name": "Sex Factor TV",
                 "type": "hls",
@@ -1488,18 +1495,12 @@
                 "adult": true
             },
             {
-                "sublcn": 3,
-                "logo": "ffmotorsport",
-                "name": "FF Motorsport",
-                "type": "dash",
-                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/index.mpd"
-            },
-            {
                 "sublcn": 4,
-                "logo": "momentotv",
-                "name": "Momento TV",
-                "type": "dash",
-                "url": "https://host1.momentotv.live:28443/cmaf/momentotv/index.mpd"
+                "logo": "divafutura",
+                "name": "Divafutura",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video10s977812-2369/stream/playlist.m3u8",
+                "adult": true
             },
             {
                 "sublcn": 5,
@@ -1535,6 +1536,13 @@
                 "name": "Radio Pooh",
                 "type": "dash",
                 "url": "https://pooh.fluid.stream/RadioPooh_hbb/livestream/manifest.mpd"
+            },
+            {
+                "sublcn": 12,
+                "logo": "momentotv",
+                "name": "Momento TV",
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/momentotv/index.mpd"
             },
             {
                 "sublcn": 13,
@@ -1921,7 +1929,7 @@
                 "logo": "hbbtv.svg",
                 "name": "Mosaico",
                 "type": "dash",
-                "url": "https://stream10.xdevel.com/video6s977812-2252/stream/manifest.mpd"
+                "url": "https://host1.momentotv.live:28443/cmaf/mosaic251/index.mpd"
             },
             {
                 "sublcn": 2,

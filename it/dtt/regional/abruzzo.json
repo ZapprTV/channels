@@ -199,6 +199,13 @@
             "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/manifest.mpd"
         },
         {
+            "lcn": 95,
+            "logo": "ondatv",
+            "name": "Onda TV",
+            "type": "twitch",
+            "url": "OndaTVCalabria"
+        },
+        {
             "lcn": 96,
             "logo": "soveratounotv",
             "name": "Soverato Uno TV",
