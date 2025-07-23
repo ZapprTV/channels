@@ -71,7 +71,21 @@
             "logo": "telemax",
             "name": "Telemax",
             "type": "hls",
-            "url": "https://livetv.telemaxtv.it/hls/mystream.m3u8"
+            "url": "https://livetv.telemaxtv.it/hls/mystream.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radiodelta1",
+                "name": "Radio Delta 1",
+                "type": "hls",
+                "url": "https://stream6.xdevel.com/video0s976486-1271/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiosabasound",
+                "name": "Radio Saba Sound",
+                "type": "hls",
+                "url": "https://stream1.xdevel.com/video0s975496-379/stream/playlist.m3u8"
+            }]
         },
         {
             "lcn": 15,
@@ -225,7 +239,36 @@
             "name": "Radio Parsifal TV",
             "hd": true,
             "type": "hls",
-            "url": "https://stream9.xdevel.com/video0s976542-1303/stream/playlist.m3u8"
+            "url": "https://stream9.xdevel.com/video0s976542-1303/stream/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radioparsifal",
+                "name": "Radio Parsifal",
+                "type": "audio",
+                "url": "https://stream5.xdevel.com/audio0s976542-1302/stream/icecast.audio"
+            },
+            {
+                "sublcn": 2,
+                "logo": "radiocaliforniatv",
+                "name": "Radio California TV",
+                "type": "hls",
+                "url": "https://stream9.xdevel.com/video0s976541-1300/stream/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "radiocalifornia",
+                "name": "Radio California",
+                "type": "audio",
+                "url": "https://stream9.xdevel.com/audio0s976541-1299/stream/icecast.audio"
+            },
+            {
+                "sublcn": 4,
+                "logo": "pescaracalcio1936.svg",
+                "name": "Pescara Calcio",
+                "type": "dash",
+                "url": "http://tvcast.ns0.it:6935/1936tv/Stream2/manifest.mpd",
+                "http": true
+            }]
         },
         {
             "lcn": 99,

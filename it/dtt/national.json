@@ -168,7 +168,8 @@
             "name": "Rai 4",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/rai4.m3u8",
+            "url": "https://raiquattro2-live.akamaized.net/hls/live/598316/raiquattro2/raiquattro2/playlist.m3u8",
+            "license": "rai-akamai",
             "fallback": {
                 "type": "hls",
                 "url": "https://raiquattro3-live.akamaized.net/hls/live/2018003/raiquattro3/raiquattro3/playlist.m3u8"
