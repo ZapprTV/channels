@@ -453,7 +453,8 @@
             "name": "TGcom24",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8"
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8",
+            "geoblock": true
         },
         {
             "lcn": 52,
