@@ -15,7 +15,8 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/RAI1/Live.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8",
+                "api": "cloudflare"
             },
             "hbbtv": [{
                 "sublcn": 1,
@@ -58,7 +59,8 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rai2/browser-HLS8/rai2.m3u8",
+                "api": "cloudflare"
             }
         },
         {
@@ -75,7 +77,8 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/RAI3/Live.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/rai3/browser-HLS8/rai3.m3u8",
+                "api": "cloudflare"
             }
         },
         {
@@ -450,11 +453,7 @@
             "name": "TGcom24",
             "hd": true,
             "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8",
-            "geoblock": {
-                "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/TGCOM24/Live.m3u8"
-            }
+            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8"
         },
         {
             "lcn": 52,
@@ -490,11 +489,13 @@
             "url": "https://rai.zappr.stream/raistoria.m3u8",
             "fallback": {
                 "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/RAIStoria/Live.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-HLS8/raistoria.m3u8",
+                "api": "cloudflare"
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/RAIStoria/Live.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-HLS8/raistoria.m3u8",
+                "api": "cloudflare"
             }
         },
         {
@@ -524,11 +525,13 @@
             "url": "https://rai.zappr.stream/raiscuola.m3u8",
             "fallback": {
                 "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/RAIScuola/Live.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-HLS8/raiscuola.m3u8",
+                "api": "cloudflare"
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/RAIScuola/Live.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-HLS8/raiscuola.m3u8",
+                "api": "cloudflare"
             }
         },
         {
