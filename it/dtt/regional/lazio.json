@@ -737,7 +737,8 @@
             "name": "Cittàceleste TV",
             "type": "hls",
             "url": "https://cittaceleste.tv/video/viewlivestreaming?rel=43&cntr=0",
-            "api": "vercel"
+            "api": "vercel",
+            "geoblock": true
         },
         {
             "lcn": 87,

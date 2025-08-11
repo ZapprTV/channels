@@ -178,7 +178,8 @@
             "hd": true,
             "type": "hls",
             "url": "https://telelombardia.video/video/viewlivestreaming?rel=3&cntr=0",
-            "api": "vercel"
+            "api": "vercel",
+            "geoblock": true
         },
         {
             "lcn": 78,

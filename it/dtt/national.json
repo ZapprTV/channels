@@ -569,6 +569,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/manifest.mpd",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "primaveratv",
@@ -666,7 +670,8 @@
             "name": "Alma TV",
             "type": "hls",
             "url": "https://almatv.tv/video/viewlivestreaming?rel=29&cntr=0",
-            "api": "vercel"
+            "api": "vercel",
+            "geoblock": true
         },
         {
             "lcn": 66,
