@@ -73,7 +73,7 @@
                 "sublcn": 8,
                 "logo": "virgoradio.svg",
                 "name": "Virgo Radio",
-                "radio": true,
+                "radio": "video",
                 "type": "dash",
                 "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.mpd"        
             },
@@ -194,7 +194,7 @@
                 "sublcn": 8,
                 "logo": "virgoradio.svg",
                 "name": "Virgo Radio",
-                "radio": true,
+                "radio": "video",
                 "type": "dash",
                 "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.mpd"        
             },

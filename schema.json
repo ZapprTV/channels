@@ -43,9 +43,22 @@
                         "description": "Se è il canale è in 4K."
                     },
                     "radio": {
-                        "type": "boolean",
+                        "type": ["string", "boolean"],
                         "title": "Contrassegna come canale radio",
-                        "description": "Se è il canale è una radio (cioè se ha una stream senza video o con un'immagine fissa)."
+                        "description": "Se è il canale è una radio (cioè se ha una stream senza video o con un'immagine fissa).",
+                        "enum": [true, "video", false],
+                        "meta:enum": {
+                            "true": "Il canale è una radio, senza stream video.",
+                            "video": "Il canale è una radio, con una stream con un'immagine fissa."
+                        },
+                        "anyOf": [{
+                            "const": true,
+                            "description": "Il canale è una radio, senza stream video."
+                        },
+                        {
+                            "const": "video",
+                            "description": "Il canale è una radio, con una stream con un'immagine fissa."        
+                        }]
                     },
                     "ondemand": {
                         "type": "boolean",

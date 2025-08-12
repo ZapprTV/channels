@@ -55,7 +55,7 @@
                 "sublcn": 5,
                 "logo": "radiopace",
                 "name": "Radio Pace",
-                "radio": true,
+                "radio": "video",
                 "type": "hls",
                 "url": "https://stream.mariatvcdn.com/trpradio/c92dd777d146ffcd75d0b6cfb13a9153.sdp/playlist.m3u8"
             },
@@ -110,7 +110,7 @@
                 "sublcn": 12,
                 "logo": "radiofratesole",
                 "name": "Radio Frate Sole",
-                "radio": true,
+                "radio": "video",
                 "type": "dash",
                 "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/manifest.mpd"        
             }]

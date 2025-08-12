@@ -2057,7 +2057,7 @@
                 "sublcn": 3,
                 "logo": "hairomania",
                 "name": "Hai Romania!!",
-                "radio": true,
+                "radio": "video",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video17s975955-2173/stream/playlist.m3u8"
             },

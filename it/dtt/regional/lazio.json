@@ -621,7 +621,7 @@
                 "sublcn": 22,
                 "logo": "radiooscià",
                 "name": "Radio Oscià",
-                "radio": true,
+                "radio": "video",
                 "type": "hls",
                 "url": "https://stream5.xdevel.com/audio0s976002-865/stream/playlist.m3u8"
             },
