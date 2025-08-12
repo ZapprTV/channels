@@ -186,8 +186,11 @@
       <th>Description</th>
       <td colspan="2">Se è il canale è una radio (cioè se ha una stream senza video o con un&#x27;immagine fissa).</td>
     </tr>
-    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
-    
+    <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>true</dt><dd>Il canale è una radio, senza stream video.</dd><dt>video</dt><dd>Il canale è una radio, con una stream con un&#x27;immagine fissa.</dd></dl></td>
+    </tr>
   </tbody>
 </table>
 
@@ -827,8 +830,11 @@
       <th>Description</th>
       <td colspan="2">Se è il canale è una radio (cioè se ha una stream senza video o con un&#x27;immagine fissa).</td>
     </tr>
-    <tr><th>Type</th><td colspan="2">Boolean</td></tr>
-    
+    <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>true</dt><dd>Il canale è una radio, senza stream video.</dd><dt>video</dt><dd>Il canale è una radio, con una stream con un&#x27;immagine fissa.</dd></dl></td>
+    </tr>
   </tbody>
 </table>
 
