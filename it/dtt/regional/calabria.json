@@ -269,10 +269,11 @@
         },
         {
             "lcn": 85,
-            "logo": "weddingtv.svg",
-            "name": "Wedding TV",
-            "type": "dash",
-            "url": "https://604e46ac2bdee.streamlock.net:1936/marcorenzi/marcorenzi/manifest.mpd",
+            "logo": "eccellenzacalabria",
+            "name": "Eccellenza Calabria",
+            "hd": true,
+            "type": "hls",
+            "url": "https://604e46ac2bdee.streamlock.net:1936/eccelenzacalabria/eccelenzacalabria/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "telejonio",
