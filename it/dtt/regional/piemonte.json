@@ -7,6 +7,10 @@
             "name": "Rai 3 TGR Piemonte",
             "type": "hls",
             "url": "https://tgrpiemonte-live.akamaized.net/hls/live/2025569/tgrpiemonte/tgrpiemonte/playlist.m3u8",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {

@@ -7,6 +7,10 @@
             "name": "Rai 3 TGR Sardegna",
             "type": "hls",
             "url": "https://tgrsardegna-live.akamaized.net/hls/live/2025572/tgrsardegna/tgrsardegna/playlist.m3u8",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
@@ -22,13 +26,6 @@
             "name": "Tele Costa Smeralda",
             "type": "hls",
             "url": "https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8"
-        },
-        {
-            "lcn": 12,
-            "logo": "sardegna1",
-            "name": "Sardegna 1",
-            "type": "dash",
-            "url": "https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/manifest.mpd"
         },
         {
             "lcn": 13,
@@ -172,6 +169,13 @@
                 "type": "iframe",
                 "url": "https://livepush.io/embed/em3J2nBNarDKZhU"  
             }]
+        },
+        {
+            "lcn": 99,
+            "logo": "sardegna1",
+            "name": "Sardegna 1",
+            "type": "dash",
+            "url": "https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/manifest.mpd"
         },
         {
             "lcn": 716,

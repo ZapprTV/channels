@@ -7,6 +7,10 @@
             "name": "Rai 3 TGR Liguria",
             "type": "hls",
             "url": "https://tgrliguria-live.akamaized.net/hls/live/2025565/tgrliguria/tgrliguria/playlist.m3u8",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {

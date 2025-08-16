@@ -288,6 +288,25 @@
                         },
                         "required": ["type", "url"]
                     },
+                    "epg": {
+                        "type": "object",
+                        "title": "Informazioni sull'EPG",
+                        "description": "Le informazioni sull'EPG del canale e quale sorgente usare.",
+                        "additionalProperties": false,
+                        "properties": {
+                            "source": {
+                                "type": "string",
+                                "title": "Sorgente",
+                                "description": "Quale sorgente usare."
+                            },
+                            "id": {
+                                "type": "string",
+                                "title": "ID del canale nell'EPG",
+                                "description": "L'identificativo del canale nella sorgente dell'EPG."
+                            }
+                        },
+                        "required": ["source", "id"]
+                    },
                     "hbbtv": {
                         "type": "array",
                         "title": "Canali HbbTV",
@@ -365,6 +384,9 @@
                                 },
                                 "geoblock": {
                                     "$ref": "#/properties/channels/items/properties/geoblock"
+                                },
+                                "epg": {
+                                    "$ref": "#/properties/channels/items/properties/epg"
                                 }
                             },
                             "allOf": [

@@ -7,6 +7,10 @@
             "name": "Rai 3 TGR Veneto",
             "type": "hls",
             "url": "https://tgrveneto-live.akamaized.net/hls/live/2025578/tgrveneto/tgrveneto/playlist.m3u8",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {

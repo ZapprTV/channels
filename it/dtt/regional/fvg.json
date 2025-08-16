@@ -7,6 +7,10 @@
             "name": "Rai 3 TGR Friuli-Venezia Giulia",
             "type": "hls",
             "url": "https://tgrfriuli-live.akamaized.net/hls/live/2025564/tgrfriuli/tgrfriuli/playlist.m3u8",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {

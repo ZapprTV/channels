@@ -7,6 +7,10 @@
             "name": "Rai 3 TGR Basilicata",
             "type": "hls",
             "url": "https://tgrbasilicata-live.akamaized.net/hls/live/2025559/tgrbasilicata/tgrbasilicata/playlist.m3u8",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {

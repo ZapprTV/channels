@@ -7,6 +7,10 @@
             "name": "Rai 3 TGR Abruzzo",
             "type": "hls",
             "url": "https://tgrabruzzo-live.akamaized.net/hls/live/2025558/tgrabruzzo/tgrabruzzo/playlist.m3u8",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {

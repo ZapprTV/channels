@@ -7,6 +7,10 @@
             "name": "Rai 3 TGR Trento",
             "type": "dash",
             "url": "https://tgrtrento-dash-live.akamaized.net/dash/live/2025613/tgrtrento/manifest.mpd",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {

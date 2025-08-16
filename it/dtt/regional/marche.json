@@ -7,6 +7,10 @@
             "name": "Rai 3 TGR Marche",
             "type": "hls",
             "url": "https://tgrmarche-live.akamaized.net/hls/live/2025567/tgrmarche/tgrmarche/playlist.m3u8",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {

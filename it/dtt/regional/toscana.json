@@ -7,6 +7,10 @@
             "name": "Rai 3 TGR Toscana",
             "type": "hls",
             "url": "https://tgrtoscana-live.akamaized.net/hls/live/2025574/tgrtoscana/tgrtoscana/playlist.m3u8",
+            "epg": {
+                "source": "raiplay",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
