@@ -647,6 +647,69 @@
 
 
 
+### channels.epg
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Informazioni sull&#x27;EPG</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Le informazioni sull&#x27;EPG del canale e quale sorgente usare.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Object</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+### channels.epg.source
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Sorgente</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Quale sorgente usare.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
+### channels.epg.id
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">ID del canale nell&#x27;EPG</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">L&#x27;identificativo del canale nella sorgente dell&#x27;EPG.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
+
 ### channels.hbbtv
 
 
@@ -1284,6 +1347,69 @@
       <th>Enum</th>
       <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
     </tr>
+  </tbody>
+</table>
+
+
+
+
+
+### channels.hbbtv.epg
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Informazioni sull&#x27;EPG</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Le informazioni sull&#x27;EPG del canale e quale sorgente usare.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Object</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+### channels.hbbtv.epg.source
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Sorgente</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Quale sorgente usare.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.epg.id
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">ID del canale nell&#x27;EPG</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">L&#x27;identificativo del canale nella sorgente dell&#x27;EPG.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
   </tbody>
 </table>
 
