@@ -1371,6 +1371,10 @@
             "name": "EQUtv",
             "type": "hls",
             "url": "https://livestream-epiqa.akamaized.net/hls/live/2039453/EQUTV/master.m3u8",
+            "epg": {
+                "source": "sky",
+                "id": "8293"
+            },
             "geoblock": true
         },
         {
@@ -2762,7 +2766,11 @@
             "name": "Radiofreccia",
             "hd": true,
             "type": "dash",
-            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/manifest.mpd"
+            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/manifest.mpd",
+            "epg": {
+                "source": "sky",
+                "id": "10616"
+            }
         },
         {
             "lcn": 260,
@@ -3453,7 +3461,11 @@
             "name": "Radiofreccia",
             "radio": true,
             "type": "hls",
-            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/D6MENOraq6Qy/playlist_audio.m3u8"
+            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/D6MENOraq6Qy/playlist_audio.m3u8",
+            "epg": {
+                "source": "sky",
+                "id": "10616"
+            }
         },
         {
             "lcn": 739,
