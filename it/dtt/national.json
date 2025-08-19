@@ -2776,8 +2776,8 @@
             "type": "dash",
             "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/manifest.mpd",
             "epg": {
-                "source": "sky",
-                "id": "10616"
+                "source": "rtl",
+                "id": "radiofreccia"
             }
         },
         {
@@ -2786,7 +2786,11 @@
             "name": "Urania",
             "hd": true,
             "type": "dash",
-            "url": "https://69d6d7eab63943c4810c4098feaa0d9c.msvdn.net/live/S76542633/a8BwWIUxagF6/manifest.mpd"
+            "url": "https://69d6d7eab63943c4810c4098feaa0d9c.msvdn.net/live/S76542633/a8BwWIUxagF6/manifest.mpd",
+            "epg": {
+                "source": "samsungtvplus",
+                "id": "IT50001295"
+            }
         },
         {
             "lcn": 261,
@@ -2826,7 +2830,11 @@
             "name": "Radio Zeta",
             "hd": true,
             "type": "dash",
-            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/manifest.mpd"
+            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/manifest.mpd",
+            "epg": {
+                "source": "rtl",
+                "id": "radiozeta"
+            }
         },
         {
             "lcn": 267,
@@ -3183,7 +3191,11 @@
             "logo": "italianfishingtv",
             "name": "Italian Fishing TV",
             "type": "hls",
-            "url": "https://fms.premio.link/fishingtv/index.m3u8"
+            "url": "https://fms.premio.link/fishingtv/index.m3u8",
+            "epg": {
+                "source": "samsungtvplus",
+                "id": "IT600001L6"
+            }
         },
         {
             "lcn": 455,
@@ -3457,7 +3469,11 @@
             "name": "Radio Zeta",
             "radio": true,
             "type": "hls",
-            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/clhI2IJWRnn7/playlist_audio.m3u8"
+            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/clhI2IJWRnn7/playlist_audio.m3u8",
+            "epg": {
+                "source": "rtl",
+                "id": "radiozeta"
+            }
         },
         {
             "lcn": 738,
@@ -3467,8 +3483,8 @@
             "type": "hls",
             "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/D6MENOraq6Qy/playlist_audio.m3u8",
             "epg": {
-                "source": "sky",
-                "id": "10616"
+                "source": "rtl",
+                "id": "radiofreccia"
             }
         },
         {
