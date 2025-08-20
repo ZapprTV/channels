@@ -1490,7 +1490,8 @@
             "logo": "odeon24",
             "name": "Odeon 24",
             "type": "dash",
-            "url": "https://5a1178b42cc03.streamlock.net/odeon163/odeon163/manifest.mpd"
+            "url": "https://streaming.softwarecreation.it/Odeon/Odeon/manifest.mpd",
+            "cssfix": "very-squashed-height"
         },
         {
             "lcn": 165,
