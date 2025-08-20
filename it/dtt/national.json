@@ -2852,7 +2852,11 @@
             "name": "RDS Social TV",
             "hd": true,
             "type": "hls",
-            "url": "https://stream.rdstv.radio/index.m3u8"
+            "url": "https://stream.rdstv.radio/index.m3u8",
+            "epg": {
+                "source": "tivu",
+                "id": "255"
+            }
         },
         {
             "lcn": 266,
@@ -3464,7 +3468,11 @@
             "name": "RDS",
             "radio": true,
             "type": "hls",
-            "url": "https://stream.rds.radio/audio/rds.stream_aac/playlist.m3u8"
+            "url": "https://stream.rds.radio/audio/rds.stream_aac/playlist.m3u8",
+            "epg": {
+                "source": "tivu",
+                "id": "255"
+            }
         },
         {
             "lcn": 728,
