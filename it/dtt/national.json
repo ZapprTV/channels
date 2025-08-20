@@ -789,8 +789,8 @@
                 "type": "dash",
                 "url": "https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/manifest.mpd",
                 "epg": {
-                    "source": "tivu",
-                    "id": "295"
+                    "source": "blue",
+                    "id": "2049"
                 },
                 "geoblock": true
             },
@@ -1164,7 +1164,11 @@
             "logo": "italiachannel",
             "name": "Italia Channel",
             "type": "dash",
-            "url": "https://stream1.aswifi.it/italiachannel/dash/stream.mpd"
+            "url": "https://stream1.aswifi.it/italiachannel/dash/stream.mpd",
+            "epg": {
+                "source": "set",
+                "id": "italiachannel"
+            }
         },
         {
             "lcn": 124,
@@ -1363,7 +1367,11 @@
             "name": "Padre Pio TV",
             "hd": true,
             "type": "hls",
-            "url": "https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8"
+            "url": "https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8",
+            "epg": {
+                "source": "set",
+                "id": "padrepiotv"
+            }
         },
         {
             "lcn": 149,
@@ -1392,6 +1400,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://64b16f23efbee.streamlock.net/canale157/canale157/manifest.mpd",
+            "epg": {
+                "source": "set",
+                "id": "fascinotv"
+            },
             "adult": "night",
             "hbbtv": [{
                 "sublcn": 1,
@@ -1710,7 +1722,11 @@
                 "name": "Radio Roma",
                 "type": "hls",
                 "url": "https://www.dailymotion.com/video/x96kfby",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "set",
+                    "id": "radioroma"
+                }
             },
             {
                 "sublcn": 3,
@@ -2429,7 +2445,11 @@
             "name": "TCI",
             "hd": true,
             "type": "dash",
-            "url": "https://cdn.jwplayer.com/live/broadcast/NXTAdMkM.mpd"
+            "url": "https://cdn.jwplayer.com/live/broadcast/NXTAdMkM.mpd",
+            "epg": {
+                "source": "set",
+                "id": "tci"
+            }
         },
         {
             "lcn": 251,
@@ -2448,7 +2468,11 @@
                 "logo": "rtr99tv",
                 "name": "RTR 99 TV",
                 "type": "dash",
-                "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd"
+                "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd",
+                "epg": {
+                    "source": "set",
+                    "id": "rtr99"
+                }
             },
             {
                 "sublcn": 3,
@@ -2527,7 +2551,11 @@
             "name": "Radio Radio TV",
             "hd": true,
             "type": "hls",
-            "url": "https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_abeef7b0903711eeb7c62796fbf7de76/index.m3u8"
+            "url": "https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_abeef7b0903711eeb7c62796fbf7de76/index.m3u8",
+            "epg": {
+                "source": "set",
+                "id": "radioradio"
+            }
         },
         {
             "lcn": 254,
