@@ -728,7 +728,8 @@
             "name": "Rai Sport",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/raisport.m3u8",
+            "url": "https://raisportuno1-live.akamaized.net/hls/live/598320/raisportuno1/raisportuno1/playlist_mo_1800-5000.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-sport"
@@ -3246,8 +3247,8 @@
             "logo": "sanmarinortv.svg",
             "name": "San Marino RTV",
             "hd": true,
-            "type": "iframe",
-            "url": "https://www.livereacting.com/tools/hls-player-embed?autoplay=1&url=https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/ch-01/chunklist_b1192000_slita.m3u8",
+            "type": "hls",
+            "url": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/ch-01/chunklist_b1192000_slita.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1719"

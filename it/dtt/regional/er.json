@@ -448,8 +448,8 @@
             "lcn": 93,
             "logo": "sanmarinortvsport.svg",
             "name": "San Marino RTV Sport",
-            "type": "iframe",
-            "url": "https://www.livereacting.com/tools/hls-player-embed?autoplay=1&url=https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/master.m3u8"
+            "type": "hls",
+            "url": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/master.m3u8"
         },
         {
             "lcn": 93,
