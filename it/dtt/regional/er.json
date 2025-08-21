@@ -369,14 +369,22 @@
                 "logo": "telereporter",
                 "name": "Telereporter",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8",
+                "epg": {
+                    "source": "publirose",
+                    "id": "telereporter"
+                }
             },
             {
                 "sublcn": 5,
                 "logo": "telecampione.svg",
                 "name": "Telecampione",
                 "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/manifest.mpd"
+                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/manifest.mpd",
+                "epg": {
+                    "source": "publirose",
+                    "id": "telecampione"
+                }
             },
             {
                 "sublcn": 6,

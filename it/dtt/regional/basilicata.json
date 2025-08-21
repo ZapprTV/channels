@@ -26,14 +26,22 @@
             "name": "Radio Norba Television",
             "type": "hls",
             "url": "https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "1499"
+            }
         },
         {
             "lcn": 13,
             "logo": "tgnorba24.svg",
             "name": "TG Norba 24",
             "type": "hls",
-            "url": "https://router.xdevel.com/video0s976570-1326/stream/playlist_dvr.m3u8"
+            "url": "https://router.xdevel.com/video0s976570-1326/stream/playlist_dvr.m3u8",
+            "epg": {
+                "source": "sky",
+                "id": "6481"
+            }
         },
         {
             "lcn": 14,
@@ -54,7 +62,11 @@
             "logo": "trmh24",
             "name": "TRM h24",
             "type": "youtube",
-            "url": "UCWxP-YJ_4OVmcKuwzmhW42Q"
+            "url": "UCWxP-YJ_4OVmcKuwzmhW42Q",
+            "epg": {
+                "source": "sky",
+                "id": "9013"
+            }
         },
         {
             "lcn": 17,

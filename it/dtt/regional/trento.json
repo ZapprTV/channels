@@ -163,6 +163,10 @@
             "subtitle": "Attivo solo durante alcuni programmi",
             "type": "iframe",
             "url": "https://ac106mp-cdn.streamcloud.it/embed/live/a408fac6-e5d3-4e70-844d-0410d03264cf",
+            "epg": {
+                "source": "blue",
+                "id": "2057"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "telenuovoplay",
@@ -378,6 +382,10 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8",
             "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "303"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "orf2.svg",
@@ -385,7 +393,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "302"
+                }
             },
             {
                 "sublcn": 2,
@@ -394,7 +406,11 @@
                 "subtitle": "Visibili solo i programmi senza geoblocking",
                 "hd": true,
                 "type": "hls",
-                "url": "https://orf3-247.mdn.ors.at/orf/orf3/qxa-247/playlist.m3u8"
+                "url": "https://orf3-247.mdn.ors.at/orf/orf3/qxa-247/playlist.m3u8",
+                "epg": {
+                    "source": "blue",
+                    "id": "1222"
+                }
             }]
         }
     ]

@@ -141,6 +141,10 @@
             "type": "hls",
             "url": "https://www.dailymotion.com/video/x96kfby",
             "api": "cloudflare",
+            "epg": {
+                "source": "set",
+                "id": "radioroma"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "canale19frosinone",
@@ -402,7 +406,11 @@
                 "logo": "canale122",
                 "name": "Canale 122",
                 "type": "hls",
-                "url": "https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8"
+                "url": "https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8",
+                "epg": {
+                    "source": "cusano",
+                    "id": "canale122"
+                }
             },
             {
                 "sublcn": 2,
@@ -417,7 +425,11 @@
                 "name": "Radio Cusano Campus",
                 "hd": true,
                 "type": "hls",
-                "url": "https://router.xdevel.com/video3s975363-2380/stream/playlist.m3u8"
+                "url": "https://router.xdevel.com/video3s975363-2380/stream/playlist.m3u8",
+                "epg": {
+                    "source": "cusano",
+                    "id": "radiocusanocampus"
+                }
             },
             {
                 "sublcn": 4,
@@ -594,7 +606,11 @@
                 "logo": "rtr99tv",
                 "name": "RTR 99 TV",
                 "type": "dash",
-                "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd"
+                "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd",
+                "epg": {
+                    "source": "set",
+                    "id": "rtr99"
+                }
             },
             {
                 "sublcn": 19,
@@ -625,7 +641,7 @@
                 "sublcn": 22,
                 "logo": "radiooscià",
                 "name": "Radio Oscià",
-                "radio": "video",
+                "radio": true,
                 "type": "hls",
                 "url": "https://stream5.xdevel.com/audio0s976002-865/stream/playlist.m3u8"
             },
@@ -749,7 +765,11 @@
             "logo": "rtr99tv",
             "name": "RTR 99 TV",
             "type": "dash",
-            "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd"
+            "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd",
+            "epg": {
+                "source": "set",
+                "id": "rtr99"
+            }
         },
         {
             "lcn": 88,
@@ -787,7 +807,11 @@
             "name": "Radio Radio TV",
             "hd": true,
             "type": "dash",
-            "url": "https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_abeef7b0903711eeb7c62796fbf7de76/manifest.mpd"
+            "url": "https://200912.global.ssl.fastly.net/646b335e2291a2022444bb7c/live_abeef7b0903711eeb7c62796fbf7de76/manifest.mpd",
+            "epg": {
+                "source": "set",
+                "id": "radioradio"
+            }
         },
         {
             "lcn": 97,

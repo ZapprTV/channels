@@ -368,7 +368,11 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8",
-            "api": "cloudflare"
+            "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "381"
+            }
         },
         {
             "lcn": 86,
@@ -378,6 +382,10 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/daserstehd/browser-HLS8/daserstehd.m3u8",
             "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "25"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "br.svg",
@@ -385,7 +393,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/brhdsud/browser-HLS8/brhdsud.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "55"
+                }
             },
             {
                 "sublcn": 2,
@@ -394,7 +406,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/hr/browser-HLS8/hr.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "205"
+                }
             },
             {
                 "sublcn": 3,
@@ -403,7 +419,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/mdr/browser-HLS8/mdr.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "256"
+                }
             },
             {
                 "sublcn": 4,
@@ -412,7 +432,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "286"
+                }
             },
             {
                 "sublcn": 6,
@@ -421,7 +445,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rbb/browser-HLS8/rbb.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "342"
+                }
             },
             {
                 "sublcn": 7,
@@ -431,7 +459,10 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8",
-                "api": "cloudflare"
+                "epg": {
+                    "source": "blue",
+                    "id": "1502"
+                }
             },
             {
                 "sublcn": 8,
@@ -440,7 +471,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/swrbw/browser-HLS8/swrbw.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "414"
+                }
             },
             {
                 "sublcn": 9,
@@ -449,7 +484,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/wdrhd/browser-HLS8/wdrhd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "654"
+                }
             },
             {
                 "sublcn": 10,
@@ -458,7 +497,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/onehd/browser-HLS8/onehd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "147"
+                }
             },
             {
                 "sublcn": 11,
@@ -467,7 +510,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "28"
+                }
             },
             {
                 "sublcn": 12,
@@ -476,7 +523,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "228"
+                }
             },
             {
                 "sublcn": 13,
@@ -485,7 +536,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "6"
+                }
             },
             {
                 "sublcn": 14,
@@ -494,7 +549,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/bralpha/browser-HLS8/bralpha.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "26"
+                }
             },
             {
                 "sublcn": 15,
@@ -502,7 +561,11 @@
                 "name": "tagesschau24",
                 "hd": true,
                 "type": "hls",
-                "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8"
+                "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8",
+                "epg": {
+                    "source": "blue",
+                    "id": "417"
+                }
             },
             {
                 "sublcn": 16,
@@ -511,7 +574,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/phoenixhd/browser-HLS8/phoenixhd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "307"
+                }
             },
             {
                 "sublcn": 17,
@@ -519,7 +586,11 @@
                 "name": "Deutsche Welle",
                 "hd": true,
                 "type": "hls",
-                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"
+                "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+                "epg": {
+                    "source": "blue",
+                    "id": "142"
+                }
             }]
         },
         {
@@ -530,6 +601,10 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-HLS8/zdfhd.m3u8",
             "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "656"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "zdfneo.svg",
@@ -537,7 +612,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/zdfneohd/browser-HLS8/zdfneohd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "659"
+                }
             },
             {
                 "sublcn": 2,
@@ -546,7 +625,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/zdfinfohd/browser-HLS8/zdfinfohd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "658"
+                }
             }]
         },
         {
@@ -556,7 +639,11 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8",
-            "api": "cloudflare"
+            "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "303"
+            }
         },
         {
             "lcn": 89,
@@ -565,7 +652,11 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8",
-            "api": "cloudflare"
+            "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "302"
+            }
         },
         {
             "lcn": 90,
@@ -574,7 +665,11 @@
             "subtitle": "Visibili solo i programmi senza geoblocking",
             "hd": true,
             "type": "hls",
-            "url": "https://orf3-247.mdn.ors.at/orf/orf3/qxa-247/playlist.m3u8"
+            "url": "https://orf3-247.mdn.ors.at/orf/orf3/qxa-247/playlist.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "1222"
+            }
         },
         {
             "lcn": 92,
@@ -584,6 +679,10 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8",
             "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "399"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "srfzwei.svg",
@@ -591,7 +690,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "401"
+                }
             },
             {
                 "sublcn": 2,
@@ -600,7 +703,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "369"
+                }
             },
             {
                 "sublcn": 3,
@@ -609,7 +716,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "367"
+                }
             },
             {
                 "sublcn": 4,
@@ -618,7 +729,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "356"
+                }
             },
             {
                 "sublcn": 5,
@@ -627,7 +742,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "357"
+                }
             }]
         },
         {
@@ -638,6 +757,10 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
             "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "401"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "srf1.svg",
@@ -645,7 +768,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "399"
+                }
             },
             {
                 "sublcn": 2,
@@ -654,7 +781,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "369"
+                }
             },
             {
                 "sublcn": 3,
@@ -663,7 +794,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "367"
+                }
             },
             {
                 "sublcn": 4,
@@ -672,7 +807,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "356"
+                }
             },
             {
                 "sublcn": 5,
@@ -681,7 +820,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "357"
+                }
             }]
         },
         {
@@ -692,6 +835,10 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/zdfneohd/browser-HLS8/zdfneohd.m3u8",
             "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "659"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "zdf.svg",
@@ -699,7 +846,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/zdfhd/browser-HLS8/zdfhd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "656"
+                }
             },
             {
                 "sublcn": 2,
@@ -708,7 +859,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/zdfinfohd/browser-HLS8/zdfinfohd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "658"
+                }
             }]
         },
         {
@@ -718,7 +873,11 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8",
-            "api": "cloudflare"
+            "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "6"
+            }
         },
         {
             "lcn": 96,
@@ -728,6 +887,10 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/brhdsud/browser-HLS8/brhdsud.m3u8",
             "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "55"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "daserste.svg",
@@ -735,7 +898,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/daserstehd/browser-HLS8/daserstehd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "25"
+                }
             },
             {
                 "sublcn": 2,
@@ -744,7 +911,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/hr/browser-HLS8/hr.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "205"
+                }
             },
             {
                 "sublcn": 3,
@@ -753,7 +924,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/mdr/browser-HLS8/mdr.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "256"
+                }
             },
             {
                 "sublcn": 4,
@@ -762,7 +937,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/ndr/browser-HLS8/ndr.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "286"
+                }
             },
             {
                 "sublcn": 6,
@@ -771,7 +950,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rbb/browser-HLS8/rbb.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "342"
+                }
             },
             {
                 "sublcn": 7,
@@ -780,7 +963,11 @@
                 "subtitle": "Visibili solo i programmi senza geoblocking",
                 "hd": true,
                 "type": "hls",
-                "url": "https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8"
+                "url": "https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8",
+                "epg": {
+                    "source": "blue",
+                    "id": "1502"
+                }
             },
             {
                 "sublcn": 8,
@@ -789,7 +976,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/swrbw/browser-HLS8/swrbw.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "414"
+                }
             },
             {
                 "sublcn": 9,
@@ -798,7 +989,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/wdrhd/browser-HLS8/wdrhd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "654"
+                }
             },
             {
                 "sublcn": 10,
@@ -807,7 +1002,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/onehd/browser-HLS8/onehd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "147"
+                }
             },
             {
                 "sublcn": 11,
@@ -816,7 +1015,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "28"
+                }
             },
             {
                 "sublcn": 12,
@@ -825,7 +1028,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "228"
+                }
             },
             {
                 "sublcn": 13,
@@ -834,7 +1041,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/3sathd/browser-HLS8/3sathd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "6"
+                }
             },
             {
                 "sublcn": 14,
@@ -843,7 +1054,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/bralpha/browser-HLS8/bralpha.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "26"
+                }
             },
             {
                 "sublcn": 15,
@@ -852,7 +1067,10 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8",
-                "api": "cloudflare"
+                "epg": {
+                    "source": "blue",
+                    "id": "417"
+                }
             },
             {
                 "sublcn": 16,
@@ -861,7 +1079,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/phoenixhd/browser-HLS8/phoenixhd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "307"
+                }
             },
             {
                 "sublcn": 17,
@@ -870,7 +1092,10 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
-                "api": "cloudflare"
+                "epg": {
+                    "source": "blue",
+                    "id": "142"
+                }
             }]
         },
         {
@@ -880,7 +1105,11 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/kikahd/browser-HLS8/kikahd.m3u8",
-            "api": "cloudflare"
+            "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "228"
+            }
         },
         {
             "lcn": 98,
@@ -889,7 +1118,11 @@
             "hd": true,
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/artehd/browser-HLS8/artehd.m3u8",
-            "api": "cloudflare"
+            "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "28"
+            }
         },
         {
             "lcn": 99,
@@ -899,6 +1132,10 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8",
             "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "356"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "rsila2.svg",
@@ -906,7 +1143,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "357"
+                }
             },
             {
                 "sublcn": 2,
@@ -915,7 +1156,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "369"
+                }
             },
             {
                 "sublcn": 3,
@@ -924,7 +1169,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "367"
+                }
             },
             {
                 "sublcn": 4,
@@ -933,7 +1182,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "399"
+                }
             },
             {
                 "sublcn": 5,
@@ -942,7 +1195,11 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
-                "api": "cloudflare"
+                "api": "cloudflare",
+                "epg": {
+                    "source": "blue",
+                    "id": "401"
+                }
             }]
         }
     ]

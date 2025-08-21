@@ -59,7 +59,11 @@
                 "name": "Telenuovo",
                 "subtitle": "Attivo solo durante alcuni programmi",
                 "type": "iframe",
-                "url": "https://ac106mp-cdn.streamcloud.it/embed/live/a408fac6-e5d3-4e70-844d-0410d03264cf"
+                "url": "https://ac106mp-cdn.streamcloud.it/embed/live/a408fac6-e5d3-4e70-844d-0410d03264cf",
+                "epg": {
+                    "source": "blue",
+                    "id": "2057"
+                }
             },
             {
                 "sublcn": 5,
@@ -183,7 +187,11 @@
             "type": "hls",
             "url": "https://telelombardia.video/video/viewlivestreaming?rel=3&cntr=0",
             "api": "vercel",
-            "geoblock": true
+            "geoblock": true,
+            "epg": {
+                "source": "blue",
+                "id": "1667"
+            }
         },
         {
             "lcn": 78,
@@ -212,7 +220,11 @@
             "logo": "telereporter",
             "name": "Telereporter",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
+            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8",
+            "epg": {
+                "source": "publirose",
+                "id": "telereporter"
+            }
         },
         {
             "lcn": 85,

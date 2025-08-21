@@ -22,7 +22,11 @@
             "type": "hls",
             "url": "https://telelombardia.video/video/viewlivestreaming?rel=3&cntr=0",
             "api": "vercel",
-            "geoblock": true
+            "geoblock": true,
+            "epg": {
+                "source": "blue",
+                "id": "1667"
+            }
         },
         {
             "lcn": 13,
@@ -38,7 +42,11 @@
             "name": "Espansione TV",
             "hd": true,
             "type": "hls",
-            "url": "https://srvx1.selftv.video/espansione/smil:live/playlist.m3u8"
+            "url": "https://srvx1.selftv.video/espansione/smil:live/playlist.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "1645"
+            }
         },
         {
             "lcn": 15,
@@ -134,7 +142,11 @@
             "logo": "telenova",
             "name": "Telenova",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/telenova/telenova/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/telenova/telenova/playlist.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "593"
+            }
         },
         {
             "lcn": 19,
@@ -250,7 +262,11 @@
             "logo": "rete55",
             "name": "Rete 55",
             "type": "hls",
-            "url": "https://live1.giocabet.tv/stream/6/index.m3u8"
+            "url": "https://live1.giocabet.tv/stream/6/index.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "2113"
+            }
         },
         {
             "lcn": 92,
