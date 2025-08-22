@@ -18,7 +18,11 @@
             "logo": "rtv38",
             "name": "RTV38",
             "type": "hls",
-            "url": "https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/playlist_dvr.m3u8"
+            "url": "https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/playlist_dvr.m3u8",
+            "epg": {
+                "source": "rtv38",
+                "id": "RTV38"
+            }
         },
         {
             "lcn": 12,
@@ -56,7 +60,11 @@
                 "name": "Tele Dehon",
                 "hd": true,
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
+                "epg": {
+                    "source": "digitalbitrate",
+                    "id": "tca/TCA_CH32_9818"
+                }
             },
             {
                 "sublcn": 3,
@@ -70,7 +78,11 @@
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8",
+                "epg": {
+                    "source": "oggiintv",
+                    "id": "Telepace"
+                }
             },
             {
                 "sublcn": 5,

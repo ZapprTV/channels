@@ -18,7 +18,11 @@
             "logo": "telenorba.svg",
             "name": "Telenorba",
             "type": "hls",
-            "url": "https://router.xdevel.com/video2s976570-2117/stream/playlist_dvr.m3u8"
+            "url": "https://router.xdevel.com/video2s976570-2117/stream/playlist_dvr.m3u8",
+            "epg": {
+                "source": "norba",
+                "id": "11313512"
+            }
         },
         {
             "lcn": 11,
@@ -39,8 +43,8 @@
             "type": "hls",
             "url": "https://router.xdevel.com/video0s976570-1326/stream/playlist_dvr.m3u8",
             "epg": {
-                "source": "sky",
-                "id": "6481"
+                "source": "norba",
+                "id": "13292552"
             }
         },
         {
@@ -98,6 +102,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tca/TCA_CH32_9818"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "icarotv.svg",
@@ -117,7 +125,11 @@
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8",
+                "epg": {
+                    "source": "oggiintv",
+                    "id": "Telepace"
+                }
             },
             {
                 "sublcn": 4,

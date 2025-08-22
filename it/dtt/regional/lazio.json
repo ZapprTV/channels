@@ -20,6 +20,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/manifest.mpd",
+            "epg": {
+                "source": "canaledieci",
+                "id": "canale-dieci"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "standbytv",
@@ -93,6 +97,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://stream.ets-sistemi.it:19360/teleuniverso/teleuniverso.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tro/TRO_CH27_6803"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "teleuniverso+1",
@@ -303,7 +311,11 @@
             "logo": "telepace.svg",
             "name": "Telepace",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+            "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8",
+            "epg": {
+                "source": "oggiintv",
+                "id": "Telepace"
+            }
         },
         {
             "lcn": 76,

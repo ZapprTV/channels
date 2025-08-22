@@ -68,7 +68,11 @@
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8",
+                "epg": {
+                    "source": "oggiintv",
+                    "id": "Telepace"
+                }
             },
             {
                 "categorySeparator": "Canali Corallo"  
@@ -79,7 +83,11 @@
                 "name": "Tele Dehon",
                 "hd": true,
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
+                "epg": {
+                    "source": "digitalbitrate",
+                    "id": "tca/TCA_CH32_9818"
+                }
             },
             {
                 "sublcn": 8,
@@ -125,7 +133,11 @@
             "name": "Telecity Liguria",
             "subtitle": "(Telecity Piemonte)",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/telecitypiemonte/telecitypiemonte/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/telecitypiemonte/telecitypiemonte/playlist.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH21_1008"
+            }
         },
         {
             "lcn": 14,
@@ -148,12 +160,20 @@
             "hd": true,
             "type": "dash",
             "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH34_25"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8",
+                "epg": {
+                    "source": "tv33",
+                    "id": "alto-adige"
+                }
             },
             {
                 "sublcn": 2,
@@ -258,7 +278,11 @@
                 "logo": "lactv.svg",
                 "name": "LaC",
                 "type": "dash",
-                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/manifest.mpd"            
+                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/manifest.mpd",
+                "epg": {
+                    "source": "lacplay",
+                    "id": "lac-tv"
+                }
             },
             {
                 "sublcn": 6,
@@ -281,7 +305,11 @@
                 "name": "Teleuniverso",
                 "hd": true,
                 "type": "hls",
-                "url": "https://stream.ets-sistemi.it:19360/teleuniverso/teleuniverso.m3u8"
+                "url": "https://stream.ets-sistemi.it:19360/teleuniverso/teleuniverso.m3u8",
+                "epg": {
+                    "source": "digitalbitrate",
+                    "id": "tro/TRO_CH27_6803"
+                }
             }]
         },
         {

@@ -43,6 +43,10 @@
             "hd": true,
             "type": "dash",
             "url": "https://57214cb172d84f8cb311b91513952b03.msvdn.net/live/S40896499/ZuaLjACsWIL4/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tsa/TSA_CH42_90"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "goldtv.svg",
@@ -66,6 +70,10 @@
             "name": "Telerent 7 Gold",
             "type": "dash",
             "url": "https://5db313b643fd8.streamlock.net/telerent/telerent/manifest.mpd",
+            "epg": {
+                "source": "telerent",
+                "id": "EPG.Xml"
+            },
             "hbbtv": [{
                 "categorySeparator": "Televisioni"
             },
@@ -74,7 +82,11 @@
                 "logo": "tvm",
                 "name": "TVM",
                 "type": "dash",
-                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/manifest.mpd"
+                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/manifest.mpd",
+                "epg": {
+                    "source": "telerent",
+                    "id": "EPG_TVM.xml"
+                }
             },
             {
                 "sublcn": 4,
@@ -384,7 +396,11 @@
             "name": "Video Mediterraneo",
             "hd": true,
             "type": "dash",
-            "url": "https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/manifest.mpd"
+            "url": "https://bfbe5f347ac4424faf719dda285bc39e.msvdn.net/live/S54897858/4gWO7tTzpK3N/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tsa/TSA_CH42_93"
+            }
         },
         {
             "lcn": 18,
@@ -401,7 +417,11 @@
                 "logo": "tvm",
                 "name": "TVM",
                 "type": "dash",
-                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/manifest.mpd"
+                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/manifest.mpd",
+                "epg": {
+                    "source": "telerent",
+                    "id": "EPG_TVM.xml"
+                }
             },
             {
                 "sublcn": 4,
@@ -704,6 +724,10 @@
             "name": "TVM",
             "type": "dash",
             "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/manifest.mpd",
+            "epg": {
+                "source": "telerent",
+                "id": "EPG_TVM.xml"
+            },
             "hbbtv": [{
                 "categorySeparator": "Televisioni"
             },
@@ -1441,7 +1465,11 @@
             "logo": "videocalabria.svg",
             "name": "Video Calabria",
             "type": "dash",
-            "url": "https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/manifest.mpd"
+            "url": "https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tca/TCA_CH32_9801"
+            }
         },
         {
             "lcn": 113,

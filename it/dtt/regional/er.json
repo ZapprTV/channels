@@ -32,14 +32,22 @@
                 "name": "Telecolor",
                 "hd": true,
                 "type": "dash",
-                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd"
+                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
+                "epg": {
+                    "source": "digitalbitrate",
+                    "id": "tlu/TLU_CH34_25"
+                }
             },
             {
                 "sublcn": 3,
                 "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8",
+                "epg": {
+                    "source": "tv33",
+                    "id": "alto-adige"
+                }
             },
             {
                 "sublcn": 4,
@@ -64,7 +72,11 @@
             "name": "TRC Modena",
             "hd": true,
             "type": "iframe",
-            "url": "https://vimeo.com/event/4861826/embed"
+            "url": "https://vimeo.com/event/4861826/embed",
+            "epg": {
+                "source": "selftv",
+                "id": "trmedia/eventsmo"
+            }
         },
         {
             "lcn": 12,
@@ -93,7 +105,11 @@
             "name": "TRC Bologna",
             "hd": true,
             "type": "iframe",
-            "url": "https://vimeo.com/event/4893199/embed"
+            "url": "https://vimeo.com/event/4893199/embed",
+            "epg": {
+                "source": "selftv",
+                "id": "trmedia/eventsbo"
+            }
         },
         {
             "lcn": 16,
@@ -145,7 +161,11 @@
                 "name": "Tele Dehon",
                 "hd": true,
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
+                "epg": {
+                    "source": "digitalbitrate",
+                    "id": "tca/TCA_CH32_9818"
+                }
             },
             {
                 "sublcn": 5,
@@ -159,7 +179,11 @@
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8",
+                "epg": {
+                    "source": "oggiintv",
+                    "id": "Telepace"
+                }
             },
             {
                 "sublcn": 7,
@@ -280,7 +304,11 @@
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8",
+                "epg": {
+                    "source": "oggiintv",
+                    "id": "Telepace"
+                }
             },
             {
                 "sublcn": 6,
@@ -343,12 +371,20 @@
             "hd": true,
             "type": "dash",
             "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH34_25"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8",
+                "epg": {
+                    "source": "tv33",
+                    "id": "alto-adige"
+                }
             },
             {
                 "sublcn": 2,
@@ -450,7 +486,11 @@
             "logo": "rtr99tv",
             "name": "RTR 99 TV",
             "type": "dash",
-            "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd"
+            "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd",
+            "epg": {
+                "source": "set",
+                "id": "rtr99"
+            }
         },
         {
             "lcn": 93,

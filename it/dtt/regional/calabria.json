@@ -18,7 +18,11 @@
             "logo": "videocalabria.svg",
             "name": "Video Calabria",
             "type": "dash",
-            "url": "https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/manifest.mpd"
+            "url": "https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tca/TCA_CH32_9801"
+            }
         },
         {
             "lcn": 11,
@@ -26,19 +30,31 @@
             "name": "LaC",
             "type": "dash",
             "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/manifest.mpd",
+            "epg": {
+                "source": "lacplay",
+                "id": "lac-tv"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "laconair.svg",
                 "name": "LaC On Air",
                 "type": "dash",
-                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/100197/SOrBDPy/manifest.mpd"
+                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/100197/SOrBDPy/manifest.mpd",
+                "epg": {
+                    "source": "lacplay",
+                    "id": "lac-onair"
+                }
             },
             {
                 "sublcn": 2,
                 "logo": "lacnetwork.svg",
                 "name": "LaC Network",
                 "type": "dash",
-                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/manifest.mpd"
+                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/manifest.mpd",
+                "epg": {
+                    "source": "lacplay",
+                    "id": "lac_network"
+                }
             }]
         },
         {
@@ -46,7 +62,11 @@
             "logo": "teleuropanetwork",
             "name": "TEN",
             "type": "dash",
-            "url": "https://7640f9b3494e4d1fb307f886e3b60402.msvdn.net/live/S41081260/ohLhSxDNpDNC/manifest.mpd"
+            "url": "https://7640f9b3494e4d1fb307f886e3b60402.msvdn.net/live/S41081260/ohLhSxDNpDNC/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tca/TCA_CH32_9803"
+            }
         },
         {
             "lcn": 13,
@@ -126,7 +146,11 @@
             "logo": "laconair.svg",
             "name": "LaC On Air",
             "type": "dash",
-            "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/100197/SOrBDPy/manifest.mpd"
+            "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/100197/SOrBDPy/manifest.mpd",
+            "epg": {
+                "source": "lacplay",
+                "id": "lac-onair"
+            }
         },
         {
             "lcn": 18,
@@ -148,6 +172,10 @@
             "name": "Telemia",
             "type": "hls",
             "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tca/TCA_CH32_9812"
+            },
             "hbbtv": [{
                 "categorySeparator": "TV"
             },
@@ -293,6 +321,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tca/TCA_CH32_9818"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "icarotv.svg",
@@ -312,7 +344,11 @@
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8",
+                "epg": {
+                    "source": "oggiintv",
+                    "id": "Telepace"
+                }
             },
             {
                 "sublcn": 4,
@@ -416,7 +452,11 @@
             "logo": "lacnetwork.svg",
             "name": "LaC Network",
             "type": "dash",
-            "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/manifest.mpd"
+            "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/manifest.mpd",
+            "epg": {
+                "source": "lacplay",
+                "id": "lac_network"
+            }
         },
         {
             "lcn": 114,

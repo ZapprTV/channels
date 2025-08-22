@@ -1286,7 +1286,11 @@
                 "logo": "supertv",
                 "name": "SuperTV",
                 "type": "dash",
-                "url": "https://cdn12.streamshow.it/hbbtv-supertv/supertv/manifest.mpd" 
+                "url": "https://cdn12.streamshow.it/hbbtv-supertv/supertv/manifest.mpd" ,
+                "epg": {
+                    "source": "digitalbitrate",
+                    "id": "tlu/TLU_CH22_2010"
+                }
             },
             {
                 "sublcn": 9,

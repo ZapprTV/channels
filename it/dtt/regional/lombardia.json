@@ -34,7 +34,11 @@
             "name": "Telecity Lombardia",
             "hd": true,
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlist.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH22_2003"
+            }
         },
         {
             "lcn": 14,
@@ -54,7 +58,11 @@
             "name": "Bergamo TV",
             "type": "hls",
             "url": "https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist_dvr.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH22_2005"
+            }
         },
         {
             "lcn": 16,
@@ -85,12 +93,20 @@
             "hd": true,
             "type": "dash",
             "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH34_25"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "tv33.svg",
                 "name": "TV33 Bolzano",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8"
+                "url": "https://64b16f23efbee.streamlock.net/tv33bz/tv33bz/playlist.m3u8",
+                "epg": {
+                    "source": "tv33",
+                    "id": "alto-adige"
+                }
             },
             {
                 "sublcn": 2,
@@ -111,14 +127,22 @@
                 "logo": "telereporter",
                 "name": "Telereporter",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8",
+                "epg": {
+                    "source": "publirose",
+                    "id": "telereporter"
+                }
             },
             {
                 "sublcn": 5,
                 "logo": "telecampione.svg",
                 "name": "Telecampione",
                 "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/manifest.mpd"
+                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/manifest.mpd",
+                "epg": {
+                    "source": "publirose",
+                    "id": "telecampione"
+                }
             },
             {
                 "sublcn": 6,
@@ -183,7 +207,11 @@
             "name": "Milano Pavia TV",
             "hd": true,
             "type": "hls",
-            "url": "https://cdn7.streamshow.it/hbbtv-milanopaviatv/milanopaviatv/playlist.m3u8"
+            "url": "https://cdn7.streamshow.it/hbbtv-milanopaviatv/milanopaviatv/playlist.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH34_31"
+            }
         },
         {
             "lcn": 79,
@@ -220,14 +248,22 @@
             "logo": "teleboario",
             "name": "TeleBoario",
             "type": "hls",
-            "url": "https://router.xdevel.com/video0s976425-1205/stream/playlist_dvr.m3u8"
+            "url": "https://router.xdevel.com/video0s976425-1205/stream/playlist_dvr.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH34_30"
+            }
         },
         {
             "lcn": 82,
             "logo": "telereporter",
             "name": "Telereporter",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8"
+            "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8",
+            "epg": {
+                "source": "publirose",
+                "id": "telereporter"
+            }
         },
         {
             "lcn": 83,
@@ -288,7 +324,11 @@
             "name": "SeilaTV Bergamo",
             "hd": true,
             "type": "dash",
-            "url": "https://nrvideo1.newradio.it:1936/efstzahwew/efstzahwew/manifest.mpd"
+            "url": "https://nrvideo1.newradio.it:1936/efstzahwew/efstzahwew/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH22_2014"
+            }
         },
         {
             "lcn": 96,
@@ -296,6 +336,10 @@
             "name": "SuperTV",
             "type": "dash",
             "url": "https://cdn12.streamshow.it/hbbtv-supertv/supertv/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH22_2010"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "teleleonessa",
@@ -477,7 +521,11 @@
             "logo": "rtr99tv",
             "name": "RTR 99 TV",
             "type": "dash",
-            "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd"
+            "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd",
+            "epg": {
+                "source": "set",
+                "id": "rtr99"
+            }
         }
     ]
 }

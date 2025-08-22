@@ -26,7 +26,11 @@
             "name": "Televomero",
             "type": "hls",
             "url": "https://stream2.xdevel.com/video0s100-23/stream/playlist.m3u8",
-            "license": "xdevel-wms"
+            "license": "xdevel-wms",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "nap/NAP_CH41_8002"
+            }
         },
         {
             "lcn": 12,
@@ -50,7 +54,11 @@
             "name": "Canale 8",
             "subtitle": "Attivo solo durante alcuni eventi in diretta",
             "type": "hls",
-            "url": "https://59d7d6f47d7fc.streamlock.net/canale8/canale8/playlist.m3u8"
+            "url": "https://59d7d6f47d7fc.streamlock.net/canale8/canale8/playlist.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "nap/NAP_CH41_8005"
+            }
         },
         {
             "lcn": 15,
@@ -80,7 +88,11 @@
             "logo": "liratv",
             "name": "LiraTV",
             "type": "dash",
-            "url": "https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/manifest.mpd"
+            "url": "https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "nap/NAP_CH41_8009"
+            }
         },
         {
             "lcn": 19,
@@ -132,7 +144,11 @@
             "name": "StileTV",
             "hd": true,
             "type": "hls",
-            "url": "https://proxy.media.convergenze.it/stiletv/streams/oQOFd7JglHjO1631525551097.m3u8"
+            "url": "https://proxy.media.convergenze.it/stiletv/streams/oQOFd7JglHjO1631525551097.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "nap/NAP_CH31_8031"
+            }
         },
         {
             "lcn": 79,
@@ -162,7 +178,11 @@
             "logo": "nuvolatv",
             "name": "Nuvola TV",
             "type": "hls",
-            "url": "https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8"
+            "url": "https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "nap/NAP_CH34_12"
+            }
         },
         {
             "lcn": 81,
@@ -340,6 +360,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tca/TCA_CH32_9818"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "icarotv.svg",
@@ -359,7 +383,11 @@
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8"
+                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8",
+                "epg": {
+                    "source": "oggiintv",
+                    "id": "Telepace"
+                }
             },
             {
                 "sublcn": 4,
