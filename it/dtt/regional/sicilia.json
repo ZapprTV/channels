@@ -53,7 +53,11 @@
                 "name": "Gold TV",
                 "hd": true,
                 "type": "dash",
-                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd"
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd",
+                "epg": {
+                    "source": "softwarecreation",
+                    "id": "GoldTv"
+                }
             },
             {
                 "sublcn": 2,
@@ -61,7 +65,11 @@
                 "name": "Lazio TV",
                 "hd": true,
                 "type": "dash",
-                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd"
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd",
+                "epg": {
+                    "source": "softwarecreation",
+                    "id": "LazioTv"
+                }
             }]
         },
         {

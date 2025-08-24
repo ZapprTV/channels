@@ -124,7 +124,11 @@
                 "name": "Lazio TV",
                 "hd": true,
                 "type": "dash",
-                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd"
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd",
+                "epg": {
+                    "source": "softwarecreation",
+                    "id": "LazioTv"
+                }
             },
             {
                 "sublcn": 12,
@@ -132,7 +136,11 @@
                 "name": "Gold TV",
                 "hd": true,
                 "type": "dash",
-                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd"
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd",
+                "epg": {
+                    "source": "softwarecreation",
+                    "id": "GoldTv"
+                }
             }]
         },
         {
@@ -159,13 +167,21 @@
             "name": "Telechiara",
             "type": "dash",
             "url": "https://fms.telemar.it:1936/telechiara/diretta/manifest.mpd",
+            "epg": {
+                "source": "videomedia",
+                "id": "C"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "tvavicenza.svg",
                 "name": "TVA Vicenza",
                 "hd": true,
                 "type": "dash",
-                "url": "https://fms.telemar.it:1936/live/diretta_1/manifest.mpd"
+                "url": "https://fms.telemar.it:1936/live/diretta_1/manifest.mpd",
+                "epg": {
+                    "source": "videomedia",
+                    "id": "E"
+                }
             }]
         },
         {

@@ -120,7 +120,11 @@
                 "logo": "ètvmarche.svg",
                 "name": "èTV Marche",
                 "type": "dash",
-                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/manifest.mpd"
+                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/manifest.mpd",
+                "epg": {
+                    "source": "ètv",
+                    "id": "Palinsesto_Marche"
+                }
             },
             {
                 "sublcn": 4,
@@ -150,7 +154,11 @@
                 "name": "Lazio TV",
                 "hd": true,
                 "type": "dash",
-                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd"
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd",
+                "epg": {
+                    "source": "softwarecreation",
+                    "id": "LazioTv"
+                }
             },
             {
                 "sublcn": 7,
@@ -158,7 +166,11 @@
                 "name": "Gold TV",
                 "hd": true,
                 "type": "dash",
-                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd"
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd",
+                "epg": {
+                    "source": "softwarecreation",
+                    "id": "GoldTv"
+                }
             }]
         },
         {
@@ -178,7 +190,11 @@
             "name": "CR1",
             "type": "iframe",
             "url": "https://embed.streamshow.net/live-player/?token=CoMY4MG42Kpl4WpU3aU7Vo4MSHPbtskWCEoMyAUdEONnWA41BlXRLQUkTCrse4wO-xYQpQBEpPaE|p41nyMUPA==",
-            "cssfix": "streamshow-embed"
+            "cssfix": "streamshow-embed",
+            "epg": {
+                "source": "cr1",
+                "id": "cr1"
+            }
         },
         {
             "lcn": 73,

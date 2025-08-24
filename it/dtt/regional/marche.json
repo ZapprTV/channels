@@ -35,7 +35,11 @@
             "logo": "veratv.svg",
             "name": "Vera TV",
             "type": "dash",
-            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/manifest.mpd"
+            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/manifest.mpd",
+            "epg": {
+                "source": "veratv",
+                "id": "Get_ApiAppMarcheSchedules"
+            }
         },
         {
             "lcn": 12,
@@ -43,6 +47,10 @@
             "name": "èTV Marche",
             "type": "dash",
             "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/manifest.mpd",
+            "epg": {
+                "source": "ètv",
+                "id": "Palinsesto_Marche"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "ètvrete7.svg",
@@ -79,7 +87,11 @@
                 "name": "Lazio TV",
                 "hd": true,
                 "type": "dash",
-                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd"
+                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd",
+                "epg": {
+                    "source": "softwarecreation",
+                    "id": "LazioTv"
+                }
             },
             {
                 "sublcn": 5,
@@ -87,7 +99,11 @@
                 "name": "Gold TV",
                 "hd": true,
                 "type": "dash",
-                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd"
+                "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd",
+                "epg": {
+                    "source": "softwarecreation",
+                    "id": "GoldTv"
+                }
             }]
         },
         {

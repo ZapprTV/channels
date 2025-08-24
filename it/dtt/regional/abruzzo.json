@@ -160,7 +160,11 @@
             "logo": "veratv.svg",
             "name": "Vera TV",
             "type": "dash",
-            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/manifest.mpd"
+            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/manifest.mpd",
+            "epg": {
+                "source": "veratv",
+                "id": "Get_ApiAppMarcheSchedules"
+            }
         },
         {
             "lcn": 89,
