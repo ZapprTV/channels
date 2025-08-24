@@ -539,14 +539,6 @@
             "geoblock": true
         },
         {
-            "lcn": 45,
-            "logo": "boingplus.svg",
-            "name": "Boing Plus",
-            "type": "hls",
-            "url": "https://dttstream.zappr.stream/boingplus.m3u8",
-            "geoblock": true
-        },
-        {
             "lcn": 46,
             "logo": "cartoonito.svg",
             "name": "Cartoonito",
