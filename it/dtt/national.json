@@ -180,7 +180,7 @@
             "name": "NOVE",
             "hd": true,
             "type": "hls",
-            "url": "https://d28crvwvd3upvk.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8",
+            "url": "https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "118"
@@ -354,7 +354,7 @@
             "name": "Real Time",
             "hd": true,
             "type": "hls",
-            "url": "https://dpe9o84j8ho51.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8",
+            "url": "https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "346"
@@ -378,7 +378,7 @@
             "name": "Food Network",
             "hd": true,
             "type": "hls",
-            "url": "https://dlv0tnsho08fc.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8",
+            "url": "https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1348"
@@ -429,7 +429,7 @@
             "name": "Warner TV",
             "hd": true,
             "type": "hls",
-            "url": "https://amg16146-wbdi-amg16146c4-samsung-it-1837.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-warnertv-samsungit/playlist.m3u8",
+            "url": "https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "2015"
@@ -442,7 +442,7 @@
             "name": "Giallo",
             "hd": true,
             "type": "hls",
-            "url": "https://d2pxu244r32qi9.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-giallo-samsungit/playlist.m3u8",
+            "url": "https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "191"
@@ -483,7 +483,7 @@
             "logo": "k2.svg",
             "name": "K2",
             "type": "hls",
-            "url": "https://dh816p8puicq.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8",
+            "url": "https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "225"
@@ -531,7 +531,7 @@
             "logo": "frisbee",
             "name": "Frisbee",
             "type": "hls",
-            "url": "https://ddqvq37ms0b77.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-frisbee-samsungit/playlist.m3u8",
+            "url": "https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "189"
@@ -621,7 +621,7 @@
             "name": "DMAX",
             "hd": true,
             "type": "hls",
-            "url": "https://d1kirxefyktddx.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8",
+            "url": "https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "137"
@@ -685,7 +685,7 @@
             "name": "HGTV - Home & Garden",
             "hd": true,
             "type": "hls",
-            "url": "https://dncwa2a3o9ock.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-hgtv-samsungit/playlist.m3u8",
+            "url": "https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1646"
@@ -743,7 +743,7 @@
             "name": "Motor Trend",
             "hd": true,
             "type": "hls",
-            "url": "https://d3k8z7jdiq6btv.cloudfront.net/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8",
+            "url": "https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1384"
