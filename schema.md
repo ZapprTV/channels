@@ -710,6 +710,69 @@
 
 
 
+### channels.manualRestart
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Impostazioni per il restart manuale</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Dove prendere i link per il restart manuale e per quale canale.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Object</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+### channels.manualRestart.source
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Sorgente</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Quale sorgente usare.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
+### channels.manualRestart.id
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">ID del canale</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">L&#x27;identificativo del canale nella sorgente del restart.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
+
 ### channels.hbbtv
 
 
