@@ -103,6 +103,10 @@
                 "source": "blue",
                 "id": "348"
             },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "R4"
+            },
             "geoblock": {
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/rete4/browser-HLS8/rete4.m3u8",
@@ -119,6 +123,10 @@
             "epg": {
                 "source": "blue",
                 "id": "79"
+            },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "C5"
             },
             "geoblock": {
                 "type": "hls",
@@ -137,6 +145,10 @@
                 "source": "blue",
                 "id": "215"
             },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "I1"
+            },
             "geoblock": {
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8",
@@ -153,6 +165,10 @@
             "epg": {
                 "source": "blue",
                 "id": "237"
+            },
+            "manualRestart": {
+                "source": "la7",
+                "id": "la7"
             },
             "hbbtv": [{
                 "sublcn": 1,
@@ -171,6 +187,10 @@
             "epg": {
                 "source": "blue",
                 "id": "266"
+            },
+            "manualRestart": {
+                "source": "sky",
+                "id": "tv8"
             },
             "geoblock": true
         },
@@ -202,6 +222,10 @@
                 "source": "blue",
                 "id": "1379"
             },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "LB"
+            },
             "geoblock": true
         },
         {
@@ -232,6 +256,10 @@
             "epg": {
                 "source": "blue",
                 "id": "214"
+            },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "KI"
             },
             "geoblock": true
         },
@@ -296,6 +324,10 @@
                 "source": "blue",
                 "id": "96"
             },
+            "manualRestart": {
+                "source": "sky",
+                "id": "cielo"
+            },
             "geoblock": true
         },
         {
@@ -308,6 +340,10 @@
             "epg": {
                 "source": "blue",
                 "id": "1948"
+            },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "TS"
             },
             "geoblock": true
         },
@@ -345,6 +381,10 @@
             "epg": {
                 "source": "blue",
                 "id": "243"
+            },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "KA"
             },
             "geoblock": true
         },
@@ -396,6 +436,10 @@
                 "source": "blue",
                 "id": "1665"
             },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "B6"
+            },
             "geoblock": true
         },
         {
@@ -408,6 +452,10 @@
             "epg": {
                 "source": "blue",
                 "id": "1346"
+            },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "FU"
             },
             "geoblock": true
         },
@@ -460,6 +508,10 @@
                 "source": "blue",
                 "id": "613"
             },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "LT"
+            },
             "geoblock": true
         },
         {
@@ -472,6 +524,10 @@
             "epg": {
                 "source": "blue",
                 "id": "51"
+            },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "KB"
             },
             "geoblock": {
                 "type": "hls",
@@ -549,6 +605,10 @@
                 "source": "blue",
                 "id": "84"
             },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "LA"
+            },
             "geoblock": {
                 "type": "hls",
                 "url": "https://liveturner.akamaized.net/95b0be1a00834dd2b81c021bc5a35b9c/eu-central-1/6284318116001/playlist.m3u8"
@@ -587,6 +647,10 @@
             "epg": {
                 "source": "blue",
                 "id": "216"
+            },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "I2"
             },
             "geoblock": true
         },
@@ -676,6 +740,10 @@
             "epg": {
                 "source": "blue",
                 "id": "257"
+            },
+            "manualRestart": {
+                "source": "mediaset",
+                "id": "KQ"
             },
             "geoblock": true
         },

@@ -307,6 +307,25 @@
                         },
                         "required": ["source", "id"]
                     },
+                    "manualRestart": {
+                        "type": "object",
+                        "title": "Impostazioni per il restart manuale",
+                        "description": "Dove prendere i link per il restart manuale e per quale canale.",
+                        "additionalProperties": false,
+                        "properties": {
+                            "source": {
+                                "type": "string",
+                                "title": "Sorgente",
+                                "description": "Quale sorgente usare."
+                            },
+                            "id": {
+                                "type": "string",
+                                "title": "ID del canale",
+                                "description": "L'identificativo del canale nella sorgente del restart."
+                            }
+                        },
+                        "required": ["source", "id"]
+                    },
                     "hbbtv": {
                         "type": "array",
                         "title": "Canali HbbTV",
