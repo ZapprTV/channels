@@ -205,6 +205,10 @@
                 "source": "blue",
                 "id": "118"
             },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "nove"
+            },
             "geoblock": {
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/nove/browser-HLS8/nove.m3u8",
@@ -399,6 +403,10 @@
                 "source": "blue",
                 "id": "346"
             },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "realtime"
+            },
             "geoblock": true
         },
         {
@@ -422,6 +430,10 @@
             "epg": {
                 "source": "blue",
                 "id": "1348"
+            },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "foodnetwork"
             },
             "geoblock": true
         },
@@ -482,6 +494,10 @@
                 "source": "blue",
                 "id": "2015"
             },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "warnertv"
+            },
             "geoblock": true
         },
         {
@@ -494,6 +510,10 @@
             "epg": {
                 "source": "blue",
                 "id": "191"
+            },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "giallo"
             },
             "geoblock": true
         },
@@ -690,6 +710,10 @@
                 "source": "blue",
                 "id": "137"
             },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "dmax"
+            },
             "geoblock": {
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/dmaxitalia/browser-HLS8/dmaxitalia.m3u8",
@@ -758,6 +782,10 @@
                 "source": "blue",
                 "id": "1646"
             },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "hgtv"
+            },
             "geoblock": true
         },
         {
@@ -815,6 +843,10 @@
             "epg": {
                 "source": "blue",
                 "id": "1384"
+            },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "motortrend"
             },
             "geoblock": true
         },
