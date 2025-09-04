@@ -856,7 +856,7 @@
             "name": "Sportitalia",
             "hd": true,
             "type": "dash",
-            "url": "https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/manifest.mpd",
+            "url": "https://origin.streamup.eu/sportitalia/sihd_1080p/manifest.mpd",
             "epg": {
                 "source": "blue",
                 "id": "1387"
@@ -871,7 +871,7 @@
                 "name": "Primavera TV",
                 "hd": true,
                 "type": "dash",
-                "url": "https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/smil:silive2402.smil/manifest.mpd",
+                "url": "https://origin.streamup.eu/sportitaliain/silive24/manifest.mpd",
                 "geoblock": true
             },
             {
@@ -880,7 +880,7 @@
                 "name": "SI SoloCalcio",
                 "hd": true,
                 "type": "dash",
-                "url": "https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/manifest.mpd",
+                "url": "https://origin.streamup.eu/sportitaliain/sisolocalcio/manifest.mpd",
                 "epg": {
                     "source": "blue",
                     "id": "2049"
@@ -893,7 +893,7 @@
                 "name": "BIKE",
                 "hd": true,
                 "type": "dash",
-                "url": "https://di-f1hy8rov.vo.lswcdn.net/test/biketv_720p/manifest.mpd",
+                "url": "https://origin.streamup.eu/livein/bike/manifest.mpd",
                 "epg": {
                     "source": "blue",
                     "id": "2054"
@@ -2429,13 +2429,13 @@
             "hbbtvmosaic": true,
             "hbbtv": [{
                 "sublcn": 1,
-                "logo": "digi24.svg",
-                "name": "Digi24",
+                "logo": "tvpinfo.svg",
+                "name": "TVP Info",
                 "type": "hls",
                 "url": "https://stream10.xdevel.com/video15s975955-2171/stream/playlist.m3u8",
                 "epg": {
                     "source": "blue",
-                    "id": "1650"
+                    "id": "2066"
                 }
             },
             {
@@ -2682,7 +2682,11 @@
                 "logo": "telespaziotv",
                 "name": "Telespazio TV",
                 "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/manifest.mpd"
+                "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/manifest.mpd",
+                "epg": {
+                    "source": "digitalbitrate",
+                    "id": "tca/TCA_CH32_9807"
+                }
             },
             {
                 "sublcn": 4,

@@ -96,6 +96,10 @@
             "name": "Telespazio TV",
             "type": "dash",
             "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tca/TCA_CH32_9807"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "businesschannel",

@@ -215,7 +215,7 @@
             "logo": "telelibertà",
             "name": "Telelibertà",
             "type": "dash",
-            "url": "https://di-f1hy8rov.vo.lswcdn.net/origin/smil:teleliberta.smil/manifest.mpd"
+            "url": "https://liberta.cdn.streamup.eu/origin/teleliberta_abr/manifest.mpd"
         },
         {
             "lcn": 78,
@@ -391,7 +391,7 @@
             "logo": "mylivignotv",
             "name": "My Livigno TV",
             "type": "youtube",
-            "url": "zappr://wp-yt-iframe/www.mylivigno.tv/420"
+            "url": "UCyGR8utQqyiEWSoXPFG_kIg"
         },
         {
             "lcn": 112,
@@ -470,7 +470,7 @@
             "logo": "mylivignotvnews",
             "name": "My Livigno TV News",
             "type": "youtube",
-            "url": "zappr://wp-yt-iframe/www.mylivigno.tv/434"
+            "url": "vEv39eehsQI"
         },
         {
             "lcn": 181,
