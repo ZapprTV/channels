@@ -208,11 +208,6 @@
             "manualRestart": {
                 "source": "wbd",
                 "id": "nove"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/nove/browser-HLS8/nove.m3u8",
-                "api": "cloudflare"
             }
         },
         {
@@ -406,8 +401,7 @@
             "manualRestart": {
                 "source": "wbd",
                 "id": "realtime"
-            },
-            "geoblock": true
+            }
         },
         {
             "lcn": 32,
@@ -434,8 +428,7 @@
             "manualRestart": {
                 "source": "wbd",
                 "id": "foodnetwork"
-            },
-            "geoblock": true
+            }
         },
         {
             "lcn": 34,
@@ -497,8 +490,7 @@
             "manualRestart": {
                 "source": "wbd",
                 "id": "warnertv"
-            },
-            "geoblock": true
+            }
         },
         {
             "lcn": 38,
@@ -514,8 +506,7 @@
             "manualRestart": {
                 "source": "wbd",
                 "id": "giallo"
-            },
-            "geoblock": true
+            }
         },
         {
             "lcn": 39,
@@ -563,8 +554,7 @@
             "epg": {
                 "source": "blue",
                 "id": "225"
-            },
-            "geoblock": true
+            }
         },
         {
             "lcn": 42,
@@ -611,8 +601,7 @@
             "epg": {
                 "source": "blue",
                 "id": "189"
-            },
-            "geoblock": true
+            }
         },
         {
             "lcn": 46,
@@ -713,11 +702,6 @@
             "manualRestart": {
                 "source": "wbd",
                 "id": "dmax"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/dmaxitalia/browser-HLS8/dmaxitalia.m3u8",
-                "api": "cloudflare"
             }
         },
         {
@@ -785,8 +769,7 @@
             "manualRestart": {
                 "source": "wbd",
                 "id": "hgtv"
-            },
-            "geoblock": true
+            }
         },
         {
             "lcn": 57,
@@ -847,8 +830,7 @@
             "manualRestart": {
                 "source": "wbd",
                 "id": "motortrend"
-            },
-            "geoblock": true
+            }
         },
         {
             "lcn": 60,
@@ -875,8 +857,8 @@
                 "logo": "sisolocalcio.svg",
                 "name": "SI SoloCalcio",
                 "hd": true,
-                "type": "dash",
-                "url": "https://origin.streamup.eu/sportitaliain/sisolocalcio/manifest.mpd",
+                "type": "hls",
+                "url": "https://italiansport-solocalcio-samsung.amagi.tv/hls/amagi_hls_data_sportital-solocalcio-samsung-italy/CDN/playlist.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "2049"
