@@ -64,8 +64,8 @@
                 "logo": "laziotv.svg",
                 "name": "Lazio TV",
                 "hd": true,
-                "type": "dash",
-                "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd",
+                "type": "hls",
+                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8",
                 "epg": {
                     "source": "softwarecreation",
                     "id": "LazioTv"

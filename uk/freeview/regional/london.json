@@ -1,0 +1,105 @@
+{
+    "$schema": "../../../schema.json",
+    "channels": [
+        {
+            "lcn": 1,
+            "logo": "bbcone.svg",
+            "name": "BBC One",
+            "type": "dash",
+            "url": "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_london/pc_hd_abr_v2.mpd",
+            "hd": true,
+            "geoblock": {
+                "type": "hls",
+                "url": "https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8"
+            }
+        },
+        {
+            "lcn": 2,
+            "logo": "bbctwo.svg",
+            "name": "BBC Two",
+            "type": "dash",
+            "url": "https://vs-cmaf-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/pc_hd_abr_v2.mpd",
+            "hd": true,
+            "geoblock": {
+                "type": "hls",
+                "url": "https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8"
+            }
+        },
+        {
+            "lcn": 4,
+            "logo": "channel4.svg",
+            "name": "Channel 4",
+            "type": "dash",
+            "url": "https://olsp.live.dash.c4assets.com/dash_iso_sp_tl/live/channel(c4)/manifest.mpd",
+            "hd": true,
+            "license": "clearkey",
+            "licensedetails": "0000000000000000000000000063340a:5ce85f1aa5771900b952f0ba58857d7a"
+        },
+        {
+            "lcn": 9,
+            "logo": "bbcfour.svg",
+            "name": "BBC Four",
+            "type": "dash",
+            "url": "https://vs-cmaf-pushb-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_four_hd/iptv_hd_abr_v1.mpd",
+            "hd": true,
+            "geoblock": {
+                "type": "hls",
+                "url": "https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8"
+            }
+        },
+        {
+            "lcn": 711,
+            "logo": "bbcradioberkshire.svg",
+            "name": "BBC Radio Berkshire",
+            "type": "hls",
+            "url": "https://lsn.lv/bbcradio.m3u8?station=bbc_radio_berkshire&bitrate=320000",
+            "radio": true
+        },
+        {
+            "lcn": 712,
+            "logo": "bbcthreecountiesradio.svg",
+            "name": "BBC Three Counties Radio",
+            "type": "hls",
+            "url": "https://lsn.lv/bbcradio.m3u8?station=bbc_three_counties_radio&bitrate=320000",
+            "radio": true
+        },
+        {
+            "lcn": 713,
+            "logo": "bbcradiolondon.svg",
+            "name": "BBC Radio London",
+            "type": "hls",
+            "url": "https://lsn.lv/bbcradio.m3u8?station=bbc_london&bitrate=320000",
+            "radio": true
+        },
+        {
+            "lcn": 714,
+            "logo": "bbcradiosurrey.svg",
+            "name": "BBC Radio Surrey",
+            "type": "hls",
+            "url": "https://lsn.lv/bbcradio.m3u8?station=bbc_radio_surrey&bitrate=320000",
+            "radio": true
+        },
+        {
+            "lcn": 716,
+            "logo": "bbcessex.svg",
+            "name": "BBC Essex",
+            "type": "hls",
+            "url": "https://lsn.lv/bbcradio.m3u8?station=bbc_radio_essex&bitrate=320000",
+            "radio": true
+        },
+        {
+            "lcn": 718,
+            "logo": "smoothradio.svg",
+            "name": "Smooth Radio",
+            "type": "audio",
+            "url": "https://media-ssl.musicradio.com/SmoothLondon"
+        },
+        {
+            "lcn": 728,
+            "logo": "heart.svg",
+            "name": "Heart",
+            "type": "audio",
+            "url": "https://media-ssl.musicradio.com/HeartLondon"
+        }
+    ]
+}

@@ -52,7 +52,7 @@
             "logo": "antennasud",
             "name": "Antenna Sud",
             "type": "hls",
-            "url": "https://live.antennasudwebtv.it:9443/hls/vod.m3u8"
+            "url": "https://stream.antennasudwebtv.it:9443/hls/vod.m3u8"
         },
         {
             "lcn": 15,
@@ -182,7 +182,7 @@
             "logo": "teleregionecolor",
             "name": "Teleregione Color",
             "type": "hls",
-            "url": "https://live.antennasudwebtv.it:9443/hls/vodtele.m3u8"
+            "url": "https://stream.antennasudwebtv.it:9443/hls/vodtele.m3u8"
         },
         {
             "lcn": 78,

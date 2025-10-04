@@ -360,8 +360,8 @@
         },
         {
             "lcn": 29,
-            "logo": "la7d.svg",
-            "name": "LA7d",
+            "logo": "la7cinema.svg",
+            "name": "LA7 Cinema",
             "hd": true,
             "type": "dash",
             "url": "zappr://la7-hbbtv/la7d_live",
@@ -965,7 +965,7 @@
             "logo": "almatv.svg",
             "name": "Alma TV",
             "type": "hls",
-            "url": "https://almatv.tv/video/viewlivestreaming?rel=29&cntr=0",
+            "url": "https://almatv.tv/video/viewlivestreaming?rel=47165&cntr=0",
             "api": "vercel",
             "epg": {
                 "source": "blue",

@@ -1,0 +1,30 @@
+name: ❓ Channel request (EN)
+description: Request a channel.
+labels:
+  - Request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to help improve Zappr by sending us this report. Please insert the name of the channel you want to request in the issue title.
+
+        **Before sending this request, however,** check that no one else has already requested this channel. [Visit the Issues tab](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3ARequest) and search the name of the channel you want to request: if you don't find an issue requesting the same channel you want to request, continue filling this form out.
+  - type: input
+    id: name
+    attributes:
+      label: Channel name
+      placeholder: ITV1
+    validations:
+      required: true
+  - type: input
+    id: lcn
+    attributes:
+      label: Channel number
+      placeholder: "3"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Channel streaming link
+      description: If you can find it.

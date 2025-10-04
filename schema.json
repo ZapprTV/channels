@@ -1,84 +1,84 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "Schema canali Zappr",
+    "title": "Zappr channels schema",
     "type": "object",
     "properties": {
         "channels": {
             "type": "array",
-            "title": "Array dei canali",
-            "description": "L'array contenente tutti i canali.",
+            "title": "Channels array",
+            "description": "The array that contains all channels.",
             "items": {
                 "type": "object",
                 "additionalProperties": false,
                 "properties": {
                     "lcn": {
                         "type": "number",
-                        "title": "LCN canale",
-                        "description": "La LCN del canale sul digitale terrestre."
+                        "title": "Channel LCN",
+                        "description": "The channel's LCN on DTT / Freeview."
                     },
                     "logo": {
                         "type": "string",
-                        "title": "Logo canale",
-                        "description": "Il nome del file del logo del canale. Se è in formato SVG, serve aggiungere '.svg' alla fine; altrimenti, se è in formato PNG/WEBP è necessario non specificare alcuna estensione.",
+                        "title": "Channel logo",
+                        "description": "The filename of the channel's logo. If it's in SVG format, you need to suffix it with '.svg'; otherwise, if it's in PNG/WEBP format you must not specify any file extension.",
                         "pattern": "^(?!.*\\.(png|webp)$).*"
                     },
                     "name": {
                         "type": "string",
-                        "title": "Nome canale",
-                        "description": "Il nome del canale."
+                        "title": "Channel name",
+                        "description": "The channel's name."
                     },
                     "subtitle": {
                         "type": "string",
-                        "title": "Sottotitolo canale",
-                        "description": "Il sottotitolo del canale, che verrà mostrato sotto il canale in grigio e con un font più piccolo."
+                        "title": "Channel subtitle",
+                        "description": "The channel's subtitle, which will be shown in a smaller and gray form under the channel name."
                     },
                     "hd": {
                         "type": "boolean",
-                        "title": "Contrassegna come canale HD",
-                        "description": "Se è il canale è in alta definizione (e qualità)."
+                        "title": "Mark as HD",
+                        "description": "If the channel is in high resolution (and quality!)."
                     },
                     "uhd": {
                         "type": "boolean",
-                        "title": "Contrassegna come canale 4K",
-                        "description": "Se è il canale è in 4K."
+                        "title": "Mark as 4K",
+                        "description": "If the channel is in 4K."
                     },
                     "radio": {
                         "type": ["string", "boolean"],
-                        "title": "Contrassegna come canale radio",
-                        "description": "Se è il canale è una radio (cioè se ha una stream senza video o con un'immagine fissa).",
+                        "title": "Mark as a radio channel",
+                        "description": "If the channel is a radio station (if its streaming only has an audio track or if its video track is a static image).",
                         "enum": [true, "video", false],
                         "meta:enum": {
-                            "true": "Il canale è una radio, senza stream video.",
-                            "video": "Il canale è una radio, con una stream con un'immagine fissa."
+                            "true": "The channel is a radio, without any video track.",
+                            "video": "The channel is a radio, with a video track only containing a static image."
                         },
                         "anyOf": [{
                             "const": true,
-                            "description": "Il canale è una radio, senza stream video."
+                            "description": "The channel is a radio, without any video track."
                         },
                         {
                             "const": "video",
-                            "description": "Il canale è una radio, con una stream con un'immagine fissa."        
+                            "description": "The channel is a radio, with a video track only containing a static image."        
                         }]
                     },
                     "ondemand": {
                         "type": "boolean",
-                        "title": "Contrassegna come contenuto on-demand",
-                        "description": "Se è il canale è un video on-demand (e non una diretta)."
+                        "title": "Mark as VOD",
+                        "description": "If the channel is a VOD and not a livestream."
                     },
                     "type": {
                         "type": "string",
-                        "title": "Tipo stream",
-                        "description": "Il tipo della stream.",
+                        "title": "Stream type",
+                        "description": "The stream type.",
                         "enum": ["hls", "dash", "twitch", "youtube", "iframe", "audio", "direct", "popup"],
                         "meta:enum": {
                             "hls": "HLS (.m3u / .m3u8)",
                             "dash": "DASH (.mpd)",
                             "twitch": "Twitch (username)",
-                            "youtube": "YouTube (ID video o canale)",
+                            "youtube": "YouTube (video or channel ID)",
                             "iframe": "IFrame (URL)",
-                            "audio": "Audio (es. Icecast)",
-                            "direct": "'Diretto' (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente <video> (non audio!) senza bisogno di librerie JavaScript aggiuntive",
-                            "popup": "Finestra popup (URL)"
+                            "audio": "Audio (e.g. Icecast)",
+                            "direct": "'Direct' (not HLS, DASH, etc.): a livestream/VOD playable by a <video> (not audio!) element without the need of any additional JavaScript libraries",
+                            "popup": "Popup window (URL)"
                         },
                         "anyOf": [{
                             "const": "hls",
@@ -94,7 +94,7 @@
                         },
                         {
                             "const": "youtube",
-                            "title": "YouTube (ID video o canale)"
+                            "title": "YouTube (video or channel ID)"
                         },
                         {
                             "const": "iframe",
@@ -102,36 +102,37 @@
                         },
                         {
                             "const": "audio",
-                            "title": "Audio (es. Icecast)"
+                            "title": "Audio (e.g. Icecast)"
                         },
                         {
                             "const": "direct",
-                            "title": "'Diretto' (non HLS, DASH, ecc.)",
-                            "description": "Una diretta/contenuto on-demand riproducibile da una sorgente <video> (non audio!) senza bisogno di librerie JavaScript aggiuntive"
+                            "title": "'Direct' (not HLS, DASH, etc.)",
+                            "description": "A livestream/VOD playable by a <video> (not audio!) element without the need of any additional JavaScript libraries"
                         },
                         {
                             "const": "popup",
-                            "title": "Finestra popup (URL)"
+                            "title": "Popup window (URL)"
                         }]
                     },
                     "url": {
                         "type": "string",
-                        "title": "URL stream",
-                        "description": "L'URL della stream."
+                        "title": "Stream URL",
+                        "description": "The stream URL."
                     },
                     "http": {
                         "type": "boolean",
-                        "title": "Contrassegna stream come non visibile tramite HTTPS",
-                        "description": "Se l'URL della stream non usa il protocollo HTTPS e va per forza visto tramite HTTP, l'URL viene riprodotto in una nuova finestra che usa il protocollo HTTP."
+                        "title": "Mark stream as not visibile via HTTPS",
+                        "description": "If the stream URL doesn't use the HTTPS protocol and has to be viewed via HTTP."
                     },
                     "license": {
                         "type": "string",
-                        "title": "Tipo di licenza/DRM",
-                        "description": "Quale sistema di licenza/DRM usare per riprodurre il canale.",
-                        "enum": ["xdevel-wms", "rai-akamai"],
+                        "title": "DRM/license type",
+                        "description": "What DRM/licensing system to use to play the channel.",
+                        "enum": ["xdevel-wms", "rai-akamai", "clearkey"],
                         "meta:enum": {
                             "xdevel-wms": "Xdevel WMS Auth Sign (play.xdevel.com/was)",
-                            "rai-akamai": "Canali Rai su server Akamai (Rai 1 e Rai Gulp)"
+                            "rai-akamai": "Rai channels on Akamai servers",
+                            "clearkey": "ClearKey (specify keys in licensedetails)"
                         },
                         "anyOf": [{
                             "const": "xdevel-wms",
@@ -139,90 +140,96 @@
                         },
                         {
                             "const": "rai-akamai",
-                            "title": "Canali Rai su server Akamai (Rai 1 e Rai Gulp)"
+                            "title": "Rai channels on Akamai servers"
+                        },
+                        {
+                            "const": "clearkey",
+                            "title": "ClearKey",
+                            "description": "Specify keys in licensedetails"
                         }]
+                    },
+                    "licensedetails": {
+                        "type": "string",
+                        "title": "Additional DRM/licensing parameters"
                     },
                     "hbbtvapp": {
                         "type": "boolean",
-                        "title": "Contrassegna come app HbbTV",
-                        "description": "Se contrassegnare il canale come app HbbTV."
+                        "title": "Mark as HbbTV app"
                     },
                     "hbbtvmosaic": {
                         "type": "boolean",
-                        "title": "Contrassegna come mosaico interattivo HbbTV",
-                        "description": "Se contrassegnare il canale come mosaico interattivo di canali HbbTV."
+                        "title": "Mark as HbbTV/IP mosaic"
                     },
                     "feed": {
                         "type": "boolean",
-                        "title": "Contrassegna come feed",
-                        "description": "Se considerare il canale un 'feed', cioè se non è attivo 24/7."
+                        "title": "Mark as feed",
+                        "description": "If the channel is to be considered a 'feed' (if its stream isn't active 24/7)."
                     },
                     "adult": {
                         "type": ["string", "boolean"],
-                        "title": "Contrassegna come canale 18+",
-                        "description": "Se il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.",
+                        "title": "Mark as 18+",
+                        "description": "If the channel broadcasts 18+ content, and whether it does that all day or only in the night.",
                         "enum": [true, "night", false],
                         "meta:enum": {
-                            "true": "Il canale trasmette solo contenuti vietati ai minori di 18 anni.",
-                            "night": "Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore)."
+                            "true": "The channel exclusively broadcasts 18+ content.",
+                            "night": "The channel only broadcasts 18+ content in the time slot from 11 PM to 7 AM (during which it's legal for channels in Italy with an LCN higher than 99 to broadcast explicit, but not hardcore, content)."
                         },
                         "anyOf": [{
                             "const": true,
-                            "description": "Il canale trasmette solo contenuti vietati ai minori di 18 anni."
+                            "description": "The channel exclusively broadcasts 18+ content."
                         },
                         {
                             "const": "night",
-                            "description": "Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore)."        
+                            "description": "The channel only broadcasts 18+ content in the time slot from 11 PM to 7 AM (during which it's legal for channels in Italy with an LCN higher than 99 to broadcast explicit, but not hardcore, content)."        
                         }]
                     },
                     "disabled": {
                         "type": "string",
-                        "title": "Disattiva canale",
-                        "description": "Se disattivare o no il canale, e perché.",
+                        "title": "Disable channel",
                         "enum": ["not-working"],
                         "meta:enum": {
-                            "not-working": "Lo streaming del canale non funziona al momento."
+                            "not-working": "This channel's streaming isn't working at the moment."
                         },
                         "anyOf": [{
                             "const": "not-working",
-                            "description": "Lo streaming del canale non funziona al momento."
+                            "description": "This channel's streaming isn't working at the moment."
                         }]
                     },
                     "api": {
                         "type": "string",
-                        "title": "Usa l'API per il canale",
-                        "description": "Se usare una delle API di Zappr per il canale.",
+                        "title": "Use an API to play the channel",
+                        "description": "If the channel needs an API to be played.",
                         "enum": ["vercel", "cloudflare"],
                         "meta:enum": {
-                            "vercel": "Usa l'API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.",
-                            "cloudflare": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream."
+                            "vercel": "Use the Vercel API (https://github.com/ZapprTV/vercel-api) to play the channel.",
+                            "cloudflare": "Use the Cloudflare API (https://github.com/ZapprTV/cloudflare-api) to play the channel."
                         },
                         "anyOf": [{
                             "const": "vercel",
-                            "description": "Usa l'API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud."
+                            "description": "Use the Vercel API (https://github.com/ZapprTV/vercel-api) to play the channel."
                         },
                         {
                             "const": "cloudflare",
-                            "description": "Usa l'API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream."  
+                            "description": "Use the Cloudflare API (https://github.com/ZapprTV/cloudflare-api) to play the channel."  
                         }]
                     },
                     "cssfix": {
                         "type": "string",
-                        "title": "Fix CSS da applicare",
-                        "description": "Alcuni canali IFrame hanno bisogno di un po' di CSS per essere più belli.",
+                        "title": "Apply CSS fixes",
+                        "description": "For channels whose streams require some CSS to look good.",
                         "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "very-squashed-height", "center-iframe", "servizistreaming-embed"],
                         "meta:enum": {
-                            "streamshow-embed": "Embed StreamShow (embed.streamshow.net)",
+                            "streamshow-embed": "StreamShow embed (embed.streamshow.net)",
                             "raiplay-sound": "RaiPlay Sound",
-                            "stretch": "Stretcha il video di un canale con una width schiacciata all'aspect ratio 16:9.",
-                            "squashed-height": "Stretcha il video di un canale con una height schiacciata all'aspect ratio 16:9.",
-                            "very-squashed-height": "Stretcha il video di un canale con una height MOLTO schiacciata all'aspect ratio 16:9.",
-                            "center-iframe": "Centra IFrame",
-                            "servizistreaming-embed": "Embed ServiziStreaming.it"
+                            "stretch": "Stretch the video track of a channel in 4:3 to 16:9.",
+                            "squashed-height": "Stretch the video track of a channel with a squashed height to 16:9.",
+                            "very-squashed-height": "Stretch the video track of a channel with a VERY squashed height to 16:9.",
+                            "center-iframe": "Center IFrame",
+                            "servizistreaming-embed": "ServiziStreaming.it embed"
                         },
                         "anyOf": [{
                             "const": "streamshow-embed",
-                            "title": "Embed StreamShow (embed.streamshow.net)"
+                            "title": "StreamShow embed (embed.streamshow.net)"
                         },
                         {
                             "const": "raiplay-sound",
@@ -230,32 +237,32 @@
                         },
                         {
                             "const": "stretch",
-                            "title": "Stretcha a 16:9 (con width schiacciata)",
-                            "description": "Stretcha il video di un canale con una width schiacciata all'aspect ratio 16:9."
+                            "title": "Stretch to 16:9 (from 4:3)",
+                            "description": "Stretch the video track of a channel in 4:3 to 16:9."
                         },
                         {
                             "const": "squashed-height",
-                            "title": "Stretcha a 16:9 (con height schiacciata)",
-                            "description": "Stretcha il video di un canale con una height schiacciata all'aspect ratio 16:9."  
+                            "title": "Stretch to 16:9 (from a squashed height)",
+                            "description": "Stretch the video track of a channel with a squashed height to 16:9."  
                         },
                         {
                             "const": "very-squashed-height",
-                            "title": "Stretcha a 16:9 (con height MOLTO schiacciata)",
-                            "description": "Stretcha il video di un canale con una height MOLTO schiacciata all'aspect ratio 16:9."  
+                            "title": "Stretch to 16:9 (from a VERY squashed height)",
+                            "description": "Stretch the video track of a channel with a VERY squashed height to 16:9."  
                         },
                         {
                             "const": "center-iframe",
-                            "title": "Centra IFrame"        
+                            "title": "Center IFrame"        
                         },
                         {
                             "const": "servizistreaming-embed",
-                            "title": "Embed ServiziStreaming.it"
+                            "title": "ServiziStreaming.it embed"
                         }]
                     },
                     "fallback": {
                         "type": "object",
-                        "title": "Stream alternativa di riserva",
-                        "description": "Le informazioni sulla stream di riserva che verrà usata nel caso in cui quella principale non funzioni.",
+                        "title": "Fallback stream info",
+                        "description": "Info about the fallback stream that will be used if the main one fails.",
                         "additionalProperties": false,
                         "properties": {
                             "type": {
@@ -272,8 +279,8 @@
                     },
                     "geoblock": {
                         "type": ["boolean", "object"],
-                        "title": "Impostazioni geoblocking",
-                        "description": "Se contrassegnare il canale come geobloccato fuori dall'Italia, disattivandolo completamente o fornendo un link alternativo visibile all'estero.",
+                        "title": "Geoblocking settings",
+                        "description": "If the channel is geoblocked outside of its country of origin, and whether to disable it completely or to use an alternative link that works worldwide.",
                         "additionalProperties": false,
                         "properties": {
                             "type": {
@@ -290,59 +297,54 @@
                     },
                     "epg": {
                         "type": "object",
-                        "title": "Informazioni sull'EPG",
-                        "description": "Le informazioni sull'EPG del canale e quale sorgente usare.",
+                        "title": "EPG info",
+                        "description": "Info on the channel's EPG, and from which source to fetch it from.",
                         "additionalProperties": false,
                         "properties": {
                             "source": {
                                 "type": "string",
-                                "title": "Sorgente",
-                                "description": "Quale sorgente usare."
+                                "title": "Source"
                             },
                             "id": {
                                 "type": "string",
-                                "title": "ID del canale nell'EPG",
-                                "description": "L'identificativo del canale nella sorgente dell'EPG."
+                                "title": "Channel ID"
                             }
                         },
                         "required": ["source", "id"]
                     },
                     "manualRestart": {
                         "type": "object",
-                        "title": "Impostazioni per il restart manuale",
-                        "description": "Dove prendere i link per il restart manuale e per quale canale.",
+                        "title": "Manual restart settings",
                         "additionalProperties": false,
                         "properties": {
                             "source": {
                                 "type": "string",
-                                "title": "Sorgente",
-                                "description": "Quale sorgente usare."
+                                "title": "Source"
                             },
                             "id": {
                                 "type": "string",
-                                "title": "ID del canale",
-                                "description": "L'identificativo del canale nella sorgente del restart."
+                                "title": "Channel ID"
                             }
                         },
                         "required": ["source", "id"]
                     },
                     "hbbtv": {
                         "type": "array",
-                        "title": "Canali HbbTV",
-                        "description": "I canali visibili tramite l'app HbbTV del canale.",
+                        "title": "HbbTV/IP channels",
+                        "description": "The channels visible through the channel's HbbTV/IP app.",
                         "items": {
                             "type": "object",
                             "additionalProperties": false,
                             "properties": {
                                 "categorySeparator": {
                                     "type": "string",
-                                    "title": "Separatore di categoria",
-                                    "description": "Questa key crea un separatore di categoria nella lista di canali HbbTV."
+                                    "title": "Category separator",
+                                    "description": "This key creates a category separator in the HbbTV/IP channel list."
                                 },
                                 "sublcn": {
                                     "type": "number",
-                                    "title": "'SubLCN' canale",
-                                    "description": "La 'subLCN' del canale, cioè la 'numerazione' basata sull'ordine dei canali nell'applicazione HbbTV del canale 'parente'."
+                                    "title": "Channel 'subLCN'",
+                                    "description": "The channel's 'subLCN': that is, its 'numbering' based on the order of the channels in the parent channel's HbbTV/IP app."
                                 },
                                 "logo": {
                                     "$ref": "#/properties/channels/items/properties/logo"
@@ -376,6 +378,9 @@
                                 },
                                 "license": {
                                     "$ref": "#/properties/channels/items/properties/license"
+                                },
+                                "licensedetails": {
+                                    "$ref": "#/properties/channels/items/properties/licensedetails"
                                 },
                                 "hbbtvapp": {
                                     "$ref": "#/properties/channels/items/properties/hbbtvapp"

@@ -294,20 +294,13 @@
             },
             {
                 "sublcn": 2,
-                "logo": "radiostereo5tv",
-                "name": "Radio Stereo 5 TV",
-                "type": "hls",
-                "url": "https://stream1.aswifi.it/stereo5/live/index.m3u8"
-            },
-            {
-                "sublcn": 3,
                 "logo": "settv",
                 "name": "SET TV",
                 "type": "hls",
                 "url": "https://stream1.aswifi.it/settv/live/index.m3u8"
             },
             {
-                "sublcn": 4,
+                "sublcn": 3,
                 "logo": "mividatv",
                 "name": "Mi Vida TV",
                 "type": "hls",

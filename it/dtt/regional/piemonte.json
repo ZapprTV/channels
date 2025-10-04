@@ -197,7 +197,7 @@
             "subtitle": "In alcuni orari Telelombardia",
             "hd": true,
             "type": "hls",
-            "url": "https://telelombardia.video/video/viewlivestreaming?rel=3&cntr=0",
+            "url": "https://telelombardia.video/video/viewlivestreaming?rel=2497&cntr=0",
             "api": "vercel",
             "geoblock": true,
             "epg": {

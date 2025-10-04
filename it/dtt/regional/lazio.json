@@ -135,8 +135,8 @@
             "logo": "laziotv.svg",
             "name": "Lazio TV",
             "hd": true,
-            "type": "dash",
-            "url": "https://5a1178b42cc03.streamlock.net/laziotv/laziotv/manifest.mpd",
+            "type": "hls",
+            "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8",
             "epg": {
                 "source": "softwarecreation",
                 "id": "LazioTv"
@@ -784,7 +784,7 @@
             "logo": "cittàcelestetv",
             "name": "Cittàceleste TV",
             "type": "hls",
-            "url": "https://cittaceleste.tv/video/viewlivestreaming?rel=43&cntr=0",
+            "url": "https://cittaceleste.tv/video/viewlivestreaming?rel=42323&cntr=0",
             "api": "vercel",
             "geoblock": true
         },

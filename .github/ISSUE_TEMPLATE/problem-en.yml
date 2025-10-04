@@ -1,0 +1,62 @@
+name: ⚠️ Channel problems (EN)
+description: For channels that are visible but problematic. Not for channels that return an error.
+labels: 
+  - Problem
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to help improve Zappr by sending us this report. Please briefly describe the problem you're facing in the issue title.
+
+        **Before filling this form out, however,** check that no one else has already reported the same problem. [Visit the Issues tab](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3AProblem) and search the name of the channel you want to report: if you don't find an issue with your same problem, continue filling this form out.
+
+        **We also remind you that this form is only for channels that are visible but problematic, not for ones that aren't visible at all and return an error. If a window with the title of "Channel error" pops up when trying to play the channel you want to report, you're on the wrong form.**
+  - type: input
+    id: name
+    attributes:
+      label: Channel name
+      placeholder: ITV1
+    validations:
+      required: true
+  - type: input
+    id: lcn
+    attributes:
+      label: Channel number
+      placeholder: "3"
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: What is the problem?
+      description: Explain the problem you're facing in detail.
+      placeholder: The channel takes 7 years to load and lags like crazy.
+    validations:
+      required: true
+  - type: dropdown
+    id: zappr
+    attributes:
+      label: Does it only happen on Zappr?
+      description: |
+        Find other ways of watching the channel online and report on whether the problem you're facing is exclusive to Zappr or not.
+      options:
+        - No, it also happens elsewhere
+        - Yes, it only happens on Zappr
+        - The channel is only visibile on Zappr / I haven't found it elsewhere
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: On which browsers does it happen?
+      description: |
+        If possible, try to test the channel with as many browsers as possible, to make sure the problem isn't the browser.
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Brave
+        - Other
+    validations:
+      required: true

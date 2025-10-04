@@ -1,0 +1,64 @@
+name: ⚠️ Problemi canale (IT)
+description: Per canali visibili ma problematici. Non per i canali che danno errore.
+labels: 
+  - Problem
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per esserti preso del tempo per migliorare Zappr inviandoci questa segnalazione. Ti preghiamo di inserire una descrizione sintetica del problema qui sopra.
+
+        **Prima di compilare gli altri campi, però,** controlla che nessun altro abbia già segnalato lo stesso problema. [Vai sulla scheda Issues](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3AProblem) e cerca il nome del canale che vuoi segnalare: se non trovi una issue con il tuo stesso problema, continua a compilare questo modulo.
+
+        **Inoltre, ti ricordiamo che questo form è solo per i canali che danno problemi ma che non danno errore. Se appare una finestra con il titolo "Errore canale" quando provi a riprodurre il canale che vuoi segnalare, questo è il form sbagliato.**
+  - type: input
+    id: name
+    attributes:
+      label: Nome canale
+      placeholder: LA7
+    validations:
+      required: true
+  - type: input
+    id: lcn
+    attributes:
+      label: Numerazione canale
+      description: |
+        Una delle numerazioni del canale. Se c'è più volte nella lista dei canali ne va bene una qualsiasi di quelle presenti.
+      placeholder: "7"
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual è il problema?
+      description: Spiega nel dettaglio il problema che stai riscontrando.
+      placeholder: Il canale ci mette 7 anni e mezzo a caricarsi e scatta tantissimo.
+    validations:
+      required: true
+  - type: dropdown
+    id: zappr
+    attributes:
+      label: Succede solo su Zappr?
+      description: |
+        Cerca altri modi di guardare il canale in streaming e dicci se i problemi che hai riscontrato in precedenza sono esclusivi a Zappr o no. Se è un canale HbbTV e hai una TV/decoder abilitato all'HbbTV, ti consigliamo di provare con quello.
+      options:
+        - No, succede anche da altre parti
+        - Sì, succede solo su Zappr
+        - Il canale è solo su Zappr / Non l'ho trovato da altre parti
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Su che browser avviene?
+      description: |
+        Se possibile, prova a testare il canale con più browser possibili, per vedere se il problema è il browser.
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Brave
+        - Altro
+    validations:
+      required: true

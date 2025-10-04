@@ -1,0 +1,65 @@
+name: 🚫 Channel error (EN)
+description: For channels that show "Channel error".
+labels:
+  - Error
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to help improve Zappr by sending us this report.
+
+        **We recommend to not fill out this form manually.** If you're on this page after clicking "New issue", we instead recommend you to click the "Report via GitHub" button in the error window. By doing so, most of the form will be filled in automatically.
+
+        **Before submitting this issue, however,** check that no one else has already reported the same problem. [Visit the Issues tab](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3AError) and search for the name of the channel you want to report: if you don't find an issue with your same problem, continue filling out this form.
+
+        **Also, please note that this form is only for channels that display an error window ("Channel error"). If the channel you want to report is causing problems but isn't displaying an error and is visibile, this is the wrong form.**
+  - type: input
+    id: name
+    attributes:
+      label: Channel name
+      placeholder: ITV1
+    validations:
+      required: true
+  - type: input
+    id: lcn
+    attributes:
+      label: Channel number
+      placeholder: "3"
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: Technical info
+      description: |
+        If they aren't there already, paste the contents of the "Technical info" from the error window.
+      render: json
+    validations:
+      required: true
+  - type: dropdown
+    id: zappr
+    attributes:
+      label: Does the channel only error out on Zappr?
+      description: |
+        Find other ways to watch the channel in streaming and tell us if the error is exclusive to Zappr or not.
+      options:
+        - No, it also errors out elsewhere
+        - Yes, it only errors out on Zappr
+        - The channel is only visibile on Zappr / I haven't found it elsewhere
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: On which browsers does the error occur?
+      description: |
+        If possible, try to test the channel with as many browsers as possible, to make sure the problem isn't the browser.
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Brave
+        - Other
+    validations:
+      required: true
