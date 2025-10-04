@@ -1,0 +1,19 @@
+name: Ottimizzazione immagini
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "logos/it/**"
+jobs:
+  optimize-images:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: ZapprTV/optimize-images@main
+        with:
+          libwebp-version: "1.3.2"
+          directory: "logos/it"

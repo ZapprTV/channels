@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "logos/**"
+      - "logos/uk/**"
 jobs:
   optimize-images:
     runs-on: ubuntu-latest
@@ -13,10 +13,6 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: ZapprTV/optimize-images@main
-        with:
-          libwebp-version: "1.3.2"
-          directory: "logos/it"
       - uses: ZapprTV/optimize-images@main
         with:
           libwebp-version: "1.3.2"
