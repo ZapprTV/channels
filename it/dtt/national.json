@@ -478,14 +478,14 @@
         },
         {
             "lcn": 37,
-            "logo": "warnertv.svg",
-            "name": "Warner TV",
+            "logo": "discovery.svg",
+            "name": "Discovery",
             "hd": true,
             "type": "hls",
             "url": "https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8",
             "epg": {
                 "source": "blue",
-                "id": "2015"
+                "id": "124"
             },
             "manualRestart": {
                 "source": "wbd",
