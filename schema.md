@@ -1,6 +1,6 @@
 
 
-# Schema canali Zappr
+# Zappr channels schema
 
 
 
@@ -27,11 +27,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Array dei canali</td>
+      <td colspan="2">Channels array</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">L&#x27;array contenente tutti i canali.</td>
+      <td colspan="2">The array that contains all channels.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Array</td></tr>
     <tr>
@@ -51,11 +51,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">LCN canale</td>
+      <td colspan="2">Channel LCN</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">La LCN del canale sul digitale terrestre.</td>
+      <td colspan="2">The channel&#x27;s LCN on DTT / Freeview.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Number</td></tr>
     
@@ -72,11 +72,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Logo canale</td>
+      <td colspan="2">Channel logo</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il nome del file del logo del canale. Se è in formato SVG, serve aggiungere &#x27;.svg&#x27; alla fine; altrimenti, se è in formato PNG/WEBP è necessario non specificare alcuna estensione.</td>
+      <td colspan="2">The filename of the channel&#x27;s logo. If it&#x27;s in SVG format, you need to suffix it with &#x27;.svg&#x27;; otherwise, if it&#x27;s in PNG/WEBP format you must not specify any file extension.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
@@ -96,11 +96,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Nome canale</td>
+      <td colspan="2">Channel name</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il nome del canale.</td>
+      <td colspan="2">The channel&#x27;s name.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -117,11 +117,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Sottotitolo canale</td>
+      <td colspan="2">Channel subtitle</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il sottotitolo del canale, che verrà mostrato sotto il canale in grigio e con un font più piccolo.</td>
+      <td colspan="2">The channel&#x27;s subtitle, which will be shown in a smaller and gray form under the channel name.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -138,11 +138,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come canale HD</td>
+      <td colspan="2">Mark as HD</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se è il canale è in alta definizione (e qualità).</td>
+      <td colspan="2">If the channel is in high resolution (and quality!).</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -159,11 +159,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come canale 4K</td>
+      <td colspan="2">Mark as 4K</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se è il canale è in 4K.</td>
+      <td colspan="2">If the channel is in 4K.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -180,16 +180,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come canale radio</td>
+      <td colspan="2">Mark as a radio channel</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se è il canale è una radio (cioè se ha una stream senza video o con un&#x27;immagine fissa).</td>
+      <td colspan="2">If the channel is a radio station (if its streaming only has an audio track or if its video track is a static image).</td>
     </tr>
     <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>true</dt><dd>Il canale è una radio, senza stream video.</dd><dt>video</dt><dd>Il canale è una radio, con una stream con un&#x27;immagine fissa.</dd></dl></td>
+      <td colspan="2"><dl><dt>true</dt><dd>The channel is a radio, without any video track.</dd><dt>video</dt><dd>The channel is a radio, with a video track only containing a static image.</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -204,11 +204,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come contenuto on-demand</td>
+      <td colspan="2">Mark as VOD</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se è il canale è un video on-demand (e non una diretta).</td>
+      <td colspan="2">If the channel is a VOD and not a livestream.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -225,16 +225,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Tipo stream</td>
+      <td colspan="2">Stream type</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il tipo della stream.</td>
+      <td colspan="2">The stream type.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (video or channel ID)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (e.g. Icecast)</dd><dt>direct</dt><dd>&#x27;Direct&#x27; (not HLS, DASH, etc.): a livestream/VOD playable by a &lt;video&gt; (not audio!) element without the need of any additional JavaScript libraries</dd><dt>popup</dt><dd>Popup window (URL)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -249,11 +249,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">URL stream</td>
+      <td colspan="2">Stream URL</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">L&#x27;URL della stream.</td>
+      <td colspan="2">The stream URL.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -270,11 +270,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna stream come non visibile tramite HTTPS</td>
+      <td colspan="2">Mark stream as not visibile via HTTPS</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se l&#x27;URL della stream non usa il protocollo HTTPS e va per forza visto tramite HTTP, l&#x27;URL viene riprodotto in una nuova finestra che usa il protocollo HTTP.</td>
+      <td colspan="2">If the stream URL doesn&#x27;t use the HTTPS protocol and has to be viewed via HTTP.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -291,17 +291,34 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Tipo di licenza/DRM</td>
+      <td colspan="2">DRM/license type</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Quale sistema di licenza/DRM usare per riprodurre il canale.</td>
+      <td colspan="2">What DRM/licensing system to use to play the channel.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd><dt>rai-akamai</dt><dd>Canali Rai su server Akamai (Rai 1 e Rai Gulp)</dd></dl></td>
+      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd><dt>rai-akamai</dt><dd>Rai channels on Akamai servers</dd><dt>clearkey</dt><dd>ClearKey (specify keys in licensedetails)</dd></dl></td>
     </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.licensedetails
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Additional DRM/licensing parameters</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
   </tbody>
 </table>
 
@@ -315,11 +332,7 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come app HbbTV</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Se contrassegnare il canale come app HbbTV.</td>
+      <td colspan="2">Mark as HbbTV app</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -336,11 +349,7 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come mosaico interattivo HbbTV</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Se contrassegnare il canale come mosaico interattivo di canali HbbTV.</td>
+      <td colspan="2">Mark as HbbTV/IP mosaic</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -357,11 +366,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come feed</td>
+      <td colspan="2">Mark as feed</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se considerare il canale un &#x27;feed&#x27;, cioè se non è attivo 24/7.</td>
+      <td colspan="2">If the channel is to be considered a &#x27;feed&#x27; (if its stream isn&#x27;t active 24/7).</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -378,16 +387,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come canale 18+</td>
+      <td colspan="2">Mark as 18+</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.</td>
+      <td colspan="2">If the channel broadcasts 18+ content, and whether it does that all day or only in the night.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>true</dt><dd>Il canale trasmette solo contenuti vietati ai minori di 18 anni.</dd><dt>night</dt><dd>Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore).</dd></dl></td>
+      <td colspan="2"><dl><dt>true</dt><dd>The channel exclusively broadcasts 18+ content.</dd><dt>night</dt><dd>The channel only broadcasts 18+ content in the time slot from 11 PM to 7 AM (during which it&#x27;s legal for channels in Italy with an LCN higher than 99 to broadcast explicit, but not hardcore, content).</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -402,16 +411,12 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Disattiva canale</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Se disattivare o no il canale, e perché.</td>
+      <td colspan="2">Disable channel</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>not-working</dt><dd>Lo streaming del canale non funziona al momento.</dd></dl></td>
+      <td colspan="2"><dl><dt>not-working</dt><dd>This channel&#x27;s streaming isn&#x27;t working at the moment.</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -426,16 +431,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Usa l&#x27;API per il canale</td>
+      <td colspan="2">Use an API to play the channel</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
+      <td colspan="2">If the channel needs an API to be played.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Use the Vercel API (https://github.com/ZapprTV/vercel-api) to play the channel.</dd><dt>cloudflare</dt><dd>Use the Cloudflare API (https://github.com/ZapprTV/cloudflare-api) to play the channel.</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -450,16 +455,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Fix CSS da applicare</td>
+      <td colspan="2">Apply CSS fixes</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Alcuni canali IFrame hanno bisogno di un po&#x27; di CSS per essere più belli.</td>
+      <td colspan="2">For channels whose streams require some CSS to look good.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>very-squashed-height</dt><dd>Stretcha il video di un canale con una height MOLTO schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd><dt>servizistreaming-embed</dt><dd>Embed ServiziStreaming.it</dd></dl></td>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -474,11 +479,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Stream alternativa di riserva</td>
+      <td colspan="2">Fallback stream info</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Le informazioni sulla stream di riserva che verrà usata nel caso in cui quella principale non funzioni.</td>
+      <td colspan="2">Info about the fallback stream that will be used if the main one fails.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Object</td></tr>
     
@@ -494,16 +499,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Tipo stream</td>
+      <td colspan="2">Stream type</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il tipo della stream.</td>
+      <td colspan="2">The stream type.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (video or channel ID)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (e.g. Icecast)</dd><dt>direct</dt><dd>&#x27;Direct&#x27; (not HLS, DASH, etc.): a livestream/VOD playable by a &lt;video&gt; (not audio!) element without the need of any additional JavaScript libraries</dd><dt>popup</dt><dd>Popup window (URL)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -518,11 +523,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">URL stream</td>
+      <td colspan="2">Stream URL</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">L&#x27;URL della stream.</td>
+      <td colspan="2">The stream URL.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -539,16 +544,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Usa l&#x27;API per il canale</td>
+      <td colspan="2">Use an API to play the channel</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
+      <td colspan="2">If the channel needs an API to be played.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Use the Vercel API (https://github.com/ZapprTV/vercel-api) to play the channel.</dd><dt>cloudflare</dt><dd>Use the Cloudflare API (https://github.com/ZapprTV/cloudflare-api) to play the channel.</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -564,11 +569,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Impostazioni geoblocking</td>
+      <td colspan="2">Geoblocking settings</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se contrassegnare il canale come geobloccato fuori dall&#x27;Italia, disattivandolo completamente o fornendo un link alternativo visibile all&#x27;estero.</td>
+      <td colspan="2">If the channel is geoblocked outside of its country of origin, and whether to disable it completely or to use an alternative link that works worldwide.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">[boolean, object]</td></tr>
     
@@ -584,16 +589,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Tipo stream</td>
+      <td colspan="2">Stream type</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il tipo della stream.</td>
+      <td colspan="2">The stream type.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (video or channel ID)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (e.g. Icecast)</dd><dt>direct</dt><dd>&#x27;Direct&#x27; (not HLS, DASH, etc.): a livestream/VOD playable by a &lt;video&gt; (not audio!) element without the need of any additional JavaScript libraries</dd><dt>popup</dt><dd>Popup window (URL)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -608,11 +613,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">URL stream</td>
+      <td colspan="2">Stream URL</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">L&#x27;URL della stream.</td>
+      <td colspan="2">The stream URL.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -629,17 +634,58 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Usa l&#x27;API per il canale</td>
+      <td colspan="2">Use an API to play the channel</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
+      <td colspan="2">If the channel needs an API to be played.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Use the Vercel API (https://github.com/ZapprTV/vercel-api) to play the channel.</dd><dt>cloudflare</dt><dd>Use the Cloudflare API (https://github.com/ZapprTV/cloudflare-api) to play the channel.</dd></dl></td>
     </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.geoblock.license
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">DRM/license type</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">What DRM/licensing system to use to play the channel.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd><dt>rai-akamai</dt><dd>Rai channels on Akamai servers</dd><dt>clearkey</dt><dd>ClearKey (specify keys in licensedetails)</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.geoblock.licensedetails
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Additional DRM/licensing parameters</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
   </tbody>
 </table>
 
@@ -654,11 +700,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Informazioni sull&#x27;EPG</td>
+      <td colspan="2">EPG info</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Le informazioni sull&#x27;EPG del canale e quale sorgente usare.</td>
+      <td colspan="2">Info on the channel&#x27;s EPG, and from which source to fetch it from.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Object</td></tr>
     
@@ -674,11 +720,7 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Sorgente</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Quale sorgente usare.</td>
+      <td colspan="2">Source</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -695,11 +737,7 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">ID del canale nell&#x27;EPG</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">L&#x27;identificativo del canale nella sorgente dell&#x27;EPG.</td>
+      <td colspan="2">Channel ID</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -717,11 +755,7 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Impostazioni per il restart manuale</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Dove prendere i link per il restart manuale e per quale canale.</td>
+      <td colspan="2">Manual restart settings</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Object</td></tr>
     
@@ -737,11 +771,7 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Sorgente</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Quale sorgente usare.</td>
+      <td colspan="2">Source</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -758,17 +788,34 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">ID del canale</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">L&#x27;identificativo del canale nella sorgente del restart.</td>
+      <td colspan="2">Channel ID</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
   </tbody>
 </table>
 
+
+
+
+
+### channels.timeshift
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Timeshift settings</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">Start the channel stream with a specified amount of timeshift hours.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">Number</td></tr>
+    
+  </tbody>
+</table>
 
 
 
@@ -780,11 +827,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Canali HbbTV</td>
+      <td colspan="2">HbbTV/IP channels</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">I canali visibili tramite l&#x27;app HbbTV del canale.</td>
+      <td colspan="2">The channels visible through the channel&#x27;s HbbTV/IP app.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Array</td></tr>
     
@@ -800,11 +847,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Separatore di categoria</td>
+      <td colspan="2">Category separator</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Questa key crea un separatore di categoria nella lista di canali HbbTV.</td>
+      <td colspan="2">This key creates a category separator in the HbbTV/IP channel list.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -821,11 +868,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">&#x27;SubLCN&#x27; canale</td>
+      <td colspan="2">Channel &#x27;subLCN&#x27;</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">La &#x27;subLCN&#x27; del canale, cioè la &#x27;numerazione&#x27; basata sull&#x27;ordine dei canali nell&#x27;applicazione HbbTV del canale &#x27;parente&#x27;.</td>
+      <td colspan="2">The channel&#x27;s &#x27;subLCN&#x27;: that is, its &#x27;numbering&#x27; based on the order of the channels in the parent channel&#x27;s HbbTV/IP app.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Number</td></tr>
     
@@ -842,11 +889,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Logo canale</td>
+      <td colspan="2">Channel logo</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il nome del file del logo del canale. Se è in formato SVG, serve aggiungere &#x27;.svg&#x27; alla fine; altrimenti, se è in formato PNG/WEBP è necessario non specificare alcuna estensione.</td>
+      <td colspan="2">The filename of the channel&#x27;s logo. If it&#x27;s in SVG format, you need to suffix it with &#x27;.svg&#x27;; otherwise, if it&#x27;s in PNG/WEBP format you must not specify any file extension.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
@@ -866,11 +913,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Nome canale</td>
+      <td colspan="2">Channel name</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il nome del canale.</td>
+      <td colspan="2">The channel&#x27;s name.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -887,11 +934,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Sottotitolo canale</td>
+      <td colspan="2">Channel subtitle</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il sottotitolo del canale, che verrà mostrato sotto il canale in grigio e con un font più piccolo.</td>
+      <td colspan="2">The channel&#x27;s subtitle, which will be shown in a smaller and gray form under the channel name.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -908,11 +955,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come canale HD</td>
+      <td colspan="2">Mark as HD</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se è il canale è in alta definizione (e qualità).</td>
+      <td colspan="2">If the channel is in high resolution (and quality!).</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -929,11 +976,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come canale 4K</td>
+      <td colspan="2">Mark as 4K</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se è il canale è in 4K.</td>
+      <td colspan="2">If the channel is in 4K.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -950,16 +997,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come canale radio</td>
+      <td colspan="2">Mark as a radio channel</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se è il canale è una radio (cioè se ha una stream senza video o con un&#x27;immagine fissa).</td>
+      <td colspan="2">If the channel is a radio station (if its streaming only has an audio track or if its video track is a static image).</td>
     </tr>
     <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>true</dt><dd>Il canale è una radio, senza stream video.</dd><dt>video</dt><dd>Il canale è una radio, con una stream con un&#x27;immagine fissa.</dd></dl></td>
+      <td colspan="2"><dl><dt>true</dt><dd>The channel is a radio, without any video track.</dd><dt>video</dt><dd>The channel is a radio, with a video track only containing a static image.</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -974,11 +1021,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come contenuto on-demand</td>
+      <td colspan="2">Mark as VOD</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se è il canale è un video on-demand (e non una diretta).</td>
+      <td colspan="2">If the channel is a VOD and not a livestream.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -995,16 +1042,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Tipo stream</td>
+      <td colspan="2">Stream type</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il tipo della stream.</td>
+      <td colspan="2">The stream type.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (video or channel ID)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (e.g. Icecast)</dd><dt>direct</dt><dd>&#x27;Direct&#x27; (not HLS, DASH, etc.): a livestream/VOD playable by a &lt;video&gt; (not audio!) element without the need of any additional JavaScript libraries</dd><dt>popup</dt><dd>Popup window (URL)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1019,11 +1066,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">URL stream</td>
+      <td colspan="2">Stream URL</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">L&#x27;URL della stream.</td>
+      <td colspan="2">The stream URL.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -1040,11 +1087,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna stream come non visibile tramite HTTPS</td>
+      <td colspan="2">Mark stream as not visibile via HTTPS</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se l&#x27;URL della stream non usa il protocollo HTTPS e va per forza visto tramite HTTP, l&#x27;URL viene riprodotto in una nuova finestra che usa il protocollo HTTP.</td>
+      <td colspan="2">If the stream URL doesn&#x27;t use the HTTPS protocol and has to be viewed via HTTP.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -1061,17 +1108,34 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Tipo di licenza/DRM</td>
+      <td colspan="2">DRM/license type</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Quale sistema di licenza/DRM usare per riprodurre il canale.</td>
+      <td colspan="2">What DRM/licensing system to use to play the channel.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd><dt>rai-akamai</dt><dd>Canali Rai su server Akamai (Rai 1 e Rai Gulp)</dd></dl></td>
+      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd><dt>rai-akamai</dt><dd>Rai channels on Akamai servers</dd><dt>clearkey</dt><dd>ClearKey (specify keys in licensedetails)</dd></dl></td>
     </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.licensedetails
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Additional DRM/licensing parameters</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
   </tbody>
 </table>
 
@@ -1085,11 +1149,7 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come app HbbTV</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Se contrassegnare il canale come app HbbTV.</td>
+      <td colspan="2">Mark as HbbTV app</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -1106,11 +1166,7 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come mosaico interattivo HbbTV</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Se contrassegnare il canale come mosaico interattivo di canali HbbTV.</td>
+      <td colspan="2">Mark as HbbTV/IP mosaic</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -1127,11 +1183,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come feed</td>
+      <td colspan="2">Mark as feed</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se considerare il canale un &#x27;feed&#x27;, cioè se non è attivo 24/7.</td>
+      <td colspan="2">If the channel is to be considered a &#x27;feed&#x27; (if its stream isn&#x27;t active 24/7).</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Boolean</td></tr>
     
@@ -1148,16 +1204,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Contrassegna come canale 18+</td>
+      <td colspan="2">Mark as 18+</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se il canale trasmette contenuti vietati ai minori di 18 anni, e se lo fa tutto il giorno o solo la notte.</td>
+      <td colspan="2">If the channel broadcasts 18+ content, and whether it does that all day or only in the night.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>true</dt><dd>Il canale trasmette solo contenuti vietati ai minori di 18 anni.</dd><dt>night</dt><dd>Il canale trasmette contenuti vietati ai minori di 18 anni nella fascia oraria dalle 23:00 alle 07:00 (durante la quale è legale per i canali oltre la numerazione 99 trasmettere programmi espliciti ma non troppo hardcore).</dd></dl></td>
+      <td colspan="2"><dl><dt>true</dt><dd>The channel exclusively broadcasts 18+ content.</dd><dt>night</dt><dd>The channel only broadcasts 18+ content in the time slot from 11 PM to 7 AM (during which it&#x27;s legal for channels in Italy with an LCN higher than 99 to broadcast explicit, but not hardcore, content).</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1172,16 +1228,12 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Disattiva canale</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Se disattivare o no il canale, e perché.</td>
+      <td colspan="2">Disable channel</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>not-working</dt><dd>Lo streaming del canale non funziona al momento.</dd></dl></td>
+      <td colspan="2"><dl><dt>not-working</dt><dd>This channel&#x27;s streaming isn&#x27;t working at the moment.</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1196,16 +1248,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Usa l&#x27;API per il canale</td>
+      <td colspan="2">Use an API to play the channel</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
+      <td colspan="2">If the channel needs an API to be played.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Use the Vercel API (https://github.com/ZapprTV/vercel-api) to play the channel.</dd><dt>cloudflare</dt><dd>Use the Cloudflare API (https://github.com/ZapprTV/cloudflare-api) to play the channel.</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1220,16 +1272,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Fix CSS da applicare</td>
+      <td colspan="2">Apply CSS fixes</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Alcuni canali IFrame hanno bisogno di un po&#x27; di CSS per essere più belli.</td>
+      <td colspan="2">For channels whose streams require some CSS to look good.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>Embed StreamShow (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretcha il video di un canale con una width schiacciata all&#x27;aspect ratio 16:9.</dd><dt>squashed-height</dt><dd>Stretcha il video di un canale con una height schiacciata all&#x27;aspect ratio 16:9.</dd><dt>very-squashed-height</dt><dd>Stretcha il video di un canale con una height MOLTO schiacciata all&#x27;aspect ratio 16:9.</dd><dt>center-iframe</dt><dd>Centra IFrame</dd><dt>servizistreaming-embed</dt><dd>Embed ServiziStreaming.it</dd></dl></td>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1244,11 +1296,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Stream alternativa di riserva</td>
+      <td colspan="2">Fallback stream info</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Le informazioni sulla stream di riserva che verrà usata nel caso in cui quella principale non funzioni.</td>
+      <td colspan="2">Info about the fallback stream that will be used if the main one fails.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Object</td></tr>
     
@@ -1264,16 +1316,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Tipo stream</td>
+      <td colspan="2">Stream type</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il tipo della stream.</td>
+      <td colspan="2">The stream type.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (video or channel ID)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (e.g. Icecast)</dd><dt>direct</dt><dd>&#x27;Direct&#x27; (not HLS, DASH, etc.): a livestream/VOD playable by a &lt;video&gt; (not audio!) element without the need of any additional JavaScript libraries</dd><dt>popup</dt><dd>Popup window (URL)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1288,11 +1340,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">URL stream</td>
+      <td colspan="2">Stream URL</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">L&#x27;URL della stream.</td>
+      <td colspan="2">The stream URL.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -1309,16 +1361,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Usa l&#x27;API per il canale</td>
+      <td colspan="2">Use an API to play the channel</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
+      <td colspan="2">If the channel needs an API to be played.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Use the Vercel API (https://github.com/ZapprTV/vercel-api) to play the channel.</dd><dt>cloudflare</dt><dd>Use the Cloudflare API (https://github.com/ZapprTV/cloudflare-api) to play the channel.</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1334,11 +1386,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Impostazioni geoblocking</td>
+      <td colspan="2">Geoblocking settings</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se contrassegnare il canale come geobloccato fuori dall&#x27;Italia, disattivandolo completamente o fornendo un link alternativo visibile all&#x27;estero.</td>
+      <td colspan="2">If the channel is geoblocked outside of its country of origin, and whether to disable it completely or to use an alternative link that works worldwide.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">[boolean, object]</td></tr>
     
@@ -1354,16 +1406,16 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Tipo stream</td>
+      <td colspan="2">Stream type</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Il tipo della stream.</td>
+      <td colspan="2">The stream type.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (ID video o canale)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (es. Icecast)</dd><dt>direct</dt><dd>&#x27;Diretto&#x27; (non HLS, DASH, ecc.): una diretta/contenuto on-demand riproducibile da una sorgente &lt;video&gt; (non audio!) senza bisogno di librerie JavaScript aggiuntive</dd><dt>popup</dt><dd>Finestra popup (URL)</dd></dl></td>
+      <td colspan="2"><dl><dt>hls</dt><dd>HLS (.m3u / .m3u8)</dd><dt>dash</dt><dd>DASH (.mpd)</dd><dt>twitch</dt><dd>Twitch (username)</dd><dt>youtube</dt><dd>YouTube (video or channel ID)</dd><dt>iframe</dt><dd>IFrame (URL)</dd><dt>audio</dt><dd>Audio (e.g. Icecast)</dd><dt>direct</dt><dd>&#x27;Direct&#x27; (not HLS, DASH, etc.): a livestream/VOD playable by a &lt;video&gt; (not audio!) element without the need of any additional JavaScript libraries</dd><dt>popup</dt><dd>Popup window (URL)</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1378,11 +1430,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">URL stream</td>
+      <td colspan="2">Stream URL</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">L&#x27;URL della stream.</td>
+      <td colspan="2">The stream URL.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -1399,17 +1451,58 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Usa l&#x27;API per il canale</td>
+      <td colspan="2">Use an API to play the channel</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Se usare una delle API di Zappr per il canale.</td>
+      <td colspan="2">If the channel needs an API to be played.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>vercel</dt><dd>Usa l&#x27;API di Vercel (https://github.com/ZapprTV/vercel-api). Per canali Rai e Babylon Cloud.</dd><dt>cloudflare</dt><dd>Usa l&#x27;API di Cloudflare (https://github.com/ZapprTV/cloudflare-api). Per canali Dailymotion e Vimeo Livestream.</dd></dl></td>
+      <td colspan="2"><dl><dt>vercel</dt><dd>Use the Vercel API (https://github.com/ZapprTV/vercel-api) to play the channel.</dd><dt>cloudflare</dt><dd>Use the Cloudflare API (https://github.com/ZapprTV/cloudflare-api) to play the channel.</dd></dl></td>
     </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.geoblock.license
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">DRM/license type</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">What DRM/licensing system to use to play the channel.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd><dt>rai-akamai</dt><dd>Rai channels on Akamai servers</dd><dt>clearkey</dt><dd>ClearKey (specify keys in licensedetails)</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.geoblock.licensedetails
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Additional DRM/licensing parameters</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    
   </tbody>
 </table>
 
@@ -1424,11 +1517,11 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Informazioni sull&#x27;EPG</td>
+      <td colspan="2">EPG info</td>
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">Le informazioni sull&#x27;EPG del canale e quale sorgente usare.</td>
+      <td colspan="2">Info on the channel&#x27;s EPG, and from which source to fetch it from.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">Object</td></tr>
     
@@ -1444,11 +1537,7 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">Sorgente</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">Quale sorgente usare.</td>
+      <td colspan="2">Source</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
@@ -1465,11 +1554,7 @@
   <tbody>
     <tr>
       <th>Title</th>
-      <td colspan="2">ID del canale nell&#x27;EPG</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td colspan="2">L&#x27;identificativo del canale nella sorgente dell&#x27;EPG.</td>
+      <td colspan="2">Channel ID</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     
