@@ -5,10 +5,14 @@
             "lcn": 3,
             "logo": "itv1.svg",
             "name": "ITV1",
-            "subtitle": "May load slowly",
+            "hd": true,
             "type": "hls",
-            "url": "https://www.livetvuk.com/yayin/?kanal=1",
-            "api": "cloudflare"
+            "url": "https://dttstream.zappr.stream/itv1.m3u8",
+            "fallback": {
+                "type": "hls",
+                "url": "https://www.livetvuk.com/yayin/?kanal=1",
+                "api": "cloudflare"
+            }
         },
         {
             "lcn": 5,
@@ -213,6 +217,15 @@
             "geoblock": true
         },
         {
+            "lcn": 35,
+            "logo": "itv1plus1.svg",
+            "name": "ITV1 +1",
+            "hd": true,
+            "type": "hls",
+            "url": "https://dttstream.zappr.stream/itv1.m3u8",
+            "timeshift": 1
+        },
+        {
             "lcn": 36,
             "logo": "skyarts",
             "name": "Sky Arts",
@@ -222,6 +235,16 @@
             "license": "clearkey",
             "licensedetails": "5c23867431604d7787f5a03456fdfd32:810e479ebe2ec8d111a8b7c465e1f980",
             "geoblock": true
+        },
+        {
+            "lcn": 38,
+            "logo": "5plus1.svg",
+            "name": "5 +1",
+            "hd": true,
+            "type": "hls",
+            "url": "https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8",
+            "api": "cloudflare",
+            "timeshift": 1
         },
         {
             "lcn": 41,
