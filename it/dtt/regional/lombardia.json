@@ -18,10 +18,37 @@
             "geoblock": true
         },
         {
+            "lcn": 10,
+            "logo": "telelombardia.svg",
+            "name": "Telelombardia",
+            "hd": true,
+            "type": "hls",
+            "url": "https://telelombardia.video/video/viewlivestreaming?rel=66074&cntr=0",
+            "api": "vercel",
+            "epg": {
+                "source": "blue",
+                "id": "592"
+            },
+            "geoblock": true
+        },
+        {
+            "lcn": 11,
+            "logo": "antennatre.svg",
+            "name": "Antenna 3",
+            "hd": true,
+            "type": "hls",
+            "url": "https://telelombardia.video/video/viewlivestreaming?rel=66075&cntr=0",
+            "api": "vercel",
+            "epg": {
+                "source": "blue",
+                "id": "1380"
+            },
+            "geoblock": true
+        },
+        {
             "lcn": 12,
             "logo": "topcalcio24",
             "name": "Top Calcio 24",
-            "subtitle": "In alcuni orari Telelombardia",
             "hd": true,
             "type": "hls",
             "url": "https://telelombardia.video/video/viewlivestreaming?rel=2497&cntr=0",
