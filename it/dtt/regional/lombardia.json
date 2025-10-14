@@ -11,6 +11,10 @@
                 "source": "raiplay",
                 "id": "rai-3"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
@@ -370,6 +374,13 @@
                 "type": "audio",
                 "url": "https://audio.streamshow.it/proxy/supertv?mp=/stream;"
             }]
+        },
+        {
+            "lcn": 97,
+            "logo": "valenzatv",
+            "name": "Valenza TV",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/368.m3u8"
         },
         {
             "lcn": 98,

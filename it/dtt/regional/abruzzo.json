@@ -11,6 +11,10 @@
                 "source": "raiplay",
                 "id": "rai-3"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
@@ -154,6 +158,13 @@
             "name": "Gusto TV",
             "type": "hls",
             "url": "https://64b16f23efbee.streamlock.net/gustotv/gustotv/playlist.m3u8"
+        },
+        {
+            "lcn": 85,
+            "logo": "6onair",
+            "name": "6 OnAir",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/35.m3u8"
         },
         {
             "lcn": 87,

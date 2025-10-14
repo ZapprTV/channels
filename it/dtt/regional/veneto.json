@@ -11,6 +11,10 @@
                 "source": "raiplay",
                 "id": "rai-3"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
@@ -18,10 +22,14 @@
             "logo": "antennatrenordest",
             "name": "Antenna Tre",
             "type": "hls",
-            "url": "https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8",
+            "url": "https://uvotv.zappr.stream/536.m3u8",
             "epg": {
                 "source": "tdbnet",
                 "id": "A3"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8"
             }
         },
         {
@@ -48,8 +56,8 @@
             "logo": "canaleitalia",
             "name": "Canale Italia",
             "subtitle": "(emissione veneta)",
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel10.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel10.smil/playlist.m3u8",
             "geoblock": true
         },
         {
@@ -85,6 +93,13 @@
                 "source": "tdbnet",
                 "id": "RV"
             }
+        },
+        {
+            "lcn": 15,
+            "logo": "7goldtelepadova",
+            "name": "7 Gold Telepadova",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/530.m3u8"
         },
         {
             "lcn": 16,
@@ -136,7 +151,7 @@
             "logo": "tv7triveneta.svg",
             "name": "TV7 Triveneta",
             "type": "hls",
-            "url": "https://www.gruppotv7.com:8090/hls/triveneta.m3u8",
+            "url": "https://uvotv.zappr.stream/545.m3u8",
             "hbbtv": [{
                 "sublcn": 2,
                 "logo": "tv7triveneta.svg",

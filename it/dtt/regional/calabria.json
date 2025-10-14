@@ -11,6 +11,10 @@
                 "source": "raiplay",
                 "id": "rai-3"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
@@ -280,6 +284,13 @@
             "name": "RTC Telecalabria",
             "type": "dash",
             "url": "https://w1.mediastreaming.it/calabriachannel/livestream/manifest.mpd"
+        },
+        {
+            "lcn": 80,
+            "logo": "telemormanno",
+            "name": "Telemormanno",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/425.m3u8"
         },
         {
             "lcn": 82,

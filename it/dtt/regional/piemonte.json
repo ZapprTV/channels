@@ -11,6 +11,10 @@
                 "source": "raiplay",
                 "id": "rai-3"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
@@ -30,6 +34,10 @@
             "name": "Telecupole Piemonte",
             "type": "dash",
             "url": "https://nrvideo1.newradio.it:1936/euhsbdamnx/euhsbdamnx/manifest.mpd",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tlu/TLU_CH21_1004"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "lovemusic",
@@ -204,6 +212,13 @@
                 "source": "blue",
                 "id": "1667"
             }
+        },
+        {
+            "lcn": 76,
+            "logo": "valenzatv",
+            "name": "Valenza TV",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/368.m3u8"
         },
         {
             "lcn": 78,

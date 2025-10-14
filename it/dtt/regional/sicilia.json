@@ -11,6 +11,10 @@
                 "source": "raiplay",
                 "id": "rai-3"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
@@ -417,6 +421,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/reitv/reitv/playlist.m3u8",
+            "epg": {
+                "source": "digitalbitrate",
+                "id": "tsb/TSB_CH42_92"
+            },
             "hbbtv": [{
                 "categorySeparator": "Televisioni"
             },

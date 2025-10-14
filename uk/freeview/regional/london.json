@@ -11,6 +11,10 @@
             "geoblock": {
                 "type": "hls",
                 "url": "https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "37"
             }
         },
         {
@@ -23,6 +27,10 @@
             "geoblock": {
                 "type": "hls",
                 "url": "https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "39"
             }
         },
         {
@@ -33,7 +41,11 @@
             "url": "https://olsp.live.dash.c4assets.com/dash_iso_sp_tl/live/channel(c4)/manifest.mpd",
             "hd": true,
             "license": "clearkey",
-            "licensedetails": "0000000000000000000000000063340a:5ce85f1aa5771900b952f0ba58857d7a"
+            "licensedetails": "0000000000000000000000000063340a:5ce85f1aa5771900b952f0ba58857d7a",
+            "epg": {
+                "source": "blue",
+                "id": "89"
+            }
         },
         {
             "lcn": 9,
@@ -45,6 +57,10 @@
             "geoblock": {
                 "type": "hls",
                 "url": "https://streamer.nexyl.uk/48559ccd-6400-457d-8acc-06b9e24c2ed8.m3u8"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "35"
             }
         },
         {

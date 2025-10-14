@@ -11,6 +11,10 @@
                 "source": "raiplay",
                 "id": "rai-3"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
@@ -131,13 +135,8 @@
             "lcn": 13,
             "logo": "telecity",
             "name": "Telecity Liguria",
-            "subtitle": "(Telecity Piemonte)",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/telecitypiemonte/telecitypiemonte/playlist.m3u8",
-            "epg": {
-                "source": "digitalbitrate",
-                "id": "tlu/TLU_CH21_1008"
-            }
+            "url": "https://uvotv.zappr.stream/353.m3u8"
         },
         {
             "lcn": 14,
@@ -152,6 +151,13 @@
             "name": "Tele Liguria Sud",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
+        },
+        {
+            "lcn": 16,
+            "logo": "primocanaleprimopiano",
+            "name": "Primocanale Primo Piano",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/362.m3u8"
         },
         {
             "lcn": 17,
@@ -271,7 +277,11 @@
                 "logo": "telecupole.svg",
                 "name": "Telecupole Piemonte",
                 "type": "dash",
-                "url": "https://nrvideo1.newradio.it:1936/euhsbdamnx/euhsbdamnx/manifest.mpd"
+                "url": "https://nrvideo1.newradio.it:1936/euhsbdamnx/euhsbdamnx/manifest.mpd",
+                "epg": {
+                    "source": "digitalbitrate",
+                    "id": "tlu/TLU_CH21_1004"
+                }
             },
             {
                 "sublcn": 4,
@@ -332,6 +342,13 @@
             "url": "https://5f22d76e220e1.streamlock.net/EntellaTV/EntellaTV/playlist.m3u8"
         },
         {
+            "lcn": 76,
+            "logo": "valenzatv",
+            "name": "Valenza TV",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/368.m3u8"
+        },
+        {
             "lcn": 78,
             "logo": "teleradiopace3",
             "name": "TeleRadioPace 3",
@@ -378,6 +395,13 @@
                 "source": "publirose",
                 "id": "telereporter"
             }
+        },
+        {
+            "lcn": 83,
+            "logo": "rete7",
+            "name": "Rete 7",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/374.m3u8"
         },
         {
             "lcn": 84,

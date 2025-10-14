@@ -11,6 +11,10 @@
                 "source": "raiplay",
                 "id": "rai-3"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
@@ -112,6 +116,13 @@
             "name": "TVRS",
             "type": "dash",
             "url": "https://cdn8.streamshow.it/cloud-tvrs/tvrs/manifest.mpd"
+        },
+        {
+            "lcn": 15,
+            "logo": "7goldmarche",
+            "name": "7 Gold Marche",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/467.m3u8"
         },
         {
             "lcn": 16,

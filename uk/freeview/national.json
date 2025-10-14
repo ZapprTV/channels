@@ -5,13 +5,12 @@
             "lcn": 3,
             "logo": "itv1.svg",
             "name": "ITV1",
-            "hd": true,
             "type": "hls",
-            "url": "https://dttstream.zappr.stream/itv1.m3u8",
-            "fallback": {
-                "type": "hls",
-                "url": "https://www.livetvuk.com/yayin/?kanal=1",
-                "api": "cloudflare"
+            "url": "https://www.livetvuk.com/yayin/?kanal=1",
+            "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "218"
             }
         },
         {
@@ -27,6 +26,10 @@
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8",
                 "api": "cloudflare"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "178"
             }
         },
         {
@@ -36,7 +39,11 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/itv2/browser-HLS8/itv2.m3u8",
             "api": "cloudflare",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "219"
+            }
         },
         {
             "lcn": 10,
@@ -45,7 +52,11 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8",
             "api": "cloudflare",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "220"
+            }
         },
         {
             "lcn": 11,
@@ -55,14 +66,22 @@
             "url": "https://d3ulpxjxf8pfh5.cloudfront.net/out/v1/316245defadc4a61bb09258e05eef128/HLS_CMAF_DRM/index.m3u8",
             "license": "clearkey",
             "licensedetails": "2d1bc558ff4d40f5b7094313ae31c58c:078f4f836ddb48705fb10b2fcc794add",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "1677"
+            }
         },
         {
             "lcn": 12,
             "logo": "quest.svg",
             "name": "Quest",
             "type": "hls",
-            "url": "zappr://filmon/2707"
+            "url": "zappr://filmon/2707",
+            "epg": {
+                "source": "blue",
+                "id": "1604"
+            }
         },
         {
             "lcn": 13,
@@ -72,7 +91,11 @@
             "url": "https://olsp.live.dash.c4assets.com/dash_iso_sp_tl/live/channel(e4)/manifest.mpd",
             "hd": true,
             "license": "clearkey",
-            "licensedetails": "0000000000000000000000000065340a:88a5d26b2dc54896693dea815df7c592"
+            "licensedetails": "0000000000000000000000000065340a:88a5d26b2dc54896693dea815df7c592",
+            "epg": {
+                "source": "blue",
+                "id": "146"
+            }
         },
         {
             "lcn": 14,
@@ -82,21 +105,33 @@
             "url": "https://olsp.live.dash.c4assets.com/dash_iso_sp_tl/live/channel(f4)/manifest.mpd",
             "hd": true,
             "license": "clearkey",
-            "licensedetails": "0000000000000000000000000066340a:627bcdc9e9556a74b05c5d311d8d2a61"
+            "licensedetails": "0000000000000000000000000066340a:627bcdc9e9556a74b05c5d311d8d2a61",
+            "epg": {
+                "source": "blue",
+                "id": "176"
+            }
         },
         {
             "lcn": 16,
             "logo": "qvc.svg",
             "name": "QVC",
             "type": "hls",
-            "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8"
+            "url": "https://qvcuk-live.akamaized.net/hls/live/2097112/qvc/master.m3u8",
+            "epg": {
+                "source": "sky",
+                "id": "1076"
+            }
         },
         {
             "lcn": 17,
             "logo": "really.svg",
             "name": "Really",
             "type": "hls",
-            "url": "zappr://filmon/372"
+            "url": "zappr://filmon/372",
+            "epg": {
+                "source": "sky",
+                "id": "2325"
+            }
         },
         {
             "lcn": 18,
@@ -106,14 +141,22 @@
             "url": "https://olsp.live.dash.c4assets.com/dash_iso_sp_tl/live/channel(m4)/manifest.mpd",
             "hd": true,
             "license": "clearkey",
-            "licensedetails": "000000000000000000000000006d340a:efee11d60dd6a2afb6865fc141e1c4a0"
+            "licensedetails": "000000000000000000000000006d340a:efee11d60dd6a2afb6865fc141e1c4a0",
+            "epg": {
+                "source": "blue",
+                "id": "262"
+            }
         },
         {
             "lcn": 19,
             "logo": "u&dave.svg",
             "name": "U&Dave",
             "type": "iframe",
-            "url": "https://www.livehdtv.com/yayin/?kanal=552"
+            "url": "https://www.livehdtv.com/yayin/?kanal=552",
+            "epg": {
+                "source": "blue",
+                "id": "1507"
+            }
         },
         {
             "lcn": 20,
@@ -122,7 +165,11 @@
             "subtitle": "Slow loading",
             "type": "hls",
             "url": "https://www.livetvuk.com/yayin/?kanal=20",
-            "api": "cloudflare"
+            "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "902"
+            }
         },
         {
             "lcn": 21,
@@ -136,6 +183,10 @@
                 "type": "hls",
                 "url": "https://www.livetvuk.com/yayin/?kanal=24",
                 "api": "cloudflare"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "1411"
             }
         },
         {
@@ -143,7 +194,11 @@
             "logo": "tjc.svg",
             "name": "TJC",
             "type": "hls",
-            "url": "https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/master.m3u8"
+            "url": "https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(TJCOTT)/master.m3u8",
+            "epg": {
+                "source": "sky",
+                "id": "1113"
+            }
         },
         {
             "lcn": 23,
@@ -155,6 +210,10 @@
             "geoblock": {
                 "type": "hls",
                 "url": "https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "85"
             }
         },
         {
@@ -164,7 +223,11 @@
             "subtitle": "Slow loading",
             "type": "hls",
             "url": "https://www.livetvuk.com/yayin/?kanal=354",
-            "api": "cloudflare"
+            "api": "cloudflare",
+            "epg": {
+                "source": "sky",
+                "id": "2617"
+            }
         },
         {
             "lcn": 26,
@@ -173,7 +236,11 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8",
             "api": "cloudflare",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "221"
+            }
         },
         {
             "lcn": 27,
@@ -182,7 +249,11 @@
             "subtitle": "Slow loading",
             "type": "hls",
             "url": "https://www.livetvuk.com/yayin/?kanal=18",
-            "api": "cloudflare"
+            "api": "cloudflare",
+            "epg": {
+                "source": "blue",
+                "id": "1674"
+            }
         },
         {
             "lcn": 28,
@@ -191,7 +262,11 @@
             "subtitle": "Slow loading",
             "type": "hls",
             "url": "https://www.livetvuk.com/yayin/?kanal=21",
-            "api": "cloudflare"
+            "api": "cloudflare",
+            "epg": {
+                "source": "sky",
+                "id": "3026"
+            }
         },
         {
             "lcn": 32,
@@ -204,6 +279,10 @@
             "geoblock": {
                 "type": "hls",
                 "url": "zappr://filmon/851"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "1652"
             }
         },
         {
@@ -214,16 +293,11 @@
             "url": "https://akadashlive-paramount.akamaized.net/out/v1/074b4a2bf3564611b4a6908d78b8e2c0/index.mpd",
             "license": "clearkey",
             "licensedetails": "0dc24fb57d8d4ff28efa22ed984568ac:3548e7c2f13627c3f6925dd818cfc5a2",
-            "geoblock": true
-        },
-        {
-            "lcn": 35,
-            "logo": "itv1plus1.svg",
-            "name": "ITV1 +1",
-            "hd": true,
-            "type": "hls",
-            "url": "https://dttstream.zappr.stream/itv1.m3u8",
-            "timeshift": 1
+            "geoblock": true,
+            "epg": {
+                "source": "blue",
+                "id": "1669"
+            }
         },
         {
             "lcn": 36,
@@ -234,7 +308,11 @@
             "hd": true,
             "license": "clearkey",
             "licensedetails": "5c23867431604d7787f5a03456fdfd32:810e479ebe2ec8d111a8b7c465e1f980",
-            "geoblock": true
+            "geoblock": true,
+            "epg": {
+                "source": "sky",
+                "id": "1752"
+            }
         },
         {
             "lcn": 38,
@@ -244,28 +322,44 @@
             "type": "hls",
             "url": "https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8",
             "api": "cloudflare",
-            "timeshift": 1
+            "timeshift": 1,
+            "epg": {
+                "source": "blue",
+                "id": "178+1"
+            }
         },
         {
             "lcn": 41,
             "logo": "legend.svg",
             "name": "Legend",
             "type": "hls",
-            "url": "zappr://filmon/1952"
+            "url": "zappr://filmon/1952",
+            "epg": {
+                "source": "sky",
+                "id": "4610"
+            }
         },
         {
             "lcn": 42,
             "logo": "greataction",
             "name": "GREAT! action",
             "type": "hls",
-            "url": "zappr://filmon/6212"
+            "url": "zappr://filmon/6212",
+            "epg": {
+                "source": "blue",
+                "id": "1810"
+            }
         },
         {
             "lcn": 44,
             "logo": "hgtv.svg",
             "name": "HGTV",
             "type": "hls",
-            "url": "zappr://filmon/6227"
+            "url": "zappr://filmon/6227",
+            "epg": {
+                "source": "sky",
+                "id": "2301"
+            }
         },
         {
             "lcn": 45,
@@ -283,7 +377,11 @@
             "url": "https://akadashlive-5select.akamaized.net/out/v1/f23dc3e45f1b4824a36cb33c1aafaa8a/index.mpd",
             "license": "clearkey",
             "licensedetails": "0314fccf0c2941c69a2b12f9ad8c4710:f67abdaaf8b967ece70035ed64b07194",
-            "geoblock": true
+            "geoblock": true,
+            "epg": {
+                "source": "blue",
+                "id": "1670"
+            }
         },
         {
             "lcn": 48,
@@ -293,7 +391,11 @@
             "url": "https://d33c53jye60q66.cloudfront.net/out/v1/778eabe924be48288f1f695913d8abd3/HLS_CMAF_DRM/index.m3u8",
             "hd": true,
             "license": "clearkey",
-            "licensedetails": "f1cfa40698654247aac41bebc51b9042:f6a493ce85930e3ddd9ff14a41377904"
+            "licensedetails": "f1cfa40698654247aac41bebc51b9042:f6a493ce85930e3ddd9ff14a41377904",
+            "epg": {
+                "source": "blue",
+                "id": "1682"
+            }
         },
         {
             "lcn": 49,
@@ -303,7 +405,11 @@
             "url": "https://olsp.live.dash.c4assets.com/dash_iso_sp_tl/live/channel(4s)/manifest.mpd",
             "hd": true,
             "license": "clearkey",
-            "licensedetails": "0000000000000000000000000034730a:19bfb83e0e0f40f6eef4eccedbfa7bb8"
+            "licensedetails": "0000000000000000000000000034730a:19bfb83e0e0f40f6eef4eccedbfa7bb8",
+            "epg": {
+                "source": "blue",
+                "id": "1678"
+            }
         },
         {
             "lcn": 51,
@@ -311,7 +417,11 @@
             "name": "Ideal World",
             "type": "hls",
             "url": "https://cdn-shop-lc-01.akamaized.net/Content/HLS_HLS/Live/channel(HDTJCBeauty)/master.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "sky",
+                "id": "1101"
+            }
         },
         {
             "lcn": 52,
@@ -320,7 +430,11 @@
             "type": "hls",
             "url": "https://amg01753-amg01753c8-samsung-gb-8060.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmystery-samsunggb/playlist.m3u8",
             "hd": true,
-            "geoblock": true
+            "geoblock": true,
+            "epg": {
+                "source": "blue",
+                "id": "1805"
+            }
         },
         {
             "lcn": 57,
@@ -330,7 +444,11 @@
             "type": "hls",
             "url": "https://www.livetvuk.com/yayin/?kanal=357",
             "api": "cloudflare",
-            "feed": true
+            "feed": true,
+            "epg": {
+                "source": "sky",
+                "id": "2302"
+            }
         },
         {
             "lcn": 61,
@@ -338,7 +456,11 @@
             "name": "GREAT! movies",
             "type": "hls",
             "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-greatmovies-samsunguk/playlist.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "1809"
+            }
         },
         {
             "lcn": 66,
@@ -346,7 +468,11 @@
             "name": "TBN UK",
             "type": "hls",
             "url": "https://cdn.jwplayer.com/live/broadcast/r08fY89I.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "sky",
+                "id": "3109"
+            }
         },
         {
             "lcn": 67,
@@ -354,28 +480,44 @@
             "name": "True Crime",
             "type": "hls",
             "url": "https://b6cca454.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9UcnVlQ3JpbWVVS2Zyb21DQlNSZWFsaXR5X0hMUw/playlist.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "1717"
+            }
         },
         {
             "lcn": 68,
             "logo": "truecrimextra.svg",
             "name": "True Crime Xtra",
             "type": "hls",
-            "url": "zappr://filmon/1805"
+            "url": "zappr://filmon/1805",
+            "epg": {
+                "source": "sky",
+                "id": "3617"
+            }
         },
         {
             "lcn": 72,
             "logo": "jewellerymaker.svg",
             "name": "Jewellery Maker",
             "type": "hls",
-            "url": "https://lo3.gemporia.com/abrjewellerymaker/smil:livestream.smil/playlist.m3u8"
+            "url": "https://lo3.gemporia.com/abrjewellerymaker/smil:livestream.smil/playlist.m3u8",
+            "epg": {
+                "source": "sky",
+                "id": "3354"
+            }
         },
         {
             "lcn": 73,
             "logo": "hobbymaker.svg",
             "name": "Hobby Maker",
             "type": "hls",
-            "url": "https://lo3.gemporia.com/abrhobbymakerukgfx/smil:livestream.smil/playlist.m3u8"
+            "url": "https://lo3.gemporia.com/abrhobbymakerukgfx/smil:livestream.smil/playlist.m3u8",
+            "epg": {
+                "source": "sky",
+                "id": "1169"
+            }
         },
         {
             "lcn": 83,
@@ -383,7 +525,11 @@
             "name": "Together TV",
             "type": "hls",
             "url": "https://d1uw9hvdgmm030.cloudfront.net/v1/master/8a60d8d801256399c3819ed2744d4bbee0de11a6/TTV_Website_Desktop/0c33ef5f1fd4407db5f78d488a6718cf/index.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "sky",
+                "id": "1872"
+            }
         },
         {
             "lcn": 94,
@@ -391,7 +537,11 @@
             "name": "SBN",
             "type": "youtube",
             "url": "UCf1y3FvYJYPbgMqHX7ZzeZA",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "sky",
+                "id": "3392"
+            }
         },
         {
             "lcn": 96,
@@ -399,7 +549,11 @@
             "name": "Must Have Ideas",
             "type": "youtube",
             "url": "UCYaD__DXDKk597uT12U6Qjg",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "sky",
+                "id": "1089"
+            }
         },
         {
             "lcn": 97,
@@ -419,6 +573,10 @@
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8",
                 "api": "cloudflare"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "85"
             }
         },
         {
@@ -432,6 +590,10 @@
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/bbc4cbeebies/browser-HLS8/bbc4cbeebies.m3u8",
                 "api": "cloudflare"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "86"
             }
         },
         {
@@ -440,7 +602,11 @@
             "name": "Pop",
             "type": "hls",
             "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-popkids-samsunguk/playlist.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "sky",
+                "id": "3750"
+            }
         },
         {
             "lcn": 206,
@@ -448,7 +614,11 @@
             "name": "Tiny Pop",
             "type": "hls",
             "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01753-narrativeentert-tinypop-samsunguk/playlist.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "sky",
+                "id": "1234"
+            }
         },
         {
             "lcn": 207,
@@ -481,7 +651,11 @@
             "name": "BBC News",
             "type": "dash",
             "url": "https://vs-cmaf-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/pc_hd_abr_v2.mpd",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "36"
+            }
         },
         {
             "lcn": 232,
@@ -492,6 +666,10 @@
             "geoblock": {
                 "type": "hls",
                 "url": "zappr://filmon/1666"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "1397"
             }
         },
         {
@@ -500,7 +678,11 @@
             "name": "Sky News",
             "type": "hls",
             "url": "https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "390"
+            }
         },
         {
             "lcn": 236,
@@ -508,7 +690,11 @@
             "name": "GB News",
             "type": "hls",
             "url": "https://amg01076-lightning-amg01076c7-lg-gb-2019.playouts.now.amagi.tv/playlist/amg01076-lightning-gbnews-lggb/playlist.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "1823"
+            }
         },
         {
             "lcn": 250,
@@ -517,7 +703,11 @@
             "type": "dash",
             "url": "https://vs-cmaf-pushb-uk.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:red_button_one/iptv_hd_abr_v1.mpd",
             "hd": true,
-            "geoblock": true
+            "geoblock": true,
+            "epg": {
+                "source": "sky",
+                "id": "2053"
+            }
         },
         {
             "lcn": 251,
@@ -525,7 +715,11 @@
             "name": "Al Jazeera English",
             "type": "hls",
             "url": "https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "15"
+            }
         },
         {
             "lcn": 252,
@@ -533,7 +727,11 @@
             "name": "Al Jazeera Arabic",
             "type": "hls",
             "url": "https://live-hls-web-aja-fa.thehlive.com/AJA/index.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "14"
+            }
         },
         {
             "lcn": 255,
@@ -543,6 +741,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "1639"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "france24.svg",
@@ -553,7 +755,7 @@
                 "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
                 "epg": {
                     "source": "blue",
-                    "id": "1639"
+                    "id": "391"
                 }
             },
             {
@@ -581,7 +783,11 @@
             "name": "euronews.",
             "type": "hls",
             "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-en/25080/euronews-en.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "164"
+            }
         },
         {
             "lcn": 258,
@@ -589,7 +795,11 @@
             "name": "India Today",
             "type": "hls",
             "url": "https://feeds.intoday.in/hltapps/api/master.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "sky",
+                "id": "1057"
+            }
         },
         {
             "lcn": 259,
@@ -613,7 +823,11 @@
             "name": "Al Arabiya",
             "type": "hls",
             "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "13"
+            }
         },
         {
             "lcn": 264,
@@ -628,7 +842,11 @@
             "logo": "revelationtv",
             "name": "Revelation TV",
             "type": "hls",
-            "url": "https://stream.mdc.akamaized.net/live/ngrp:revelationtv.stream_web/master.m3u8"
+            "url": "https://stream.mdc.akamaized.net/live/ngrp:revelationtv.stream_web/master.m3u8",
+            "epg": {
+                "source": "sky",
+                "id": "3116"
+            }
         },
         {
             "lcn": 267,
@@ -636,7 +854,11 @@
             "name": "GOD TV",
             "type": "iframe",
             "url": "https://www.lightcast.com/embed/player.php?responsive=1&skinColor=000000&autoPlay=1&id=50860&type=live&multiBitrate=1&autoStart=1&skipPreviewPlayer=1",
-            "cssfix": "center-iframe"
+            "cssfix": "center-iframe",
+            "epg": {
+                "source": "sky",
+                "id": "3105"
+            }
         },
         {
             "lcn": 268,
@@ -658,7 +880,11 @@
             "name": "NHK World Japan",
             "type": "hls",
             "url": "https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8",
-            "hd": true
+            "hd": true,
+            "epg": {
+                "source": "blue",
+                "id": "287"
+            }
         },
         {
             "lcn": 273,

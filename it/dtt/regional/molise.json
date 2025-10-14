@@ -11,6 +11,10 @@
                 "source": "raiplay",
                 "id": "rai-3"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-3"
+            },
             "geoblock": true
         },
         {
@@ -147,6 +151,13 @@
             "name": "ItaliaCable",
             "type": "dash",
             "url": "https://5f22d76e220e1.streamlock.net/italiacable/italiacable/manifest.mpd"
+        },
+        {
+            "lcn": 85,
+            "logo": "6onair",
+            "name": "6 OnAir",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/35.m3u8"
         },
         {
             "lcn": 89,

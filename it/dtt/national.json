@@ -13,6 +13,10 @@
                 "source": "raiplay",
                 "id": "rai-1"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-1"
+            },
             "fallback": {
                 "type": "hls",
                 "url": "https://raiuno3-live.akamaized.net/hls/live/2017910/raiuno3/raiuno3/playlist.m3u8"
@@ -61,6 +65,10 @@
                 "source": "raiplay",
                 "id": "rai-2"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-2"
+            },
             "fallback": {
                 "type": "hls",
                 "url": "https://raidue3-live.akamaized.net/hls/live/2017983/raidue3/raidue3/playlist.m3u8"
@@ -80,6 +88,10 @@
             "url": "https://rai.zappr.stream/rai3.m3u8",
             "epg": {
                 "source": "raiplay",
+                "id": "rai-3"
+            },
+            "manualRestart": {
+                "source": "rai",
                 "id": "rai-3"
             },
             "fallback": {
@@ -196,7 +208,10 @@
                 "source": "sky",
                 "id": "tv8"
             },
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/269.m3u8"
+            }
         },
         {
             "lcn": 9,
@@ -248,6 +263,10 @@
                 "source": "raiplay",
                 "id": "rai-4"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-4"
+            },
             "fallback": {
                 "type": "hls",
                 "url": "https://raiquattro3-live.akamaized.net/hls/live/2018003/raiquattro3/raiquattro3/playlist.m3u8"
@@ -287,6 +306,10 @@
                 "source": "raiplay",
                 "id": "rai-5"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-5"
+            },
             "fallback": {
                 "type": "hls",
                 "url": "https://raicinque3-live.akamaized.net/hls/live/2018007/raicinque3/raicinque3/playlist.m3u8"
@@ -304,6 +327,10 @@
                 "source": "raiplay",
                 "id": "rai-movie"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-movie"
+            },
             "fallback": {
                 "type": "hls",
                 "url": "https://raimovie3-live.akamaized.net/hls/live/2018010/raimovie3/raimovie3/playlist.m3u8"
@@ -319,6 +346,10 @@
             "url": "https://rai.zappr.stream/raipremium.m3u8",
             "epg": {
                 "source": "raiplay",
+                "id": "rai-premium"
+            },
+            "manualRestart": {
+                "source": "rai",
                 "id": "rai-premium"
             },
             "fallback": {
@@ -341,7 +372,10 @@
                 "source": "sky",
                 "id": "cielo"
             },
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/281.m3u8"
+            }
         },
         {
             "lcn": 27,
@@ -382,6 +416,10 @@
             "epg": {
                 "source": "blue",
                 "id": "239"
+            },
+            "manualRestart": {
+                "source": "la7",
+                "id": "la7cinema"
             }
         },
         {
@@ -518,7 +556,7 @@
             },
             "manualRestart": {
                 "source": "wbd",
-                "id": "warnertv"
+                "id": "discovery"
             }
         },
         {
@@ -602,6 +640,10 @@
                 "source": "raiplay",
                 "id": "rai-gulp"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-gulp"
+            },
             "fallback": {
                 "type": "hls",
                 "url": "https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8",
@@ -624,6 +666,10 @@
                 "source": "raiplay",
                 "id": "rai-yoyo"
             },
+            "manualRestart": {
+                "source": "rai",
+                "id": "rai-yoyo"
+            },
             "geoblock": true
         },
         {
@@ -643,7 +689,11 @@
             "name": "Boing Plus",
             "type": "hls",
             "url": "https://dttstream.zappr.stream/boingplus.m3u8",
-            "cssfix": "five-two-squashed-height"
+            "cssfix": "five-two-squashed-height",
+            "fallback": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/101.m3u8"
+            }
         },
         {
             "lcn": 46,
@@ -720,7 +770,10 @@
                 "source": "blue",
                 "id": "393"
             },
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/293.m3u8"
+            }
         },
         {
             "lcn": 51,
@@ -756,8 +809,8 @@
             "logo": "casaitalia53.svg",
             "name": "Casa Italia 53",
             "hd": true,
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel09.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel09/playlist.m3u8",
             "geoblock": {
                 "type": "iframe",
                 "url": "https://canaleitalia.streamcloud.it/embed/live/e701400d-2c46-4cec-8deb-bb6f7b8a7401"
@@ -772,6 +825,10 @@
             "url": "https://rai.zappr.stream/raistoria.m3u8",
             "epg": {
                 "source": "raiplay",
+                "id": "rai-storia"
+            },
+            "manualRestart": {
+                "source": "rai",
                 "id": "rai-storia"
             },
             "fallback": {
@@ -832,6 +889,10 @@
             "url": "https://rai.zappr.stream/raiscuola.m3u8",
             "epg": {
                 "source": "raiplay",
+                "id": "rai-scuola"
+            },
+            "manualRestart": {
+                "source": "rai",
                 "id": "rai-scuola"
             },
             "fallback": {
@@ -914,23 +975,18 @@
                 "epg": {
                     "source": "blue",
                     "id": "2049"
-                },
-                "geoblock": true
+                }
             },
             {
                 "sublcn": 3,
                 "logo": "bike",
                 "name": "BIKE",
                 "hd": true,
-                "type": "dash",
-                "url": "https://origin.streamup.eu/livein/bike/manifest.mpd",
+                "type": "hls",
+                "url": "https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "2054"
-                },
-                "geoblock": {
-                    "type": "hls",
-                    "url": "https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8"
                 }
             },
             {
@@ -963,6 +1019,13 @@
                 "source": "superguidatv",
                 "id": "464"
             }
+        },
+        {
+            "lcn": 63,
+            "logo": "canale63.svg",
+            "name": "Canale 63",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/257.m3u8"
         },
         {
             "lcn": 64,
@@ -1173,8 +1236,8 @@
             "logo": "canaleitalia",
             "name": "Canale Italia",
             "hd": true,
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel11.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel11/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "80"
@@ -1197,10 +1260,13 @@
             "lcn": 121,
             "logo": "italia121",
             "name": "Italia 121",
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel01.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel01/playlist.m3u8",
             "adult": "night",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/218.m3u8"
+            }
         },
         {
             "lcn": 122,
@@ -1297,59 +1363,97 @@
             "lcn": 124,
             "logo": "arteitalia124",
             "name": "Arte Italia 124",
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel02.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel02/playlist.m3u8",
             "adult": "night",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/203.m3u8"
+            }
         },
         {
             "lcn": 125,
             "logo": "arteitalia125",
             "name": "Arte Italia 125",
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel03.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel03/playlist.m3u8",
             "adult": "night",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/188.m3u8"
+            }
         },
         {
             "lcn": 126,
             "logo": "italia126",
             "name": "Italia 126",
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel04.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel04/playlist.m3u8",
             "adult": "night",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/191.m3u8"
+            }
         },
         {
             "lcn": 127,
             "logo": "italia127",
             "name": "Italia 127",
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel05.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel05/playlist.m3u8",
             "adult": "night",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/194.m3u8"
+            }
         },
         {
             "lcn": 128,
             "logo": "goldtvitalia",
             "name": "Gold TV Italia",
-            "type": "dash",
-            "url": "https://5a1178b42cc03.streamlock.net/golditalia/golditalia/manifest.mpd",
-            "cssfix": "very-squashed-height",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/317.m3u8",
+            "adult": "night"
+        },
+        {
+            "lcn": 129,
+            "logo": "la4italia",
+            "name": "La4 Italia",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/320.m3u8",
+            "adult": "night"
+        },
+        {
+            "lcn": 130,
+            "logo": "channel24.svg",
+            "name": "Channel 24",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/323.m3u8",
+            "adult": "night"
+        },
+        {
+            "lcn": 131,
+            "logo": "reteitalia.svg",
+            "name": "Rete Italia",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/326.m3u8",
             "adult": "night"
         },
         {
             "lcn": 132,
             "logo": "lineagem",
             "name": "Lineagem",
-            "subtitle": "Non sempre attivo",
-            "type": "youtube",
-            "url": "UC-dZ1irw0kSGVg0VoeKLddw"
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/164.m3u8",
+            "fallback": {
+                "type": "youtube",
+                "url": "UC-dZ1irw0kSGVg0VoeKLddw"
+            }
         },
         {
             "lcn": 133,
-            "logo": "arteinvestimenti.svg",
-            "name": "Arte Investimenti",
+            "logo": "artein.svg",
+            "name": "ArteIN",
             "hd": true,
             "type": "dash",
             "url": "https://5a1178b42cc03.streamlock.net/chiossone/chiossone/manifest.mpd",
@@ -1447,27 +1551,40 @@
             "lcn": 134,
             "logo": "italia134",
             "name": "Italia 134",
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel06.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel06/playlist.m3u8",
             "adult": "night",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/200.m3u8"
+            }
         },
         {
             "lcn": 135,
             "logo": "italia135",
             "name": "Italia 135",
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel07.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel07/playlist.m3u8",
             "adult": "night",
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/197.m3u8"
+            }
         },
         {
             "lcn": 136,
             "logo": "italia136",
             "name": "Italia 136",
-            "type": "dash",
-            "url": "https://liveac915.b-cdn.net/channel08.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel08/playlist.m3u8",
             "geoblock": true
+        },
+        {
+            "lcn": 137,
+            "logo": "137",
+            "name": "137",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/332.m3u8"
         },
         {
             "lcn": 138,
@@ -1489,6 +1606,13 @@
             "url": "https://59d7d6f47d7fc.streamlock.net/pierstyle/pierstyle/playlist.m3u8"
         },
         {
+            "lcn": 140,
+            "logo": "starmarket",
+            "name": "StarMarket",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/338.m3u8"
+        },
+        {
             "lcn": 145,
             "logo": "padrepiotv",
             "name": "Padre Pio TV",
@@ -1499,6 +1623,14 @@
                 "source": "set",
                 "id": "padrepiotv"
             }
+        },
+        {
+            "lcn": 147,
+            "logo": "firetv",
+            "name": "Fire TV",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/146.m3u8",
+            "adult": "night"
         },
         {
             "lcn": 149,
@@ -1518,7 +1650,10 @@
                 "source": "sky",
                 "id": "8293"
             },
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/176.m3u8"
+            }
         },
         {
             "lcn": 157,
@@ -1543,8 +1678,8 @@
                 "sublcn": 2,
                 "logo": "isgoodforyou",
                 "name": "Is Good For You",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/isgoodforyou/isgoodforyou/playlist.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/isgoodforyou/isgoodforyou/manifest.mpd"
             },
             {
                 "sublcn": 3,
@@ -1610,6 +1745,14 @@
             "hd": true,
             "type": "hls",
             "url": "https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8"
+        },
+        {
+            "lcn": 162,
+            "logo": "162",
+            "name": "Canale 162",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/335.m3u8",
+            "adult": "night"
         },
         {
             "lcn": 163,
@@ -1786,7 +1929,7 @@
             "logo": "apchannel",
             "name": "AP Channel",
             "type": "hls",
-            "url": "https://stream.cast.ets-sistemi.it:3741/stream/play.m3u8"
+            "url": "https://uvotv.zappr.stream/152.m3u8"
         },
         {
             "lcn": 221,
@@ -2428,8 +2571,8 @@
             "lcn": 240,
             "logo": "genius240",
             "name": "Genius 240",
-            "type": "iframe",
-            "url": "https://vaughn.live/embed/video/geniussrl"
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/149.m3u8"
         },
         {
             "lcn": 241,
@@ -3362,14 +3505,6 @@
             }
         },
         {
-            "lcn": 455,
-            "logo": "arteatelier",
-            "name": "Arte Atelier",
-            "hd": true,
-            "type": "hls",
-            "url": "https://fms.premio.link/arteatelier-hd-app/playlist.m3u8"
-        },
-        {
             "lcn": 510,
             "logo": "automoto.svg",
             "name": "Automoto",
@@ -3381,9 +3516,8 @@
             "lcn": 550,
             "logo": "sanmarinortv.svg",
             "name": "San Marino RTV",
-            "hd": true,
             "type": "hls",
-            "url": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/ch-01/chunklist_b1192000_slita.m3u8",
+            "url": "zappr://acdsolutions/0",
             "epg": {
                 "source": "blue",
                 "id": "1719"
@@ -3805,8 +3939,8 @@
             "lcn": 828,
             "logo": "classcnbc.svg",
             "name": "Class CNBC",
-            "type": "hls",
-            "url": "zappr://persidera/828",
+            "type": "dash",
+            "url": "https://www.dailymotion.com/cdn/live/video/x9h54mc.mpd?sec=u2zQSu-L_6-XRH0l0hJt4w",
             "epg": {
                 "source": "sky",
                 "id": "308"
@@ -3959,8 +4093,8 @@
             "lcn": 883,
             "logo": "classtvmoda",
             "name": "Class TV Moda",
-            "type": "hls",
-            "url": "zappr://persidera/883",
+            "type": "dash",
+            "url": "https://www.dailymotion.com/cdn/live/video/x9gjcsc.mpd?sec=TvanlgS3XnAOVoMuWBcmVw",
             "epg": {
                 "source": "blue",
                 "id": "101"
