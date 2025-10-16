@@ -1533,7 +1533,7 @@
         },
         {
             "lcn": 195,
-            "logo": "telejato",
+            "logo": "telejato.svg",
             "name": "Telejato",
             "type": "dash",
             "url": "https://648026e87a75e.streamlock.net/telejato/telejato/manifest.mpd"

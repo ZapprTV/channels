@@ -169,7 +169,7 @@
         },
         {
             "lcn": 75,
-            "logo": "fmtv75",
+            "logo": "fmtv75.svg",
             "name": "FMTV",
             "type": "hls",
             "url": "https://bbtv.intvstream.net:3988/hybrid/play.m3u8"

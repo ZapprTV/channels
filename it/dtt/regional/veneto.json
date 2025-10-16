@@ -19,7 +19,7 @@
         },
         {
             "lcn": 10,
-            "logo": "antennatrenordest",
+            "logo": "antennatrenordest.svg",
             "name": "Antenna Tre",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/536.m3u8",
@@ -85,7 +85,7 @@
         },
         {
             "lcn": 14,
-            "logo": "reteveneta",
+            "logo": "reteveneta.svg",
             "name": "Rete Veneta",
             "type": "hls",
             "url": "https://59d7d6f47d7fc.streamlock.net/reteveneta/reteveneta/playlist.m3u8",
@@ -381,7 +381,7 @@
             "url": "https://srvx1.selftv.video/cafe/smil:live/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
-                "logo": "stereocittà",
+                "logo": "stereocittà.svg",
                 "name": "Stereocittà",
                 "type": "audio",
                 "url": "https://geminione.it/proxy/stereocitta/stream"

@@ -206,7 +206,7 @@
         },
         {
             "lcn": 18,
-            "logo": "telenova",
+            "logo": "telenova.svg",
             "name": "Telenova",
             "type": "hls",
             "url": "https://64b16f23efbee.streamlock.net/telenova/telenova/playlist.m3u8",
@@ -440,7 +440,7 @@
             "url": "https://srvx1.selftv.video/cafe/smil:live/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
-                "logo": "stereocittà",
+                "logo": "stereocittà.svg",
                 "name": "Stereocittà",
                 "type": "audio",
                 "url": "https://geminione.it/proxy/stereocitta/stream"

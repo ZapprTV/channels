@@ -83,7 +83,7 @@
             },
             {
                 "sublcn": 7,
-                "logo": "teledehon",
+                "logo": "teledehon.svg",
                 "name": "Tele Dehon",
                 "hd": true,
                 "type": "hls",
@@ -102,7 +102,7 @@
             },
             {
                 "sublcn": 9,
-                "logo": "tvl",
+                "logo": "tvl.svg",
                 "name": "TVL",
                 "type": "hls",
                 "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
@@ -398,7 +398,7 @@
         },
         {
             "lcn": 83,
-            "logo": "rete7",
+            "logo": "rete7.svg",
             "name": "Rete 7",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/374.m3u8"

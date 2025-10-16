@@ -811,10 +811,7 @@
             "hd": true,
             "type": "hls",
             "url": "https://liveac915ha.streamcloud.it/channel09/playlist.m3u8",
-            "geoblock": {
-                "type": "iframe",
-                "url": "https://canaleitalia.streamcloud.it/embed/live/e701400d-2c46-4cec-8deb-bb6f7b8a7401"
-            }
+            "geoblock": true
         },
         {
             "lcn": 54,
@@ -1000,7 +997,7 @@
         },
         {
             "lcn": 61,
-            "logo": "il61",
+            "logo": "il61.svg",
             "name": "il61",
             "type": "dash",
             "url": "https://5a1178b42cc03.streamlock.net/travel/travel/manifest.mpd",
@@ -1126,6 +1123,13 @@
                 "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/manifest.mpd"
             },
             {
+                "sublcn": 2,
+                "logo": "engineradio",
+                "name": "3ngine Radio",
+                "type": "dash",
+                "url": "https://tsw.streamingwebtv24.it:1936/inteccdn4/inteccdn4/manifest.mpd"
+            },
+            {
                 "categorySeparator": "Live HD TV"
             },
             {
@@ -1199,13 +1203,6 @@
                 "name": "Radio Calima",
                 "type": "dash",
                 "url": "https://nrvideo1.newradio.it/calimafm/calimafm/manifest.mpd"   
-            },
-            {
-                "sublcn": 13,
-                "logo": "babayagatv",
-                "name": "Babayaga TV",
-                "type": "hls",
-                "url": "https://stream1.xdevel.com/video0s975770-326/stream/playlist.m3u8"
             }]
         },
         {
@@ -1243,8 +1240,8 @@
                 "id": "80"
             },
             "geoblock": {
-                "type": "iframe",
-                "url": "https://canaleitalia.streamcloud.it/embed/live/28591152-e3c0-49b0-94a8-0d3e18125ca8"
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/32.m3u8"
             }
         },
         {
@@ -1740,7 +1737,7 @@
         },
         {
             "lcn": 158,
-            "logo": "kisskiss",
+            "logo": "kisskiss.svg",
             "name": "Kiss Kiss TV",
             "hd": true,
             "type": "hls",
@@ -1802,13 +1799,20 @@
             "adult": "night",
             "hbbtv": [{
                 "sublcn": 1,
+                "logo": "telefoggia",
+                "name": "TeleFoggia",
+                "type": "hls",
+                "url": "https://59d7d6f47d7fc.streamlock.net/telefoggia/telefoggia/playlist.m3u8"
+            },
+            {
+                "sublcn": 2,
                 "logo": "amatv",
                 "name": "Ama TV",
                 "type": "hls",
                 "url": "https://5db313b643fd8.streamlock.net/amatv/amatv/playlist.m3u8"
             },
             {
-                "sublcn": 2,
+                "sublcn": 3,
                 "logo": "quants",
                 "name": "Quants",
                 "type": "hls",
@@ -1818,28 +1822,28 @@
                 "categorySeparator": "Radiovisione"
             },
             {
-                "sublcn": 3,
+                "sublcn": 4,
                 "logo": "70-80",
                 "name": "70-80.it",
                 "type": "dash",
                 "url": "https://585b674743bbb.streamlock.net/9050/9050/manifest.mpd"
             },
             {
-                "sublcn": 4,
+                "sublcn": 5,
                 "logo": "radiojukeboxcalabria",
                 "name": "Radio JukeBox TV",
                 "type": "dash",
                 "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/manifest.mpd"
             },
             {
-                "sublcn": 5,
+                "sublcn": 6,
                 "logo": "lifegate.svg",
                 "name": "LifeGate",
                 "type": "audio",
                 "url": "https://stream6.xdevel.com/audio0s975809-425/stream/icecast.audio"
             },
             {
-                "sublcn": 6,
+                "sublcn": 7,
                 "logo": "zerounotvmusic",
                 "name": "Zerouno TV Music",
                 "type": "dash",
@@ -1877,7 +1881,7 @@
                 "categorySeparator": "News"  
             },
             {
-                "sublcn": 12,
+                "sublcn": 11,
                 "logo": "zerounotvnews",
                 "name": "Zerouno TV News",
                 "type": "dash",
@@ -1887,7 +1891,7 @@
                 "categorySeparator": "Family"  
             },
             {
-                "sublcn": 13,
+                "sublcn": 12,
                 "logo": "primatv",
                 "name": "Prima TV",
                 "type": "hls",
@@ -1970,6 +1974,13 @@
                 "name": "TeleAmbiente",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/teleambiente3/teleambiente3/playlist.m3u8"
+            },
+            {
+                "sublcn": 6,
+                "logo": "whoptv",
+                "name": "Whop Shopping Television",
+                "type": "hls",
+                "url": "https://streamer2.premio.link/mosaic-221-whopst/index.m3u8"
             }]
         },
         {
@@ -2796,10 +2807,11 @@
             },
             {
                 "sublcn": 10,
-                "logo": "darte",
-                "name": "d'arte",
-                "type": "dash",
-                "url": "https://host1.momentotv.live:28443/cmaf/darte/manifest.mpd"
+                "logo": "mediterraneatv",
+                "name": "Mediterranea TV",
+                "subtitle": "/ Video M Italia",
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video1s975675-1403/stream/playlist.m3u8"
             },
             {
                 "sublcn": 11,
@@ -2810,10 +2822,10 @@
             },
             {
                 "sublcn": 12,
-                "logo": "tuttotv",
-                "name": "Tutto TV",
+                "logo": "vibechannel",
+                "name": "Vibe",
                 "type": "dash",
-                "url": "https://host1.momentotv.live:28443/cmaf/tuttotv/manifest.mpd"
+                "url": "https://host1.momentotv.live:28443/cmaf/vibe/manifest.mpd"
             }]
         },
         {
@@ -3353,6 +3365,13 @@
             },
             {
                 "sublcn": 20,
+                "logo": "pianetaimprese",
+                "name": "Pianeta Imprese TV",
+                "type": "hls",
+                "url": "https://host2.hbbtv.me:28443/cmaf/pimprese/index.m3u8"
+            },
+            {
+                "sublcn": 21,
                 "logo": "sportchannel214",
                 "name": "Sport Channel 214",
                 "subtitle": "Non sempre attivo",
@@ -3360,21 +3379,7 @@
                 "url": "sportchannelnews"
             },
             {
-                "sublcn": 21,
-                "logo": "radiostudiotvpotenza",
-                "name": "RadioStudioTV Potenza",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video0s978116-2477/stream/playlist.m3u8"
-            },
-            {
                 "sublcn": 22,
-                "logo": "radiovacri",
-                "name": "Radio Vacri",
-                "type": "dash",
-                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/index.mpd"
-            },
-            {
-                "sublcn": 23,
                 "logo": "mitoitalia",
                 "name": "Mito Italia TV",
                 "type": "hls",
@@ -3382,11 +3387,47 @@
             },
             {
                 "sublcn": 24,
+                "logo": "contrastotv",
+                "name": "Contrasto TV",
+                "type": "hls",
+                "url": "https://host2.hbbtv.me:28443/cmaf/contrastotv/index.m3u8"
+            },
+            {
+                "sublcn": 25,
+                "logo": "caprievents",
+                "name": "Capri.Events",
+                "type": "hls",
+                "url": "https://host2.hbbtv.me:28443/cmaf/caprievents/index.m3u8"
+            },
+            {
+                "sublcn": 27,
                 "logo": "petmaniatv",
                 "name": "Pet Mania TV",
                 "type": "dash",
                 "url": "http://hbbtv.momentotv.live:29935/petmania/petmania/manifest.mpd",
                 "http": true
+            },
+            {
+                "sublcn": 28,
+                "logo": "radiovacri",
+                "name": "Radio Vacri",
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/index.mpd"
+            },
+            {
+                "sublcn": 29,
+                "logo": "tuttotv",
+                "name": "Tutto TV",
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/tuttotv/manifest.mpd"
+            },
+            {
+                "sublcn": 30,
+                "logo": "ottcast4kultrahd",
+                "name": "Ottcast 4K Ultra HD",
+                "uhd": true,
+                "type": "dash",
+                "url": "https://host1.momentotv.live:28443/cmaf/demo4k/manifest.mpd"
             }]
         },
         {

@@ -105,7 +105,7 @@
         },
         {
             "lcn": 84,
-            "logo": "amternitelevision",
+            "logo": "amternitelevision.svg",
             "name": "AM Terni Television",
             "type": "hls",
             "url": "https://stream9.xdevel.com/video0s976364-1176/stream/playlist.m3u8"

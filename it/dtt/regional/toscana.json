@@ -44,7 +44,7 @@
         },
         {
             "lcn": 14,
-            "logo": "tvl",
+            "logo": "tvl.svg",
             "name": "TVL",
             "type": "hls",
             "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8",
@@ -60,7 +60,7 @@
             },
             {
                 "sublcn": 2,
-                "logo": "teledehon",
+                "logo": "teledehon.svg",
                 "name": "Tele Dehon",
                 "hd": true,
                 "type": "hls",
@@ -352,7 +352,7 @@
         },
         {
             "lcn": 80,
-            "logo": "firenzetv",
+            "logo": "firenzetv.svg",
             "name": "Firenze TV",
             "type": "dash",
             "url": "https://39f0a786c3fb4d3fab9ec6870cc428f9.msvdn.net/live/S10341261/Wl6aWcmb8xsQ/manifest.mpd"

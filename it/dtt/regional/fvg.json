@@ -156,7 +156,7 @@
         },
         {
             "lcn": 15,
-            "logo": "antennatrenordest",
+            "logo": "antennatrenordest.svg",
             "name": "Antenna Tre",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/536.m3u8",

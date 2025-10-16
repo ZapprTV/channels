@@ -19,7 +19,7 @@
         },
         {
             "lcn": 10,
-            "logo": "rete8",
+            "logo": "rete8.svg",
             "name": "Rete 8",
             "type": "hls",
             "url": "https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8"
@@ -133,7 +133,7 @@
         },
         {
             "lcn": 76,
-            "logo": "telesirio",
+            "logo": "telesirio.svg",
             "name": "TeleSirio",
             "type": "hls",
             "url": "https://www.telesirio.it/live/stream.m3u8"

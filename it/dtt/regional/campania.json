@@ -104,7 +104,7 @@
         },
         {
             "lcn": 19,
-            "logo": "irpiniatv",
+            "logo": "irpiniatv.svg",
             "name": "Irpinia TV",
             "subtitle": "Attivo solo durante alcuni programmi in diretta",
             "type": "youtube",
@@ -356,7 +356,7 @@
         },
         {
             "lcn": 110,
-            "logo": "teledehon",
+            "logo": "teledehon.svg",
             "name": "Tele Dehon",
             "hd": true,
             "type": "hls",
@@ -374,7 +374,7 @@
             },
             {
                 "sublcn": 2,
-                "logo": "tvl",
+                "logo": "tvl.svg",
                 "name": "TVL",
                 "type": "hls",
                 "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
@@ -431,7 +431,7 @@
         },
         {
             "lcn": 114,
-            "logo": "sudtv",
+            "logo": "sudtv.svg",
             "name": "Sud TV",
             "type": "twitch",
             "url": "sudtv_114"
