@@ -688,12 +688,7 @@
             "logo": "boingplus.svg",
             "name": "Boing Plus",
             "type": "hls",
-            "url": "https://dttstream.zappr.stream/boingplus.m3u8",
-            "cssfix": "five-two-squashed-height",
-            "fallback": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/101.m3u8"
-            }
+            "url": "https://uvotv.zappr.stream/101.m3u8"
         },
         {
             "lcn": 46,
