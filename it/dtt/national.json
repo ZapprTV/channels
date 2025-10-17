@@ -764,13 +764,15 @@
             "lcn": 50,
             "logo": "skytg24.svg",
             "name": "Sky TG24",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSkyTG24%2Fvideos%2F1346373270235668&show_text=false",
-            "cssfix": "center-iframe",
+            "type": "hls",
+            "url": "zappr://sky/1",
             "epg": {
                 "source": "blue",
                 "id": "393"
+            },
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/293.m3u8"
             }
         },
         {
