@@ -244,12 +244,7 @@
                 "source": "mediaset",
                 "id": "LB"
             },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(venti)/manifest.mpd",
-                "license": "clearkey",
-                "licensedetails": "91b1e80175ff4808b09d00f77d68d9cc:52ef3fbae501303ea955e8ff3799ea7f"
-            }
+            "geoblock": true
         },
         {
             "lcn": 21,
@@ -288,12 +283,7 @@
                 "source": "mediaset",
                 "id": "KI"
             },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(iris)/manifest.mpd",
-                "license": "clearkey",
-                "licensedetails": "b0bdf055073a4e858b55abc038f87c7c:d13a4b8a8d377b628e79981bc01c4170"
-            }
+            "geoblock": true
         },
         {
             "lcn": 23,
@@ -437,12 +427,7 @@
                 "source": "mediaset",
                 "id": "KA"
             },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(la5)/manifest.mpd",
-                "license": "clearkey",
-                "licensedetails": "ca591544ca77429fb6f78c00127789ee:e5c983f21a58f00d54b5d7c1307ee450"
-            }
+            "geoblock": true
         },
         {
             "lcn": 31,
@@ -503,10 +488,8 @@
                 "id": "B6"
             },
             "geoblock": {
-                "type": "dash",
-                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(cine34)/manifest.mpd",
-                "license": "clearkey",
-                "licensedetails": "169895ce49af46b7958a0bae7afe1a25:6e41bff40e72a4021fc7ae3f3ab1e9e2"
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/92.m3u8"
             }
         },
         {
@@ -525,10 +508,8 @@
                 "id": "FU"
             },
             "geoblock": {
-                "type": "dash",
-                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(focus)/manifest.mpd",
-                "license": "clearkey",
-                "licensedetails": "177e8ed7a9f74f62acb763cc4023d664:8a013c180a62f700c74838be0a03ac5c"
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/89.m3u8"
             }
         },
         {
@@ -549,7 +530,7 @@
             "name": "Discovery",
             "hd": true,
             "type": "hls",
-            "url": "https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8",
+            "url": "https://d1941a53blim0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-75c5ipmzpicfd/Discovery_IT.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "124"
@@ -590,12 +571,7 @@
                 "source": "mediaset",
                 "id": "LT"
             },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(topcrime)/manifest.mpd",
-                "license": "clearkey",
-                "licensedetails": "d7a066e9e06f49d8a3543250f9f1c26b:97c485e12d7ec983f28b84bd0ea72672"
-            }
+            "geoblock": true
         },
         {
             "lcn": 40,
@@ -748,12 +724,7 @@
                 "source": "mediaset",
                 "id": "I2"
             },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(italia2)/manifest.mpd",
-                "license": "clearkey",
-                "licensedetails": "49bf1cc94bdf4eb18aead5746542b7d4:62a1bd23dc820cf49581c1a10d45a91b"
-            }
+            "geoblock": true
         },
         {
             "lcn": 50,
@@ -849,12 +820,7 @@
                 "source": "mediaset",
                 "id": "KQ"
             },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(mdsextra)/manifest.mpd",
-                "license": "clearkey",
-                "licensedetails": "883267320e6a453bb36e0d26eab54f4d:d980fb92d0ddd2ef110a0613ffe37811"
-            }
+            "geoblock": true
         },
         {
             "lcn": 56,
