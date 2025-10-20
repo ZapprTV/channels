@@ -362,15 +362,19 @@
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
             "epg": {
-                "source": "digitalbitrate",
-                "id": "tca/TCA_CH32_9818"
+                "source": "uvotv",
+                "id": "Tele Dehon_it"
             },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "icarotv.svg",
                 "name": "Icaro TV",
                 "type": "hls",
-                "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8"
+                "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Icaro TV_it"
+                }
             },
             {
                 "sublcn": 2,
@@ -395,7 +399,11 @@
                 "logo": "teleradiopace1",
                 "name": "TeleRadioPace 1",
                 "type": "hls",
-                "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8"  
+                "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "TELERADIOPACE 1_it"
+                }
             },
             {
                 "sublcn": 5,

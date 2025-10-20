@@ -115,8 +115,8 @@
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
                 "epg": {
-                    "source": "digitalbitrate",
-                    "id": "tca/TCA_CH32_9818"
+                    "source": "uvotv",
+                    "id": "Tele Dehon_it"
                 }
             },
             {

@@ -23,6 +23,10 @@
             "name": "Trentino TV",
             "type": "hls",
             "url": "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "TRENTINO_it"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "altoadigetv",
@@ -75,7 +79,11 @@
                 "logo": "radiobruno",
                 "name": "Radio Bruno",
                 "type": "hls",
-                "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8"  
+                "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Radio BRUNO.tvprofile_it"
+                }
             },
             {
                 "sublcn": 8,
@@ -145,6 +153,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://rttr.fluid.stream/RTTRlive/livestream/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "RTTR_it"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "rttlaradio",
@@ -158,14 +170,22 @@
             "logo": "telepacetrento.svg",
             "name": "Telepace Trento",
             "type": "hls",
-            "url": "https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8"
+            "url": "https://5a1178b42cc03.streamlock.net/telepacetrento/telepacetrento/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Telepace Trento.tvprofil_it"
+            }
         },
         {
             "lcn": 13,
             "logo": "7goldtelepadova",
             "name": "7 Gold Telepadova",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/530.m3u8"
+            "url": "https://uvotv.zappr.stream/530.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Telepadova - 7 GOLD_it"
+            }
         },
         {
             "lcn": 14,
@@ -274,8 +294,8 @@
                 "type": "dash",
                 "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
                 "epg": {
-                    "source": "digitalbitrate",
-                    "id": "tlu/TLU_CH34_25"
+                    "source": "uvotv",
+                    "id": "TELECOLOR.tvprofil_it"
                 }
             },
             {
@@ -390,8 +410,8 @@
                 "type": "dash",
                 "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
                 "epg": {
-                    "source": "digitalbitrate",
-                    "id": "tlu/TLU_CH34_25"
+                    "source": "uvotv",
+                    "id": "TELECOLOR.tvprofil_it"
                 }
             },
             {
@@ -399,7 +419,11 @@
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
                 "type": "dash",
-                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd"
+                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "eTV Rete 7.tvprofil_it"
+                }
             },
             {
                 "sublcn": 4,

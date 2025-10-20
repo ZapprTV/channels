@@ -30,6 +30,10 @@
             "name": "Telemolise",
             "type": "dash",
             "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+            "epg": {
+                "source": "uvotv",
+                "id": "Telemolise.tvprofil_it"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "diciotto",
@@ -51,12 +55,20 @@
             "name": "TVSEI",
             "type": "dash",
             "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/manifest.mpd",
+            "epg": {
+                "source": "uvotv",
+                "id": "TVSEI.tvprofil_it"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "telemolise",
                 "name": "Telemolise",
                 "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd"
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Telemolise.tvprofil_it"
+                }
             },
             {
                 "sublcn": 2,
@@ -144,6 +156,17 @@
             "name": "TLT Molise",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/tltmolise/tltmolise/playlist.m3u8"
+        },
+        {
+            "lcn": 79,
+            "logo": "veraabruzzo",
+            "name": "Vera Abruzzo",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/56.m3u8",
+            "epg": {
+                "source": "veratv",
+                "id": "Get_ApiAppAbruzzoSchedules"
+            }
         },
         {
             "lcn": 80,

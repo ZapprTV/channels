@@ -129,7 +129,11 @@
                 "logo": "trentinotv",
                 "name": "Trentino TV",
                 "type": "hls",
-                "url": "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8"
+                "url": "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "TRENTINO_it"
+                }
             },
             {
                 "sublcn": 2,
@@ -183,7 +187,11 @@
                 "logo": "radiobruno",
                 "name": "Radio Bruno",
                 "type": "hls",
-                "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8"  
+                "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Radio BRUNO.tvprofile_it"
+                }
             },
             {
                 "sublcn": 9,

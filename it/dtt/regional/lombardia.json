@@ -125,8 +125,8 @@
             "type": "dash",
             "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
             "epg": {
-                "source": "digitalbitrate",
-                "id": "tlu/TLU_CH34_25"
+                "source": "uvotv",
+                "id": "TELECOLOR.tvprofil_it"
             },
             "hbbtv": [{
                 "sublcn": 1,
@@ -144,7 +144,11 @@
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
                 "type": "dash",
-                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd"
+                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "eTV Rete 7.tvprofil_it"
+                }
             },
             {
                 "sublcn": 3,
@@ -232,7 +236,11 @@
             "logo": "radiobruno",
             "name": "Radio Bruno",
             "type": "hls",
-            "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8"
+            "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Radio BRUNO.tvprofile_it"
+            }
         },
         {
             "lcn": 75,
@@ -332,13 +340,6 @@
             "name": "TSN",
             "type": "hls",
             "url": "https://189790-castr.akamaized.net/633d685a281cd401ae82c2f7/live_bc04bf70449f11ed80952100db9e5fd9/rewind-18000.m3u8"
-        },
-        {
-            "lcn": 87,
-            "logo": "videostar",
-            "name": "Videostar",
-            "type": "dash",
-            "url": "https://604e46ac2bdee.streamlock.net:1936/vds/vds/manifest.mpd"
         },
         {
             "lcn": 88,

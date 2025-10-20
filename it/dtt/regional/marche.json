@@ -23,7 +23,15 @@
             "name": "TV Centro Marche",
             "subtitle": "Attivo solo durante il News TG",
             "type": "hls",
-            "url": "https://live20.bozztv.com/akamaissh101/ssh101/tvcm1/playlist.m3u8",
+            "url": "https://uvotv.zappr.stream/455.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "TV CENTRO MARCHE_it"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "https://live20.bozztv.com/akamaissh101/ssh101/tvcm1/playlist.m3u8"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "tvcentromarchenewstg",
@@ -60,7 +68,11 @@
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
                 "type": "dash",
-                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd"
+                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "eTV Rete 7.tvprofil_it"
+                }
             },
             {
                 "sublcn": 2,
@@ -70,8 +82,8 @@
                 "type": "dash",
                 "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
                 "epg": {
-                    "source": "digitalbitrate",
-                    "id": "tlu/TLU_CH34_25"
+                    "source": "uvotv",
+                    "id": "TELECOLOR.tvprofil_it"
                 }
             },
             {
@@ -115,14 +127,22 @@
             "logo": "tvrs.svg",
             "name": "TVRS",
             "type": "dash",
-            "url": "https://cdn8.streamshow.it/cloud-tvrs/tvrs/manifest.mpd"
+            "url": "https://cdn8.streamshow.it/cloud-tvrs/tvrs/manifest.mpd",
+            "epg": {
+                "source": "uvotv",
+                "id": "TVRS.tvprofile_it"
+            }
         },
         {
             "lcn": 15,
             "logo": "7goldmarche",
             "name": "7 Gold Marche",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/467.m3u8"
+            "url": "https://uvotv.zappr.stream/467.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "7Gold Marche.tvprofile_it"
+            }
         },
         {
             "lcn": 16,
@@ -151,7 +171,11 @@
             "logo": "ètv+",
             "name": "èTV+",
             "type": "dash",
-            "url": "https://live.ipstream.it/etvmarche2/etvmarche2.stream/manifest.mpd"
+            "url": "https://live.ipstream.it/etvmarche2/etvmarche2.stream/manifest.mpd",
+            "epg": {
+                "source": "uvotv",
+                "id": "etv+ netweek.tvprofil_it"
+            }
         },
         {
             "lcn": 18,
@@ -165,7 +189,11 @@
             "logo": "fanotv",
             "name": "Fano TV",
             "type": "hls",
-            "url": "https://diretta.arcapuglia.it:8080/live/fanotv/index.m3u8"
+            "url": "https://diretta.arcapuglia.it:8080/live/fanotv/index.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "FANO TV.tvprofil_it"
+            }
         },
         {
             "lcn": 75,
@@ -276,7 +304,11 @@
             "logo": "rossinitv",
             "name": "Rossini TV",
             "type": "hls",
-            "url": "https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8"  
+            "url": "https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "ROSSINI.tvprofil_it"
+            }
         },
         {
             "lcn": 82,
@@ -373,7 +405,11 @@
             "logo": "rtm",
             "name": "RTM",
             "type": "dash",
-            "url": "https://cdn17.streamshow.it/cloud-rtmtv/rtmtv.stream/manifest.mpd"
+            "url": "https://cdn17.streamshow.it/cloud-rtmtv/rtmtv.stream/manifest.mpd",
+            "epg": {
+                "source": "uvotv",
+                "id": "RTM.tvprofil_it"
+            }
         },
         {
             "lcn": 351,

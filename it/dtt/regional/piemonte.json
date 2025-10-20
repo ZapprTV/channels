@@ -94,14 +94,22 @@
                 "name": "RTTR",
                 "hd": true,
                 "type": "hls",
-                "url": "https://rttr.fluid.stream/RTTRlive/livestream/playlist.m3u8"
+                "url": "https://rttr.fluid.stream/RTTRlive/livestream/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "RTTR_it"
+                }
             },
             {
                 "sublcn": 7,
                 "logo": "telemolise",
                 "name": "Telemolise",
                 "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd"
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Telemolise.tvprofil_it"
+                }
             },
             {
                 "sublcn": 8,
@@ -117,20 +125,16 @@
             }]
         },
         {
-            "lcn": 12,
-            "logo": "videogruppo",
-            "name": "VideoGruppo",
-            "subtitle": "In alcuni orari Top Planet",
-            "type": "youtube",
-            "url": "zappr://wp-yt-iframe/www.mediapason.it/461"
-        },
-        {
             "lcn": 14,
             "logo": "primantenna",
             "name": "Primantenna",
             "hd": true,
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Primantenna_it"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "motoritv",
@@ -196,7 +200,11 @@
             "logo": "radiobruno",
             "name": "Radio Bruno",
             "type": "hls",
-            "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8"
+            "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Radio BRUNO.tvprofile_it"
+            }
         },
         {
             "lcn": 75,

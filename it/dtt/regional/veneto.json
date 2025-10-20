@@ -99,7 +99,11 @@
             "logo": "7goldtelepadova",
             "name": "7 Gold Telepadova",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/530.m3u8"
+            "url": "https://uvotv.zappr.stream/530.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Telepadova - 7 GOLD_it"
+            }
         },
         {
             "lcn": 16,
@@ -219,8 +223,8 @@
                 "type": "dash",
                 "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
                 "epg": {
-                    "source": "digitalbitrate",
-                    "id": "tlu/TLU_CH34_25"
+                    "source": "uvotv",
+                    "id": "TELECOLOR.tvprofil_it"
                 }
             },
             {
@@ -459,8 +463,8 @@
                 "type": "dash",
                 "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
                 "epg": {
-                    "source": "digitalbitrate",
-                    "id": "tlu/TLU_CH34_25"
+                    "source": "uvotv",
+                    "id": "TELECOLOR.tvprofil_it"
                 }
             },
             {

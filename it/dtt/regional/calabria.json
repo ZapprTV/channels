@@ -24,8 +24,8 @@
             "type": "dash",
             "url": "https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/manifest.mpd",
             "epg": {
-                "source": "digitalbitrate",
-                "id": "tca/TCA_CH32_9801"
+                "source": "uvotv",
+                "id": "Video Calabria_it"
             }
         },
         {
@@ -68,8 +68,8 @@
             "type": "dash",
             "url": "https://7640f9b3494e4d1fb307f886e3b60402.msvdn.net/live/S41081260/ohLhSxDNpDNC/manifest.mpd",
             "epg": {
-                "source": "digitalbitrate",
-                "id": "tca/TCA_CH32_9803"
+                "source": "uvotv",
+                "id": "TEN TV_it"
             }
         },
         {
@@ -78,7 +78,11 @@
             "name": "Calabria TV",
             "hd": true,
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/calabriatv/calabriatv/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/calabriatv/calabriatv/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Calabria TV.tvprofil_it"
+            }
         },
         {
             "lcn": 14,
@@ -181,8 +185,8 @@
             "type": "hls",
             "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaHD/telemia85_mediachunks.m3u8",
             "epg": {
-                "source": "digitalbitrate",
-                "id": "tca/TCA_CH32_9812"
+                "source": "uvotv",
+                "id": "TELEMIA_it"
             },
             "hbbtv": [{
                 "categorySeparator": "TV"
@@ -263,6 +267,10 @@
             "name": "Reggio TV",
             "type": "dash",
             "url": "https://cdn10.streamshow.it/cloud-reggiotv/reggiotv/manifest.mpd",
+            "epg": {
+                "source": "uvotv",
+                "id": "REGGIO TV.tvprofil_it"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "soveratounotv",
@@ -337,15 +345,19 @@
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
             "epg": {
-                "source": "digitalbitrate",
-                "id": "tca/TCA_CH32_9818"
+                "source": "uvotv",
+                "id": "Tele Dehon_it"
             },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "icarotv.svg",
                 "name": "Icaro TV",
                 "type": "hls",
-                "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8"
+                "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Icaro TV_it"
+                }
             },
             {
                 "sublcn": 2,
@@ -370,7 +382,11 @@
                 "logo": "teleradiopace1",
                 "name": "TeleRadioPace 1",
                 "type": "hls",
-                "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8"  
+                "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "TELERADIOPACE 1_it"
+                }
             },
             {
                 "sublcn": 5,
@@ -410,7 +426,11 @@
             "name": "VideoTouring",
             "type": "iframe",
             "url": "https://streamingvideo.auranex.cloud/70baacad-47c6-41a6-aee0-86530c31e080.html",
-            "cssfix": "center-iframe"
+            "cssfix": "center-iframe",
+            "epg": {
+                "source": "uvotv",
+                "id": "Video Touring.tvprofil_it"
+            }
         },
         {
             "lcn": 90,

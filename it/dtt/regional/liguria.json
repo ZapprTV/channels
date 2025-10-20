@@ -30,7 +30,11 @@
             "logo": "telenord",
             "name": "Telenord",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/telenord/telenord/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/telenord/telenord/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "TELENORD_it"
+            }
         },
         {
             "lcn": 12,
@@ -38,12 +42,20 @@
             "name": "TeleRadioPace 1",
             "type": "hls",
             "url": "https://jk3lz2bwlw79-hls-live.mariatvcdn.it/teleradiopace1/efcc8fc46cab26315ce3f5845d76008f.sdp/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "TELERADIOPACE 1_it"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "teleradiopace2",
                 "name": "TeleRadioPace 2",
                 "type": "hls",
-                "url": "https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8"
+                "url": "https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "TELERADIOPACE 2_it"
+                }
             },
             {
                 "sublcn": 2,
@@ -89,8 +101,8 @@
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
                 "epg": {
-                    "source": "digitalbitrate",
-                    "id": "tca/TCA_CH32_9818"
+                    "source": "uvotv",
+                    "id": "Tele Dehon_it"
                 }
             },
             {
@@ -98,7 +110,11 @@
                 "logo": "icarotv.svg",
                 "name": "Icaro TV",
                 "type": "hls",
-                "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8"
+                "url": "https://59d7d6f47d7fc.streamlock.net/icarotv/icarotv/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Icaro TV_it"
+                }
             },
             {
                 "sublcn": 9,
@@ -136,7 +152,11 @@
             "logo": "telecity",
             "name": "Telecity Liguria",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/353.m3u8"
+            "url": "https://uvotv.zappr.stream/353.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "TELECITY_it"
+            }
         },
         {
             "lcn": 14,
@@ -167,8 +187,8 @@
             "type": "dash",
             "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
             "epg": {
-                "source": "digitalbitrate",
-                "id": "tlu/TLU_CH34_25"
+                "source": "uvotv",
+                "id": "TELECOLOR.tvprofil_it"
             },
             "hbbtv": [{
                 "sublcn": 1,
@@ -186,7 +206,11 @@
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
                 "type": "dash",
-                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd"
+                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "eTV Rete 7.tvprofil_it"
+                }
             },
             {
                 "sublcn": 3,
@@ -312,14 +336,22 @@
                 "name": "RTTR",
                 "hd": true,
                 "type": "hls",
-                "url": "https://rttr.fluid.stream/RTTRlive/livestream/playlist.m3u8"
+                "url": "https://rttr.fluid.stream/RTTRlive/livestream/playlist.m3u8",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "RTTR_it"
+                }
             },
             {
                 "sublcn": 7,
                 "logo": "telemolise",
                 "name": "Telemolise",
                 "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd"
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Telemolise.tvprofil_it"
+                }
             },
             {
                 "sublcn": 8,
@@ -362,6 +394,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/primantenna14/primantenna14/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Primantenna_it"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "motoritv",
@@ -401,7 +437,11 @@
             "logo": "rete7.svg",
             "name": "Rete 7",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/374.m3u8"
+            "url": "https://uvotv.zappr.stream/374.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "RETE 7.tvprofil_it"
+            }
         },
         {
             "lcn": 84,
@@ -415,7 +455,11 @@
             "logo": "teleradiopace2",
             "name": "TeleRadioPace 2",
             "type": "hls",
-            "url": "https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8"
+            "url": "https://zkpywrbgdbeg-hls-live.mariatvcdn.it/teleradiopace2/254c9b5c52a73a94ef0f6169cbd05dc2.sdp/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "TELERADIOPACE 2_it"
+            }
         },
         {
             "lcn": 351,

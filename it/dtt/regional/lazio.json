@@ -248,7 +248,11 @@
                 "name": "Telecolor",
                 "hd": true,
                 "type": "dash",
-                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd"
+                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "TELECOLOR.tvprofil_it"
+                }
             },
             {
                 "sublcn": 5,
@@ -262,7 +266,11 @@
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
                 "type": "dash",
-                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd"
+                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "eTV Rete 7.tvprofil_it"
+                }
             },
             {
                 "sublcn": 7,

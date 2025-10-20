@@ -1483,8 +1483,8 @@
             "type": "dash",
             "url": "https://a8a02dd9a49a4fc9810743615c65ab73.msvdn.net/live/S76734991/i6NeNqLYaspb/manifest.mpd",
             "epg": {
-                "source": "digitalbitrate",
-                "id": "tca/TCA_CH32_9801"
+                "source": "uvotv",
+                "id": "Video Calabria_it"
             }
         },
         {

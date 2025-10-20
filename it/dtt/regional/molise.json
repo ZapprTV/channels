@@ -30,6 +30,10 @@
             "name": "Telemolise",
             "type": "dash",
             "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+            "epg": {
+                "source": "uvotv",
+                "id": "Telemolise.tvprofil_it"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "diciotto",
@@ -51,12 +55,20 @@
             "name": "TVSEI",
             "type": "dash",
             "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/manifest.mpd",
+            "epg": {
+                "source": "uvotv",
+                "id": "TVSEI.tvprofil_it"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "telemolise",
                 "name": "Telemolise",
                 "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd"
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+                "epg": {
+                    "source": "uvotv",
+                    "id": "Telemolise.tvprofil_it"
+                }
             },
             {
                 "sublcn": 2,
