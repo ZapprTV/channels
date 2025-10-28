@@ -2548,6 +2548,14 @@
             }]
         },
         {
+            "lcn": 236,
+            "logo": "man-ga",
+            "name": "Man-ga",
+            "hd": true,
+            "type": "hls",
+            "url": "https://c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/playlist.m3u8"
+        },
+        {
             "lcn": 240,
             "logo": "genius240",
             "name": "Genius 240",
