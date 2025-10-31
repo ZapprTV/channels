@@ -91,8 +91,8 @@
             "logo": "goldtv.svg",
             "name": "Gold TV",
             "hd": true,
-            "type": "dash",
-            "url": "https://5a1178b42cc03.streamlock.net/goldtv/goldtv/manifest.mpd",
+            "type": "hls",
+            "url": "https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8",
             "epg": {
                 "source": "softwarecreation",
                 "id": "GoldTv"
@@ -214,8 +214,8 @@
             "lcn": 17,
             "logo": "t9",
             "name": "T9",
-            "type": "dash",
-            "url": "https://5a1178b42cc03.streamlock.net/t9/t9/manifest.mpd",
+            "type": "hls",
+            "url": "https://streaming.softwarecreation.it/tnove/tnove/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "canale21",
