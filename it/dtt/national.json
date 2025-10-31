@@ -3411,6 +3411,14 @@
             }]
         },
         {
+            "lcn": 270,
+            "logo": "9novanta",
+            "name": "9Novanta",
+            "type": "dash",
+            "url": "http://185.132.71.134:1935/live/cdn5/manifest.mpd",
+            "http": true
+        },
+        {
             "lcn": 401,
             "logo": "sct",
             "name": "Satisfaction TV",
@@ -4120,14 +4128,6 @@
             "hbbtvapp": true,
             "type": "popup",
             "url": "https://app.cacciaepesca.tv/hbbtv-cp/"
-        },
-        {
-            "lcn": 990,
-            "logo": "9novanta",
-            "name": "9Novanta",
-            "type": "dash",
-            "url": "http://185.132.71.134:1935/live/cdn5/manifest.mpd",
-            "http": true
         }
     ]
 }
