@@ -172,8 +172,8 @@
             "logo": "la7.svg",
             "name": "LA7",
             "hd": true,
-            "type": "dash",
-            "url": "zappr://la7-hbbtv/la7_live",
+            "type": "hls",
+            "url": "https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "237"
@@ -181,10 +181,6 @@
             "manualRestart": {
                 "source": "la7",
                 "id": "la7"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8"
             },
             "hbbtv": [{
                 "sublcn": 1,
@@ -571,7 +567,10 @@
                 "source": "mediaset",
                 "id": "LT"
             },
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/86.m3u8"
+            }
         },
         {
             "lcn": 40,
@@ -3417,15 +3416,7 @@
             "name": "Satisfaction TV",
             "type": "hls",
             "url": "https://stream10.xdevel.com/video22s975955-2186/stream/playlist.m3u8",
-            "adult": true,
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "sct",
-                "name": "Promo SCT",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/ondemand/mp4:spot1.mp4/manifest.mpd",
-                "adult": true
-            }]
+            "adult": true
         },
         {
             "lcn": 402,
