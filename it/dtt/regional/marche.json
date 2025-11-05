@@ -21,7 +21,6 @@
             "lcn": 10,
             "logo": "tvcentromarche",
             "name": "TV Centro Marche",
-            "subtitle": "Attivo solo durante il News TG",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/455.m3u8",
             "epg": {

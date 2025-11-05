@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.5",
+    "image-size": "^2.0.2",
+    "svgdom": "^0.1.22",
+    "svgo": "^4.0.0"
+  }
+}
