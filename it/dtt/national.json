@@ -33,7 +33,11 @@
                 "type": "hls",
                 "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay/hls/playlist_mo.m3u8",
                 "feed": true,
-                "geoblock": true
+                "geoblock": true,
+                "epg": {
+                    "source": "raiplay",
+                    "id": "raiplay"
+                }
             },
             {
                 "sublcn": 2,
@@ -42,7 +46,11 @@
                 "type": "hls",
                 "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay2/hls/playlist_mo.m3u8",
                 "feed": true,
-                "geoblock": true
+                "geoblock": true,
+                "epg": {
+                    "source": "raiplay",
+                    "id": "raiplay-2"
+                }
             },
             {
                 "sublcn": 3,
@@ -51,7 +59,50 @@
                 "type": "hls",
                 "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay3/hls/playlist_mo.m3u8",
                 "feed": true,
-                "geoblock": true
+                "geoblock": true,
+                "epg": {
+                    "source": "raiplay",
+                    "id": "raiplay-3"
+                }
+            },
+            {
+                "sublcn": 4,
+                "logo": "raiplaysport1.svg",
+                "name": "RaiPlay Sport 1",
+                "type": "hls",
+                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay4/hls/playlist_mo.m3u8",
+                "feed": true,
+                "geoblock": true,
+                "epg": {
+                    "source": "raiplay",
+                    "id": "raiplay-sport-1"
+                }
+            },
+            {
+                "sublcn": 5,
+                "logo": "raiplaysport2.svg",
+                "name": "RaiPlay Sport 2",
+                "type": "hls",
+                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay5/hls/playlist_mo.m3u8",
+                "feed": true,
+                "geoblock": true,
+                "epg": {
+                    "source": "raiplay",
+                    "id": "raiplay-sport-2"
+                }
+            },
+            {
+                "sublcn": 6,
+                "logo": "raiplaysport3.svg",
+                "name": "RaiPlay Sport 3",
+                "type": "hls",
+                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay6/hls/playlist_mo.m3u8",
+                "feed": true,
+                "geoblock": true,
+                "epg": {
+                    "source": "raiplay",
+                    "id": "raiplay-sport-3"
+                }
             }]
         },
         {
@@ -398,7 +449,9 @@
             "name": "LA7 Cinema",
             "hd": true,
             "type": "dash",
-            "url": "zappr://la7-hbbtv/la7d_live",
+            "url": "https://d15umi5iaezxgx.cloudfront.net/LA7D/DRM/DASH/Live.mpd",
+            "license": "clearkey",
+            "licensedetails": "a2b202e78a244da6876d5adbcf5d6a75:88c5efd5d7e49194cd780e773318f69d",
             "epg": {
                 "source": "blue",
                 "id": "239"
@@ -596,6 +649,7 @@
             "lcn": 41,
             "logo": "k2.svg",
             "name": "K2",
+            "hd": true,
             "type": "hls",
             "url": "https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8",
             "epg": {
@@ -651,6 +705,7 @@
             "lcn": 44,
             "logo": "frisbee",
             "name": "Frisbee",
+            "hd": true,
             "type": "hls",
             "url": "https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8",
             "epg": {
@@ -2676,6 +2731,34 @@
                 "name": "Qui Radio Londra TV",
                 "type": "hls",
                 "url": "https://load-balancer.azotosolutions.com/cdnedge6/smil:live6.smil/playlist.m3u8"
+            },
+            {
+                "sublcn": 21,
+                "logo": "radiopiterpantv",
+                "name": "Radio Piterpan TV",
+                "type": "dash",
+                "url": "https://58d921499d3d3.streamlock.net/RadioPiterpanTV_dash/RadioPiterpanTV_dash.stream/manifest.mpd"
+            },
+            {
+                "sublcn": 22,
+                "logo": "radiobelllaemonellatv",
+                "name": "Radio Bellla e Monella TV",
+                "type": "dash",
+                "url": "https://58d921499d3d3.streamlock.net/RadioBelllaemonellaTV_dash/RadioBelllaemonellaTV_dash.stream/manifest.mpd"
+            },
+            {
+                "sublcn": 23,
+                "logo": "radiobirikinatv",
+                "name": "Radio Birikina TV",
+                "type": "dash",
+                "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV_dash/RadioBirikinaTV_dash.stream/manifest.mpd"
+            },
+            {
+                "sublcn": 24,
+                "logo": "radiosorrrisotv",
+                "name": "Radio SorRriso TV",
+                "type": "dash",
+                "url": "https://56b50ada2d659.streamlock.net/RadioSorrrisoTV_dash/RadioSorrrisoTV_dash.stream/manifest.mpd"
             }]
         },
         {
@@ -3412,11 +3495,12 @@
         },
         {
             "lcn": 270,
-            "logo": "9novanta",
-            "name": "9Novanta",
+            "logo": "2settantatv",
+            "name": "2Settanta TV",
             "type": "dash",
             "url": "http://185.132.71.134:1935/live/cdn5/manifest.mpd",
-            "http": true
+            "http": true,
+            "cssfix": "squashed-height"
         },
         {
             "lcn": 401,
