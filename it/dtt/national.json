@@ -251,10 +251,6 @@
                 "source": "blue",
                 "id": "266"
             },
-            "manualRestart": {
-                "source": "sky",
-                "id": "tv8"
-            },
             "geoblock": {
                 "type": "hls",
                 "url": "https://uvotv.zappr.stream/269.m3u8"
@@ -404,10 +400,6 @@
             "epg": {
                 "source": "blue",
                 "id": "96"
-            },
-            "manualRestart": {
-                "source": "sky",
-                "id": "cielo"
             },
             "geoblock": {
                 "type": "hls",
@@ -1133,96 +1125,7 @@
             "logo": "bomchannel",
             "name": "BOM Channel",
             "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/canale6/canale6/manifest.mpd",
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "lagrandeitalia",
-                "name": "La Grande Italia",
-                "type": "dash",
-                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/manifest.mpd"
-            },
-            {
-                "sublcn": 2,
-                "logo": "engineradio",
-                "name": "3ngine Radio",
-                "type": "dash",
-                "url": "https://tsw.streamingwebtv24.it:1936/inteccdn4/inteccdn4/manifest.mpd"
-            },
-            {
-                "categorySeparator": "Live HD TV"
-            },
-            {
-                "sublcn": 4,
-                "logo": "italianhorsetelevision",
-                "name": "Italian Horse TV",
-                "type": "hls",
-                "url": "https://horsetv.aswifi.it/horsetv/live/index.m3u8"
-            },
-            {
-                "sublcn": 5,
-                "logo": "salute24",
-                "name": "Salute 24",
-                "type": "hls",
-                "url": "https://salute24.aswifi.it/salute24/live/index.m3u8"
-            },
-            {
-                "categorySeparator": "News"
-            },
-            {
-                "sublcn": 6,
-                "logo": "eurotv",
-                "name": "Euro TV",
-                "type": "dash",
-                "url": "https://5db313b643fd8.streamlock.net/eurotv/eurotv/manifest.mpd"
-            },
-            {
-                "sublcn": 7,
-                "logo": "zerounotvnews",
-                "name": "Zerouno TV News",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/01news/01news/manifest.mpd"
-            },
-            {
-                "sublcn": 8,
-                "logo": "xcapital",
-                "name": "XCapital",
-                "type": "hls",
-                "url": "https://xcapital.aswifi.it/xcapital/live/index.m3u8"
-            },
-            {
-                "categorySeparator": "Family"
-            },
-            {
-                "sublcn": 9,
-                "logo": "supersix",
-                "name": "SuperSix",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/supersixnew/supersixnew/manifest.mpd"
-            },
-            {
-                "sublcn": 10,
-                "logo": "iuniortv",
-                "name": "Iunior TV",
-                "type": "dash",
-                "url": "https://5db313b643fd8.streamlock.net/iuniortv/iuniortv/manifest.mpd"
-            },
-            {
-                "categorySeparator": "Radiovisione"  
-            },
-            {
-                "sublcn": 11,
-                "logo": "zerounotvmusic",
-                "name": "Zerouno TV Music",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/manifest.mpd"
-            },
-            {
-                "sublcn": 12,
-                "logo": "radiocalima",
-                "name": "Radio Calima",
-                "type": "dash",
-                "url": "https://nrvideo1.newradio.it/calimafm/calimafm/manifest.mpd"   
-            }]
+            "url": "https://5f22d76e220e1.streamlock.net/canale6/canale6/manifest.mpd"
         },
         {
             "lcn": 69,
@@ -3537,7 +3440,7 @@
             "logo": "nexumchannel",
             "name": "Nexum Channel",
             "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/canale5/canale5/manifest.mpd",
+            "url": "https://64b16f23efbee.streamlock.net/nexumchannel/nexumchannel/manifest.mpd",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "nexumchannel",
@@ -3550,36 +3453,36 @@
                 "sublcn": 2,
                 "logo": "eventprimetelevision",
                 "name": "EventPrime Television",
-                "type": "hls",
-                "url": "https://gossvip.aswifi.it/gossvip/live_hd/index.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/primeevent/primeevent/manifest.mpd"
             },
             {
                 "sublcn": 3,
                 "logo": "xcapital",
                 "name": "XCapital",
-                "type": "hls",
-                "url": "https://xcapital.aswifi.it/xcapital/live/index.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/xcapital/xcapital/manifest.mpd"
             },
             {
                 "sublcn": 4,
                 "logo": "italianhorsetelevision",
                 "name": "Italian Horse TV",
-                "type": "hls",
-                "url": "https://horsetv.aswifi.it/horsetv/live/index.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/italianhorsetv/italianhorsetv/manifest.mpd"
             },
             {
                 "sublcn": 5,
                 "logo": "salute24",
                 "name": "Salute 24",
-                "type": "hls",
-                "url": "https://salute24.aswifi.it/salute24/live/index.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/salute24/salute24/manifest.mpd"
             },
             {
                 "sublcn": 6,
                 "logo": "controradio",
                 "name": "Controradio",
-                "type": "hls",
-                "url": "https://lifezone.aswifi.it/lifezone/live/index.m3u8"
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/controradio/controradio/manifest.mpd"
             }]
         },
         {
