@@ -464,7 +464,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd></dl></td>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd><dt>livetvuk-embed</dt><dd>LiveTVUK.com embed</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1281,7 +1281,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd></dl></td>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd><dt>livetvuk-embed</dt><dd>LiveTVUK.com embed</dd></dl></td>
     </tr>
   </tbody>
 </table>
