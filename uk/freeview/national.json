@@ -5,9 +5,10 @@
             "lcn": 3,
             "logo": "itv1.svg",
             "name": "ITV1",
-            "type": "hls",
-            "url": "https://www.livetvuk.com/yayin/?kanal=1",
-            "api": "cloudflare",
+            "subtitle": "Requires turning off adblock",
+            "type": "iframe",
+            "url": "https://www.livetvuk.com/embed/itv-watch-live/",
+            "cssfix": "livetvuk-embed",
             "epg": {
                 "source": "blue",
                 "id": "218"
@@ -162,10 +163,10 @@
             "lcn": 20,
             "logo": "u&drama.svg",
             "name": "U&Drama",
-            "subtitle": "Slow loading",
-            "type": "hls",
-            "url": "https://www.livetvuk.com/yayin/?kanal=20",
-            "api": "cloudflare",
+            "subtitle": "Slow loading, requires turning off adblock",
+            "type": "iframe",
+            "url": "https://www.livetvuk.com/embed/drama-live/",
+            "cssfix": "livetvuk-embed",
             "epg": {
                 "source": "blue",
                 "id": "902"
@@ -180,9 +181,8 @@
             "license": "clearkey",
             "licensedetails": "d324328db27144cda7778a7d73291fe1:d2d920c82567f65aba98a6b7fb03dae3",
             "geoblock": {
-                "type": "hls",
-                "url": "https://www.livetvuk.com/yayin/?kanal=24",
-                "api": "cloudflare"
+                "type": "iframe",
+                "url": "https://www.livetvuk.com/embed/5usa-live/"
             },
             "epg": {
                 "source": "blue",
@@ -209,7 +209,8 @@
             "hd": true,
             "geoblock": {
                 "type": "hls",
-                "url": "https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8"
+                "url": "https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8",
+                "api": "cloudflare"
             },
             "epg": {
                 "source": "blue",
@@ -220,10 +221,10 @@
             "lcn": 25,
             "logo": "u&w.svg",
             "name": "U&W",
-            "subtitle": "Slow loading",
-            "type": "hls",
-            "url": "https://www.livetvuk.com/yayin/?kanal=354",
-            "api": "cloudflare",
+            "subtitle": "Slow loading, requires turning off adblock",
+            "type": "iframe",
+            "url": "https://www.livetvuk.com/embed/watch/",
+            "cssfix": "livetvuk-embed",
             "epg": {
                 "source": "sky",
                 "id": "2617"
@@ -246,10 +247,10 @@
             "lcn": 27,
             "logo": "u&yesterday.svg",
             "name": "U&Yesterday",
-            "subtitle": "Slow loading",
-            "type": "hls",
-            "url": "https://www.livetvuk.com/yayin/?kanal=18",
-            "api": "cloudflare",
+            "subtitle": "Slow loading, requires turning off adblock",
+            "type": "iframe",
+            "url": "https://www.livetvuk.com/embed/yesterday-live/",
+            "cssfix": "livetvuk-embed",
             "epg": {
                 "source": "blue",
                 "id": "1674"
@@ -259,10 +260,10 @@
             "lcn": 28,
             "logo": "itvquiz.svg",
             "name": "ITV Quiz",
-            "subtitle": "Slow loading",
-            "type": "hls",
-            "url": "https://www.livetvuk.com/yayin/?kanal=21",
-            "api": "cloudflare",
+            "subtitle": "Slow loading, requires turning off adblock",
+            "type": "iframe",
+            "url": "https://www.livetvuk.com/embed/itv-be-live/",
+            "cssfix": "livetvuk-embed",
             "epg": {
                 "source": "sky",
                 "id": "3026"
@@ -440,10 +441,10 @@
             "lcn": 57,
             "logo": "u&eden.svg",
             "name": "U&eden",
-            "subtitle": "Slow loading, not 24/7",
-            "type": "hls",
-            "url": "https://www.livetvuk.com/yayin/?kanal=357",
-            "api": "cloudflare",
+            "subtitle": "Slow loading, requires turning off adblock, not 24/7",
+            "type": "iframe",
+            "url": "https://www.livetvuk.com/embed/eden/",
+            "cssfix": "livetvuk-embed",
             "feed": true,
             "epg": {
                 "source": "sky",

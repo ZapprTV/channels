@@ -217,7 +217,7 @@
                         "type": "string",
                         "title": "Apply CSS fixes",
                         "description": "For channels whose streams require some CSS to look good.",
-                        "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "very-squashed-height", "five-two-squashed-height", "center-iframe", "servizistreaming-embed"],
+                        "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "very-squashed-height", "five-two-squashed-height", "center-iframe", "servizistreaming-embed", "livetvuk-embed"],
                         "meta:enum": {
                             "streamshow-embed": "StreamShow embed (embed.streamshow.net)",
                             "raiplay-sound": "RaiPlay Sound",
@@ -226,7 +226,8 @@
                             "very-squashed-height": "Stretch the video track of a channel with a VERY squashed height to 16:9.",
                             "five-two-squashed-height": "Stretch the video track of a channel in 5:2 to 16:9.",
                             "center-iframe": "Center IFrame",
-                            "servizistreaming-embed": "ServiziStreaming.it embed"
+                            "servizistreaming-embed": "ServiziStreaming.it embed",
+                            "livetvuk-embed": "LiveTVUK.com embed"
                         },
                         "anyOf": [{
                             "const": "streamshow-embed",
@@ -263,6 +264,10 @@
                         {
                             "const": "servizistreaming-embed",
                             "title": "ServiziStreaming.it embed"
+                        },
+                        {
+                            "const": "livetvuk-embed",
+                            "title": "LiveTVUK.com embed"
                         }]
                     },
                     "fallback": {
