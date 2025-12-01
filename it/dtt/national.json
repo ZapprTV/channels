@@ -111,7 +111,8 @@
             "name": "Rai 2",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/rai2.m3u8",
+            "url": "https://raidue1-live.akamaized.net/hls/live/598310/raidue1/raidue1/playlist_ma_1800-5000.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-2"
@@ -136,7 +137,8 @@
             "name": "Rai 3",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/rai3.m3u8",
+            "url": "https://raitre1-live.akamaized.net/hls/live/598313/raitre1/raitre1/playlist_ma_1800-5000.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-3"
@@ -334,7 +336,8 @@
             "name": "Rai 5",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/rai5.m3u8",
+            "url": "https://raicinque1-live.akamaized.net/hls/live/598318/raicinque1/raicinque1/playlist_ma.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-5"
@@ -355,7 +358,8 @@
             "name": "Rai Movie",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/raimovie.m3u8",
+            "url": "https://raimovie1-live.akamaized.net/hls/live/598324/raimovie1/raimovie1/playlist_ma.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-movie"
@@ -376,7 +380,8 @@
             "name": "Rai Premium",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/raipremium.m3u8",
+            "url": "https://raipremium1-live.akamaized.net/hls/live/598328/raipremium1/raipremium1/playlist_ma.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-premium"
@@ -682,7 +687,8 @@
             "name": "Rai Yoyo",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/raiyoyo.m3u8",
+            "url": "https://raiyoyo1-live.akamaized.net/hls/live/598330/raiyoyo1/raiyoyo1/playlist.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-yoyo"
@@ -835,7 +841,8 @@
             "name": "Rai Storia",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/raistoria.m3u8",
+            "url": "https://raistoria1-live.akamaized.net/hls/live/598337/raistoria1/raistoria1/playlist.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-storia"
@@ -894,7 +901,8 @@
             "name": "Rai Scuola",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/raiscuola.m3u8",
+            "url": "https://raiscuola1-live.akamaized.net/hls/live/598335/raiscuola1/raiscuola1/playlist.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-scuola"
