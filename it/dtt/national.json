@@ -137,7 +137,8 @@
             "name": "Rai 3",
             "hd": true,
             "type": "hls",
-            "url": "https://raitre3-live.akamaized.net/hls/live/2018002/raitre3/raitre3/playlist.m3u8",
+            "url": "https://raitre1-live.akamaized.net/hls/live/598313/raitre1/raitre1/playlist_ma_1800-5000.m3u8",
+            "license": "rai-akamai",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-3"
