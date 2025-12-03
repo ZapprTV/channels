@@ -978,7 +978,7 @@
                 "name": "Primavera TV",
                 "hd": true,
                 "type": "dash",
-                "url": "https://origin.streamup.eu/sportitaliain/silive24/manifest.mpd",
+                "url": "https://origin-001.streamup.eu/sportitalia/silive24_abr/playlist.m3u8",
                 "geoblock": true
             },
             {
