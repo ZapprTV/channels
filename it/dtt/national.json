@@ -225,8 +225,10 @@
             "logo": "la7.svg",
             "name": "LA7",
             "hd": true,
-            "type": "hls",
-            "url": "https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8",
+            "type": "dash",
+            "url": "https://d15umi5iaezxgx.cloudfront.net/LA7/DRM/DASH/Live.mpd",
+            "license": "clearkey",
+            "licensedetails": "db057321c9224c25a7ccd75d911dd1fc:005b948eb397a581d10ff8bb60d19c93",
             "epg": {
                 "source": "blue",
                 "id": "237"
@@ -240,7 +242,9 @@
                 "logo": "la7it.svg",
                 "name": "LA7 Eventi",
                 "type": "dash",
-                "url": "zappr://la7-hbbtv/la7_feed"
+                "url": "https://d15umi5iaezxgx.cloudfront.net/LA7FEED01/DRM/DASH/Live.mpd",
+                "license": "clearkey",
+                "licensedetails": "db057321c9224c25a7ccd75d911dd1fc:005b948eb397a581d10ff8bb60d19c93"
             }]
         },
         {
@@ -3059,7 +3063,7 @@
             "name": "Gambero Rosso",
             "hd": true,
             "type": "dash",
-            "url": "https://2018f6355a15442ebb37007fa4f6c064.msvdn.net/live/S7530969/XWerenuxbSdW/manifest.mpd",
+            "url": "https://www.dailymotion.com/cdn/live/video/x9u215s.mpd?sec=3FE6qHnAR5mSywqiY3XmMw",
             "epg": {
                 "source": "sky",
                 "id": "9099"
