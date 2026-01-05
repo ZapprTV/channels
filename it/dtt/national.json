@@ -951,8 +951,8 @@
         },
         {
             "lcn": 59,
-            "logo": "motortrend.svg",
-            "name": "Motor Trend",
+            "logo": "discoveryturbo.svg",
+            "name": "Discovery Turbo",
             "hd": true,
             "type": "hls",
             "url": "https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8",
