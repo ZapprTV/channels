@@ -643,7 +643,8 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://liveturner.akamaized.net/75a4d1a90e744fa5b9901a1853d2c47f/eu-central-1/6284318116001/playlist.m3u8"
+                "url": "https://feapi.turner.streamity.com/api/v1/Config/getConfig?platformId=ae56bf6a-c2b4-4b66-8330-19283f646d7e",
+                "api": "cloudflare"
             }
         },
         {
@@ -743,7 +744,8 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://liveturner.akamaized.net/95b0be1a00834dd2b81c021bc5a35b9c/eu-central-1/6284318116001/playlist.m3u8"
+                "url": "https://feapi.turner.streamity.com/api/v1/Config/getConfig?platformId=95e33995-d7ed-44cb-be3b-97bc6df93977",
+                "api": "cloudflare"
             }
         },
         {
@@ -981,8 +983,8 @@
                 "logo": "primaveratv",
                 "name": "Primavera TV",
                 "hd": true,
-                "type": "dash",
-                "url": "https://origin-001.streamup.eu/sportitalia/silive24_abr/playlist.m3u8",
+                "type": "hls",
+                "url": "https://distribution.sportitalialive.it/sportitalia/silive24_abr/playlist.m3u8",
                 "geoblock": true
             },
             {
@@ -991,7 +993,7 @@
                 "name": "SI SoloCalcio",
                 "hd": true,
                 "type": "hls",
-                "url": "https://italiansport-solocalcio-samsung.amagi.tv/hls/amagi_hls_data_sportital-solocalcio-samsung-italy/CDN/playlist.m3u8",
+                "url": "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "2049"
@@ -1100,13 +1102,11 @@
             "logo": "almatv.svg",
             "name": "Alma TV",
             "type": "hls",
-            "url": "https://almatv.tv/video/viewlivestreaming?rel=47165&cntr=0",
-            "api": "vercel",
+            "url": "https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "16"
-            },
-            "geoblock": true
+            }
         },
         {
             "lcn": 66,
@@ -1137,7 +1137,105 @@
             "logo": "bomchannel",
             "name": "BOM Channel",
             "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/canale6/canale6/manifest.mpd"
+            "url": "https://5f22d76e220e1.streamlock.net/canale6/canale6/manifest.mpd",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "lagrandeitalia",
+                "name": "La Grande Italia",
+                "type": "dash",
+                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/manifest.mpd"
+            },
+            {
+                "sublcn": 2,
+                "logo": "engineradio",
+                "name": "3ngine Radio",
+                "type": "dash",
+                "url": "https://tsw.streamingwebtv24.it:1936/inteccdn4/inteccdn4/manifest.mpd"
+            },
+            {
+                "sublcn": 3,
+                "logo": "gschannel",
+                "name": "GS Channel",
+                "subtitle": "/ TMC",
+                "hd": true,
+                "type": "hls",
+                "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8"
+            },
+            {
+                "categorySeparator": "Live HD TV"
+            },
+            {
+                "sublcn": 4,
+                "logo": "italianhorsetelevision",
+                "name": "Italian Horse TV",
+                "type": "hls",
+                "url": "https://horsetv.aswifi.it/horsetv/live/index.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "salute24",
+                "name": "Salute 24",
+                "type": "hls",
+                "url": "https://salute24.aswifi.it/salute24/live/index.m3u8"
+            },
+            {
+                "categorySeparator": "News"
+            },
+            {
+                "sublcn": 6,
+                "logo": "eurotv",
+                "name": "Euro TV",
+                "type": "dash",
+                "url": "https://5db313b643fd8.streamlock.net/eurotv/eurotv/manifest.mpd"
+            },
+            {
+                "sublcn": 7,
+                "logo": "zerounotvnews",
+                "name": "Zerouno TV News",
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/01news/01news/manifest.mpd"
+            },
+            {
+                "sublcn": 8,
+                "logo": "xcapital",
+                "name": "XCapital",
+                "type": "hls",
+                "url": "https://xcapital.aswifi.it/xcapital/live/index.m3u8"
+            },
+            {
+                "categorySeparator": "Family"
+            },
+            {
+                "sublcn": 9,
+                "logo": "supersix",
+                "name": "SuperSix",
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/supersixnew/supersixnew/manifest.mpd"
+            },
+            {
+                "sublcn": 10,
+                "logo": "iuniortv",
+                "name": "Iunior TV",
+                "type": "dash",
+                "url": "https://5db313b643fd8.streamlock.net/iuniortv/iuniortv/manifest.mpd"
+            },
+            {
+                "categorySeparator": "Radiovisione"  
+            },
+            {
+                "sublcn": 11,
+                "logo": "zerounotvmusic",
+                "name": "Zerouno TV Music",
+                "type": "dash",
+                "url": "https://5f22d76e220e1.streamlock.net/zerounotvmusic/zerounotvmusic/manifest.mpd"
+            },
+            {
+                "sublcn": 12,
+                "logo": "radiocalima",
+                "name": "Radio Calima",
+                "type": "dash",
+                "url": "https://nrvideo1.newradio.it/calimafm/calimafm/manifest.mpd"   
+            }]
         },
         {
             "lcn": 69,
@@ -1284,11 +1382,7 @@
             "logo": "italiachannel",
             "name": "Italia Channel",
             "type": "dash",
-            "url": "https://stream1.aswifi.it/italiachannel/dash/stream.mpd",
-            "epg": {
-                "source": "set",
-                "id": "italiachannel"
-            }
+            "url": "https://uvotv.zappr.stream/71.m3u8"
         },
         {
             "lcn": 124,
@@ -1520,18 +1614,6 @@
             "name": "137",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/332.m3u8"
-        },
-        {
-            "lcn": 138,
-            "logo": "telecampione.svg",
-            "name": "Telecampione",
-            "type": "dash",
-            "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/manifest.mpd",
-            "epg": {
-                "source": "publirose",
-                "id": "telecampione"
-            },
-            "geoblock": true
         },
         {
             "lcn": 139,
@@ -1867,13 +1949,6 @@
             "cssfix": "raiplay-sound"
         },
         {
-            "lcn": 220,
-            "logo": "apchannel",
-            "name": "AP Channel",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/152.m3u8"
-        },
-        {
             "lcn": 221,
             "logo": "hbbtv.svg",
             "name": "IT Channel",
@@ -2070,9 +2145,8 @@
             "lcn": 228,
             "logo": "tesorychannel",
             "name": "Tesory Channel",
-            "hd": true,
-            "type": "dash",
-            "url": "https://155905.global.ssl.fastly.net/60c888bf1dbff32e46b3304d/live_f64a08e02a9a11ec81174bd4ce952c0e/manifest.mpd"
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/140.m3u8"
         },
         {
             "lcn": 231,
@@ -2410,7 +2484,7 @@
                 "name": "LiveNOW from FOX",
                 "hd": true,
                 "type": "hls",
-                "url": "https://livetv-fa.tubi.video/fox-live-now/index.m3u8"
+                "url": "https://aka-live1050.delivery.roku.com/eaf7d889-16e0-4c14-a299-a2932df9f467/t2-origin/out/v1/live.m3u8"
             },
             {
                 "sublcn": 36,
@@ -2561,8 +2635,9 @@
                 "sublcn": 1,
                 "logo": "tvpinfo.svg",
                 "name": "TVP Info",
+                "hd": true,
                 "type": "hls",
-                "url": "https://stream10.xdevel.com/video15s975955-2171/stream/playlist.m3u8",
+                "url": "https://dash4.antik.sk/live/test_tvp_info/playlist.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "2066"
@@ -2599,8 +2674,8 @@
             },
             {
                 "sublcn": 6,
-                "logo": "watersportchannel",
-                "name": "Water Sport Channel",
+                "logo": "sophiatv",
+                "name": "Sophia TV",
                 "type": "hls",
                 "url": "https://stream9.xdevel.com/video7s975955-1778/stream/playlist.m3u8"
             },
@@ -3504,14 +3579,6 @@
                 "type": "dash",
                 "url": "https://64b16f23efbee.streamlock.net/controradio/controradio/manifest.mpd"
             }]
-        },
-        {
-            "lcn": 410,
-            "logo": "madeinbusiness",
-            "name": "Made in Business",
-            "hd": true,
-            "type": "hls",
-            "url": "https://fms.premio.link/business24/playlist.m3u8"
         },
         {
             "lcn": 412,

@@ -223,7 +223,8 @@
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8",
+                "url": "https://www.dailymotion.com/video/x9pha96",
+                "api": "cloudflare",
                 "epg": {
                     "source": "oggiintv",
                     "id": "Telepace"
@@ -360,7 +361,8 @@
                 "logo": "telepace.svg",
                 "name": "Telepace",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telepace1/telepace1/playlist.m3u8",
+                "url": "https://www.dailymotion.com/video/x9pha96",
+                "api": "cloudflare",
                 "epg": {
                     "source": "oggiintv",
                     "id": "Telepace"
@@ -652,7 +654,7 @@
             "logo": "videoregione",
             "name": "Videoregione",
             "type": "direct",
-            "url": "https://stream.vr99.it/vr99.mp4",
+            "url": "https://stream.videoregione.it/vr99.mp4",
             "epg": {
                 "source": "uvotv",
                 "id": "VR.tvprofil_it"
