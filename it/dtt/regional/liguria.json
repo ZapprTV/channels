@@ -275,8 +275,8 @@
             "lcn": 19,
             "logo": "telecupole.svg",
             "name": "Telecupole Liguria",
-            "type": "twitch",
-            "url": "telecupoleliguria",
+            "type": "hls",
+            "url": "https://d4k.it/hls/live3/live.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "lovemusic",
@@ -301,8 +301,8 @@
                 "sublcn": 3,
                 "logo": "telecupole.svg",
                 "name": "Telecupole Piemonte",
-                "type": "dash",
-                "url": "https://nrvideo1.newradio.it:1936/euhsbdamnx/euhsbdamnx/manifest.mpd",
+                "type": "hls",
+                "url": "https://d4k.it/hls/live2/live.m3u8",
                 "epg": {
                     "source": "digitalbitrate",
                     "id": "tlu/TLU_CH21_1004"

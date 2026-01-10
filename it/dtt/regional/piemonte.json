@@ -62,8 +62,8 @@
                 "sublcn": 3,
                 "logo": "telecupole.svg",
                 "name": "Telecupole Liguria",
-                "type": "twitch",
-                "url": "telecupoleliguria"
+                "type": "hls",
+                "url": "https://d4k.it/hls/live3/live.m3u8"
             },
             {
                 "sublcn": 4,

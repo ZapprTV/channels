@@ -192,14 +192,6 @@
                 "categorySeparator": "TV"
             },
             {
-                "sublcn": 1,
-                "logo": "tv99",
-                "name": "TV99",
-                "subtitle": "/ Telemia Extra",
-                "type": "hls",
-                "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8"
-            },
-            {
                 "sublcn": 2,
                 "logo": "calabrianews24",
                 "name": "Calabria News 24",
@@ -474,14 +466,6 @@
             "name": "Tele Magna Graecia",
             "type": "twitch",
             "url": "tmg_calabria"
-        },
-        {
-            "lcn": 99,
-            "logo": "tv99",
-            "name": "TV99",
-            "subtitle": "/ Telemia Extra",
-            "type": "hls",
-            "url": "https://playerssl.telemia.tv/fileadmin/hls/TelemiaExtra/telemiaextra_mediachunks.m3u8"
         },
         {
             "lcn": 111,

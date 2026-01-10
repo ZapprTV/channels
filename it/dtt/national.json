@@ -1381,7 +1381,7 @@
             "lcn": 123,
             "logo": "italiachannel",
             "name": "Italia Channel",
-            "type": "dash",
+            "type": "hls",
             "url": "https://uvotv.zappr.stream/71.m3u8"
         },
         {
@@ -1643,10 +1643,10 @@
         },
         {
             "lcn": 147,
-            "logo": "firetv",
-            "name": "Fire TV",
+            "logo": "fascinotv147",
+            "name": "Fascino TV 147",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/146.m3u8",
+            "url": "https://64b16f23efbee.streamlock.net/canale147/canale147/playlist.m3u8",
             "adult": "night"
         },
         {
@@ -1949,6 +1949,13 @@
             "cssfix": "raiplay-sound"
         },
         {
+            "lcn": 220,
+            "logo": "apchannel",
+            "name": "AP Channel",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/apchannel/apchannel/playlist.m3u8"
+        },
+        {
             "lcn": 221,
             "logo": "hbbtv.svg",
             "name": "IT Channel",
@@ -2071,16 +2078,16 @@
                 "sublcn": 3,
                 "logo": "sexfactortv",
                 "name": "Sex Factor TV",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video8s977812-2254/stream/playlist.m3u8",
+                "type": "dash",
+                "url": "https://host1.momentotv.live:29443/sexfactor/sexfactor/manifest.mpd",
                 "adult": true
             },
             {
                 "sublcn": 4,
                 "logo": "divafutura",
                 "name": "Divafutura",
-                "type": "hls",
-                "url": "https://stream10.xdevel.com/video10s977812-2369/stream/playlist.m3u8",
+                "type": "dash",
+                "url": "https://host1.momentotv.live:29443/divafutura/divafutura/manifest.mpd",
                 "adult": true
             },
             {
