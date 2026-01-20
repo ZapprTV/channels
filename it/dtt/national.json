@@ -7,8 +7,7 @@
             "name": "Rai 1",
             "hd": true,
             "type": "hls",
-            "url": "https://raiuno1-live.akamaized.net/hls/live/598308/raiuno1/raiuno1/playlist_ma_1800-5000.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/rai1.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-1"
@@ -111,8 +110,7 @@
             "name": "Rai 2",
             "hd": true,
             "type": "hls",
-            "url": "https://raidue1-live.akamaized.net/hls/live/598310/raidue1/raidue1/playlist_ma_1800-5000.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/rai2.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-2"
@@ -137,8 +135,7 @@
             "name": "Rai 3",
             "hd": true,
             "type": "hls",
-            "url": "https://raitre1-live.akamaized.net/hls/live/598313/raitre1/raitre1/playlist_ma_1800-5000.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/rai3.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-3"
@@ -301,8 +298,7 @@
             "name": "Rai 4",
             "hd": true,
             "type": "hls",
-            "url": "https://raiquattro2-live.akamaized.net/hls/live/598316/raiquattro2/raiquattro2/playlist.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/rai4.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-4"
@@ -340,8 +336,7 @@
             "name": "Rai 5",
             "hd": true,
             "type": "hls",
-            "url": "https://raicinque1-live.akamaized.net/hls/live/598318/raicinque1/raicinque1/playlist_ma.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/rai5.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-5"
@@ -362,8 +357,7 @@
             "name": "Rai Movie",
             "hd": true,
             "type": "hls",
-            "url": "https://raimovie1-live.akamaized.net/hls/live/598324/raimovie1/raimovie1/playlist_ma.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/raimovie.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-movie"
@@ -692,8 +686,7 @@
             "name": "Rai Yoyo",
             "hd": true,
             "type": "hls",
-            "url": "https://raiyoyo1-live.akamaized.net/hls/live/598330/raiyoyo1/raiyoyo1/playlist.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/raiyoyo.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-yoyo"
@@ -847,8 +840,7 @@
             "name": "Rai Storia",
             "hd": true,
             "type": "hls",
-            "url": "https://raistoria1-live.akamaized.net/hls/live/598337/raistoria1/raistoria1/playlist.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/raistoria.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-storia"
@@ -907,8 +899,7 @@
             "name": "Rai Scuola",
             "hd": true,
             "type": "hls",
-            "url": "https://raiscuola1-live.akamaized.net/hls/live/598335/raiscuola1/raiscuola1/playlist.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/raiscuola.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-scuola"
@@ -934,8 +925,7 @@
             "name": "Rai Sport",
             "hd": true,
             "type": "hls",
-            "url": "https://raisportuno1-live.akamaized.net/hls/live/598320/raisportuno1/raisportuno1/playlist_mo_1800-5000.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/raisport.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-sport"
@@ -1932,7 +1922,7 @@
             "name": "Rai Radio 2 Visual",
             "hd": true,
             "type": "hls",
-            "url": "https://visualradiodue3-live.akamaized.net/hls/live/2034078/visualradiodue3/visualradiodue3/playlist.m3u8",
+            "url": "https://rai.zappr.stream/rairadio2.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-radio-2"
