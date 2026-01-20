@@ -6,8 +6,8 @@
             "logo": "rai1.svg",
             "name": "Rai 1",
             "hd": true,
-            "type": "hls",
-            "url": "https://rai.zappr.stream/rai1.m3u8",
+            "type": "dash",
+            "url": "https://raiuno1-dash-live.akamaized.net/dash/live/652296/raiuno1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-1"
@@ -109,8 +109,8 @@
             "logo": "rai2.svg",
             "name": "Rai 2",
             "hd": true,
-            "type": "hls",
-            "url": "https://rai.zappr.stream/rai2.m3u8",
+            "type": "dash",
+            "url": "https://raidue1-dash-live.akamaized.net/dash/live/662448/raidue1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-2"
@@ -134,8 +134,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3",
             "hd": true,
-            "type": "hls",
-            "url": "https://rai.zappr.stream/rai3.m3u8",
+            "type": "dash",
+            "url": "https://raitre1-dash-live.akamaized.net/dash/live/663957/raitre1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-3"
@@ -297,8 +297,8 @@
             "logo": "rai4.svg",
             "name": "Rai 4",
             "hd": true,
-            "type": "hls",
-            "url": "https://rai.zappr.stream/rai4.m3u8",
+            "type": "dash",
+            "url": "https://raiquattro1-dash-live.akamaized.net/dash/live/663977/raiquattro1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-4"
@@ -335,8 +335,8 @@
             "logo": "rai5.svg",
             "name": "Rai 5",
             "hd": true,
-            "type": "hls",
-            "url": "https://rai.zappr.stream/rai5.m3u8",
+            "type": "dash",
+            "url": "https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-5"
@@ -356,8 +356,8 @@
             "logo": "raimovie.svg",
             "name": "Rai Movie",
             "hd": true,
-            "type": "hls",
-            "url": "https://rai.zappr.stream/raimovie.m3u8",
+            "type": "dash",
+            "url": "https://raimovie1-dash-live.akamaized.net/dash/live/663983/raimovie1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-movie"
@@ -377,9 +377,8 @@
             "logo": "raipremium.svg",
             "name": "Rai Premium",
             "hd": true,
-            "type": "hls",
-            "url": "https://raipremium1-live.akamaized.net/hls/live/598328/raipremium1/raipremium1/playlist_ma.m3u8",
-            "license": "rai-akamai",
+            "type": "dash",
+            "url": "https://raipremium1-dash-live.akamaized.net/dash/live/663979/raipremium1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-premium"
@@ -658,9 +657,8 @@
             "logo": "raigulp.svg",
             "name": "Rai Gulp",
             "hd": true,
-            "type": "hls",
-            "url": "https://raigulp1-live.akamaized.net/hls/live/598332/raigulp1/raigulp1/playlist_ma.m3u8",
-            "license": "rai-akamai",
+            "type": "dash",
+            "url": "https://raigulp1-dash-live.akamaized.net/dash/live/663985/raigulp1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-gulp"
@@ -685,8 +683,8 @@
             "logo": "raiyoyo.svg",
             "name": "Rai Yoyo",
             "hd": true,
-            "type": "hls",
-            "url": "https://rai.zappr.stream/raiyoyo.m3u8",
+            "type": "dash",
+            "url": "https://raiyoyo1-dash-live.akamaized.net/dash/live/663949/raiyoyo1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-yoyo"
@@ -839,8 +837,8 @@
             "logo": "raistoria.svg",
             "name": "Rai Storia",
             "hd": true,
-            "type": "hls",
-            "url": "https://rai.zappr.stream/raistoria.m3u8",
+            "type": "dash",
+            "url": "https://raistoria1-dash-live.akamaized.net/dash/live/663959/raistoria1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-storia"
@@ -898,8 +896,8 @@
             "logo": "raiscuola.svg",
             "name": "Rai Scuola",
             "hd": true,
-            "type": "hls",
-            "url": "https://rai.zappr.stream/raiscuola.m3u8",
+            "type": "dash",
+            "url": "https://raiscuola1-dash-live.akamaized.net/dash/live/663975/raiscuola1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-scuola"
@@ -925,20 +923,11 @@
             "name": "Rai Sport",
             "hd": true,
             "type": "hls",
-            "url": "https://rai.zappr.stream/raisport.m3u8",
+            "url": "https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8",
+            "api": "cloudflare",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-sport"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8",
-                "api": "cloudflare"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8",
-                "api": "cloudflare"
             }
         },
         {
@@ -1921,8 +1910,8 @@
             "logo": "rairadio2.svg",
             "name": "Rai Radio 2 Visual",
             "hd": true,
-            "type": "hls",
-            "url": "https://rai.zappr.stream/rairadio2.m3u8",
+            "type": "dash",
+            "url": "https://visualradiodue1-dash-live.akamaized.net/dash/live/2034085/visualradiodue1/manifest.mpd",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-radio-2"
