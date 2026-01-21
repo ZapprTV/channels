@@ -6,111 +6,20 @@
             "logo": "rai1.svg",
             "name": "Rai 1",
             "hd": true,
-            "type": "dash",
-            "url": "https://raiuno1-dash-live.akamaized.net/dash/live/652296/raiuno1/manifest.mpd",
+            "type": "hls",
+            "url": "https://rai.zappr.stream/rai1.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-1"
-            },
-            "manualRestart": {
-                "source": "rai",
-                "id": "rai-1"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://raiuno3-live.akamaized.net/hls/live/2017910/raiuno3/raiuno3/playlist.m3u8"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8",
-                "api": "cloudflare"
-            },
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "raiplaylive.svg",
-                "name": "RaiPlay 1",
-                "type": "hls",
-                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay/hls/playlist_mo.m3u8",
-                "feed": true,
-                "geoblock": true,
-                "epg": {
-                    "source": "raiplay",
-                    "id": "raiplay"
-                }
-            },
-            {
-                "sublcn": 2,
-                "logo": "raiplaylive.svg",
-                "name": "RaiPlay 2",
-                "type": "hls",
-                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay2/hls/playlist_mo.m3u8",
-                "feed": true,
-                "geoblock": true,
-                "epg": {
-                    "source": "raiplay",
-                    "id": "raiplay-2"
-                }
-            },
-            {
-                "sublcn": 3,
-                "logo": "raiplaylive.svg",
-                "name": "RaiPlay 3",
-                "type": "hls",
-                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay3/hls/playlist_mo.m3u8",
-                "feed": true,
-                "geoblock": true,
-                "epg": {
-                    "source": "raiplay",
-                    "id": "raiplay-3"
-                }
-            },
-            {
-                "sublcn": 4,
-                "logo": "raiplaysport1.svg",
-                "name": "RaiPlay Sport 1",
-                "type": "hls",
-                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay4/hls/playlist_mo.m3u8",
-                "feed": true,
-                "geoblock": true,
-                "epg": {
-                    "source": "raiplay",
-                    "id": "raiplay-sport-1"
-                }
-            },
-            {
-                "sublcn": 5,
-                "logo": "raiplaysport2.svg",
-                "name": "RaiPlay Sport 2",
-                "type": "hls",
-                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay5/hls/playlist_mo.m3u8",
-                "feed": true,
-                "geoblock": true,
-                "epg": {
-                    "source": "raiplay",
-                    "id": "raiplay-sport-2"
-                }
-            },
-            {
-                "sublcn": 6,
-                "logo": "raiplaysport3.svg",
-                "name": "RaiPlay Sport 3",
-                "type": "hls",
-                "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay6/hls/playlist_mo.m3u8",
-                "feed": true,
-                "geoblock": true,
-                "epg": {
-                    "source": "raiplay",
-                    "id": "raiplay-sport-3"
-                }
-            }]
+            }
         },
         {
             "lcn": 2,
             "logo": "rai2.svg",
             "name": "Rai 2",
             "hd": true,
-            "type": "dash",
-            "url": "https://raidue1-dash-live.akamaized.net/dash/live/662448/raidue1/manifest.mpd",
+            "type": "hls",
+            "url": "https://rai.zappr.stream/rai2.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-2"
@@ -118,15 +27,6 @@
             "manualRestart": {
                 "source": "rai",
                 "id": "rai-2"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://raidue3-live.akamaized.net/hls/live/2017983/raidue3/raidue3/playlist.m3u8"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rai2/browser-HLS8/rai2.m3u8",
-                "api": "cloudflare"
             }
         },
         {
@@ -134,8 +34,8 @@
             "logo": "rai3.svg",
             "name": "Rai 3",
             "hd": true,
-            "type": "dash",
-            "url": "https://raitre1-dash-live.akamaized.net/dash/live/663957/raitre1/manifest.mpd",
+            "type": "hls",
+            "url": "https://rai.zappr.stream/rai3.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-3"
@@ -143,15 +43,6 @@
             "manualRestart": {
                 "source": "rai",
                 "id": "rai-3"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://raitre3-live.akamaized.net/hls/live/2018002/raitre3/raitre3/playlist.m3u8"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rai3/browser-HLS8/rai3.m3u8",
-                "api": "cloudflare"
             }
         },
         {
@@ -297,19 +188,11 @@
             "logo": "rai4.svg",
             "name": "Rai 4",
             "hd": true,
-            "type": "dash",
-            "url": "https://raiquattro1-dash-live.akamaized.net/dash/live/663977/raiquattro1/manifest.mpd",
+            "type": "popup",
+            "url": "https://www.raiplay.it/dirette/rai4?autoplay",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-4"
-            },
-            "manualRestart": {
-                "source": "rai",
-                "id": "rai-4"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://raiquattro3-live.akamaized.net/hls/live/2018003/raiquattro3/raiquattro3/playlist.m3u8"
             },
             "geoblock": true
         },
@@ -335,19 +218,11 @@
             "logo": "rai5.svg",
             "name": "Rai 5",
             "hd": true,
-            "type": "dash",
-            "url": "https://raicinque1-dash-live.akamaized.net/dash/live/664003/raicinque1/manifest.mpd",
+            "type": "popup",
+            "url": "https://www.raiplay.it/dirette/rai5?autoplay",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-5"
-            },
-            "manualRestart": {
-                "source": "rai",
-                "id": "rai-5"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://raicinque3-live.akamaized.net/hls/live/2018007/raicinque3/raicinque3/playlist.m3u8"
             },
             "geoblock": true
         },
@@ -356,19 +231,11 @@
             "logo": "raimovie.svg",
             "name": "Rai Movie",
             "hd": true,
-            "type": "dash",
-            "url": "https://raimovie1-dash-live.akamaized.net/dash/live/663983/raimovie1/manifest.mpd",
+            "type": "popup",
+            "url": "https://www.raiplay.it/dirette/raimovie?autoplay",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-movie"
-            },
-            "manualRestart": {
-                "source": "rai",
-                "id": "rai-movie"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://raimovie3-live.akamaized.net/hls/live/2018010/raimovie3/raimovie3/playlist.m3u8"
             },
             "geoblock": true
         },
@@ -377,19 +244,11 @@
             "logo": "raipremium.svg",
             "name": "Rai Premium",
             "hd": true,
-            "type": "dash",
-            "url": "https://raipremium1-dash-live.akamaized.net/dash/live/663979/raipremium1/manifest.mpd",
+            "type": "popup",
+            "url": "https://www.raiplay.it/dirette/raipremium?autoplay",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-premium"
-            },
-            "manualRestart": {
-                "source": "rai",
-                "id": "rai-premium"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://raipremium3-live.akamaized.net/hls/live/2018013/raipremium3/raipremium3/playlist.m3u8"
             },
             "geoblock": true
         },
@@ -657,25 +516,11 @@
             "logo": "raigulp.svg",
             "name": "Rai Gulp",
             "hd": true,
-            "type": "dash",
-            "url": "https://raigulp1-dash-live.akamaized.net/dash/live/663985/raigulp1/manifest.mpd",
+            "type": "hls",
+            "url": "https://rai.zappr.stream/raigulp.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-gulp"
-            },
-            "manualRestart": {
-                "source": "rai",
-                "id": "rai-gulp"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8",
-                "api": "cloudflare"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/raigulp/browser-HLS8/raigulp.m3u8",
-                "api": "cloudflare"
             }
         },
         {
@@ -683,14 +528,10 @@
             "logo": "raiyoyo.svg",
             "name": "Rai Yoyo",
             "hd": true,
-            "type": "dash",
-            "url": "https://raiyoyo1-dash-live.akamaized.net/dash/live/663949/raiyoyo1/manifest.mpd",
+            "type": "popup",
+            "url": "https://www.raiplay.it/dirette/raiyoyo?autoplay",
             "epg": {
                 "source": "raiplay",
-                "id": "rai-yoyo"
-            },
-            "manualRestart": {
-                "source": "rai",
                 "id": "rai-yoyo"
             },
             "geoblock": true
@@ -756,7 +597,7 @@
             "name": "Rai News 24",
             "hd": true,
             "type": "hls",
-            "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/rainews1/hls/playlist_mo.m3u8",
+            "url": "https://d27wu3gni4gipu.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7i6bsjw4lfg88/ABCD/Rai/RaiNews24_IT/rainews1/playlist.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-news-24"
@@ -837,25 +678,11 @@
             "logo": "raistoria.svg",
             "name": "Rai Storia",
             "hd": true,
-            "type": "dash",
-            "url": "https://raistoria1-dash-live.akamaized.net/dash/live/663959/raistoria1/manifest.mpd",
+            "type": "hls",
+            "url": "https://rai.zappr.stream/raistoria.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-storia"
-            },
-            "manualRestart": {
-                "source": "rai",
-                "id": "rai-storia"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-HLS8/raistoria.m3u8",
-                "api": "cloudflare"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/raistoria/browser-HLS8/raistoria.m3u8",
-                "api": "cloudflare"
             }
         },
         {
@@ -896,25 +723,11 @@
             "logo": "raiscuola.svg",
             "name": "Rai Scuola",
             "hd": true,
-            "type": "dash",
-            "url": "https://raiscuola1-dash-live.akamaized.net/dash/live/663975/raiscuola1/manifest.mpd",
+            "type": "hls",
+            "url": "https://rai.zappr.stream/raiscuola.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-scuola"
-            },
-            "manualRestart": {
-                "source": "rai",
-                "id": "rai-scuola"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-HLS8/raiscuola.m3u8",
-                "api": "cloudflare"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/raiscuola/browser-HLS8/raiscuola.m3u8",
-                "api": "cloudflare"
             }
         },
         {
@@ -923,8 +736,7 @@
             "name": "Rai Sport",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/raisport1/browser-HLS8/raisport1.m3u8",
-            "api": "cloudflare",
+            "url": "https://rai.zappr.stream/raisport1.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-sport"
@@ -1260,8 +1072,8 @@
             "logo": "rai4k.svg",
             "name": "Rai 4K",
             "uhd": true,
-            "type": "dash",
-            "url": "https://raievent10-dash-live.akamaized.net/dash/live/664000/raievent10/manifest.mpd",
+            "type": "popup",
+            "url": "https://www.raiplay.it/dirette/rai4k?autoplay",
             "geoblock": true
         },
         {
@@ -1910,8 +1722,8 @@
             "logo": "rairadio2.svg",
             "name": "Rai Radio 2 Visual",
             "hd": true,
-            "type": "dash",
-            "url": "https://visualradiodue1-dash-live.akamaized.net/dash/live/2034085/visualradiodue1/manifest.mpd",
+            "type": "popup",
+            "url": "https://www.raiplay.it/dirette/rairadio2?autoplay",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-radio-2"
@@ -3608,9 +3420,8 @@
             "lcn": 701,
             "logo": "rairadio1.svg",
             "name": "Rai Radio 1",
-            "radio": true,
-            "type": "hls",
-            "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/radiounoita1/hls/playlist_mo.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S16355530/Q4zh3NTu28Rx/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "rai-radio-1"
@@ -3620,9 +3431,8 @@
             "lcn": 702,
             "logo": "rairadio2.svg",
             "name": "Rai Radio 2",
-            "radio": true,
-            "type": "hls",
-            "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/radiodue1/hls/playlist_mo.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S35942484/yp5F67151K92/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "rai-radio-2"
@@ -3632,9 +3442,8 @@
             "lcn": 703,
             "logo": "rairadio3.svg",
             "name": "Rai Radio 3",
-            "radio": true,
-            "type": "hls",
-            "url": "https://8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/radiotre1/hls/playlist_mo.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S56630579/yEbkcBtIoSwd/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "rai-radio-3"
@@ -3644,17 +3453,15 @@
             "lcn": 704,
             "logo": "raigrparlamento.svg",
             "name": "Rai GR Parlamento",
-            "radio": true,
-            "type": "hls",
-            "url": "https://radioparlamento-live.akamaized.net/hls/live/2032597/radioparlamento/radioparlamento/playlist.m3u8"
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S32576004/GxPKuXIdZBcL/icecast"
         },
         {
             "lcn": 705,
             "logo": "raiisoradio.svg",
             "name": "Rai Isoradio",
-            "radio": true,
-            "type": "hls",
-            "url": "https://isoradioita-live.akamaized.net/hls/live/2032601/isoradioita/isoradioita/playlist.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S3822289/9T4F68Q3TT4m/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "rai-isoradio"
@@ -3664,9 +3471,8 @@
             "lcn": 706,
             "logo": "rairadio3classica.svg",
             "name": "Rai Radio 3 Classica",
-            "radio": true,
-            "type": "hls",
-            "url": "https://radiotreclassica-live.akamaized.net/hls/live/2032595/radiotreclassica/radiotreclassica/playlist.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S53422322/bTdUFhYMnnra/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "rai-radio-3-classica"
@@ -3676,9 +3482,8 @@
             "lcn": 707,
             "logo": "rairadiokids.svg",
             "name": "Rai Radio Kids",
-            "radio": true,
-            "type": "hls",
-            "url": "https://radiokids-live.akamaized.net/hls/live/2032600/radiokids/radiokids/playlist.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S94966552/WlznU7GmJkjL/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "rai-radio-kids"
@@ -3688,9 +3493,8 @@
             "lcn": 708,
             "logo": "rairadiolivenapoli.svg",
             "name": "Rai Radio Live Napoli",
-            "radio": true,
-            "type": "hls",
-            "url": "https://radiolive-live.akamaized.net/hls/live/2032599/radiolive/radiolive/playlist.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S3822289/9T4F68Q3TT4m/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "rai-radio-live-napoli"
@@ -3700,9 +3504,8 @@
             "lcn": 709,
             "logo": "rairadiotechetè.svg",
             "name": "Rai Radio Techetè",
-            "radio": true,
-            "type": "hls",
-            "url": "https://radiotechete-live.akamaized.net/hls/live/2032598/radiotechete/radiotechete/playlist.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S12572409/pHatRL4wJml9/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "rai-radio-techete"
@@ -3712,9 +3515,8 @@
             "lcn": 710,
             "logo": "rairadiotuttaitaliana.svg",
             "name": "Rai Radio Tutta Italiana",
-            "radio": true,
-            "type": "hls",
-            "url": "https://radiotuttaitaliana-live.akamaized.net/hls/live/2032596/radiotuttaitaliana/radiotuttaitaliana/playlist.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S2444220/HM9xhFhA0riM/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "rai-radio-tutta-italiana"
@@ -3724,9 +3526,8 @@
             "lcn": 711,
             "logo": "rairadio1sport.svg",
             "name": "Rai Radio 1 Sport",
-            "radio": true,
-            "type": "hls",
-            "url": "https://radiounosportita-live.akamaized.net/hls/live/2032590/radiounosportita/radiounosportita/playlist.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S74363317/iS9nek7QkZLI/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "rai-radio-1-sport"
@@ -3736,9 +3537,8 @@
             "lcn": 712,
             "logo": "nonameradio.svg",
             "name": "No Name Radio",
-            "radio": true,
-            "type": "hls",
-            "url": "https://radiodueindie-live.akamaized.net/hls/live/2032593/radiodueindie/radiodueindie/playlist.m3u8",
+            "type": "audio",
+            "url": "https://icecdn-19d24861e90342cc8decb03c24c8a419.msvdn.net/icecastRelay/S83071577/rgoEkNqrs3Lf/icecast",
             "epg": {
                 "source": "raiplaysound",
                 "id": "no-name-radio"
