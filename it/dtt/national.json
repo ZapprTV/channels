@@ -188,8 +188,9 @@
             "logo": "rai4.svg",
             "name": "Rai 4",
             "hd": true,
-            "type": "popup",
-            "url": "https://www.raiplay.it/dirette/rai4?autoplay",
+            "type": "iframe",
+            "url": "https://www.rai.it/dl/rai24/assets/template/iframe.html?/dl/rai24/raisport/video/2020/02/Rai-4-HD-5b1a71de-afd9-4b48-96ed-246c4c9994c2.html?autoplay=true&info=false",
+            "cssfix": "center-iframe",
             "nativeHLS": {
                 "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv",
                 "quality": "720p"
