@@ -195,6 +195,22 @@
                             "description": "This channel's streaming isn't working at the moment."
                         }]
                     },
+                    "nativeHLS": {
+                        "type": "object",
+                        "title": "Use an alternative HLS link in an iframe",
+                        "description": "If the browser supports native HLS playback, the HLS URL in this variable will be played through an iframe. Used to avoid CORS restrictions.",
+                        "additionalProperties": false,
+                        "properties": {
+                            "url": {
+                                "$ref": "#/properties/channels/items/properties/url"
+                            },
+                            "quality": {
+                                "title": "Quality",
+                                "description": "The channel's resolution/quality. If it has multiple, input the highest it can reach."
+                            }
+                        },
+                        "required": ["url"]
+                    },
                     "api": {
                         "type": "string",
                         "title": "Use an API to play the channel",
@@ -217,7 +233,7 @@
                         "type": "string",
                         "title": "Apply CSS fixes",
                         "description": "For channels whose streams require some CSS to look good.",
-                        "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "very-squashed-height", "five-two-squashed-height", "center-iframe", "servizistreaming-embed", "livetvuk-embed"],
+                        "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "very-squashed-height", "five-two-squashed-height", "center-iframe", "servizistreaming-embed", "livetvuk-embed", "720p-native-hls-iframe"],
                         "meta:enum": {
                             "streamshow-embed": "StreamShow embed (embed.streamshow.net)",
                             "raiplay-sound": "RaiPlay Sound",
@@ -227,7 +243,8 @@
                             "five-two-squashed-height": "Stretch the video track of a channel in 5:2 to 16:9.",
                             "center-iframe": "Center IFrame",
                             "servizistreaming-embed": "ServiziStreaming.it embed",
-                            "livetvuk-embed": "LiveTVUK.com embed"
+                            "livetvuk-embed": "LiveTVUK.com embed",
+                            "native-hls-720p-iframe": "Scale a 720p video playing natively in an iframe to the video player's width"
                         },
                         "anyOf": [{
                             "const": "streamshow-embed",
@@ -268,6 +285,10 @@
                         {
                             "const": "livetvuk-embed",
                             "title": "LiveTVUK.com embed"
+                        },
+                        {
+                            "const": "native-hls-720p-iframe",
+                            "title": "Scale a 720p video playing natively in an iframe to the video player's width"
                         }]
                     },
                     "fallback": {

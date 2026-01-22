@@ -190,6 +190,10 @@
             "hd": true,
             "type": "popup",
             "url": "https://www.raiplay.it/dirette/rai4?autoplay",
+            "nativeHLS": {
+                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv",
+                "quality": "720p"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-4"
@@ -220,6 +224,10 @@
             "hd": true,
             "type": "popup",
             "url": "https://www.raiplay.it/dirette/rai5?autoplay",
+            "nativeHLS": {
+                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv",
+                "quality": "720p"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-5"
@@ -233,6 +241,10 @@
             "hd": true,
             "type": "popup",
             "url": "https://www.raiplay.it/dirette/raimovie?autoplay",
+            "nativeHLS": {
+                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv",
+                "quality": "720p"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-movie"
@@ -246,6 +258,10 @@
             "hd": true,
             "type": "popup",
             "url": "https://www.raiplay.it/dirette/raipremium?autoplay",
+            "nativeHLS": {
+                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv",
+                "quality": "720p"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-premium"
@@ -530,6 +546,10 @@
             "hd": true,
             "type": "popup",
             "url": "https://www.raiplay.it/dirette/raiyoyo?autoplay",
+            "nativeHLS": {
+                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv",
+                "quality": "720p"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-yoyo"
@@ -1074,6 +1094,9 @@
             "uhd": true,
             "type": "popup",
             "url": "https://www.raiplay.it/dirette/rai4k?autoplay",
+            "nativeHLS": {
+                "url": "https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8"
+            },
             "geoblock": true
         },
         {
@@ -1724,6 +1747,10 @@
             "hd": true,
             "type": "popup",
             "url": "https://www.raiplay.it/dirette/rairadio2?autoplay",
+            "nativeHLS": {
+                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv",
+                "quality": "720p"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-radio-2"
