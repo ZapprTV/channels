@@ -260,7 +260,7 @@
             "type": "popup",
             "url": "https://www.raiplay.it/dirette/raipremium?autoplay",
             "nativeHLS": {
-                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv",
+                "url": "https://raipremium3-live.akamaized.net/hls/live/2018013/raipremium3/raipremium3/playlist.m3u8",
                 "quality": "720p"
             },
             "epg": {
