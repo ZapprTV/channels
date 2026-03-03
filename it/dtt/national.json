@@ -2421,8 +2421,8 @@
             "logo": "man-ga",
             "name": "Man-ga",
             "hd": true,
-            "type": "hls",
-            "url": "https://c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/playlist.m3u8"
+            "type": "dash",
+            "url": "https://c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/manifest.mpd"
         },
         {
             "lcn": 240,
