@@ -233,7 +233,7 @@
                         "type": "string",
                         "title": "Apply CSS fixes",
                         "description": "For channels whose streams require some CSS to look good.",
-                        "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "very-squashed-height", "five-two-squashed-height", "center-iframe", "servizistreaming-embed", "livetvuk-embed", "native-hls-720p-iframe", "letterbox"],
+                        "enum": ["streamshow-embed", "raiplay-sound", "stretch", "squashed-height", "very-squashed-height", "five-two-squashed-height", "center-iframe", "servizistreaming-embed", "livetvuk-embed", "native-hls-720p-iframe", "letterbox", "raiparlamento-embed"],
                         "meta:enum": {
                             "streamshow-embed": "StreamShow embed (embed.streamshow.net)",
                             "raiplay-sound": "RaiPlay Sound",
@@ -245,7 +245,8 @@
                             "servizistreaming-embed": "ServiziStreaming.it embed",
                             "livetvuk-embed": "LiveTVUK.com embed",
                             "native-hls-720p-iframe": "Scale a 720p video playing natively in an iframe to the video player's width",
-                            "letterbox": "Scale a 16:9 video letterboxed within a 4:3 stream to the video player's width"
+                            "letterbox": "Scale a 16:9 video letterboxed within a 4:3 stream to the video player's width",
+                            "raiparlamento-embed": "Embed di Rai Parlamento"
                         },
                         "anyOf": [{
                             "const": "streamshow-embed",
@@ -294,6 +295,10 @@
                         {
                             "const": "letterbox",
                             "title": "Scale a 16:9 video letterboxed within a 4:3 stream to the video player's width"
+                        },
+                        {
+                            "const": "raiparlamento-embed",
+                            "title": "Embed di Rai Parlamento"
                         }]
                     },
                     "fallback": {

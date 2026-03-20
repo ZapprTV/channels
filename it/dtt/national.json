@@ -189,12 +189,8 @@
             "name": "Rai 4",
             "hd": true,
             "type": "iframe",
-            "url": "https://www.rai.it/dl/rai24/assets/template/iframe.html?/dl/rai24/raisport/video/2020/02/Rai-4-HD-5b1a71de-afd9-4b48-96ed-246c4c9994c2.html?autoplay=true&info=false",
-            "cssfix": "center-iframe",
-            "nativeHLS": {
-                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv",
-                "quality": "720p"
-            },
+            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746966&autoplay=true&muted=false",
+            "cssfix": "raiparlamento-embed",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-4"
@@ -223,12 +219,9 @@
             "logo": "rai5.svg",
             "name": "Rai 5",
             "hd": true,
-            "type": "popup",
-            "url": "https://www.raiplay.it/dirette/rai5?autoplay",
-            "nativeHLS": {
-                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv",
-                "quality": "720p"
-            },
+            "type": "iframe",
+            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=395276&autoplay=true&muted=false",
+            "cssfix": "raiparlamento-embed",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-5"
@@ -240,12 +233,9 @@
             "logo": "raimovie.svg",
             "name": "Rai Movie",
             "hd": true,
-            "type": "popup",
-            "url": "https://www.raiplay.it/dirette/raimovie?autoplay",
-            "nativeHLS": {
-                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv",
-                "quality": "720p"
-            },
+            "type": "iframe",
+            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=747002&autoplay=true&muted=false",
+            "cssfix": "raiparlamento-embed",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-movie"
@@ -257,12 +247,9 @@
             "logo": "raipremium.svg",
             "name": "Rai Premium",
             "hd": true,
-            "type": "popup",
-            "url": "https://www.raiplay.it/dirette/raipremium?autoplay",
-            "nativeHLS": {
-                "url": "https://raipremium3-live.akamaized.net/hls/live/2018013/raipremium3/raipremium3/playlist.m3u8",
-                "quality": "720p"
-            },
+            "type": "iframe",
+            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746992&autoplay=true&muted=false",
+            "cssfix": "raiparlamento-embed",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-premium"
@@ -545,12 +532,9 @@
             "logo": "raiyoyo.svg",
             "name": "Rai Yoyo",
             "hd": true,
-            "type": "popup",
-            "url": "https://www.raiplay.it/dirette/raiyoyo?autoplay",
-            "nativeHLS": {
-                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv",
-                "quality": "720p"
-            },
+            "type": "iframe",
+            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746899&autoplay=true&muted=false",
+            "cssfix": "raiparlamento-embed",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-yoyo"
@@ -1649,12 +1633,9 @@
             "logo": "rairadio2.svg",
             "name": "Rai Radio 2 Visual",
             "hd": true,
-            "type": "popup",
-            "url": "https://www.raiplay.it/dirette/rairadio2?autoplay",
-            "nativeHLS": {
-                "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv",
-                "quality": "720p"
-            },
+            "type": "iframe",
+            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=5674080&autoplay=true&muted=false",
+            "cssfix": "raiparlamento-embed",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-radio-2"
