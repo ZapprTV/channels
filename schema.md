@@ -527,7 +527,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd><dt>livetvuk-embed</dt><dd>LiveTVUK.com embed</dd><dt>native-hls-720p-iframe</dt><dd>Scale a 720p video playing natively in an iframe to the video player&#x27;s width</dd></dl></td>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd><dt>livetvuk-embed</dt><dd>LiveTVUK.com embed</dd><dt>native-hls-720p-iframe</dt><dd>Scale a 720p video playing natively in an iframe to the video player&#x27;s width</dd><dt>letterbox</dt><dd>Scale a 16:9 video letterboxed within a 4:3 stream to the video player&#x27;s width</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -707,6 +707,30 @@
     <tr>
       <th>Enum</th>
       <td colspan="2"><dl><dt>vercel</dt><dd>Use the Vercel API (https://github.com/ZapprTV/vercel-api) to play the channel.</dd><dt>cloudflare</dt><dd>Use the Cloudflare API (https://github.com/ZapprTV/cloudflare-api) to play the channel.</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.geoblock.cssfix
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Apply CSS fixes</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">For channels whose streams require some CSS to look good.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd><dt>livetvuk-embed</dt><dd>LiveTVUK.com embed</dd><dt>native-hls-720p-iframe</dt><dd>Scale a 720p video playing natively in an iframe to the video player&#x27;s width</dd><dt>letterbox</dt><dd>Scale a 16:9 video letterboxed within a 4:3 stream to the video player&#x27;s width</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1344,7 +1368,7 @@
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
       <th>Enum</th>
-      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd><dt>livetvuk-embed</dt><dd>LiveTVUK.com embed</dd><dt>native-hls-720p-iframe</dt><dd>Scale a 720p video playing natively in an iframe to the video player&#x27;s width</dd></dl></td>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd><dt>livetvuk-embed</dt><dd>LiveTVUK.com embed</dd><dt>native-hls-720p-iframe</dt><dd>Scale a 720p video playing natively in an iframe to the video player&#x27;s width</dd><dt>letterbox</dt><dd>Scale a 16:9 video letterboxed within a 4:3 stream to the video player&#x27;s width</dd></dl></td>
     </tr>
   </tbody>
 </table>
@@ -1524,6 +1548,30 @@
     <tr>
       <th>Enum</th>
       <td colspan="2"><dl><dt>vercel</dt><dd>Use the Vercel API (https://github.com/ZapprTV/vercel-api) to play the channel.</dd><dt>cloudflare</dt><dd>Use the Cloudflare API (https://github.com/ZapprTV/cloudflare-api) to play the channel.</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.geoblock.cssfix
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Apply CSS fixes</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">For channels whose streams require some CSS to look good.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>raiplay-sound</dt><dd>RaiPlay Sound</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd><dt>livetvuk-embed</dt><dd>LiveTVUK.com embed</dd><dt>native-hls-720p-iframe</dt><dd>Scale a 720p video playing natively in an iframe to the video player&#x27;s width</dd><dt>letterbox</dt><dd>Scale a 16:9 video letterboxed within a 4:3 stream to the video player&#x27;s width</dd></dl></td>
     </tr>
   </tbody>
 </table>
