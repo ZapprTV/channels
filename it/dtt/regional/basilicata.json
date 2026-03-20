@@ -21,8 +21,9 @@
             "lcn": 10,
             "logo": "telenorba.svg",
             "name": "Telenorba",
+            "hd": true,
             "type": "hls",
-            "url": "https://router.xdevel.com/video2s976570-2117/stream/playlist_dvr.m3u8",
+            "url": "https://live-telenorba.cdn.netrw.it/telenorba/hls/ccr/telenorba/master.m3u8?start=now-460m",
             "epg": {
                 "source": "norba",
                 "id": "11313512"
@@ -44,8 +45,9 @@
             "lcn": 13,
             "logo": "tgnorba24.svg",
             "name": "TG Norba 24",
+            "hd": true,
             "type": "hls",
-            "url": "https://router.xdevel.com/video0s976570-1326/stream/playlist_dvr.m3u8",
+            "url": "https://live-telenorba.cdn.netrw.it/telenorba/hls/ccr/tgnorba/master.m3u8?start=now-460m",
             "epg": {
                 "source": "norba",
                 "id": "13292552"
