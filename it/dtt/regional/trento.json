@@ -5,8 +5,8 @@
             "lcn": 3,
             "logo": "rai3.svg",
             "name": "Rai 3 TGR Trento",
-            "type": "dash",
-            "url": "https://tgrtrento-dash-live.akamaized.net/dash/live/2025613/tgrtrento/manifest.mpd",
+            "type": "hls",
+            "url": "https://tgrtrento-live.akamaized.net/hls/live/2025575/tgrtrento/tgrtrento/playlist.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-3"
@@ -22,7 +22,7 @@
             "logo": "trentinotv",
             "name": "Trentino TV",
             "type": "hls",
-            "url": "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8",
+            "url": "https://tntv.fluid.stream/TrentinoTV/livestream/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "TRENTINO_it"
@@ -57,15 +57,15 @@
                 "sublcn": 4,
                 "logo": "radiosystem",
                 "name": "Radio System",
-                "type": "dash",
-                "url": "https://srvx1.selftv.video/systemtv/smil:live/manifest.mpd"
+                "type": "hls",
+                "url": "https://srvx1.selftv.video/systemtv/smil:live/playlist.m3u8"
             },
             {
                 "sublcn": 5,
                 "logo": "anni90",
                 "name": "Anni 90",
-                "type": "dash",
-                "url": "https://585b674743bbb.streamlock.net/9076/9076/manifest.mpd"
+                "type": "hls",
+                "url": "https://585b674743bbb.streamlock.net/9076/9076/playlist.m3u8"
             },
             {
                 "sublcn": 6,
@@ -90,8 +90,8 @@
                 "logo": "virgoradio.svg",
                 "name": "Virgo Radio",
                 "radio": "video",
-                "type": "dash",
-                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.mpd"        
+                "type": "hls",
+                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"        
             },
             {
                 "sublcn": 9,
@@ -120,8 +120,8 @@
                 "logo": "radiofiemme",
                 "name": "Radio Fiemme",
                 "radio": true,
-                "type": "dash",
-                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/manifest.mpd"  
+                "type": "hls",
+                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"  
             },
             {
                 "sublcn": 13,
@@ -191,8 +191,8 @@
             "lcn": 14,
             "logo": "telenuovo.svg",
             "name": "Telenuovo",
-            "type": "dash",
-            "url": "https://liveac901.b-cdn.net/channel02.smil/manifest.mpd",
+            "type": "hls",
+            "url": "https://liveac901.b-cdn.net/channel02.smil/playlist.m3u8",
             "fallback": {
                 "type": "iframe",
                 "url": "https://ac106mp-cdn.streamcloud.it/embed/live/a408fac6-e5d3-4e70-844d-0410d03264cf"
@@ -205,8 +205,8 @@
                 "sublcn": 1,
                 "logo": "telenuovoplay",
                 "name": "Telenuovo Play",
-                "type": "dash",
-                "url": "https://liveac901.b-cdn.net/channel01.smil/manifest.mpd"
+                "type": "hls",
+                "url": "https://liveac901.b-cdn.net/channel01.smil/playlist.m3u8"
             }]
         },
         {
@@ -279,8 +279,8 @@
                 "logo": "cafè24",
                 "name": "Cafè24",
                 "hd": true,
-                "type": "dash",
-                "url": "https://srvx1.selftv.video/cafe/smil:live/manifest.mpd" 
+                "type": "hls",
+                "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8" 
             },
             {
                 "sublcn": 9,
@@ -294,8 +294,8 @@
                 "logo": "telecolor.svg",
                 "name": "Telecolor",
                 "hd": true,
-                "type": "dash",
-                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
+                "type": "hls",
+                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "TELECOLOR.tvprofil_it"
@@ -312,29 +312,29 @@
                 "sublcn": 12,
                 "logo": "radiopiterpantv",
                 "name": "Radio Piterpan TV",
-                "type": "dash",
-                "url": "https://58d921499d3d3.streamlock.net/RadioPiterpanTV_dash/RadioPiterpanTV_dash.stream/manifest.mpd"
+                "type": "hls",
+                "url": "https://str03.fluid.stream/RadioPiterpanTV/livestream/playlist.m3u8"
             },
             {
                 "sublcn": 13,
                 "logo": "radiobelllaemonellatv",
                 "name": "Radio Bellla e Monella TV",
-                "type": "dash",
-                "url": "https://58d921499d3d3.streamlock.net/RadioBelllaemonellaTV_dash/RadioBelllaemonellaTV_dash.stream/manifest.mpd"
+                "type": "hls",
+                "url": "https://str03.fluid.stream/RadioBelllaemonellaTV/livestream/playlist.m3u8"
             },
             {
                 "sublcn": 14,
                 "logo": "radiobirikinatv",
                 "name": "Radio Birikina TV",
-                "type": "dash",
-                "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV_dash/RadioBirikinaTV_dash.stream/manifest.mpd"
+                "type": "hls",
+                "url": "https://str02.fluid.stream/RadioBirikinaTV/livestream/playlist.m3u8"
             },
             {
                 "sublcn": 15,
                 "logo": "radiosorrrisotv",
                 "name": "Radio SorRriso TV",
-                "type": "dash",
-                "url": "https://56b50ada2d659.streamlock.net/RadioSorrrisoTV_dash/RadioSorrrisoTV_dash.stream/manifest.mpd"
+                "type": "hls",
+                "url": "https://str02.fluid.stream/RadioSorrrisoTV/livestream/playlist.m3u8"
             },
             {
                 "sublcn": 16,
@@ -365,8 +365,8 @@
             "lcn": 18,
             "logo": "telechiara",
             "name": "Telechiara",
-            "type": "dash",
-            "url": "https://fms.telemar.it:1936/telechiara/diretta/manifest.mpd",
+            "type": "hls",
+            "url": "https://fms.telemar.it:1936/telechiara/diretta/playlist.m3u8",
             "epg": {
                 "source": "videomedia",
                 "id": "C"
@@ -376,8 +376,8 @@
                 "logo": "tvavicenza.svg",
                 "name": "TVA Vicenza",
                 "hd": true,
-                "type": "dash",
-                "url": "https://fms.telemar.it:1936/live/diretta_1/manifest.mpd",
+                "type": "hls",
+                "url": "https://fms.telemar.it:1936/live/diretta_1/playlist.m3u8",
                 "epg": {
                     "source": "videomedia",
                     "id": "E"
@@ -410,8 +410,8 @@
                 "logo": "telecolor.svg",
                 "name": "Telecolor",
                 "hd": true,
-                "type": "dash",
-                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
+                "type": "hls",
+                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "TELECOLOR.tvprofil_it"
@@ -421,8 +421,8 @@
                 "sublcn": 3,
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
-                "type": "dash",
-                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "eTV Rete 7.tvprofil_it"
@@ -432,8 +432,8 @@
                 "sublcn": 4,
                 "logo": "ètvmarche.svg",
                 "name": "èTV Marche",
-                "type": "dash",
-                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/manifest.mpd",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8",
                 "epg": {
                     "source": "ètv",
                     "id": "Palinsesto_Marche"

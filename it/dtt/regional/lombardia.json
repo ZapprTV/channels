@@ -99,22 +99,22 @@
             "lcn": 16,
             "logo": "teletutto",
             "name": "Teletutto",
-            "type": "dash",
-            "url": "https://3177cee185284d2990021eccc8b06ae6.msvdn.net/live/S55287570/tq6PELOcQoAf/manifest.mpd",
+            "type": "hls",
+            "url": "https://3177cee185284d2990021eccc8b06ae6.msvdn.net/live/S55287570/tq6PELOcQoAf/playlist.m3u8",
             "hd": true,
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "teletutto2",
                 "name": "Teletutto 2",
-                "type": "dash",
-                "url": "https://3177cee185284d2990021eccc8b06ae6.msvdn.net/live/S75141837/T3wd5WoxAo4B/manifest.mpd"
+                "type": "hls",
+                "url": "https://3177cee185284d2990021eccc8b06ae6.msvdn.net/live/S75141837/T3wd5WoxAo4B/playlist.m3u8"
             },
             {
                 "sublcn": 2,
                 "logo": "teletutto24",
                 "name": "Teletutto 24",
-                "type": "dash",
-                "url": "https://3177cee185284d2990021eccc8b06ae6.msvdn.net/live/S64637685/c2e0XXmwILE9/manifest.mpd"
+                "type": "hls",
+                "url": "https://3177cee185284d2990021eccc8b06ae6.msvdn.net/live/S64637685/c2e0XXmwILE9/playlist.m3u8"
             }]
         },
         {
@@ -122,8 +122,8 @@
             "logo": "telecolor.svg",
             "name": "Telecolor",
             "hd": true,
-            "type": "dash",
-            "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
+            "type": "hls",
+            "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "TELECOLOR.tvprofil_it"
@@ -143,8 +143,8 @@
                 "sublcn": 2,
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
-                "type": "dash",
-                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "eTV Rete 7.tvprofil_it"
@@ -154,8 +154,8 @@
                 "sublcn": 3,
                 "logo": "ètvmarche.svg",
                 "name": "èTV Marche",
-                "type": "dash",
-                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/manifest.mpd",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8",
                 "epg": {
                     "source": "ètv",
                     "id": "Palinsesto_Marche"
@@ -176,8 +176,8 @@
                 "sublcn": 5,
                 "logo": "telecampione.svg",
                 "name": "Telecampione",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/manifest.mpd",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/playlist.m3u8",
                 "epg": {
                     "source": "publirose",
                     "id": "telecampione"
@@ -246,15 +246,15 @@
             "lcn": 75,
             "logo": "unicatv.svg",
             "name": "Unica TV",
-            "type": "dash",
-            "url": "https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S84376118/gnJqPnxrsLcY/manifest.mpd"
+            "type": "hls",
+            "url": "https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S84376118/gnJqPnxrsLcY/playlist.m3u8"
         },
         {
             "lcn": 76,
             "logo": "telelibertà",
             "name": "Telelibertà",
-            "type": "dash",
-            "url": "https://liberta.cdn.streamup.eu/origin/teleliberta_abr/manifest.mpd"
+            "type": "hls",
+            "url": "https://liberta.cdn.streamup.eu/origin/teleliberta_abr/playlist.m3u8"
         },
         {
             "lcn": 78,
@@ -262,7 +262,7 @@
             "name": "Milano Pavia TV",
             "hd": true,
             "type": "hls",
-            "url": "https://cdn7.streamshow.it/hbbtv-milanopaviatv/milanopaviatv/playlist.m3u8",
+            "url": "https://59d7d6f47d7fc.streamlock.net/telepavia/telepavia/playlist.m3u8",
             "epg": {
                 "source": "digitalbitrate",
                 "id": "tlu/TLU_CH34_31"
@@ -363,16 +363,16 @@
             "lcn": 93,
             "logo": "70-80",
             "name": "70-80.it",
-            "type": "dash",
-            "url": "https://585b674743bbb.streamlock.net/9050/9050/manifest.mpd"
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
         },
         {
             "lcn": 94,
             "logo": "seilatvbergamo",
             "name": "SeilaTV Bergamo",
             "hd": true,
-            "type": "dash",
-            "url": "https://nrvideo1.newradio.it:1936/efstzahwew/efstzahwew/manifest.mpd",
+            "type": "hls",
+            "url": "https://nrvideo1.newradio.it:1936/efstzahwew/efstzahwew/playlist.m3u8",
             "epg": {
                 "source": "digitalbitrate",
                 "id": "tlu/TLU_CH22_2014"
@@ -382,8 +382,8 @@
             "lcn": 96,
             "logo": "supertv",
             "name": "SuperTV",
-            "type": "dash",
-            "url": "https://cdn12.streamshow.it/hbbtv-supertv/supertv/manifest.mpd",
+            "type": "hls",
+            "url": "https://59d7d6f47d7fc.streamlock.net/supertv/supertv/playlist.m3u8",
             "epg": {
                 "source": "digitalbitrate",
                 "id": "tlu/TLU_CH22_2010"
@@ -437,8 +437,8 @@
             "logo": "cafè24",
             "name": "Cafè24",
             "hd": true,
-            "type": "dash",
-            "url": "https://srvx1.selftv.video/cafe/smil:live/manifest.mpd",
+            "type": "hls",
+            "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "stereocittà.svg",
@@ -457,8 +457,8 @@
                 "sublcn": 3,
                 "logo": "friulitv24",
                 "name": "FriuliTV24",
-                "type": "dash",
-                "url": "https://585b674743bbb.streamlock.net/9080/9080/manifest.mpd"
+                "type": "hls",
+                "url": "https://585b674743bbb.streamlock.net/9080/9080/playlist.m3u8"
             },
             {
                 "sublcn": 4,
@@ -487,8 +487,8 @@
             "lcn": 115,
             "logo": "radiobirikinatv",
             "name": "Radio Birikina TV",
-            "type": "dash",
-            "url": "https://56b50ada2d659.streamlock.net/RadioBirikinaTV_dash/RadioBirikinaTV_dash.stream/manifest.mpd"
+            "type": "hls",
+            "url": "https://str02.fluid.stream/RadioBirikinaTV/livestream/playlist.m3u8"
         },
         {
             "lcn": 119,
@@ -501,8 +501,8 @@
             "lcn": 175,
             "logo": "tvyesitalia",
             "name": "TV Yes",
-            "type": "dash",
-            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/manifest.mpd"
+            "type": "hls",
+            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/playlist.m3u8"
         },
         {
             "lcn": 177,
@@ -575,8 +575,8 @@
             "lcn": 799,
             "logo": "rtr99tv",
             "name": "RTR 99 TV",
-            "type": "dash",
-            "url": "https://rtr99.fluid.stream/RTR99_hbb/RTR99_hbb.stream/manifest.mpd",
+            "type": "hls",
+            "url": "https://str38.fluid.stream/RTR99TV/livestream/playlist.m3u8",
             "epg": {
                 "source": "set",
                 "id": "rtr99"

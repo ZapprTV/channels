@@ -83,15 +83,10 @@
             },
             {
                 "sublcn": 4,
-                "logo": "telepace.svg",
-                "name": "Telepace",
+                "logo": "teleliguriasud",
+                "name": "Tele Liguria Sud",
                 "type": "hls",
-                "url": "https://www.dailymotion.com/video/x9pha96",
-                "api": "cloudflare",
-                "epg": {
-                    "source": "oggiintv",
-                    "id": "Telepace"
-                }
+                "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
             },
             {
                 "sublcn": 5,
@@ -109,26 +104,19 @@
                 "logo": "videonovara",
                 "name": "Videonovara",
                 "hd": true,
-                "type": "dash",
-                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=dash"
+                "type": "hls",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
             },
             {
                 "sublcn": 7,
-                "logo": "teleliguriasud",
-                "name": "Tele Liguria Sud",
-                "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
-            },
-            {
-                "sublcn": 8,
                 "logo": "radiofratesole",
                 "name": "Radio Frate Sole",
                 "radio": "video",
-                "type": "dash",
-                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/manifest.mpd"        
+                "type": "hls",
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
             },
             {
-                "sublcn": 9,
+                "sublcn": 8,
                 "logo": "radiopace",
                 "name": "Radio Pace",
                 "radio": "video",
@@ -154,7 +142,7 @@
                 "logo": "trentinotv",
                 "name": "Trentino TV",
                 "type": "hls",
-                "url": "https://5e73cf528f404.streamlock.net/TrentinoTV/livestream/playlist.m3u8",
+                "url": "https://tntv.fluid.stream/TrentinoTV/livestream/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "TRENTINO_it"
@@ -190,15 +178,15 @@
                 "sublcn": 5,
                 "logo": "radiosystem",
                 "name": "Radio System",
-                "type": "dash",
-                "url": "https://srvx1.selftv.video/systemtv/smil:live/manifest.mpd"
+                "type": "hls",
+                "url": "https://srvx1.selftv.video/systemtv/smil:live/playlist.m3u8"
             },
             {
                 "sublcn": 6,
                 "logo": "anni90",
                 "name": "Anni 90",
-                "type": "dash",
-                "url": "https://585b674743bbb.streamlock.net/9076/9076/manifest.mpd"
+                "type": "hls",
+                "url": "https://585b674743bbb.streamlock.net/9076/9076/playlist.m3u8"
             },
             {
                 "sublcn": 7,
@@ -223,8 +211,8 @@
                 "logo": "virgoradio.svg",
                 "name": "Virgo Radio",
                 "radio": "video",
-                "type": "dash",
-                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.mpd"        
+                "type": "hls",
+                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"        
             },
             {
                 "sublcn": 10,
@@ -253,8 +241,8 @@
                 "logo": "radiofiemme",
                 "name": "Radio Fiemme",
                 "radio": true,
-                "type": "dash",
-                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/manifest.mpd"  
+                "type": "hls",
+                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"  
             },
             {
                 "sublcn": 14,
@@ -290,9 +278,8 @@
             "lcn": 19,
             "logo": "italia7.svg",
             "name": "Italia 7",
-            "type": "dash",
-            "url": "https://streaming.softwarecreation.it/Italia7/Italia7/manifest.mpd",
-            "cssfix": "stretch",
+            "type": "hls",
+            "url": "https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "laziotv.svg",
@@ -321,8 +308,8 @@
                 "sublcn": 4,
                 "logo": "teleregione74",
                 "name": "Teleregione",
-                "type": "dash",
-                "url": "https://streaming.softwarecreation.it/TR118/TR118/manifest.mpd"
+                "type": "hls",
+                "url": "https://streaming.softwarecreation.it/TR118/TR118/playlist.m3u8"
             },
             {
                 "sublcn": 8,
@@ -354,8 +341,8 @@
             "lcn": 76,
             "logo": "tvyesitalia",
             "name": "TV Yes",
-            "type": "dash",
-            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/manifest.mpd"
+            "type": "hls",
+            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/playlist.m3u8"
         },
         {
             "lcn": 77,
@@ -368,15 +355,15 @@
             "lcn": 78,
             "logo": "teleregionetoscana",
             "name": "Teleregione Toscana",
-            "type": "dash",
-            "url": "https://srvx1.selftv.video/teleregionetoscana/live/manifest.mpd"  
+            "type": "hls",
+            "url": "https://srvx1.selftv.video/teleregionetoscana/live/playlist.m3u8"  
         },
         {
             "lcn": 80,
             "logo": "firenzetv.svg",
             "name": "Firenze TV",
-            "type": "dash",
-            "url": "https://39f0a786c3fb4d3fab9ec6870cc428f9.msvdn.net/live/S10341261/Wl6aWcmb8xsQ/manifest.mpd"
+            "type": "hls",
+            "url": "https://39f0a786c3fb4d3fab9ec6870cc428f9.msvdn.net/live/S10341261/Wl6aWcmb8xsQ/playlist.m3u8"
         },
         {
             "lcn": 81,
@@ -454,8 +441,8 @@
             "lcn": 97,
             "logo": "ssarezzo.svg",
             "name": "Amaranto Channel",
-            "type": "dash",
-            "url": "https://10529e63b0a84fb6bdf487096cc5eaab.msvdn.net/live/S10857183/qMq5TNxA3ouH/manifest.mpd"
+            "type": "hls",
+            "url": "https://10529e63b0a84fb6bdf487096cc5eaab.msvdn.net/live/S10857183/qMq5TNxA3ouH/playlist.m3u8"
         },
         {
             "lcn": 112,
@@ -468,15 +455,15 @@
             "lcn": 180,
             "logo": "radioitaliacina",
             "name": "Radio Italia Cina",
-            "type": "dash",
-            "url": "https://585b674743bbb.streamlock.net/9054/9054/manifest.mpd"
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9054/9054/playlist.m3u8"
         },
         {
             "lcn": 351,
             "logo": "70-80",
             "name": "70-80.it",
-            "type": "dash",
-            "url": "https://585b674743bbb.streamlock.net/9050/9050/manifest.mpd"
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
         },
         {
             "lcn": 720,

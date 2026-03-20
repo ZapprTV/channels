@@ -45,8 +45,8 @@
             "lcn": 11,
             "logo": "veratv.svg",
             "name": "Vera TV",
-            "type": "dash",
-            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/manifest.mpd",
+            "type": "hls",
+            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/playlist.m3u8",
             "epg": {
                 "source": "veratv",
                 "id": "Get_ApiAppMarcheSchedules"
@@ -56,8 +56,8 @@
             "lcn": 12,
             "logo": "ètvmarche.svg",
             "name": "èTV Marche",
-            "type": "dash",
-            "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/manifest.mpd",
+            "type": "hls",
+            "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8",
             "epg": {
                 "source": "ètv",
                 "id": "Palinsesto_Marche"
@@ -66,8 +66,8 @@
                 "sublcn": 1,
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
-                "type": "dash",
-                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "eTV Rete 7.tvprofil_it"
@@ -78,8 +78,8 @@
                 "logo": "telecolor.svg",
                 "name": "Telecolor",
                 "hd": true,
-                "type": "dash",
-                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
+                "type": "hls",
+                "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "TELECOLOR.tvprofil_it"
@@ -125,8 +125,8 @@
             "lcn": 13,
             "logo": "tvrs.svg",
             "name": "TVRS",
-            "type": "dash",
-            "url": "https://cdn8.streamshow.it/cloud-tvrs/tvrs/manifest.mpd",
+            "type": "hls",
+            "url": "https://cdn8.streamshow.it/cloud-tvrs/tvrs/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "TVRS.tvprofile_it"
@@ -169,8 +169,8 @@
             "lcn": 17,
             "logo": "ètv+",
             "name": "èTV+",
-            "type": "dash",
-            "url": "https://live.ipstream.it/etvmarche2/etvmarche2.stream/manifest.mpd",
+            "type": "hls",
+            "url": "https://live.ipstream.it/etvmarche2/etvmarche2.stream/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "etv+ netweek.tvprofil_it"
@@ -199,7 +199,7 @@
             "logo": "fmtv75.svg",
             "name": "FMTV",
             "type": "hls",
-            "url": "https://bbtv.intvstream.net:3988/hybrid/play.m3u8"
+            "url": "https://bbtv.intvstream.net:3988/live/fmtvlive.m3u8"
         },
         {
             "lcn": 76,
@@ -313,8 +313,8 @@
             "lcn": 82,
             "logo": "607080radio",
             "name": "60 70 80 TV",
-            "type": "dash",
-            "url": "https://5a1178b42cc03.streamlock.net/607080stream/607080stream/manifest.mpd"
+            "type": "hls",
+            "url": "https://5a1178b42cc03.streamlock.net/607080stream/607080stream/playlist.m3u8"
         },
         {
             "lcn": 89,
@@ -403,8 +403,8 @@
             "lcn": 99,
             "logo": "rtm",
             "name": "RTM",
-            "type": "dash",
-            "url": "https://cdn17.streamshow.it/cloud-rtmtv/rtmtv.stream/manifest.mpd",
+            "type": "hls",
+            "url": "https://cdn17.streamshow.it/cloud-rtmtv/rtmtv.stream/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "RTM.tvprofil_it"
@@ -414,8 +414,8 @@
             "lcn": 351,
             "logo": "70-80",
             "name": "70-80.it",
-            "type": "dash",
-            "url": "https://585b674743bbb.streamlock.net/9050/9050/manifest.mpd"
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
         }
     ]
 }

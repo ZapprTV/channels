@@ -55,8 +55,9 @@
             "lcn": 14,
             "logo": "antennasud.svg",
             "name": "Antenna Sud",
+            "hd": true,
             "type": "hls",
-            "url": "https://stream.antennasudwebtv.it:9443/hls/vod.m3u8"
+            "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/antennasud/master.m3u8?start=now-460m"
         },
         {
             "lcn": 15,
@@ -81,8 +82,8 @@
             "logo": "telebari.svg",
             "name": "Telebari",
             "hd": true,
-            "type": "dash",
-            "url": "https://w1.mediastreaming.it/telebari/livestream/manifest.mpd",
+            "type": "hls",
+            "url": "https://w1.mediastreaming.it/telebari/livestream/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "radiobari",
@@ -123,22 +124,17 @@
             },
             {
                 "sublcn": 2,
+                "logo": "teleliguriasud",
+                "name": "Tele Liguria Sud",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
                 "logo": "tvl.svg",
                 "name": "TVL",
                 "type": "hls",
                 "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
-            },
-            {
-                "sublcn": 3,
-                "logo": "telepace.svg",
-                "name": "Telepace",
-                "type": "hls",
-                "url": "https://www.dailymotion.com/video/x9pha96",
-                "api": "cloudflare",
-                "epg": {
-                    "source": "oggiintv",
-                    "id": "Telepace"
-                }
             },
             {
                 "sublcn": 4,
@@ -156,16 +152,16 @@
                 "logo": "videonovara",
                 "name": "Videonovara",
                 "hd": true,
-                "type": "dash",
-                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=dash"
+                "type": "hls",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
             },
             {
                 "sublcn": 6,
                 "logo": "radiofratesole",
                 "name": "Radio Frate Sole",
                 "radio": "video",
-                "type": "dash",
-                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/manifest.mpd"        
+                "type": "hls",
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
             },
             {
                 "sublcn": 7,
@@ -174,13 +170,6 @@
                 "radio": "video",
                 "type": "hls",
                 "url": "https://stream.mariatvcdn.com/trpradio/c92dd777d146ffcd75d0b6cfb13a9153.sdp/playlist.m3u8"
-            },
-            {
-                "sublcn": 8,
-                "logo": "emiliaromagnaindiretta.svg",
-                "name": "L'Emilia-Romagna in Diretta",
-                "type": "dash",
-                "url": "https://cdn-base321.ciclano.io:1443/base321/base321/manifest.mpd"
             }]
         },
         {
@@ -194,8 +183,9 @@
             "lcn": 77,
             "logo": "teleregionecolor",
             "name": "Teleregione Color",
+            "hd": true,
             "type": "hls",
-            "url": "https://stream.antennasudwebtv.it:9443/hls/vodtele.m3u8"
+            "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/teleregione/master.m3u8?start=now-460m"
         },
         {
             "lcn": 78,
@@ -208,8 +198,8 @@
             "lcn": 80,
             "logo": "tvsei",
             "name": "TVSEI",
-            "type": "dash",
-            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/manifest.mpd",
+            "type": "hls",
+            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "TVSEI.tvprofil_it"
@@ -218,8 +208,8 @@
                 "sublcn": 1,
                 "logo": "telemolise",
                 "name": "Telemolise",
-                "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+                "type": "hls",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "Telemolise.tvprofil_it"
@@ -229,8 +219,8 @@
                 "sublcn": 2,
                 "logo": "diciotto",
                 "name": "Diciotto",
-                "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/manifest.mpd"
+                "type": "hls",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
             },
             {
                 "sublcn": 3,
@@ -245,8 +235,8 @@
             "lcn": 81,
             "logo": "telemolise",
             "name": "Telemolise",
-            "type": "dash",
-            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+            "type": "hls",
+            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "Telemolise.tvprofil_it"
@@ -255,8 +245,8 @@
                 "sublcn": 1,
                 "logo": "diciotto",
                 "name": "Diciotto",
-                "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/manifest.mpd"
+                "type": "hls",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
             }]
         },
         {
@@ -277,8 +267,8 @@
             "lcn": 87,
             "logo": "trc",
             "name": "TRC",
-            "type": "dash",
-            "url": "https://stream7.livinlive.it/trc/trc/manifest.mpd"
+            "type": "hls",
+            "url": "https://stream7.livinlive.it/trc/trc/playlist.m3u8"
         },
         {
             "lcn": 88,

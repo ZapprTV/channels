@@ -23,14 +23,14 @@
             "name": "Rete 8",
             "hd": true,
             "type": "hls",
-            "url": "https://edge.live-rete8.cdn.netrw.it/rete8/hls/live/rete8/master.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8"
         },
         {
             "lcn": 11,
             "logo": "telemolise",
             "name": "Telemolise",
-            "type": "dash",
-            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+            "type": "hls",
+            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "Telemolise.tvprofil_it"
@@ -39,8 +39,8 @@
                 "sublcn": 1,
                 "logo": "diciotto",
                 "name": "Diciotto",
-                "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/manifest.mpd"
+                "type": "hls",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
             }]
         },
         {
@@ -54,8 +54,8 @@
             "lcn": 13,
             "logo": "tvsei",
             "name": "TVSEI",
-            "type": "dash",
-            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/manifest.mpd",
+            "type": "hls",
+            "url": "https://654be07bf207c.streamlock.net/TvSeiHBBTV/tvseiWebPresenter/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "TVSEI.tvprofil_it"
@@ -64,8 +64,8 @@
                 "sublcn": 1,
                 "logo": "telemolise",
                 "name": "Telemolise",
-                "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+                "type": "hls",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "Telemolise.tvprofil_it"
@@ -75,8 +75,8 @@
                 "sublcn": 2,
                 "logo": "diciotto",
                 "name": "Diciotto",
-                "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/manifest.mpd"
+                "type": "hls",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
             },
             {
                 "sublcn": 3,
@@ -113,8 +113,8 @@
             "logo": "infomedianews",
             "name": "Info Media News",
             "hd": true,
-            "type": "dash",
-            "url": "https://64ede947d2367.streamlock.net/IMN/_definst_/IMN_source/manifest.mpd"
+            "type": "hls",
+            "url": "https://64ede947d2367.streamlock.net/IMN/_definst_/IMN_source/playlist.m3u8"
         },
         {
             "lcn": 16,
@@ -134,8 +134,8 @@
             "lcn": 18,
             "logo": "diciotto",
             "name": "Diciotto",
-            "type": "dash",
-            "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/manifest.mpd"
+            "type": "hls",
+            "url": "https://654be07bf207c.streamlock.net/Telemolise2-FB/Telemolise2/playlist.m3u8"
         },
         {
             "lcn": 75,
@@ -143,7 +143,7 @@
             "name": "Rete 8 Sport",
             "hd": true,
             "type": "hls",
-            "url": "https://edge.live-rete8.cdn.netrw.it/rete8/hls/live/rete8sport/master.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8"
         },
         {
             "lcn": 76,
@@ -165,6 +165,7 @@
             "name": "Vera Abruzzo",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/56.m3u8",
+            "cssfix": "letterbox",
             "epg": {
                 "source": "veratv",
                 "id": "Get_ApiAppAbruzzoSchedules"
@@ -189,14 +190,15 @@
             "logo": "6onair",
             "name": "6 OnAir",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/35.m3u8"
+            "url": "https://uvotv.zappr.stream/35.m3u8",
+            "cssfix": "letterbox"
         },
         {
             "lcn": 87,
             "logo": "veratv.svg",
             "name": "Vera TV",
-            "type": "dash",
-            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/manifest.mpd",
+            "type": "hls",
+            "url": "https://cdn9.streamshow.it/cloud-veratv/veratv/playlist.m3u8",
             "epg": {
                 "source": "veratv",
                 "id": "Get_ApiAppMarcheSchedules"
@@ -250,15 +252,15 @@
             "lcn": 90,
             "logo": "tvyesitalia",
             "name": "TV Yes",
-            "type": "dash",
-            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/manifest.mpd"
+            "type": "hls",
+            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/playlist.m3u8"
         },
         {
             "lcn": 94,
             "logo": "turismotv",
             "name": "Turismo TV",
-            "type": "dash",
-            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/manifest.mpd"
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8"
         },
         {
             "lcn": 95,
@@ -313,8 +315,8 @@
                 "sublcn": 4,
                 "logo": "pescaracalcio1936.svg",
                 "name": "Pescara Calcio",
-                "type": "dash",
-                "url": "http://tvcast.ns0.it:6935/1936tv/Stream2/manifest.mpd",
+                "type": "hls",
+                "url": "http://tvcast.ns0.it:6935/1936tv/Stream2/playlist.m3u8",
                 "http": true
             }]
         },
@@ -329,8 +331,8 @@
             "lcn": 111,
             "logo": "adn24",
             "name": "ADN24",
-            "type": "dash",
-            "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/manifest.mpd"
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
         }
     ]
 }

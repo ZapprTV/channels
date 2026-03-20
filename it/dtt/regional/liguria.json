@@ -22,8 +22,8 @@
             "logo": "primocanale.svg",
             "name": "Primocanale",
             "hd": true,
-            "type": "dash",
-            "url": "https://msh0203.stream.seeweb.it/live/stream2.sdp/manifest.mpd"
+            "type": "hls",
+            "url": "https://msh0203.stream.seeweb.it/live/stream2.sdp/playlist.m3u8"
         },
         {
             "lcn": 11,
@@ -80,18 +80,6 @@
                 "url": "https://stream.mariatvcdn.com/trpradio/c92dd777d146ffcd75d0b6cfb13a9153.sdp/playlist.m3u8"
             },
             {
-                "sublcn": 6,
-                "logo": "telepace.svg",
-                "name": "Telepace",
-                "type": "hls",
-                "url": "https://www.dailymotion.com/video/x9pha96",
-                "api": "cloudflare",
-                "epg": {
-                    "source": "oggiintv",
-                    "id": "Telepace"
-                }
-            },
-            {
                 "categorySeparator": "Canali Corallo"  
             },
             {
@@ -119,33 +107,33 @@
             },
             {
                 "sublcn": 9,
-                "logo": "tvl.svg",
-                "name": "TVL",
-                "type": "hls",
-                "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
-            },
-            {
-                "sublcn": 10,
-                "logo": "videonovara",
-                "name": "Videonovara",
-                "hd": true,
-                "type": "dash",
-                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=dash"
-            },
-            {
-                "sublcn": 11,
                 "logo": "teleliguriasud",
                 "name": "Tele Liguria Sud",
                 "type": "hls",
                 "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
             },
             {
+                "sublcn": 10,
+                "logo": "tvl.svg",
+                "name": "TVL",
+                "type": "hls",
+                "url": "https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128d679eed.sdp/playlist.m3u8"
+            },
+            {
+                "sublcn": 11,
+                "logo": "videonovara",
+                "name": "Videonovara",
+                "hd": true,
+                "type": "hls",
+                "url": "https://wb.top-ix.org/redirect/avtvlive/videonovara/streaming?type=m3u8"
+            },
+            {
                 "sublcn": 12,
                 "logo": "radiofratesole",
                 "name": "Radio Frate Sole",
                 "radio": "video",
-                "type": "dash",
-                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/manifest.mpd"        
+                "type": "hls",
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
             }]
         },
         {
@@ -154,6 +142,7 @@
             "name": "Telecity Liguria",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/353.m3u8",
+            "cssfix": "letterbox",
             "epg": {
                 "source": "uvotv",
                 "id": "TELECITY_it"
@@ -178,15 +167,16 @@
             "logo": "primocanaleprimopiano",
             "name": "Primocanale Primo Piano",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/362.m3u8"
+            "url": "https://uvotv.zappr.stream/362.m3u8",
+            "cssfix": "letterbox"
         },
         {
             "lcn": 17,
             "logo": "telecolor.svg",
             "name": "Telecolor",
             "hd": true,
-            "type": "dash",
-            "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/manifest.mpd",
+            "type": "hls",
+            "url": "https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "TELECOLOR.tvprofil_it"
@@ -206,8 +196,8 @@
                 "sublcn": 2,
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
-                "type": "dash",
-                "url": "https://live.ipstream.it/etv/etv.stream/manifest.mpd",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "eTV Rete 7.tvprofil_it"
@@ -217,8 +207,8 @@
                 "sublcn": 3,
                 "logo": "ètvmarche.svg",
                 "name": "èTV Marche",
-                "type": "dash",
-                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/manifest.mpd",
+                "type": "hls",
+                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8",
                 "epg": {
                     "source": "ètv",
                     "id": "Palinsesto_Marche"
@@ -239,8 +229,8 @@
                 "sublcn": 5,
                 "logo": "telecampione.svg",
                 "name": "Telecampione",
-                "type": "dash",
-                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/manifest.mpd",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/playlist.m3u8",
                 "epg": {
                     "source": "publirose",
                     "id": "telecampione"
@@ -312,8 +302,8 @@
                 "sublcn": 4,
                 "logo": "telenuovo.svg",
                 "name": "Telenuovo",
-                "type": "dash",
-                "url": "https://liveac901.b-cdn.net/channel02.smil/manifest.mpd",
+                "type": "hls",
+                "url": "https://liveac901.b-cdn.net/channel02.smil/playlist.m3u8",
                 "fallback": {
                     "type": "iframe",
                     "url": "https://ac106mp-cdn.streamcloud.it/embed/live/a408fac6-e5d3-4e70-844d-0410d03264cf"
@@ -327,8 +317,8 @@
                 "sublcn": 5,
                 "logo": "lactv.svg",
                 "name": "LaC",
-                "type": "dash",
-                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/manifest.mpd",
+                "type": "hls",
+                "url": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S47282891/JWjL3xqPf4bX/playlist.m3u8",
                 "epg": {
                     "source": "lacplay",
                     "id": "lac-tv"
@@ -350,8 +340,8 @@
                 "sublcn": 7,
                 "logo": "telemolise",
                 "name": "Telemolise",
-                "type": "dash",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/manifest.mpd",
+                "type": "hls",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "Telemolise.tvprofil_it"
@@ -382,7 +372,8 @@
             "logo": "valenzatv",
             "name": "Valenza TV",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/368.m3u8"
+            "url": "https://uvotv.zappr.stream/368.m3u8",
+            "cssfix": "letterbox"
         },
         {
             "lcn": 78,
@@ -442,6 +433,7 @@
             "name": "Rete 7",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/374.m3u8",
+            "cssfix": "letterbox",
             "epg": {
                 "source": "uvotv",
                 "id": "RETE 7.tvprofil_it"
@@ -451,8 +443,8 @@
             "lcn": 84,
             "logo": "tvyesitalia",
             "name": "TV Yes",
-            "type": "dash",
-            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/manifest.mpd"
+            "type": "hls",
+            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/playlist.m3u8"
         },
         {
             "lcn": 85,
@@ -469,8 +461,8 @@
             "lcn": 351,
             "logo": "70-80",
             "name": "70-80.it",
-            "type": "dash",
-            "url": "https://585b674743bbb.streamlock.net/9050/9050/manifest.mpd"
+            "type": "hls",
+            "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
         }
     ]
 }
