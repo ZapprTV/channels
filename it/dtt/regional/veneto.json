@@ -527,25 +527,32 @@
             }]
         },
         {
+            "lcn": 91,
+            "logo": "telealtobut",
+            "name": "Tele Alto But",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/telealtobut/playlist.m3u8"
+        },
+        {
             "lcn": 93,
             "logo": "ranfriul",
             "name": "RAN Friul",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/RanFriul/RanFriul/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranfriul/playlist.m3u8" 
         },
         {
             "lcn": 94,
             "logo": "rangerm",
             "name": "RAN Germ",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/RanGem/RanGem/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/rangerm/playlist.m3u8" 
         },
         {
             "lcn": 95,
             "logo": "ranslo",
             "name": "RAN Slo",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/ranslo/ranslo/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranslo/playlist.m3u8" 
         },
         {
             "lcn": 351,

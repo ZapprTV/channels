@@ -280,10 +280,10 @@
                 "logo": "radio45giri",
                 "name": "Radio 45 Giri",
                 "type": "audio",
-                "url": "https://nr12.newradio.it:8758/Live"
+                "url": "https://media2.streambrothers.com:8014/source"
             },
             {
-                "sublcn": 1,
+                "sublcn": 2,
                 "logo": "miamigoradio.svg",
                 "name": "Mi Amigo Radio",
                 "type": "audio",
