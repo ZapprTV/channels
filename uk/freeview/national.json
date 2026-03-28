@@ -25,8 +25,7 @@
             "hd": true,
             "geoblock": {
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8",
-                "api": "cloudflare"
+                "url": "https://netplus.zappr.stream/channel5.m3u8"
             },
             "epg": {
                 "source": "blue",
@@ -38,8 +37,7 @@
             "logo": "itv2.svg",
             "name": "ITV2",
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/itv2/browser-HLS8/itv2.m3u8",
-            "api": "cloudflare",
+            "url": "https://netplus.zappr.stream/itv2.m3u8",
             "hd": true,
             "epg": {
                 "source": "blue",
@@ -51,8 +49,7 @@
             "logo": "itv3.svg",
             "name": "ITV3",
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/itv3/browser-HLS8/itv3.m3u8",
-            "api": "cloudflare",
+            "url": "https://netplus.zappr.stream/itv3.m3u8",
             "hd": true,
             "epg": {
                 "source": "blue",
@@ -209,8 +206,7 @@
             "hd": true,
             "geoblock": {
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8",
-                "api": "cloudflare"
+                "url": "https://netplus.zappr.stream/bbc3cbbc.m3u8"
             },
             "epg": {
                 "source": "blue",
@@ -235,8 +231,7 @@
             "logo": "itv4.svg",
             "name": "ITV4",
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/itv4/browser-HLS8/itv4.m3u8",
-            "api": "cloudflare",
+            "url": "https://netplus.zappr.stream/itv4.m3u8",
             "hd": true,
             "epg": {
                 "source": "blue",
@@ -321,8 +316,7 @@
             "name": "5 +1",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/channel5/browser-HLS8/channel5.m3u8",
-            "api": "cloudflare",
+            "url": "https://netplus.zappr.stream/channel5.m3u8",
             "timeshift": 1,
             "epg": {
                 "source": "blue",
@@ -572,8 +566,7 @@
             "hd": true,
             "geoblock": {
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/bbc3cbbc/browser-HLS8/bbc3cbbc.m3u8",
-                "api": "cloudflare"
+                "url": "https://netplus.zappr.stream/bbc3cbbc.m3u8"
             },
             "epg": {
                 "source": "blue",
@@ -589,8 +582,7 @@
             "hd": true,
             "geoblock": {
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/bbc4cbeebies/browser-HLS8/bbc4cbeebies.m3u8",
-                "api": "cloudflare"
+                "url": "https://netplus.zappr.stream/bbc4cbeebies.m3u8"
             },
             "epg": {
                 "source": "blue",

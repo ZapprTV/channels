@@ -470,8 +470,7 @@
             "name": "ORF 1",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/orf1/browser-HLS8/orf1.m3u8",
-            "api": "cloudflare",
+            "url": "https://netplus.zappr.stream/orf1.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "303"
@@ -482,8 +481,7 @@
                 "name": "ORF 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/orf2/browser-HLS8/orf2.m3u8",
-                "api": "cloudflare",
+                "url": "https://netplus.zappr.stream/orf2.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "302"

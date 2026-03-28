@@ -96,8 +96,7 @@
             "name": "RTS 1",
             "hd": true,
             "type": "hls",
-            "url": "https://viamotionhsi.netplus.ch/live/eds/rts1hd/browser-HLS8/rts1hd.m3u8",
-            "api": "cloudflare",
+            "url": "https://netplus.zappr.stream/rts1hd.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "369"
@@ -108,8 +107,7 @@
                 "name": "RTS 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rts2hd/browser-HLS8/rts2hd.m3u8",
-                "api": "cloudflare",
+                "url": "https://netplus.zappr.stream/rts2hd.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "367"
@@ -121,8 +119,7 @@
                 "name": "SRF 1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/srf1hd/browser-HLS8/srf1hd.m3u8",
-                "api": "cloudflare",
+                "url": "https://netplus.zappr.stream/srf1hd.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "399"
@@ -134,8 +131,7 @@
                 "name": "SRF Zwei",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/srf2hd/browser-HLS8/srf2hd.m3u8",
-                "api": "cloudflare",
+                "url": "https://netplus.zappr.stream/srf2hd.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "401"
@@ -147,8 +143,7 @@
                 "name": "RSI LA1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-HLS8/rsila1hd.m3u8",
-                "api": "cloudflare",
+                "url": "https://netplus.zappr.stream/rsila1hd.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "356"
@@ -160,8 +155,7 @@
                 "name": "RSI LA2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://viamotionhsi.netplus.ch/live/eds/rsila2hd/browser-HLS8/rsila2hd.m3u8",
-                "api": "cloudflare",
+                "url": "https://netplus.zappr.stream/rsila2hd.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "357"
