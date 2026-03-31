@@ -9,6 +9,10 @@
             "type": "iframe",
             "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=2606803&autoplay=true&muted=false",
             "cssfix": "raiparlamento-embed",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://rai.zappr.stream/rai1.m3u8"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-1"
@@ -26,6 +30,10 @@
                 "source": "raiplay",
                 "id": "rai-2"
             },
+            "geoblock": {
+                "type": "hls",
+                "url": "https://rai.zappr.stream/rai2.m3u8"
+            },
             "manualRestart": {
                 "source": "rai",
                 "id": "rai-2"
@@ -39,6 +47,10 @@
             "type": "iframe",
             "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=308709&autoplay=true&muted=false",
             "cssfix": "raiparlamento-embed",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://rai.zappr.stream/rai3.m3u8"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-3"
@@ -523,6 +535,10 @@
             "type": "iframe",
             "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746953&autoplay=true&muted=false",
             "cssfix": "raiparlamento-embed",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://rai.zappr.stream/raigulp.m3u8"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-gulp"
@@ -688,6 +704,10 @@
             "type": "iframe",
             "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746990&autoplay=true&muted=false",
             "cssfix": "raiparlamento-embed",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://rai.zappr.stream/raistoria.m3u8"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-storia"
@@ -734,6 +754,10 @@
             "type": "iframe",
             "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=747011&autoplay=true&muted=false",
             "cssfix": "raiparlamento-embed",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://rai.zappr.stream/raiscuola.m3u8"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-scuola"
@@ -747,6 +771,10 @@
             "type": "iframe",
             "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=358025&autoplay=true&muted=false",
             "cssfix": "raiparlamento-embed",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://rai.zappr.stream/raisport1.m3u8"
+            },
             "epg": {
                 "source": "raiplay",
                 "id": "rai-sport"
