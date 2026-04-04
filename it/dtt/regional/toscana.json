@@ -271,8 +271,8 @@
             "lcn": 18,
             "logo": "50canale",
             "name": "50 Canale",
-            "type": "iframe",
-            "url": "https://player.restream.io/?token=f9d7d8512f7547279acd18a4481171af"
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge37/canale50/playlist.m3u8"
         },
         {
             "lcn": 19,
