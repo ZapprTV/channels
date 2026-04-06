@@ -92,7 +92,7 @@
             "name": "TRC Modena",
             "hd": true,
             "type": "hls",
-            "url": "https://trm-trcmodena.cdn.netrw.it/event/hls/ccr/trcmodena/master.m3u8?start=now-460m",
+            "url": "https://trm-trcmodena.cdn.netrw.it/event/hls/ccr/trcmodena/master.m3u8?start=now-320m",
             "epg": {
                 "source": "uvotv",
                 "id": "TRC Modena.tvprofile_it"
@@ -115,7 +115,7 @@
             "name": "TeleReggio",
             "hd": true,
             "type": "hls",
-            "url": "https://trm-telereggio.cdn.netrw.it/event/hls/ccr/telereggio/master.m3u8?start=now-460m",
+            "url": "https://trm-telereggio.cdn.netrw.it/event/hls/ccr/telereggio/master.m3u8?start=now-320m",
             "epg": {
                 "source": "uvotv",
                 "id": "TeleReggio.tvprofile_it"
@@ -138,7 +138,7 @@
             "name": "TRC Bologna",
             "hd": true,
             "type": "hls",
-            "url": "https://trm-trcbologna.cdn.netrw.it/event/hls/ccr/trcbologna/master.m3u8?start=now-460m",
+            "url": "https://trm-trcbologna.cdn.netrw.it/event/hls/ccr/trcbologna/master.m3u8?start=now-320m",
             "epg": {
                 "source": "uvotv",
                 "id": "TRC Bologna.tvprofile_it"

@@ -23,7 +23,7 @@
             "name": "Rete 8",
             "hd": true,
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/rete8/rete8/playlist.m3u8"
+            "url": "https://edge.live-rete8.cdn.netrw.it/rete8/hls/live/rete8/master.m3u8?start=now-200m"
         },
         {
             "lcn": 11,
@@ -143,7 +143,7 @@
             "name": "Rete 8 Sport",
             "hd": true,
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8"
+            "url": "https://edge.live-rete8.cdn.netrw.it/rete8/hls/live/rete8sport/master.m3u8?start=now-1m"
         },
         {
             "lcn": 76,
