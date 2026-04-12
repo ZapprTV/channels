@@ -1427,7 +1427,7 @@
         },
         {
             "lcn": 144,
-            "logo": "canale144.svg",
+            "logo": "canale144",
             "name": "Canale 144",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/335.m3u8",
