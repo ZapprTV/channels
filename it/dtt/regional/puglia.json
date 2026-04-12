@@ -59,7 +59,63 @@
             "name": "Antenna Sud",
             "hd": true,
             "type": "hls",
-            "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/antennasud/master.m3u8?start=now-320m"
+            "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/antennasud/master.m3u8?start=now-320m",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "antennasudsport",
+                "name": "Antenna Sud Sport",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/sport1/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 2,
+                "logo": "antennasudsport2",
+                "name": "Antenna Sud Sport 2",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/sport2/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 3,
+                "logo": "antennasudsport3",
+                "name": "Antenna Sud Sport 3",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/sport3/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 4,
+                "logo": "antennasudsport4",
+                "name": "Antenna Sud Sport 4",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/sport4/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 5,
+                "logo": "antennasudsport5",
+                "name": "Antenna Sud Sport 5",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/sport5/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 7,
+                "logo": "teleregionecolor",
+                "name": "Teleregione Color",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/teleregione/master.m3u8?start=now-270m"
+            },
+            {
+                "sublcn": 8,
+                "logo": "antennasud.svg",
+                "name": "Antenna Sud Extra",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/extra/master.m3u8?start=now-320m"
+            }]
         },
         {
             "lcn": 15,
@@ -187,7 +243,7 @@
             "name": "Teleregione Color",
             "hd": true,
             "type": "hls",
-            "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/teleregione/master.m3u8?start=now-320m"
+            "url": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/teleregione/master.m3u8?start=now-270m"
         },
         {
             "lcn": 78,
