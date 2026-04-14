@@ -315,6 +315,9 @@
                             },
                             "api": {
                                 "$ref": "#/properties/channels/items/properties/api"
+                            },
+                            "cssfix": {
+                                "$ref": "#/properties/channels/items/properties/cssfix"
                             }
                         },
                         "required": ["type", "url"]
