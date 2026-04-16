@@ -54,7 +54,7 @@
             "logo": "telea",
             "name": "Tele A",
             "type": "hls",
-            "url": "https://lostream.it/hls/telea/video.m3u8"
+            "url": "https://cdn-eu-west-prod-ingest-infra-dacast-com.akamaized.net/87ea1bcb-43b8-40fe-99d3-6f56420a9124/index.m3u8"
         },
         {
             "lcn": 14,
