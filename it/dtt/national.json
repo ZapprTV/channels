@@ -380,7 +380,11 @@
             "name": "Food Network",
             "hd": true,
             "type": "hls",
-            "url": "https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8",
+            "url": "zappr://wbd/foodnetwork",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8"
+            },
             "epg": {
                 "source": "blue",
                 "id": "1348"
@@ -448,7 +452,11 @@
             "name": "Discovery",
             "hd": true,
             "type": "hls",
-            "url": "https://d1941a53blim0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-75c5ipmzpicfd/Discovery_IT.m3u8",
+            "url": "zappr://wbd/discovery",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://d1941a53blim0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-75c5ipmzpicfd/Discovery_IT.m3u8"
+            },
             "epg": {
                 "source": "blue",
                 "id": "124"
@@ -464,7 +472,11 @@
             "name": "Giallo",
             "hd": true,
             "type": "hls",
-            "url": "https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8",
+            "url": "zappr://wbd/giallo",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8"
+            },
             "epg": {
                 "source": "blue",
                 "id": "191"
@@ -786,14 +798,18 @@
             "name": "Discovery Turbo",
             "hd": true,
             "type": "hls",
-            "url": "https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8",
+            "url": "zappr://wbd/discoveryturbo",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8"
+            },
             "epg": {
                 "source": "blue",
                 "id": "1384"
             },
             "manualRestart": {
                 "source": "wbd",
-                "id": "motortrend"
+                "id": "discoveryturbo"
             }
         },
         {
