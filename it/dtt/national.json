@@ -1948,8 +1948,8 @@
                 "sublcn": 9,
                 "logo": "radiopooh",
                 "name": "Radio Pooh",
-                "type": "dash",
-                "url": "https://pooh.fluid.stream/RadioPooh_hbb/livestream/manifest.mpd"
+                "type": "hls",
+                "url": "https://pooh.fluid.stream/RadioPoohTV/livestream/playlist.m3u8"
             },
             {
                 "sublcn": 10,
@@ -2564,8 +2564,8 @@
                 "sublcn": 2,
                 "logo": "radiopooh",
                 "name": "Radio Pooh",
-                "type": "dash",
-                "url": "https://pooh.fluid.stream/RadioPooh_hbb/livestream/manifest.mpd"
+                "type": "hls",
+                "url": "https://pooh.fluid.stream/RadioPoohTV/livestream/playlist.m3u8"
             },
             {
                 "sublcn": 3,
@@ -3020,8 +3020,8 @@
                 "sublcn": 6,
                 "logo": "radiopooh",
                 "name": "Radio Pooh",
-                "type": "dash",
-                "url": "https://pooh.fluid.stream/RadioPooh_hbb/livestream/manifest.mpd"
+                "type": "hls",
+                "url": "https://pooh.fluid.stream/RadioPoohTV/livestream/playlist.m3u8"
             },
             {
                 "sublcn": 7,
