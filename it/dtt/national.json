@@ -793,7 +793,31 @@
                 "source": "mediaset",
                 "id": "KQ"
             },
-            "geoblock": true
+            "geoblock": true,
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "grandefratelloregia1",
+                "name": "Grande Fratello Regia 1",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-b7/b7-clr.isml/index.m3u8"
+            },
+            {
+                "sublcn": 2,
+                "logo": "grandefratelloregia2",
+                "name": "Grande Fratello Regia 2",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-b8/b8-clr.isml/index.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "grandefratellounorafa",
+                "name": "Grande Fratello Un'ora fa",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-b9/b9-clr.isml/index.m3u8"
+            }]
         },
         {
             "lcn": 56,
@@ -1620,21 +1644,21 @@
                 "logo": "radiovacri",
                 "name": "Radio Vacri",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/radiovacri/playlist.m3u8"
             },
             {
                 "sublcn": 5,
                 "logo": "ffmotorsport",
                 "name": "FF Motorsport",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/ffmotorsport/playlist.m3u8"
             },
             {
                 "sublcn": 6,
                 "logo": "telecomunicare",
                 "name": "Telecomunicare",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/telecomunicare/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/telecomunicare/playlist.m3u8"
             }]
         },
         {
@@ -1891,7 +1915,7 @@
                 "logo": "momentotv",
                 "name": "Momento TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/momentotv/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/momentotv/playlist.m3u8"
             },
             {
                 "sublcn": 2,
@@ -1914,35 +1938,35 @@
                 "logo": "ffmotorsport",
                 "name": "FF Motorsport",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/ffmotorsport/playlist.m3u8"
             },
             {
                 "sublcn": 5,
                 "logo": "telecomunicare",
                 "name": "Telecomunicare",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/telecomunicare/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/telecomunicare/playlist.m3u8"
             },
             {
                 "sublcn": 6,
                 "logo": "radiovacri",
                 "name": "Radio Vacri",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/radiovacri/playlist.m3u8"
             },
             {
                 "sublcn": 7,
                 "logo": "mitoitalia",
                 "name": "Mito Italia TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/mito/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/mito/playlist.m3u8"
             },
             {
                 "sublcn": 8,
                 "logo": "tuttotv",
                 "name": "Tutto TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/tuttotv/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/tuttotv/playlist.m3u8"
             },
             {
                 "sublcn": 9,
@@ -1957,7 +1981,7 @@
                 "name": "Ottcast 4K Ultra HD",
                 "uhd": true,
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/demo4k/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/demo4k/playlist.m3u8"
             }]
         },
         {
@@ -2572,42 +2596,42 @@
                 "logo": "ffmotorsport",
                 "name": "FF Motorsport",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/ffmotorsport/playlist.m3u8"
             },
             {
                 "sublcn": 4,
                 "logo": "momentotv",
                 "name": "Momento TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/momentotv/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/momentotv/playlist.m3u8"
             },
             {
                 "sublcn": 5,
                 "logo": "telecomunicare",
                 "name": "Telecomunicare",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/telecomunicare/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/telecomunicare/playlist.m3u8"
             },
             {
                 "sublcn": 6,
                 "logo": "radiovacri",
                 "name": "Radio Vacri",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/radiovacri/playlist.m3u8"
             },
             {
                 "sublcn": 7,
                 "logo": "mitoitalia",
                 "name": "Mito Italia TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/mito/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/mito/playlist.m3u8"
             },
             {
                 "sublcn": 8,
                 "logo": "paradisotv",
                 "name": "Paradiso TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/paradisotv/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/paradisotv/playlist.m3u8"
             },
             {
                 "sublcn": 9,
@@ -2622,14 +2646,14 @@
                 "logo": "studiomediaefilms",
                 "name": "Studio Media & Films",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/studiomf/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/studiomf/playlist.m3u8"
             },
             {
                 "sublcn": 11,
                 "logo": "globetv",
                 "name": "Globe TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/globetv/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/globetv/playlist.m3u8"
             },
             {
                 "sublcn": 12,
@@ -2993,28 +3017,28 @@
                 "logo": "italiafelixtv",
                 "name": "Italia Felix TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/italiafelix/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/italiafelix/playlist.m3u8"
             },
             {
                 "sublcn": 3,
                 "logo": "ffmotorsport",
                 "name": "FF Motorsport",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/ffmotorsport/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/ffmotorsport/playlist.m3u8"
             },
             {
                 "sublcn": 4,
                 "logo": "momentotv",
                 "name": "Momento TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/momentotv/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/momentotv/playlist.m3u8"
             },
             {
                 "sublcn": 5,
                 "logo": "telecomunicare",
                 "name": "Telecomunicare",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/telecomunicare/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/telecomunicare/playlist.m3u8"
             },
             {
                 "sublcn": 6,
@@ -3063,7 +3087,7 @@
                 "logo": "napoletaninelmondo",
                 "name": "Napoletani nel Mondo",
                 "type": "hls",
-                "url": "https://host2.hbbtv.me:28443/cmaf/napoletaninelmondo/playlist.m3u8"
+                "url": "https://host2.hbbtv.me:28443/hls/napoletaninelmondo/playlist.m3u8"
             },
             {
                 "sublcn": 13,
@@ -3098,14 +3122,14 @@
                 "logo": "valoreimpresatv",
                 "name": "Valore Impresa TV",
                 "type": "hls",
-                "url": "https://host2.hbbtv.me:28443/cmaf/vimpresa/playlist.m3u8"
+                "url": "https://host2.hbbtv.me:28443/hls/vimpresa/playlist.m3u8"
             },
             {
                 "sublcn": 18,
                 "logo": "pianetaimprese",
                 "name": "Pianeta Imprese TV",
                 "type": "hls",
-                "url": "https://host2.hbbtv.me:28443/cmaf/pimprese/index.m3u8"
+                "url": "https://host2.hbbtv.me:28443/hls/pimprese/index.m3u8"
             },
             {
                 "sublcn": 19,
@@ -3120,28 +3144,28 @@
                 "logo": "mitoitalia",
                 "name": "Mito Italia TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/mito/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/mito/playlist.m3u8"
             },
             {
                 "sublcn": 21,
                 "logo": "contrastotv",
                 "name": "Contrasto TV",
                 "type": "hls",
-                "url": "https://host2.hbbtv.me:28443/cmaf/contrastotv/index.m3u8"
+                "url": "https://host2.hbbtv.me:28443/hls/contrastotv/index.m3u8"
             },
             {
                 "sublcn": 22,
                 "logo": "caprievents",
                 "name": "Capri.Events",
                 "type": "hls",
-                "url": "https://host2.hbbtv.me:28443/cmaf/caprievents/index.m3u8"
+                "url": "https://host2.hbbtv.me:28443/hls/caprievents/index.m3u8"
             },
             {
                 "sublcn": 23,
                 "logo": "itacatv",
                 "name": "Itaca TV",
                 "type": "hls",
-                "url": "https://host2.hbbtv.me:28443/cmaf/itacatv/index.m3u8"
+                "url": "https://host2.hbbtv.me:28443/hls/itacatv/index.m3u8"
             },
             {
                 "sublcn": 24,
@@ -3183,14 +3207,21 @@
                 "logo": "radiovacri",
                 "name": "Radio Vacri",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/radiovacri/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/radiovacri/playlist.m3u8"
+            },
+            {
+                "sublcn": 30,
+                "logo": "animechannel",
+                "name": "Anime Channel",
+                "type": "hls",
+                "url": "https://host2.hbbtv.me:28443/hls/animechannel/playlist.m3u8"
             },
             {
                 "sublcn": 31,
                 "logo": "tuttotv",
                 "name": "Tutto TV",
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/tuttotv/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/tuttotv/playlist.m3u8"
             },
             {
                 "sublcn": 32,
@@ -3198,7 +3229,7 @@
                 "name": "Ottcast 4K Ultra HD",
                 "uhd": true,
                 "type": "hls",
-                "url": "https://host1.momentotv.live:28443/cmaf/demo4k/playlist.m3u8"
+                "url": "https://host1.momentotv.live:28443/hls/demo4k/playlist.m3u8"
             }]
         },
         {
