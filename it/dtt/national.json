@@ -187,7 +187,7 @@
             "name": "NOVE",
             "hd": true,
             "type": "hls",
-            "url": "https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8",
+            "url": "zappr://wbd/3",
             "epg": {
                 "source": "blue",
                 "id": "118"
@@ -404,7 +404,7 @@
             "name": "Real Time",
             "hd": true,
             "type": "hls",
-            "url": "https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8",
+            "url": "zappr://wbd/2",
             "epg": {
                 "source": "blue",
                 "id": "346"
@@ -431,7 +431,7 @@
             "name": "Food Network",
             "hd": true,
             "type": "hls",
-            "url": "https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8",
+            "url": "zappr://wbd/6",
             "epg": {
                 "source": "blue",
                 "id": "1348"
@@ -499,7 +499,7 @@
             "name": "Discovery",
             "hd": true,
             "type": "hls",
-            "url": "https://d1941a53blim0r.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-75c5ipmzpicfd/Discovery_IT.m3u8",
+            "url": "zappr://wbd/12",
             "epg": {
                 "source": "blue",
                 "id": "124"
@@ -515,7 +515,7 @@
             "name": "Giallo",
             "hd": true,
             "type": "hls",
-            "url": "https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8",
+            "url": "zappr://wbd/27",
             "epg": {
                 "source": "blue",
                 "id": "191"
@@ -737,7 +737,7 @@
             "name": "DMAX",
             "hd": true,
             "type": "hls",
-            "url": "https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8",
+            "url": "zappr://wbd/4",
             "epg": {
                 "source": "blue",
                 "id": "137"
@@ -825,7 +825,7 @@
             "name": "HGTV - Home & Garden",
             "hd": true,
             "type": "hls",
-            "url": "https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8",
+            "url": "zappr://wbd/13",
             "epg": {
                 "source": "blue",
                 "id": "1646"
@@ -881,7 +881,7 @@
             "name": "Discovery Turbo",
             "hd": true,
             "type": "hls",
-            "url": "https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8",
+            "url": "zappr://wbd/11",
             "epg": {
                 "source": "blue",
                 "id": "1384"
