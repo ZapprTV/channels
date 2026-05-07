@@ -149,7 +149,7 @@
                         }]
                     },
                     "licensedetails": {
-                        "type": "string",
+                        "type": ["object", "string"],
                         "title": "Additional DRM/licensing parameters"
                     },
                     "hbbtvapp": {
