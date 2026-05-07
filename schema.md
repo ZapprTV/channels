@@ -317,7 +317,7 @@
       <th>Title</th>
       <td colspan="2">Additional DRM/licensing parameters</td>
     </tr>
-    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr><th>Type</th><td colspan="2">[object, string]</td></tr>
     
   </tbody>
 </table>
@@ -795,7 +795,7 @@
       <th>Title</th>
       <td colspan="2">Additional DRM/licensing parameters</td>
     </tr>
-    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr><th>Type</th><td colspan="2">[object, string]</td></tr>
     
   </tbody>
 </table>
@@ -1245,7 +1245,7 @@
       <th>Title</th>
       <td colspan="2">Additional DRM/licensing parameters</td>
     </tr>
-    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr><th>Type</th><td colspan="2">[object, string]</td></tr>
     
   </tbody>
 </table>
@@ -1660,7 +1660,7 @@
       <th>Title</th>
       <td colspan="2">Additional DRM/licensing parameters</td>
     </tr>
-    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr><th>Type</th><td colspan="2">[object, string]</td></tr>
     
   </tbody>
 </table>
