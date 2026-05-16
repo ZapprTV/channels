@@ -7,20 +7,14 @@
             "name": "Rai 1",
             "hd": true,
             "type": "hls",
-            "url": "https://raiuno1-live.akamaized.net/hls/live/598308/raiuno1/raiuno1/playlist_ma_1800-5000.m3u8",
-            "license": "rai-akamai",
+            "url": "https://rai.zappr.stream/rai1.m3u8",
             "epg": {
                 "source": "raiplay",
                 "id": "rai-1"
             },
-            "manualRestart": {
-                "source": "rai",
-                "id": "rai-1"
-            },
             "fallback": {
-                "type": "iframe",
-                "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=2606803&autoplay=true&muted=false",
-                "cssfix": "raiparlamento-embed"
+                "type": "hls",
+                "url": "https://dash2.antik.sk/live/test_rai_uno_tizen/playlist.m3u8"
             },
             "geoblock": {
                 "type": "hls",
