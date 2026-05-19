@@ -24,7 +24,7 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://netplus.zappr.stream/rai1.m3u8"
+                "url": "https://lb.adriatelekom.com/Rai1/index.fmp4.m3u8"
             }
         },
         {
@@ -50,7 +50,7 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://netplus.zappr.stream/rai2.m3u8"
+                "url": "https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8"
             }
         },
         {
@@ -76,7 +76,7 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://netplus.zappr.stream/rai3.m3u8"
+                "url": "https://lb.adriatelekom.com/Rai3/index.m3u8"
             }
         },
         {
@@ -95,8 +95,13 @@
                 "id": "R4"
             },
             "geoblock": {
-                "type": "hls",
-                "url": "https://netplus.zappr.stream/rete4.m3u8"
+                "type": "dash",
+                "url": "https://wp7-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09242/stb-dash-fhd-avc/SV09242.mpd?clearkeyPlayer.audioLanguage=it",
+                "license": "clearkey",
+                "licensedetails": {
+                    "2dc20e5397e54016999b9ca4fc6fbb74": "05c9cbdaeaed4f7ff6f0db978c6aafe9",
+                    "502829a618a940febb19235cda341401": "f1e1f9084914394c588c387bd58d638f"
+                }
             }
         },
         {
@@ -115,8 +120,10 @@
                 "id": "C5"
             },
             "geoblock": {
-                "type": "hls",
-                "url": "https://netplus.zappr.stream/canale5.m3u8"
+                "type": "dash",
+                "url": "https://wp10-s-anp33343334-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09241/stb-dash-fhd-avc/SV09241.mpd?clearkeyPlayer.audioLanguage=it",
+                "license": "clearkey",
+                "licensedetails": "66425e277179392bbcf9292897eb6ffe:735119fd1907a0e60adeac2c0469cf0b"
             }
         },
         {
@@ -135,8 +142,10 @@
                 "id": "I1"
             },
             "geoblock": {
-                "type": "hls",
-                "url": "https://netplus.zappr.stream/italia1.m3u8"
+                "type": "dash",
+                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(italia1)/manifest.mpd",
+                "license": "clearkey",
+                "licensedetails": "f26e2645147b444f9e116aac64d4e5d2:4f40f294c471b5b2724290aa57cd864f"
             }
         },
         {
@@ -618,14 +627,7 @@
                 "source": "raiplay",
                 "id": "rai-gulp"
             },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://rai.zappr.stream/raigulp.m3u8"
-            },
-            "fallback": {
-                "type": "hls",
-                "url": "https://rai.zappr.stream/raigulp.m3u8"
-            }
+            "geoblock": true
         },
         {
             "lcn": 43,
@@ -766,7 +768,10 @@
                 "source": "blue",
                 "id": "1287"
             },
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://ilglobotv-live.akamaized.net/channels/TGCOM24/Live.m3u8"
+            }
         },
         {
             "lcn": 52,
@@ -810,7 +815,7 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://netplus.zappr.stream/raistoria.m3u8"
+                "url": "https://lb.adriatelekom.com/RaiStoria/index.m3u8"
             },
             "fallback": {
                 "type": "iframe",
@@ -892,7 +897,7 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://netplus.zappr.stream/raiscuola.m3u8"
+                "url": "https://ilglobotv-live.akamaized.net/channels/RAIScuola/Live.m3u8"
             },
             "fallback": {
                 "type": "iframe",
