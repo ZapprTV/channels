@@ -80,75 +80,6 @@
             }
         },
         {
-            "lcn": 4,
-            "logo": "rete4.svg",
-            "name": "Rete 4",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "348"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "R4"
-            },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://wp7-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09242/stb-dash-fhd-avc/SV09242.mpd?clearkeyPlayer.audioLanguage=it",
-                "license": "clearkey",
-                "licensedetails": {
-                    "2dc20e5397e54016999b9ca4fc6fbb74": "05c9cbdaeaed4f7ff6f0db978c6aafe9",
-                    "502829a618a940febb19235cda341401": "f1e1f9084914394c588c387bd58d638f"
-                }
-            }
-        },
-        {
-            "lcn": 5,
-            "logo": "canale5.svg",
-            "name": "Canale 5",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "79"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "C5"
-            },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://wp10-s-anp33343334-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09241/stb-dash-fhd-avc/SV09241.mpd?clearkeyPlayer.audioLanguage=it",
-                "license": "clearkey",
-                "licensedetails": "66425e277179392bbcf9292897eb6ffe:735119fd1907a0e60adeac2c0469cf0b"
-            }
-        },
-        {
-            "lcn": 6,
-            "logo": "italia1.svg",
-            "name": "Italia 1",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "215"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "I1"
-            },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(italia1)/manifest.mpd",
-                "license": "clearkey",
-                "licensedetails": "f26e2645147b444f9e116aac64d4e5d2:4f40f294c471b5b2724290aa57cd864f"
-            }
-        },
-        {
             "lcn": 7,
             "logo": "la7.svg",
             "name": "LA7",
@@ -214,23 +145,6 @@
             }
         },
         {
-            "lcn": 20,
-            "logo": "20.svg",
-            "name": "20 Mediaset",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "1379"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "LB"
-            },
-            "geoblock": true
-        },
-        {
             "lcn": 21,
             "logo": "rai4.svg",
             "name": "Rai 4",
@@ -250,23 +164,6 @@
                 "type": "iframe",
                 "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746966&autoplay=true&muted=false",
                 "cssfix": "raiparlamento-embed"
-            },
-            "geoblock": true
-        },
-        {
-            "lcn": 22,
-            "logo": "iris.svg",
-            "name": "Iris",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "214"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "KI"
             },
             "geoblock": true
         },
@@ -351,23 +248,6 @@
             }
         },
         {
-            "lcn": 27,
-            "logo": "twentyseven.svg",
-            "name": "TwentySeven",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "1948"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "TS"
-            },
-            "geoblock": true
-        },
-        {
             "lcn": 28,
             "logo": "tv2000.svg",
             "name": "TV2000",
@@ -396,23 +276,6 @@
                 "source": "la7",
                 "id": "la7cinema"
             }
-        },
-        {
-            "lcn": 30,
-            "logo": "la5.svg",
-            "name": "La5",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "243"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "KA"
-            },
-            "geoblock": true
         },
         {
             "lcn": 31,
@@ -464,46 +327,6 @@
             }
         },
         {
-            "lcn": 34,
-            "logo": "cine34.svg",
-            "name": "Cine34",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "1665"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "B6"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/92.m3u8"
-            }
-        },
-        {
-            "lcn": 35,
-            "logo": "focus.svg",
-            "name": "Focus",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "1346"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "FU"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/89.m3u8"
-            }
-        },
-        {
             "lcn": 36,
             "logo": "rtl.svg",
             "name": "RTL 102.5",
@@ -551,47 +374,6 @@
             "epg": {
                 "source": "blue",
                 "id": "191"
-            }
-        },
-        {
-            "lcn": 39,
-            "logo": "topcrime.svg",
-            "name": "Top Crime",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "613"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "LT"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/86.m3u8"
-            }
-        },
-        {
-            "lcn": 40,
-            "logo": "boing.svg",
-            "name": "Boing",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "51"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "KB"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://feapi.turner.streamity.com/api/v1/Config/getConfig?platformId=ae56bf6a-c2b4-4b66-8330-19283f646d7e",
-                "api": "cloudflare"
             }
         },
         {
@@ -670,39 +452,6 @@
             }
         },
         {
-            "lcn": 45,
-            "logo": "boingplus.svg",
-            "name": "Boing Plus",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/101.m3u8",
-            "cssfix": "letterbox",
-            "epg": {
-                "source": "uvotv",
-                "id": "Boing Plus_it"
-            }
-        },
-        {
-            "lcn": 46,
-            "logo": "cartoonito.svg",
-            "name": "Cartoonito",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "84"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "LA"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://feapi.turner.streamity.com/api/v1/Config/getConfig?platformId=95e33995-d7ed-44cb-be3b-97bc6df93977",
-                "api": "cloudflare"
-            }
-        },
-        {
             "lcn": 47,
             "logo": "super.svg",
             "name": "Super!",
@@ -726,23 +475,6 @@
             }
         },
         {
-            "lcn": 49,
-            "logo": "italia2.svg",
-            "name": "Italia 2",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "216"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "I2"
-            },
-            "geoblock": true
-        },
-        {
             "lcn": 50,
             "logo": "skytg24.svg",
             "name": "Sky TG24",
@@ -755,22 +487,6 @@
             "geoblock": {
                 "type": "hls",
                 "url": "https://uvotv.zappr.stream/293.m3u8"
-            }
-        },
-        {
-            "lcn": 51,
-            "logo": "tgcom24.svg",
-            "name": "TGcom24",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "1287"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/TGCOM24/Live.m3u8"
             }
         },
         {
@@ -822,47 +538,6 @@
                 "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746990&autoplay=true&muted=false",
                 "cssfix": "raiparlamento-embed"
             }
-        },
-        {
-            "lcn": 55,
-            "logo": "mediasetextra.svg",
-            "name": "Mediaset Extra",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8",
-            "epg": {
-                "source": "blue",
-                "id": "257"
-            },
-            "manualRestart": {
-                "source": "mediaset",
-                "id": "KQ"
-            },
-            "geoblock": true,
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "grandefratelloregia1",
-                "name": "Grande Fratello Regia 1",
-                "hd": true,
-                "type": "hls",
-                "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-b7/b7-clr.isml/index.m3u8"
-            },
-            {
-                "sublcn": 2,
-                "logo": "grandefratelloregia2",
-                "name": "Grande Fratello Regia 2",
-                "hd": true,
-                "type": "hls",
-                "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-b8/b8-clr.isml/index.m3u8"
-            },
-            {
-                "sublcn": 3,
-                "logo": "grandefratellounorafa",
-                "name": "Grande Fratello Un'ora fa",
-                "hd": true,
-                "type": "hls",
-                "url": "https://live02-col.msf.cdn.mediaset.net/live/ch-b9/b9-clr.isml/index.m3u8"
-            }]
         },
         {
             "lcn": 56,
@@ -1079,30 +754,6 @@
             "epg": {
                 "source": "blue",
                 "id": "16"
-            }
-        },
-        {
-            "lcn": 66,
-            "logo": "radio105.svg",
-            "name": "Radio 105 TV",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8",
-            "epg": {
-                "source": "mediaset",
-                "id": "EC"
-            }
-        },
-        {
-            "lcn": 67,
-            "logo": "r101.svg",
-            "name": "R101 TV",
-            "hd": true,
-            "type": "hls",
-            "url": "https://live02-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/index.m3u8",
-            "epg": {
-                "source": "mediaset",
-                "id": "ER"
             }
         },
         {
@@ -3710,54 +3361,6 @@
             "radio": true,
             "type": "hls",
             "url": "https://radioitaliasmi.akamaized.net/hls/live/2093120/RISMI/master.m3u8"
-        },
-        {
-            "lcn": 771,
-            "logo": "r101.svg",
-            "name": "R101",
-            "type": "audio",
-            "url": "https://icecast.unitedradio.it/r101"
-        },
-        {
-            "lcn": 772,
-            "logo": "radiomontecarlo",
-            "name": "Radio Monte Carlo",
-            "type": "audio",
-            "url": "https://icy.unitedradio.it/RMC.mp3",
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "radiomontecarlo",
-                "name": "Radio Monte Carlo TV",
-                "hd": true,
-                "type": "hls",
-                "url": "https://live02-col.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8"
-            }]
-        },
-        {
-            "lcn": 785,
-            "logo": "radio105.svg",
-            "name": "Radio 105",
-            "type": "audio",
-            "url": "https://icecast.unitedradio.it/Radio105.mp3"
-        },
-        {
-            "lcn": 786,
-            "logo": "virginradio.svg",
-            "name": "Virgin Radio",
-            "type": "audio",
-            "url": "https://icecast.unitedradio.it/Virgin.mp3",
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "virginradiotv",
-                "name": "Virgin Radio TV",
-                "hd": true,
-                "type": "hls",
-                "url": "https://live02-col.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8",
-                "epg": {
-                    "source": "mediaset",
-                    "id": "EW"
-                }
-            }]
         },
         {
             "lcn": 787,
