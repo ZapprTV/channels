@@ -2,57 +2,6 @@
     "$schema": "../../schema.json",
     "channels": [
         {
-            "lcn": 1,
-            "logo": "rai1.svg",
-            "name": "Rai 1",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=2606803&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-1"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://lb.adriatelekom.com/Rai1/index.fmp4.m3u8"
-            }
-        },
-        {
-            "lcn": 2,
-            "logo": "rai2.svg",
-            "name": "Rai 2",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=308718&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-2"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8"
-            }
-        },
-        {
-            "lcn": 103,
-            "logo": "rai3.svg",
-            "name": "Rai 3",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=308709&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-3"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://lb.adriatelekom.com/Rai3/index.m3u8"
-            }
-        },
-        {
             "lcn": 7,
             "logo": "la7.svg",
             "name": "LA7",
@@ -116,62 +65,6 @@
                 "source": "blue",
                 "id": "118"
             }
-        },
-        {
-            "lcn": 21,
-            "logo": "rai4.svg",
-            "name": "Rai 4",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746966&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-4"
-            },
-            "geoblock": true
-        },
-        {
-            "lcn": 23,
-            "logo": "rai5.svg",
-            "name": "Rai 5",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=395276&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-5"
-            },
-            "geoblock": true
-        },
-        {
-            "lcn": 24,
-            "logo": "raimovie.svg",
-            "name": "Rai Movie",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=747002&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-movie"
-            },
-            "geoblock": true
-        },
-        {
-            "lcn": 25,
-            "logo": "raipremium.svg",
-            "name": "Rai Premium",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746992&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-premium"
-            },
-            "geoblock": true
         },
         {
             "lcn": 26,
@@ -339,34 +232,6 @@
             }
         },
         {
-            "lcn": 42,
-            "logo": "raigulp.svg",
-            "name": "Rai Gulp",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746953&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-gulp"
-            },
-            "geoblock": true
-        },
-        {
-            "lcn": 43,
-            "logo": "raiyoyo.svg",
-            "name": "Rai Yoyo",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746899&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-yoyo"
-            },
-            "geoblock": true
-        },
-        {
             "lcn": 44,
             "logo": "frisbee",
             "name": "Frisbee",
@@ -396,18 +261,6 @@
             "epg": {
                 "source": "blue",
                 "id": "412"
-            }
-        },
-        {
-            "lcn": 48,
-            "logo": "rainews24.svg",
-            "name": "Rai News 24",
-            "hd": true,
-            "type": "hls",
-            "url": "https://d27wu3gni4gipu.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7i6bsjw4lfg88/ABCD/Rai/RaiNews24_IT/rainews1/playlist.m3u8",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-news-24"
             }
         },
         {
@@ -454,23 +307,6 @@
             "geoblock": true
         },
         {
-            "lcn": 54,
-            "logo": "raistoria.svg",
-            "name": "Rai Storia",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=746990&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-storia"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://lb.adriatelekom.com/RaiStoria/index.m3u8"
-            }
-        },
-        {
             "lcn": 56,
             "logo": "hgtv.svg",
             "name": "HGTV - Home & Garden",
@@ -487,36 +323,6 @@
             "epg": {
                 "source": "blue",
                 "id": "1646"
-            }
-        },
-        {
-            "lcn": 57,
-            "logo": "raiscuola.svg",
-            "name": "Rai Scuola",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=747011&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-scuola"
-            },
-            "geoblock": {
-                "type": "hls",
-                "url": "https://ilglobotv-live.akamaized.net/channels/RAIScuola/Live.m3u8"
-            }
-        },
-        {
-            "lcn": 58,
-            "logo": "raisport.svg",
-            "name": "Rai Sport",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=358025&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-sport"
             }
         },
         {
@@ -821,16 +627,6 @@
                 "url": "https://uvotv.zappr.stream/32.m3u8",
                 "cssfix": "letterbox"
             }
-        },
-        {
-            "lcn": 101,
-            "logo": "rai4k.svg",
-            "name": "Rai 4K",
-            "uhd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=4465258&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "geoblock": true
         },
         {
             "lcn": 121,
@@ -1367,37 +1163,6 @@
                 "type": "hls",
                 "url": "https://5db313b643fd8.streamlock.net/quants/quants/playlist.m3u8"
             }]
-        },
-        {
-            "lcn": 201,
-            "logo": "raiplay.svg",
-            "name": "RaiPlay",
-            "hbbtvapp": true,
-            "type": "iframe",
-            "url": "https://www.raiplay.it/hbbtv/RaiPlay2020/index.html"
-        },
-        {
-            "lcn": 202,
-            "logo": "rairadio2.svg",
-            "name": "Rai Radio 2 Visual",
-            "hd": true,
-            "type": "iframe",
-            "url": "https://www.rai.it/dl/RaiParlamento/diretta.html?videoURL=https://mediapolis.rai.it/relinker/relinkerServlet.htm&cont=5674080&autoplay=true&muted=false",
-            "cssfix": "raiparlamento-embed",
-            "epg": {
-                "source": "raiplay",
-                "id": "rai-radio-2"
-            },
-            "geoblock": true
-        },
-        {
-            "lcn": 203,
-            "logo": "raiplaysound.svg",
-            "name": "RaiPlay Sound",
-            "hbbtvapp": true,
-            "type": "iframe",
-            "url": "https://www.raiplay.it/hbbtv/RaiPlaySound/index.html",
-            "cssfix": "raiplay-sound"
         },
         {
             "lcn": 220,
@@ -2954,146 +2719,6 @@
             "epg": {
                 "source": "blue",
                 "id": "1719"
-            }
-        },
-        {
-            "lcn": 701,
-            "logo": "rairadio1.svg",
-            "name": "Rai Radio 1",
-            "type": "hls",
-            "url": "https://radiounoita-live.akamaized.net/hls/live/2032820/radiounoita/radiounoita/radio1_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "rai-radio-1"
-            }
-        },
-        {
-            "lcn": 702,
-            "logo": "rairadio2.svg",
-            "name": "Rai Radio 2",
-            "type": "hls",
-            "url": "https://radiodue-live.akamaized.net/hls/live/2032592/radiodue/radiodue/radio2_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "rai-radio-2"
-            }
-        },
-        {
-            "lcn": 703,
-            "logo": "rairadio3.svg",
-            "name": "Rai Radio 3",
-            "type": "hls",
-            "url": "https://radiotre-live.akamaized.net/hls/live/2032594/radiotre/radiotre/radio3_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "rai-radio-3"
-            }
-        },
-        {
-            "lcn": 704,
-            "logo": "raigrparlamento.svg",
-            "name": "Rai GR Parlamento",
-            "type": "hls",
-            "url": "https://radioparlamento-live.akamaized.net/hls/live/2032597/radioparlamento/radioparlamento/radioparlamento_256/chunklist.m3u8",
-            "radio": true
-        },
-        {
-            "lcn": 705,
-            "logo": "raiisoradio.svg",
-            "name": "Rai Isoradio",
-            "type": "hls",
-            "url": "https://isoradioita-live.akamaized.net/hls/live/2032601/isoradioita/isoradioita/isoradioita_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "rai-isoradio"
-            }
-        },
-        {
-            "lcn": 706,
-            "logo": "rairadio3classica.svg",
-            "name": "Rai Radio 3 Classica",
-            "type": "hls",
-            "url": "https://radiotreclassica-live.akamaized.net/hls/live/2032595/radiotreclassica/radiotreclassica/radio3classica_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "rai-radio-3-classica"
-            }
-        },
-        {
-            "lcn": 707,
-            "logo": "rairadiokids.svg",
-            "name": "Rai Radio Kids",
-            "type": "hls",
-            "url": "https://radiokids-live.akamaized.net/hls/live/2032600/radiokids/radiokids/radiokids_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "rai-radio-kids"
-            }
-        },
-        {
-            "lcn": 708,
-            "logo": "rairadiolivenapoli.svg",
-            "name": "Rai Radio Live Napoli",
-            "type": "hls",
-            "url": "https://radiolive-live.akamaized.net/hls/live/2032599/radiolive/radiolive/radiolive_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "rai-radio-live-napoli"
-            }
-        },
-        {
-            "lcn": 709,
-            "logo": "rairadiotechetè.svg",
-            "name": "Rai Radio Techetè",
-            "type": "hls",
-            "url": "https://radiotechete-live.akamaized.net/hls/live/2032598/radiotechete/radiotechete/radiotechete_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "rai-radio-techete"
-            }
-        },
-        {
-            "lcn": 710,
-            "logo": "rairadiotuttaitaliana.svg",
-            "name": "Rai Radio Tutta Italiana",
-            "type": "hls",
-            "url": "https://radiotuttaitaliana-live.akamaized.net/hls/live/2032596/radiotuttaitaliana/radiotuttaitaliana/radiotuttaitaliana_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "rai-radio-tutta-italiana"
-            }
-        },
-        {
-            "lcn": 711,
-            "logo": "rairadio1sport.svg",
-            "name": "Rai Radio 1 Sport",
-            "type": "hls",
-            "url": "https://radiounosportita-live.akamaized.net/hls/live/2032590/radiounosportita/radiounosportita/radio1sportita_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "rai-radio-1-sport"
-            }
-        },
-        {
-            "lcn": 712,
-            "logo": "nonameradio.svg",
-            "name": "No Name Radio",
-            "type": "hls",
-            "url": "https://radiodueindie-live.akamaized.net/hls/live/2032593/radiodueindie/radiodueindie/radio2indie_256/chunklist.m3u8",
-            "radio": true,
-            "epg": {
-                "source": "raiplaysound",
-                "id": "no-name-radio"
             }
         },
         {
