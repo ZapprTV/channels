@@ -1,14 +1,14 @@
 name: ⚠️ Problemi canale (IT)
 description: Per canali visibili ma problematici. Non per i canali che danno errore.
 labels: 
-  - Problem
+  - Problema
 body:
   - type: markdown
     attributes:
       value: |
         Grazie per esserti preso del tempo per migliorare Zappr inviandoci questa segnalazione. Ti preghiamo di inserire una descrizione sintetica del problema qui sopra.
 
-        **Prima di compilare gli altri campi, però,** controlla che nessun altro abbia già segnalato lo stesso problema. [Vai sulla scheda Issues](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3AProblem) e cerca il nome del canale che vuoi segnalare: se non trovi una issue con il tuo stesso problema, continua a compilare questo modulo.
+        **Prima di compilare gli altri campi, però,** controlla che nessun altro abbia già segnalato lo stesso problema. [Vai sulla scheda Issues](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3AProblema) e cerca il nome del canale che vuoi segnalare: se non trovi una issue con il tuo stesso problema, continua a compilare questo modulo.
 
         **Inoltre, ti ricordiamo che questo form è solo per i canali che danno problemi ma che non danno errore. Se appare una finestra con il titolo "Errore canale" quando provi a riprodurre il canale che vuoi segnalare, questo è il form sbagliato.**
   - type: input

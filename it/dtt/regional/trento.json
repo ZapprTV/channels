@@ -454,7 +454,7 @@
             "name": "ORF 1",
             "hd": true,
             "type": "hls",
-            "url": "https://netplus.zappr.stream/orf1.m3u8",
+            "url": "https://lb.adriatelekom.com/ORF1/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "303"
@@ -465,7 +465,14 @@
                 "name": "ORF 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://netplus.zappr.stream/orf2.m3u8",
+                "url": "https://fl-003.live.p7s1video.net/378e5cf8/t_003/orf2-at/cenc-default.m3u8",
+                "license": "clearkey",
+                "licensedetails": {
+                    "d481837e9869ef9f236b2e7891ff460e": "c4cca644beeb655996dd7aaac952768f", 
+                    "3cd7120f4ca8588c88d0562e68abaceb": "0c1af5a2bb292a6fe805e908366f7fcd", 
+                    "45b954c27d9d59b79f48509ebf2f71cc": "70f1d413f580b67ccd048e611712f09b", 
+                    "035c4f9461b45e149aebfb26b952b848": "2609d8d7fbf0fa51b9e78843ddb389dd"
+                },
                 "epg": {
                     "source": "blue",
                     "id": "302"
