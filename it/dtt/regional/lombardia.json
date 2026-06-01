@@ -61,7 +61,7 @@
             "name": "Espansione TV",
             "hd": true,
             "type": "hls",
-            "url": "https://srvx1.selftv.video/espansione/smil:live/playlist.m3u8",
+            "url": "https://b53136fc0d724da78cac7754d601393d.msvdn.net/live/S13070333/lgUidxJCmpO3/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1645"
@@ -398,9 +398,8 @@
             "lcn": 98,
             "logo": "orobikchannel98",
             "name": "Orobik Channel",
-            "subtitle": "(TeleClusone)",
             "type": "twitch",
-            "url": "orobiktv2025",
+            "url": "scbtorobik",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "radioloco",
@@ -408,13 +407,6 @@
                 "type": "audio",
                 "url": "https://s32.myradiostream.com/:17878/listen.mp3"
             }]
-        },
-        {
-            "lcn": 111,
-            "logo": "mylivignotv",
-            "name": "My Livigno TV",
-            "type": "youtube",
-            "url": "UCyGR8utQqyiEWSoXPFG_kIg"
         },
         {
             "lcn": 112,
@@ -463,9 +455,8 @@
             "lcn": 114,
             "logo": "televallassina",
             "name": "Televallassina",
-            "hd": true,
-            "type": "twitch",
-            "url": "televallassina"
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/tvstelevallassina/tvstelevallassina/playlist.m3u8"
         },
         {
             "lcn": 115,
@@ -489,13 +480,6 @@
             "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/playlist.m3u8"
         },
         {
-            "lcn": 177,
-            "logo": "mylivignotvnews",
-            "name": "My Livigno TV News",
-            "type": "youtube",
-            "url": "vEv39eehsQI"
-        },
-        {
             "lcn": 181,
             "logo": "èlivebrescia",
             "name": "È Live Brescia",
@@ -506,10 +490,9 @@
             "lcn": 191,
             "logo": "milanow",
             "name": "Milanow",
+            "hd": true,
             "type": "hls",
-            "url": "https://telelombardia.video/video/viewlivestreaming?rel=66076&cntr=0",
-            "api": "vercel",
-            "geoblock": true
+            "url": "https://ce1dae8cbf60493d91a7231f4400efe0.msvdn.net/live/S88452730/HfL8SdC2mggI/playlist.m3u8"
         },
         {
             "lcn": 277,

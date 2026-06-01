@@ -187,8 +187,8 @@
             "logo": "teleroma56",
             "name": "Teleroma 56",
             "subtitle": "Attivo solo durante alcuni programmi",
-            "type": "twitch",
-            "url": "teleroma_56"
+            "type": "youtube",
+            "url": "UCIoFS3mFUt-dJoXwZbAODOw"
         },
         {
             "lcn": 17,
@@ -290,7 +290,7 @@
             "logo": "teleambiente",
             "name": "TeleAmbiente",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/teleambiente3/teleambiente3/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/teleambiente3/teleambiente3/playlist.m3u8"
         },
         {
             "lcn": 19,
@@ -298,13 +298,6 @@
             "name": "Canale 21 Extra",
             "type": "hls",
             "url": "https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S42170132/sT6C3LFaD1iA/playlist.m3u8"
-        },
-        {
-            "lcn": 19,
-            "logo": "canale19frosinone",
-            "name": "Canale 19 Frosinone",
-            "type": "hls",
-            "url": "https://5a1178b42cc03.streamlock.net/RRomaNetwork/RRomaNetwork/playlist.m3u8"
         },
         {
             "lcn": 74,
@@ -337,7 +330,7 @@
             "logo": "reteoro",
             "name": "Rete Oro",
             "type": "hls",
-            "url": "https://5a1178b42cc03.streamlock.net/ReteoroRoma/ReteoroRoma/playlist.m3u8"
+            "url": "https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8"
         },
         {
             "lcn": 78,
@@ -789,14 +782,6 @@
                 "source": "set",
                 "id": "rtr99"
             }
-        },
-        {
-            "lcn": 88,
-            "logo": "anita.svg",
-            "name": "Anita",
-            "hd": true,
-            "type": "hls",
-            "url": "https://srvx1.selftv.video/anitatv/live/playlist.m3u8"
         },
         {
             "lcn": 88,

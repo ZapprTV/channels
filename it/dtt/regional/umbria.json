@@ -23,6 +23,13 @@
             "url": "https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8"
         },
         {
+            "lcn": 12,
+            "logo": "greenventuretv.svg",
+            "name": "Greenventure TV",
+            "type": "hls",
+            "url": "https://648026e87a75e.streamlock.net/greenventure/greenventure/playlist.m3u8"
+        },
+        {
             "lcn": 13,
             "logo": "trg",
             "name": "TRG",
@@ -30,18 +37,11 @@
             "url": "https://www.trgmedia.it/hls/livestreamHD.m3u8"
         },
         {
-            "lcn": 15,
-            "logo": "umbria+",
-            "name": "Umbria+",
-            "type": "hls",
-            "url": "https://diretta.umbriapiu.it:8080/show/show.m3u8"
-        },
-        {
             "lcn": 18,
             "logo": "teleambiente",
             "name": "TeleAmbiente",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/teleambiente3/teleambiente3/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/teleambiente3/teleambiente3/playlist.m3u8"
         },
         {
             "lcn": 19,
@@ -84,8 +84,8 @@
             "logo": "teleroma56",
             "name": "Teleroma 56",
             "subtitle": "Attivo solo durante alcuni programmi",
-            "type": "twitch",
-            "url": "teleroma_56"
+            "type": "youtube",
+            "url": "UCIoFS3mFUt-dJoXwZbAODOw"
         },
         {
             "lcn": 84,

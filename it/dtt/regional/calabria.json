@@ -87,7 +87,7 @@
             "logo": "telespaziotv",
             "name": "Telespazio TV",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/Telespaziotv/Telespaziotv/playlist.m3u8",
+            "url": "https://64b16f23efbee.streamlock.net/telespaziotv-clone/telespaziotv-clone/playlist.m3u8",
             "epg": {
                 "source": "digitalbitrate",
                 "id": "tca/TCA_CH32_9807"
@@ -391,7 +391,7 @@
             "logo": "videotouring",
             "name": "VideoTouring",
             "type": "iframe",
-            "url": "https://streamingvideo.auranex.cloud/70baacad-47c6-41a6-aee0-86530c31e080.html",
+            "url": "https://restreamer.auranex.cloud/26878d5b-7de5-431e-ac9b-a7f03ad4ad7b.html",
             "cssfix": "center-iframe",
             "epg": {
                 "source": "uvotv",

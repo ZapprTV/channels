@@ -13,9 +13,8 @@
             "logo": "tv5mondeeurope.svg",
             "name": "TV5Monde Europe",
             "hd": true,
-            "type": "iframe",
-            "url": "https://live.tv5monde.com/europe.html",
-            "cssfix": "center-iframe",
+            "type": "hls",
+            "url": "https://uvotv.zappr.stream/446.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "635"
@@ -25,9 +24,8 @@
                 "logo": "tv5mondeinfo.svg",
                 "name": "TV5Monde Info",
                 "hd": true,
-                "type": "iframe",
-                "url": "https://live.tv5monde.com/infoplus.html",
-                "cssfix": "center-iframe"
+                "type": "hls",
+                "url": "https://d161b1o6wfc5a3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3u7sgewc3l8ri/tvfm.m3u8"
             }]
         },
         {
@@ -80,7 +78,7 @@
             "name": "RTS 1",
             "hd": true,
             "type": "hls",
-            "url": "https://lb.adriatelekom.com/RTSUN/index.m3u8",
+            "url": "https://uvotv.zappr.stream/443.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "369"

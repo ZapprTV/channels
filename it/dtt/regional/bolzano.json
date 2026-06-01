@@ -851,7 +851,7 @@
                 "name": "RTS 1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://lb.adriatelekom.com/RTSUN/index.m3u8",
+                "url": "https://uvotv.zappr.stream/443.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "369"
@@ -932,7 +932,7 @@
                 "name": "RTS 1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://lb.adriatelekom.com/RTSUN/index.m3u8",
+                "url": "https://uvotv.zappr.stream/443.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "369"
@@ -1409,7 +1409,7 @@
                 "name": "RTS 1",
                 "hd": true,
                 "type": "hls",
-                "url": "https://lb.adriatelekom.com/RTSUN/index.m3u8",
+                "url": "https://uvotv.zappr.stream/443.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "369"

@@ -6,16 +6,24 @@
             "logo": "antennasicilia",
             "name": "Antenna Sicilia",
             "hd": true,
-            "type": "iframe",
-            "url": "https://player.kick.com/antennasicilia?autoplay=true&muted=false"
+            "type": "hls",
+            "url": "https://antennasicilialive.cdn.netrw.it/antennasicilialive/hls/ccr/antennasicilia/master.m3u8?start=now-3h",
+            "fallback": {
+                "type": "hls",
+                "url": "https://antennasicilialive.cdn.netrw.it/antennasicilialive/hls/ccr/antennasicilia/master.m3u8"
+            }
         },
         {
             "lcn": 11,
             "logo": "telecolorsicilia",
             "name": "Telecolor",
             "hd": true,
-            "type": "iframe",
-            "url": "https://player.kick.com/telecolor?autoplay=true&muted=false"
+            "type": "hls",
+            "url": "https://antennasicilialive.cdn.netrw.it/antennasicilialive/hls/ccr/telecolor/master.m3u8?start=now-3h",
+            "fallback": {
+                "type": "hls",
+                "url": "https://antennasicilialive.cdn.netrw.it/antennasicilialive/hls/ccr/telecolor/master.m3u8"
+            }
         },
         {
             "lcn": 12,
@@ -79,6 +87,7 @@
                 "name": "TVM",
                 "type": "hls",
                 "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8",
+                "feed": true,
                 "epg": {
                     "source": "telerent",
                     "id": "EPG_TVM.xml"
@@ -404,7 +413,7 @@
             "name": "Rei TV",
             "hd": true,
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/reitv/reitv/playlist.m3u8",
+            "url": "https://64b16f23efbee.streamlock.net/reitv/reitv/playlist.m3u8",
             "epg": {
                 "source": "digitalbitrate",
                 "id": "tsb/TSB_CH42_92"
@@ -418,6 +427,7 @@
                 "name": "TVM",
                 "type": "hls",
                 "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8",
+                "feed": true,
                 "epg": {
                     "source": "telerent",
                     "id": "EPG_TVM.xml"
@@ -724,6 +734,7 @@
             "name": "TVM",
             "type": "hls",
             "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8",
+            "feed": true,
             "epg": {
                 "source": "telerent",
                 "id": "EPG_TVM.xml"
@@ -1072,13 +1083,6 @@
             "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
         },
         {
-            "lcn": 87,
-            "logo": "telesud.svg",
-            "name": "Telesud",
-            "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/asdfgh/asdfgh/playlist.m3u8"
-        },
-        {
             "lcn": 88,
             "logo": "primatv",
             "name": "Prima TV",
@@ -1092,7 +1096,8 @@
                 "logo": "tvm",
                 "name": "TVM",
                 "type": "hls",
-                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8"
+                "url": "https://5db313b643fd8.streamlock.net/tvmpa/tvmpa/playlist.m3u8",
+                "feed": true
             },
             {
                 "sublcn": 4,
@@ -1401,7 +1406,7 @@
             "logo": "telespaziomessina.svg",
             "name": "Telespazio Messina",
             "type": "hls",
-            "url": "https://rtm.cyberspazio.cloud:5443/LiveApp/streams/049229794390395765037801.m3u8"
+            "url": "https://648026e87a75e.streamlock.net/telemessina/telemessina/playlist.m3u8"
         },
         {
             "lcn": 90,
@@ -1451,6 +1456,14 @@
             "name": "Tele90",
             "type": "hls",
             "url": "https://5db313b643fd8.streamlock.net/tele90/tele90/playlist.m3u8"
+        },
+        {
+            "lcn": 99,
+            "logo": "westsicily",
+            "name": "West Sicily",
+            "hd": true,
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/westsicilytv/westsicilytv/playlist.m3u8"
         },
         {
             "lcn": 99,

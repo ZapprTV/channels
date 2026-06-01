@@ -350,7 +350,11 @@
             "name": "Sportitalia",
             "hd": true,
             "type": "hls",
-            "url": "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
+            "url": "https://distribution.sportitalialive.it/sportitalia/sihd_abr2/playlist.m3u8",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://edge-004.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8"
+            },
             "epg": {
                 "source": "blue",
                 "id": "1387"
@@ -766,8 +770,8 @@
         },
         {
             "lcn": 130,
-            "logo": "channel24.svg",
-            "name": "Channel 24",
+            "logo": "goldinvest",
+            "name": "Gold Invest",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/323.m3u8",
             "cssfix": "letterbox",
@@ -880,7 +884,7 @@
                 "logo": "reteoro",
                 "name": "Rete Oro",
                 "type": "hls",
-                "url": "https://5a1178b42cc03.streamlock.net/ReteoroRoma/ReteoroRoma/playlist.m3u8" 
+                "url": "https://5926fc9c7c5b2.streamlock.net/9094/9094/playlist.m3u8" 
             },
             {
                 "categorySeparator": "Veneto"  
@@ -940,8 +944,8 @@
         },
         {
             "lcn": 137,
-            "logo": "goldinvest",
-            "name": "Gold Invest",
+            "logo": "canale137",
+            "name": "Canale 137",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/332.m3u8",
             "cssfix": "letterbox"
@@ -1195,7 +1199,7 @@
                 "logo": "teleambiente",
                 "name": "TeleAmbiente",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/teleambiente3/teleambiente3/playlist.m3u8"
+                "url": "https://64b16f23efbee.streamlock.net/teleambiente3/teleambiente3/playlist.m3u8"
             },
             {
                 "sublcn": 4,
@@ -2338,13 +2342,6 @@
             "url": "https://streamer2.premio.link/dr_palmastv/index.m3u8"
         },
         {
-            "lcn": 262,
-            "logo": "byoblu.svg",
-            "name": "Byoblu",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/179.m3u8"
-        },
-        {
             "lcn": 264,
             "logo": "ntr264",
             "name": "Radio NTR 264",
@@ -2701,6 +2698,14 @@
                 "source": "samsungtvplus",
                 "id": "IT600001L6"
             }
+        },
+        {
+            "lcn": 455,
+            "logo": "nokeptv",
+            "name": "NoKepTV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://streamer2.premio.link/nokep_hd/index.m3u8"
         },
         {
             "lcn": 510,

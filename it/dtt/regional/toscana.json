@@ -333,7 +333,7 @@
             "logo": "tv1",
             "name": "TV1",
             "type": "hls",
-            "url": "https://stream10.xdevel.com/video0s978282-2579/stream/playlist.m3u8"
+            "url": "https://srvx1.selftv.video/tv1/live/playlist.m3u8"
         },
         {
             "lcn": 78,

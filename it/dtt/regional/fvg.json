@@ -25,6 +25,7 @@
             "name": "TV12",
             "type": "hls",
             "url": "https://59d7d6f47d7fc.streamlock.net/tv12/tv12/playlist.m3u8",
+            "feed": true,
             "epg": {
                 "source": "tdbnet",
                 "id": "TV12"
@@ -47,36 +48,20 @@
             "logo": "il13.svg",
             "name": "il13",
             "type": "hls",
-            "url": "https://www.gruppotv7.com:8090/hls/il13.m3u8",
+            "url": "https://tv7.zappr.stream/hls/il13.m3u8",
             "hbbtv": [{
                 "sublcn": 2,
                 "logo": "tv7triveneta.svg",
                 "name": "TV7 Meteo",
                 "type": "hls",
-                "url": "https://www.gruppotv7.com:8090/hls/meteo.m3u8"
+                "url": "https://tv7.zappr.stream/hls/meteo.m3u8"
             },
             {
                 "sublcn": 3,
                 "logo": "tv7triveneta.svg",
                 "name": "TV7 Sport",
                 "type": "hls",
-                "url": "https://www.gruppotv7.com:8090/hls/sport.m3u8"
-            },
-            {
-                "sublcn": 4,
-                "logo": "netweekcalcioshow",
-                "name": "Netweek Calcio Show",
-                "hd": true,
-                "type": "hls",
-                "url": "https://www.gruppotv7.com:8090/hls/direttastudio.m3u8"
-            },
-            {
-                "sublcn": 5,
-                "logo": "ariapulitaore12",
-                "name": "Aria Pulita",
-                "hd": true,
-                "type": "hls",
-                "url": "https://www.gruppotv7.com:8090/hls/ariapulita.m3u8"  
+                "url": "https://tv7.zappr.stream/hls/sport.m3u8"
             },
             {
                 "sublcn": 6,
@@ -265,13 +250,6 @@
             "name": "RAN Slo",
             "type": "hls",
             "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranslo/playlist.m3u8" 
-        },
-        {
-            "lcn": 97,
-            "logo": "radiodiffusioneeuropea",
-            "name": "Radio Diffusione Europea",
-            "type": "hls",
-            "url": "https://tv2.radiosaiuz.com:3496/live/rdelive.m3u8"
         },
         {
             "lcn": 99,

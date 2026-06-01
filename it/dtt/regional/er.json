@@ -76,7 +76,11 @@
             "name": "TRC Modena",
             "hd": true,
             "type": "hls",
-            "url": "https://trm-trcmodena.cdn.netrw.it/event/hls/ccr/trcmodena/master.m3u8?start=now-320m",
+            "url": "https://trm-trcmodena.cdn.netrw.it/event/hls/ccr/trcmodena/master.m3u8?start=now-3h",
+            "fallback": {
+                "type": "hls",
+                "url": "https://trm-trcmodena.cdn.netrw.it/event/hls/ccr/trcmodena/master.m3u8"
+            },
             "epg": {
                 "source": "uvotv",
                 "id": "TRC Modena.tvprofile_it"
@@ -99,7 +103,11 @@
             "name": "TeleReggio",
             "hd": true,
             "type": "hls",
-            "url": "https://trm-telereggio.cdn.netrw.it/event/hls/ccr/telereggio/master.m3u8?start=now-320m",
+            "url": "https://trm-telereggio.cdn.netrw.it/event/hls/ccr/telereggio/master.m3u8?start=now-3h",
+            "fallback": {
+                "type": "hls",
+                "url": "https://trm-telereggio.cdn.netrw.it/event/hls/ccr/telereggio/master.m3u8"
+            },
             "epg": {
                 "source": "uvotv",
                 "id": "TeleReggio.tvprofile_it"
@@ -122,7 +130,11 @@
             "name": "TRC Bologna",
             "hd": true,
             "type": "hls",
-            "url": "https://trm-trcbologna.cdn.netrw.it/event/hls/ccr/trcbologna/master.m3u8?start=now-320m",
+            "url": "https://trm-trcbologna.cdn.netrw.it/event/hls/ccr/trcbologna/master.m3u8?start=now-3h",
+            "fallback": {
+                "type": "hls",
+                "url": "https://trm-trcbologna.cdn.netrw.it/event/hls/ccr/trcbologna/master.m3u8"
+            },
             "epg": {
                 "source": "uvotv",
                 "id": "TRC Bologna.tvprofile_it"
@@ -251,7 +263,7 @@
             "logo": "telestense",
             "name": "Telestense",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/teleestense/teleestense/playlist.m3u8",
+            "url": "https://uvotv.zappr.stream/500.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "Telestense.tvprofile_it"
@@ -261,7 +273,7 @@
                 "logo": "telesanterno",
                 "name": "Telesanterno",
                 "type": "hls",
-                "url": "https://64b16f23efbee.streamlock.net/telesanterno/telesanterno/playlist.m3u8"
+                "url": "https://media2021.rtvweb.com/di_tv_92/live/playlist.m3u8"
             }]
         },
         {
@@ -280,7 +292,7 @@
             "logo": "telesanterno",
             "name": "Telesanterno",
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/telesanterno/telesanterno/playlist.m3u8"
+            "url": "https://media2021.rtvweb.com/di_tv_92/live/playlist.m3u8"
         },
         {
             "lcn": 78,
@@ -298,8 +310,8 @@
         },
         {
             "lcn": 80,
-            "logo": "ditv",
-            "name": "DI.TV",
+            "logo": "telecentro",
+            "name": "Telecentro",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/ditv80/ditv80/playlist.m3u8",
             "hbbtv": [{
@@ -307,8 +319,8 @@
             },
             {
                 "sublcn": 1,
-                "logo": "ditv92",
-                "name": "DI.TV 92",
+                "logo": "telesanterno",
+                "name": "Telesanterno",
                 "type": "hls",
                 "url": "https://media2021.rtvweb.com/di_tv_92/live/playlist.m3u8"
             },
@@ -377,9 +389,8 @@
         },
         {
             "lcn": 81,
-            "logo": "radioitaliaanni60tv",
-            "name": "Radio Italia Anni 60 TV",
-            "subtitle": "(Rete 8 QSVS)",
+            "logo": "rete8er",
+            "name": "Rete 8",
             "type": "hls",
             "url": "https://dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S29887338/irn4sIk4aeF2/playlist.m3u8"
         },
@@ -510,13 +521,6 @@
             "url": "https://media2021.rtvweb.com/magazinetv/web/playlist.m3u8"
         },
         {
-            "lcn": 92,
-            "logo": "ditv92",
-            "name": "DI.TV 92",
-            "type": "hls",
-            "url": "https://media2021.rtvweb.com/di_tv_92/live/playlist.m3u8"
-        },
-        {
             "lcn": 93,
             "logo": "rtr99tv",
             "name": "RTR 99 TV",
@@ -614,8 +618,8 @@
             "lcn": 99,
             "logo": "videoregione",
             "name": "Videoregione",
-            "type": "direct",
-            "url": "https://stream.videoregione.it/vr99.mp4",
+            "type": "hls",
+            "url": "https://stream.videoregione.it/hls/vr99/index.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "VR.tvprofil_it"

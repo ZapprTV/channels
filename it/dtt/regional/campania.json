@@ -251,7 +251,7 @@
             "logo": "telenuova",
             "name": "Telenuova",
             "type": "twitch",
-            "url": "telenuovatv"
+            "url": "gruppo_telenuova"
         },
         {
             "lcn": 93,
@@ -323,6 +323,14 @@
             "name": "Prima TV Napoli",
             "type": "hls",
             "url": "https://57068da1deb21.streamlock.net/primatvnapoli/primatvnapoli/playlist.m3u8"
+        },
+        {
+            "lcn": 98,
+            "logo": "telesperanza",
+            "name": "TSTV Benevento",
+            "subtitle": "Attivo solo durante alcuni programmi in diretta",
+            "type": "youtube",
+            "url": "UCosl7AgBjoBfetmRpyD7a6Q"
         },
         {
             "lcn": 99,
@@ -443,9 +451,8 @@
             "lcn": 214,
             "logo": "sportchannel214",
             "name": "Sport Channel 214",
-            "subtitle": "Non sempre attivo",
-            "type": "twitch",
-            "url": "sportchannelnews"
+            "type": "hls",
+            "url": "https://5dcabf026b188.streamlock.net/SPORTCHANNEL214/livestream/playlist.m3u8"
         },
         {
             "lcn": 351,

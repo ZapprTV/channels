@@ -219,21 +219,21 @@
                 "logo": "tv7triveneta.svg",
                 "name": "TV7 Meteo",
                 "type": "hls",
-                "url": "https://www.gruppotv7.com:8090/hls/meteo.m3u8"
+                "url": "https://tv7.zappr.stream/hls/meteo.m3u8"
             },
             {
                 "sublcn": 3,
                 "logo": "tv7triveneta.svg",
                 "name": "TV7 Sport",
                 "type": "hls",
-                "url": "https://www.gruppotv7.com:8090/hls/sport.m3u8"
+                "url": "https://tv7.zappr.stream/hls/sport.m3u8"
             },
             {
                 "sublcn": 4,
                 "logo": "il13.svg",
                 "name": "il13",
                 "type": "hls",
-                "url": "https://www.gruppotv7.com:8090/hls/il13.m3u8"
+                "url": "https://tv7.zappr.stream/hls/il13.m3u8"
             },
             {
                 "sublcn": 5,
@@ -241,7 +241,7 @@
                 "name": "Netweek Calcio Show",
                 "hd": true,
                 "type": "hls",
-                "url": "https://www.gruppotv7.com:8090/hls/direttastudio.m3u8"
+                "url": "https://tv7.zappr.stream/hls/direttastudio.m3u8"
             },
             {
                 "sublcn": 6,
@@ -249,7 +249,7 @@
                 "name": "Aria Pulita",
                 "hd": true,
                 "type": "hls",
-                "url": "https://www.gruppotv7.com:8090/hls/ariapulita.m3u8"  
+                "url": "https://tv7.zappr.stream/hls/ariapulita.m3u8"  
             },
             {
                 "sublcn": 7,
