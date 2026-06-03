@@ -539,6 +539,13 @@
             "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranslo/playlist.m3u8" 
         },
         {
+            "lcn": 97,
+            "logo": "trylime",
+            "name": "Try Lime",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/trylaim/playlist.m3u8"
+        },
+        {
             "lcn": 351,
             "logo": "70-80",
             "name": "70-80.it",

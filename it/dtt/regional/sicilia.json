@@ -1084,6 +1084,13 @@
         },
         {
             "lcn": 88,
+            "logo": "siciliauno",
+            "name": "Siciliauno",
+            "type": "twitch",
+            "url": "siciliauno"
+        },
+        {
+            "lcn": 88,
             "logo": "primatv",
             "name": "Prima TV",
             "type": "hls",
@@ -1540,7 +1547,8 @@
             "logo": "etnachannel",
             "name": "Etna Channel",
             "type": "hls",
-            "url": "https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8"
+            "url": "https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8",
+            "license": "clearkey"
         },
         {
             "lcn": 211,
