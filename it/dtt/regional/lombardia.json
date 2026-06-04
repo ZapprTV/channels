@@ -337,6 +337,13 @@
             }
         },
         {
+            "lcn": 91,
+            "logo": "trs.svg",
+            "name": "TRS",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/trs/trs/playlist.m3u8"
+        },
+        {
             "lcn": 92,
             "logo": "italia8prestige",
             "name": "Italia 8 Prestige",
@@ -393,20 +400,6 @@
             "name": "Valenza TV",
             "type": "hls",
             "url": "https://uvotv.zappr.stream/368.m3u8"
-        },
-        {
-            "lcn": 98,
-            "logo": "orobikchannel98",
-            "name": "Orobik Channel",
-            "type": "twitch",
-            "url": "scbtorobik",
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "radioloco",
-                "name": "Radio Loco",
-                "type": "audio",
-                "url": "https://s32.myradiostream.com/:17878/listen.mp3"
-            }]
         },
         {
             "lcn": 112,

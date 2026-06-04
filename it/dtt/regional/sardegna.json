@@ -16,6 +16,13 @@
             "url": "https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8"
         },
         {
+            "lcn": 12,
+            "logo": "lunionetv.svg",
+            "name": "L'Unione TV",
+            "type": "hls",
+            "url": "https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S17699833/dA5a4C7jUFdb/playlist.m3u8"
+        },
+        {
             "lcn": 13,
             "logo": "telesardegna",
             "name": "TeleSardegna",
@@ -30,11 +37,32 @@
             "url": "https://cdn.uno4.it/index.m3u8"
         },
         {
+            "lcn": 15,
+            "logo": "catalantv",
+            "name": "Catalan TV",
+            "type": "direct",
+            "url": "https://tvheadend-sardegna1.zappr.stream/stream/channel/f434e5384d805a7c4174c34dc9f5d6b1?profile=webtv-h264-aac-matroska&.mkv"
+        },
+        {
+            "lcn": 17,
+            "logo": "canaleitaliasardegna",
+            "name": "Canale Italia Sardegna",
+            "type": "direct",
+            "url": "https://tvheadend-sardegna1.zappr.stream/stream/channel/ca236818023e33500df973497dc64bee?profile=webtv-h264-aac-matroska&.mkv"
+        },
+        {
             "lcn": 18,
             "logo": "odeon24sardegna",
             "name": "Odeon 24 Sardegna",
             "type": "hls",
             "url": "https://streaming.softwarecreation.it/Odeon24SA/Odeon24SA/playlist.m3u8"
+        },
+        {
+            "lcn": 19,
+            "logo": "tts",
+            "name": "TTS",
+            "type": "direct",
+            "url": "https://tvheadend-sardegna1.zappr.stream/stream/channel/9b2152e09440be531de926b424c572d4?profile=webtv-h264-aac-matroska&.mkv"
         },
         {
             "lcn": 77,
@@ -49,6 +77,13 @@
             "name": "Radio Televisione Sarda",
             "type": "hls",
             "url": "https://stream.ejatv.com/memfs/dff807e1-b3b2-49f5-92d6-5b178be4eb6d.m3u8"
+        },
+        {
+            "lcn": 80,
+            "logo": "radioondasarda",
+            "name": "Radio OndaSarda",
+            "type": "hls",
+            "url": "https://604e46ac2bdee.streamlock.net:1936/radiosardegna/radiosardegna/playlist.m3u8"
         },
         {
             "lcn": 88,

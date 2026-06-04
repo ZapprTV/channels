@@ -443,6 +443,13 @@
             }
         },
         {
+            "lcn": 90,
+            "logo": "trs.svg",
+            "name": "TRS",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/trs/trs/playlist.m3u8"
+        },
+        {
             "lcn": 351,
             "logo": "70-80",
             "name": "70-80.it",
