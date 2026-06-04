@@ -20,7 +20,8 @@
             "logo": "retesole",
             "name": "Retesole",
             "type": "hls",
-            "url": "https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8"
+            "url": "https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8",
+            "license": "clearkey"
         },
         {
             "lcn": 12,
@@ -35,6 +36,13 @@
             "name": "TRG",
             "type": "hls",
             "url": "https://www.trgmedia.it/hls/livestreamHD.m3u8"
+        },
+        {
+            "lcn": 15,
+            "logo": "umbria+",
+            "name": "Umbria+",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video9s975363-3106/stream/playlist.m3u8"
         },
         {
             "lcn": 18,

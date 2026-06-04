@@ -791,6 +791,13 @@
             "url": "https://giatv.bozztv.com/giatv/giatv-centroitalia/centroitalia/playlist.m3u8"
         },
         {
+            "lcn": 91,
+            "logo": "radioglobotv.svg",
+            "name": "Radio Globo TV",
+            "type": "hls",
+            "url": "https://nrvideo1.newradio.it:1936/awrgaebshj/awrgaebshj/playlist.m3u8"
+        },
+        {
             "lcn": 93,
             "logo": "mediatv",
             "name": "Media TV",
@@ -836,7 +843,8 @@
             "logo": "retesole",
             "name": "Retesole",
             "type": "hls",
-            "url": "https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8"
+            "url": "https://5926fc9c7c5b2.streamlock.net/9332/9332/playlist.m3u8",
+            "license": "clearkey"
         },
         {
             "lcn": 110,
