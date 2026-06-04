@@ -144,7 +144,11 @@
             "logo": "telenordest",
             "name": "Telenordest",
             "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/4485192e8f47dbddf67157881e0abf0d?profile=webtv-h264-aac-matroska&.mkv"
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/4485192e8f47dbddf67157881e0abf0d?profile=webtv-h264-aac-matroska&.mkv",
+            "epg": {
+                "source": "tdbnet",
+                "id": "TNE"
+            }
         },
         {
             "lcn": 19,
