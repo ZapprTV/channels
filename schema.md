@@ -648,6 +648,47 @@
 
 
 
+### channels.fallback.license
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">DRM/license type</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">What DRM/licensing system to use to play the channel.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd><dt>clearkey</dt><dd>ClearKey (specify keys in licensedetails)</dd><dt>widevine</dt><dd>Widevine (specify license URL in licensedetails)</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.fallback.licensedetails
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Additional DRM/licensing parameters</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">[object, string]</td></tr>
+    
+  </tbody>
+</table>
+
+
+
+
 
 ### channels.geoblock
 
@@ -1507,6 +1548,47 @@
       <th>Enum</th>
       <td colspan="2"><dl><dt>streamshow-embed</dt><dd>StreamShow embed (embed.streamshow.net)</dd><dt>stretch</dt><dd>Stretch the video track of a channel in 4:3 to 16:9.</dd><dt>squashed-height</dt><dd>Stretch the video track of a channel with a squashed height to 16:9.</dd><dt>very-squashed-height</dt><dd>Stretch the video track of a channel with a VERY squashed height to 16:9.</dd><dt>five-two-squashed-height</dt><dd>Stretch the video track of a channel in 5:2 to 16:9.</dd><dt>center-iframe</dt><dd>Center IFrame</dd><dt>servizistreaming-embed</dt><dd>ServiziStreaming.it embed</dd><dt>livetvuk-embed</dt><dd>LiveTVUK.com embed</dd><dt>native-hls-720p-iframe</dt><dd>Scale a 720p video playing natively in an iframe to the video player&#x27;s width</dd><dt>letterbox</dt><dd>Scale a 16:9 video letterboxed within a 4:3 stream to the video player&#x27;s width</dd></dl></td>
     </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.fallback.license
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">DRM/license type</td>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <td colspan="2">What DRM/licensing system to use to play the channel.</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Enum</th>
+      <td colspan="2"><dl><dt>xdevel-wms</dt><dd>Xdevel WMS Auth Sign (play.xdevel.com/was)</dd><dt>clearkey</dt><dd>ClearKey (specify keys in licensedetails)</dd><dt>widevine</dt><dd>Widevine (specify license URL in licensedetails)</dd></dl></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+### channels.hbbtv.fallback.licensedetails
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">Additional DRM/licensing parameters</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">[object, string]</td></tr>
+    
   </tbody>
 </table>
 
