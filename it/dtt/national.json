@@ -55,6 +55,19 @@
             "epg": {
                 "source": "blue",
                 "id": "118"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://alwaysdata-api.zappr.stream/nove.mpd?clearkeyPlayer.maxQuality=720",
+                "license": "clearkey",
+                "licensedetails": {
+                    "010043c37b66261b7b08a4420e871324": "abe412fe39ba5eff6ff576a6cdd8b845",
+                    "010152ad7ba3403fe31de4ef1b9a098b": "e07059a95232b08e0c4f60268b83cd70",
+                    "0102079f94a152ab42228d541d895a12": "103ed73228117befc316f36113d3225e",
+                    "01038123c12420f84a578c8b819921f7": "00000000000000000000000000000000",
+                    "0104f7876c67c31f8815d9bcb3e5049c": "00000000000000000000000000000000",
+                    "01051f2b5db19b13fe7402b4d1e53fb6": "00000000000000000000000000000000"
+                }
             }
         },
         {
@@ -114,6 +127,19 @@
             "epg": {
                 "source": "blue",
                 "id": "346"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://alwaysdata-api.zappr.stream/realtime.mpd?clearkeyPlayer.maxQuality=720",
+                "license": "clearkey",
+                "licensedetails": {
+                    "0100f7e1e92039dcbf28d85af51e1fa3": "a70ae41bc0cf1adfd58563e62d1bfb8f",
+                    "0101b31884be65933dbb3a94b326d108": "4c2e9223f3e15cc3484ff1b88dfbcfff",
+                    "010215557c898b730a16405fc6a7d594": "0e1e9183255b1db525a6569f94631036",
+                    "0103a18e48bc4e0899fd9850447c7ee4": "00000000000000000000000000000000",
+                    "01047897bfba70c27d98af57f449ed0a": "00000000000000000000000000000000",
+                    "01052f86b83705659de18a9e97d9ce83": "00000000000000000000000000000000"
+                }
             }
         },
         {
@@ -139,6 +165,19 @@
             "epg": {
                 "source": "blue",
                 "id": "1348"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://alwaysdata-api.zappr.stream/foodnetwork.mpd?clearkeyPlayer.maxQuality=720",
+                "license": "clearkey",
+                "licensedetails": {
+                    "0100da20381b6e3a3dac1914b5769a54": "7bc7175607cfc6814fd67bf50b8aeecb",
+                    "0101e711dfa15b53172186c0491263bc": "2fd82ba1b649ba58948031ed5ec4ce5c",
+                    "0102a80a74efd881bb1e2da6ea4b10ad": "53af8be715edfd8d7066d20099ad8113",
+                    "0103aef9136f459efd3cd7466d5fbccf": "00000000000000000000000000000000",
+                    "0104d2e104e28993051da23b8b87bd3b": "00000000000000000000000000000000",
+                    "0105e391afe4bab7de0d419f21704691": "00000000000000000000000000000000"
+                }
             }
         },
         {
@@ -165,6 +204,19 @@
             "epg": {
                 "source": "blue",
                 "id": "124"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://alwaysdata-api.zappr.stream/discovery.mpd?clearkeyPlayer.maxQuality=720",
+                "license": "clearkey",
+                "licensedetails": {
+                    "0100108b761bb5edac85461e0bb3fb0d": "068b3fba256e1c983bec36ff9172ec2e",
+                    "01019975b8beddb720bca70ee9538e90": "7d21bb89a5274e7de7b39db48a5f574a",
+                    "0102eee1dc2cc69007d518af9ab8b07a": "cff31a511f50a1cafb28de73d9e3cfa7",
+                    "0103091ff82b4bae6532a678838bb10e": "00000000000000000000000000000000",
+                    "01049e8567fe557e7a466b8fde310bbe": "00000000000000000000000000000000",
+                    "010567972eb8b286eb47fbf7e71cd4a4": "00000000000000000000000000000000"
+                }
             }
         },
         {
@@ -179,6 +231,19 @@
             "epg": {
                 "source": "blue",
                 "id": "191"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://alwaysdata-api.zappr.stream/giallo.mpd?clearkeyPlayer.maxQuality=720",
+                "license": "clearkey",
+                "licensedetails": {
+                    "010058ec487d57e3cfab7fdde6015993": "d14148377cfcc9349a9853bcee8e557a",
+                    "0101ea2e0cdd76392e342266346cdf37": "804a8f11c8821dad69464a1a32875e8f",
+                    "0102f0d2a220b14b8c1aa8f4c5eb893d": "c976405c88fe6387bef997947becd5d9",
+                    "01036f6d1a3e452c0bf8d869beee0c33": "00000000000000000000000000000000",
+                    "010472ef04f71a5e7f3b8e06db379144": "00000000000000000000000000000000",
+                    "0105c3a2810a70c0b2d00808f37fdb4b": "00000000000000000000000000000000"
+                }
             }
         },
         {
@@ -261,6 +326,19 @@
             "epg": {
                 "source": "blue",
                 "id": "137"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://alwaysdata-api.zappr.stream/dmax.mpd?clearkeyPlayer.maxQuality=720",
+                "license": "clearkey",
+                "licensedetails": {
+                    "01003b85994dc3274165ac2d2bc1c0b0": "e35f031bcaa1714ac57a022fb26f135f",
+                    "0101998a4079efbebf260c192deaea9a": "6d9db354981743fc743fc02c5f98f699",
+                    "010285f1a98cb0f9c2690d6834b0cd7a": "a7afa9c822191295a655f82148b9b4bb",
+                    "01031ef976fa45e0b19b6b6b5919b1cb": "00000000000000000000000000000000",
+                    "01042986e9051678a4b6a4905ebbbefb": "00000000000000000000000000000000",
+                    "0105d330b73558c1a7ddc4aedc7e8f95": "00000000000000000000000000000000"
+                }
             }
         },
         {
@@ -284,6 +362,19 @@
             "epg": {
                 "source": "blue",
                 "id": "1646"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://alwaysdata-api.zappr.stream/hgtv.mpd?clearkeyPlayer.maxQuality=720",
+                "license": "clearkey",
+                "licensedetails": {
+                    "0100a41cbf2b765bd32b545cba44bc8e": "21e9b8bd5db5a65a6b2d4160bae8ffcc",
+                    "01010cfea6b9fc12904c079e1d7da0ce": "fe45ce9597675cba8852c46aff3c0327",
+                    "01022b5987a8bcf1143b64d2075601ae": "046db9d7ac1770e194750045c078677f",
+                    "01033332424f79ad78e4a59b00238b48": "00000000000000000000000000000000",
+                    "01048cf20743e4291477f56b575c7ac7": "00000000000000000000000000000000",
+                    "01054ffac86eb0d90d095e271f95be6c": "00000000000000000000000000000000"
+                }
             }
         },
         {
@@ -298,6 +389,12 @@
             "epg": {
                 "source": "blue",
                 "id": "1384"
+            },
+            "geoblock": {
+                "type": "dash",
+                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(motortrendhd)/manifest.mpd",
+                "license": "clearkey",
+                "licensedetails": "b1f533e2ee35459e9be2d0ef1e2b61ab:749bd263e98796fbaf739088862de387"
             }
         },
         {
