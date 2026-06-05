@@ -309,6 +309,12 @@
                             },
                             "cssfix": {
                                 "$ref": "#/properties/channels/items/properties/cssfix"
+                            },
+                            "license": {
+                                "$ref": "#/properties/channels/items/properties/license"
+                            },
+                            "licensedetails": {
+                                "$ref": "#/properties/channels/items/properties/licensedetails"
                             }
                         },
                         "required": ["type", "url"]
