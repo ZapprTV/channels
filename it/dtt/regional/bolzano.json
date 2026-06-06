@@ -852,6 +852,10 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://uvotv.zappr.stream/443.m3u8",
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://lb.adriatelekom.com/RTSUN/index.m3u8"
+                },
                 "epg": {
                     "source": "blue",
                     "id": "369"
@@ -874,9 +878,13 @@
                 "logo": "rsila1.svg",
                 "name": "RSI LA1",
                 "hd": true,
-                "type": "hls",
-                "url": "https://netplus.zappr.stream/rsila1hd.m3u8",
-                "disabled": "not-working",
+                "type": "dash",
+                "url": "https://wp3-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09042/stb-dash-fhd-avc/SV09042.mpd?clearkeyPlayer.audioLanguage=it",
+                "license": "clearkey",
+                "licensedetails": {
+                    "09af5f6eb89041ca8f5d164165142e86": "1989cc9c9ce5b2b52cb93edaaefe8420",
+                    "d268d810d8a73bd8b7d54a6a087581d2": "1aaf297543168c625e05aa9e27344471"
+                },
                 "epg": {
                     "source": "blue",
                     "id": "356"
@@ -933,6 +941,10 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://uvotv.zappr.stream/443.m3u8",
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://lb.adriatelekom.com/RTSUN/index.m3u8"
+                },
                 "epg": {
                     "source": "blue",
                     "id": "369"
@@ -955,9 +967,13 @@
                 "logo": "rsila1.svg",
                 "name": "RSI LA1",
                 "hd": true,
-                "type": "hls",
-                "url": "https://netplus.zappr.stream/rsila1hd.m3u8",
-                "disabled": "not-working",
+                "type": "dash",
+                "url": "https://wp3-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09042/stb-dash-fhd-avc/SV09042.mpd?clearkeyPlayer.audioLanguage=it",
+                "license": "clearkey",
+                "licensedetails": {
+                    "09af5f6eb89041ca8f5d164165142e86": "1989cc9c9ce5b2b52cb93edaaefe8420",
+                    "d268d810d8a73bd8b7d54a6a087581d2": "1aaf297543168c625e05aa9e27344471"
+                },
                 "epg": {
                     "source": "blue",
                     "id": "356"
@@ -1384,9 +1400,13 @@
             "logo": "rsila1.svg",
             "name": "RSI LA1",
             "hd": true,
-            "type": "hls",
-            "url": "https://netplus.zappr.stream/rsila1hd.m3u8",
-            "disabled": "not-working",
+            "type": "dash",
+            "url": "https://wp3-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09042/stb-dash-fhd-avc/SV09042.mpd?clearkeyPlayer.audioLanguage=it",
+            "license": "clearkey",
+            "licensedetails": {
+                "09af5f6eb89041ca8f5d164165142e86": "1989cc9c9ce5b2b52cb93edaaefe8420",
+                "d268d810d8a73bd8b7d54a6a087581d2": "1aaf297543168c625e05aa9e27344471"
+            },
             "epg": {
                 "source": "blue",
                 "id": "356"
@@ -1410,6 +1430,10 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://uvotv.zappr.stream/443.m3u8",
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://lb.adriatelekom.com/RTSUN/index.m3u8"
+                },
                 "epg": {
                     "source": "blue",
                     "id": "369"
