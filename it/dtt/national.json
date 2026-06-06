@@ -7,9 +7,7 @@
             "name": "LA7",
             "hd": true,
             "type": "dash",
-            "url": "https://d15umi5iaezxgx.cloudfront.net/LA7/DRM/DASH/Live.mpd",
-            "license": "clearkey",
-            "licensedetails": "db057321c9224c25a7ccd75d911dd1fc:005b948eb397a581d10ff8bb60d19c93",
+            "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7/DASH/Live.mpd",
             "epg": {
                 "source": "blue",
                 "id": "237"
@@ -17,6 +15,10 @@
             "manualRestart": {
                 "source": "la7",
                 "id": "la7"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "https://d1chghleocc9sm.cloudfront.net/Live.m3u8"
             },
             "hbbtv": [{
                 "sublcn": 1,
@@ -116,9 +118,7 @@
             "name": "LA7 Cinema",
             "hd": true,
             "type": "dash",
-            "url": "https://d15umi5iaezxgx.cloudfront.net/LA7D/DRM/DASH/Live.mpd",
-            "license": "clearkey",
-            "licensedetails": "a2b202e78a244da6876d5adbcf5d6a75:88c5efd5d7e49194cd780e773318f69d",
+            "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7D/DASH/Live.mpd",
             "epg": {
                 "source": "blue",
                 "id": "239"
