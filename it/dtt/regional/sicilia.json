@@ -1054,13 +1054,6 @@
         },
         {
             "lcn": 84,
-            "logo": "tfn",
-            "name": "TFN",
-            "type": "twitch",
-            "url": "tfn_tv"
-        },
-        {
-            "lcn": 84,
             "logo": "sicilia242",
             "name": "Sicilia 242",
             "type": "hls",
