@@ -33,6 +33,13 @@
             "url": "https://router.xdevel.com/video1s975436-143/stream/playlist.m3u8"
         },
         {
+            "lcn": 13,
+            "logo": "trm",
+            "name": "TRM",
+            "type": "iframe",
+            "url": "https://stream.place/embed/trm.zappr.stream?muted=false"
+        },
+        {
             "lcn": 14,
             "logo": "videoregionesicilia.svg",
             "name": "Video Regione",
