@@ -890,6 +890,13 @@
         },
         {
             "lcn": 175,
+            "logo": "rietiternitv",
+            "name": "Rieti Terni TV",
+            "type": "youtube",
+            "url": "UC3uBBYhkwsgboCYvOgQ6Caw"
+        },
+        {
+            "lcn": 175,
             "logo": "motoritvadn",
             "name": "Motori TV",
             "hd": true,
@@ -902,6 +909,13 @@
             "name": "Easy & Italy",
             "type": "hls",
             "url": "https://5926fc9c7c5b2.streamlock.net/bjxypgjasy/bjxypgjasy/playlist.m3u8"
+        },
+        {
+            "lcn": 177,
+            "logo": "rtsport360",
+            "name": "RT Sport 360",
+            "type": "youtube",
+            "url": "UCJelCmIYV5VgEYY748RwQAw"
         },
         {
             "lcn": 180,

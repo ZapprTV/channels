@@ -306,6 +306,20 @@
             "name": "ADN24",
             "type": "hls",
             "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
+        },
+        {
+            "lcn": 210,
+            "logo": "rietiternitv",
+            "name": "Rieti Terni TV",
+            "type": "youtube",
+            "url": "UC3uBBYhkwsgboCYvOgQ6Caw"
+        },
+        {
+            "lcn": 211,
+            "logo": "rtsport360",
+            "name": "RT Sport 360",
+            "type": "youtube",
+            "url": "UCJelCmIYV5VgEYY748RwQAw"
         }
     ]
 }
