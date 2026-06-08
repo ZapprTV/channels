@@ -96,17 +96,17 @@
         },
         {
             "lcn": 75,
-            "logo": "easytv",
-            "name": "Easy TV",
-            "type": "hls",
-            "url": "https://diretta.arcapuglia.it:8080/live/easytv/index.m3u8"
-        },
-        {
-            "lcn": 75,
             "logo": "telecolore",
             "name": "Telecolore",
             "type": "hls",
             "url": "https://stream10.xdevel.com/video14s975955-1911/stream/playlist.m3u8"
+        },
+        {
+            "lcn": 75,
+            "logo": "tvacampania",
+            "name": "TVA Campania",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video0s978817-3107/stream/playlist.m3u8"
         },
         {
             "lcn": 76,
@@ -170,6 +170,13 @@
             }
         },
         {
+            "lcn": 80,
+            "logo": "lecronache",
+            "name": "Le Cronache TV",
+            "type": "hls",
+            "url": "https://stream7.livinlive.it/lecronache/live/playlist.m3u8"
+        },
+        {
             "lcn": 81,
             "logo": "teleischia",
             "name": "TeleIschia",
@@ -191,16 +198,9 @@
             "url": "https://stream3.aswifi.it/mediatv/stream/index.m3u8"
         },
         {
-            "lcn": 82,
-            "logo": "tvyesitalia",
-            "name": "TV Yes",
-            "type": "hls",
-            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/playlist.m3u8"
-        },
-        {
             "lcn": 83,
             "logo": "tvluna",
-            "name": "TV Luna",
+            "name": "TVM",
             "type": "hls",
             "url": "https://diretta.arcapuglia.it:8080/live/teleluna/index.m3u8"
         },
@@ -234,10 +234,24 @@
         },
         {
             "lcn": 89,
+            "logo": "partenopetv",
+            "name": "Partenope TV",
+            "type": "hls",
+            "url": "https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8"
+        },
+        {
+            "lcn": 89,
             "logo": "telestabia",
             "name": "TeleStabia",
             "type": "hls",
             "url": "https://stream3.aswifi.it/giglitv/live/index.m3u8"
+        },
+        {
+            "lcn": 91,
+            "logo": "easytv",
+            "name": "Easy TV",
+            "type": "hls",
+            "url": "https://diretta.arcapuglia.it:8080/live/easytv/index.m3u8"
         },
         {
             "lcn": 91,
@@ -412,6 +426,13 @@
             }]
         },
         {
+            "lcn": 111,
+            "logo": "zonarcs",
+            "name": "Zona RCS TV",
+            "type": "hls",
+            "url": "https://stream9.xdevel.com/video0s975429-131/stream/playlist.m3u8"
+        },
+        {
             "lcn": 114,
             "logo": "sudtv.svg",
             "name": "Sud TV",
@@ -439,13 +460,6 @@
             "name": "Radio Marte TV",
             "type": "hls",
             "url": "https://router.xdevel.com/video0s975753-750/stream/playlist.m3u8"
-        },
-        {
-            "lcn": 189,
-            "logo": "partenopetv",
-            "name": "Partenope TV",
-            "type": "hls",
-            "url": "https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8"
         },
         {
             "lcn": 214,

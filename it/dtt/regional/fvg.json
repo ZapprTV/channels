@@ -201,8 +201,8 @@
         },
         {
             "lcn": 77,
-            "logo": "media24",
-            "name": "Media24",
+            "logo": "canale77",
+            "name": "Canale 77",
             "type": "hls",
             "url": "https://load-balancer.azotosolutions.com/cdnedge16/smil:live16.smil/playlist.m3u8"
         },
@@ -228,6 +228,13 @@
             "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"        
         },
         {
+            "lcn": 87,
+            "logo": "energytv",
+            "name": "Energy TV",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/energy/playlist.m3u8"
+        },
+        {
             "lcn": 88,
             "logo": "friulitv24",
             "name": "FriuliTV24",
@@ -235,11 +242,25 @@
             "url": "https://585b674743bbb.streamlock.net/9080/9080/playlist.m3u8"
         },
         {
+            "lcn": 89,
+            "logo": "telepordenone",
+            "name": "Telepordenone",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/telepordenone/playlist.m3u8"
+        },
+        {
             "lcn": 91,
             "logo": "telealtobut",
             "name": "Tele Alto But",
             "type": "hls",
             "url": "https://load-balancer.azotosolutions.com/cdnedge34/telealtobut/playlist.m3u8"
+        },
+        {
+            "lcn": 92,
+            "logo": "videoregioneran",
+            "name": "Videoregione",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/videoregione/playlist.m3u8"
         },
         {
             "lcn": 93,
@@ -263,6 +284,13 @@
             "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranslo/playlist.m3u8" 
         },
         {
+            "lcn": 96,
+            "logo": "shopping",
+            "name": "Shopping",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/shopping/playlist.m3u8" 
+        },
+        {
             "lcn": 97,
             "logo": "trylime",
             "name": "Try Lime",
@@ -270,11 +298,32 @@
             "url": "https://load-balancer.azotosolutions.com/cdnedge34/trylaim/playlist.m3u8"
         },
         {
+            "lcn": 98,
+            "logo": "canalfurlan",
+            "name": "Canal Furlan",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/canalfurlan/playlist.m3u8"
+        },
+        {
             "lcn": 99,
             "logo": "rannews",
             "name": "RAN News",
             "type": "hls",
             "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranwes/playlist.m3u8" 
+        },
+        {
+            "lcn": 115,
+            "logo": "easyanditaly",
+            "name": "Easy & Italy",
+            "type": "hls",
+            "url": "https://5926fc9c7c5b2.streamlock.net/bjxypgjasy/bjxypgjasy/playlist.m3u8"
+        },
+        {
+            "lcn": 116,
+            "logo": "standbytv",
+            "name": "Standby TV",
+            "type": "hls",
+            "url": "https://5926fc9c7c5b2.streamlock.net/standbytv/standbytv/playlist.m3u8"
         },
         {
             "lcn": 351,

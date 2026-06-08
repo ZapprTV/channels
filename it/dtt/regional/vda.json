@@ -9,6 +9,13 @@
             "url": "https://64b16f23efbee.streamlock.net/telecityvda/telecityvda/playlist.m3u8"
         },
         {
+            "lcn": 13,
+            "logo": "rete7.svg",
+            "name": "Rete 7",
+            "type": "hls",
+            "url": "https://stream.ets-sistemi.it:2020/hls/rete7-live/rete7-live.m3u8"
+        },
+        {
             "lcn": 75,
             "logo": "tv5mondeeurope.svg",
             "name": "TV5Monde Europe",

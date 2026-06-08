@@ -322,13 +322,6 @@
             "url": "https://live.mariatvcdn.com/tvprato/2db0dd5674586686a867ec52c3aa8e06.sdp/mono.m3u8"
         },
         {
-            "lcn": 76,
-            "logo": "tvyesitalia",
-            "name": "TV Yes",
-            "type": "hls",
-            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/playlist.m3u8"
-        },
-        {
             "lcn": 77,
             "logo": "tv1",
             "name": "TV1",
@@ -341,6 +334,20 @@
             "name": "Teleregione Toscana",
             "type": "hls",
             "url": "https://srvx1.selftv.video/teleregionetoscana/live/playlist.m3u8"  
+        },
+        {
+            "lcn": 79,
+            "logo": "studiopiù",
+            "name": "StudioPiù TV",
+            "type": "hls",
+            "url": "https://5a1178b42cc03.streamlock.net/studiopiutv/studiopiutv/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "607080radio",
+                "name": "60 70 80 TV",
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/607080stream/607080stream/playlist.m3u8"
+            }]
         },
         {
             "lcn": 80,
@@ -427,6 +434,13 @@
             "name": "Amaranto Channel",
             "type": "hls",
             "url": "https://10529e63b0a84fb6bdf487096cc5eaab.msvdn.net/live/S10857183/qMq5TNxA3ouH/playlist.m3u8"
+        },
+        {
+            "lcn": 111,
+            "logo": "tuachannel",
+            "name": "TUA Channel",
+            "type": "hls",
+            "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/playlist.m3u8"        
         },
         {
             "lcn": 112,

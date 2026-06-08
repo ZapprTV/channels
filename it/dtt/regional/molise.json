@@ -148,14 +148,6 @@
             "url": "https://5f22d76e220e1.streamlock.net/italiacable/italiacable/playlist.m3u8"
         },
         {
-            "lcn": 85,
-            "logo": "6onair",
-            "name": "6 OnAir",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/35.m3u8",
-            "cssfix": "letterbox"
-        },
-        {
             "lcn": 89,
             "logo": "teleuniverso",
             "name": "Teleuniverso",

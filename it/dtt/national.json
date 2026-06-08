@@ -53,14 +53,14 @@
             "type": "hls",
             "url": "https://pb-o0zu14lv7kvp9.akamaized.net/index.m3u8",
             "license": "widevine",
-            "licensedetails": "https://alwaysdata-api.zappr.stream/wbd-drm",
+            "licensedetails": "https://api.zappr.stream/wbd-drm",
             "epg": {
                 "source": "blue",
                 "id": "118"
             },
             "geoblock": {
                 "type": "dash",
-                "url": "https://alwaysdata-api.zappr.stream/nove.mpd?clearkeyPlayer.maxQuality=720",
+                "url": "https://api.zappr.stream/nove.mpd?clearkeyPlayer.maxQuality=720",
                 "license": "clearkey",
                 "licensedetails": {
                     "010043c37b66261b7b08a4420e871324": "abe412fe39ba5eff6ff576a6cdd8b845",
@@ -127,14 +127,14 @@
             "type": "hls",
             "url": "https://pb-96zvdrcpxomf6.akamaized.net/index.m3u8",
             "license": "widevine",
-            "licensedetails": "https://alwaysdata-api.zappr.stream/wbd-drm",
+            "licensedetails": "https://api.zappr.stream/wbd-drm",
             "epg": {
                 "source": "blue",
                 "id": "346"
             },
             "geoblock": {
                 "type": "dash",
-                "url": "https://alwaysdata-api.zappr.stream/realtime.mpd?clearkeyPlayer.maxQuality=720",
+                "url": "https://api.zappr.stream/realtime.mpd?clearkeyPlayer.maxQuality=720",
                 "license": "clearkey",
                 "licensedetails": {
                     "0100f7e1e92039dcbf28d85af51e1fa3": "a70ae41bc0cf1adfd58563e62d1bfb8f",
@@ -169,14 +169,14 @@
             "type": "hls",
             "url": "https://pb-ikxuqadisnhot.akamaized.net/index.m3u8",
             "license": "widevine",
-            "licensedetails": "https://alwaysdata-api.zappr.stream/wbd-drm",
+            "licensedetails": "https://api.zappr.stream/wbd-drm",
             "epg": {
                 "source": "blue",
                 "id": "1348"
             },
             "geoblock": {
                 "type": "dash",
-                "url": "https://alwaysdata-api.zappr.stream/foodnetwork.mpd?clearkeyPlayer.maxQuality=720",
+                "url": "https://api.zappr.stream/foodnetwork.mpd?clearkeyPlayer.maxQuality=720",
                 "license": "clearkey",
                 "licensedetails": {
                     "0100da20381b6e3a3dac1914b5769a54": "7bc7175607cfc6814fd67bf50b8aeecb",
@@ -212,14 +212,14 @@
             "type": "hls",
             "url": "https://pb-n9406rwl5wx1t.akamaized.net/index.m3u8",
             "license": "widevine",
-            "licensedetails": "https://alwaysdata-api.zappr.stream/wbd-drm",
+            "licensedetails": "https://api.zappr.stream/wbd-drm",
             "epg": {
                 "source": "blue",
                 "id": "124"
             },
             "geoblock": {
                 "type": "dash",
-                "url": "https://alwaysdata-api.zappr.stream/discovery.mpd?clearkeyPlayer.maxQuality=720",
+                "url": "https://api.zappr.stream/discovery.mpd?clearkeyPlayer.maxQuality=720",
                 "license": "clearkey",
                 "licensedetails": {
                     "0100108b761bb5edac85461e0bb3fb0d": "068b3fba256e1c983bec36ff9172ec2e",
@@ -243,14 +243,14 @@
             "type": "hls",
             "url": "https://pb-vi6d4mucmrwpo.akamaized.net/index.m3u8",
             "license": "widevine",
-            "licensedetails": "https://alwaysdata-api.zappr.stream/wbd-drm",
+            "licensedetails": "https://api.zappr.stream/wbd-drm",
             "epg": {
                 "source": "blue",
                 "id": "191"
             },
             "geoblock": {
                 "type": "dash",
-                "url": "https://alwaysdata-api.zappr.stream/giallo.mpd?clearkeyPlayer.maxQuality=720",
+                "url": "https://api.zappr.stream/giallo.mpd?clearkeyPlayer.maxQuality=720",
                 "license": "clearkey",
                 "licensedetails": {
                     "010058ec487d57e3cfab7fdde6015993": "d14148377cfcc9349a9853bcee8e557a",
@@ -272,7 +272,7 @@
             "name": "K2",
             "hd": true,
             "type": "dash",
-            "url": "https://alwaysdata-api.zappr.stream/k2.mpd",
+            "url": "https://api.zappr.stream/k2.mpd",
             "license": "clearkey",
             "licensedetails": {
                 "0100f3b37d2a3ad2542d78d000ff91fa": "507ead932fe25e6f1e3ba0fc39fc7040",
@@ -293,7 +293,7 @@
             "name": "Frisbee",
             "hd": true,
             "type": "dash",
-            "url": "https://alwaysdata-api.zappr.stream/frisbee.mpd",
+            "url": "https://api.zappr.stream/frisbee.mpd",
             "license": "clearkey",
             "licensedetails": {
                 "0100c4e62e71f8234dd351c39719f289": "54e36b8081149f82fede8a073bb849ea",
@@ -342,14 +342,14 @@
             "type": "hls",
             "url": "https://pb-lkmzny7qo98vp.akamaized.net/index.m3u8",
             "license": "widevine",
-            "licensedetails": "https://alwaysdata-api.zappr.stream/wbd-drm",
+            "licensedetails": "https://api.zappr.stream/wbd-drm",
             "epg": {
                 "source": "blue",
                 "id": "137"
             },
             "geoblock": {
                 "type": "dash",
-                "url": "https://alwaysdata-api.zappr.stream/dmax.mpd?clearkeyPlayer.maxQuality=720",
+                "url": "https://api.zappr.stream/dmax.mpd?clearkeyPlayer.maxQuality=720",
                 "license": "clearkey",
                 "licensedetails": {
                     "01003b85994dc3274165ac2d2bc1c0b0": "e35f031bcaa1714ac57a022fb26f135f",
@@ -382,14 +382,14 @@
             "type": "hls",
             "url": "https://pb-06u3v3mpztvam.akamaized.net/index.m3u8",
             "license": "widevine",
-            "licensedetails": "https://alwaysdata-api.zappr.stream/wbd-drm",
+            "licensedetails": "https://api.zappr.stream/wbd-drm",
             "epg": {
                 "source": "blue",
                 "id": "1646"
             },
             "geoblock": {
                 "type": "dash",
-                "url": "https://alwaysdata-api.zappr.stream/hgtv.mpd?clearkeyPlayer.maxQuality=720",
+                "url": "https://api.zappr.stream/hgtv.mpd?clearkeyPlayer.maxQuality=720",
                 "license": "clearkey",
                 "licensedetails": {
                     "0100a41cbf2b765bd32b545cba44bc8e": "21e9b8bd5db5a65a6b2d4160bae8ffcc",
@@ -413,7 +413,7 @@
             "type": "hls",
             "url": "https://pb-i5a8gbryxtlqs.akamaized.net/index.m3u8",
             "license": "widevine",
-            "licensedetails": "https://alwaysdata-api.zappr.stream/wbd-drm",
+            "licensedetails": "https://api.zappr.stream/wbd-drm",
             "epg": {
                 "source": "blue",
                 "id": "1384"

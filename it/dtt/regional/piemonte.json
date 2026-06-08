@@ -112,6 +112,13 @@
             }]
         },
         {
+            "lcn": 13,
+            "logo": "rete7.svg",
+            "name": "Rete 7",
+            "type": "hls",
+            "url": "https://stream.ets-sistemi.it:2020/hls/rete7-live/rete7-live.m3u8"
+        },
+        {
             "lcn": 14,
             "logo": "primantenna",
             "name": "Primantenna",
@@ -292,11 +299,60 @@
             "url": "https://j78dpr7nyq5r-hls-live.mariatvcdn.it/teleradiopace4/13d74f2cfe921bfbc262697203d47d8f.sdp/playlist.m3u8"
         },
         {
+            "lcn": 117,
+            "logo": "italiacable",
+            "name": "ItaliaCable",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/italiacable/italiacable/playlist.m3u8"
+        },
+        {
+            "lcn": 178,
+            "logo": "rannews",
+            "name": "RAN News",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranwes/playlist.m3u8" 
+        },
+        {
+            "lcn": 179,
+            "logo": "rangerm",
+            "name": "RAN Germ",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/rangerm/playlist.m3u8" 
+        },
+        {
+            "lcn": 180,
+            "logo": "ranslo",
+            "name": "RAN Slo",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranslo/playlist.m3u8" 
+        },
+        {
+            "lcn": 181,
+            "logo": "ranfriul",
+            "name": "RAN Friul",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranfriul/playlist.m3u8" 
+        },
+        {
+            "lcn": 182,
+            "logo": "trylime",
+            "name": "Try Lime",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/trylaim/playlist.m3u8"
+        },
+        {
             "lcn": 351,
             "logo": "70-80",
             "name": "70-80.it",
             "type": "hls",
             "url": "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8"
+        },
+        {
+            "lcn": 354,
+            "logo": "ranstereo",
+            "name": "RAN Stereo",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranstereo/playlist.m3u8" 
         }
     ]
 }

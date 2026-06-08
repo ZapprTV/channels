@@ -154,13 +154,6 @@
                 "url": "https://5a1178b42cc03.streamlock.net/RRomaNetwork/RRomaNetwork/playlist.m3u8"
             },
             {
-                "sublcn": 2,
-                "logo": "rc88.svg",
-                "name": "RC88",
-                "type": "hls",
-                "url": "https://giatv.bozztv.com/giatv/giatv-centroitalia/centroitalia/playlist.m3u8"
-            },
-            {
                 "sublcn": 3,
                 "logo": "supertv",
                 "name": "SuperTV",
@@ -784,11 +777,18 @@
             }
         },
         {
-            "lcn": 88,
-            "logo": "rc88.svg",
-            "name": "RC88",
+            "lcn": 89,
+            "logo": "studiopiù",
+            "name": "StudioPiù TV",
             "type": "hls",
-            "url": "https://giatv.bozztv.com/giatv/giatv-centroitalia/centroitalia/playlist.m3u8"
+            "url": "https://5a1178b42cc03.streamlock.net/studiopiutv/studiopiutv/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "607080radio",
+                "name": "60 70 80 TV",
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/607080stream/607080stream/playlist.m3u8"
+            }]
         },
         {
             "lcn": 91,
@@ -1005,12 +1005,19 @@
             "url": "UCkwbN2a1L1H6P9rcA7FhAqg"
         },
         {
-            "lcn": 777,
-            "logo": "radioquattro",
-            "name": "Radio Quattro",
+            "lcn": 788,
+            "logo": "romanticaradio.svg",
+            "name": "Romantica Radio",
             "type": "audio",
-            "url": "http://188.165.206.81:28001/stream",
-            "http": true
+            "url": "https://onair18.xdevel.com/proxy/romantica_ice?mp=/romantica",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "romanticaradio.svg",
+                "name": "Romantica TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8"
+            }]
         }
     ]
 }

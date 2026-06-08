@@ -167,14 +167,6 @@
             "url": "https://64b16f23efbee.streamlock.net/gustotv/gustotv/playlist.m3u8"
         },
         {
-            "lcn": 85,
-            "logo": "6onair",
-            "name": "6 OnAir",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/35.m3u8",
-            "cssfix": "letterbox"
-        },
-        {
             "lcn": 87,
             "logo": "veratv.svg",
             "name": "Vera TV",
@@ -223,10 +215,10 @@
         },
         {
             "lcn": 90,
-            "logo": "tvyesitalia",
-            "name": "TV Yes",
+            "logo": "energytv",
+            "name": "Energy TV",
             "type": "hls",
-            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/playlist.m3u8"
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/energy/playlist.m3u8"
         },
         {
             "lcn": 94,
@@ -301,11 +293,103 @@
             "url": "https://5a1178b42cc03.streamlock.net/trsptv/trsptv/playlist.m3u8"
         },
         {
+            "lcn": 110,
+            "logo": "radiojukeboxcalabria",
+            "name": "Radio JukeBox TV",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/radiojukeboxtv/radiojukeboxtv/playlist.m3u8"
+        },
+        {
             "lcn": 111,
             "logo": "adn24",
             "name": "ADN24",
             "type": "hls",
             "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
+        },
+        {
+            "lcn": 119,
+            "logo": "standbytv",
+            "name": "Standby TV",
+            "type": "hls",
+            "url": "https://5926fc9c7c5b2.streamlock.net/standbytv/standbytv/playlist.m3u8"
+        },
+        {
+            "lcn": 175,
+            "logo": "telepordenone",
+            "name": "Telepordenone",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/telepordenone/playlist.m3u8"
+        },
+        {
+            "lcn": 175,
+            "logo": "motoritvadn",
+            "name": "Motori TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8"
+        },
+        {
+            "lcn": 176,
+            "logo": "easyanditaly",
+            "name": "Easy & Italy",
+            "type": "hls",
+            "url": "https://5926fc9c7c5b2.streamlock.net/bjxypgjasy/bjxypgjasy/playlist.m3u8"
+        },
+        {
+            "lcn": 176,
+            "logo": "videoregioneran",
+            "name": "Videoregione",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/videoregione/playlist.m3u8"
+        },
+        {
+            "lcn": 177,
+            "logo": "shopping",
+            "name": "Shopping",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/shopping/playlist.m3u8" 
+        },
+        {
+            "lcn": 178,
+            "logo": "larockaforte",
+            "name": "La Rockaforte TV",
+            "type": "hls",
+            "url": "https://5926fc9c7c5b2.streamlock.net/npwsqkmzjp/npwsqkmzjp/playlist.m3u8"
+        },
+        {
+            "lcn": 178,
+            "logo": "canalfurlan",
+            "name": "Canal Furlan",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/canalfurlan/playlist.m3u8"
+        },
+        {
+            "lcn": 191,
+            "logo": "trylime",
+            "name": "Try Lime",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/trylaim/playlist.m3u8"
+        },
+        {
+            "lcn": 196,
+            "logo": "rangerm",
+            "name": "RAN Germ",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/rangerm/playlist.m3u8" 
+        },
+        {
+            "lcn": 197,
+            "logo": "ranslo",
+            "name": "RAN Slo",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranslo/playlist.m3u8" 
+        },
+        {
+            "lcn": 198,
+            "logo": "ranfriul",
+            "name": "RAN Friul",
+            "type": "hls",
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranfriul/playlist.m3u8" 
         },
         {
             "lcn": 210,

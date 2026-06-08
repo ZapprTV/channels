@@ -633,6 +633,27 @@
             "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
         },
         {
+            "lcn": 117,
+            "logo": "italiacable",
+            "name": "ItaliaCable",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/italiacable/italiacable/playlist.m3u8"
+        },
+        {
+            "lcn": 118,
+            "logo": "studiopiù",
+            "name": "StudioPiù TV",
+            "type": "hls",
+            "url": "https://5a1178b42cc03.streamlock.net/studiopiutv/studiopiutv/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "607080radio",
+                "name": "60 70 80 TV",
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/607080stream/607080stream/playlist.m3u8"
+            }]
+        },
+        {
             "lcn": 119,
             "logo": "gustotv",
             "name": "Gusto TV",
@@ -648,12 +669,47 @@
             "url": "https://64b16f23efbee.streamlock.net/motoritv/motoritv/playlist.m3u8"
         },
         {
+            "lcn": 176,
+            "logo": "tuachannel",
+            "name": "TUA Channel",
+            "type": "hls",
+            "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/playlist.m3u8"        
+        },
+        {
+            "lcn": 177,
+            "logo": "promovideotv",
+            "name": "PromovideoTV",
+            "type": "hls",
+            "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"        
+        },
+        {
+            "lcn": 178,
+            "logo": "turismotv",
+            "name": "Turismo TV",
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/turismotv/turismotv/playlist.m3u8"
+        },
+        {
             "lcn": 179,
             "logo": "businesschannel",
             "name": "Business Channel",
             "hd": true,
             "type": "hls",
             "url": "https://64b16f23efbee.streamlock.net/businesschannel/businesschannel/playlist.m3u8"
+        },
+        {
+            "lcn": 180,
+            "logo": "tvyesitalia",
+            "name": "TV Yes",
+            "type": "hls",
+            "url": "https://tsw.streamingwebtv24.it:1936/inteccdn6/inteccdn6/playlist.m3u8"
+        },
+        {
+            "lcn": 193,
+            "logo": "lombardiatv",
+            "name": "Lombardia TV",
+            "type": "hls",
+            "url": "https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8"
         },
         {
             "lcn": 351,

@@ -36,8 +36,9 @@
             "lcn": 13,
             "logo": "trm",
             "name": "TRM",
-            "type": "iframe",
-            "url": "https://stream.place/embed/trm.zappr.stream?muted=false"
+            "type": "hls",
+            "url": "https://api.zappr.stream/trm.m3u8",
+            "cssfix": "stretch"
         },
         {
             "lcn": 14,
