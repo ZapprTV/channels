@@ -1674,17 +1674,27 @@
                 "url": "https://stream.rcs.revma.com/867pnhne54uvv"
             },
             {
-                "categorySeparator": "Radio"
+                "categorySeparator": "Match Music"
             },
             {
                 "sublcn": 21,
+                "logo": "matchmusic",
+                "name": "Match Music",
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/MATCHMUSIC/MATCHMUSIC/playlist.m3u8"
+            },
+            {
+                "categorySeparator": "Radio"
+            },
+            {
+                "sublcn": 22,
                 "logo": "radiosanremo",
                 "name": "Radio Sanremo",
                 "type": "audio",
                 "url": "https://nr12.newradio.it:8838/stream"
             },
             {
-                "sublcn": 22,
+                "sublcn": 23,
                 "logo": "radioveneziadab",
                 "name": "Radio Venezia",
                 "type": "audio",
@@ -1694,7 +1704,7 @@
                 "categorySeparator": "News"
             },
             {
-                "sublcn": 23,
+                "sublcn": 24,
                 "logo": "france24.svg",
                 "name": "France 24",
                 "subtitle": "(in inglese)",
@@ -1707,7 +1717,7 @@
                 }
             },
             {
-                "sublcn": 24,
+                "sublcn": 25,
                 "logo": "livenowfromfox.svg",
                 "name": "LiveNOW from FOX",
                 "hd": true,
@@ -1715,7 +1725,7 @@
                 "url": "https://aka-live1050.delivery.roku.com/eaf7d889-16e0-4c14-a299-a2932df9f467/t2-origin/out/v1/live.m3u8"
             },
             {
-                "sublcn": 25,
+                "sublcn": 26,
                 "logo": "skynews.svg",
                 "name": "Sky News",
                 "hd": true,
