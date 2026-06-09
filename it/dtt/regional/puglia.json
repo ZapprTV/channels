@@ -246,9 +246,13 @@
             "lcn": 76,
             "logo": "trc",
             "name": "TRC",
-            "type": "hls",
-            "url": "https://stream7.livinlive.it/trc/trc/playlist.m3u8",
-            "license": "clearkey"
+            "type": "dash",
+            "url": "https://stream7.livinlive.it/trc/trc/manifest.mpd",
+            "fallback": {
+                "type": "hls",
+                "url": "https://stream7.livinlive.it/trc/trc/playlist.m3u8",
+                "license": "clearkey"
+            }
         },
         {
             "lcn": 77,
