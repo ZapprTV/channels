@@ -354,7 +354,8 @@
             "name": "TRL",
             "hd": true,
             "type": "hls",
-            "url": "https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8"
+            "url": "https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8",
+            "license": "clearkey"
         },
         {
             "lcn": 81,
