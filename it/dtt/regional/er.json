@@ -443,7 +443,7 @@
                 "logo": "telereporter",
                 "name": "Telereporter",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telereporter/telereporter/playlist.m3u8",
+                "url": "https://64b16f23efbee.streamlock.net/telereporter/telereporter/playlist.m3u8",
                 "epg": {
                     "source": "publirose",
                     "id": "telereporter"
@@ -454,7 +454,7 @@
                 "logo": "telecampione.svg",
                 "name": "Telecampione",
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/telecampione/telecampione/playlist.m3u8",
+                "url": "https://64b16f23efbee.streamlock.net/telecampione/telecampione/playlist.m3u8",
                 "epg": {
                     "source": "publirose",
                     "id": "telecampione"
@@ -550,7 +550,7 @@
             "logo": "italia8prestige",
             "name": "Italia 8 Prestige",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/italia8prestige/italia8prestige/playlist.m3u8"
+            "url": "https://64b16f23efbee.streamlock.net/italia8prestige/italia8prestige/playlist.m3u8"
         },
         {
             "lcn": 97,
