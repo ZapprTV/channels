@@ -75,7 +75,7 @@
                 "name": "Virgo Radio",
                 "radio": "video",
                 "type": "hls",
-                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"        
+                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"
             },
             {
                 "sublcn": 9,
@@ -105,7 +105,7 @@
                 "name": "Radio Fiemme",
                 "radio": true,
                 "type": "hls",
-                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"  
+                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"
             },
             {
                 "sublcn": 13,
@@ -113,7 +113,7 @@
                 "name": "RVS",
                 "radio": true,
                 "type": "hls",
-                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"                
+                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"
             },
             {
                 "sublcn": 14,
@@ -127,7 +127,7 @@
                 "logo": "radiocafè",
                 "name": "Radio Cafè",
                 "type": "audio",
-                "url": "https://geminione.it/proxy/test/stream"  
+                "url": "https://geminione.it/proxy/test/stream"
             }]
         },
         {
@@ -204,7 +204,7 @@
                 "name": "Virgo Radio",
                 "radio": "video",
                 "type": "hls",
-                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"        
+                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"
             },
             {
                 "sublcn": 9,
@@ -234,7 +234,7 @@
                 "name": "Radio Fiemme",
                 "radio": true,
                 "type": "hls",
-                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"  
+                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"
             },
             {
                 "sublcn": 13,
@@ -242,7 +242,7 @@
                 "name": "RVS",
                 "radio": true,
                 "type": "hls",
-                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"                
+                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"
             },
             {
                 "sublcn": 14,
@@ -256,7 +256,7 @@
                 "logo": "radiocafè",
                 "name": "Radio Cafè",
                 "type": "audio",
-                "url": "https://geminione.it/proxy/test/stream"  
+                "url": "https://geminione.it/proxy/test/stream"
             }]
         },
         {
@@ -444,9 +444,9 @@
                 "url": "https://fl-009.live.p7s1video.net/1dd88334/t_009/br-sued-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "a18d46b072de1f77064fda628ba7b2b7": "180002954c06e10e7d584c2678227b2f", 
-                    "0939d14125cb5234b1fccbdae4baa9f9": "542774b9341e46458549f76ef698a09a", 
-                    "c0aaa3d273e05adabc62d1c4a926f68b": "2c349b9e50c11d20561daca7231f22c3", 
+                    "a18d46b072de1f77064fda628ba7b2b7": "180002954c06e10e7d584c2678227b2f",
+                    "0939d14125cb5234b1fccbdae4baa9f9": "542774b9341e46458549f76ef698a09a",
+                    "c0aaa3d273e05adabc62d1c4a926f68b": "2c349b9e50c11d20561daca7231f22c3",
                     "8edb0c6e3e4359ea8ac0b0255577f16e": "feaf6861d642a1466cfa99fd8af1a31a"
                 },
                 "epg": {
@@ -482,9 +482,9 @@
                 "url": "https://ac-009.live.p7s1video.net/6dd7239f/t_009/mdr-sanhalt-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "3e731af4d7e42385180a66a22cfe7c8d": "6e8d7efc571e7e0d8635eebfacc9daab", 
-                    "d43efd051b9f53cbbcbfc2b5a51cdc56": "7e355dd14f81d43a63644543cf2847ac", 
-                    "ee22f90e626658aaab88598f98ad8b51": "ef8045c4c0b75559e7f0d3440677da30", 
+                    "3e731af4d7e42385180a66a22cfe7c8d": "6e8d7efc571e7e0d8635eebfacc9daab",
+                    "d43efd051b9f53cbbcbfc2b5a51cdc56": "7e355dd14f81d43a63644543cf2847ac",
+                    "ee22f90e626658aaab88598f98ad8b51": "ef8045c4c0b75559e7f0d3440677da30",
                     "f34b3bb2a7e05b63937c42f0b2cb78ef": "a35bd48967ecfa4627c38792b682fc82"
                 },
                 "epg": {
@@ -501,9 +501,9 @@
                 "url": "https://ac-009.live.p7s1video.net/f8f0bacf/t_009/ndr-nds-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "591b0396e997865a9df06f1f181aaf60": "5b645af601596c3aa519648640488dfe", 
-                    "d6617b63218a553ba4f50a51da7396b6": "d74e35eb28c22ce1cdf2bb775ef8222a", 
-                    "b1e98396fa5a553689f42fad01514413": "1d87507ef4a9ccd504550ccd6f10b511", 
+                    "591b0396e997865a9df06f1f181aaf60": "5b645af601596c3aa519648640488dfe",
+                    "d6617b63218a553ba4f50a51da7396b6": "d74e35eb28c22ce1cdf2bb775ef8222a",
+                    "b1e98396fa5a553689f42fad01514413": "1d87507ef4a9ccd504550ccd6f10b511",
                     "931a426c8f335c0590f8b4d441963441": "441d0cfcfa407774a5da233fc9b7a3b3"
                 },
                 "epg": {
@@ -520,9 +520,9 @@
                 "url": "https://ac-009.live.p7s1video.net/be49eac2/t_009/rbb-berlin-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "a7b23bb2b74ede61da5767f95b60b652": "61db8900af8ba6c5174eaddaf71a9984", 
-                    "9dfe93f63be851319027a5caf9242ac7": "f418bd3f004f0c01f9adcf84789553f5", 
-                    "ac6e1b3dd3975fa8ab861df9401efcff": "1da99a28a554b0e650980c6a8dc59b66", 
+                    "a7b23bb2b74ede61da5767f95b60b652": "61db8900af8ba6c5174eaddaf71a9984",
+                    "9dfe93f63be851319027a5caf9242ac7": "f418bd3f004f0c01f9adcf84789553f5",
+                    "ac6e1b3dd3975fa8ab861df9401efcff": "1da99a28a554b0e650980c6a8dc59b66",
                     "5013a46f6552527584d6b21ee7734a7f": "a21e963b7e853098bda4a78b75a93c9f"
                 },
                 "epg": {
@@ -552,9 +552,9 @@
                 "url": "https://ac-009.live.p7s1video.net/e081fbe2/t_009/swr-bw-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "1e1ff9256e9ec568621af863c9366a16": "0404f37da5b55d3d946607a070ae958e", 
-                    "8cf2f97c38ba541ea731500c99a16325": "6361cf735fad262edc8e5167372f88d4", 
-                    "72256986f5b959999a894c1f1e6248b5": "de3882c48327e3abc3823f17c400c522", 
+                    "1e1ff9256e9ec568621af863c9366a16": "0404f37da5b55d3d946607a070ae958e",
+                    "8cf2f97c38ba541ea731500c99a16325": "6361cf735fad262edc8e5167372f88d4",
+                    "72256986f5b959999a894c1f1e6248b5": "de3882c48327e3abc3823f17c400c522",
                     "efadf112a0d45212b919897eaa09f62a": "4c8703c2c1c7d7181ce3761e39e1dc70"
                 },
                 "epg": {
@@ -571,9 +571,9 @@
                 "url": "https://ac-009.live.p7s1video.net/1c2de94d/t_009/wdr-duesseldorf-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "7324b82bea5fe1459d9793c0cd77ec25": "135b27a12a1ae10a9d29fd09b138234b", 
-                    "ca31516be9fd5052bec225e406d521d2": "a5e9f945a51dacae4d3e6ba1dfaa4e0e", 
-                    "9e3e99727ace550fb4a9af46a3cf4dd8": "79e423b991cda1cde06158588f934f8a", 
+                    "7324b82bea5fe1459d9793c0cd77ec25": "135b27a12a1ae10a9d29fd09b138234b",
+                    "ca31516be9fd5052bec225e406d521d2": "a5e9f945a51dacae4d3e6ba1dfaa4e0e",
+                    "9e3e99727ace550fb4a9af46a3cf4dd8": "79e423b991cda1cde06158588f934f8a",
                     "e6e5096dfcd555db8babdb58586c650f": "35fe30d82587c8035cbce1a1a5d1e4f7"
                 },
                 "epg": {
@@ -590,9 +590,9 @@
                 "url": "https://fl-009.live.p7s1video.net/24d00d06/t_009/one-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "25065eb40c3d24bcea5f9ce97983cfbe": "af3a35f0e545452b55f910de19f87f9b", 
-                    "4d8d857269d7529b8baf5b21aef97c68": "c621a0ad92d8609009a519ee73e3b5f4", 
-                    "4e77f3efa08c58ad9cd8ed5dd7760c16": "09c45c259ddcdfef57a369d1b04e693b", 
+                    "25065eb40c3d24bcea5f9ce97983cfbe": "af3a35f0e545452b55f910de19f87f9b",
+                    "4d8d857269d7529b8baf5b21aef97c68": "c621a0ad92d8609009a519ee73e3b5f4",
+                    "4e77f3efa08c58ad9cd8ed5dd7760c16": "09c45c259ddcdfef57a369d1b04e693b",
                     "a17cd5d0f4ca53a69230c9bd9bb41423": "82edbe719aca16e598db98f165d905c3"
                 },
                 "epg": {
@@ -609,9 +609,9 @@
                 "url": "https://fl-009.live.p7s1video.net/229e1dea/t_009/arte-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "a6e3cd6dc6c421c9c2ad094eb75f2f36": "825c5f804132c13de0b54a5c1dbb605f", 
-                    "bf8c49c17cfc559d97cd75f010c8f459": "2aee8c465afa362e1518e9b66fee6827", 
-                    "aa4e7123d9f65798a306051dfa3a2c9d": "ae5f2dff733952f9d09269e0310b93e7", 
+                    "a6e3cd6dc6c421c9c2ad094eb75f2f36": "825c5f804132c13de0b54a5c1dbb605f",
+                    "bf8c49c17cfc559d97cd75f010c8f459": "2aee8c465afa362e1518e9b66fee6827",
+                    "aa4e7123d9f65798a306051dfa3a2c9d": "ae5f2dff733952f9d09269e0310b93e7",
                     "4f05df0b9a7b5383a605df4770ddb21b": "0ca282818b1455c8ae25af05b5be8c8c"
                 },
                 "epg": {
@@ -628,9 +628,9 @@
                 "url": "https://fl-009.live.p7s1video.net/94564473/t_009/kika-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "17032464859a4024cf498615553058a7": "b5587682021a95ca441ed4c6fbbbfbda", 
-                    "827726b18440584b87ae4746250895a1": "0a8676e8b4cc30071f3db34d79256d74", 
-                    "892ef0772ad5512887913106f01146c7": "72edf5e19d3db30112b7aa1cdf4cd145", 
+                    "17032464859a4024cf498615553058a7": "b5587682021a95ca441ed4c6fbbbfbda",
+                    "827726b18440584b87ae4746250895a1": "0a8676e8b4cc30071f3db34d79256d74",
+                    "892ef0772ad5512887913106f01146c7": "72edf5e19d3db30112b7aa1cdf4cd145",
                     "8fe1cfd344ed5abfaf794cfe55b03e38": "9253989c6d24e1ff56087ba3aef55522"
                 },
                 "epg": {
@@ -647,9 +647,9 @@
                 "url": "https://fl-009.live.p7s1video.net/4cb9b4be/t_009/3sat-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "bef45d69a359c3c5ab265b807b0b11ee": "3572bdc32850a0d0e4a95bffd000383c", 
-                    "d8958c9208065f25a365a66a49ad44bd": "5bd96fa145739a44a876668b77c44693", 
-                    "21b3c2f352325ac4ab820c83578e87a8": "6264dbb0644b7de9a96ad479d86a963c", 
+                    "bef45d69a359c3c5ab265b807b0b11ee": "3572bdc32850a0d0e4a95bffd000383c",
+                    "d8958c9208065f25a365a66a49ad44bd": "5bd96fa145739a44a876668b77c44693",
+                    "21b3c2f352325ac4ab820c83578e87a8": "6264dbb0644b7de9a96ad479d86a963c",
                     "a9532ab91cf15348a20e7d0c235e0987": "2b2bfa0bfe707eab164686c7b797a6fb"
                 },
                 "epg": {
@@ -666,9 +666,9 @@
                 "url": "https://fl-009.live.p7s1video.net/c6c1d6a6/t_009/ard-alpha-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "e3811b6c5055712b68ce5c6390045e71": "4827ba587155e3d42aa39187c1d661d7", 
-                    "c238ebff48da5aec9d7e6ecd1391ba81": "177643d6b9bf608f4c46268ef8071241", 
-                    "5aee0a8c3e7455f0b7bd938d418428a7": "a0c99399486c28ed2b88b480464853e4", 
+                    "e3811b6c5055712b68ce5c6390045e71": "4827ba587155e3d42aa39187c1d661d7",
+                    "c238ebff48da5aec9d7e6ecd1391ba81": "177643d6b9bf608f4c46268ef8071241",
+                    "5aee0a8c3e7455f0b7bd938d418428a7": "a0c99399486c28ed2b88b480464853e4",
                     "6010b0eee02159cebbef6d4db9782b2f": "d694ce2f27265647b5333aeab74f223c"
                 },
                 "epg": {
@@ -697,9 +697,9 @@
                 "url": "https://fl-009.live.p7s1video.net/b53667fc/t_009/phoenix-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "a3d7008f9be7966a4a5cddecb8c260d5": "5a60e2909c87337b226ad0b5204e90e2", 
-                    "7dcc886d12ac5b2694b55c90c9de78f5": "8fd4da76f59524b9277de700802988e8", 
-                    "3f68e944051254148c30a654add711f8": "9b1da8ed1dd31297ed638a23729a6f68", 
+                    "a3d7008f9be7966a4a5cddecb8c260d5": "5a60e2909c87337b226ad0b5204e90e2",
+                    "7dcc886d12ac5b2694b55c90c9de78f5": "8fd4da76f59524b9277de700802988e8",
+                    "3f68e944051254148c30a654add711f8": "9b1da8ed1dd31297ed638a23729a6f68",
                     "73eb7dba0b2258e3a5258977df651bee": "a9503210bca57967c8d6a68350ecbdb0"
                 },
                 "epg": {
@@ -740,9 +740,9 @@
                 "url": "https://fl-009.live.p7s1video.net/fb3bf60c/t_009/zdfneo-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "49ffb58f18264f3e8ea034146ba05567": "028320c24fe7a575febcf032284dc43c", 
-                    "61aacaadd00e5c80a298bc8e14f83327": "fabedd8fa6db191c53f9ecd6eb9c40bb", 
-                    "712912d75b8352c394b253b7ae830049": "429090d744ef8a10749a57616c1160d1", 
+                    "49ffb58f18264f3e8ea034146ba05567": "028320c24fe7a575febcf032284dc43c",
+                    "61aacaadd00e5c80a298bc8e14f83327": "fabedd8fa6db191c53f9ecd6eb9c40bb",
+                    "712912d75b8352c394b253b7ae830049": "429090d744ef8a10749a57616c1160d1",
                     "c6b515077a5c5d5381031c306bb207c1": "eb81b9f23b128fd8104bd3f954eb2d2e"
                 },
                 "epg": {
@@ -759,9 +759,9 @@
                 "url": "https://fl-009.live.p7s1video.net/817992de/t_009/zdfinfo-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "c798c2ebe9d9963bfc5ee8d7c1829e68": "99c29160ed7a3c768b94ad8f7686acec", 
-                    "4e05ae9a769c5b7e9d78f338e30e3477": "61c099ee0904c8c120b34f82da367855", 
-                    "8607be4154ba52eb85fec84dbcc1984c": "158759e6e3d5e264164d82894f827fa8", 
+                    "c798c2ebe9d9963bfc5ee8d7c1829e68": "99c29160ed7a3c768b94ad8f7686acec",
+                    "4e05ae9a769c5b7e9d78f338e30e3477": "61c099ee0904c8c120b34f82da367855",
+                    "8607be4154ba52eb85fec84dbcc1984c": "158759e6e3d5e264164d82894f827fa8",
                     "a335592be5d8533cacd814e9904ead16": "321054388094a1b82e82a76a61b27e54"
                 },
                 "epg": {
@@ -791,9 +791,9 @@
             "url": "https://fl-003.live.p7s1video.net/378e5cf8/t_003/orf2-at/cenc-default.m3u8",
             "license": "clearkey",
             "licensedetails": {
-                "d481837e9869ef9f236b2e7891ff460e": "c4cca644beeb655996dd7aaac952768f", 
-                "3cd7120f4ca8588c88d0562e68abaceb": "0c1af5a2bb292a6fe805e908366f7fcd", 
-                "45b954c27d9d59b79f48509ebf2f71cc": "70f1d413f580b67ccd048e611712f09b", 
+                "d481837e9869ef9f236b2e7891ff460e": "c4cca644beeb655996dd7aaac952768f",
+                "3cd7120f4ca8588c88d0562e68abaceb": "0c1af5a2bb292a6fe805e908366f7fcd",
+                "45b954c27d9d59b79f48509ebf2f71cc": "70f1d413f580b67ccd048e611712f09b",
                 "035c4f9461b45e149aebfb26b952b848": "2609d8d7fbf0fa51b9e78843ddb389dd"
             },
             "epg": {
@@ -823,9 +823,9 @@
             "url": "https://ac-014.live.p7s1video.net/f2bf4855/t_014/srf1-ch-hd/cenc-default.m3u8",
             "license": "clearkey",
             "licensedetails": {
-                "41c9f3984675be86ed142ee5c9b577cd": "eca7370d90b992146ba9d297edb786ef", 
-                "6e98778a1a7555cb9af36f98739a3d90": "0b371fce8ada2307b19827aede67bd3b", 
-                "f3f88d1b0fb858839a6b8a54af283214": "77ea8cae71bdb3d4f60b504ebf5cdc46", 
+                "41c9f3984675be86ed142ee5c9b577cd": "eca7370d90b992146ba9d297edb786ef",
+                "6e98778a1a7555cb9af36f98739a3d90": "0b371fce8ada2307b19827aede67bd3b",
+                "f3f88d1b0fb858839a6b8a54af283214": "77ea8cae71bdb3d4f60b504ebf5cdc46",
                 "aebc864537e959fda373d255bf4b2ac4": "f56dffd402aeca4511f5ac104544ce15"
             },
             "epg": {
@@ -924,9 +924,9 @@
                 "url": "https://ac-014.live.p7s1video.net/f2bf4855/t_014/srf1-ch-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "41c9f3984675be86ed142ee5c9b577cd": "eca7370d90b992146ba9d297edb786ef", 
-                    "6e98778a1a7555cb9af36f98739a3d90": "0b371fce8ada2307b19827aede67bd3b", 
-                    "f3f88d1b0fb858839a6b8a54af283214": "77ea8cae71bdb3d4f60b504ebf5cdc46", 
+                    "41c9f3984675be86ed142ee5c9b577cd": "eca7370d90b992146ba9d297edb786ef",
+                    "6e98778a1a7555cb9af36f98739a3d90": "0b371fce8ada2307b19827aede67bd3b",
+                    "f3f88d1b0fb858839a6b8a54af283214": "77ea8cae71bdb3d4f60b504ebf5cdc46",
                     "aebc864537e959fda373d255bf4b2ac4": "f56dffd402aeca4511f5ac104544ce15"
                 },
                 "epg": {
@@ -1001,9 +1001,9 @@
             "url": "https://fl-009.live.p7s1video.net/fb3bf60c/t_009/zdfneo-de-hd/cenc-default.m3u8",
             "license": "clearkey",
             "licensedetails": {
-                "49ffb58f18264f3e8ea034146ba05567": "028320c24fe7a575febcf032284dc43c", 
-                "61aacaadd00e5c80a298bc8e14f83327": "fabedd8fa6db191c53f9ecd6eb9c40bb", 
-                "712912d75b8352c394b253b7ae830049": "429090d744ef8a10749a57616c1160d1", 
+                "49ffb58f18264f3e8ea034146ba05567": "028320c24fe7a575febcf032284dc43c",
+                "61aacaadd00e5c80a298bc8e14f83327": "fabedd8fa6db191c53f9ecd6eb9c40bb",
+                "712912d75b8352c394b253b7ae830049": "429090d744ef8a10749a57616c1160d1",
                 "c6b515077a5c5d5381031c306bb207c1": "eb81b9f23b128fd8104bd3f954eb2d2e"
             },
             "epg": {
@@ -1031,9 +1031,9 @@
                 "url": "https://fl-009.live.p7s1video.net/817992de/t_009/zdfinfo-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "c798c2ebe9d9963bfc5ee8d7c1829e68": "99c29160ed7a3c768b94ad8f7686acec", 
-                    "4e05ae9a769c5b7e9d78f338e30e3477": "61c099ee0904c8c120b34f82da367855", 
-                    "8607be4154ba52eb85fec84dbcc1984c": "158759e6e3d5e264164d82894f827fa8", 
+                    "c798c2ebe9d9963bfc5ee8d7c1829e68": "99c29160ed7a3c768b94ad8f7686acec",
+                    "4e05ae9a769c5b7e9d78f338e30e3477": "61c099ee0904c8c120b34f82da367855",
+                    "8607be4154ba52eb85fec84dbcc1984c": "158759e6e3d5e264164d82894f827fa8",
                     "a335592be5d8533cacd814e9904ead16": "321054388094a1b82e82a76a61b27e54"
                 },
                 "epg": {
@@ -1051,9 +1051,9 @@
             "url": "https://fl-009.live.p7s1video.net/4cb9b4be/t_009/3sat-de-hd/cenc-default.m3u8",
             "license": "clearkey",
             "licensedetails": {
-                "bef45d69a359c3c5ab265b807b0b11ee": "3572bdc32850a0d0e4a95bffd000383c", 
-                "d8958c9208065f25a365a66a49ad44bd": "5bd96fa145739a44a876668b77c44693", 
-                "21b3c2f352325ac4ab820c83578e87a8": "6264dbb0644b7de9a96ad479d86a963c", 
+                "bef45d69a359c3c5ab265b807b0b11ee": "3572bdc32850a0d0e4a95bffd000383c",
+                "d8958c9208065f25a365a66a49ad44bd": "5bd96fa145739a44a876668b77c44693",
+                "21b3c2f352325ac4ab820c83578e87a8": "6264dbb0644b7de9a96ad479d86a963c",
                 "a9532ab91cf15348a20e7d0c235e0987": "2b2bfa0bfe707eab164686c7b797a6fb"
             },
             "epg": {
@@ -1070,9 +1070,9 @@
             "url": "https://fl-009.live.p7s1video.net/1dd88334/t_009/br-sued-de-hd/cenc-default.m3u8",
             "license": "clearkey",
             "licensedetails": {
-                "a18d46b072de1f77064fda628ba7b2b7": "180002954c06e10e7d584c2678227b2f", 
-                "0939d14125cb5234b1fccbdae4baa9f9": "542774b9341e46458549f76ef698a09a", 
-                "c0aaa3d273e05adabc62d1c4a926f68b": "2c349b9e50c11d20561daca7231f22c3", 
+                "a18d46b072de1f77064fda628ba7b2b7": "180002954c06e10e7d584c2678227b2f",
+                "0939d14125cb5234b1fccbdae4baa9f9": "542774b9341e46458549f76ef698a09a",
+                "c0aaa3d273e05adabc62d1c4a926f68b": "2c349b9e50c11d20561daca7231f22c3",
                 "8edb0c6e3e4359ea8ac0b0255577f16e": "feaf6861d642a1466cfa99fd8af1a31a"
             },
             "epg": {
@@ -1119,9 +1119,9 @@
                 "url": "https://ac-009.live.p7s1video.net/6dd7239f/t_009/mdr-sanhalt-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "3e731af4d7e42385180a66a22cfe7c8d": "6e8d7efc571e7e0d8635eebfacc9daab", 
-                    "d43efd051b9f53cbbcbfc2b5a51cdc56": "7e355dd14f81d43a63644543cf2847ac", 
-                    "ee22f90e626658aaab88598f98ad8b51": "ef8045c4c0b75559e7f0d3440677da30", 
+                    "3e731af4d7e42385180a66a22cfe7c8d": "6e8d7efc571e7e0d8635eebfacc9daab",
+                    "d43efd051b9f53cbbcbfc2b5a51cdc56": "7e355dd14f81d43a63644543cf2847ac",
+                    "ee22f90e626658aaab88598f98ad8b51": "ef8045c4c0b75559e7f0d3440677da30",
                     "f34b3bb2a7e05b63937c42f0b2cb78ef": "a35bd48967ecfa4627c38792b682fc82"
                 },
                 "epg": {
@@ -1138,9 +1138,9 @@
                 "url": "https://ac-009.live.p7s1video.net/f8f0bacf/t_009/ndr-nds-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "591b0396e997865a9df06f1f181aaf60": "5b645af601596c3aa519648640488dfe", 
-                    "d6617b63218a553ba4f50a51da7396b6": "d74e35eb28c22ce1cdf2bb775ef8222a", 
-                    "b1e98396fa5a553689f42fad01514413": "1d87507ef4a9ccd504550ccd6f10b511", 
+                    "591b0396e997865a9df06f1f181aaf60": "5b645af601596c3aa519648640488dfe",
+                    "d6617b63218a553ba4f50a51da7396b6": "d74e35eb28c22ce1cdf2bb775ef8222a",
+                    "b1e98396fa5a553689f42fad01514413": "1d87507ef4a9ccd504550ccd6f10b511",
                     "931a426c8f335c0590f8b4d441963441": "441d0cfcfa407774a5da233fc9b7a3b3"
                 },
                 "epg": {
@@ -1157,9 +1157,9 @@
                 "url": "https://ac-009.live.p7s1video.net/be49eac2/t_009/rbb-berlin-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "a7b23bb2b74ede61da5767f95b60b652": "61db8900af8ba6c5174eaddaf71a9984", 
-                    "9dfe93f63be851319027a5caf9242ac7": "f418bd3f004f0c01f9adcf84789553f5", 
-                    "ac6e1b3dd3975fa8ab861df9401efcff": "1da99a28a554b0e650980c6a8dc59b66", 
+                    "a7b23bb2b74ede61da5767f95b60b652": "61db8900af8ba6c5174eaddaf71a9984",
+                    "9dfe93f63be851319027a5caf9242ac7": "f418bd3f004f0c01f9adcf84789553f5",
+                    "ac6e1b3dd3975fa8ab861df9401efcff": "1da99a28a554b0e650980c6a8dc59b66",
                     "5013a46f6552527584d6b21ee7734a7f": "a21e963b7e853098bda4a78b75a93c9f"
                 },
                 "epg": {
@@ -1189,9 +1189,9 @@
                 "url": "https://ac-009.live.p7s1video.net/e081fbe2/t_009/swr-bw-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "1e1ff9256e9ec568621af863c9366a16": "0404f37da5b55d3d946607a070ae958e", 
-                    "8cf2f97c38ba541ea731500c99a16325": "6361cf735fad262edc8e5167372f88d4", 
-                    "72256986f5b959999a894c1f1e6248b5": "de3882c48327e3abc3823f17c400c522", 
+                    "1e1ff9256e9ec568621af863c9366a16": "0404f37da5b55d3d946607a070ae958e",
+                    "8cf2f97c38ba541ea731500c99a16325": "6361cf735fad262edc8e5167372f88d4",
+                    "72256986f5b959999a894c1f1e6248b5": "de3882c48327e3abc3823f17c400c522",
                     "efadf112a0d45212b919897eaa09f62a": "4c8703c2c1c7d7181ce3761e39e1dc70"
                 },
                 "epg": {
@@ -1208,9 +1208,9 @@
                 "url": "https://ac-009.live.p7s1video.net/1c2de94d/t_009/wdr-duesseldorf-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "7324b82bea5fe1459d9793c0cd77ec25": "135b27a12a1ae10a9d29fd09b138234b", 
-                    "ca31516be9fd5052bec225e406d521d2": "a5e9f945a51dacae4d3e6ba1dfaa4e0e", 
-                    "9e3e99727ace550fb4a9af46a3cf4dd8": "79e423b991cda1cde06158588f934f8a", 
+                    "7324b82bea5fe1459d9793c0cd77ec25": "135b27a12a1ae10a9d29fd09b138234b",
+                    "ca31516be9fd5052bec225e406d521d2": "a5e9f945a51dacae4d3e6ba1dfaa4e0e",
+                    "9e3e99727ace550fb4a9af46a3cf4dd8": "79e423b991cda1cde06158588f934f8a",
                     "e6e5096dfcd555db8babdb58586c650f": "35fe30d82587c8035cbce1a1a5d1e4f7"
                 },
                 "epg": {
@@ -1227,9 +1227,9 @@
                 "url": "https://fl-009.live.p7s1video.net/24d00d06/t_009/one-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "25065eb40c3d24bcea5f9ce97983cfbe": "af3a35f0e545452b55f910de19f87f9b", 
-                    "4d8d857269d7529b8baf5b21aef97c68": "c621a0ad92d8609009a519ee73e3b5f4", 
-                    "4e77f3efa08c58ad9cd8ed5dd7760c16": "09c45c259ddcdfef57a369d1b04e693b", 
+                    "25065eb40c3d24bcea5f9ce97983cfbe": "af3a35f0e545452b55f910de19f87f9b",
+                    "4d8d857269d7529b8baf5b21aef97c68": "c621a0ad92d8609009a519ee73e3b5f4",
+                    "4e77f3efa08c58ad9cd8ed5dd7760c16": "09c45c259ddcdfef57a369d1b04e693b",
                     "a17cd5d0f4ca53a69230c9bd9bb41423": "82edbe719aca16e598db98f165d905c3"
                 },
                 "epg": {
@@ -1246,9 +1246,9 @@
                 "url": "https://fl-009.live.p7s1video.net/229e1dea/t_009/arte-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "a6e3cd6dc6c421c9c2ad094eb75f2f36": "825c5f804132c13de0b54a5c1dbb605f", 
-                    "bf8c49c17cfc559d97cd75f010c8f459": "2aee8c465afa362e1518e9b66fee6827", 
-                    "aa4e7123d9f65798a306051dfa3a2c9d": "ae5f2dff733952f9d09269e0310b93e7", 
+                    "a6e3cd6dc6c421c9c2ad094eb75f2f36": "825c5f804132c13de0b54a5c1dbb605f",
+                    "bf8c49c17cfc559d97cd75f010c8f459": "2aee8c465afa362e1518e9b66fee6827",
+                    "aa4e7123d9f65798a306051dfa3a2c9d": "ae5f2dff733952f9d09269e0310b93e7",
                     "4f05df0b9a7b5383a605df4770ddb21b": "0ca282818b1455c8ae25af05b5be8c8c"
                 },
                 "epg": {
@@ -1265,9 +1265,9 @@
                 "url": "https://fl-009.live.p7s1video.net/94564473/t_009/kika-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "17032464859a4024cf498615553058a7": "b5587682021a95ca441ed4c6fbbbfbda", 
-                    "827726b18440584b87ae4746250895a1": "0a8676e8b4cc30071f3db34d79256d74", 
-                    "892ef0772ad5512887913106f01146c7": "72edf5e19d3db30112b7aa1cdf4cd145", 
+                    "17032464859a4024cf498615553058a7": "b5587682021a95ca441ed4c6fbbbfbda",
+                    "827726b18440584b87ae4746250895a1": "0a8676e8b4cc30071f3db34d79256d74",
+                    "892ef0772ad5512887913106f01146c7": "72edf5e19d3db30112b7aa1cdf4cd145",
                     "8fe1cfd344ed5abfaf794cfe55b03e38": "9253989c6d24e1ff56087ba3aef55522"
                 },
                 "epg": {
@@ -1284,9 +1284,9 @@
                 "url": "https://fl-009.live.p7s1video.net/4cb9b4be/t_009/3sat-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "bef45d69a359c3c5ab265b807b0b11ee": "3572bdc32850a0d0e4a95bffd000383c", 
-                    "d8958c9208065f25a365a66a49ad44bd": "5bd96fa145739a44a876668b77c44693", 
-                    "21b3c2f352325ac4ab820c83578e87a8": "6264dbb0644b7de9a96ad479d86a963c", 
+                    "bef45d69a359c3c5ab265b807b0b11ee": "3572bdc32850a0d0e4a95bffd000383c",
+                    "d8958c9208065f25a365a66a49ad44bd": "5bd96fa145739a44a876668b77c44693",
+                    "21b3c2f352325ac4ab820c83578e87a8": "6264dbb0644b7de9a96ad479d86a963c",
                     "a9532ab91cf15348a20e7d0c235e0987": "2b2bfa0bfe707eab164686c7b797a6fb"
                 },
                 "epg": {
@@ -1303,9 +1303,9 @@
                 "url": "https://fl-009.live.p7s1video.net/c6c1d6a6/t_009/ard-alpha-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "e3811b6c5055712b68ce5c6390045e71": "4827ba587155e3d42aa39187c1d661d7", 
-                    "c238ebff48da5aec9d7e6ecd1391ba81": "177643d6b9bf608f4c46268ef8071241", 
-                    "5aee0a8c3e7455f0b7bd938d418428a7": "a0c99399486c28ed2b88b480464853e4", 
+                    "e3811b6c5055712b68ce5c6390045e71": "4827ba587155e3d42aa39187c1d661d7",
+                    "c238ebff48da5aec9d7e6ecd1391ba81": "177643d6b9bf608f4c46268ef8071241",
+                    "5aee0a8c3e7455f0b7bd938d418428a7": "a0c99399486c28ed2b88b480464853e4",
                     "6010b0eee02159cebbef6d4db9782b2f": "d694ce2f27265647b5333aeab74f223c"
                 },
                 "epg": {
@@ -1334,9 +1334,9 @@
                 "url": "https://fl-009.live.p7s1video.net/b53667fc/t_009/phoenix-de-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "a3d7008f9be7966a4a5cddecb8c260d5": "5a60e2909c87337b226ad0b5204e90e2", 
-                    "7dcc886d12ac5b2694b55c90c9de78f5": "8fd4da76f59524b9277de700802988e8", 
-                    "3f68e944051254148c30a654add711f8": "9b1da8ed1dd31297ed638a23729a6f68", 
+                    "a3d7008f9be7966a4a5cddecb8c260d5": "5a60e2909c87337b226ad0b5204e90e2",
+                    "7dcc886d12ac5b2694b55c90c9de78f5": "8fd4da76f59524b9277de700802988e8",
+                    "3f68e944051254148c30a654add711f8": "9b1da8ed1dd31297ed638a23729a6f68",
                     "73eb7dba0b2258e3a5258977df651bee": "a9503210bca57967c8d6a68350ecbdb0"
                 },
                 "epg": {
@@ -1366,9 +1366,9 @@
             "url": "https://fl-009.live.p7s1video.net/94564473/t_009/kika-de-hd/cenc-default.m3u8",
             "license": "clearkey",
             "licensedetails": {
-                "17032464859a4024cf498615553058a7": "b5587682021a95ca441ed4c6fbbbfbda", 
-                "827726b18440584b87ae4746250895a1": "0a8676e8b4cc30071f3db34d79256d74", 
-                "892ef0772ad5512887913106f01146c7": "72edf5e19d3db30112b7aa1cdf4cd145", 
+                "17032464859a4024cf498615553058a7": "b5587682021a95ca441ed4c6fbbbfbda",
+                "827726b18440584b87ae4746250895a1": "0a8676e8b4cc30071f3db34d79256d74",
+                "892ef0772ad5512887913106f01146c7": "72edf5e19d3db30112b7aa1cdf4cd145",
                 "8fe1cfd344ed5abfaf794cfe55b03e38": "9253989c6d24e1ff56087ba3aef55522"
             },
             "epg": {
@@ -1385,9 +1385,9 @@
             "url": "https://fl-009.live.p7s1video.net/229e1dea/t_009/arte-de-hd/cenc-default.m3u8",
             "license": "clearkey",
             "licensedetails": {
-                "a6e3cd6dc6c421c9c2ad094eb75f2f36": "825c5f804132c13de0b54a5c1dbb605f", 
-                "bf8c49c17cfc559d97cd75f010c8f459": "2aee8c465afa362e1518e9b66fee6827", 
-                "aa4e7123d9f65798a306051dfa3a2c9d": "ae5f2dff733952f9d09269e0310b93e7", 
+                "a6e3cd6dc6c421c9c2ad094eb75f2f36": "825c5f804132c13de0b54a5c1dbb605f",
+                "bf8c49c17cfc559d97cd75f010c8f459": "2aee8c465afa362e1518e9b66fee6827",
+                "aa4e7123d9f65798a306051dfa3a2c9d": "ae5f2dff733952f9d09269e0310b93e7",
                 "4f05df0b9a7b5383a605df4770ddb21b": "0ca282818b1455c8ae25af05b5be8c8c"
             },
             "epg": {
@@ -1460,9 +1460,9 @@
                 "url": "https://ac-014.live.p7s1video.net/f2bf4855/t_014/srf1-ch-hd/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "41c9f3984675be86ed142ee5c9b577cd": "eca7370d90b992146ba9d297edb786ef", 
-                    "6e98778a1a7555cb9af36f98739a3d90": "0b371fce8ada2307b19827aede67bd3b", 
-                    "f3f88d1b0fb858839a6b8a54af283214": "77ea8cae71bdb3d4f60b504ebf5cdc46", 
+                    "41c9f3984675be86ed142ee5c9b577cd": "eca7370d90b992146ba9d297edb786ef",
+                    "6e98778a1a7555cb9af36f98739a3d90": "0b371fce8ada2307b19827aede67bd3b",
+                    "f3f88d1b0fb858839a6b8a54af283214": "77ea8cae71bdb3d4f60b504ebf5cdc46",
                     "aebc864537e959fda373d255bf4b2ac4": "f56dffd402aeca4511f5ac104544ce15"
                 },
                 "epg": {

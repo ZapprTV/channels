@@ -376,7 +376,7 @@
                 "logo": "radiocolonnatv.svg",
                 "name": "Radio Colonna TV",
                 "type": "youtube",
-                "url": "UCFq1ysrvuY3FWFfqXYTBKJA"                
+                "url": "UCFq1ysrvuY3FWFfqXYTBKJA"
             },
             {
                 "sublcn": 3,
@@ -624,7 +624,7 @@
                 "name": "RVS",
                 "radio": true,
                 "type": "hls",
-                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"                
+                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"
             },
             {
                 "sublcn": 20,

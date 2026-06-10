@@ -192,7 +192,7 @@
                 "name": "Aria Pulita",
                 "hd": true,
                 "type": "hls",
-                "url": "https://tv7.zappr.stream/hls/ariapulita.m3u8"  
+                "url": "https://tv7.zappr.stream/hls/ariapulita.m3u8"
             },
             {
                 "sublcn": 7,
@@ -207,14 +207,14 @@
                 "name": "Cafè24",
                 "hd": true,
                 "type": "hls",
-                "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8" 
+                "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8"
             },
             {
                 "sublcn": 9,
                 "logo": "radioadigetv",
                 "name": "Radio Adige TV",
                 "type": "hls",
-                "url": "https://stream9.xdevel.com/video0s976463-1250/stream/playlist.m3u8" 
+                "url": "https://stream9.xdevel.com/video0s976463-1250/stream/playlist.m3u8"
             },
             {
                 "sublcn": 10,
@@ -410,7 +410,7 @@
                 "logo": "radiocafè",
                 "name": "Radio Cafè",
                 "type": "audio",
-                "url": "https://geminione.it/proxy/test/stream"  
+                "url": "https://geminione.it/proxy/test/stream"
             }]
         },
         {
@@ -418,7 +418,7 @@
             "logo": "radioadigetv",
             "name": "Radio Adige TV",
             "type": "hls",
-            "url": "https://stream9.xdevel.com/video0s976463-1250/stream/playlist.m3u8" 
+            "url": "https://stream9.xdevel.com/video0s976463-1250/stream/playlist.m3u8"
         },
         {
             "lcn": 88,
@@ -454,7 +454,7 @@
                 "name": "Aria Pulita",
                 "hd": true,
                 "type": "hls",
-                "url": "https://tv7.zappr.stream/hls/ariapulita.m3u8"  
+                "url": "https://tv7.zappr.stream/hls/ariapulita.m3u8"
             },
             {
                 "sublcn": 6,
@@ -547,21 +547,21 @@
             "logo": "ranfriul",
             "name": "RAN Friul",
             "type": "hls",
-            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranfriul/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranfriul/playlist.m3u8"
         },
         {
             "lcn": 94,
             "logo": "rangerm",
             "name": "RAN Germ",
             "type": "hls",
-            "url": "https://load-balancer.azotosolutions.com/cdnedge34/rangerm/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/rangerm/playlist.m3u8"
         },
         {
             "lcn": 95,
             "logo": "ranslo",
             "name": "RAN Slo",
             "type": "hls",
-            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranslo/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranslo/playlist.m3u8"
         },
         {
             "lcn": 96,

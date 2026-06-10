@@ -218,14 +218,14 @@
             "logo": "tuachannel",
             "name": "TUA Channel",
             "type": "hls",
-            "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/playlist.m3u8"        
+            "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/playlist.m3u8"
         },
         {
             "lcn": 83,
             "logo": "promovideotv",
             "name": "PromovideoTV",
             "type": "hls",
-            "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"        
+            "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"
         },
         {
             "lcn": 87,
@@ -267,28 +267,28 @@
             "logo": "ranfriul",
             "name": "RAN Friul",
             "type": "hls",
-            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranfriul/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranfriul/playlist.m3u8"
         },
         {
             "lcn": 94,
             "logo": "rangerm",
             "name": "RAN Germ",
             "type": "hls",
-            "url": "https://load-balancer.azotosolutions.com/cdnedge34/rangerm/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/rangerm/playlist.m3u8"
         },
         {
             "lcn": 95,
             "logo": "ranslo",
             "name": "RAN Slo",
             "type": "hls",
-            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranslo/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranslo/playlist.m3u8"
         },
         {
             "lcn": 96,
             "logo": "shopping",
             "name": "Shopping",
             "type": "hls",
-            "url": "https://load-balancer.azotosolutions.com/cdnedge34/shopping/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/shopping/playlist.m3u8"
         },
         {
             "lcn": 97,
@@ -309,7 +309,7 @@
             "logo": "rannews",
             "name": "RAN News",
             "type": "hls",
-            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranwes/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranwes/playlist.m3u8"
         },
         {
             "lcn": 115,
@@ -330,7 +330,7 @@
             "logo": "ranstereo",
             "name": "RAN Stereo",
             "type": "hls",
-            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranstereo/playlist.m3u8" 
+            "url": "https://load-balancer.azotosolutions.com/cdnedge34/ranstereo/playlist.m3u8"
         }
     ]
 }

@@ -64,7 +64,7 @@
                 "url": "https://stream.mariatvcdn.com/trpradio/c92dd777d146ffcd75d0b6cfb13a9153.sdp/playlist.m3u8"
             },
             {
-                "categorySeparator": "Canali Corallo"  
+                "categorySeparator": "Canali Corallo"
             },
             {
                 "sublcn": 7,
@@ -117,7 +117,7 @@
                 "name": "Radio Frate Sole",
                 "radio": "video",
                 "type": "hls",
-                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"
             }]
         },
         {
@@ -269,7 +269,7 @@
                 "url": "https://cdn117-it.azotosolutions.com:8443/cdnedge5/live5/playlist.m3u8"
             },
             {
-                "categorySeparator": "Altre TV"  
+                "categorySeparator": "Altre TV"
             },
             {
                 "sublcn": 3,

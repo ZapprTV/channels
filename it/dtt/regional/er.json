@@ -247,7 +247,7 @@
                 "name": "Radio Frate Sole",
                 "radio": "video",
                 "type": "hls",
-                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"
             },
             {
                 "sublcn": 10,
@@ -346,10 +346,10 @@
                 "logo": "promovideotv",
                 "name": "PromovideoTV",
                 "type": "hls",
-                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"        
+                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"
             },
             {
-                "categorySeparator": "Radio"        
+                "categorySeparator": "Radio"
             },
             {
                 "sublcn": 7,
@@ -673,14 +673,14 @@
             "logo": "tuachannel",
             "name": "TUA Channel",
             "type": "hls",
-            "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/playlist.m3u8"        
+            "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/playlist.m3u8"
         },
         {
             "lcn": 177,
             "logo": "promovideotv",
             "name": "PromovideoTV",
             "type": "hls",
-            "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"        
+            "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"
         },
         {
             "lcn": 178,
@@ -752,7 +752,7 @@
                 "logo": "radiostudiodeltaextra.svg",
                 "name": "Radio Studio Delta Extra",
                 "type": "audio",
-                "url": "https://rsd.streamingmedia.it/dance.aac"  
+                "url": "https://rsd.streamingmedia.it/dance.aac"
             }]
         }
     ]

@@ -75,7 +75,7 @@
                 "name": "Virgo Radio",
                 "radio": "video",
                 "type": "hls",
-                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"        
+                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"
             },
             {
                 "sublcn": 9,
@@ -105,7 +105,7 @@
                 "name": "Radio Fiemme",
                 "radio": true,
                 "type": "hls",
-                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"  
+                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"
             },
             {
                 "sublcn": 13,
@@ -113,7 +113,7 @@
                 "name": "RVS",
                 "radio": true,
                 "type": "hls",
-                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"                
+                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"
             },
             {
                 "sublcn": 14,
@@ -127,7 +127,7 @@
                 "logo": "radiocafè",
                 "name": "Radio Cafè",
                 "type": "audio",
-                "url": "https://geminione.it/proxy/test/stream"  
+                "url": "https://geminione.it/proxy/test/stream"
             }]
         },
         {
@@ -249,7 +249,7 @@
                 "name": "Aria Pulita",
                 "hd": true,
                 "type": "hls",
-                "url": "https://tv7.zappr.stream/hls/ariapulita.m3u8"  
+                "url": "https://tv7.zappr.stream/hls/ariapulita.m3u8"
             },
             {
                 "sublcn": 7,
@@ -264,14 +264,14 @@
                 "name": "Cafè24",
                 "hd": true,
                 "type": "hls",
-                "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8" 
+                "url": "https://srvx1.selftv.video/cafe/smil:live/playlist.m3u8"
             },
             {
                 "sublcn": 9,
                 "logo": "radioadigetv",
                 "name": "Radio Adige TV",
                 "type": "hls",
-                "url": "https://stream9.xdevel.com/video0s976463-1250/stream/playlist.m3u8" 
+                "url": "https://stream9.xdevel.com/video0s976463-1250/stream/playlist.m3u8"
             },
             {
                 "sublcn": 10,
@@ -468,9 +468,9 @@
                 "url": "https://fl-003.live.p7s1video.net/378e5cf8/t_003/orf2-at/cenc-default.m3u8",
                 "license": "clearkey",
                 "licensedetails": {
-                    "d481837e9869ef9f236b2e7891ff460e": "c4cca644beeb655996dd7aaac952768f", 
-                    "3cd7120f4ca8588c88d0562e68abaceb": "0c1af5a2bb292a6fe805e908366f7fcd", 
-                    "45b954c27d9d59b79f48509ebf2f71cc": "70f1d413f580b67ccd048e611712f09b", 
+                    "d481837e9869ef9f236b2e7891ff460e": "c4cca644beeb655996dd7aaac952768f",
+                    "3cd7120f4ca8588c88d0562e68abaceb": "0c1af5a2bb292a6fe805e908366f7fcd",
+                    "45b954c27d9d59b79f48509ebf2f71cc": "70f1d413f580b67ccd048e611712f09b",
                     "035c4f9461b45e149aebfb26b952b848": "2609d8d7fbf0fa51b9e78843ddb389dd"
                 },
                 "epg": {

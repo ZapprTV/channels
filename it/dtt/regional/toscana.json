@@ -97,7 +97,7 @@
                 "name": "Radio Frate Sole",
                 "radio": "video",
                 "type": "hls",
-                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"
             },
             {
                 "sublcn": 8,
@@ -196,7 +196,7 @@
                 "name": "Virgo Radio",
                 "radio": "video",
                 "type": "hls",
-                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"        
+                "url": "https://customer-xflzzxvdbnuktbj0.cloudflarestream.com/c0d122789b82e0d0c85daeef7ad9e7c9/manifest/video.m3u8"
             },
             {
                 "sublcn": 10,
@@ -226,7 +226,7 @@
                 "name": "Radio Fiemme",
                 "radio": true,
                 "type": "hls",
-                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"  
+                "url": "https://nrvideo1.newradio.it:1936/rxhqtspjsp/rxhqtspjsp.stream/playlist.m3u8"
             },
             {
                 "sublcn": 14,
@@ -234,7 +234,7 @@
                 "name": "RVS",
                 "radio": true,
                 "type": "hls",
-                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"                
+                "url": "https://stream9.xdevel.com/audio0s978363-2600/stream/playlist.m3u8"
             },
             {
                 "sublcn": 15,
@@ -248,7 +248,7 @@
                 "logo": "radiocafè",
                 "name": "Radio Cafè",
                 "type": "audio",
-                "url": "https://geminione.it/proxy/test/stream"  
+                "url": "https://geminione.it/proxy/test/stream"
             }]
         },
         {
@@ -333,7 +333,7 @@
             "logo": "teleregionetoscana",
             "name": "Teleregione Toscana",
             "type": "hls",
-            "url": "https://srvx1.selftv.video/teleregionetoscana/live/playlist.m3u8"  
+            "url": "https://srvx1.selftv.video/teleregionetoscana/live/playlist.m3u8"
         },
         {
             "lcn": 79,
@@ -440,7 +440,7 @@
             "logo": "tuachannel",
             "name": "TUA Channel",
             "type": "hls",
-            "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/playlist.m3u8"        
+            "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/playlist.m3u8"
         },
         {
             "lcn": 112,

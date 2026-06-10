@@ -231,7 +231,7 @@
                 "name": "Radio Frate Sole",
                 "radio": "video",
                 "type": "hls",
-                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"        
+                "url": "https://5926fc9c7c5b2.streamlock.net/9304/9304/playlist.m3u8"
             },
             {
                 "sublcn": 7,
@@ -363,7 +363,7 @@
             "logo": "mediasud",
             "name": "Mediasud",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"        
+            "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"
         },
         {
             "lcn": 777,
