@@ -50,10 +50,8 @@
             "logo": "nove.svg",
             "name": "NOVE",
             "hd": true,
-            "type": "hls",
-            "url": "https://pb-o0zu14lv7kvp9.akamaized.net/index.m3u8",
-            "license": "widevine",
-            "licensedetails": "https://api.zappr.stream/wbd-drm",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/nove",
             "epg": {
                 "source": "blue",
                 "id": "118"
@@ -70,10 +68,6 @@
                     "0104f7876c67c31f8815d9bcb3e5049c": "00000000000000000000000000000000",
                     "01051f2b5db19b13fe7402b4d1e53fb6": "00000000000000000000000000000000"
                 }
-            },
-            "fallback": {
-                "type": "iframe",
-                "url": "https://zappr.pages.dev/clearkey/?url=https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/NOVE/CMAF/index.m3u8"
             }
         },
         {
@@ -124,10 +118,8 @@
             "logo": "realtime.svg",
             "name": "Real Time",
             "hd": true,
-            "type": "hls",
-            "url": "https://pb-96zvdrcpxomf6.akamaized.net/index.m3u8",
-            "license": "widevine",
-            "licensedetails": "https://api.zappr.stream/wbd-drm",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/realtime",
             "epg": {
                 "source": "blue",
                 "id": "346"
@@ -144,10 +136,6 @@
                     "01047897bfba70c27d98af57f449ed0a": "00000000000000000000000000000000",
                     "01052f86b83705659de18a9e97d9ce83": "00000000000000000000000000000000"
                 }
-            },
-            "fallback": {
-                "type": "iframe",
-                "url": "https://zappr.pages.dev/clearkey/?url=https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/REALTIME/CMAF/index.m3u8"
             }
         },
         {
@@ -166,10 +154,8 @@
             "logo": "foodnetwork.svg",
             "name": "Food Network",
             "hd": true,
-            "type": "hls",
-            "url": "https://pb-ikxuqadisnhot.akamaized.net/index.m3u8",
-            "license": "widevine",
-            "licensedetails": "https://api.zappr.stream/wbd-drm",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/foodnetwork",
             "epg": {
                 "source": "blue",
                 "id": "1348"
@@ -186,10 +172,6 @@
                     "0104d2e104e28993051da23b8b87bd3b": "00000000000000000000000000000000",
                     "0105e391afe4bab7de0d419f21704691": "00000000000000000000000000000000"
                 }
-            },
-            "fallback": {
-                "type": "iframe",
-                "url": "https://zappr.pages.dev/clearkey/?url=https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8"
             }
         },
         {
@@ -209,10 +191,8 @@
             "logo": "discovery.svg",
             "name": "Discovery",
             "hd": true,
-            "type": "hls",
-            "url": "https://pb-n9406rwl5wx1t.akamaized.net/index.m3u8",
-            "license": "widevine",
-            "licensedetails": "https://api.zappr.stream/wbd-drm",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/discovery",
             "epg": {
                 "source": "blue",
                 "id": "124"
@@ -229,10 +209,6 @@
                     "01049e8567fe557e7a466b8fde310bbe": "00000000000000000000000000000000",
                     "010567972eb8b286eb47fbf7e71cd4a4": "00000000000000000000000000000000"
                 }
-            },
-            "fallback": {
-                "type": "iframe",
-                "url": "https://zappr.pages.dev/clearkey/?url=https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8"
             }
         },
         {
@@ -240,10 +216,8 @@
             "logo": "giallo.svg",
             "name": "Giallo",
             "hd": true,
-            "type": "hls",
-            "url": "https://pb-vi6d4mucmrwpo.akamaized.net/index.m3u8",
-            "license": "widevine",
-            "licensedetails": "https://api.zappr.stream/wbd-drm",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/giallo",
             "epg": {
                 "source": "blue",
                 "id": "191"
@@ -260,10 +234,6 @@
                     "010472ef04f71a5e7f3b8e06db379144": "00000000000000000000000000000000",
                     "0105c3a2810a70c0b2d00808f37fdb4b": "00000000000000000000000000000000"
                 }
-            },
-            "fallback": {
-                "type": "iframe",
-                "url": "https://zappr.pages.dev/clearkey/?url=https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/GIALLO/CMAF/index.m3u8"
             }
         },
         {
@@ -339,10 +309,8 @@
             "logo": "dmax.svg",
             "name": "DMAX",
             "hd": true,
-            "type": "hls",
-            "url": "https://pb-lkmzny7qo98vp.akamaized.net/index.m3u8",
-            "license": "widevine",
-            "licensedetails": "https://api.zappr.stream/wbd-drm",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/dmax",
             "epg": {
                 "source": "blue",
                 "id": "137"
@@ -359,10 +327,6 @@
                     "01042986e9051678a4b6a4905ebbbefb": "00000000000000000000000000000000",
                     "0105d330b73558c1a7ddc4aedc7e8f95": "00000000000000000000000000000000"
                 }
-            },
-            "fallback": {
-                "type": "iframe",
-                "url": "https://zappr.pages.dev/clearkey/?url=https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DMAX/CMAF/index.m3u8"
             }
         },
         {
@@ -379,10 +343,8 @@
             "logo": "hgtv.svg",
             "name": "HGTV - Home & Garden",
             "hd": true,
-            "type": "hls",
-            "url": "https://pb-06u3v3mpztvam.akamaized.net/index.m3u8",
-            "license": "widevine",
-            "licensedetails": "https://api.zappr.stream/wbd-drm",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/hgtv",
             "epg": {
                 "source": "blue",
                 "id": "1646"
@@ -399,10 +361,6 @@
                     "01048cf20743e4291477f56b575c7ac7": "00000000000000000000000000000000",
                     "01054ffac86eb0d90d095e271f95be6c": "00000000000000000000000000000000"
                 }
-            },
-            "fallback": {
-                "type": "iframe",
-                "url": "https://zappr.pages.dev/clearkey/?url=https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/HGTV/CMAF/index.m3u8"
             }
         },
         {
@@ -410,10 +368,8 @@
             "logo": "discoveryturbo.svg",
             "name": "Discovery Turbo",
             "hd": true,
-            "type": "hls",
-            "url": "https://pb-i5a8gbryxtlqs.akamaized.net/index.m3u8",
-            "license": "widevine",
-            "licensedetails": "https://api.zappr.stream/wbd-drm",
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/turbo",
             "epg": {
                 "source": "blue",
                 "id": "1384"
@@ -423,10 +379,6 @@
                 "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(motortrendhd)/manifest.mpd",
                 "license": "clearkey",
                 "licensedetails": "b1f533e2ee35459e9be2d0ef1e2b61ab:749bd263e98796fbaf739088862de387"
-            },
-            "fallback": {
-                "type": "iframe",
-                "url": "https://zappr.pages.dev/clearkey/?url=https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8"
             }
         },
         {
