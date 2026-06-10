@@ -25,9 +25,7 @@
                 "logo": "la7it.svg",
                 "name": "LA7 Eventi",
                 "type": "dash",
-                "url": "https://d15umi5iaezxgx.cloudfront.net/LA7FEED01/DRM/DASH/Live.mpd",
-                "license": "clearkey",
-                "licensedetails": "db057321c9224c25a7ccd75d911dd1fc:005b948eb397a581d10ff8bb60d19c93"
+                "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7FEED01/DASH/Live.mpd"
             }]
         },
         {
