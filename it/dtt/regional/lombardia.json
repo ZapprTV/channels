@@ -399,7 +399,22 @@
             "logo": "valenzatv",
             "name": "Valenza TV",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/368.m3u8"
+            "url": "https://api.zappr.stream/valenzatv.m3u8",
+            "cssfix": "stretch"
+        },
+        {
+            "lcn": 98,
+            "logo": "orobikchannel98",
+            "name": "Orobik Channel",
+            "type": "twitch",
+            "url": "scbtorobik",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "radioloco",
+                "name": "Radio Loco",
+                "type": "audio",
+                "url": "https://s32.myradiostream.com/:17878/listen.mp3"
+            }]
         },
         {
             "lcn": 112,

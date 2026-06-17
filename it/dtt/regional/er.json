@@ -259,24 +259,6 @@
             }]
         },
         {
-            "lcn": 19,
-            "logo": "telestense",
-            "name": "Telestense",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/500.m3u8",
-            "epg": {
-                "source": "uvotv",
-                "id": "Telestense.tvprofile_it"
-            },
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "telesanterno",
-                "name": "Telesanterno",
-                "type": "hls",
-                "url": "https://media2021.rtvweb.com/di_tv_92/live/playlist.m3u8"
-            }]
-        },
-        {
             "lcn": 73,
             "logo": "radiobruno",
             "name": "Radio Bruno",

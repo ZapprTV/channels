@@ -141,18 +141,6 @@
             "url": "https://5f22d76e220e1.streamlock.net/tltmolise/tltmolise/playlist.m3u8"
         },
         {
-            "lcn": 79,
-            "logo": "veraabruzzo",
-            "name": "Vera Abruzzo",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/56.m3u8",
-            "cssfix": "letterbox",
-            "epg": {
-                "source": "veratv",
-                "id": "Get_ApiAppAbruzzoSchedules"
-            }
-        },
-        {
             "lcn": 80,
             "logo": "lecronache",
             "name": "Le Cronache TV",

@@ -41,14 +41,14 @@
             "logo": "catalantv",
             "name": "Catalan TV",
             "type": "direct",
-            "url": "https://tvheadend-sardegna1.zappr.stream/stream/channel/f434e5384d805a7c4174c34dc9f5d6b1?profile=webtv-h264-aac-matroska&.mkv"
+            "url": "https://tvheadend-sardegna1.zappr.stream/stream/channel/d9899b68429e5753d2e91623eb797514?profile=webtv-h264-aac-matroska&.mkv"
         },
         {
             "lcn": 17,
             "logo": "canaleitaliasardegna",
             "name": "Canale Italia Sardegna",
             "type": "direct",
-            "url": "https://tvheadend-sardegna1.zappr.stream/stream/channel/ca236818023e33500df973497dc64bee?profile=webtv-h264-aac-matroska&.mkv"
+            "url": "https://tvheadend-sardegna1.zappr.stream/stream/channel/f6e900d95a20e5e37069188884b191cd?profile=webtv-h264-aac-matroska&.mkv"
         },
         {
             "lcn": 18,
@@ -62,7 +62,7 @@
             "logo": "tts",
             "name": "TTS",
             "type": "direct",
-            "url": "https://tvheadend-sardegna1.zappr.stream/stream/channel/9b2152e09440be531de926b424c572d4?profile=webtv-h264-aac-matroska&.mkv"
+            "url": "https://tvheadend-sardegna1.zappr.stream/stream/channel/3e179532342ef83e6d8eba22cac73c67?profile=webtv-h264-aac-matroska&.mkv"
         },
         {
             "lcn": 77,

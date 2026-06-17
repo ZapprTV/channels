@@ -125,8 +125,7 @@
             "logo": "telecity",
             "name": "Telecity Liguria",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/353.m3u8",
-            "cssfix": "letterbox",
+            "url": "https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "TELECITY_it"
@@ -151,8 +150,8 @@
             "logo": "primocanaleprimopiano",
             "name": "Primocanale Primo Piano",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/362.m3u8",
-            "cssfix": "letterbox"
+            "url": "https://api.zappr.stream/primocanaleprimopiano.m3u8",
+            "cssfix": "stretch"
         },
         {
             "lcn": 17,
@@ -356,8 +355,8 @@
             "logo": "valenzatv",
             "name": "Valenza TV",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/368.m3u8",
-            "cssfix": "letterbox"
+            "url": "https://api.zappr.stream/valenzatv.m3u8",
+            "cssfix": "stretch"
         },
         {
             "lcn": 78,
@@ -417,8 +416,7 @@
             "logo": "rete7.svg",
             "name": "Rete 7",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/374.m3u8",
-            "cssfix": "letterbox",
+            "url": "https://stream.ets-sistemi.it:2020/hls/rete7-live/rete7-live.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "RETE 7.tvprofil_it"

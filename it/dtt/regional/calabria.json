@@ -270,14 +270,6 @@
             "url": "https://w1.mediastreaming.it/calabriachannel/livestream/playlist.m3u8"
         },
         {
-            "lcn": 80,
-            "logo": "telemormanno",
-            "name": "Telemormanno",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/425.m3u8",
-            "cssfix": "letterbox"
-        },
-        {
             "lcn": 82,
             "logo": "jonicaradiotv",
             "name": "Jonica Radio TV",

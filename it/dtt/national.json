@@ -39,8 +39,8 @@
                 "id": "266"
             },
             "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/269.m3u8"
+                "type": "direct",
+                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/f2771f9ea41e4e41b981c9ee9d05deb4?profile=webtv-h264-aac-matroska&.mkv"
             }
         },
         {
@@ -79,8 +79,8 @@
                 "id": "96"
             },
             "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/281.m3u8"
+                "type": "direct",
+                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/e0a6c5fad3e752350cc5f2f3adc7a31d?profile=webtv-h264-aac-matroska&.mkv"
             }
         },
         {
@@ -298,8 +298,8 @@
                 "id": "393"
             },
             "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/293.m3u8"
+                "type": "direct",
+                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/f12c0bdcdf421b230ce4e208880c05d8?profile=webtv-h264-aac-matroska&.mkv"
             }
         },
         {
@@ -334,7 +334,10 @@
             "hd": true,
             "type": "hls",
             "url": "https://liveac915ha.streamcloud.it/channel09/playlist.m3u8",
-            "geoblock": true
+            "geoblock": {
+                "type": "iframe",
+                "url": "https://canaleitalia.streamcloud.it/embed/live/e701400d-2c46-4cec-8deb-bb6f7b8a7401"
+            }
         },
         {
             "lcn": 56,
@@ -459,9 +462,8 @@
             "lcn": 63,
             "logo": "canale63.svg",
             "name": "Canale 63",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/257.m3u8",
-            "cssfix": "letterbox"
+            "type": "direct",
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/f921e48af937bc931cfec540b165cf22?profile=webtv-h264-aac-matroska&.mkv"
         },
         {
             "lcn": 64,
@@ -662,9 +664,8 @@
                 "id": "80"
             },
             "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/32.m3u8",
-                "cssfix": "letterbox"
+                "type": "iframe",
+                "url": "https://canaleitalia.streamcloud.it/embed/live/28591152-e3c0-49b0-94a8-0d3e18125ca8"
             }
         },
         {
@@ -675,9 +676,8 @@
             "url": "https://liveac915ha.streamcloud.it/channel01/playlist.m3u8",
             "adult": "night",
             "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/218.m3u8",
-                "cssfix": "letterbox"
+                "type": "direct",
+                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/cf4fdc671d03be669278b0e95423c168?profile=webtv-h264-aac-matroska&.mkv"
             }
         },
         {
@@ -729,9 +729,8 @@
             "lcn": 123,
             "logo": "italiachannel",
             "name": "Italia Channel",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/71.m3u8",
-            "cssfix": "letterbox"
+            "type": "direct",
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/3bcd74022a27fb47aecb4296b36b6e3a?profile=webtv-h264-aac-matroska&.mkv"
         },
         {
             "lcn": 124,
@@ -741,9 +740,8 @@
             "url": "https://liveac915ha.streamcloud.it/channel02/playlist.m3u8",
             "adult": "night",
             "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/203.m3u8",
-                "cssfix": "letterbox"
+                "type": "direct",
+                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/87ca4bf0b97a37d7a9810938203ef1c5?profile=webtv-h264-aac-matroska&.mkv"
             }
         },
         {
@@ -754,9 +752,8 @@
             "url": "https://liveac915ha.streamcloud.it/channel03/playlist.m3u8",
             "adult": "night",
             "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/188.m3u8",
-                "cssfix": "letterbox"
+                "type": "direct",
+                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/a250b649a11e4f356f0efa92fb4e8f67?profile=webtv-h264-aac-matroska&.mkv"
             }
         },
         {
@@ -767,9 +764,8 @@
             "url": "https://liveac915ha.streamcloud.it/channel04/playlist.m3u8",
             "adult": "night",
             "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/191.m3u8",
-                "cssfix": "letterbox"
+                "type": "direct",
+                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/b30679e896867f490f082fa5b51039ae?profile=webtv-h264-aac-matroska&.mkv"
             }
         },
         {
@@ -780,45 +776,40 @@
             "url": "https://liveac915ha.streamcloud.it/channel05/playlist.m3u8",
             "adult": "night",
             "geoblock": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/194.m3u8",
-                "cssfix": "letterbox"
+                "type": "direct",
+                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/2c0d3a78b43c84c01cad26439a3a00a9?profile=webtv-h264-aac-matroska&.mkv"
             }
         },
         {
             "lcn": 128,
             "logo": "goldtvitalia",
             "name": "Gold TV Italia",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/317.m3u8",
-            "cssfix": "letterbox",
+            "type": "direct",
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/c484b0a7cb02bc85fba45056cdf19702?profile=webtv-h264-aac-matroska&.mkv",
             "adult": "night"
         },
         {
             "lcn": 129,
             "logo": "la4italia",
             "name": "La4 Italia",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/320.m3u8",
-            "cssfix": "letterbox",
+            "type": "direct",
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/2922a574fcbf0341c64baa1f5c8d48a2?profile=webtv-h264-aac-matroska&.mkv",
             "adult": "night"
         },
         {
             "lcn": 130,
             "logo": "goldinvest",
             "name": "Gold Invest",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/323.m3u8",
-            "cssfix": "letterbox",
+            "type": "direct",
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/e98e4cff3f38fa1d99b482c15a84e4d1?profile=webtv-h264-aac-matroska&.mkv",
             "adult": "night"
         },
         {
             "lcn": 131,
             "logo": "reteitalia.svg",
             "name": "Rete Italia",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/326.m3u8",
-            "cssfix": "letterbox",
+            "type": "direct",
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/c0a8deb0e39a4ef694cc85f0fb04de81?profile=webtv-h264-aac-matroska&.mkv",
             "adult": "night"
         },
         {
@@ -828,8 +819,8 @@
             "type": "hls",
             "url": "https://stream10.xdevel.com/video26s975955-2650/stream/playlist.m3u8",
             "fallback": {
-                "type": "hls",
-                "url": "https://uvotv.zappr.stream/164.m3u8"
+                "type": "youtube",
+                "url": "UC-dZ1irw0kSGVg0VoeKLddw"
             }
         },
         {
@@ -940,34 +931,32 @@
                 "name": "Radio Maria",
                 "type": "audio",
                 "url": "https://dreamsiteradiocp6.com/proxy/rmusait?mp=/stream"
-            }]
-        },
-        {
-            "lcn": 134,
-            "logo": "italia134",
-            "name": "Italia 134",
-            "type": "hls",
-            "url": "https://liveac915ha.streamcloud.it/channel06/playlist.m3u8",
-            "adult": "night",
-            "geoblock": {
+                }]
+            },
+            {
+                "lcn": 134,
+                "logo": "italia134",
+                "name": "Italia 134",
                 "type": "hls",
-                "url": "https://uvotv.zappr.stream/200.m3u8",
-                "cssfix": "letterbox"
-            }
-        },
-        {
-            "lcn": 135,
-            "logo": "italia135",
-            "name": "Italia 135",
-            "type": "hls",
-            "url": "https://liveac915ha.streamcloud.it/channel07/playlist.m3u8",
-            "adult": "night",
-            "geoblock": {
+                "url": "https://liveac915ha.streamcloud.it/channel06/playlist.m3u8",
+                "adult": "night",
+                "geoblock": {
+                    "type": "direct",
+                    "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/3dccc0a8720fa59273b149671f6014d1?profile=webtv-h264-aac-matroska&.mkv"
+                }
+            },
+            {
+                "lcn": 135,
+                "logo": "italia135",
+                "name": "Italia 135",
                 "type": "hls",
-                "url": "https://uvotv.zappr.stream/197.m3u8",
-                "cssfix": "letterbox"
-            }
-        },
+                "url": "https://liveac915ha.streamcloud.it/channel07/playlist.m3u8",
+                "adult": "night",
+                "geoblock": {
+                    "type": "direct",
+                    "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/edf5d8fbe7d989099b9dc59de6ca3b39?profile=webtv-h264-aac-matroska&.mkv"
+                }
+            },
         {
             "lcn": 136,
             "logo": "italia136",
@@ -980,9 +969,8 @@
             "lcn": 137,
             "logo": "canale137",
             "name": "Canale 137",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/332.m3u8",
-            "cssfix": "letterbox"
+            "type": "direct",
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/8e39172542a9bb57d7eee3924060d945?profile=webtv-h264-aac-matroska&.mkv"
         },
         {
             "lcn": 138,
@@ -1006,17 +994,15 @@
             "lcn": 140,
             "logo": "starmarket",
             "name": "StarMarket",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/338.m3u8",
-            "cssfix": "letterbox"
+            "type": "direct",
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/feed53fc947417741f8670e5524f7931?profile=webtv-h264-aac-matroska&.mkv"
         },
         {
             "lcn": 144,
             "logo": "canale144",
             "name": "Canale 144",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/335.m3u8",
-            "cssfix": "letterbox",
+            "type": "direct",
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/c3a10e997d21eabf44f64b15dca0181d?profile=webtv-h264-aac-matroska&.mkv",
             "adult": "night"
         },
         {
@@ -1059,8 +1045,7 @@
             },
             "geoblock": {
                 "type": "hls",
-                "url": "https://uvotv.zappr.stream/176.m3u8",
-                "cssfix": "letterbox"
+                "url": "https://api.zappr.stream/equtv.m3u8"
             }
         },
         {
@@ -1130,9 +1115,8 @@
             "lcn": 162,
             "logo": "162",
             "name": "Canale 162",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/550.m3u8",
-            "cssfix": "letterbox",
+            "type": "direct",
+            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/4b666a1616f403001c08f42f158d1e71?profile=webtv-h264-aac-matroska&.mkv",
             "adult": "night"
         },
         {
@@ -1409,9 +1393,8 @@
             "lcn": 228,
             "logo": "tesorychannel",
             "name": "Tesory Channel",
-            "type": "hls",
-            "url": "https://uvotv.zappr.stream/140.m3u8",
-            "cssfix": "letterbox"
+            "type": "twitch",
+            "url": "prontogoldtelevision"
         },
         {
             "lcn": 231,
@@ -1699,7 +1682,7 @@
             "logo": "genius240",
             "name": "Genius 240",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/149.m3u8"
+            "url": "https://5f22d76e220e1.streamlock.net/canale4/canale4/playlist.m3u8"
         },
         {
             "lcn": 241,
