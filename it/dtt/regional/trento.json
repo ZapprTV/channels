@@ -454,7 +454,7 @@
             "name": "ORF 1",
             "hd": true,
             "type": "hls",
-            "url": "https://lb.adriatelekom.com/ORF1/index.m3u8",
+            "url": "https://lb.dstv.cx/ORF1/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "303"

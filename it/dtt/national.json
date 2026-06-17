@@ -826,11 +826,10 @@
             "logo": "lineagem",
             "name": "Lineagem",
             "type": "hls",
-            "url": "https://uvotv.zappr.stream/164.m3u8",
-            "cssfix": "stretch",
+            "url": "https://stream10.xdevel.com/video26s975955-2650/stream/playlist.m3u8",
             "fallback": {
-                "type": "youtube",
-                "url": "UC-dZ1irw0kSGVg0VoeKLddw"
+                "type": "hls",
+                "url": "https://uvotv.zappr.stream/164.m3u8"
             }
         },
         {

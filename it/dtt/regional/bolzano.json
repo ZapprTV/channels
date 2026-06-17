@@ -430,7 +430,7 @@
             "name": "Das Erste",
             "hd": true,
             "type": "hls",
-            "url": "https://lb.adriatelekom.com/ARD/index.m3u8",
+            "url": "https://lb.dstv.cx/ARD/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "25"
@@ -726,7 +726,7 @@
             "name": "ZDF",
             "hd": true,
             "type": "hls",
-            "url": "https://lb.adriatelekom.com/ZDF/index.m3u8",
+            "url": "https://lb.dstv.cx/ZDF/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "656"
@@ -776,7 +776,7 @@
             "name": "ORF 1",
             "hd": true,
             "type": "hls",
-            "url": "https://lb.adriatelekom.com/ORF1/index.m3u8",
+            "url": "https://lb.dstv.cx/ORF1/index.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "303"
@@ -854,7 +854,7 @@
                 "url": "https://uvotv.zappr.stream/443.m3u8",
                 "fallback": {
                     "type": "hls",
-                    "url": "https://lb.adriatelekom.com/RTSUN/index.m3u8"
+                    "url": "https://lb.dstv.cx/RTSUN/index.m3u8"
                 },
                 "epg": {
                     "source": "blue",
@@ -867,7 +867,7 @@
                 "name": "RTS 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://lb.adriatelekom.com/RTSDEUX/index.m3u8",
+                "url": "https://lb.dstv.cx/RTSDEUX/index.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "367"
@@ -895,8 +895,13 @@
                 "logo": "rsila2.svg",
                 "name": "RSI LA2",
                 "hd": true,
-                "type": "hls",
-                "url": "https://lb.adriatelekom.com/RSILa2/index.m3u8",
+                "type": "dash",
+                "url": "https://wp2-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09043/stb-dash-fhd-avc/SV09043.mpd?clearkeyPlayer.audioLanguage=it",
+                "license": "clearkey",
+                "licensedetails": {
+                    "117d07fd98cc46ef8e09936d0d37c506": "b9528cb3f23eaad789f0f33bf6b01868",
+                    "166b2f0d56fb32d9b46d4b1ca1b5bf16": "d78ee5c91eb3b9b6d37414a4f789bc9b"
+                },
                 "epg": {
                     "source": "blue",
                     "id": "357"
@@ -943,7 +948,7 @@
                 "url": "https://uvotv.zappr.stream/443.m3u8",
                 "fallback": {
                     "type": "hls",
-                    "url": "https://lb.adriatelekom.com/RTSUN/index.m3u8"
+                    "url": "https://lb.dstv.cx/RTSUN/index.m3u8"
                 },
                 "epg": {
                     "source": "blue",
@@ -956,7 +961,7 @@
                 "name": "RTS 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://lb.adriatelekom.com/RTSDEUX/index.m3u8",
+                "url": "https://lb.dstv.cx/RTSDEUX/index.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "367"
@@ -984,8 +989,13 @@
                 "logo": "rsila2.svg",
                 "name": "RSI LA2",
                 "hd": true,
-                "type": "hls",
-                "url": "https://lb.adriatelekom.com/RSILa2/index.m3u8",
+                "type": "dash",
+                "url": "https://wp2-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09043/stb-dash-fhd-avc/SV09043.mpd?clearkeyPlayer.audioLanguage=it",
+                "license": "clearkey",
+                "licensedetails": {
+                    "117d07fd98cc46ef8e09936d0d37c506": "b9528cb3f23eaad789f0f33bf6b01868",
+                    "166b2f0d56fb32d9b46d4b1ca1b5bf16": "d78ee5c91eb3b9b6d37414a4f789bc9b"
+                },
                 "epg": {
                     "source": "blue",
                     "id": "357"
@@ -1016,7 +1026,7 @@
                 "name": "ZDF",
                 "hd": true,
                 "type": "hls",
-                "url": "https://lb.adriatelekom.com/ZDF/index.m3u8",
+                "url": "https://lb.dstv.cx/ZDF/index.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "656"
@@ -1085,7 +1095,7 @@
                 "name": "Das Erste",
                 "hd": true,
                 "type": "hls",
-                "url": "https://lb.adriatelekom.com/ARD/index.m3u8",
+                "url": "https://lb.dstv.cx/ARD/index.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "25"
@@ -1416,8 +1426,13 @@
                 "logo": "rsila2.svg",
                 "name": "RSI LA2",
                 "hd": true,
-                "type": "hls",
-                "url": "https://lb.adriatelekom.com/RSILa2/index.m3u8",
+                "type": "dash",
+                "url": "https://wp2-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09043/stb-dash-fhd-avc/SV09043.mpd?clearkeyPlayer.audioLanguage=it",
+                "license": "clearkey",
+                "licensedetails": {
+                    "117d07fd98cc46ef8e09936d0d37c506": "b9528cb3f23eaad789f0f33bf6b01868",
+                    "166b2f0d56fb32d9b46d4b1ca1b5bf16": "d78ee5c91eb3b9b6d37414a4f789bc9b"
+                },
                 "epg": {
                     "source": "blue",
                     "id": "357"
@@ -1432,7 +1447,7 @@
                 "url": "https://uvotv.zappr.stream/443.m3u8",
                 "fallback": {
                     "type": "hls",
-                    "url": "https://lb.adriatelekom.com/RTSUN/index.m3u8"
+                    "url": "https://lb.dstv.cx/RTSUN/index.m3u8"
                 },
                 "epg": {
                     "source": "blue",
@@ -1445,7 +1460,7 @@
                 "name": "RTS 2",
                 "hd": true,
                 "type": "hls",
-                "url": "https://lb.adriatelekom.com/RTSDEUX/index.m3u8",
+                "url": "https://lb.dstv.cx/RTSDEUX/index.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "367"
