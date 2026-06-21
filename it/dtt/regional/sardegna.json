@@ -1,5 +1,11 @@
 {
     "$schema": "../../../schema.json",
+    "name": "Lista ufficiale di Zappr - Canali locali della Sardegna",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/it/dtt/regional/sardegna.json",
     "channels": [
         {
             "lcn": 10,
@@ -13,7 +19,7 @@
             "logo": "telecostasmeralda",
             "name": "Tele Costa Smeralda",
             "type": "hls",
-            "url": "https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8"
+            "url": "https://5bb65e9de3fdf.streamlock.net/live/TCS/playlist.m3u8"
         },
         {
             "lcn": 12,

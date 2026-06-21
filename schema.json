@@ -3,6 +3,30 @@
     "title": "Zappr channels schema",
     "type": "object",
     "properties": {
+        "name": {
+            "type": "string",
+            "title": "List name"
+        },
+        "publisher": {
+            "type": "string",
+            "title": "List publisher/author name"
+        },
+        "publisherLink": {
+            "type": "string",
+            "title": "List publisher/author website"
+        },
+        "donationLink": {
+            "type": "string",
+            "title": "List publisher/author donation link"
+        },
+        "icon": {
+            "type": "string",
+            "title": "List icon URL"
+        },
+        "epg": {
+            "type": ["string", "boolean"],
+            "title": "EPG URL"
+        },
         "channels": {
             "type": "array",
             "title": "Channels array",
@@ -10,39 +34,47 @@
             "items": {
                 "type": "object",
                 "additionalProperties": false,
+                "meta:channel-editor-groups": ["basic-channel-info", "stream-info"],
                 "properties": {
                     "lcn": {
+                        "meta:channel-editor-group": "basic-channel-info",
                         "type": "number",
                         "title": "Channel LCN",
                         "description": "The channel's LCN on DTT / Freeview."
                     },
                     "logo": {
+                        "meta:channel-editor-group": "basic-channel-info",
                         "type": "string",
                         "title": "Channel logo",
-                        "description": "The filename of the channel's logo. If it's in SVG format, you need to suffix it with '.svg'; otherwise, if it's in PNG/WEBP format you must not specify any file extension.",
+                        "description": "The filename or URL of the channel's logo. If it's in SVG format, you need to suffix it with '.svg'; otherwise, if it's in PNG/WEBP format you must not specify any file extension.",
                         "pattern": "^(?!.*\\.(png|webp)$).*"
                     },
                     "name": {
+                        "meta:channel-editor-group": "basic-channel-info",
                         "type": "string",
                         "title": "Channel name",
                         "description": "The channel's name."
                     },
                     "subtitle": {
+                        "meta:channel-editor-group": "basic-channel-info",
                         "type": "string",
                         "title": "Channel subtitle",
                         "description": "The channel's subtitle, which will be shown in a smaller and gray form under the channel name."
                     },
                     "hd": {
+                        "meta:channel-editor-group": "basic-channel-info",
                         "type": "boolean",
                         "title": "Mark as HD",
                         "description": "If the channel is in high resolution (and quality!)."
                     },
                     "uhd": {
+                        "meta:channel-editor-group": "basic-channel-info",
                         "type": "boolean",
                         "title": "Mark as 4K",
                         "description": "If the channel is in 4K."
                     },
                     "radio": {
+                        "meta:channel-editor-group": "basic-channel-info",
                         "type": ["string", "boolean"],
                         "title": "Mark as a radio channel",
                         "description": "If the channel is a radio station (if its streaming only has an audio track or if its video track is a static image).",
@@ -61,11 +93,13 @@
                         }]
                     },
                     "ondemand": {
+                        "meta:channel-editor-group": "basic-channel-info",
                         "type": "boolean",
                         "title": "Mark as VOD",
                         "description": "If the channel is a VOD and not a livestream."
                     },
                     "type": {
+                        "meta:channel-editor-group": "stream-info",
                         "type": "string",
                         "title": "Stream type",
                         "description": "The stream type.",
@@ -115,16 +149,19 @@
                         }]
                     },
                     "url": {
+                        "meta:channel-editor-group": "stream-info",
                         "type": "string",
                         "title": "Stream URL",
                         "description": "The stream URL."
                     },
                     "http": {
+                        "meta:channel-editor-group": "stream-info",
                         "type": "boolean",
                         "title": "Mark stream as not visibile via HTTPS",
                         "description": "If the stream URL doesn't use the HTTPS protocol and has to be viewed via HTTP."
                     },
                     "license": {
+                        "meta:channel-editor-group": "stream-info",
                         "type": "string",
                         "title": "DRM/license type",
                         "description": "What DRM/licensing system to use to play the channel.",
@@ -150,23 +187,28 @@
                         }]
                     },
                     "licensedetails": {
+                        "meta:channel-editor-group": "stream-info",
                         "type": ["object", "string"],
                         "title": "Additional DRM/licensing parameters"
                     },
                     "hbbtvapp": {
+                        "meta:channel-editor-group": "stream-info",
                         "type": "boolean",
                         "title": "Mark as HbbTV app"
                     },
                     "hbbtvmosaic": {
+                        "meta:channel-editor-group": false,
                         "type": "boolean",
                         "title": "Mark as HbbTV/IP mosaic"
                     },
                     "feed": {
+                        "meta:channel-editor-group": false,
                         "type": "boolean",
                         "title": "Mark as feed",
                         "description": "If the channel is to be considered a 'feed' (if its stream isn't active 24/7)."
                     },
                     "adult": {
+                        "meta:channel-editor-group": false,
                         "type": ["string", "boolean"],
                         "title": "Mark as 18+",
                         "description": "If the channel broadcasts 18+ content, and whether it does that all day or only in the night.",
@@ -185,6 +227,7 @@
                         }]
                     },
                     "disabled": {
+                        "meta:channel-editor-group": false,
                         "type": "string",
                         "title": "Disable channel",
                         "enum": ["not-working"],
@@ -197,6 +240,7 @@
                         }]
                     },
                     "nativeHLS": {
+                        "meta:channel-editor-group": false,
                         "type": "object",
                         "title": "Use an alternative HLS link in an iframe",
                         "description": "If the browser supports native HLS playback, the HLS URL in this variable will be played through an iframe. Used to avoid CORS restrictions.",
@@ -213,6 +257,7 @@
                         "required": ["url"]
                     },
                     "api": {
+                        "meta:channel-editor-group": "stream-info",
                         "type": "string",
                         "title": "Use an API to play the channel",
                         "description": "If the channel needs an API to be played.",
@@ -231,6 +276,7 @@
                         }]
                     },
                     "cssfix": {
+                        "meta:channel-editor-group": "stream-info",
                         "type": "string",
                         "title": "Apply CSS fixes",
                         "description": "For channels whose streams require some CSS to look good.",
@@ -293,6 +339,7 @@
                         }]
                     },
                     "fallback": {
+                        "meta:channel-editor-group": false,
                         "type": "object",
                         "title": "Fallback stream info",
                         "description": "Info about the fallback stream that will be used if the main one fails.",
@@ -320,6 +367,7 @@
                         "required": ["type", "url"]
                     },
                     "geoblock": {
+                        "meta:channel-editor-group": false,
                         "type": ["boolean", "object"],
                         "title": "Geoblocking settings",
                         "description": "If the channel is geoblocked outside of its country of origin, and whether to disable it completely or to use an alternative link that works worldwide.",
@@ -347,6 +395,7 @@
                         "required": ["type", "url"]
                     },
                     "epg": {
+                        "meta:channel-editor-group": "basic-channel-info",
                         "type": "object",
                         "title": "EPG info",
                         "description": "Info on the channel's EPG, and from which source to fetch it from.",
@@ -364,6 +413,7 @@
                         "required": ["source", "id"]
                     },
                     "manualRestart": {
+                        "meta:channel-editor-group": false,
                         "type": "object",
                         "title": "Manual restart settings",
                         "additionalProperties": false,
@@ -380,11 +430,13 @@
                         "required": ["source", "id"]
                     },
                     "timeshift": {
+                        "meta:channel-editor-group": "stream-info",
                         "type": "number",
                         "title": "Timeshift settings",
                         "description": "Start the channel stream with a specified amount of timeshift hours."
                     },
                     "hbbtv": {
+                        "meta:channel-editor-group": false,
                         "type": "array",
                         "title": "HbbTV/IP channels",
                         "description": "The channels visible through the channel's HbbTV/IP app.",
@@ -551,6 +603,8 @@
         }
     },
     "required": [
-        "channels"
+        "channels",
+        "name",
+        "publisher"
     ]
 }

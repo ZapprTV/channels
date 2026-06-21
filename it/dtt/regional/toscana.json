@@ -1,5 +1,11 @@
 {
     "$schema": "../../../schema.json",
+    "name": "Lista ufficiale di Zappr - Canali locali della Toscana",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/it/dtt/regional/toscana.json",
     "channels": [
         {
             "lcn": 10,
@@ -17,7 +23,7 @@
             "logo": "noitv",
             "name": "NoiTV",
             "type": "iframe",
-            "url": "https://player.restream.io/?token=2f048c14b27d49d291bdd84c991ad032"
+            "url": "https://player.restream.io/?token=ab7e2bd3962c49f3ada29c4c38caaf90"
         },
         {
             "lcn": 13,

@@ -1,5 +1,11 @@
 {
     "$schema": "../../../schema.json",
+    "name": "Lista ufficiale di Zappr - Canali locali del Molise",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/it/dtt/regional/molise.json",
     "channels": [
         {
             "lcn": 10,

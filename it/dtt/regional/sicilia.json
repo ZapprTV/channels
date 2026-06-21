@@ -1,5 +1,11 @@
 {
     "$schema": "../../../schema.json",
+    "name": "Lista ufficiale di Zappr - Canali locali della Sicilia",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/it/dtt/regional/sicilia.json",
     "channels": [
         {
             "lcn": 10,
@@ -1448,13 +1454,6 @@
             "name": "TeleMistretta",
             "type": "hls",
             "url": "https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8"
-        },
-        {
-            "lcn": 91,
-            "logo": "tele8",
-            "name": "Tele8",
-            "type": "hls",
-            "url": "https://57068da1deb21.streamlock.net/teletv8/teletv8/playlist.m3u8"
         },
         {
             "lcn": 94,
