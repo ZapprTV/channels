@@ -222,14 +222,6 @@
             }
         },
         {
-            "lcn": 76,
-            "logo": "valenzatv",
-            "name": "Valenza TV",
-            "type": "hls",
-            "url": "https://api.zappr.stream/valenzatv.m3u8",
-            "cssfix": "stretch"
-        },
-        {
             "lcn": 78,
             "logo": "motoritv",
             "name": "Motori TV",

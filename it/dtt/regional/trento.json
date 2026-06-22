@@ -170,8 +170,9 @@
             "lcn": 13,
             "logo": "7goldtelepadova",
             "name": "7 Gold Telepadova",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/eff364928cea6ad79e63aee19b3440ab?profile=webtv-h264-aac-matroska&.mkv",
+            "type": "hls",
+            "url": "https://api.zappr.stream/7goldtelepadova.m3u8",
+            "cssfix": "stretch",
             "epg": {
                 "source": "uvotv",
                 "id": "Telepadova - 7 GOLD_it"
@@ -204,14 +205,14 @@
             "logo": "antennatrenordest.svg",
             "name": "Antenna Tre",
             "type": "hls",
-            "url": "https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8",
+            "url": "https://api.zappr.stream/antennatreveneto.m3u8",
             "epg": {
                 "source": "tdbnet",
                 "id": "A3"
             },
             "fallback": {
-                "type": "direct",
-                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/71ecdb918c78c08e268eb230a57867dc?profile=webtv-h264-aac-matroska&.mkv"
+                "type": "hls",
+                "url": "https://59d7d6f47d7fc.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8"
             }
         },
         {

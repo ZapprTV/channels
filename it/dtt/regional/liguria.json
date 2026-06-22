@@ -152,14 +152,6 @@
             "url": "https://5f22d76e220e1.streamlock.net/tls/tls/playlist.m3u8"
         },
         {
-            "lcn": 16,
-            "logo": "primocanaleprimopiano",
-            "name": "Primocanale Primo Piano",
-            "type": "hls",
-            "url": "https://api.zappr.stream/primocanaleprimopiano.m3u8",
-            "cssfix": "stretch"
-        },
-        {
             "lcn": 17,
             "logo": "telecolor.svg",
             "name": "Telecolor",
@@ -355,14 +347,6 @@
             "name": "Entella TV",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/EntellaTV/EntellaTV/playlist.m3u8"
-        },
-        {
-            "lcn": 76,
-            "logo": "valenzatv",
-            "name": "Valenza TV",
-            "type": "hls",
-            "url": "https://api.zappr.stream/valenzatv.m3u8",
-            "cssfix": "stretch"
         },
         {
             "lcn": 78,

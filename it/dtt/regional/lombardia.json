@@ -401,14 +401,6 @@
             }]
         },
         {
-            "lcn": 97,
-            "logo": "valenzatv",
-            "name": "Valenza TV",
-            "type": "hls",
-            "url": "https://api.zappr.stream/valenzatv.m3u8",
-            "cssfix": "stretch"
-        },
-        {
             "lcn": 98,
             "logo": "orobikchannel98",
             "name": "Orobik Channel",
