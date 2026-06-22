@@ -17,7 +17,11 @@ let jsonSchemaStaticDocs = new JsonSchemaStaticDocs({
   inputPath: "schema",
   outputPath: "docs",
   enableMetaEnum: true,
-  displaySchema: false
+  displaySchema: false,
+  ajvOptions: {
+    strict: false,
+    allowUnionTypes: true
+  }
 });
 
 await jsonSchemaStaticDocs.generate();

@@ -2691,6 +2691,14 @@
             },
             {
                 "sublcn": 3,
+                "logo": "pluscinema",
+                "name": "Plus Cinema",
+                "hd": true,
+                "type": "hls",
+                "url": "https://j78dpbnelq5r-hls-live.mariatvcdn.it/plus/50059bd08562eba8f09669ae8d37d28e.sdp/playlist.m3u8"
+            },
+            {
+                "sublcn": 4,
                 "logo": "fighterslife",
                 "name": "Fighters Life TV",
                 "type": "hls",
