@@ -140,6 +140,7 @@
             "name": "Antenna Tre",
             "type": "hls",
             "url": "https://api.zappr.stream/antennatreveneto.m3u8",
+            "cssfix": "stretch",
             "epg": {
                 "source": "tdbnet",
                 "id": "A3"
