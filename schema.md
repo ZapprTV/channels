@@ -13,11 +13,137 @@
 
 ## Properties
 
-<table class="jssd-properties-table"><thead><tr><th colspan="2">Name</th><th>Type</th></tr></thead><tbody><tr><td colspan="2"><a href="#channels">channels</a></td><td>Array</td></tr></tbody></table>
+<table class="jssd-properties-table"><thead><tr><th colspan="2">Name</th><th>Type</th></tr></thead><tbody><tr><td colspan="2"><a href="#name">name</a></td><td>String</td></tr><tr><td colspan="2"><a href="#publisher">publisher</a></td><td>String</td></tr><tr><td colspan="2"><a href="#publisherlink">publisherLink</a></td><td>String</td></tr><tr><td colspan="2"><a href="#donationlink">donationLink</a></td><td>String</td></tr><tr><td colspan="2"><a href="#icon">icon</a></td><td>String</td></tr><tr><td colspan="2"><a href="#epg">epg</a></td><td>[string, boolean]</td></tr><tr><td colspan="2"><a href="#channels">channels</a></td><td>Array</td></tr></tbody></table>
 
 
 
 <hr />
+
+
+## name
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">List name</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Required</th>
+      <td colspan="2">Yes</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+
+## publisher
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">List publisher/author name</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Required</th>
+      <td colspan="2">Yes</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+
+## publisherLink
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">List publisher/author website</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Required</th>
+      <td colspan="2">No</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+
+## donationLink
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">List publisher/author donation link</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Required</th>
+      <td colspan="2">No</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+
+## icon
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">List icon URL</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">String</td></tr>
+    <tr>
+      <th>Required</th>
+      <td colspan="2">No</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
+
+
+## epg
+
+
+<table class="jssd-property-table">
+  <tbody>
+    <tr>
+      <th>Title</th>
+      <td colspan="2">EPG URL</td>
+    </tr>
+    <tr><th>Type</th><td colspan="2">[string, boolean]</td></tr>
+    <tr>
+      <th>Required</th>
+      <td colspan="2">No</td>
+    </tr>
+    
+  </tbody>
+</table>
+
+
 
 
 ## channels
@@ -76,7 +202,7 @@
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">The filename of the channel&#x27;s logo. If it&#x27;s in SVG format, you need to suffix it with &#x27;.svg&#x27;; otherwise, if it&#x27;s in PNG/WEBP format you must not specify any file extension.</td>
+      <td colspan="2">The filename or URL of the channel&#x27;s logo. If it&#x27;s in SVG format, you need to suffix it with &#x27;.svg&#x27;; otherwise, if it&#x27;s in PNG/WEBP format you must not specify any file extension.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
@@ -1045,7 +1171,7 @@
     </tr>
     <tr>
       <th>Description</th>
-      <td colspan="2">The filename of the channel&#x27;s logo. If it&#x27;s in SVG format, you need to suffix it with &#x27;.svg&#x27;; otherwise, if it&#x27;s in PNG/WEBP format you must not specify any file extension.</td>
+      <td colspan="2">The filename or URL of the channel&#x27;s logo. If it&#x27;s in SVG format, you need to suffix it with &#x27;.svg&#x27;; otherwise, if it&#x27;s in PNG/WEBP format you must not specify any file extension.</td>
     </tr>
     <tr><th>Type</th><td colspan="2">String</td></tr>
     <tr>
