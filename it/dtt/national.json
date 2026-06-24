@@ -466,10 +466,11 @@
         },
         {
             "lcn": 63,
-            "logo": "canale63.svg",
-            "name": "Canale 63",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/f921e48af937bc931cfec540b165cf22?profile=webtv-h264-aac-matroska&.mkv"
+            "logo": "ilsole24oretv",
+            "name": "Il Sole 24 Ore TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://760869f771b04ca8a1e4daa89dd6da3e.msvdn.net/live/S88650405/33lZG4owunfW/playlist.m3u8"
         },
         {
             "lcn": 64,
@@ -1964,14 +1965,6 @@
                 "source": "blue",
                 "id": "1951"
             }
-        },
-        {
-            "lcn": 246,
-            "logo": "ilsole24oretv",
-            "name": "Il Sole 24 Ore TV",
-            "hd": true,
-            "type": "hls",
-            "url": "https://760869f771b04ca8a1e4daa89dd6da3e.msvdn.net/live/S88650405/33lZG4owunfW/playlist.m3u8"
         },
         {
             "lcn": 247,

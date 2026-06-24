@@ -208,7 +208,7 @@
                 "name": "Tele Dehon",
                 "hd": true,
                 "type": "hls",
-                "url": "https://5f22d76e220e1.streamlock.net/rtmpteledehon/smil:rtmpteledehon.smil/playlist.m3u8",
+                "url": "https://64b16f23efbee.streamlock.net/teledehonapp/ngrp:teledehonapp_all/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "Tele Dehon_it"
