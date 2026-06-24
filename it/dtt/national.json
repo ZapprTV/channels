@@ -2722,14 +2722,6 @@
             "url": "https://streamer3.premio.link/malpensa-tv/index.m3u8"
         },
         {
-            "lcn": 412,
-            "logo": "imprese",
-            "name": "Imprese",
-            "hd": true,
-            "type": "hls",
-            "url": "https://streamer2.premio.link/imprese/playlist.m3u8"
-        },
-        {
             "lcn": 441,
             "logo": "italianfishingtv",
             "name": "Italian Fishing TV",
@@ -2948,13 +2940,6 @@
             "radio": true,
             "type": "hls",
             "url": "https://radioitaliasmi.akamaized.net/hls/live/2093120/RISMI/master.m3u8"
-        },
-        {
-            "lcn": 787,
-            "logo": "teleleonessa",
-            "name": "La Leonessa",
-            "type": "hls",
-            "url": "https://cdn12.streamshow.it/hbbtv-supertv/supertv/playlist.m3u8"
         },
         {
             "lcn": 789,
