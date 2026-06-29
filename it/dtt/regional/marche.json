@@ -384,6 +384,13 @@
             }]
         },
         {
+            "lcn": 98,
+            "logo": "aranciatelevision",
+            "name": "Arancia Television",
+            "type": "hls",
+            "url": "https://stream3.xdevel.com/video0s975447-164/stream/playlist.m3u8"
+        },
+        {
             "lcn": 99,
             "logo": "rtm",
             "name": "RTM",

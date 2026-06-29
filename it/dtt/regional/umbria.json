@@ -275,6 +275,13 @@
         },
         {
             "lcn": 98,
+            "logo": "cuoreverdetv",
+            "name": "Cuore Verde TV",
+            "type": "hls",
+            "url": "https://stella.streamerr.co:3123/live/cuoreverdetvlive.m3u8"
+        },
+        {
+            "lcn": 98,
             "logo": "larockaforte",
             "name": "La Rockaforte TV",
             "type": "hls",
