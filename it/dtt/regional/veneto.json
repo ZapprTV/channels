@@ -92,9 +92,9 @@
             "lcn": 15,
             "logo": "7goldtelepadova",
             "name": "7 Gold Telepadova",
+            "hd": true,
             "type": "hls",
-            "url": "https://api.zappr.stream/7goldtelepadova.m3u8",
-            "cssfix": "stretch",
+            "url": "https://3ab45cf9f7314a75b436485ad5a0de31.msvdn.net/live/S64468501/Dz5Z8RRQqh7z/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "Telepadova - 7 GOLD_it"
