@@ -1456,6 +1456,14 @@
             "url": "https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8"
         },
         {
+            "lcn": 93,
+            "logo": "videosicilia.svg",
+            "name": "Videosicilia",
+            "type": "hls",
+            "url": "https://api.zappr.stream/videosicilia.m3u8",
+            "cssfix": "stretch"
+        },
+        {
             "lcn": 94,
             "logo": "radiojukeboxcalabria",
             "name": "Radio JukeBox TV",
