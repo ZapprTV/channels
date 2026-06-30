@@ -253,6 +253,14 @@
             }]
         },
         {
+            "lcn": 89,
+            "logo": "6srmotori",
+            "name": "6SR Motori",
+            "type": "hls",
+            "url": "https://api.zappr.stream/6srmotori.m3u8",
+            "cssfix": "stretch"
+        },
+        {
             "lcn": 94,
             "logo": "standbytv",
             "name": "Standby TV",

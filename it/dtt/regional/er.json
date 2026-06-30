@@ -614,6 +614,14 @@
             }
         },
         {
+            "lcn": 111,
+            "logo": "6srmotori",
+            "name": "6SR Motori",
+            "type": "hls",
+            "url": "https://api.zappr.stream/6srmotori.m3u8",
+            "cssfix": "stretch"
+        },
+        {
             "lcn": 114,
             "logo": "adn24",
             "name": "ADN24",

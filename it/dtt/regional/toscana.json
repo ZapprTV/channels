@@ -442,6 +442,13 @@
             "url": "https://10529e63b0a84fb6bdf487096cc5eaab.msvdn.net/live/S10857183/qMq5TNxA3ouH/playlist.m3u8"
         },
         {
+            "lcn": 110,
+            "logo": "tuscanychannel",
+            "name": "Tuscany Channel",
+            "type": "hls",
+            "url": "https://www.ntimedia.it/video/S110/S110_master.m3u8"
+        },
+        {
             "lcn": 111,
             "logo": "tuachannel",
             "name": "TUA Channel",
