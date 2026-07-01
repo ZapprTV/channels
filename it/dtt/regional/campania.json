@@ -148,10 +148,12 @@
             "lcn": 79,
             "logo": "calcionapoli24",
             "name": "CalcioNapoli24",
-            "hd": true,
-            "subtitle": "Attivo solo durante alcuni programmi in diretta",
-            "type": "youtube",
-            "url": "UCFZaLPCquo5ROTGiayRS8LQ"
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video0s978967-3218/stream/playlist.m3u8",
+            "fallback": {
+                "type": "youtube",
+                "url": "UCFZaLPCquo5ROTGiayRS8LQ"
+            }
         },
         {
             "lcn": 79,

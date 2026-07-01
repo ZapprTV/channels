@@ -154,6 +154,13 @@
             "url": "https://5f22d76e220e1.streamlock.net/italiacable/italiacable/playlist.m3u8"
         },
         {
+            "lcn": 86,
+            "logo": "appenninotv.svg",
+            "name": "Appennino TV",
+            "type": "hls",
+            "url": "https://video.streamerr.co/hls/s3eb260322f/live.m3u8"
+        },
+        {
             "lcn": 89,
             "logo": "teleuniverso",
             "name": "Teleuniverso",

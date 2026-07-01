@@ -341,7 +341,7 @@
             "logo": "radiocarina",
             "name": "Radio Carina TV",
             "type": "hls",
-            "url": "https://samson.streamerr.co:8081/carinatv/index.m3u8"
+            "url": "https://video.streamerr.co/hls/s42162f4e52/live.m3u8"
         },
         {
             "lcn": 88,
@@ -370,6 +370,13 @@
             "name": "Mediasud",
             "type": "hls",
             "url": "https://5f22d76e220e1.streamlock.net/mediasud/mediasud/playlist.m3u8"
+        },
+        {
+            "lcn": 98,
+            "logo": "appenninotv.svg",
+            "name": "Appennino TV",
+            "type": "hls",
+            "url": "https://video.streamerr.co/hls/s3eb260322f/live.m3u8"
         },
         {
             "lcn": 777,

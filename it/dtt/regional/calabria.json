@@ -516,6 +516,13 @@
             "url": "https://64b16f23efbee.streamlock.net/businesschannel/businesschannel/playlist.m3u8"
         },
         {
+            "lcn": 189,
+            "logo": "appenninotv.svg",
+            "name": "Appennino TV",
+            "type": "hls",
+            "url": "https://video.streamerr.co/hls/s3eb260322f/live.m3u8"
+        },
+        {
             "lcn": 198,
             "logo": "ondatv",
             "name": "Onda TV",
