@@ -45,6 +45,15 @@
                 "id": "266"
             },
             "geoblock": {
+                "type": "dash",
+                "url": "https://wp5-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09318/stb-dash-fhd-avc/SV09318.mpd",
+                "license": "clearkey",
+                "licensedetails": {
+                    "3bf1cd65e85c4f6ab2f2ee9ac8403b9b": "9142f7e62d011a8793e9b15ed36d7b7f",
+                    "f867332c642e3d7497970d55f0334c3b": "6111dda68d5eb9e29ef5fab147e31149"
+                }
+            },
+            "fallback": {
                 "type": "direct",
                 "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/f2771f9ea41e4e41b981c9ee9d05deb4?profile=webtv-h264-aac-matroska&.mkv"
             }
@@ -85,6 +94,15 @@
                 "id": "96"
             },
             "geoblock": {
+                "type": "dash",
+                "url": "https://wp9-s-anp33343334-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09711/stb-dash-fhd-avc/SV09711.mpd",
+                "license": "clearkey",
+                "licensedetails": {
+                    "ceb42bc780dd48a986b2b286db9fdda3": "385693e7df7b07b6936f28e15e480b61",
+                    "c77178eaf229361b82bff5390490167f": "7b30de467d675e615ff88bc9fb1f47d8"
+                }
+            },
+            "fallback": {
                 "type": "direct",
                 "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/e0a6c5fad3e752350cc5f2f3adc7a31d?profile=webtv-h264-aac-matroska&.mkv"
             }
