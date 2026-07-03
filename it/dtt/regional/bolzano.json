@@ -436,10 +436,14 @@
             "name": "Das Erste",
             "hd": true,
             "type": "hls",
-            "url": "https://lb.dstv.cx/ARD/index.m3u8",
+            "url": "https://antik.zappr.stream/test_ard_avc_25p/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "25"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8"
             },
             "hbbtv": [{
                 "sublcn": 1,
@@ -732,7 +736,7 @@
             "name": "ZDF",
             "hd": true,
             "type": "hls",
-            "url": "https://lb.dstv.cx/ZDF/index.m3u8",
+            "url": "https://antik.zappr.stream/test_zdf_avc_25p/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "656"
@@ -782,7 +786,11 @@
             "name": "ORF 1",
             "hd": true,
             "type": "hls",
-            "url": "https://lb.dstv.cx/ORF1/index.m3u8",
+            "url": "https://test13.mdn.ors.at/orf/orf1/qxa/manifest.m3u8",
+            "fallback": {
+                "type": "hls",
+                "url": "https://antik.zappr.stream/test_orf_eins_tizen/playlist.m3u8"
+            },
             "epg": {
                 "source": "blue",
                 "id": "303"
@@ -870,6 +878,7 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://lb.dstv.cx/RTSDEUX/index.m3u8",
+                "disabled": "not-working",
                 "epg": {
                     "source": "blue",
                     "id": "367"
@@ -960,6 +969,7 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://lb.dstv.cx/RTSDEUX/index.m3u8",
+                "disabled": "not-working",
                 "epg": {
                     "source": "blue",
                     "id": "367"
@@ -1024,7 +1034,7 @@
                 "name": "ZDF",
                 "hd": true,
                 "type": "hls",
-                "url": "https://lb.dstv.cx/ZDF/index.m3u8",
+                "url": "https://antik.zappr.stream/test_zdf_avc_25p/playlist.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "656"
@@ -1093,7 +1103,7 @@
                 "name": "Das Erste",
                 "hd": true,
                 "type": "hls",
-                "url": "https://lb.dstv.cx/ARD/index.m3u8",
+                "url": "https://antik.zappr.stream/test_ard_avc_25p/playlist.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "25"
@@ -1455,6 +1465,7 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://lb.dstv.cx/RTSDEUX/index.m3u8",
+                "disabled": "not-working",
                 "epg": {
                     "source": "blue",
                     "id": "367"

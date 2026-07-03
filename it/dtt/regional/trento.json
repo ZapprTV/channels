@@ -463,10 +463,14 @@
             "name": "ORF 1",
             "hd": true,
             "type": "hls",
-            "url": "https://lb.dstv.cx/ORF1/index.m3u8",
+            "url": "https://test13.mdn.ors.at/orf/orf1/qxa/manifest.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "303"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "https://antik.zappr.stream/test_orf_eins_tizen/playlist.m3u8"
             },
             "hbbtv": [{
                 "sublcn": 1,

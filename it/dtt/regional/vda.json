@@ -103,6 +103,7 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://lb.dstv.cx/RTSDEUX/index.m3u8",
+                "disabled": "not-working",
                 "epg": {
                     "source": "blue",
                     "id": "367"
