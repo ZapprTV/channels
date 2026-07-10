@@ -306,7 +306,7 @@
             "logo": "telepace.svg",
             "name": "Telepace",
             "type": "iframe",
-            "url": "https://geo.dailymotion.com/player/x1ganu.html?video=x9pha96",
+            "url": "zappr://dailymotion/x9pha96",
             "epg": {
                 "source": "oggiintv",
                 "id": "Telepace"
