@@ -436,7 +436,7 @@
             "name": "Das Erste",
             "hd": true,
             "type": "hls",
-            "url": "https://antik.zappr.stream/test_ard_avc_25p/playlist.m3u8",
+            "url": "https://dash2.antik.sk/live/test_ard_avc_25p/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "25"
@@ -462,6 +462,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "55"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://antik.zappr.stream/test_br_tizen/playlist.m3u8"
                 }
             },
             {
@@ -481,6 +485,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "205"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_hr_tizen/playlist.m3u8"
                 }
             },
             {
@@ -500,6 +508,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "256"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_mdr_tizen/playlist.m3u8"
                 }
             },
             {
@@ -519,6 +531,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "286"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_ndr_tizen/playlist.m3u8"
                 }
             },
             {
@@ -538,6 +554,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "342"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_rbb_tizen/playlist.m3u8"
                 }
             },
             {
@@ -570,6 +590,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "414"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_swr_tizen/playlist.m3u8"
                 }
             },
             {
@@ -589,6 +613,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "654"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_wdr_tizen/playlist.m3u8"
                 }
             },
             {
@@ -627,6 +655,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "28"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8"
                 }
             },
             {
@@ -646,6 +678,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "228"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8"
                 }
             },
             {
@@ -665,6 +701,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "6"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_drei_sat_tizen/playlist.m3u8"
                 }
             },
             {
@@ -684,6 +724,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "26"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/int/master.m3u8"
                 }
             },
             {
@@ -736,7 +780,7 @@
             "name": "ZDF",
             "hd": true,
             "type": "hls",
-            "url": "https://antik.zappr.stream/test_zdf_avc_25p/playlist.m3u8",
+            "url": "https://dash2.antik.sk/live/test_zdf_avc_25p/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "656"
@@ -787,10 +831,6 @@
             "hd": true,
             "type": "hls",
             "url": "https://test13.mdn.ors.at/orf/orf1/qxa/manifest.m3u8",
-            "fallback": {
-                "type": "hls",
-                "url": "https://antik.zappr.stream/test_orf_eins_tizen/playlist.m3u8"
-            },
             "epg": {
                 "source": "blue",
                 "id": "303"
@@ -813,6 +853,10 @@
             "epg": {
                 "source": "blue",
                 "id": "302"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "https://antik.zappr.stream/test_orf_zwei_tizen/playlist.m3u8"
             }
         },
         {
@@ -1034,7 +1078,7 @@
                 "name": "ZDF",
                 "hd": true,
                 "type": "hls",
-                "url": "https://antik.zappr.stream/test_zdf_avc_25p/playlist.m3u8",
+                "url": "https://dash2.antik.sk/live/test_zdf_avc_25p/playlist.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "656"
@@ -1077,6 +1121,10 @@
             "epg": {
                 "source": "blue",
                 "id": "6"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "https://dash4.antik.sk/live/test_drei_sat_tizen/playlist.m3u8"
             }
         },
         {
@@ -1097,13 +1145,17 @@
                 "source": "blue",
                 "id": "55"
             },
+            "fallback": {
+                "type": "hls",
+                "url": "https://antik.zappr.stream/test_br_tizen/playlist.m3u8"
+            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "daserste.svg",
                 "name": "Das Erste",
                 "hd": true,
                 "type": "hls",
-                "url": "https://antik.zappr.stream/test_ard_avc_25p/playlist.m3u8",
+                "url": "https://dash2.antik.sk/live/test_ard_avc_25p/playlist.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "25"
@@ -1126,6 +1178,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "205"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_hr_tizen/playlist.m3u8"
                 }
             },
             {
@@ -1145,6 +1201,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "256"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_mdr_tizen/playlist.m3u8"
                 }
             },
             {
@@ -1164,6 +1224,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "286"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_ndr_tizen/playlist.m3u8"
                 }
             },
             {
@@ -1183,6 +1247,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "342"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_rbb_tizen/playlist.m3u8"
                 }
             },
             {
@@ -1215,6 +1283,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "414"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_swr_tizen/playlist.m3u8"
                 }
             },
             {
@@ -1234,6 +1306,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "654"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_wdr_tizen/playlist.m3u8"
                 }
             },
             {
@@ -1272,6 +1348,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "28"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8"
                 }
             },
             {
@@ -1291,6 +1371,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "228"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8"
                 }
             },
             {
@@ -1310,6 +1394,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "6"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://dash4.antik.sk/live/test_drei_sat_tizen/playlist.m3u8"
                 }
             },
             {
@@ -1329,6 +1417,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "26"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://mcdn.br.de/br/fs/ard_alpha/hls/int/master.m3u8"
                 }
             },
             {
@@ -1392,6 +1484,10 @@
             "epg": {
                 "source": "blue",
                 "id": "228"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8"
             }
         },
         {
@@ -1411,6 +1507,10 @@
             "epg": {
                 "source": "blue",
                 "id": "28"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8"
             }
         },
         {

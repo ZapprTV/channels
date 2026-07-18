@@ -468,10 +468,6 @@
                 "source": "blue",
                 "id": "303"
             },
-            "fallback": {
-                "type": "hls",
-                "url": "https://antik.zappr.stream/test_orf_eins_tizen/playlist.m3u8"
-            },
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "orf2.svg",
@@ -489,6 +485,10 @@
                 "epg": {
                     "source": "blue",
                     "id": "302"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://antik.zappr.stream/test_orf_zwei_tizen/playlist.m3u8"
                 }
             },
             {
