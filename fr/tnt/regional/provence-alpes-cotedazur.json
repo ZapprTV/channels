@@ -1,0 +1,95 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales de Provence-Alpes-Côte d'Azur",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/regional/provence-alpes-cotedazur.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Côte d'Azur",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-cote-d-azur.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Provence-Alpes",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-provence-alpes.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 30,
+            "logo": "bfmmarseilleprovence.svg",
+            "name": "BFM Marseille Provence",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_MARSEILLEPROV/index.m3u8?start=LIVE&end=END",
+            "epg": {
+                "source": "sfr",
+                "id": "3289"
+            }
+        },
+        {
+            "lcn": 30,
+            "logo": "bfmtoulonvar.svg",
+            "name": "BFM Toulon Var",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TOULONVAR/index.m3u8?start=LIVE&end=END",
+            "epg": {
+                "source": "sfr",
+                "id": "3290"
+            }
+        },
+        {
+            "lcn": 31,
+            "logo": "bfmnicecotedazur.svg",
+            "name": "BFM Nice Côte d'Azur",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NICECOTEDAZUR/index.m3u8?start=LIVE&end=END",
+            "epg": {
+                "source": "sfr",
+                "id": "3291"
+            }
+        },
+        {
+            "lcn": 31,
+            "logo": "bfmdicihaute-provence.svg",
+            "name": "BFM DICI Haute-Provence",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_HAUTEPROVENCE/index.m3u8?start=LIVE&end=END",
+            "epg": {
+                "source": "sfr",
+                "id": "3164"
+            }
+        },
+        {
+            "lcn": 31,
+            "logo": "bfmdicialpesdusud.svg",
+            "name": "BFM DICI Alpes du Sud",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_DICI_ALPESDUSUD/index.m3u8?start=LIVE&end=END",
+            "epg": {
+                "source": "sfr",
+                "id": "3165"
+            }
+        }
+    ]
+}

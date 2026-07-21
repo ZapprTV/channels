@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Calque_2" data-name="Calque 2"
+    viewBox="0 0 408.9 149.25">
+    <defs>
+        <linearGradient id="Dégradé_sans_nom" data-name="Dégradé sans nom" x1="-320" y1="445.67" x2="88.9" y2="445.67"
+            gradientTransform="translate(320 520.29) scale(1 -1)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#01168b"></stop>
+            <stop offset=".1" stop-color="#001b9c"></stop>
+            <stop offset=".2" stop-color="#021d9e"></stop>
+            <stop offset=".3" stop-color="#06198f"></stop>
+            <stop offset=".4" stop-color="#31127a"></stop>
+            <stop offset=".5" stop-color="#500b64"></stop>
+            <stop offset=".6" stop-color="#77054d"></stop>
+            <stop offset=".7" stop-color="#960234"></stop>
+            <stop offset=".8" stop-color="#bb0221"></stop>
+            <stop offset=".9" stop-color="#b00005"></stop>
+            <stop offset="1" stop-color="#9a0003"></stop>
+        </linearGradient>
+        <linearGradient id="Dégradé_sans_nom_2" data-name="Dégradé sans nom 2" x1="-320" y1="473.27" x2="88.9"
+            y2="473.27" gradientTransform="translate(320 520.29) scale(1 -1)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#0f30b3" stop-opacity=".47"></stop>
+            <stop offset=".1" stop-color="#1c45cf" stop-opacity=".66"></stop>
+            <stop offset=".2" stop-color="#2b53d7"></stop>
+            <stop offset=".3" stop-color="#3757c6"></stop>
+            <stop offset=".4" stop-color="#665cb2"></stop>
+            <stop offset=".5" stop-color="#87539b"></stop>
+            <stop offset=".6" stop-color="#a44080"></stop>
+            <stop offset=".7" stop-color="#b4325e"></stop>
+            <stop offset=".8" stop-color="#c42038"></stop>
+            <stop offset=".9" stop-color="#bd1016"></stop>
+            <stop offset="1" stop-color="#99060c"></stop>
+        </linearGradient>
+    </defs>
+    <g id="svg2">
+        <g>
+            <path id="path2998" d="M0,149.25V0h408.9v149.25H0Z"
+                style="fill: url(#Dégradé_sans_nom); fill-rule: evenodd; stroke-width: 0px;"></path>
+            <path id="path3006" d="M0,94.05V0h408.9v42.12s-36.3-1.1-55.81-1.1C241.99,41.01,108.11,62.66,0,94.05Z"
+                style="fill: url(#Dégradé_sans_nom_2); stroke-width: 0px;"></path>
+            <path
+                d="M101.41,127.17h-45.8V58.88h-23.72V22.9h93.23v35.98h-23.72v68.29ZM181.14,127.17V22.9h85.05v26.17h-39.25v18.81h28.21v26.17h-28.21v33.12h-45.8ZM320.17,127.17V35.57l47.43-13.49v105.09h-47.43Z"
+                style="fill: #fff; stroke-width: 0px;"></path>
+        </g>
+    </g>
+</svg>

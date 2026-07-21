@@ -1,0 +1,71 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales de Nouvelle-Aquitaine",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/regional/nouvelle-aquitaine.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Aquitaine",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-aquitaine.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Limousin",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-limousin.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Poitou-Charentes",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-poitou-charentes.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 30,
+            "logo": "tvpi.svg",
+            "name": "TVPI",
+            "hd": true,
+            "type": "youtube",
+            "url": "UCXAdMdU4R2WNXJOWCpdducw",
+            "epg": {
+                "source": "sfr",
+                "id": "2275"
+            }
+        },
+        {
+            "lcn": 33,
+            "logo": "tv7.svg",
+            "name": "TV7",
+            "hd": true,
+            "type": "youtube",
+            "url": "UCV9yrdAfyd1BdDyd4tDdVxg",
+            "epg": {
+                "source": "sfr",
+                "id": "273"
+            }
+        }
+    ]
+}

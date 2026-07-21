@@ -1,0 +1,47 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales de Bretagne",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/regional/bretagne.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Bretagne",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-bretagne.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 31,
+            "logo": "tebeo",
+            "name": "Tébéo",
+            "hd": true,
+            "type": "hls",
+            "url": "https://tebeo.streamakaci.tv/tebeo/tebeo-multi/playlist.m3u8",
+            "epg": {
+                "source": "sfr",
+                "id": "1321"
+            }
+        },
+        {
+            "lcn": 35,
+            "logo": "tvr.svg",
+            "name": "TVR",
+            "hd": true,
+            "type": "hls",
+            "url": "https://cdn.live.easybroadcast.io/abr_corp/54_tvr_vtucuxt/playlist.m3u8",
+            "epg": {
+                "source": "sfr",
+                "id": "539"
+            }
+        }
+    ]
+}

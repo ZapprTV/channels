@@ -1,0 +1,34 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales d'Occitanie",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Midi-Pyrénées",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-midi-pyrenees.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Languedoc-Roussillon",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-languedoc-roussillon.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        }
+    ]
+}

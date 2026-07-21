@@ -1,0 +1,42 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales de Centre-Val de Loire",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/regional/centre-valdeloire.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Centre-Val de Loire",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-centre-val-de-loire.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 36,
+            "logo": "biptv",
+            "name": "Bip TV",
+            "type": "hls",
+            "url": "https://hls-biptv.archistream.live/hls/master.m3u8"
+        },
+        {
+            "lcn": 37,
+            "logo": "valdeloiretv.svg",
+            "name": "Val de Loire TV",
+            "hd": true,
+            "type": "iframe",
+            "url": "zappr://dailymotion/k2Tq27vnrsY6dKF0brG",
+            "epg": {
+                "source": "sfr",
+                "id": "540"
+            }
+        }
+    ]
+}

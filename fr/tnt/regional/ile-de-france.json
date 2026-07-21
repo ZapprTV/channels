@@ -1,0 +1,47 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales d'Île-de-France",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/regional/ile-de-france.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Paris Île-de-France",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-paris-ile-de-france.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 32,
+            "logo": "20minutestv.svg",
+            "name": "20 Minutes TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://live-20minutestv.digiteka.com/1961167769/index.m3u8",
+            "epg": {
+                "source": "sfr",
+                "id": "701"
+            }
+        },
+        {
+            "lcn": 34,
+            "logo": "lefigarotv.svg",
+            "name": "Le Figaro TV",
+            "hd": true,
+            "type": "hls",
+            "url": "zappr://tf1plus/ViaGrandParis",
+            "epg": {
+                "source": "sfr",
+                "id": "863"
+            }
+        }
+    ]
+}

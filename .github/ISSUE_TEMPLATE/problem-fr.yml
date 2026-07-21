@@ -1,0 +1,62 @@
+name: ⚠️ Problèmes liés à la chaîne (FR)
+description: Pour les chaînes visibles mais qui posent problème. Pas pour les chaînes qui affichent une erreur.
+labels: 
+  - Problema
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci d'avoir pris le temps de contribuer à l'amélioration de Zappr en nous envoyant ce signalement. Veuillez saisir ci-dessus une brève description du problème.
+
+        **Avant de remplir les autres champs**, vérifie que personne d'autre n'a déjà signalé le même problème. [Rendez-vous dans l'onglet Issues](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3AProblema) et recherchez le nom de la chaîne que vous souhaitez signaler : si vous ne trouvez pas de issue correspondant à votre problème, continuez à remplir ce formulaire.
+
+        **Par ailleurs, nous te rappelons que ce formulaire est réservé aux chaînes qui posent des problèmes mais qui ne génèrent pas d'erreur. Si une fenêtre intitulée « Erreur de chaîne » s'affiche lorsque tu essaies de lire la chaîne que tu souhaites signaler, ce n'est pas le bon formulaire.**
+  - type: input
+    id: name
+    attributes:
+      label: Nom de la chaîne
+      placeholder: M6
+    validations:
+      required: true
+  - type: input
+    id: lcn
+    attributes:
+      label: Numérotation du chaîne
+      placeholder: "6"
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Quel est le problème ?
+      description: Explique en détail le problème que tu rencontres.
+      placeholder: La chaîne met 7 ans et demi à se charger et elle plante très souvent.
+    validations:
+      required: true
+  - type: dropdown
+    id: zappr
+    attributes:
+      label: Est-ce que cela n'arrive que sur Zappr ?
+      description: |
+        Cherche d'autres moyens de regarder cette chaîne en streaming et dis-nous si les problèmes que tu as rencontrés précédemment concernent uniquement Zappr ou non.
+      options:
+        - Non, ça arrive aussi ailleurs
+        - Oui, ça n'arrive que sur Zappr
+        - La chaîne n'est disponible que sur Zappr / Je ne l'ai trouvée nulle part ailleurs
+    validations:
+      required: true
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Sur quel navigateur cela se produit-il ?
+      description: |
+        Si possible, essaie de tester la chaîne avec le plus grand nombre possible de navigateurs, afin de vérifier si le problème vient du navigateur.
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Brave
+        - Autre
+    validations:
+      required: true

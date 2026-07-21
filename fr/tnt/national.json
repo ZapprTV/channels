@@ -1,0 +1,350 @@
+{
+    "$schema": "../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes nationales",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/national.json",
+    "channels": [
+        {
+            "lcn": 1,
+            "logo": "tf1.svg",
+            "name": "TF1",
+            "hd": true,
+            "type": "hls",
+            "url": "zappr://tf1plus/TF1",
+            "epg": {
+                "source": "blue",
+                "id": "601"
+            }
+        },
+        {
+            "lcn": 2,
+            "logo": "france2.svg",
+            "name": "France 2",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france2.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "182"
+            }
+        },
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3",
+            "subtitle": "(nationale)",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france3.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 4,
+            "logo": "france4.svg",
+            "name": "France 4",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-4.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "185"
+            }
+        },
+        {
+            "lcn": 5,
+            "logo": "france5.svg",
+            "name": "France 5",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/backup/france5.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "186"
+            }
+        },
+        {
+            "lcn": 6,
+            "logo": "m6.svg",
+            "name": "M6",
+            "hd": true,
+            "type": "iframe",
+            "url": "https://m6.zappr.stream",
+            "epg": {
+                "source": "blue",
+                "id": "249"
+            }
+        },
+        {
+            "lcn": 7,
+            "logo": "arte.svg",
+            "name": "ARTE",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/arte.m3u8",
+            "geoblock": {
+                "type": "hls",
+                "url": "zappr://tf1plus/111"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "28"
+            }
+        },
+        {
+            "lcn": 8,
+            "logo": "lcppublicsenat.svg",
+            "name": "LCP - Public Sénat",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/lcp-public-senat.m3u8",
+            "geoblock": {
+                "type": "hls",
+                "url": "zappr://tf1plus/LaChaineParlementaire"
+            },
+            "epg": {
+                "source": "sfr",
+                "id": "234"
+            }
+        },
+        {
+            "lcn": 9,
+            "logo": "w9.svg",
+            "name": "W9",
+            "hd": true,
+            "type": "dash",
+            "url": "https://sr-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_cenc00/dash-short-hd.mpd",
+            "license": "clearkey",
+            "licensedetails": "e8ae44faa1e73658bfe725dec8204259:d90e4519b41352e2791370dfcc20406b",
+            "epg": {
+                "source": "blue",
+                "id": "653"
+            }
+        },
+        {
+            "lcn": 10,
+            "logo": "tmc.svg",
+            "name": "TMC",
+            "hd": true,
+            "type": "hls",
+            "url": "zappr://tf1plus/TMC",
+            "epg": {
+                "source": "blue",
+                "id": "609"
+            }
+        },
+        {
+            "lcn": 11,
+            "logo": "tfx.svg",
+            "name": "TFX",
+            "hd": true,
+            "type": "hls",
+            "url": "zappr://tf1plus/NT1",
+            "epg": {
+                "source": "blue",
+                "id": "295"
+            }
+        },
+        {
+            "lcn": 12,
+            "logo": "gulli.svg",
+            "name": "Gulli",
+            "hd": true,
+            "type": "dash",
+            "url": "https://sr-m6web.live.6cloud.fr/out/v1/6play/6play-gulli/cmaf_cenc00/dash-short-hd.mpd",
+            "license": "clearkey",
+            "licensedetails": "05614a18d93436c59383bcfa64a26265:fa44f0cdbd1a5d97732d4f55e461175c",
+            "epg": {
+                "source": "blue",
+                "id": "195"
+            }
+        },
+        {
+            "lcn": 13,
+            "logo": "bfmtv.svg",
+            "name": "BFMTV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TV/index.m3u8?start=LIVE&end=END",
+            "epg": {
+                "source": "blue",
+                "id": "43"
+            }
+        },
+        {
+            "lcn": 14,
+            "logo": "cnews.svg",
+            "name": "CNews",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-clair-hd.m3u8",
+            "geoblock": {
+                "type": "iframe",
+                "url": "zappr://dailymotion/x3b68jn"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "217"
+            }
+        },
+        {
+            "lcn": 15,
+            "logo": "lci.svg",
+            "name": "LCI",
+            "hd": true,
+            "type": "hls",
+            "url": "zappr://tf1plus/LCI",
+            "epg": {
+                "source": "blue",
+                "id": "241"
+            }
+        },
+        {
+            "lcn": 16,
+            "logo": "franceinfo.svg",
+            "name": "franceinfo",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/franceinfo.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "1064"
+            }
+        },
+        {
+            "lcn": 17,
+            "logo": "cstar.svg",
+            "name": "CStar",
+            "hd": true,
+            "type": "iframe",
+            "url": "zappr://dailymotion/x5gv5v0",
+            "geoblock": true,
+            "epg": {
+                "source": "blue",
+                "id": "115"
+            }
+        },
+        {
+            "lcn": 18,
+            "logo": "t18.svg",
+            "name": "T18",
+            "hd": true,
+            "type": "iframe",
+            "url": "zappr://dailymotion/x9jhhyc",
+            "geoblock": true,
+            "epg": {
+                "source": "blue",
+                "id": "2166"
+            }
+        },
+        {
+            "lcn": 19,
+            "logo": "novo19.svg",
+            "name": "NOVO19",
+            "hd": true,
+            "type": "dash",
+            "url": "https://5eb46ec-rbm-hilv-fsly.cdn.redbee.live/L6/8e2b4270/9fc956ca.isml/.mpd",
+            "license": "clearkey",
+            "licensedetails": "d49c8fa0c3a546e2ad4185d5e38611cd:363ee79a774e401bfaa88cf22cad0099",
+            "fallback": {
+                "type": "hls",
+                "url": "zappr://tf1plus/NOVO19"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "2182"
+            }
+        },
+        {
+            "lcn": 20,
+            "logo": "tf1seriesfilms.svg",
+            "name": "TF1 Séries Films",
+            "hd": true,
+            "type": "hls",
+            "url": "zappr://tf1plus/TF1SeriesFilms",
+            "epg": {
+                "source": "blue",
+                "id": "199"
+            }
+        },
+        {
+            "lcn": 21,
+            "logo": "lachainelequipe.svg",
+            "name": "La chaîne L'Équipe",
+            "hd": true,
+            "type": "iframe",
+            "url": "zappr://dailymotion/x2lefik",
+            "geoblock": {
+                "type": "hls",
+                "url": "zappr://tf1plus/LEquipe21"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "245"
+            }
+        },
+        {
+            "lcn": 22,
+            "logo": "6ter.svg",
+            "name": "6ter",
+            "hd": true,
+            "type": "dash",
+            "url": "https://sr-m6web.live.6cloud.fr/out/v1/6play/6play-6ter/cmaf_cenc00/dash-short-hd.mpd",
+            "license": "clearkey",
+            "licensedetails": "e555ac09f7da360c93552a5421768324:eb3b1e4c0618320546302c47a0aa6957",
+            "epg": {
+                "source": "blue",
+                "id": "9"
+            }
+        },
+        {
+            "lcn": 23,
+            "logo": "rmcstory.svg",
+            "name": "RMC Story",
+            "hd": true,
+            "type": "hls",
+            "url": "https://d15aro46bnpfm8.cloudfront.net/RMC_Story_FR.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "298"
+            }
+        },
+        {
+            "lcn": 24,
+            "logo": "rmcdecouverte.svg",
+            "name": "RMC Découverte",
+            "hd": true,
+            "type": "hls",
+            "url": "https://d16zzycxcd0m0r.cloudfront.net/RMC_Decouverte_FR.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "353"
+            }
+        },
+        {
+            "lcn": 25,
+            "logo": "rmclife.svg",
+            "name": "RMC Life",
+            "hd": true,
+            "type": "hls",
+            "url": "https://d2gkzqu5bqo3kk.cloudfront.net/RMC_Life_FR.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "93"
+            }
+        },
+        {
+            "lcn": 77,
+            "logo": "arte.svg",
+            "name": "ARTE.tv",
+            "hbbtvapp": true,
+            "type": "iframe",
+            "url": "https://smarttv.arte.tv/static/smartTV-html5-subset/current/"
+        }
+    ]
+}

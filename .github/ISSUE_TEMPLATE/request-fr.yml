@@ -1,0 +1,30 @@
+name: ❓ Demande de chaîne (FR)
+description: Demander une chaîne.
+labels:
+  - Richiesta
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci d'avoir pris le temps de contribuer à l'amélioration de Zappr en nous envoyant ce signalement. Merci d'indiquer ci-dessus le nom de la chaîne que vous souhaitez ajouter. Nous vous rappelons également que vous pouvez demander l'ajout de chaînes HbbTV et régionales *(si une liste existe déjà pour votre région : vérifiez dans les paramètres de Zappr)*.
+
+        **Avant d'envoyer cette demande**, vérifie que personne d'autre n'ait déjà demandé cette chaîne. [Rendez-vous dans l'onglet Issues](https://github.com/ZapprTV/channels/issues?q=is%3Aissue+is%3Aopen+label%3ARichiesta) et recherchez le nom du canal que vous souhaitez demander : si vous ne trouvez pas de issue concernant le canal que vous souhaitez demander, continuez à remplir ce formulaire.
+  - type: input
+    id: name
+    attributes:
+      label: Nom de la chaîne
+      placeholder: M6
+    validations:
+      required: true
+  - type: input
+    id: lcn
+    attributes:
+      label: Numérotation du chaîne (sur TNT)
+      placeholder: "6"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Lien vers le streaming de la chaîne
+      description: Si tu le trouves.

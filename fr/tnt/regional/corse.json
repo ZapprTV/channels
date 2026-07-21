@@ -1,0 +1,35 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales de Corse",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/regional/corse.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Corse ViaStella",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-corse-via-stella.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 30,
+            "logo": "telepaese",
+            "name": "Télé Paese",
+            "hd": true,
+            "type": "hls",
+            "url": "https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8",
+            "epg": {
+                "source": "sfr",
+                "id": "1750"
+            }
+        }
+    ]
+}

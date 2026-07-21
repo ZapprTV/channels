@@ -1,0 +1,47 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales de Normandie",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/regional/normandie.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Basse-Normandie",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-basse-normandie.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Haute-Normandie",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-haute-normandie.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 33,
+            "logo": "bfmnormandie.svg",
+            "name": "BFM Normandie",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_NORMANDIE/index.m3u8?start=LIVE&end=END",
+            "epg": {
+                "source": "sfr",
+                "id": "3557"
+            }
+        }
+    ]
+}

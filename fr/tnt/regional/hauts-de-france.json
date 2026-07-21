@@ -1,0 +1,67 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales des Hauts-de-France",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/regional/hauts-de-france.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Nord-Pas-de-Calais",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-nord-pas-de-calais.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Picardie",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-picardie.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 31,
+            "logo": "bfmgrandlille.svg",
+            "name": "BFM Grand Lille",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLILLE/index.m3u8?start=LIVE&end=END",
+            "epg": {
+                "source": "sfr",
+                "id": "930"
+            }
+        },
+        {
+            "lcn": 32,
+            "logo": "bfmgrandlittoral.svg",
+            "name": "BFM Grand Littoral",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFMGRANDLITTORAL/index.m3u8?start=LIVE&end=END",
+            "epg": {
+                "source": "sfr",
+                "id": "2317"
+            }
+        },
+        {
+            "lcn": 34,
+            "logo": "matele.svg",
+            "name": "Matélé",
+            "hd": true,
+            "type": "hls",
+            "url": "https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8"
+        }
+    ]
+}

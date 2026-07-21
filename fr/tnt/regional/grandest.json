@@ -1,0 +1,94 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales de Grand Est",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/regional/grandest.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Alsace",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-alsace.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Champagne-Ardenne",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-champagne-ardenne.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Lorraine",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-lorraine.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 30,
+            "logo": "bfmalsace.svg",
+            "name": "BFM Alsace",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_ALSACE/index.m3u8?start=LIVE&end=END",
+            "epg": {
+                "source": "sfr",
+                "id": "3460"
+            }
+        },
+        {
+            "lcn": 31,
+            "logo": "vosgestv.svg",
+            "name": "Vosges TV",
+            "type": "hls",
+            "url": "https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8",
+            "epg": {
+                "source": "sfr",
+                "id": "1095"
+            }
+        },
+        {
+            "lcn": 32,
+            "logo": "canal32.svg",
+            "name": "Canal 32",
+            "hd": true,
+            "type": "hls",
+            "url": "https://canal32-lineaire.b-cdn.net/master.m3u8",
+            "epg": {
+                "source": "sfr",
+                "id": "534"
+            }
+        },
+        {
+            "lcn": 33,
+            "logo": "moselletv",
+            "name": "Moselle TV",
+            "hd": true,
+            "type": "iframe",
+            "url": "zappr://dailymotion/x9lgbik",
+            "epg": {
+                "source": "sfr",
+                "id": "1045"
+            }
+        }
+    ]
+}

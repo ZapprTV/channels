@@ -1,0 +1,76 @@
+{
+    "$schema": "../../../schema.json",
+    "name": "Liste officielle de Zappr - Chaînes locales de Pays de la Loire",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/fr/tnt/regional/paysdelaloire.json",
+    "channels": [
+        {
+            "lcn": 3,
+            "logo": "france3.svg",
+            "name": "France 3 Pays de la Loire",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/francetv/france-3-pays-de-la-loire.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "184"
+            }
+        },
+        {
+            "lcn": 30,
+            "logo": "angerstele.svg",
+            "name": "Angers Télé",
+            "type": "iframe",
+            "url": "zappr://dailymotion/x8r7256",
+            "epg": {
+                "source": "sfr",
+                "id": "1615"
+            }
+        },
+        {
+            "lcn": 31,
+            "logo": "telenantes.svg",
+            "name": "Télénantes",
+            "type": "iframe",
+            "url": "zappr://dailymotion/x5so98l",
+            "epg": {
+                "source": "sfr",
+                "id": "491"
+            }
+        },
+        {
+            "lcn": 32,
+            "logo": "lmtv",
+            "name": "LMtv Sarthe",
+            "hd": true,
+            "type": "youtube",
+            "url": "UCidJ6dBJ7oEfdAVzqaL2nSg",
+            "epg": {
+                "source": "sfr",
+                "id": "535"
+            }
+        },
+        {
+            "lcn": 33,
+            "logo": "tlc",
+            "name": "TLC",
+            "type": "iframe",
+            "url": "https://vimeo.com/event/3889697/embed/interaction"
+        },
+        {
+            "lcn": 34,
+            "logo": "tvvendee.svg",
+            "name": "TV Vendée",
+            "hd": true,
+            "type": "youtube",
+            "url": "UCEw9gcSDo-LlC0ci60bl-Rg",
+            "epg": {
+                "source": "sfr",
+                "id": "1268"
+            }
+        }
+    ]
+}
