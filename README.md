@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="README-en.md">English</a> | <b>Italiano</b>
+    <b>Italiano</b> | <a href="README-en.md">English</a> | <a href="README-fr.md">Français</a>
 </div>
 I loghi dei canali, nei formati PNG, WEBP e SVG, e le liste dei canali, in formato JSON, usati da Zappr.
 

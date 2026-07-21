@@ -1,5 +1,5 @@
 <div align="center">
-    <b>English</b> | <a href="README.md">Italiano</a>
+    <a href="README.md">Italiano</a> | <b>English</b> | <a href="README-fr.md">Français</a>
 </div>
 The channel logos, in PNG, WEBP and SVG format, and the channel lists, in JSON format, used by Zappr.
 
