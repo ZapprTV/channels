@@ -49,7 +49,7 @@
             "name": "TG+",
             "hd": true,
             "type": "hls",
-            "url": "http://api.zappr.stream/tgplus.m3u8",
+            "url": "https://api.zappr.stream/tgplus.m3u8",
             "epg": {
                 "source": "sfr",
                 "id": "537"
