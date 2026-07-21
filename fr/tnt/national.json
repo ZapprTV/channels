@@ -223,7 +223,10 @@
             "hd": true,
             "type": "iframe",
             "url": "zappr://dailymotion/x5gv5v0",
-            "geoblock": true,
+            "geoblock": {
+                "type": "hls",
+                "url": "https://api.zappr.stream/cstar.m3u8"
+            },
             "epg": {
                 "source": "blue",
                 "id": "115"
@@ -234,9 +237,8 @@
             "logo": "t18.svg",
             "name": "T18",
             "hd": true,
-            "type": "iframe",
-            "url": "zappr://dailymotion/x9jhhyc",
-            "geoblock": true,
+            "type": "hls",
+            "url": "zappr://filmon/1726",
             "epg": {
                 "source": "blue",
                 "id": "2166"
