@@ -278,15 +278,15 @@
             "name": "K2",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/k2.mpd",
+            "url": "https://api.zappr.stream/k2.mpd?clearkeyPlayer.maxQuality=720",
             "license": "clearkey",
             "licensedetails": {
-                "01004587127a0e454158b5e7392283d7": "2db7dd74073a6f2a5d5444bbfbe157f2",
-                "0101c9838be12fc94f2e2bb4f6137488": "351e58868f9609833180101e8fdcb4bb",
-                "0102e7882e14ba5223411d61580a2e70": "48141c60c33b393b1cb894afbe296496",
-                "0103936b48b232229e90e0fe748a5127": "40fede50a7c079885cc1f5aeb0611938",
-                "0104a90d8377c8397a16db6aea00255d": "0182a7edbf2671485557922934cce375",
-                "010572e14f306c6bc9321cd6231457b8": "45cae75a5d4073406ee2f524f837c6d4"
+                "0100ba5d29a372845ef226049f684ec5": "cb0e3ac2559b4537cffcd130644e5217",
+                "01010dbb15af95a17086d1c21d5158df": "3a167d7de6361eefe75d6d4eca03aa2a",
+                "0102ec0417e0159d451394828b608b28": "eed709c12d9202009dc6d105c957a080",
+                "0103787a733983b31e18aaba92b71415": "00000000000000000000000000000000",
+                "010472105a5244ba4b541b3b43855bfb": "00000000000000000000000000000000",
+                "01056351ffba7a3e729c121c7f628509": "00000000000000000000000000000000"
             },
             "epg": {
                 "source": "blue",
@@ -299,15 +299,15 @@
             "name": "Frisbee",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/frisbee.mpd",
+            "url": "https://api.zappr.stream/frisbee.mpd?clearkeyPlayer.maxQuality=720",
             "license": "clearkey",
             "licensedetails": {
-                "010036356507e020b45b2603e2814373": "51029ecaaff8ef429fd8c41cc672cec0",
-                "010167cff5cc52576f396d1ec8827cfa": "1a39558797b040f528032ecca74d6b3f",
-                "01020b636a6a1e0b812eef00f28e3538": "26bba1b5e42cb88b793241d2d7119fb5",
-                "0103d507c94e1bf4d556011010deba71": "12a125c9a43b489a0adb3b937f618057",
-                "01045825dc15605c4de3845c3059fbb4": "f87037afaefca37df7c2d92de899b9ee",
-                "0105dbe971f59408ff7f3372ad87fd9e": "3ef2b2e5958025ee4c2c0b678d982b09"
+                "01000c556114ed472c4affc91caf1bac": "76b1c243b54f48913970a922b17c2c7e",
+                "01018590ee8718d526c3da96f22216fc": "b0cddac881058d9cc5e057dbac7ed826",
+                "0102259b1109135dc496194857380cf8": "0eec99deb59dc6991c6c7cea4c41a64a",
+                "0103892a0781b22a72b9c5021cee7788": "00000000000000000000000000000000",
+                "0104dcca92742fd2bcbdb6d0b9afa199": "00000000000000000000000000000000",
+                "0105514f047e00d36707f85733467540": "00000000000000000000000000000000"
             },
             "epg": {
                 "source": "blue",
