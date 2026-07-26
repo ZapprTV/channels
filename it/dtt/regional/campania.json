@@ -290,7 +290,7 @@
             "logo": "videonola",
             "name": "Videonola",
             "type": "hls",
-            "url": "https://videonola.aswifi.it/videonolaabr/live.m3u8",
+            "url": "https://videonola.aswifi.it/videonola/live/index.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "telestabia",
