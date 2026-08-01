@@ -184,6 +184,10 @@
             "type": "hls",
             "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/cnews-clair-hd.m3u8",
             "geoblock": {
+                "type": "dash",
+                "url": "zappr://canalplus/cnews-clair-hd"
+            },
+            "fallback": {
                 "type": "iframe",
                 "url": "zappr://dailymotion/x3b68jn"
             },
@@ -341,12 +345,315 @@
             }
         },
         {
+            "lcn": 40,
+            "logo": "canal+.svg",
+            "name": "Canal+",
+            "subtitle": "Programmes en clair",
+            "hd": true,
+            "type": "hls",
+            "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/canalplus/canalplusclair-hd.m3u8",
+            "license": "clearkey",
+            "geoblock": true,
+            "epg": {
+                "source": "blue",
+                "id": "63"
+            }
+        },
+        {
+            "lcn": 47,
+            "logo": "france24.svg",
+            "name": "France 24",
+            "hd": true,
+            "type": "hls",
+            "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "183"
+            },
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "france24.svg",
+                "name": "France 24",
+                "subtitle": "(en anglais)",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8",
+                "epg": {
+                    "source": "blue",
+                    "id": "1639"
+                }
+            },
+            {
+                "sublcn": 2,
+                "logo": "france24.svg",
+                "name": "France 24",
+                "subtitle": "(en espagnol)",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "france24.svg",
+                "name": "France 24",
+                "subtitle": "(en arabe)",
+                "hd": true,
+                "type": "hls",
+                "url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8"
+            }]
+        },
+        {
+            "lcn": 49,
+            "logo": "tv5mondeeurope.svg",
+            "name": "TV5Monde",
+            "hd": true,
+            "type": "hls",
+            "url": "https://tv5monde.zappr.stream/index.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "635"
+            },
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "tv5mondeinfo.svg",
+                "name": "TV5Monde Info",
+                "hd": true,
+                "type": "hls",
+                "url": "https://d161b1o6wfc5a3.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3u7sgewc3l8ri/tvfm.m3u8"
+            }]
+        },
+        {
             "lcn": 77,
             "logo": "arte.svg",
             "name": "ARTE.tv",
             "hbbtvapp": true,
             "type": "iframe",
             "url": "https://smarttv.arte.tv/static/smartTV-html5-subset/current/"
+        },
+        {
+            "lcn": 100,
+            "logo": "franceculture.svg",
+            "name": "France Culture",
+            "radio": true,
+            "type": "hls",
+            "url": "https://stream.radiofrance.fr/franceculture/franceculture.m3u8?id=radiofrance"
+        },
+        {
+            "lcn": 101,
+            "logo": "francemusique.svg",
+            "name": "France Musique",
+            "radio": true,
+            "type": "hls",
+            "url": "https://stream.radiofrance.fr/francemusique/francemusique.m3u8?id=radiofrance"
+        },
+        {
+            "lcn": 102,
+            "logo": "fip.svg",
+            "name": "FIP",
+            "radio": true,
+            "type": "hls",
+            "url": "https://stream.radiofrance.fr/fip/fip.m3u8?id=radiofrance"
+        },
+        {
+            "lcn": 103,
+            "logo": "franceinfo.svg",
+            "name": "franceinfo",
+            "radio": true,
+            "type": "hls",
+            "url": "https://stream.radiofrance.fr/franceinfo/franceinfo.m3u8?id=radiofrance"
+        },
+        {
+            "lcn": 104,
+            "logo": "franceinter.svg",
+            "name": "France Inter",
+            "radio": true,
+            "type": "hls",
+            "url": "https://stream.radiofrance.fr/franceinter/franceinter.m3u8?id=radiofrance"
+        },
+        {
+            "lcn": 105,
+            "logo": "ici.svg",
+            "name": "Ici Paris",
+            "radio": true,
+            "type": "hls",
+            "url": "https://stream.radiofrance.fr/fb1071/fb1071.m3u8?id=radiofrance"
+        },
+        {
+            "lcn": 106,
+            "logo": "mouv'.svg",
+            "name": "Mouv'",
+            "radio": true,
+            "type": "hls",
+            "url": "https://stream.radiofrance.fr/mouv/mouv.m3u8?id=radiofrance"
+        },
+        {
+            "lcn": 108,
+            "logo": "rfi.svg",
+            "name": "RFI",
+            "type": "audio",
+            "url": "https://rfimonde-96k.ice.infomaniak.ch/rfimonde-96k.mp3"
+        },
+        {
+            "lcn": 110,
+            "logo": "europe1.svg",
+            "name": "Europe 1",
+            "radio": true,
+            "type": "hls",
+            "url": "https://europe1.lmn.fm/europe1-live/playlist.m3u8"
+        },
+        {
+            "lcn": 111,
+            "logo": "europe2.svg",
+            "name": "Europe 2",
+            "radio": true,
+            "type": "hls",
+            "url": "https://europe2.lmn.fm/europe2-live/playlist.m3u8"
+        },
+        {
+            "lcn": 112,
+            "logo": "rfm.svg",
+            "name": "RFM",
+            "radio": true,
+            "type": "hls",
+            "url": "https://rfm.lmn.fm/rfm-live/playlist.m3u8"
+        },
+        {
+            "lcn": 113,
+            "logo": "rtl.svg",
+            "name": "RTL",
+            "radio": true,
+            "type": "hls",
+            "url": "https://api.zappr.stream/rtl.m3u8"
+        },
+        {
+            "lcn": 114,
+            "logo": "rtl2.svg",
+            "name": "RTL2",
+            "radio": true,
+            "type": "hls",
+            "url": "https://api.zappr.stream/rtl2.m3u8"
+        },
+        {
+            "lcn": 115,
+            "logo": "funradio.svg",
+            "name": "Fun Radio",
+            "radio": true,
+            "type": "hls",
+            "url": "https://api.zappr.stream/funradio.m3u8"
+        },
+        {
+            "lcn": 117,
+            "logo": "nrj.svg",
+            "name": "NRJ",
+            "type": "audio",
+            "url": "https://streaming.nrjaudio.fm/oufdfatx4thg"
+        },
+        {
+            "lcn": 118,
+            "logo": "chériefm.svg",
+            "name": "Chérie FM",
+            "type": "audio",
+            "url": "https://streaming.nrjaudio.fm/ou2n2epw5hs7"
+        },
+        {
+            "lcn": 119,
+            "logo": "rireetchansons.svg",
+            "name": "Rire & Chansons",
+            "type": "audio",
+            "url": "https://streaming.nrjaudio.fm/oua8afw2dqao"
+        },
+        {
+            "lcn": 120,
+            "logo": "nostalgie.svg",
+            "name": "Nostalgie",
+            "type": "audio",
+            "url": "https://streaming.nrjaudio.fm/ouwgwqsk6j4d"
+        },
+        {
+            "lcn": 123,
+            "logo": "sudradio.svg",
+            "name": "Sud Radio",
+            "type": "audio",
+            "url": "https://live.sudradio.fr/sudradio"
+        },
+        {
+            "lcn": 124,
+            "logo": "tsfjazz",
+            "name": "TSF Jazz",
+            "type": "audio",
+            "url": "https://tsfjazz.ice.infomaniak.ch/tsfjazz-high.mp3"
+        },
+        {
+            "lcn": 125,
+            "logo": "radionova.svg",
+            "name": "Radio Nova",
+            "type": "audio",
+            "url": "https://novazz.ice.infomaniak.ch/novazz-128.mp3"
+        },
+        {
+            "lcn": 126,
+            "logo": "radiofg.svg",
+            "name": "Radio FG",
+            "type": "audio",
+            "url": "https://stream.rcs.revma.com/7081n2b6p98uv"
+        },
+        {
+            "lcn": 128,
+            "logo": "radiocontact",
+            "name": "Radio Contact",
+            "type": "audio",
+            "url": "https://stream.rcs.revma.com/6gygqc1gy7uvv"
+        },
+        {
+            "lcn": 130,
+            "logo": "jazzradio",
+            "name": "Jazz Radio",
+            "type": "audio",
+            "url": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.aac"
+        },
+        {
+            "lcn": 131,
+            "logo": "skyrock.svg",
+            "name": "Skyrock",
+            "type": "audio",
+            "url": "https://icecast.skyrock.net/s/natio_aac_128k"
+        },
+        {
+            "lcn": 132,
+            "logo": "radioclassique.svg",
+            "name": "Radio Classique",
+            "type": "audio",
+            "url": "https://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3"
+        },
+        {
+            "lcn": 137,
+            "logo": "radionotredame",
+            "name": "Radio Notre-Dame",
+            "type": "audio",
+            "url": "https://stream.rcs.revma.com/1ww4q0g4dkhvv"
+        },
+        {
+            "lcn": 140,
+            "logo": "beurfm",
+            "name": "Beur FM",
+            "type": "audio",
+            "url": "https://beurfm.ice.infomaniak.ch/beurfm-high.aac"
+        },
+        {
+            "lcn": 143,
+            "logo": "bbcworldservice.svg",
+            "name": "BBC World Service",
+            "radio": true,
+            "type": "dash",
+            "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/aksgc/bbc_world_service_news_internet.mpd"
+        },
+        {
+            "lcn": 144,
+            "logo": "bbcarabic.svg",
+            "name": "BBC Arabic",
+            "radio": true,
+            "type": "dash",
+            "url": "https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/dash/nonuk/pc_hd_abr_v2/aks/bbc_arabic_radio.mpd"
         }
     ]
 }

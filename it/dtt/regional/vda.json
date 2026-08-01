@@ -24,7 +24,7 @@
         {
             "lcn": 75,
             "logo": "tv5mondeeurope.svg",
-            "name": "TV5Monde Europe",
+            "name": "TV5Monde",
             "hd": true,
             "type": "hls",
             "url": "https://tv5monde.zappr.stream/index.m3u8",
