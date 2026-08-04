@@ -61,15 +61,15 @@
             "name": "NOVE",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/nove.mpd",
+            "url": "https://api.zappr.stream/nove.mpd?clearkeyPlayer.maxQuality=720",
             "license": "clearkey",
             "licensedetails": {
-                "010043c37b66261b7b08a4420e871324": "abe412fe39ba5eff6ff576a6cdd8b845",
-                "010152ad7ba3403fe31de4ef1b9a098b": "e07059a95232b08e0c4f60268b83cd70",
-                "0102079f94a152ab42228d541d895a12": "103ed73228117befc316f36113d3225e",
-                "01038123c12420f84a578c8b819921f7": "30510416f237d108581b410687f340a2",
-                "0104f7876c67c31f8815d9bcb3e5049c": "9f90448ea253711e4204834a60e4f80e",
-                "01051f2b5db19b13fe7402b4d1e53fb6": "6292d73a6cb94d5de50de2f0668825ae"
+                "01000f9856dee62ffe0f66d3499c2583": "6ece91235efe590e7f05d5e201282778",
+                "0101176a88f329f359199228e6f96c67": "d47d2ec9cf627275496c3f13e30d6bcc",
+                "010293dcab12ee47fb5d870786be07fd": "9b648d5c8a494cf704d6ce4b5877201f",
+                "010372caf9a849c64e055cf65da52385": "00000000000000000000000000000000",
+                "010445b92e10c70f48deab737a42cb0c": "00000000000000000000000000000000",
+                "010511658acb6bbd27c0d4f17cba65a8": "00000000000000000000000000000000"
             },
             "epg": {
                 "source": "blue",
@@ -139,15 +139,15 @@
             "name": "Real Time",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/realtime.mpd",
+            "url": "https://api.zappr.stream/realtime.mpd?clearkeyPlayer.maxQuality=720",
             "license": "clearkey",
             "licensedetails": {
-                "0100f7e1e92039dcbf28d85af51e1fa3": "a70ae41bc0cf1adfd58563e62d1bfb8f",
-                "0101b31884be65933dbb3a94b326d108": "4c2e9223f3e15cc3484ff1b88dfbcfff",
-                "010215557c898b730a16405fc6a7d594": "0e1e9183255b1db525a6569f94631036",
-                "0103a18e48bc4e0899fd9850447c7ee4": "3c939c0a22d9319368288abead3dd78d",
-                "01047897bfba70c27d98af57f449ed0a": "a2c497c945cf6b55b59f61611cdce37f",
-                "01052f86b83705659de18a9e97d9ce83": "518ecdea2822b11012f1e1226549ccd2"
+                "010034c121cb102b31d4de5ff65ea6dc": "f26091609d845ade6b79035deddc7971",
+                "010178e9e674d1d980d353bea53148e0": "0444d7ccfb5bc8caa15e03b17cf0ddcb",
+                "0102ab8bba3659be5640adf53628b61b": "f6065942e0f5e46614f84a5725a7dc6f",
+                "0103e956aced4cf7336f620398d94761": "00000000000000000000000000000000",
+                "01046c10cb02e7e3fa36e44e3ca45642": "00000000000000000000000000000000",
+                "01055da7c45c335d8e0ab3f54805b00b": "00000000000000000000000000000000"
             },
             "epg": {
                 "source": "blue",
@@ -179,15 +179,15 @@
             "name": "Food Network",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/foodnetwork.mpd",
+            "url": "https://api.zappr.stream/foodnetwork.mpd?clearkeyPlayer.maxQuality=720",
             "license": "clearkey",
             "licensedetails": {
-                "0100da20381b6e3a3dac1914b5769a54": "7bc7175607cfc6814fd67bf50b8aeecb",
-                "0101e711dfa15b53172186c0491263bc": "2fd82ba1b649ba58948031ed5ec4ce5c",
-                "0102a80a74efd881bb1e2da6ea4b10ad": "53af8be715edfd8d7066d20099ad8113",
-                "0103aef9136f459efd3cd7466d5fbccf": "7d18d930e3f965270fd933265c26f963",
-                "0104d2e104e28993051da23b8b87bd3b": "d83c05350be50db2ccd81085857c2a0a",
-                "0105e391afe4bab7de0d419f21704691": "2d8f0dca7d9a71e15418e4b946a26e9f"
+                "0100eac12ea4a3dd89d9464d4c164f0c": "408569936840082f72bf49bec5e9ac80",
+                "0101dce26e1d632e2cd779e4a40d6bd2": "5624ebd023bb199311dda9eccdb03af7",
+                "0102b8f440d0419921411638032c687c": "f8ae9f881d309be2d82a73f19e075527",
+                "01032bc52217b3e95680fbdb7c11c1c1": "00000000000000000000000000000000",
+                "0104218e97a599572356d937be3940da": "00000000000000000000000000000000",
+                "01057721d8ed453ed501d061b30f8c92": "00000000000000000000000000000000"
             },
             "epg": {
                 "source": "blue",
@@ -220,15 +220,15 @@
             "name": "Discovery",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/discovery.mpd",
+            "url": "https://api.zappr.stream/discovery.mpd?clearkeyPlayer.maxQuality=720",
             "license": "clearkey",
             "licensedetails": {
-                "0100108b761bb5edac85461e0bb3fb0d": "068b3fba256e1c983bec36ff9172ec2e",
-                "01019975b8beddb720bca70ee9538e90": "7d21bb89a5274e7de7b39db48a5f574a",
-                "0102eee1dc2cc69007d518af9ab8b07a": "cff31a511f50a1cafb28de73d9e3cfa7",
-                "0103091ff82b4bae6532a678838bb10e": "226f93077c7c2ba16e93e5ff803a42c6",
-                "01049e8567fe557e7a466b8fde310bbe": "6f26488ce78600247d33d689cac4e2af",
-                "010567972eb8b286eb47fbf7e71cd4a4": "ba5bd00b26360e67268c8cc91994603e"
+                "0100f473c0431948b4b8e4aabeec6cb4": "9909b3245a012a6ce7b6129f76e7a930",
+                "010130937932ca07229e4a64fa9c695e": "9bde2cf8780d615c3a9617f8cfb8c57e",
+                "0102f02527952a9cc52ad70f03d01582": "3aa49355f916e50c15dccc97893a930e",
+                "0103ad3a8dc4ce37362b7a3fa897386b": "00000000000000000000000000000000",
+                "010449a57df5215b3afe798cc365f3cf": "00000000000000000000000000000000",
+                "0105674aa543e7e2ba7177932aaa2700": "00000000000000000000000000000000"
             },
             "epg": {
                 "source": "tivu",
@@ -249,15 +249,15 @@
             "name": "Giallo",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/giallo.mpd",
+            "url": "https://api.zappr.stream/giallo.mpd?clearkeyPlayer.maxQuality=720",
             "license": "clearkey",
             "licensedetails": {
-                "010058ec487d57e3cfab7fdde6015993": "d14148377cfcc9349a9853bcee8e557a",
-                "0101ea2e0cdd76392e342266346cdf37": "804a8f11c8821dad69464a1a32875e8f",
-                "0102f0d2a220b14b8c1aa8f4c5eb893d": "c976405c88fe6387bef997947becd5d9",
-                "01036f6d1a3e452c0bf8d869beee0c33": "47ab0305c97e7f71495ab225f614412e",
-                "010472ef04f71a5e7f3b8e06db379144": "c5a16861a853806e8e284b2a7f950df2",
-                "0105c3a2810a70c0b2d00808f37fdb4b": "0e2339fba8afeaed661dcdcaabebd00e"
+                "01004dd4960fd3be08d347f75c29ddac": "8e7a60c690e3e2bd868f9b2d07495346",
+                "01017c335f177717656b4375cbaadef2": "f685a14d5cd8ef9c6f1613ea633e0628",
+                "010289d10306f92598aabb7f0e7c78c8": "ebebcbe7dba94932607146f5e6327cb7",
+                "010388237ad8916370eb8944f820fe39": "00000000000000000000000000000000",
+                "0104c85d82a4e383858994f59ecf91ec": "00000000000000000000000000000000",
+                "0105864a52a6599fd686fcc10a134181": "00000000000000000000000000000000"
             },
             "epg": {
                 "source": "blue",
@@ -346,15 +346,15 @@
             "name": "DMAX",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/dmax.mpd",
+            "url": "https://api.zappr.stream/dmax.mpd?clearkeyPlayer.maxQuality=720",
             "license": "clearkey",
             "licensedetails": {
-                "01003b85994dc3274165ac2d2bc1c0b0": "e35f031bcaa1714ac57a022fb26f135f",
-                "0101998a4079efbebf260c192deaea9a": "6d9db354981743fc743fc02c5f98f699",
-                "010285f1a98cb0f9c2690d6834b0cd7a": "a7afa9c822191295a655f82148b9b4bb",
-                "01031ef976fa45e0b19b6b6b5919b1cb": "f568eda83faab3f269d78736e2e69be9",
-                "01042986e9051678a4b6a4905ebbbefb": "e60111047d62ab27037a26c982242596",
-                "0105d330b73558c1a7ddc4aedc7e8f95": "ff38f28e60e39562f4be651f940b0596"
+                "01001a28c3229d9cd8e4873aa17a6772": "c729fb5bc71ddc8f34706aeb60728b5c",
+                "0101ce4148a1734aabfeaa9d697a4f0b": "a3245080cb709e355872c9b0b818ebc5",
+                "010247999258dfe56e9087a313629fe9": "6db0c1eca9b1e066afaebcd8773186c6",
+                "0103049f8174fcf33dc8bedeb190c77e": "00000000000000000000000000000000",
+                "010440de5db37a563f7d3c3a00059e9c": "00000000000000000000000000000000",
+                "0105dd03cd9d2ee2a4d2734fa80879ba": "00000000000000000000000000000000"
             },
             "epg": {
                 "source": "blue",
@@ -387,15 +387,15 @@
             "name": "HGTV - Home & Garden",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/hgtv.mpd",
+            "url": "https://api.zappr.stream/hgtv.mpd?clearkeyPlayer.maxQuality=720",
             "license": "clearkey",
             "licensedetails": {
-                "0100a41cbf2b765bd32b545cba44bc8e": "21e9b8bd5db5a65a6b2d4160bae8ffcc",
-                "01010cfea6b9fc12904c079e1d7da0ce": "fe45ce9597675cba8852c46aff3c0327",
-                "01022b5987a8bcf1143b64d2075601ae": "046db9d7ac1770e194750045c078677f",
-                "01033332424f79ad78e4a59b00238b48": "4ca00e1ab389054d6da9f006a8bf8b26",
-                "01048cf20743e4291477f56b575c7ac7": "a1fa0f11e10a9a2827c86b3b669f10b8",
-                "01054ffac86eb0d90d095e271f95be6c": "bb5bf8302ca0c8c9aa8cf38eedc2284a"
+                "01007b618445d2f7544468a3eeb1bc85": "dc238dcc832c6281cc2497e5ad98f756",
+                "0101ce74e18249fa90737802ebe22fb3": "bcda161832ff6bb50f2f40b3786c2624",
+                "0102457ef4237d604a3aa6f0198b43a5": "63f68acf7c32bf14d8a1ed61bb5359bd",
+                "01032362c993bbee9acda3f0f54a1667": "00000000000000000000000000000000",
+                "01047143020c9ba31436381f83e7f016": "00000000000000000000000000000000",
+                "010507af834be3dbcb5ee21b89d1db28": "00000000000000000000000000000000"
             },
             "epg": {
                 "source": "blue",
@@ -415,17 +415,13 @@
             "logo": "discoveryturbo.svg",
             "name": "Discovery Turbo",
             "hd": true,
-            "type": "iframe",
-            "url": "https://wbd.zappr.stream/turbo",
+            "type": "dash",
+            "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(motortrendhd)/manifest.mpd",
+            "license": "clearkey",
+            "licensedetails": "b1f533e2ee35459e9be2d0ef1e2b61ab:749bd263e98796fbaf739088862de387",
             "epg": {
                 "source": "blue",
                 "id": "1384"
-            },
-            "geoblock": {
-                "type": "dash",
-                "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(motortrendhd)/manifest.mpd",
-                "license": "clearkey",
-                "licensedetails": "b1f533e2ee35459e9be2d0ef1e2b61ab:749bd263e98796fbaf739088862de387"
             }
         },
         {
