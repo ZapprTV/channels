@@ -134,8 +134,7 @@
                 "name": "SRF Zwei",
                 "hd": true,
                 "type": "hls",
-                "url": "https://netplus.zappr.stream/srf2hd.m3u8",
-                "disabled": "not-working",
+                "url": "https://srfzwei-proxy.zappr.stream/index.m3u8",
                 "epg": {
                     "source": "blue",
                     "id": "401"
@@ -169,6 +168,10 @@
                 "licensedetails": {
                     "117d07fd98cc46ef8e09936d0d37c506": "b9528cb3f23eaad789f0f33bf6b01868",
                     "166b2f0d56fb32d9b46d4b1ca1b5bf16": "d78ee5c91eb3b9b6d37414a4f789bc9b"
+                },
+                "fallback": {
+                    "type": "hls",
+                    "url": "https://rsila2-proxy.zappr.stream/index.m3u8"
                 },
                 "epg": {
                     "source": "blue",
