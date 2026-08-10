@@ -416,12 +416,19 @@
             "name": "Discovery Turbo",
             "hd": true,
             "type": "dash",
-            "url": "https://timlivetu0.cb.ticdn.it/Content/DASH/Live/channel(motortrendhd)/manifest.mpd",
+            "url": "https://wp7-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09723/stb-dash-fhd-avc/SV09723.mpd",
             "license": "clearkey",
-            "licensedetails": "b1f533e2ee35459e9be2d0ef1e2b61ab:749bd263e98796fbaf739088862de387",
+            "licensedetails": {
+                "36460e92425142c6a6475bf26f64d5a6": "75de59e293344edd37ae6c751b4510e7",
+                "8ae33e0dae5f3acc829fe836c00f742c": "012f880eac652b563637b4c96989fd84"
+            },
             "epg": {
                 "source": "blue",
                 "id": "1384"
+            },
+            "fallback": {
+                "type": "iframe",
+                "url": "https://wbd.zappr.stream/turbo"
             }
         },
         {
