@@ -621,6 +621,13 @@
             "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
         },
         {
+            "lcn": 115,
+            "logo": "valpadanatv",
+            "name": "Valpadana TV",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video1s979075-3293/stream/playlist.m3u8"
+        },
+        {
             "lcn": 117,
             "logo": "italiacable",
             "name": "ItaliaCable",
@@ -698,6 +705,13 @@
             "name": "Lombardia TV",
             "type": "hls",
             "url": "https://5db313b643fd8.streamlock.net/lmbiatv/lmbiatv/playlist.m3u8"
+        },
+        {
+            "lcn": 194,
+            "logo": "telestella",
+            "name": "Telestella",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video0s979075-3292/stream/playlist.m3u8"
         },
         {
             "lcn": 351,

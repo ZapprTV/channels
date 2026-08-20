@@ -269,6 +269,13 @@
             "url": "https://5f22d76e220e1.streamlock.net/rbetv/rbetv/playlist.m3u8"
         },
         {
+            "lcn": 88,
+            "logo": "valpadanatv",
+            "name": "Valpadana TV",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video1s979075-3293/stream/playlist.m3u8"
+        },
+        {
             "lcn": 95,
             "logo": "tvyesitalia",
             "name": "TV Yes",
@@ -289,6 +296,13 @@
             "hd": true,
             "type": "hls",
             "url": "https://streamsrv2.nets-sr.com:19360/4youtv/4youtv.m3u8"
+        },
+        {
+            "lcn": 99,
+            "logo": "telestella",
+            "name": "Telestella",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video0s979075-3292/stream/playlist.m3u8"
         },
         {
             "lcn": 114,
