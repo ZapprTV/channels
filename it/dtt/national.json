@@ -61,16 +61,9 @@
             "name": "NOVE",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/nove.mpd?clearkeyPlayer.maxQuality=720",
+            "url": "https://wp8-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09472/stb-dash-fhd-avc/SV09472.mpd",
             "license": "clearkey",
-            "licensedetails": {
-                "01000f9856dee62ffe0f66d3499c2583": "6ece91235efe590e7f05d5e201282778",
-                "0101176a88f329f359199228e6f96c67": "d47d2ec9cf627275496c3f13e30d6bcc",
-                "010293dcab12ee47fb5d870786be07fd": "9b648d5c8a494cf704d6ce4b5877201f",
-                "010372caf9a849c64e055cf65da52385": "00000000000000000000000000000000",
-                "010445b92e10c70f48deab737a42cb0c": "00000000000000000000000000000000",
-                "010511658acb6bbd27c0d4f17cba65a8": "00000000000000000000000000000000"
-            },
+            "licensedetails": "e0e63271f18f3a8b84b0a5d5bbf4c685:40fe6c26be09e5678fb729a9ab69b336",
             "epg": {
                 "source": "blue",
                 "id": "118"
@@ -139,15 +132,11 @@
             "name": "Real Time",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/realtime.mpd?clearkeyPlayer.maxQuality=720",
+            "url": "https://wp3-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09319/stb-dash-fhd-avc/SV09319.mpd",
             "license": "clearkey",
             "licensedetails": {
-                "010034c121cb102b31d4de5ff65ea6dc": "f26091609d845ade6b79035deddc7971",
-                "010178e9e674d1d980d353bea53148e0": "0444d7ccfb5bc8caa15e03b17cf0ddcb",
-                "0102ab8bba3659be5640adf53628b61b": "f6065942e0f5e46614f84a5725a7dc6f",
-                "0103e956aced4cf7336f620398d94761": "00000000000000000000000000000000",
-                "01046c10cb02e7e3fa36e44e3ca45642": "00000000000000000000000000000000",
-                "01055da7c45c335d8e0ab3f54805b00b": "00000000000000000000000000000000"
+                "75453fa7322f4b8b81b285529b726e63": "ca79bd265be6ac7315555aa1bbea6afe",
+                "60eb8ddba7113915914b865662fecbdb": "8aca6eddd0a280f39ddc75372be2afd9"
             },
             "epg": {
                 "source": "blue",
@@ -179,16 +168,9 @@
             "name": "Food Network",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/foodnetwork.mpd?clearkeyPlayer.maxQuality=720",
+            "url": "https://wp7-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09716/stb-dash-fhd-avc/SV09716.mpd",
             "license": "clearkey",
-            "licensedetails": {
-                "0100eac12ea4a3dd89d9464d4c164f0c": "408569936840082f72bf49bec5e9ac80",
-                "0101dce26e1d632e2cd779e4a40d6bd2": "5624ebd023bb199311dda9eccdb03af7",
-                "0102b8f440d0419921411638032c687c": "f8ae9f881d309be2d82a73f19e075527",
-                "01032bc52217b3e95680fbdb7c11c1c1": "00000000000000000000000000000000",
-                "0104218e97a599572356d937be3940da": "00000000000000000000000000000000",
-                "01057721d8ed453ed501d061b30f8c92": "00000000000000000000000000000000"
-            },
+            "licensedetails": "e43d248c30253fcfa685f39f5ef55d46:04a6997c575b4da1bac97d5aaa8b3c77",
             "epg": {
                 "source": "blue",
                 "id": "1348"
@@ -219,28 +201,11 @@
             "logo": "discovery.svg",
             "name": "Discovery",
             "hd": true,
-            "type": "dash",
-            "url": "https://api.zappr.stream/discovery.mpd?clearkeyPlayer.maxQuality=720",
-            "license": "clearkey",
-            "licensedetails": {
-                "0100f473c0431948b4b8e4aabeec6cb4": "9909b3245a012a6ce7b6129f76e7a930",
-                "010130937932ca07229e4a64fa9c695e": "9bde2cf8780d615c3a9617f8cfb8c57e",
-                "0102f02527952a9cc52ad70f03d01582": "3aa49355f916e50c15dccc97893a930e",
-                "0103ad3a8dc4ce37362b7a3fa897386b": "00000000000000000000000000000000",
-                "010449a57df5215b3afe798cc365f3cf": "00000000000000000000000000000000",
-                "0105674aa543e7e2ba7177932aaa2700": "00000000000000000000000000000000"
-            },
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/discovery",
             "epg": {
                 "source": "tivu",
                 "id": "294"
-            },
-            "manualRestart": {
-                "source": "wbd",
-                "id": "discovery"
-            },
-            "fallback": {
-                "type": "iframe",
-                "url": "https://wbd.zappr.stream/discovery"
             }
         },
         {
@@ -249,15 +214,11 @@
             "name": "Giallo",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/giallo.mpd?clearkeyPlayer.maxQuality=720",
+            "url": "https://wp6-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09717/stb-dash-fhd-avc/SV09717.mpd",
             "license": "clearkey",
             "licensedetails": {
-                "01004dd4960fd3be08d347f75c29ddac": "8e7a60c690e3e2bd868f9b2d07495346",
-                "01017c335f177717656b4375cbaadef2": "f685a14d5cd8ef9c6f1613ea633e0628",
-                "010289d10306f92598aabb7f0e7c78c8": "ebebcbe7dba94932607146f5e6327cb7",
-                "010388237ad8916370eb8944f820fe39": "00000000000000000000000000000000",
-                "0104c85d82a4e383858994f59ecf91ec": "00000000000000000000000000000000",
-                "0105864a52a6599fd686fcc10a134181": "00000000000000000000000000000000"
+                "4b1d0a37600d45c993c6adac0347b937": "77c319eae6bc48b9ce3b72925ca03c95",
+                "0e4d0798030535ef8a79befcce66e6da": "76b084ba52e9fac968bdbbf6c0055a97"
             },
             "epg": {
                 "source": "blue",
@@ -277,17 +238,7 @@
             "logo": "k2.svg",
             "name": "K2",
             "hd": true,
-            "type": "dash",
-            "url": "https://api.zappr.stream/k2.mpd?clearkeyPlayer.maxQuality=720",
-            "license": "clearkey",
-            "licensedetails": {
-                "0100ba5d29a372845ef226049f684ec5": "cb0e3ac2559b4537cffcd130644e5217",
-                "01010dbb15af95a17086d1c21d5158df": "3a167d7de6361eefe75d6d4eca03aa2a",
-                "0102ec0417e0159d451394828b608b28": "eed709c12d9202009dc6d105c957a080",
-                "0103787a733983b31e18aaba92b71415": "00000000000000000000000000000000",
-                "010472105a5244ba4b541b3b43855bfb": "00000000000000000000000000000000",
-                "01056351ffba7a3e729c121c7f628509": "00000000000000000000000000000000"
-            },
+            "disabled": "not-working",
             "epg": {
                 "source": "blue",
                 "id": "225"
@@ -298,17 +249,7 @@
             "logo": "frisbee",
             "name": "Frisbee",
             "hd": true,
-            "type": "dash",
-            "url": "https://api.zappr.stream/frisbee.mpd?clearkeyPlayer.maxQuality=720",
-            "license": "clearkey",
-            "licensedetails": {
-                "01000c556114ed472c4affc91caf1bac": "76b1c243b54f48913970a922b17c2c7e",
-                "01018590ee8718d526c3da96f22216fc": "b0cddac881058d9cc5e057dbac7ed826",
-                "0102259b1109135dc496194857380cf8": "0eec99deb59dc6991c6c7cea4c41a64a",
-                "0103892a0781b22a72b9c5021cee7788": "00000000000000000000000000000000",
-                "0104dcca92742fd2bcbdb6d0b9afa199": "00000000000000000000000000000000",
-                "0105514f047e00d36707f85733467540": "00000000000000000000000000000000"
-            },
+            "disabled": "not-working",
             "epg": {
                 "source": "blue",
                 "id": "189"
@@ -346,15 +287,11 @@
             "name": "DMAX",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/dmax.mpd?clearkeyPlayer.maxQuality=720",
+            "url": "https://wp8-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09713/stb-dash-fhd-avc/SV09713.mpd",
             "license": "clearkey",
             "licensedetails": {
-                "01001a28c3229d9cd8e4873aa17a6772": "c729fb5bc71ddc8f34706aeb60728b5c",
-                "0101ce4148a1734aabfeaa9d697a4f0b": "a3245080cb709e355872c9b0b818ebc5",
-                "010247999258dfe56e9087a313629fe9": "6db0c1eca9b1e066afaebcd8773186c6",
-                "0103049f8174fcf33dc8bedeb190c77e": "00000000000000000000000000000000",
-                "010440de5db37a563f7d3c3a00059e9c": "00000000000000000000000000000000",
-                "0105dd03cd9d2ee2a4d2734fa80879ba": "00000000000000000000000000000000"
+                "3b465d3a53b34fac81e251630e9ad884": "adc4f9d5df8902fd02bb5faab013e441",
+                "8ba07052b5753f2d89b28cf0fc80b3be": "49cb3531f6e693d759eb28c4e5524ca5"
             },
             "epg": {
                 "source": "blue",
@@ -387,15 +324,11 @@
             "name": "HGTV - Home & Garden",
             "hd": true,
             "type": "dash",
-            "url": "https://api.zappr.stream/hgtv.mpd?clearkeyPlayer.maxQuality=720",
+            "url": "https://wp3-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09718/stb-dash-fhd-avc/SV09718.mpd",
             "license": "clearkey",
             "licensedetails": {
-                "01007b618445d2f7544468a3eeb1bc85": "dc238dcc832c6281cc2497e5ad98f756",
-                "0101ce74e18249fa90737802ebe22fb3": "bcda161832ff6bb50f2f40b3786c2624",
-                "0102457ef4237d604a3aa6f0198b43a5": "63f68acf7c32bf14d8a1ed61bb5359bd",
-                "01032362c993bbee9acda3f0f54a1667": "00000000000000000000000000000000",
-                "01047143020c9ba31436381f83e7f016": "00000000000000000000000000000000",
-                "010507af834be3dbcb5ee21b89d1db28": "00000000000000000000000000000000"
+                "43c2773288314525ad6841356e9a5a21": "3b771dcd654e7b9f3bb62a7e24f6b733",
+                "79f9fbec515b34d084bf6052052450bb": "bdd07074aa17ab44aad8ae57f9e5d1dc"
             },
             "epg": {
                 "source": "blue",
@@ -2012,8 +1945,9 @@
             "lcn": 245,
             "logo": "paroledivita.svg",
             "name": "Parole di Vita",
+            "hd": true,
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/paroledivita/paroledivita/playlist.m3u8",
+            "url": "https://stream.paroledivita.org/paroledivita.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "1951"
@@ -2025,7 +1959,7 @@
             "name": "BeJoy.Kids",
             "hd": true,
             "type": "hls",
-            "url": "https://64b16f23efbee.streamlock.net/bejoy/bejoy/playlist.m3u8"
+            "url": "https://stream.paroledivita.org/bejoy.m3u8"
         },
         {
             "lcn": 248,
@@ -2893,7 +2827,7 @@
             "name": "InBlu2000",
             "radio": true,
             "type": "hls",
-            "url": "https://www.radioinblu.it/live-stream/inblu2000-playlist.m3u8"
+            "url": "https://hls.live2.meride.tv/hls/live/2028947/inblu2000/playlist.m3u8"
         },
         {
             "lcn": 733,
