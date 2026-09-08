@@ -347,7 +347,7 @@
             "logo": "valpadanatv",
             "name": "Valpadana TV",
             "type": "hls",
-            "url": "https://stream10.xdevel.com/video1s979075-3293/stream/playlist.m3u8"
+            "url": "https://5db313b643fd8.streamlock.net/valpadanatv/valpadanatv/playlist.m3u8"
         },
         {
             "lcn": 91,
@@ -426,7 +426,7 @@
             "logo": "telestella",
             "name": "Telestella",
             "type": "hls",
-            "url": "https://stream10.xdevel.com/video0s979075-3292/stream/playlist.m3u8"
+            "url": "https://5db313b643fd8.streamlock.net/telestella/telestella/playlist.m3u8"
         },
         {
             "lcn": 112,
