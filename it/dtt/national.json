@@ -434,7 +434,7 @@
             "logo": "donnatv",
             "name": "Donna TV",
             "type": "hls",
-            "url": "https://streaming.softwarecreation.it/DonnaTv/DonnaTv/playlist.m3u8",
+            "url": "https://5f11919dca3bd.streamlock.net/donnatv/_definst_/donnatv/playlist.m3u8",
             "epg": {
                 "source": "superguidatv",
                 "id": "464"
@@ -505,7 +505,7 @@
             "logo": "almatv.svg",
             "name": "Alma TV",
             "type": "hls",
-            "url": "https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8",
+            "url": "https://5f11919dca3bd.streamlock.net/almatv/_definst_/almatv/playlist.m3u8",
             "epg": {
                 "source": "blue",
                 "id": "16"
@@ -1111,7 +1111,7 @@
             "logo": "odeon24",
             "name": "Odeon 24",
             "type": "hls",
-            "url": "https://streaming.softwarecreation.it/Odeon/Odeon/playlist.m3u8"
+            "url": "https://5f11919dca3bd.streamlock.net/odeonjump/_definst_/odeonjump/playlist.m3u8"
         },
         {
             "lcn": 165,

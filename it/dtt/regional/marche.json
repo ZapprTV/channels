@@ -89,7 +89,7 @@
                 "name": "Lazio TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8",
+                "url": "https://5f11919dca3bd.streamlock.net/laziotv/_definst_/laziotv/playlist.m3u8",
                 "epg": {
                     "source": "softwarecreation",
                     "id": "LazioTv"
@@ -101,7 +101,7 @@
                 "name": "Gold TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8",
+                "url": "https://5f11919dca3bd.streamlock.net/goldtv/_definst_/goldtv/playlist.m3u8",
                 "epg": {
                     "source": "softwarecreation",
                     "id": "GoldTv"

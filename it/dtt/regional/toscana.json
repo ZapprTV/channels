@@ -269,14 +269,14 @@
             "logo": "italia7.svg",
             "name": "Italia 7",
             "type": "hls",
-            "url": "https://streaming.softwarecreation.it/Italia7/Italia7/playlist.m3u8",
+            "url": "https://5f11919dca3bd.streamlock.net/italia7/_definst_/italia7/playlist.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "laziotv.svg",
                 "name": "Lazio TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://streaming.softwarecreation.it/LazioTv/LazioTv/playlist.m3u8",
+                "url": "https://5f11919dca3bd.streamlock.net/laziotv/_definst_/laziotv/playlist.m3u8",
                 "epg": {
                     "source": "softwarecreation",
                     "id": "LazioTv"
@@ -288,7 +288,7 @@
                 "name": "Gold TV",
                 "hd": true,
                 "type": "hls",
-                "url": "https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8",
+                "url": "https://5f11919dca3bd.streamlock.net/goldtv/_definst_/goldtv/playlist.m3u8",
                 "epg": {
                     "source": "softwarecreation",
                     "id": "GoldTv"
@@ -299,7 +299,7 @@
                 "logo": "teleregione74",
                 "name": "Teleregione",
                 "type": "hls",
-                "url": "https://streaming.softwarecreation.it/TR118/TR118/playlist.m3u8"
+                "url": "https://5f11919dca3bd.streamlock.net/teleregione74/_definst_/teleregione74/playlist.m3u8"
             },
             {
                 "sublcn": 8,
