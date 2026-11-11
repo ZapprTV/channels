@@ -2983,6 +2983,7 @@
             }
         },
         {
+            
             "lcn": 833,
             "logo": "supersix",
             "name": "SuperSix",
@@ -3140,3 +3141,25 @@
         }
     ]
 }
+            "lcn": 889,
+            "logo": "cula4.svg",
+            "name": "Cula4",
+            "hd": true,
+            "type": "dash",
+            "url": "https://fastly.live.brightcove.com/6383455473112/eu-west-1/1555966122001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoieDl2YzlnLmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiMTU1NTk2NjEyMjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyIxNTU1OTY2MTIyMDAxIl0sImp0aSI6IjYzODM0NTU0NzMxMTIifQ.RnaZ5MyA2hvk2H2SymuoENnNmATr6BXOmeDC583BRPo/chunklist__4.m3u8",
+            "license": "clearkey",
+            "licensedetails": {
+                "4b1d0a37600d45c993c6adac0347b937": "77c319eae6bc48b9ce3b72925ca03c95",
+                "0e4d0798030535ef8a79befcce66e6da": "76b084ba52e9fac968bdbbf6c0055a97"
+            },
+            "epg": {
+                "source": "purple",
+                "id": "202"
+            },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "cula4"
+            },
+            "fallback": {
+                "type": "iframe",
+                "url": "https://wbd.zappr.stream/cula4"
