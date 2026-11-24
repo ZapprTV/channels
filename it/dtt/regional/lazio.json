@@ -244,7 +244,7 @@
                 "logo": "ètvrete7.svg",
                 "name": "èTV Rete 7",
                 "type": "hls",
-                "url": "https://live.ipstream.it/etv/etv.stream/playlist.m3u8",
+                "url": "https://5f11919dca3bd.streamlock.net/E-TvRete7/_definst_/myStream/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "eTV Rete 7.tvprofil_it"
@@ -255,7 +255,7 @@
                 "logo": "ètvmarche.svg",
                 "name": "èTV Marche",
                 "type": "hls",
-                "url": "https://live.ipstream.it/etvmarche/etvmarche.stream/playlist.m3u8",
+                "url": "https://5f11919dca3bd.streamlock.net/E-TvMarche/_definst_/myStream/playlist.m3u8",
                 "epg": {
                     "source": "ètv",
                     "id": "Palinsesto_Marche"
@@ -266,7 +266,7 @@
                 "logo": "ètvumbria",
                 "name": "èTV Umbria",
                 "type": "hls",
-                "url": "https://live.ipstream.it/etvumbria/etvumbria.stream/playlist.m3u8"
+                "url": "https://5f11919dca3bd.streamlock.net/E-TvUmbria/_definst_/myStream/playlist.m3u8"
             },
             {
                 "sublcn": 9,

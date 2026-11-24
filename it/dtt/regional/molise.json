@@ -13,18 +13,14 @@
             "name": "Rete 8",
             "hd": true,
             "type": "hls",
-            "url": "https://edge.live-rete8.cdn.netrw.it/rete8/hls/live/rete8/master.m3u8?start=now-2h",
-            "fallback": {
-                "type": "hls",
-                "url": "https://edge.live-rete8.cdn.netrw.it/rete8/hls/live/rete8/master.m3u8"
-            }
+            "url": "https://edge.live-rete8.cdn.netrw.it/rete8/hls/live/rete8/master.m3u8"
         },
         {
             "lcn": 11,
             "logo": "telemolise",
             "name": "Telemolise",
             "type": "hls",
-            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
+            "url": "https://654be07bf207c.streamlock.net/Telemolise4k-NEW/_definst_/Telemolise4K/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "Telemolise.tvprofil_it"
@@ -59,7 +55,7 @@
                 "logo": "telemolise",
                 "name": "Telemolise",
                 "type": "hls",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4k-NEW/_definst_/Telemolise4K/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "Telemolise.tvprofil_it"
@@ -108,7 +104,7 @@
             "name": "Info Media News",
             "hd": true,
             "type": "hls",
-            "url": "https://64ede947d2367.streamlock.net/IMN/_definst_/IMN_source/playlist.m3u8"
+            "url": "https://infomedianews.zappr.stream/index.m3u8"
         },
         {
             "lcn": 16,

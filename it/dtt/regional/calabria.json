@@ -79,7 +79,7 @@
             "logo": "rticalabria",
             "name": "RTI",
             "type": "hls",
-            "url": "https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8"
+            "url": "https://stream.ets-sistemi.it:2020/hls/rticalabria/rticalabria.m3u8"
         },
         {
             "lcn": 15,
@@ -159,7 +159,7 @@
             "logo": "telea1",
             "name": "Tele A1",
             "type": "hls",
-            "url": "https://stream.ets-sistemi.it:8081/telea1-live/index.m3u8"
+            "url": "https://stream.ets-sistemi.it:2020/hls/telea1-live/telea1-live.m3u8"
         },
         {
             "lcn": 75,

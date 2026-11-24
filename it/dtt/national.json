@@ -238,7 +238,8 @@
             "logo": "k2.svg",
             "name": "K2",
             "hd": true,
-            "disabled": "not-working",
+            "type": "popup",
+            "url": "https://www.discoveryplus.com/channel/watch/f4a4e9af-8af5-54a1-96b8-281b59b00742/366a7d01-78f8-568b-a429-54dcc5f6a1d6?lfe=true&referringSite=dotcom",
             "epg": {
                 "source": "blue",
                 "id": "225"
@@ -249,7 +250,8 @@
             "logo": "frisbee",
             "name": "Frisbee",
             "hd": true,
-            "disabled": "not-working",
+            "type": "popup",
+            "url": "https://www.discoveryplus.com/channel/watch/0056c9f0-e41e-5adc-80c0-dba41beaa77b/95e29bf3-0593-5589-bf63-133456ed024c?lfe=true&referringSite=dotcom",
             "epg": {
                 "source": "blue",
                 "id": "189"
@@ -276,10 +278,7 @@
                 "source": "blue",
                 "id": "393"
             },
-            "geoblock": {
-                "type": "direct",
-                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/f12c0bdcdf421b230ce4e208880c05d8?profile=webtv-h264-aac-matroska&.mkv"
-            }
+            "geoblock": true
         },
         {
             "lcn": 52,
@@ -370,10 +369,10 @@
             "name": "Sportitalia",
             "hd": true,
             "type": "hls",
-            "url": "https://distribution.sportitalialive.it/sportitalia/sihd_abr/playlist.m3u8",
-            "geoblock": {
+            "url": "https://amg01370-italiansportcom-sportitalia-rakuten-3hmdb.amagi.tv/hls/amagi_hls_data_rakutenAA-sportitalia-rakuten/CDN/master.m3u8",
+            "fallback": {
                 "type": "hls",
-                "url": "https://edge-004.streamup.eu/sportitalia/sihd_abr/playlist.m3u8"
+                "url": "https://distribution.sportitalialive.it/sportitalia/sihd_abr2/playlist.m3u8"
             },
             "epg": {
                 "source": "blue",
@@ -420,8 +419,8 @@
         },
         {
             "lcn": 61,
-            "logo": "il61.svg",
-            "name": "il61",
+            "logo": "clubtv.svg",
+            "name": "Club TV",
             "type": "hls",
             "url": "https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8",
             "epg": {
@@ -459,6 +458,7 @@
             "hd": true,
             "type": "hls",
             "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
+            "geoblock": true,
             "epg": {
                 "source": "blue",
                 "id": "1386"
@@ -662,10 +662,7 @@
             "type": "hls",
             "url": "https://liveac915ha.streamcloud.it/channel01/playlist.m3u8",
             "adult": "night",
-            "geoblock": {
-                "type": "direct",
-                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/cf4fdc671d03be669278b0e95423c168?profile=webtv-h264-aac-matroska&.mkv"
-            }
+            "geoblock": true
         },
         {
             "lcn": 122,
@@ -713,23 +710,13 @@
             }]
         },
         {
-            "lcn": 123,
-            "logo": "italiachannel",
-            "name": "Italia Channel",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/3bcd74022a27fb47aecb4296b36b6e3a?profile=webtv-h264-aac-matroska&.mkv"
-        },
-        {
             "lcn": 124,
             "logo": "arteitalia124",
             "name": "Arte Italia 124",
             "type": "hls",
             "url": "https://liveac915ha.streamcloud.it/channel02/playlist.m3u8",
             "adult": "night",
-            "geoblock": {
-                "type": "direct",
-                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/87ca4bf0b97a37d7a9810938203ef1c5?profile=webtv-h264-aac-matroska&.mkv"
-            }
+            "geoblock": true
         },
         {
             "lcn": 125,
@@ -738,10 +725,7 @@
             "type": "hls",
             "url": "https://liveac915ha.streamcloud.it/channel03/playlist.m3u8",
             "adult": "night",
-            "geoblock": {
-                "type": "direct",
-                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/a250b649a11e4f356f0efa92fb4e8f67?profile=webtv-h264-aac-matroska&.mkv"
-            }
+            "geoblock": true
         },
         {
             "lcn": 126,
@@ -750,10 +734,7 @@
             "type": "hls",
             "url": "https://liveac915ha.streamcloud.it/channel04/playlist.m3u8",
             "adult": "night",
-            "geoblock": {
-                "type": "direct",
-                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/b30679e896867f490f082fa5b51039ae?profile=webtv-h264-aac-matroska&.mkv"
-            }
+            "geoblock": true
         },
         {
             "lcn": 127,
@@ -762,42 +743,7 @@
             "type": "hls",
             "url": "https://liveac915ha.streamcloud.it/channel05/playlist.m3u8",
             "adult": "night",
-            "geoblock": {
-                "type": "direct",
-                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/2c0d3a78b43c84c01cad26439a3a00a9?profile=webtv-h264-aac-matroska&.mkv"
-            }
-        },
-        {
-            "lcn": 128,
-            "logo": "goldtvitalia",
-            "name": "Gold TV Italia",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/c484b0a7cb02bc85fba45056cdf19702?profile=webtv-h264-aac-matroska&.mkv",
-            "adult": "night"
-        },
-        {
-            "lcn": 129,
-            "logo": "la4italia",
-            "name": "La4 Italia",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/2922a574fcbf0341c64baa1f5c8d48a2?profile=webtv-h264-aac-matroska&.mkv",
-            "adult": "night"
-        },
-        {
-            "lcn": 130,
-            "logo": "goldinvest",
-            "name": "Gold Invest",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/e98e4cff3f38fa1d99b482c15a84e4d1?profile=webtv-h264-aac-matroska&.mkv",
-            "adult": "night"
-        },
-        {
-            "lcn": 131,
-            "logo": "reteitalia.svg",
-            "name": "Rete Italia",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/c0a8deb0e39a4ef694cc85f0fb04de81?profile=webtv-h264-aac-matroska&.mkv",
-            "adult": "night"
+            "geoblock": true
         },
         {
             "lcn": 132,
@@ -927,10 +873,7 @@
                 "type": "hls",
                 "url": "https://liveac915ha.streamcloud.it/channel06/playlist.m3u8",
                 "adult": "night",
-                "geoblock": {
-                    "type": "direct",
-                    "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/3dccc0a8720fa59273b149671f6014d1?profile=webtv-h264-aac-matroska&.mkv"
-                }
+                "geoblock": true
             },
             {
                 "lcn": 135,
@@ -939,10 +882,7 @@
                 "type": "hls",
                 "url": "https://liveac915ha.streamcloud.it/channel07/playlist.m3u8",
                 "adult": "night",
-                "geoblock": {
-                    "type": "direct",
-                    "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/edf5d8fbe7d989099b9dc59de6ca3b39?profile=webtv-h264-aac-matroska&.mkv"
-                }
+                "geoblock": true
             },
         {
             "lcn": 136,
@@ -951,13 +891,6 @@
             "type": "hls",
             "url": "https://liveac915ha.streamcloud.it/channel08/playlist.m3u8",
             "geoblock": true
-        },
-        {
-            "lcn": 137,
-            "logo": "canale137",
-            "name": "Canale 137",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/8e39172542a9bb57d7eee3924060d945?profile=webtv-h264-aac-matroska&.mkv"
         },
         {
             "lcn": 138,
@@ -976,21 +909,6 @@
             "name": "Deluxe 139",
             "type": "hls",
             "url": "https://59d7d6f47d7fc.streamlock.net/pierstyle/pierstyle/playlist.m3u8"
-        },
-        {
-            "lcn": 140,
-            "logo": "starmarket",
-            "name": "StarMarket",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/feed53fc947417741f8670e5524f7931?profile=webtv-h264-aac-matroska&.mkv"
-        },
-        {
-            "lcn": 144,
-            "logo": "canale144",
-            "name": "Canale 144",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/c3a10e997d21eabf44f64b15dca0181d?profile=webtv-h264-aac-matroska&.mkv",
-            "adult": "night"
         },
         {
             "lcn": 145,
@@ -1097,14 +1015,6 @@
             "hd": true,
             "type": "hls",
             "url": "https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8"
-        },
-        {
-            "lcn": 162,
-            "logo": "162",
-            "name": "Canale 162",
-            "type": "direct",
-            "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/4b666a1616f403001c08f42f158d1e71?profile=webtv-h264-aac-matroska&.mkv",
-            "adult": "night"
         },
         {
             "lcn": 163,
@@ -1682,7 +1592,7 @@
             "logo": "genius240",
             "name": "Genius 240",
             "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/canale4/canale4/playlist.m3u8"
+            "url": "https://webstream.multistream.it/memfs/343081ea-7e12-4e1e-82f7-b9add9d786b3.m3u8"
         },
         {
             "lcn": 241,
@@ -2649,43 +2559,6 @@
             "adult": true
         },
         {
-            "lcn": 402,
-            "logo": "myplustv",
-            "name": "My Plus TV",
-            "hbbtvmosaic": true,
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "plustvmotori",
-                "name": "Plus TV Motori",
-                "hd": true,
-                "type": "hls",
-                "url": "https://6zklxkbbdw9b-hls-live.mariatvcdn.it/msmotor/2f759512164fc6fe4acbed6a5648993a.sdp/playlist.m3u8"
-            },
-            {
-                "sublcn": 2,
-                "logo": "plustvsport",
-                "name": "Plus TV Sport",
-                "hd": true,
-                "type": "hls",
-                "url": "https://jr7yvkmwda4v-hls-live.mariatvcdn.it/liveu/9aa7fdc4068e56587206b298b423cb82.sdp/playlist.m3u8"
-            },
-            {
-                "sublcn": 3,
-                "logo": "pluscinema",
-                "name": "Plus Cinema",
-                "hd": true,
-                "type": "hls",
-                "url": "https://j78dpbnelq5r-hls-live.mariatvcdn.it/plus/50059bd08562eba8f09669ae8d37d28e.sdp/playlist.m3u8"
-            },
-            {
-                "sublcn": 4,
-                "logo": "fighterslife",
-                "name": "Fighters Life TV",
-                "type": "hls",
-                "url": "https://live.fighterslife.tv/hls/test.m3u8"
-            }]
-        },
-        {
             "lcn": 403,
             "logo": "nexumchannel",
             "name": "Nexum Channel",
@@ -2732,8 +2605,8 @@
             "logo": "automoto.svg",
             "name": "Automoto",
             "hd": true,
-            "type": "hls",
-            "url": "https://3f70a96a11dd4da88ee87c52fdd0521c.msvdn.net/live/S75749031/EYqrcmlFWlJD/playlist.m3u8"
+            "type": "iframe",
+            "url": "zappr://dailymotion/k5fc5KwSL8Te96Ejvpa"
         },
         {
             "lcn": 550,

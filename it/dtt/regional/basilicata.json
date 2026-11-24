@@ -289,7 +289,7 @@
                 "logo": "telemolise",
                 "name": "Telemolise",
                 "type": "hls",
-                "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
+                "url": "https://654be07bf207c.streamlock.net/Telemolise4k-NEW/_definst_/Telemolise4K/playlist.m3u8",
                 "epg": {
                     "source": "uvotv",
                     "id": "Telemolise.tvprofil_it"
@@ -316,7 +316,7 @@
             "logo": "telemolise",
             "name": "Telemolise",
             "type": "hls",
-            "url": "https://654be07bf207c.streamlock.net/Telemolise4K/Telemolise4K/playlist.m3u8",
+            "url": "https://654be07bf207c.streamlock.net/Telemolise4k-NEW/_definst_/Telemolise4K/playlist.m3u8",
             "epg": {
                 "source": "uvotv",
                 "id": "Telemolise.tvprofil_it"
@@ -341,7 +341,7 @@
             "logo": "radiocarina",
             "name": "Radio Carina TV",
             "type": "hls",
-            "url": "https://video.streamerr.co/hls/s42162f4e52/live.m3u8"
+            "url": "https://57068da1deb21.streamlock.net/radiocarina/radiocarina/playlist.m3u8"
         },
         {
             "lcn": 88,
@@ -359,10 +359,10 @@
         },
         {
             "lcn": 94,
-            "logo": "cittadellatv",
-            "name": "Cittadella TV",
+            "logo": "tarantotv",
+            "name": "Taranto TV",
             "type": "hls",
-            "url": "https://59d7d6f47d7fc.streamlock.net/radiocittadella/radiocittadella/playlist.m3u8"
+            "url": "https://cdn.livinlive.it/tarantotv/web/playlist.m3u8"
         },
         {
             "lcn": 95,

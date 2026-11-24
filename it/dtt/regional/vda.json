@@ -135,6 +135,7 @@
                 "hd": true,
                 "type": "hls",
                 "url": "https://srfzwei-proxy.zappr.stream/index.m3u8",
+                "disabled": "not-working",
                 "epg": {
                     "source": "blue",
                     "id": "401"

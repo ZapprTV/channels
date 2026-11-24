@@ -39,14 +39,6 @@
             "url": "https://router.xdevel.com/video1s975436-143/stream/playlist.m3u8"
         },
         {
-            "lcn": 13,
-            "logo": "trm",
-            "name": "TRM",
-            "type": "hls",
-            "url": "https://api.zappr.stream/trm.m3u8",
-            "cssfix": "stretch"
-        },
-        {
             "lcn": 14,
             "logo": "videoregionesicilia.svg",
             "name": "Video Regione",
@@ -1020,27 +1012,6 @@
             "url": "https://5f22d76e220e1.streamlock.net/vintageradiotv/vintageradiotv/playlist.m3u8"
         },
         {
-            "lcn": 77,
-            "logo": "ciaktelesud",
-            "name": "Ciak Telesud",
-            "type": "hls",
-            "url": "https://api.zappr.stream/ciaktelesud.m3u8"
-        },
-        {
-            "lcn": 78,
-            "logo": "telestar",
-            "name": "Telestar",
-            "type": "hls",
-            "url": "https://api.zappr.stream/telestar.m3u8"
-        },
-        {
-            "lcn": 79,
-            "logo": "tvatelenormanna.svg",
-            "name": "TVA Telenormanna",
-            "type": "hls",
-            "url": "https://api.zappr.stream/tvatelenormanna.m3u8"
-        },
-        {
             "lcn": 80,
             "logo": "rmktv",
             "name": "RMK TV",
@@ -1113,6 +1084,14 @@
             "name": "ADN24",
             "type": "hls",
             "url": "https://64b16f23efbee.streamlock.net/adn24tv/adn24tv/playlist.m3u8"
+        },
+        {
+            "lcn": 87,
+            "logo": "coretv",
+            "name": "Core TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://64b16f23efbee.streamlock.net/coretv/coretv/playlist.m3u8"
         },
         {
             "lcn": 88,
@@ -1454,14 +1433,6 @@
             "name": "TeleMistretta",
             "type": "hls",
             "url": "https://live.mariatvcdn.com/telemistretta/8fbcd205ada81b295ee6c211c3a80dde.sdp/playlist.m3u8"
-        },
-        {
-            "lcn": 93,
-            "logo": "videosicilia.svg",
-            "name": "Videosicilia",
-            "type": "hls",
-            "url": "https://api.zappr.stream/videosicilia.m3u8",
-            "cssfix": "stretch"
         },
         {
             "lcn": 94,
