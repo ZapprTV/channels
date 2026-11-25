@@ -1,0 +1,585 @@
+{
+    "$schema": "../../schema.json",
+    "name": "Lista ufficiale di Zappr - Canali nazionali",
+    "publisher": "Zappr",
+    "publisherLink": "https://github.com/ZapprTV",
+    "donationLink": "https://ko-fi.com/FrancescoRosi",
+    "icon": "https://zappr.stream/assets/icons/favicon.svg",
+    "epg": "https://epg.zappr.stream/it/dtt/national.json",
+    "channels": [
+        {
+            "lcn": 7,
+            "logo": "la7.svg",
+            "name": "LA7",
+            "hd": true,
+            "type": "dash",
+            "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7/DASH/Live.mpd",
+            "epg": {
+                "source": "blue",
+                "id": "237"
+            },
+            "manualRestart": {
+                "source": "la7",
+                "id": "la7"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "https://d1chghleocc9sm.cloudfront.net/Live.m3u8"
+            },
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "la7it.svg",
+                "name": "LA7 Eventi",
+                "type": "dash",
+                "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7FEED01/DASH/Live.mpd"
+            }]
+        },
+        {
+            "lcn": 8,
+            "logo": "tv8.svg",
+            "name": "TV8",
+            "hd": true,
+            "type": "dash",
+            "url": "https://wp5-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09318/stb-dash-fhd-avc/SV09318.mpd?clearkeyPlayer.audioLanguage=it",
+            "license": "clearkey",
+            "licensedetails": {
+                "3bf1cd65e85c4f6ab2f2ee9ac8403b9b": "9142f7e62d011a8793e9b15ed36d7b7f",
+                "f867332c642e3d7497970d55f0334c3b": "6111dda68d5eb9e29ef5fab147e31149"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "266"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "zappr://sky/7"
+            }
+        },
+        {
+            "lcn": 9,
+            "logo": "nove.svg",
+            "name": "NOVE",
+            "hd": true,
+            "type": "dash",
+            "url": "https://wp8-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09472/stb-dash-fhd-avc/SV09472.mpd",
+            "license": "clearkey",
+            "licensedetails": "e0e63271f18f3a8b84b0a5d5bbf4c685:40fe6c26be09e5678fb729a9ab69b336",
+            "epg": {
+                "source": "blue",
+                "id": "118"
+            },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "nove"
+            },
+            "fallback": {
+                "type": "iframe",
+                "url": "https://wbd.zappr.stream/nove"
+            }
+        },
+        {
+            "lcn": 26,
+            "logo": "cielo.svg",
+            "name": "Cielo",
+            "hd": true,
+            "type": "dash",
+            "url": "https://wp9-s-anp33343334-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09711/stb-dash-fhd-avc/SV09711.mpd?clearkeyPlayer.audioLanguage=it",
+            "license": "clearkey",
+            "licensedetails": {
+                "ceb42bc780dd48a986b2b286db9fdda3": "385693e7df7b07b6936f28e15e480b61",
+                "c77178eaf229361b82bff5390490167f": "7b30de467d675e615ff88bc9fb1f47d8"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "96"
+            },
+            "fallback": {
+                "type": "hls",
+                "url": "zappr://sky/2"
+            }
+        },
+        {
+            "lcn": 28,
+            "logo": "tv2000.svg",
+            "name": "TV2000",
+            "hd": true,
+            "type": "hls",
+            "url": "https://hls.live2.meride.tv/hls/live/2028947/pu934tjb/playlist.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "633"
+            }
+        },
+        {
+            "lcn": 29,
+            "logo": "la7cinema.svg",
+            "name": "LA7 Cinema",
+            "hd": true,
+            "type": "dash",
+            "url": "https://d15umi5iaezxgx.cloudfront.net/HBBTV/LA7D/DASH/Live.mpd",
+            "epg": {
+                "source": "blue",
+                "id": "239"
+            },
+            "manualRestart": {
+                "source": "la7",
+                "id": "la7cinema"
+            }
+        },
+        {
+            "lcn": 31,
+            "logo": "realtime.svg",
+            "name": "Real Time",
+            "hd": true,
+            "type": "dash",
+            "url": "https://wp3-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09319/stb-dash-fhd-avc/SV09319.mpd",
+            "license": "clearkey",
+            "licensedetails": {
+                "75453fa7322f4b8b81b285529b726e63": "ca79bd265be6ac7315555aa1bbea6afe",
+                "60eb8ddba7113915914b865662fecbdb": "8aca6eddd0a280f39ddc75372be2afd9"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "346"
+            },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "realtime"
+            },
+            "fallback": {
+                "type": "iframe",
+                "url": "https://wbd.zappr.stream/realtime"
+            }
+        },
+        {
+            "lcn": 32,
+            "logo": "qvc.svg",
+            "name": "QVC",
+            "type": "hls",
+            "url": "https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8",
+            "epg": {
+                "source": "superguidatv",
+                "id": "242"
+            }
+        },
+        {
+            "lcn": 33,
+            "logo": "foodnetwork.svg",
+            "name": "Food Network",
+            "hd": true,
+            "type": "dash",
+            "url": "https://wp7-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09716/stb-dash-fhd-avc/SV09716.mpd",
+            "license": "clearkey",
+            "licensedetails": "e43d248c30253fcfa685f39f5ef55d46:04a6997c575b4da1bac97d5aaa8b3c77",
+            "epg": {
+                "source": "blue",
+                "id": "1348"
+            },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "foodnetwork"
+            },
+            "fallback": {
+                "type": "iframe",
+                "url": "https://wbd.zappr.stream/foodnetwork"
+            }
+        },
+        {
+            "lcn": 36,
+            "logo": "rtl.svg",
+            "name": "RTL 102.5",
+            "hd": true,
+            "type": "hls",
+            "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "1489"
+            }
+        },
+        {
+            "lcn": 37,
+            "logo": "discovery.svg",
+            "name": "Discovery",
+            "hd": true,
+            "type": "iframe",
+            "url": "https://wbd.zappr.stream/discovery",
+            "epg": {
+                "source": "tivu",
+                "id": "294"
+            }
+        },
+        {
+            "lcn": 38,
+            "logo": "giallo.svg",
+            "name": "Giallo",
+            "hd": true,
+            "type": "dash",
+            "url": "https://wp6-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09717/stb-dash-fhd-avc/SV09717.mpd",
+            "license": "clearkey",
+            "licensedetails": {
+                "4b1d0a37600d45c993c6adac0347b937": "77c319eae6bc48b9ce3b72925ca03c95",
+                "0e4d0798030535ef8a79befcce66e6da": "76b084ba52e9fac968bdbbf6c0055a97"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "191"
+            },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "giallo"
+            },
+            "fallback": {
+                "type": "iframe",
+                "url": "https://wbd.zappr.stream/giallo"
+            }
+        },
+        {
+            "lcn": 41,
+            "logo": "k2.svg",
+            "name": "K2",
+            "hd": true,
+            "disabled": "not-working",
+            "epg": {
+                "source": "blue",
+                "id": "225"
+            }
+        },
+        {
+            "lcn": 44,
+            "logo": "frisbee",
+            "name": "Frisbee",
+            "hd": true,
+            "disabled": "not-working",
+            "epg": {
+                "source": "blue",
+                "id": "189"
+            }
+        },
+        {
+            "lcn": 47,
+            "logo": "super.svg",
+            "name": "Super!",
+            "type": "hls",
+            "url": "https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist_dvr.m3u8",
+            "epg": {
+                "source": "sky",
+                "id": "6460"
+            }
+        },
+        {
+            "lcn": 50,
+            "logo": "skytg24.svg",
+            "name": "Sky TG24",
+            "type": "hls",
+            "url": "zappr://sky/1",
+            "epg": {
+                "source": "blue",
+                "id": "393"
+            },
+            "geoblock": {
+                "type": "direct",
+                "url": "https://tvheadend-veneto1.zappr.stream/stream/channel/f12c0bdcdf421b230ce4e208880c05d8?profile=webtv-h264-aac-matroska&.mkv"
+            }
+        },
+        {
+            "lcn": 52,
+            "logo": "dmax.svg",
+            "name": "DMAX",
+            "hd": true,
+            "type": "dash",
+            "url": "https://wp8-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09713/stb-dash-fhd-avc/SV09713.mpd",
+            "license": "clearkey",
+            "licensedetails": {
+                "3b465d3a53b34fac81e251630e9ad884": "adc4f9d5df8902fd02bb5faab013e441",
+                "8ba07052b5753f2d89b28cf0fc80b3be": "49cb3531f6e693d759eb28c4e5524ca5"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "137"
+            },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "dmax"
+            },
+            "fallback": {
+                "type": "iframe",
+                "url": "https://wbd.zappr.stream/dmax"
+            }
+        },
+        {
+            "lcn": 53,
+            "logo": "casaitalia53.svg",
+            "name": "Casa Italia 53",
+            "hd": true,
+            "type": "hls",
+            "url": "https://liveac915ha.streamcloud.it/channel09/playlist.m3u8",
+            "geoblock": {
+                "type": "iframe",
+                "url": "https://canaleitalia.streamcloud.it/embed/live/e701400d-2c46-4cec-8deb-bb6f7b8a7401"
+            }
+        },
+        {
+            "lcn": 56,
+            "logo": "hgtv.svg",
+            "name": "HGTV - Home & Garden",
+            "hd": true,
+            "type": "dash",
+            "url": "https://wp3-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09718/stb-dash-fhd-avc/SV09718.mpd",
+            "license": "clearkey",
+            "licensedetails": {
+                "43c2773288314525ad6841356e9a5a21": "3b771dcd654e7b9f3bb62a7e24f6b733",
+                "79f9fbec515b34d084bf6052052450bb": "bdd07074aa17ab44aad8ae57f9e5d1dc"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "1646"
+            },
+            "manualRestart": {
+                "source": "wbd",
+                "id": "hgtv"
+            },
+            "fallback": {
+                "type": "iframe",
+                "url": "https://wbd.zappr.stream/hgtv"
+            }
+        },
+        {
+            "lcn": 59,
+            "logo": "discoveryturbo.svg",
+            "name": "Discovery Turbo",
+            "hd": true,
+            "type": "dash",
+            "url": "https://wp7-s-anp31323132-live-ch-prod.prod.cdn.dmdsdp.com/live/disk1/SV09723/stb-dash-fhd-avc/SV09723.mpd",
+            "license": "clearkey",
+            "licensedetails": {
+                "36460e92425142c6a6475bf26f64d5a6": "75de59e293344edd37ae6c751b4510e7",
+                "8ae33e0dae5f3acc829fe836c00f742c": "012f880eac652b563637b4c96989fd84"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "1384"
+            },
+            "fallback": {
+                "type": "iframe",
+                "url": "https://wbd.zappr.stream/turbo"
+            }
+        },
+        {
+            "lcn": 60,
+            "logo": "sportitalia.svg",
+            "name": "Sportitalia",
+            "hd": true,
+            "type": "hls",
+            "url": "https://distribution.sportitalialive.it/sportitalia/sihd_abr/playlist.m3u8",
+            "geoblock": {
+                "type": "hls",
+                "url": "https://edge-004.streamup.eu/sportitalia/sihd_abr/playlist.m3u8"
+            },
+            "epg": {
+                "source": "blue",
+                "id": "1387"
+            },
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "sisolocalcio.svg",
+                "name": "SI SoloCalcio",
+                "hd": true,
+                "type": "hls",
+                "url": "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
+                "epg": {
+                    "source": "blue",
+                    "id": "2049"
+                }
+            },
+            {
+                "sublcn": 2,
+                "logo": "primaveratv",
+                "name": "Primavera TV",
+                "hd": true,
+                "type": "hls",
+                "url": "https://distribution.sportitalialive.it/sportitalia/silive24_abr/playlist.m3u8",
+                "geoblock": true
+            },
+            {
+                "sublcn": 3,
+                "logo": "sslazio.svg",
+                "name": "Lazio Style Channel",
+                "hd": true,
+                "type": "hls",
+                "url": "https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8",
+                "geoblock": true
+            },
+            {
+                "sublcn": 4,
+                "logo": "sportoutdoortv",
+                "name": "SportOutdoor.tv",
+                "hd": true,
+                "type": "hls",
+                "url": "https://5a1178b42cc03.streamlock.net/sportoutdoorstream/sportoutdoorstream/playlist.m3u8"
+            }]
+        },
+        {
+            "lcn": 61,
+            "logo": "il61.svg",
+            "name": "il61",
+            "type": "hls",
+            "url": "https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8",
+            "epg": {
+                "source": "superguidatv",
+                "id": "1284191387"
+            }
+        },
+        {
+            "lcn": 62,
+            "logo": "donnatv",
+            "name": "Donna TV",
+            "type": "hls",
+            "url": "https://5f11919dca3bd.streamlock.net/donnatv/_definst_/donnatv/playlist.m3u8",
+            "epg": {
+                "source": "superguidatv",
+                "id": "464"
+            }
+        },
+        {
+            "lcn": 63,
+            "logo": "ilsole24oretv",
+            "name": "Il Sole 24 Ore TV",
+            "hd": true,
+            "type": "hls",
+            "url": "https://ilsole24ore-radiovisual.akamaized.net/hls/live/2035302/persidera/master.m3u8",
+            "fallback": {
+                "type": "hls",
+                "url": "https://760869f771b04ca8a1e4daa89dd6da3e.msvdn.net/live/S88650405/33lZG4owunfW/playlist.m3u8"
+            }
+        },
+        {
+            "lcn": 64,
+            "logo": "supertennis.svg",
+            "name": "SuperTennis",
+            "hd": true,
+            "type": "hls",
+            "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "1386"
+            },
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "supertennisplus.svg",
+                "name": "SuperTennis Plus - Feed 1",
+                "hd": true,
+                "type": "dash",
+                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel1/manifest.mpd",
+                "feed": true
+            },
+            {
+                "sublcn": 2,
+                "logo": "supertennisplus.svg",
+                "name": "SuperTennis Plus - Feed 2",
+                "hd": true,
+                "type": "dash",
+                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel2/manifest.mpd",
+                "feed": true
+            },
+            {
+                "sublcn": 3,
+                "logo": "supertennisplus.svg",
+                "name": "SuperTennis Plus - Feed 3",
+                "hd": true,
+                "type": "dash",
+                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel3/manifest.mpd",
+                "feed": true
+            },
+            {
+                "sublcn": 4,
+                "logo": "supertennisplus.svg",
+                "name": "SuperTennis Plus - Feed 4",
+                "hd": true,
+                "type": "dash",
+                "url": "https://421b2081187a40368f24e4fb496bfc26.msvdn.net/channel4/manifest.mpd",
+                "feed": true
+            }]
+        },
+        {
+            "lcn": 65,
+            "logo": "almatv.svg",
+            "name": "Alma TV",
+            "type": "hls",
+            "url": "https://5f11919dca3bd.streamlock.net/almatv/_definst_/almatv/playlist.m3u8",
+            "epg": {
+                "source": "blue",
+                "id": "16"
+            }
+        },
+        {
+            "lcn": 68,
+            "logo": "bomchannel",
+            "name": "BOM Channel",
+            "type": "hls",
+            "url": "https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8",
+            "hbbtv": [{
+                "sublcn": 1,
+                "logo": "lagrandeitalia",
+                "name": "La Grande Italia",
+                "type": "hls",
+                "url": "https://64b16f23efbee.streamlock.net/grandeitaliatv/grandeitaliatv/playlist.m3u8"
+            },
+            {
+                "sublcn": 3,
+                "logo": "gschannel",
+                "name": "GS Channel",
+                "subtitle": "/ TMC",
+                "hd": true,
+                "type": "hls",
+                "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8"
+            },
+            {
+                "categorySeparator": "Live HD TV"
+            },
+            {
+                "sublcn": 4,
+                "logo": "italianhorsetelevision",
+                "name": "Italian Horse TV",
+                "type": "hls",
+                "url": "https://horsetv.aswifi.it/horsetv/live/index.m3u8"
+            },
+            {
+                "sublcn": 5,
+                "logo": "salute24",
+                "name": "Salute 24",
+                "type": "hls",
+                "url": "https://salute24.aswifi.it/salute24/live/index.m3u8"
+            },
+            {
+                "categorySeparator": "News"
+            },
+            {
+                "sublcn": 6,
+                "logo": "eurotv",
+                "name": "Euro TV",
+                "type": "hls",
+                "url": "https://5db313b643fd8.streamlock.net/eurotv/eurotv/playlist.m3u8"
+            },
+            {
+                "sublcn": 7,
+                "logo": "zerounotvnews",
+                "name": "Zerouno TV News",
+                "type": "hls",
+                "url": "https://5f22d76e220e1.streamlock.net/01news/01news/playlist.m3u8"
+            },
+            {
+                "sublcn": 8,
+                "logo": "xcapital",
+                "name": "XCapital",
+                "type": "hls",
+                "url": "https://xcapital.aswifi.it/xcapital/live/index.m3u8"
+            },
+            {
+                "categorySeparator": "Family"
+            },
+            {
+                "sublcn": 9,
+                "logo": "supersix",
+                "name": "SuperSix",
+                "type": "hls",
+      
