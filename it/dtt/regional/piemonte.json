@@ -144,10 +144,13 @@
             "type": "hls",
             "url": "https://telelombardia.video/video/viewlivestreaming?rel=2497&cntr=0",
             "api": "vercel",
-            "geoblock": true,
             "epg": {
                 "source": "blue",
                 "id": "1667"
+            },
+            "geoblock": {
+                "type": "hls",
+                "url": "https://9073d16bd4474fe1ab6625d551a686e9.msvdn.net/live/S30879279/dP3fXYZZlNUe/playlist.m3u8"
             }
         },
         {

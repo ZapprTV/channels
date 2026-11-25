@@ -407,14 +407,6 @@
                 "type": "hls",
                 "url": "https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8",
                 "geoblock": true
-            },
-            {
-                "sublcn": 4,
-                "logo": "sportoutdoortv",
-                "name": "SportOutdoor.tv",
-                "hd": true,
-                "type": "hls",
-                "url": "https://5a1178b42cc03.streamlock.net/sportoutdoorstream/sportoutdoorstream/playlist.m3u8"
             }]
         },
         {
@@ -675,13 +667,6 @@
                 "id": "canale122"
             },
             "hbbtv": [{
-                "sublcn": 1,
-                "logo": "cusanonews7",
-                "name": "Cusano News 7",
-                "type": "hls",
-                "url": "https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8"
-            },
-            {
                 "sublcn": 2,
                 "logo": "radiocusanocampus",
                 "name": "Radio Cusano Campus",
@@ -1199,13 +1184,6 @@
             }
         ]},
         {
-            "lcn": 223,
-            "logo": "italiaseratv",
-            "name": "Italia Sera TV",
-            "type": "hls",
-            "url": "https://5f22d76e220e1.streamlock.net/canale10/canale10/playlist.m3u8"
-        },
-        {
             "lcn": 226,
             "logo": "welcomein",
             "name": "Welcome In",
@@ -1320,51 +1298,6 @@
             "hd": true,
             "type": "hls",
             "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist.m3u8"
-        },
-        {
-            "lcn": 234,
-            "logo": "cusanonews7",
-            "name": "Cusano News 7",
-            "type": "hls",
-            "url": "https://router.xdevel.com/video1s975363-1596/stream/playlist.m3u8",
-            "hbbtv": [{
-                "sublcn": 1,
-                "logo": "canale122",
-                "name": "Canale 122",
-                "type": "hls",
-                "url": "https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8",
-                "epg": {
-                    "source": "cusano",
-                    "id": "canale122"
-                }
-            },
-            {
-                "sublcn": 2,
-                "logo": "radiocusanocampus",
-                "name": "Radio Cusano Campus",
-                "hd": true,
-                "type": "hls",
-                "url": "https://router.xdevel.com/video3s975363-2380/stream/playlist.m3u8",
-                "epg": {
-                    "source": "cusano",
-                    "id": "radiocusanocampus"
-                }
-            },
-            {
-                "sublcn": 3,
-                "logo": "manàmanàsport",
-                "name": "Manà Manà Sport",
-                "type": "hls",
-                "url": "https://router.xdevel.com/video2s975363-2370/stream/playlist.m3u8",
-                "feed": true
-            },
-            {
-                "sublcn": 4,
-                "logo": "radiolaziale.svg",
-                "name": "Radio Laziale",
-                "type": "hls",
-                "url": "https://router.xdevel.com/video5s975363-2398/stream/playlist.m3u8"
-            }]
         },
         {
             "lcn": 235,
@@ -2250,6 +2183,14 @@
                 "source": "sky",
                 "id": "10616"
             }
+        },
+        {
+            "lcn": 259,
+            "logo": "bike",
+            "name": "Bike Channel",
+            "hd": true,
+            "type": "hls",
+            "url": "https://018e1901ad234f04ae16388eda6778e5.msvdn.net/live/S94763187/reFXDHQfBndw/playlist.m3u8"
         },
         {
             "lcn": 260,

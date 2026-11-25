@@ -9,7 +9,7 @@
     "channels": [
         {
             "lcn": 10,
-            "logo": "telelombardia.svg",
+            "logo": "telelombardia",
             "name": "Telelombardia",
             "hd": true,
             "type": "hls",
@@ -19,11 +19,14 @@
                 "source": "blue",
                 "id": "592"
             },
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://cb0b3a0b3ff844c895cb6b3b3857d250.msvdn.net/live/S63717959/byRasW9zKG7M/playlist.m3u8"
+            }
         },
         {
             "lcn": 11,
-            "logo": "antennatre.svg",
+            "logo": "antenna3lombardia",
             "name": "Antenna 3",
             "hd": true,
             "type": "hls",
@@ -33,7 +36,10 @@
                 "source": "blue",
                 "id": "1380"
             },
-            "geoblock": true
+            "geoblock": {
+                "type": "hls",
+                "url": "https://69d13b8719f84a4ab08d78fb55835c83.msvdn.net/live/S18560563/efjhfc0brANp/playlist.m3u8"
+            }
         },
         {
             "lcn": 12,
@@ -43,10 +49,13 @@
             "type": "hls",
             "url": "https://telelombardia.video/video/viewlivestreaming?rel=2497&cntr=0",
             "api": "vercel",
-            "geoblock": true,
             "epg": {
                 "source": "blue",
                 "id": "1667"
+            },
+            "geoblock": {
+                "type": "hls",
+                "url": "https://9073d16bd4474fe1ab6625d551a686e9.msvdn.net/live/S30879279/dP3fXYZZlNUe/playlist.m3u8"
             }
         },
         {
