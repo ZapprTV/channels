@@ -12,7 +12,7 @@
             "logo": "telequattro.svg",
             "name": "Telequattro",
             "type": "hls",
-            "url": "https://59d7d6f47d7fc.streamlock.net/telequattro/telequattro/playlist.m3u8",
+            "url": "https://2f5be087c3e74b37b709b3fed6fccc22.msvdn.net/live/S89083149/6hqAwrC6f1bj/playlist.m3u8",
             "epg": {
                 "source": "tdbnet",
                 "id": "T4"
@@ -210,14 +210,15 @@
             "logo": "tuachannel",
             "name": "TUA Channel",
             "type": "hls",
-            "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/playlist.m3u8"
+            "url": "https://stream10.xdevel.com/video27s975955-2651/stream/playlist.m3u8",
+            "cssfix": "squashed-height"
         },
         {
             "lcn": 83,
             "logo": "promovideotv",
             "name": "PromovideoTV",
             "type": "hls",
-            "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"
+            "url": "https://stream10.xdevel.com/video29s975955-2653/stream/playlist.m3u8"
         },
         {
             "lcn": 87,

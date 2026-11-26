@@ -453,7 +453,8 @@
             "logo": "tuachannel",
             "name": "TUA Channel",
             "type": "hls",
-            "url": "https://media2021.rtvweb.com/promovideo_web/tuachannel/playlist.m3u8"
+            "url": "https://stream10.xdevel.com/video27s975955-2651/stream/playlist.m3u8",
+            "cssfix": "squashed-height"
         },
         {
             "lcn": 112,

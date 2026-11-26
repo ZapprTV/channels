@@ -104,7 +104,7 @@
                 "logo": "promovideotv",
                 "name": "PromovideoTV",
                 "type": "hls",
-                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"
+                "url": "https://stream10.xdevel.com/video29s975955-2653/stream/playlist.m3u8"
             },
             {
                 "sublcn": 5,
@@ -158,7 +158,7 @@
                 "name": "GS Channel",
                 "hd": true,
                 "type": "hls",
-                "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8"
+                "url": "https://rst1.saiuzwebnetwork.it:2020/hls/tvgschannel/tvgschannel.m3u8"
             },
             {
                 "sublcn": 13,
@@ -445,7 +445,7 @@
                 "logo": "promovideotv",
                 "name": "PromovideoTV",
                 "type": "hls",
-                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"
+                "url": "https://stream10.xdevel.com/video29s975955-2653/stream/playlist.m3u8"
             },
             {
                 "sublcn": 5,
@@ -499,7 +499,7 @@
                 "name": "GS Channel",
                 "hd": true,
                 "type": "hls",
-                "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8"
+                "url": "https://rst1.saiuzwebnetwork.it:2020/hls/tvgschannel/tvgschannel.m3u8"
             },
             {
                 "sublcn": 13,
@@ -799,7 +799,7 @@
                 "name": "GS Channel",
                 "hd": true,
                 "type": "hls",
-                "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8"
+                "url": "https://rst1.saiuzwebnetwork.it:2020/hls/tvgschannel/tvgschannel.m3u8"
             },
             {
                 "sublcn": 12,
@@ -1053,13 +1053,13 @@
             "name": "GS Channel",
             "hd": true,
             "type": "hls",
-            "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8",
+            "url": "https://rst1.saiuzwebnetwork.it:2020/hls/tvgschannel/tvgschannel.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "radiogschannel",
                 "name": "Radio GS Channel",
                 "type": "hls",
-                "url": "https://rst.saiuzwebnetwork.it:8081/retereggioradio/index.m3u8"
+                "url": "https://rst1.saiuzwebnetwork.it:2020/hls/radiogschannel/radiogschannel.m3u8"
             }]
         },
         {
@@ -1122,7 +1122,7 @@
                 "logo": "promovideotv",
                 "name": "PromovideoTV",
                 "type": "hls",
-                "url": "https://media2021.rtvweb.com/promovideo_web/promovideo/playlist.m3u8"
+                "url": "https://stream10.xdevel.com/video29s975955-2653/stream/playlist.m3u8"
             },
             {
                 "sublcn": 5,
@@ -1176,7 +1176,7 @@
                 "name": "GS Channel",
                 "hd": true,
                 "type": "hls",
-                "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8"
+                "url": "https://rst1.saiuzwebnetwork.it:2020/hls/tvgschannel/tvgschannel.m3u8"
             },
             {
                 "sublcn": 13,

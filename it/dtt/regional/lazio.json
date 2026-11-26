@@ -299,6 +299,17 @@
             "url": "https://ch21extra-cdn.encoders.immergo.tv/master.m3u8"
         },
         {
+            "lcn": 73,
+            "logo": "radiobruno",
+            "name": "Radio Bruno",
+            "type": "hls",
+            "url": "https://router.xdevel.com/video0s975758-473/stream/playlist.m3u8",
+            "epg": {
+                "source": "uvotv",
+                "id": "Radio BRUNO.tvprofile_it"
+            }
+        },
+        {
             "lcn": 74,
             "logo": "teleregione74",
             "name": "Teleregione",
@@ -345,13 +356,13 @@
             "subtitle": "(Made in Calabria)",
             "hd": true,
             "type": "hls",
-            "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8",
+            "url": "https://rst1.saiuzwebnetwork.it:2020/hls/tvgschannel/tvgschannel.m3u8",
             "hbbtv": [{
                 "sublcn": 1,
                 "logo": "radiogschannel",
                 "name": "Radio GS Channel",
                 "type": "hls",
-                "url": "https://rst.saiuzwebnetwork.it:8081/retereggioradio/index.m3u8"
+                "url": "https://rst1.saiuzwebnetwork.it:2020/hls/radiogschannel/radiogschannel.m3u8"
             }]
         },
         {
@@ -697,7 +708,7 @@
                 "logo": "radiogschannel",
                 "name": "Radio GS Channel",
                 "type": "hls",
-                "url": "https://rst.saiuzwebnetwork.it:8081/retereggioradio/index.m3u8"
+                "url": "https://rst1.saiuzwebnetwork.it:2020/hls/radiogschannel/radiogschannel.m3u8"
             },
             {
                 "categorySeparator": "TV"
@@ -753,7 +764,7 @@
                 "subtitle": "(Made in Calabria)",
                 "hd": true,
                 "type": "hls",
-                "url": "https://rst.saiuzwebnetwork.it:8081/retereggio/index.m3u8"
+                "url": "https://rst1.saiuzwebnetwork.it:2020/hls/tvgschannel/tvgschannel.m3u8"
             }]
         },
         {
@@ -803,6 +814,13 @@
                 "type": "hls",
                 "url": "https://5a1178b42cc03.streamlock.net/607080stream/607080stream/playlist.m3u8"
             }]
+        },
+        {
+            "lcn": 89,
+            "logo": "longevitv",
+            "name": "LongevìTV",
+            "type": "hls",
+            "url": "https://stream10.xdevel.com/video16s975955-2172/stream/playlist.m3u8"
         },
         {
             "lcn": 91,
